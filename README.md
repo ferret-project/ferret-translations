@@ -1,5 +1,7 @@
 # Ferret translations
 
+[![Translation status](https://hosted.weblate.org/widget/ferret/svg-badge.svg)](https://hosted.weblate.org/engage/ferret/)
+
 Translations of [Ferret](https://github.com/ferret-project/ferret), the self-hosted home inventory, made by the people
 who use it.
 
@@ -19,10 +21,15 @@ until someone translates it, it shows in English.
 
 ## Translating
 
-Pick the language in Ferret's account menu (Language) to see your work in context.
+**On Weblate (easiest):** [hosted.weblate.org/projects/ferret](https://hosted.weblate.org/projects/ferret/). Sign
+in, pick your language (or start a new one), and translate in the browser. No git, no files. Weblate commits your work
+here by itself, and it flags a broken placeholder or plural as you type.
 
 **On GitHub:** copy `locales/messages.pot` to `locales/<language>.po` for a new language, or edit an existing one,
-then open a pull request. Any PO editor works (Poedit, Lokalize, a text editor).
+then open a pull request. Any PO editor works (Poedit, Lokalize, a text editor). If the language is also being
+translated on Weblate, prefer Weblate, so two people don't edit the same file at once.
+
+Pick the language in Ferret's account menu (Language) to see your work in context.
 
 ### Rules for the text
 
