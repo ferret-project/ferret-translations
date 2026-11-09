@@ -1,0 +1,39 @@
+name: Check
+
+# Builds each language with Ferret's own tools: a translation whose placeholders, tags or plural syntax don't match
+# the English would be left out of Ferret (shown in English), so it's flagged here first.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-26.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: translations
+      - uses: actions/checkout@v7
+        with:
+          repository: ferret-project/ferret
+          path: ferret
+      - uses: pnpm/action-setup@v6
+        with:
+          package_json_file: ferret/package.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+      - run: pnpm install --frozen-lockfile --filter @ferret/web...
+        working-directory: ferret
+      - name: Check every language
+        working-directory: ferret
+        run: |
+          FERRET_TRANSLATIONS_DIR=../translations pnpm --filter @ferret/web translations prepare | tee check.log
+          if grep -q "left out" check.log; then
+            echo "::error::Some translations don't match the English (see above): keep {placeholders}, <0>tags</0> and plural keywords as they are."
+            exit 1
+          fi
