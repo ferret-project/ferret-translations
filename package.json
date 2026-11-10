@@ -1,0 +1,14 @@
+{
+  "name": "ferret-translations",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Translations of Ferret. Only tools/ needs these; the translations themselves are locales/*.po.",
+  "scripts": {
+    "draft": "node tools/machine-draft.mjs"
+  },
+  "devDependencies": {
+    "@lingui/message-utils": "6.12.0",
+    "pofile-ts": "4.0.3"
+  }
+}

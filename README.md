@@ -31,6 +31,13 @@ translated on Weblate, prefer Weblate, so two people don't edit the same file at
 
 Pick the language in Ferret's account menu (Language) to see your work in context.
 
+### Machine drafts
+
+A language can start from machine drafts: `tools/machine-draft.mjs` fills in what a language is missing with DeepL
+(`npm install`, then `DEEPL_API_KEY=… npm run draft -- pl`). Every draft is marked **Needs editing**, and Ferret leaves
+those out — they show in English — until a person checks the string on Weblate and saves it. Only draft a language
+someone is going to review.
+
 ### Rules for the text
 
 - **Keep the placeholders exactly as they are:** `{name}`, `{count}`, `{0}`. You can move them around in the
