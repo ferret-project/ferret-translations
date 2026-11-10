@@ -5,10 +5,9138 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 
+#: src/Import.tsx
+msgid " — the first {done} went in; see Recent imports to undo them."
+msgstr ""
+
+#: src/Offline.tsx
+msgid " — when there's signal"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid " · {count} inside"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid " · {number} of {count}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid " · {person} says it's back"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid " · {saved} done"
+msgstr ""
+
+#: src/History.tsx
+msgid " · {times} times"
+msgstr ""
+
+#: src/Collections.tsx
+msgid " · {wanted} wanted"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid " · <0>see the room photo</0>"
+msgstr ""
+
+#: src/Security.tsx
+msgid " · active {formatWhen}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid " · buy more before {date}"
+msgstr ""
+
+#: src/Server.tsx
+msgid " · checking now"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid " · Couldn't read it"
+msgstr ""
+
+#: src/Server.tsx
+msgid " · first {when}"
+msgstr ""
+
+#: src/Server.tsx
+msgid " · from {issuer}"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid " · keep at least {minQuantity}"
+msgstr ""
+
+#: src/Server.tsx
+msgid " · last asked {when}"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid " · looks like {preset}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid " · overdue"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid " · Reading…"
+msgstr ""
+
+#: src/Security.tsx
+msgid " · synced (iCloud, Google…)"
+msgstr ""
+
+#: src/Security.tsx
+msgid " · this device only"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid " · Today"
+msgstr ""
+
+#: src/App.tsx
+msgid " · usually {amount}"
+msgstr ""
+
+#: src/Shares.tsx
+msgid " · with files"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid " · with its QR code"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid " ({unvalued} with no value)"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid " (and {hidden} that are probably software or services)"
+msgstr ""
+
+#: src/Setup.tsx
+msgid " (done)"
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid " (the server's — the household's owner can choose one)"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid " (ticked)"
+msgstr ""
+
+#: src/Collections.tsx
+msgid " Add templates under Categories & tags."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid " at {property}"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid " by {addedBy}"
+msgstr ""
+
+#: src/Stock.tsx
+msgid " by {by}"
+msgstr ""
+
+#: src/Report.tsx
+msgid " by {preparedBy}"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid " If it's on a plan, the plan ends now."
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid " If one is on a plan, the plan ends now."
+msgstr ""
+
+#: src/App.tsx
+msgid " in {name}"
+msgstr ""
+
+#: src/Server.tsx
+msgid " Make a new one if Ferret ever makes new keys (it says so in its log)."
+msgstr ""
+
+#: src/Overview.tsx
+msgid " of {total}"
+msgstr ""
+
+#: src/Gone.tsx
+msgid " on {formatDate}"
+msgstr ""
+
+#: src/App.tsx
+msgid " tagged {tag}"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid " These households, which only you are in, are deleted with it:"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid " This month's AI actions and lookups start again on {toLocaleDateString}."
+msgstr ""
+
+#: src/History.tsx
+#: src/Overview.tsx
+msgid " via {label}"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "— <0>open {name}</0>"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "— not one of your things yet."
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "— one wide photo, or up to {MAX_PHOTOS} for a big room. Ferret lists what it sees for you to check; nothing is added until you say."
+msgstr ""
+
+#: src/Places.tsx
+msgid "— set it from the item's Edit."
+msgstr ""
+
+#: src/Stock.tsx
+msgid ", {step} at a time"
+msgstr ""
+
+#: src/Server.tsx
+msgid "· last {when}"
+msgstr ""
+
+#: src/Steps.tsx
+msgid "(current step)"
+msgstr ""
+
+#: src/Steps.tsx
+msgid "(done)"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "(not in this plan)"
+msgstr ""
+
+#. placeholder {0}: p.aiActions
+#: src/PlanUsage.tsx
+msgid "{0, plural, one {# AI action} other {# AI actions}}"
+msgstr ""
+
+#. placeholder {0}: p.barcodeLookups
+#: src/PlanUsage.tsx
+msgid "{0, plural, one {# barcode lookup} other {# barcode lookups}}"
+msgstr ""
+
+#. placeholder {0}: s.brands
+#: src/Server.tsx
+msgid "{0, plural, one {# brand checked} other {# brands checked}}"
+msgstr ""
+
+#. placeholder {0}: unused.length
+#: src/ImportCsv.tsx
+msgid "{0, plural, one {# column left out} other {# columns left out}}"
+msgstr ""
+
+#. placeholder {0}: -days
+#: src/Maintenance.tsx
+msgid "{0, plural, one {# day overdue} other {# days overdue}}"
+msgstr ""
+
+#. placeholder {0}: chosen.length
+#: src/ImportHomeAssistant.tsx
+msgid "{0, plural, one {# device} other {# devices}}"
+msgstr ""
+
+#. placeholder {0}: p.documents
+#: src/PlanUsage.tsx
+msgid "{0, plural, one {# document} other {# documents}}"
+msgstr ""
+
+#. placeholder {0}: lastOk.files ?? 0
+#. placeholder {0}: snap.files
+#: src/Server.tsx
+msgid "{0, plural, one {# file} other {# files}}"
+msgstr ""
+
+#. placeholder {0}: sorted.categorised
+#: src/ImportCsv.tsx
+msgid "{0, plural, one {# got a category from yours.} other {# got a category from yours.}}"
+msgstr ""
+
+#. placeholder {0}: places.data.unplacedItems
+#: src/Places.tsx
+msgid "{0, plural, one {# item isn't in any place yet} other {# items aren't in any place yet}}"
+msgstr ""
+
+#. placeholder {0}: g.items
+#. placeholder {0}: list.length
+#. placeholder {0}: snap.items
+#: src/Overview.tsx
+#: src/Report.tsx
+#: src/Server.tsx
+msgid "{0, plural, one {# item} other {# items}}"
+msgstr ""
+
+#. placeholder {0}: p.visits
+#: src/Providers.tsx
+msgid "{0, plural, one {# job} other {# jobs}}"
+msgstr ""
+
+#. placeholder {0}: labels.length
+#: src/Labels.tsx
+msgid "{0, plural, one {# label.} other {# labels.}}"
+msgstr ""
+
+#. placeholder {0}: labels.length
+#: src/Labels.tsx
+msgid "{0, plural, one {# label} other {# labels}}"
+msgstr ""
+
+#. placeholder {0}: sorted.skipped
+#: src/ImportCsv.tsx
+msgid "{0, plural, one {# line looks like a consumable or not worth a record, so it's unticked;} other {# lines look like consumables or not worth a record, so they're unticked;}}"
+msgstr ""
+
+#. placeholder {0}: lostOrStolen.length
+#: src/Gone.tsx
+msgid "{0, plural, one {# lost or stolen thing — the list an insurer asks for, with what happened and when.} other {# lost or stolen things — the list an insurer asks for, with what happened and when.}}"
+msgstr ""
+
+#. placeholder {0}: items.data.total
+#: src/App.tsx
+msgid "{0, plural, one {# match} other {# matches}}"
+msgstr ""
+
+#. placeholder {0}: Math.round(d / 30.4)
+#: src/Warranties.tsx
+msgid "{0, plural, one {# month} other {# months}}"
+msgstr ""
+
+#. placeholder {0}: r.categoriesCreated
+#: src/Import.tsx
+msgid "{0, plural, one {# new category} other {# new categories}}"
+msgstr ""
+
+#. placeholder {0}: r.placesCreated
+#: src/Import.tsx
+msgid "{0, plural, one {# new place} other {# new places}}"
+msgstr ""
+
+#. placeholder {0}: list.length
+#: src/Offline.tsx
+msgid "{0, plural, one {# photo saved} other {# photos saved}}"
+msgstr ""
+
+#. placeholder {0}: p.photos
+#. placeholder {0}: r.photos
+#: src/PlanUsage.tsx
+#: src/Report.tsx
+msgid "{0, plural, one {# photo} other {# photos}}"
+msgstr ""
+
+#. placeholder {0}: n.children.length
+#: src/Browse.tsx
+msgid "{0, plural, one {# place inside} other {# places inside}}"
+msgstr ""
+
+#. placeholder {0}: o.properties
+#: src/Overview.tsx
+msgid "{0, plural, one {# property} other {# properties}}"
+msgstr ""
+
+#. placeholder {0}: p.asks
+#: src/PlanUsage.tsx
+msgid "{0, plural, one {# question} other {# questions}}"
+msgstr ""
+
+#. placeholder {0}: s.recalls
+#: src/Server.tsx
+msgid "{0, plural, one {# recall kept} other {# recalls kept}}"
+msgstr ""
+
+#. placeholder {0}: r.documents
+#: src/Report.tsx
+msgid "{0, plural, one {# receipt/document} other {# receipts/documents}}"
+msgstr ""
+
+#. placeholder {0}: newRooms.length
+#. placeholder {0}: p.locations.length
+#: src/Browse.tsx
+#: src/ImportHomeAssistant.tsx
+msgid "{0, plural, one {# room} other {# rooms}}"
+msgstr ""
+
+#. placeholder {0}: rows.length
+#: src/ImportCsv.tsx
+msgid "{0, plural, one {# row} other {# rows}}"
+msgstr ""
+
+#. placeholder {0}: sheets.length
+#: src/Labels.tsx
+msgid "{0, plural, one {# sheet} other {# sheets}}"
+msgstr ""
+
+#. placeholder {0}: list.length
+#: src/MaintenanceCalendar.tsx
+msgid "{0, plural, one {# task} other {# tasks}}"
+msgstr ""
+
+#. placeholder {0}: r.updated
+#: src/Import.tsx
+msgid "{0, plural, one {# thing changed to match Home Assistant.} other {# things changed to match Home Assistant.}}"
+msgstr ""
+
+#. placeholder {0}: list.length
+#: src/AttentionBell.tsx
+msgid "{0, plural, one {# thing needs attention} other {# things need attention}}"
+msgstr ""
+
+#. placeholder {0}: b.items
+#. placeholder {0}: c.items
+#. placeholder {0}: props.items
+#: src/App.tsx
+#: src/Import.tsx
+#: src/PayOff.tsx
+#: src/Templates.tsx
+msgid "{0, plural, one {# thing} other {# things}}"
+msgstr ""
+
+#. placeholder {0}: undo.data.removed
+#: src/Import.tsx
+msgid "{0, plural, one {# thing} other {# things}} moved to <0>Recently deleted</0>."
+msgstr ""
+
+#. placeholder {0}: e.count
+#: src/Server.tsx
+msgid "{0, plural, one {# time} other {# times}}"
+msgstr ""
+
+#. placeholder {0}: months! / 12
+#: src/Suggestions.tsx
+msgid "{0, plural, one {# year} other {# years}}"
+msgstr ""
+
+#. placeholder {0}: n.fields.length
+#: src/Catalog.tsx
+msgid "{0, plural, one {+# field} other {+# fields}}"
+msgstr ""
+
+#. placeholder {0}: ticked.length
+#: src/RoomScan.tsx
+msgid "{0, plural, one {Add # thing} other {Add # things}}"
+msgstr ""
+
+#. placeholder {0}: c.count
+#: src/Shopping.tsx
+msgid "{0, plural, one {Add the Amazon one to your cart} other {Add the # from Amazon to your cart}}"
+msgstr ""
+
+#. placeholder {0}: scan.items.length
+#: src/RoomScan.tsx
+msgid "{0, plural, one {Added # thing from this scan} other {Added # things from this scan}}"
+msgstr ""
+
+#. placeholder {0}: bought.data
+#: src/Shopping.tsx
+msgid "{0, plural, one {Added to stock — # thing off the list.} other {Added to stock — # things off the list.}}"
+msgstr ""
+
+#. placeholder {0}: ticked.length
+#: src/Shopping.tsx
+msgid "{0, plural, one {Bought it} other {Bought these #}}"
+msgstr ""
+
+#. placeholder {0}: first.data!.checking ?? 0
+#: src/App.tsx
+msgid "{0, plural, one {Checking one more possible match…} other {Checking # more possible matches…}}"
+msgstr ""
+
+#. placeholder {0}: fills.length
+#: src/AiFill.tsx
+msgid "{0, plural, one {Filled in by AI — check it} other {Filled in by AI — check these}}"
+msgstr ""
+
+#. placeholder {0}: chosen.length
+#: src/ImportCsv.tsx
+msgid "{0, plural, one {Import # thing} other {Import # things}}"
+msgstr ""
+
+#. placeholder {0}: r.created
+#: src/Import.tsx
+msgid "{0, plural, one {Imported # thing} other {Imported # things}}"
+msgstr ""
+
+#. placeholder {0}: scan.photos
+#: src/RoomScan.tsx
+msgid "{0, plural, one {Looking at the photo…} other {Looking at the # photos…}}"
+msgstr ""
+
+#. placeholder {0}: r.placesCreated
+#: src/Import.tsx
+msgid "{0, plural, one {Made # place} other {Made # places}}"
+msgstr ""
+
+#. placeholder {0}: scans.length
+#: src/Offline.tsx
+msgid "{0, plural, one {Offline — # scan saved to send later} other {Offline — # scans saved to send later}}"
+msgstr ""
+
+#. placeholder {0}: props.tag.items
+#: src/Catalog.tsx
+msgid "{0, plural, one {On # item. Renaming it to another tag's name merges the two.} other {On # items. Renaming it to another tag's name merges the two.}}"
+msgstr ""
+
+#. placeholder {0}: l.views
+#: src/Shares.tsx
+msgid "{0, plural, one {opened # time} other {opened # times}}"
+msgstr ""
+
+#. placeholder {0}: r.blobs.length
+#: src/Offline.tsx
+msgid "{0, plural, one {Room scan · # photo} other {Room scan · # photos}}"
+msgstr ""
+
+#. placeholder {0}: test.data.sent
+#: src/Reminders.tsx
+msgid "{0, plural, one {Sent to # device.} other {Sent to # devices.}}"
+msgstr ""
+
+#. placeholder {0}: revokeOthers.data.signedOut
+#: src/Security.tsx
+msgid "{0, plural, one {Signed out # session.} other {Signed out # sessions.}}"
+msgstr ""
+
+#: src/Charts.tsx
+msgid "{amount} in a year"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "{amount} more than the limit — ask about a rider or a higher limit."
+msgstr ""
+
+#: src/Report.tsx
+msgid "{amount} to replace"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "{brand} (label printer)"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "{change} · {quantity} left"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "{children}<0>Back to Ferret</0>"
+msgstr ""
+
+#: src/Search.tsx
+msgid "{COMMAND_K} or / to search"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "{contents} inside"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {a day} other {# days}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {a month} other {# months}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {a week} other {# weeks}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {a year} other {# years}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {every day} other {every # days}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {every month} other {every # months}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {every week} other {every # weeks}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{count, plural, one {every year} other {every # years}}"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "{count, plural, one {Make # blank label} other {Make # blank labels}}"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "{count} couldn't go up: {error}"
+msgstr ""
+
+#: src/Import.tsx
+msgid "{count} not imported"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "{count} photographed"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "{count} photographed · uploading {uploading}…"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "{count} photos"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "{count} rooms and {count2} devices in Home Assistant"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "{count} skipped — they wait in the bell as \"New item\"."
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "{count} to go"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "{count} waiting to upload"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "{d, plural, one {# day} other {# days}}"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "{date}, today"
+msgstr ""
+
+#: src/Server.tsx
+msgid "{day} at {time}"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "{day}: {tasks}"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "{days, plural, one {# day left} other {# days left}}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "{days, plural, one {# day} other {# days}}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "{days, plural, one {Due in # day} other {Due in # days}}"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "{daysLeft, plural, one {goes for good in # day} other {goes for good in # days}}"
+msgstr ""
+
+#: src/Security.tsx
+msgid "{describeNetwork} · signed in {formatWhen}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "{done} changed"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "{done} changed · {failed} couldn't be: {reasons}"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "{done} of {total} done"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "{due} · at {reading}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "{due} due in 2 weeks"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "{field} looks right"
+msgstr ""
+
+#: src/Server.tsx
+msgid "{files} ({size}, {copied} new) and the database ({dbSize})"
+msgstr ""
+
+#: src/Server.tsx
+msgid "{files} ({size}) and the database ({dbSize})"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "{floor} (new property)"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "{format} of {format2}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "{hours} h ago"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "{itemsWithoutValue} without a value"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "{jobs} · last {date}"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "{jobs} · last {date} · {spent}"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "{jobs}, {amount} in all"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "{kind} · {things}, {amount} in contents"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "{kind} code"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "{kind} code ({category})"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "{knownCount, plural, one {# line is already in Ferret from an earlier import of this file, so it's left out.} other {# lines are already in Ferret from an earlier import of this file, so they're left out.}}"
+msgstr ""
+
+#: src/Install.tsx
+msgid "{label} (tap to hide)"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "{label}: {format} of {format2}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "{label}: {have} of {total}"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "{labels} on {sheets}."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "{left} → {after} left"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "{left} left · {reason}"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "{length} — until {endsOn}"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "{length} ({provider}) — until {endsOn}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "{line} · due back {date}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "{low} running low"
+msgstr ""
+
+#: src/Server.tsx
+msgid "{m} min ago"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "{months, plural, one {# month} other {# months}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{n, plural, one {# cycle} other {# cycles}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{n, plural, one {# hour} other {# hours}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{n, plural, one {# km} other {# km}}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "{n, plural, one {# mile} other {# miles}}"
+msgstr ""
+
+#: src/Browse.tsx
+#: src/Catalog.tsx
+#: src/Collections.tsx
+#: src/Everything.tsx
+#: src/lib/places.ts
+msgid "{n, plural, one {# thing} other {# things}}"
+msgstr ""
+
 #: src/Language.tsx
 msgid "{name} ({percent}% translated)"
 msgstr ""
 
+#: src/Duplicates.tsx
+msgid "{name} <0>(added {toLocaleDateString})</0>"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "{name} at a glance"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "{name} in Apple Maps"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "{name} is in the trolley"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "{name} is ready"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "{name}: use, restock or open?"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "{name}: what did you do?"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "{name}'s website"
+msgstr ""
+
+#: src/Security.tsx
+msgid "{others, plural, one {Sign out your other session? They'll need your password to get back in.} other {Sign out all # other sessions? They'll need your password to get back in.}}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "{out} run out"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "{overdue} overdue"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "{owner} lent it to you on {since}, to bring back by {due}."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "{owner} lent it to you on {since}."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "{pct}% of the limit"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "{percent}% complete"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "{person} asked for no more reminders"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "{person} says it's back."
+msgstr ""
+
+#: src/Collections.tsx
+msgid "{pieces} pieces with duplicates"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "{plan} plan"
+msgstr ""
+
+#: src/Product.tsx
+msgid "{price} (typical price)"
+msgstr ""
+
+#: src/Report.tsx
+msgid "{price} each"
+msgstr ""
+
+#: src/Places.tsx
+msgid "{property} (a room)"
+msgstr ""
+
+#: src/Overview.tsx
+#: src/ScanSession.tsx
+#: src/Shopping.tsx
+#: src/Stock.tsx
+msgid "{quantity} left"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "{quantity} of them"
+msgstr ""
+
+#: src/Server.tsx
+msgid "{remaining} of {limit} barcode lookups left"
+msgstr ""
+
+#: src/Household.tsx
+msgid "{role} · link works until {date}"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "{round}% wide, {round2}% high"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "{saved, plural, one {# thing named} other {# things named}}"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "{saved} — each will be a \"New item\" to name."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "{skip, plural, one {label} other {labels}}"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "{takenCount, plural, one {# change} other {# changes}}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "{things} go to <0>Recently deleted</0>, where they can be brought back for 30 days."
+msgstr ""
+
+#: src/Browse.tsx
+msgid "{things} not in a place yet →"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "{ticked} of {total} ticked"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "{time} left"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid "{title} — photo {number} of {count}"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "{title} isn't needed"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "{toReview, plural, one {Review # thing} other {Review # things}}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "{total, plural, one {# thing} other {# things}}"
+msgstr ""
+
+#: src/Places.tsx
+msgid "{totalCount} ({itemCount} here)"
+msgstr ""
+
+#: src/Report.tsx
+msgid "{unvalued, plural, one {# item has no value or price recorded and isn't in the total.} other {# items have no value or price recorded and aren't in the total.}}"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "{used} of {included}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "{what} last scanned {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "{what} last scanned {when} by {person}"
+msgstr ""
+
+#: src/Install.tsx
+msgid "{whose} {button} is just above here"
+msgstr ""
+
+#: src/Install.tsx
+msgid "{whose} {button} is just below here"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "{why} Ask {inviter} for a new link if you still need one."
+msgstr ""
+
+#: src/Providers.tsx
+msgid "+ Add \"{name}\" as a provider"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "+ Add a provider"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "+{more} more"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "<0>…or the exact end date</0>"
+msgstr ""
+
+#: src/Shared.tsx
+msgid "<0>{by}</0> shared this from {household}'s home inventory — {label}. It's read-only, and the link works until {until}."
+msgstr ""
+
+#: src/Shared.tsx
+msgid "<0>{by}</0> shared this from {household}'s home inventory. It's read-only, and the link works until {until}."
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "<0>{features} aren't part of the {planName} plan. Anything you made before is kept — paused — and works again on a plan that has them.</0><1>See plans</1>"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "<0>{from}–{to} of {total}</0>"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "<0>{have} of {total}</0>"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "<0>{inviter}</0> invited you to <1>{household}</1> as {role}."
+msgstr ""
+
+#: src/Overview.tsx
+msgid "<0>{itemName}: claim</0>"
+msgstr ""
+
+#: src/Server.tsx
+msgid "<0>{left} of {limit} left</0><1>fills up again {when} · as of {time}</1>"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "<0>{n} selected</0>"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "<0>{name} is back.</0><1>Open</1>"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "<0>Added {toLocaleDateString}</0>"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "<0>AI estimate</0>about"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "<0>An iPhone or iPad</0>: open these settings there and press <1>Add to Calendar</1>"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "<0>Delete this one? (Kept 30 days in Recently deleted.)</0>"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "<0>Download for a claim (CSV)</0>"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "<0>Drag & drop or </0>choose files"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "<0>Edit</0>"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "<0>Every</0>"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "<0>Favourite</0>"
+msgstr ""
+
+#: src/Server.tsx
+msgid "<0>FILES_KEY</0>'s fingerprint is <1>{keyId}</1> (<2>cli.js key fingerprint</2> prints a key's, to check a saved copy)."
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "<0>Gone for good — no undo.</0>"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "<0>Google Calendar</0> (on a computer): <1>Other calendars → + → From URL</1>, paste the link, <2>Add calendar</2>"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "<0>Google Calendar</0> can't use it: Google fetches calendars from its own servers, and they can't reach a Ferret at home ({hostname}). Use Apple Calendar or Outlook on your own devices instead."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "<0>Leave out under {currencySymbol}</0>"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "<0>Length</0>"
+msgstr ""
+
+#: src/Install.tsx
+msgid "<0>More about phones</0>"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "<0>New rooms go under their floor</0>"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "<0>now {after}</0>"
+msgstr ""
+
+#: src/Charts.tsx
+msgid "<0>Now</0>"
+msgstr ""
+
+#: src/ItemPage.tsx
+#: src/Offline.tsx
+msgid "<0>Open it</0>"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "<0>Outlook</0>: <1>Add calendar → Subscribe from web</1>, and paste the link."
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "<0>Photos (JPEG, PNG, WebP) or PDF documents</0>"
+msgstr ""
+
+#: src/Report.tsx
+msgid "<0>Photos</0>"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "<0>Possible recalls — check the model:</0>"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "<0>Read-only</0><1>Can search and ask, but not add, change or remove anything.</1>"
+msgstr ""
+
+#: src/Search.tsx
+msgid "<0>Recent searches</0>"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "<0>Remove it? (Kept 30 days in Recently deleted.)</0>"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "<0>Repeats</0>"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "<0>Report</0>"
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "<0>Scan a barcode</0>"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "<0>Search…</0>"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "<0>See {roomName}</0>"
+msgstr ""
+
+#: src/Import.tsx
+msgid "<0>See everything</0><1>Done</1>"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "<0>Settings</0>"
+msgstr ""
+
+#: src/App.tsx
+msgid "<0>Sign in</0>"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "<0>Starts</0>"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "<0>Stop tracking it?</0>"
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid "<0>This device is in {replace}.</0>"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "<0>This is a box, bin or case</0><1>Other things can go in it, and it can have a QR label.</1>"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "<0>to replace it new</0>"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "<0>Took {uses} {name} from stock</0>"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "<0>Try again</0>"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "<0>Type the household's name to confirm</0>"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "<0>Type your email address to confirm</0>"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "<0>Warranty</0>"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "<0>What to do: </0>{remedy}"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "<0>Your password</0>"
+msgstr ""
+
+#: src/Install.tsx
+msgid "⋯ button"
+msgstr ""
+
+#: src/Install.tsx
+msgid "☰ menu"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "🐾 Ferret · {householdName}"
+msgstr ""
+
+#: src/Report.tsx
+msgid "🐾 Ferret · Home inventory"
+msgstr ""
+
+#: src/Settings.tsx
+#: src/Warranties.tsx
+msgid "1 year"
+msgstr ""
+
+#: src/App.tsx
+msgid "10 characters or more"
+msgstr ""
+
+#: src/App.tsx
+msgid "10 characters or more."
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "10 years"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "1½″ × 1″"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "1744907 — 4″ × 6″ (5XL shipping)"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "2 years"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "2″ × 1″"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "2¼″ × 1¼″"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "3 months"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "3 years"
+msgstr ""
+
+#: src/Settings.tsx
+#: src/Shares.tsx
+msgid "30 days"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "30252 — 1⅛″ × 3½″ (address)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "30256 — 2⁵⁄₁₆″ × 4″ (shipping)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "30330 — ¾″ × 2″ (return address)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "30332 — 1″ × 1″ (square)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "30334 — 2¼″ × 1¼″ (multi-purpose)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "30336 — 1″ × 2⅛″ (multi-purpose)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "4″ × 6″ (shipping)"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "5 years"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "6 months"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "7 days"
+msgstr ""
+
+#: src/Settings.tsx
+#: src/Shares.tsx
+msgid "90 days"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "A {what} — which item is it for?"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "A category"
+msgstr ""
+
+#: src/Server.tsx
+msgid "A certificate authority's certificate, or a service's own self-signed one, in PEM form (<0>-----BEGIN CERTIFICATE-----</0>). Never its private key."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "A friendly email that it's still with them — from the due date if there is one — with a link to say it's back or to stop the reminders."
+msgstr ""
+
+#: src/Server.tsx
+msgid "A key file holds these secrets sealed with a passphrase you choose, so it can be kept beside the backups. If they're ever lost, <0>cli.js key recover</0> opens the file with the passphrase and gives them back. On the server, in Ferret's folder (or the container's console):"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "A limit on a kind of thing counts what's in a category (Electronics) or has a tag (Jewelry) — tag the things it covers. Values come from each thing's value, or what you paid; see the <0>insurance report</0> for the list."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "A made-up house, shared by everyone trying Ferret — change anything you like; it starts afresh every night."
+msgstr ""
+
+#: src/Invite.tsx
+msgid "a member"
+msgstr ""
+
+#: src/App.tsx
+#: src/Household.tsx
+#: src/NewHousehold.tsx
+msgid "A name with at least one letter or number"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "A name, and whatever else you know"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "A new box"
+msgstr ""
+
+#: src/App.tsx
+msgid "A new link is on its way to {unconfirmed}"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "A new place"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "A notification on this device on days maintenance is due or a warranty is about to end."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "A part-used sheet? Skip the first"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "A photo's suggestions count as 2 AI actions; a question to Ask Ferret or a document read, 1."
+msgstr ""
+
+#: src/Server.tsx
+msgid "A PKCS#12 file (.p12 or .pfx) holding the certificate and its key. It's kept sealed on the server and never shown again."
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "a place"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "A place I have"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "A printed {code} will stop opening {name} (it becomes a blank label you can use somewhere else)."
+msgstr ""
+
+#: src/Setup.tsx
+msgid "A property — or several: a cabin, a storage unit."
+msgstr ""
+
+#: src/Shares.tsx
+msgid "A read-only link to {what}, for someone without an account — an insurer, an adjuster, an executor. It shows things as they are when it's opened, never your notes, and every opening is logged."
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "a room"
+msgstr ""
+
+#: src/NewHousehold.tsx
+msgid "A separate inventory — say, a holiday home or your parents' place. You can invite people to it later."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "A shelf or place"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "a smart-home setup code — open the scanner online to save it on its item."
+msgstr ""
+
+#: src/Import.tsx
+msgid "A spreadsheet (CSV)"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "A spreadsheet saved as <0>CSV</0>, with a header row. You'll see which column goes where before anything is saved — and an import can be undone."
+msgstr ""
+
+#: src/Nav.tsx
+msgid "A spreadsheet, or Home Assistant"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "a viewer (look and ask, no changes)"
+msgstr ""
+
+#: src/Product.tsx
+#: src/Shopping.tsx
+msgid "About"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "about {amount} a month"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "about {amount} a year"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "About it <0>(optional)</0>"
+msgstr ""
+
+#: src/App.tsx
+msgid "Account"
+msgstr ""
+
+#: src/App.tsx
+msgid "Account menu"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Account number, hours, who to ask for…"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Accounts"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "Active"
+msgstr ""
+
+#: src/App.tsx
+#: src/Boxes.tsx
+#: src/Collections.tsx
+#: src/FromWeb.tsx
+#: src/ItemPage.tsx
+#: src/Maintenance.tsx
+#: src/Nav.tsx
+#: src/Notifications.tsx
+#: src/Offline.tsx
+#: src/Pairing.tsx
+#: src/Places.tsx
+#: src/Stock.tsx
+#: src/SuggestedMaintenance.tsx
+#: src/Suggestions.tsx
+#: src/Warranties.tsx
+msgid "Add"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Add {count} {name} to your Amazon cart"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Add {name}"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Add {step}"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Add {step} (now {after}"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Add {step} to {name} (now {after}"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Add {step} to which?"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Add {title}"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Add a category inside {name}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Add a client certificate"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Add a client certificate…"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Add a few things and Ferret will show what each one still needs."
+msgstr ""
+
+#: src/Fields.tsx
+msgid "Add a field"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Add a limit"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Add a link"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Add a passkey"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Add a place in {parentName}"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Add a place inside {name}"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Add a property"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Add a provider"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Add a room"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Add a room to {name}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Add a tag"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Add a task"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Add an app"
+msgstr ""
+
+#: src/App.tsx
+msgid "Add an item…"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Add and send a test"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Add another after this one"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Add another limit"
+msgstr ""
+
+#: src/Offline.tsx
+#: src/ScanSession.tsx
+msgid "Add as a separate item"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Add category"
+msgstr ""
+
+#: src/FromWeb.tsx
+msgid "Add from a web address"
+msgstr ""
+
+#: src/PhotoAdd.tsx
+msgid "Add from photos"
+msgstr ""
+
+#: src/App.tsx
+#: src/Collections.tsx
+#: src/Server.tsx
+msgid "Add it"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Add it as a new thing"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Add it to Apple Calendar on this Mac:"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Add its rooms"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Add one {name}"
+msgstr ""
+
+#: src/WarrantyList.tsx
+msgid "Add one from a thing's page, under Warranties. Upload a receipt or warranty card and Ferret suggests the dates for you."
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Add photos and documents"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Add photos or documents"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Add property"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Add provider"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Add something"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Add something to {place}"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Add starter categories"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Add starter templates"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Add tags while editing an item. Tap one to see everything with it and what it's worth. (For coins, cards and the like, with a want list, start a <0>collection</0>"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Add task"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Add tasks"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Add template"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "Add the purchase date to work out when it ends."
+msgstr ""
+
+#: src/App.tsx
+msgid "Add them under <0>Places</0>"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Add things"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Add this"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Add to {name}"
+msgstr ""
+
+#: src/App.tsx
+#: src/Boxes.tsx
+msgid "Add to {name}…"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Add to {place}"
+msgstr ""
+
+#: src/App.tsx
+msgid "Add to {tag}…"
+msgstr ""
+
+#: src/Links.tsx
+#: src/Shopping.tsx
+msgid "Add to Amazon cart"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Add to Calendar"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Add to Home Screen"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Add to the want list"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "Add warranty: {display}"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Add your first things"
+msgstr ""
+
+#: src/Browse.tsx
+#: src/Places.tsx
+#: src/Setup.tsx
+msgid "Add your home"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "Add your home and its rooms, then browse your things room by room."
+msgstr ""
+
+#: src/Places.tsx
+msgid "Add your home first, then its rooms, closets and shelves — so \"where's the drill?\" has an answer."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Add your policy's limits"
+msgstr ""
+
+#: src/Security.tsx
+#: src/Walkthrough.tsx
+msgid "Added"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Added {added}"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Added {step}"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Added {when}"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Added by a script"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Added by Claude"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Added by scanning"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Added from a QR label"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Added from photos"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Added on a walkthrough"
+msgstr ""
+
+#: src/PhotoAdd.tsx
+msgid "Adding {number} of {total}…"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Adding photos ({number} of {total})…"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Adding them…"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Address"
+msgstr ""
+
+#: src/FromWeb.tsx
+msgid "Address of a photo or PDF"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Adds and changes things"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Adds and changes things, invites and manages people"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Admin"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "AI"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "AI actions"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "AI calls today"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "AI: {category}"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "AI: probably a consumable"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "All {count} readings"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "All caught up"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "All collections"
+msgstr ""
+
+#: src/Currency.tsx
+msgid "All currencies"
+msgstr ""
+
+#: src/App.tsx
+#: src/Everything.tsx
+msgid "All done — nothing is missing that."
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "All of {fmt}"
+msgstr ""
+
+#: src/DataExport.tsx
+msgid "All of {householdName}'s data and files in one ZIP that opens without Ferret: every item with its warranties, claims and maintenance history (<0>ferret.json</0>), a spreadsheet (<1>items.csv</1>), and every photo and document."
+msgstr ""
+
+#: src/Report.tsx
+msgid "All properties"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "All set"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "All warranties"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "already in Ferret"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Also by email"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Also by use (whichever comes first)"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Also read off the photo"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Amazon order history"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Amazon product (ASIN)"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Amazon: Account → Request your data → Your orders; use <0>Order History.csv</0> from the download (older ones: <1>Retail.OrderHistory.1.csv</1>). A newer download later brings in only the new orders."
+msgstr ""
+
+#: src/Invite.tsx
+msgid "an admin"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "An Apprise URL, like ntfys://ntfy.sh/your-topic"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "An estimate — check a current price before relying on it."
+msgstr ""
+
+#: src/AuthLayout.tsx
+msgid "An insurance report ready the day you need one."
+msgstr ""
+
+#: src/Invite.tsx
+msgid "an owner"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Analysis failed for {filename}. Try again"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Analyzing"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "And {more} more — they're in the bell."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "And {more} more (find one above to see it)."
+msgstr ""
+
+#: src/Import.tsx
+msgid "And made {places} and {categories}."
+msgstr ""
+
+#: src/Import.tsx
+msgid "And made {what}."
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Another code (a pack's barcode, a bin's label…)"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Another file"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Another reading in a week or two shows how fast it goes up."
+msgstr ""
+
+#: src/App.tsx
+msgid "Answered by AI from your inventory — check the sources."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Any category"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Any list of things — you say which column is which. Ferret's own export and Amazon's order history are recognised."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Any tag"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Any time"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Anyone with this link can see {what} — read-only, no account — until {longDate}. You can turn it off any time in Settings → Household."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Anything"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Anything (no template)"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "Anything you remove in the next {TRASH_DAYS} days will wait here in case you change your mind."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Anywhere"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "API key"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "API keys"
+msgstr ""
+
+#: src/Security.tsx
+msgid "API keys (Claude, scripts) aren't sessions — revoke those under Claude & API."
+msgstr ""
+
+#: src/lib/words.ts
+msgid "API keys (scripts and Claude)"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "API reference"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "app"
+msgstr ""
+
+#: src/App.tsx
+#: src/Nav.tsx
+msgid "Appearance"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Appliance repair"
+msgstr ""
+
+#: src/Product.tsx
+#: src/Suggestions.tsx
+msgid "Apply"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "Apply {label}: {display}"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "Apply all"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Apprise URL"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Approved"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Apps, services, integrations and Home Assistant's own bridges. Tick any that are real."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Art & collectibles"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "As in the table"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Ask each time"
+msgstr ""
+
+#: src/App.tsx
+msgid "Ask Ferret"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Ask for a code from an authenticator app (1Password, Google Authenticator, Authy…) as well as your password, so a leaked password isn't enough."
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Asked — new suggestions appear here"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Asked — suggestions appear here"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "At"
+msgstr ""
+
+#: src/Server.tsx
+msgid "at {time}"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "at a time"
+msgstr ""
+
+#: src/Install.tsx
+msgid "at the bottom right"
+msgstr ""
+
+#: src/Install.tsx
+msgid "at the top right"
+msgstr ""
+
+#: src/App.tsx
+#: src/ScanSession.tsx
+msgid "Auto"
+msgstr ""
+
+#: src/App.tsx
+msgid "Automatic: follow this device"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Avery 22805 — 1½″ square, 24 per sheet (jars, small bins)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Avery 22806 — 2″ square, 12 per sheet (boxes, bins)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Avery 5160 — 1″ × 2⅝″, 30 per sheet (shelves, bins)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Avery 5163 — 2″ × 4″, 10 per sheet (boxes)"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/App.tsx
+#: src/Collections.tsx
+#: src/Deleted.tsx
+#: src/Duplicates.tsx
+#: src/Gone.tsx
+#: src/Import.tsx
+#: src/ItemPage.tsx
+#: src/Labels.tsx
+#: src/Loans.tsx
+#: src/PayOff.tsx
+#: src/Providers.tsx
+#: src/RoomScan.tsx
+#: src/Shopping.tsx
+#: src/Walkthrough.tsx
+#: src/WarrantyList.tsx
+msgid "Back"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "Back to Ferret"
+msgstr ""
+
+#: src/App.tsx
+msgid "Back to sign in"
+msgstr ""
+
+#: src/App.tsx
+msgid "Back to the dashboard"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Maintenance.tsx
+#: src/Places.tsx
+#: src/Report.tsx
+#: src/Settings.tsx
+msgid "Back to your stuff"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Back up now"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Backing up…"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Backup"
+msgstr ""
+
+#: src/App.tsx
+msgid "Backup code"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Backups"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Backups are off."
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/Duplicates.tsx
+#: src/ItemEditor.tsx
+#: src/lib/last-scanned.ts
+#: src/lib/words.ts
+#: src/Suggestions.tsx
+#: src/Walkthrough.tsx
+msgid "Barcode"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Barcode lookups"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Barcodes nobody here has saved yet are asked of the online product database, each once for the whole server. It allows so many a day; when they're used up, scans still match the barcode books and the rest are asked later."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Blank labels to stick on boxes as you pack. Scan one later and say what it is — a new box, or something already in Ferret."
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Blank QR labels"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Borrowed"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Borrowed from {person}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Borrowed from {person} since {since}"
+msgstr ""
+
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/Report.tsx
+msgid "Bought"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Bought {date}"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Bought from {date}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Bought most recently"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Bought on"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Bought until {date}"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/ItemRow.tsx
+msgid "Box · {contents} inside"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Box {code}"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Box name"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/App.tsx
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/ItemEditor.tsx
+#: src/Nav.tsx
+#: src/Product.tsx
+#: src/Suggestions.tsx
+#: src/Walkthrough.tsx
+msgid "Brand"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Brand / maker"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Brand, model, serial number, barcode, purchase date and price paid — only empty fields"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Bring it back"
+msgstr ""
+
+#: src/Browse.tsx
+#: src/Report.tsx
+msgid "Built {year}"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Buy {count}"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "by a script (API key)"
+msgstr ""
+
+#: src/Report.tsx
+msgid "By category"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "by Claude"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "By day (UTC)"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "by hand"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "By person"
+msgstr ""
+
+#: src/Report.tsx
+msgid "By property"
+msgstr ""
+
+#: src/Report.tsx
+msgid "By room"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "by scanning its barcode"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "By use (miles, hours…)"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "by when things came in"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Calendar (maintenance)"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Calendar feeds"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Calendar link"
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "Camera not available — take a photo of the barcode instead."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Can be replaced: everyone signs in again, and two-step sign-in is set up again."
+msgstr ""
+
+#: src/Household.tsx
+msgid "Can look and ask, but not change anything"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Can't reach Ferret"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Claims.tsx
+#: src/Collections.tsx
+#: src/DataExport.tsx
+#: src/DeleteForGood.tsx
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/FromWeb.tsx
+#: src/Gone.tsx
+#: src/Household.tsx
+#: src/ItemEditor.tsx
+#: src/Loans.tsx
+#: src/Maintenance.tsx
+#: src/NewHousehold.tsx
+#: src/Notifications.tsx
+#: src/Pairing.tsx
+#: src/PayOff.tsx
+#: src/PhotoCrop.tsx
+#: src/Places.tsx
+#: src/Providers.tsx
+#: src/Security.tsx
+#: src/Server.tsx
+#: src/Settings.tsx
+#: src/Shares.tsx
+#: src/Templates.tsx
+#: src/Usage.tsx
+#: src/Warranties.tsx
+msgid "Cancel"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Cancelled — nothing was added."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "cancelled or returned"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Captured offline"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Cash & coins"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Setup.tsx
+msgid "Categories"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Nav.tsx
+#: src/Overview.tsx
+msgid "Categories & tags"
+msgstr ""
+
+#: src/App.tsx
+#: src/Catalog.tsx
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/lib/words.ts
+#: src/Overview.tsx
+msgid "Category"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Category of thing {number}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Certificates"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Changed in Home Assistant since the last import"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Check"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Check before importing — tick anything it got wrong."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Check columns and rows"
+msgstr ""
+
+#: src/App.tsx
+msgid "Check your email"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Checking what's already in Ferret…"
+msgstr ""
+
+#: src/App.tsx
+msgid "Checking you're not a robot…"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Checks everyone's things against the US Consumer Product Safety Commission's recalls, daily, and says when one matches — on the thing's page and in the bell. To do that, the brands people own are sent to the CPSC (saferproducts.gov), each at most once a week; nothing else is."
+msgstr ""
+
+#: src/Fields.tsx
+msgid "Choices"
+msgstr ""
+
+#: src/Fields.tsx
+msgid "Choices, separated by commas"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Choose a CSV file"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Choose a file"
+msgstr ""
+
+#: src/App.tsx
+msgid "Choose a new password"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Choose a place"
+msgstr ""
+
+#: src/RoomScan.tsx
+#: src/Walkthrough.tsx
+msgid "Choose a room"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Choose a tag"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Choose categories"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Choose photos"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Choose rooms and things"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Choose the certificate's file"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Choose the column with each thing's name."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Choose what it's on first"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Choose your label printer, and its paper: {paper}"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Chrome's"
+msgstr ""
+
+#: src/Places.tsx
+msgid "City"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Claim"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Claim number"
+msgstr ""
+
+#: src/WarrantyList.tsx
+msgid "Claims in progress"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Claude"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Claude & API"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Claude and the API"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Claude Code command"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Cleaner"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Search.tsx
+msgid "Clear"
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "Clear {label}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Clear all"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Clear filters"
+msgstr ""
+
+#: src/Search.tsx
+msgid "Clear the search"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Clear this {serviceName} error"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Client certificates"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Modal.tsx
+#: src/PhotoViewer.tsx
+#: src/Shares.tsx
+msgid "Close"
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "Close scanner"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Closed on"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Code from your authenticator app"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Coins, dolls, trading cards, records — keep them together, with the details that matter for each kind (year, grade, edition…), what they're worth, and a want list of the ones you're still looking for."
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Collapse"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Collection"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/Nav.tsx
+#: src/Overview.tsx
+msgid "Collections"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Column {number}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Coming up"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Complete"
+msgstr ""
+
+#: src/Duplicates.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+msgid "Condition"
+msgstr ""
+
+#: src/App.tsx
+msgid "Confirm your email first — open the link we sent you."
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Connect"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Connect Claude"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Connect Claude Code with it:"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Contact person"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Continue"
+msgstr ""
+
+#: src/Pairing.tsx
+#: src/Security.tsx
+#: src/Server.tsx
+#: src/Shares.tsx
+#: src/Shopping.tsx
+msgid "Copied"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Copies kept"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Copy"
+msgstr ""
+
+#: src/CopyField.tsx
+msgid "Copy {label}"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Copy code"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Copy details"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Copy it now. Ferret only keeps a fingerprint, so it can't show it to you again."
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Copy link"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Copy list"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Copy the calendar link below."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Cost"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Cost so far: {amount}"
+msgstr ""
+
+#: src/NewHousehold.tsx
+msgid "Could not create the household"
+msgstr ""
+
+#: src/FromWeb.tsx
+msgid "Couldn't add from {site}"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Couldn't add it"
+msgstr ""
+
+#: src/App.tsx
+msgid "Couldn't confirm it just now — try again."
+msgstr ""
+
+#: src/lib/challenge.ts
+msgid "Couldn't finish the check — try again"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Couldn't load the photo — try again"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Couldn't look at the photos."
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Couldn't make the crop"
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "Couldn't read barcodes here: {error}"
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "Couldn't read that photo: {error}"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Couldn’t read the counts: {countsError}"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Couldn't read this photo — name it yourself."
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Couldn't save the crop — try again."
+msgstr ""
+
+#: src/App.tsx
+msgid "Couldn't send it — try again in a minute"
+msgstr ""
+
+#: src/lib/offline.ts
+msgid "Couldn't upload it"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Count with {text}"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Country"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Counts of what visitors do — never who they are or what they add. Visitors’ accounts go after {days} days."
+msgstr ""
+
+#: src/AttentionBell.tsx
+#: src/PayOff.tsx
+msgid "Coverage"
+msgstr ""
+
+#: src/WarrantyList.tsx
+msgid "Covered"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Covered for"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Covered up to"
+msgstr ""
+
+#: src/App.tsx
+msgid "Create account"
+msgstr ""
+
+#: src/App.tsx
+#: src/NewHousehold.tsx
+msgid "Create household"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Create invitation"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Create key"
+msgstr ""
+
+#: src/App.tsx
+msgid "Create your account"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Crop {filename}"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Crop {filename}, or make it the main photo"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Crop area — arrows move it, Shift and arrows resize it"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Crop photo"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Crop, or make it the main photo"
+msgstr ""
+
+#: src/Currency.tsx
+msgid "Currency"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Cycle count"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Cycles (washes, uses)"
+msgstr ""
+
+#: src/App.tsx
+msgid "Dark"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Day (UTC)"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "days"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Dealt with it"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "deductible, shipping…"
+msgstr ""
+
+#: src/Deleted.tsx
+#: src/Everything.tsx
+#: src/Walkthrough.tsx
+msgid "Delete"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Delete {things}"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Delete account"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Delete account…"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Delete for good"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Delete household"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Delete household…"
+msgstr ""
+
+#: src/App.tsx
+msgid "Delete my account"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "Delete now"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Delete these?"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Delete this household"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Delete your account"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "Deleted {date}"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "Deleted {date} by {person}"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "Deleted things stay here for {TRASH_DAYS} days, with their photos, documents, warranties and maintenance, then go for good."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Demo"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Denied"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Describe it: tools bought last year over $100"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Describe what you're looking for"
+msgstr ""
+
+#: src/Duplicates.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+msgid "Description"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Details from photos and receipts"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Details to fill in"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Devices"
+msgstr ""
+
+#: src/SpeakButton.tsx
+msgid "Didn't catch that — try again"
+msgstr ""
+
+#: src/Offline.tsx
+#: src/RoomScan.tsx
+msgid "Discard"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Discard it and add nothing?"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Discard scan"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/FromWeb.tsx
+#: src/ItemPage.tsx
+#: src/Offline.tsx
+#: src/Places.tsx
+#: src/Product.tsx
+#: src/RoomScan.tsx
+#: src/Suggestions.tsx
+msgid "Dismiss"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-11204 — 17 × 54 mm (multi-purpose)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-11221 — 23 × 23 mm (square)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-1201 — 29 × 90 mm (address)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-1202 — 62 × 100 mm (shipping)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-1208 — 38 × 90 mm (large address)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-1209 — 29 × 62 mm (small address)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-2205 — 62 mm continuous (cut at 40 mm)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "DK-2210 — 29 mm continuous (cut at 50 mm)"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Documents"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Don't"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Don't send one"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Don't upload this photo"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Don't upload this photo?"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Don't upload this room scan?"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/Everything.tsx
+#: src/Household.tsx
+#: src/ImportHomeAssistant.tsx
+#: src/Maintenance.tsx
+#: src/Settings.tsx
+#: src/Shares.tsx
+msgid "Done"
+msgstr ""
+
+#: src/App.tsx
+msgid "Done — you can sign in again straight away."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Done {date}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Done before"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Done on"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Down"
+msgstr ""
+
+#: src/DataExport.tsx
+#: src/Security.tsx
+msgid "Download"
+msgstr ""
+
+#: src/DataExport.tsx
+msgid "Download everything"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Download everything first if you might want it."
+msgstr ""
+
+#: src/DataExport.tsx
+msgid "Download everything?"
+msgstr ""
+
+#: src/DataExport.tsx
+msgid "Download everything…"
+msgstr ""
+
+#: src/Report.tsx
+#: src/Shared.tsx
+msgid "Download spreadsheet (CSV)"
+msgstr ""
+
+#: src/FromWeb.tsx
+msgid "Downloading from {site}"
+msgstr ""
+
+#: src/FromWeb.tsx
+msgid "Downloads"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Drag the box onto the thing, and its corners to fit. The crop is saved as a new photo — the original stays."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Due {date}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Due around {date}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Due back"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Due in 2 weeks"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Due in the next two weeks"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Due maintenance in your calendar app, kept up to date, with an alert at 9:00 on the day."
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Due soon"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Due today"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Due tomorrow"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "e.g. 1881-S Morgan dollar"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "e.g. 7HQ2MX"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "e.g. 7HQ2MX or ASSET-0042"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "e.g. a coin's year, mint mark and grade. They show on each thing made from it, beside its category's."
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "e.g. a TV's screen size, a painting's artist. Subcategories get these too."
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "e.g. camping, Christmas"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "e.g. Claude Code on my Mac"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "e.g. Coin"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "e.g. Cool Air Co"
+msgstr ""
+
+#: src/App.tsx
+#: src/Nav.tsx
+#: src/Walkthrough.tsx
+msgid "e.g. Cordless drill"
+msgstr ""
+
+#: src/Server.tsx
+msgid "e.g. Ferret for Home Assistant"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "e.g. from the garage — police report 26-1234"
+msgstr ""
+
+#: src/Places.tsx
+msgid "e.g. Garage"
+msgstr ""
+
+#: src/Places.tsx
+msgid "e.g. Highland House"
+msgstr ""
+
+#: src/Server.tsx
+msgid "e.g. Home CA"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "e.g. HVAC"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "e.g. Jewelry & watches"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "e.g. Kitchen — plates (or leave as \"Box {code}\")"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "e.g. MERV 11 filter, 16×25×1"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "e.g. Morgan silver dollars"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "e.g. Motor replaced under warranty"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "e.g. My phone (ntfy)"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "e.g. Power tools"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "e.g. Replace furnace filter"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "e.g. Sam"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "e.g. Sam next door"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "e.g. State Farm claim"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "e.g. the bridge, back door"
+msgstr ""
+
+#: src/App.tsx
+msgid "e.g. The Highland House"
+msgstr ""
+
+#: src/NewHousehold.tsx
+msgid "e.g. The Lake House"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "e.g. theft only; policy HO-3 #12345"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "e.g. to a neighbour, on Marketplace"
+msgstr ""
+
+#: src/Places.tsx
+msgid "e.g. Top shelf"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Each browser or phone you've signed in on. Don't recognise one? Sign it out."
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Each code does what it's set to"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Each label prints on its own label. The printer needs its driver installed on this computer."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "each time"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/ItemPage.tsx
+#: src/Loans.tsx
+#: src/PayOff.tsx
+#: src/Providers.tsx
+msgid "Edit"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Edit {label}"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Collections.tsx
+#: src/ItemEditor.tsx
+#: src/Places.tsx
+#: src/Providers.tsx
+#: src/Templates.tsx
+msgid "Edit {name}"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "Edit {name}'s rooms"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Edit maintenance"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "Edit places"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "edited"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Electrician"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Electronics"
+msgstr ""
+
+#: src/App.tsx
+#: src/Demo.tsx
+#: src/Providers.tsx
+msgid "Email"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Email {name}"
+msgstr ""
+
+#: src/App.tsx
+msgid "Email me a link"
+msgstr ""
+
+#: src/App.tsx
+msgid "Email me a link to sign in again"
+msgstr ""
+
+#: src/App.tsx
+msgid "Email me a sign-in link"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Empty."
+msgstr ""
+
+#: src/Overview.tsx
+#: src/WarrantyList.tsx
+msgid "Ended"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "ended {time} ago"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Ending in 60 days"
+msgstr ""
+
+#: src/WarrantyList.tsx
+msgid "Ending in the next 60 days"
+msgstr ""
+
+#: src/WarrantyList.tsx
+msgid "Ends"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "Ends soon"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "Estimate"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "Estimate again"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "Estimate replacement cost"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "Estimating…"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "every {use}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "every {use} or {time}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "every 2 weeks"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Every 2 weeks"
+msgstr ""
+
+#: src/App.tsx
+msgid "Every device was signed out. Sign in with the new one."
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Every item has a photo, a value, a place and a receipt."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "every month"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Every month"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Every night from {hour}:00, the database and every household's files are copied to {where}, then opened again to check they'd restore. The newest {keep} are kept."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Every property"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "every week"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Every week"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Everyone here shares the same inventory."
+msgstr ""
+
+#: src/Household.tsx
+msgid "Everyone in it sees the new name. Nothing else changes."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Everyone trying Ferret sees this house, and it starts afresh every night. Account settings are locked here — make your own account to try those too."
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Nav.tsx
+#: src/NotFound.tsx
+#: src/PayOff.tsx
+#: src/TabBar.tsx
+msgid "Everything"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Everything added this way"
+msgstr ""
+
+#: src/Charts.tsx
+msgid "Everything else"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Everything in {householdName} — things, photos, documents, places, history — is deleted for good, and everyone in it loses access. Download everything first if you might want it."
+msgstr ""
+
+#: src/App.tsx
+msgid "everything in {name}"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Everything not already in Ferret"
+msgstr ""
+
+#: src/App.tsx
+msgid "everything tagged {tag}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Everything valued"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Everything you own — on your declarations page."
+msgstr ""
+
+#: src/Report.tsx
+msgid "Everything you own, what it's worth and the proof — for your insurer, or to keep somewhere safe. Save it as a PDF from the print menu (on iPhone: Share → Print, then Share again → Save to Files)."
+msgstr ""
+
+#: src/App.tsx
+msgid "Everything you track lives in a household. You can invite family later."
+msgstr ""
+
+#: src/Household.tsx
+msgid "Everything, including removing the household"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Excellent"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Excellent condition"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Existing tags"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Expand"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Expected repeat"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Expected, if the one before is done on time"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Expected, if the one before is done on time · not enough {part} left by then"
+msgstr ""
+
+#: src/Settings.tsx
+#: src/Warranties.tsx
+msgid "Expired"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Expired {formatDate}"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Expires"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "expires {date}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Expires {formatDate}"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Extra fields for its items"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Fair"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Fair condition"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Favourite"
+msgstr ""
+
+#: src/App.tsx
+#: src/AuthLayout.tsx
+#: src/History.tsx
+#: src/Overview.tsx
+msgid "Ferret"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Ferret backup codes ({host}) — each works once"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Ferret can't send email yet (whoever runs it sets MAIL_URL), so no reminders go until it can."
+msgstr ""
+
+#: src/SpeakButton.tsx
+msgid "Ferret can't use the microphone — check the browser's permission"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Ferret didn't spot anything it was sure of. Tap things on the photo to add them."
+msgstr ""
+
+#: src/Household.tsx
+msgid "Ferret doesn't send this — copy the link and send it yourself. It works for two weeks, and only for that email address."
+msgstr ""
+
+#: src/FromWeb.tsx
+msgid "Ferret downloads it from the internet — photos and PDFs only, not web pages. Tip: on a product page, copy the link of the image or the manual itself."
+msgstr ""
+
+#: src/Household.tsx
+msgid "Ferret emails them a link to join"
+msgstr ""
+
+#: src/App.tsx
+#: src/Nav.tsx
+msgid "Ferret home"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Ferret is emailing them this link."
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Ferret looks it up"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Ferret makes it, and the rooms go in it."
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Ferret reads Home Assistant's rooms and devices once — the appliances, TVs, speakers, thermostats and network gear it knows — and you choose which become items. Nothing is changed in Home Assistant."
+msgstr ""
+
+#: src/App.tsx
+msgid "Ferret remembers it: next time anyone scans this code, it knows."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Ferret schedules the next one {every} from this day."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Ferret schedules the next one {scheduleText} from now."
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Ferret speaks MCP at the address below. Send the key as <0>Authorization: Bearer …</0>"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Ferret stops presenting it to {join}."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Ferret stops trusting it: services whose certificate it vouches for won't connect."
+msgstr ""
+
+#: src/App.tsx
+msgid "Ferret's answer"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Ferret's own export"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Fewer"
+msgstr ""
+
+#: src/Fields.tsx
+msgid "Field name"
+msgstr ""
+
+#: src/Fields.tsx
+msgid "Field type"
+msgstr ""
+
+#: src/Server.tsx
+msgid "File (.p12, .pfx)"
+msgstr ""
+
+#: src/Server.tsx
+msgid "File (.pem, .crt)"
+msgstr ""
+
+#: src/Claims.tsx
+#: src/Warranties.tsx
+msgid "File a claim"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "File a claim with {provider}"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "File claim"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Filed"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Filed {date}"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Filed on"
+msgstr ""
+
+#: src/Server.tsx
+msgid "FILES_KEY is only in this server's data folder. If that folder is lost, so is every photo and document — the backups too. Make a key file and keep it, and its passphrase, somewhere else."
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/Nav.tsx
+msgid "Filled in by AI"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Filter"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Filter and sort"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Filters"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Find"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Find a device"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Find a device, maker or integration"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Find a row"
+msgstr ""
+
+#: src/AuthLayout.tsx
+msgid "Find anything by what it is, what it's for, or a word on its receipt."
+msgstr ""
+
+#: src/AuthLayout.tsx
+msgid "Find anything you own."
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Find things"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Firearms"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Firefox's"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "First due"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "First say what it counts — on its page, under Track miles / hours."
+msgstr ""
+
+#: src/Security.tsx
+msgid "First, your password."
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Fix or remove the link that isn't a web address."
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Fold the menu to icons"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "For {forTaskText}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "For {join}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "For an item"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "For Claude, or a script of your own"
+msgstr ""
+
+#: src/Server.tsx
+msgid "For Ferret's own connections to your other services — Home Assistant, the AI models, Apprise, your sign-in provider. Downloads from the internet only ever trust the usual authorities."
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "For households on this server that haven't chosen for themselves (Settings → Household). Off unless you switch a kind on."
+msgstr ""
+
+#: src/Places.tsx
+msgid "for insurance"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "For maintenance by use — \"change the oil every 5,000 miles\", \"service every 100 hours\"."
+msgstr ""
+
+#: src/Security.tsx
+msgid "For safety, adding a passkey needs a recent sign-in — sign out and back in, then add it."
+msgstr ""
+
+#: src/Server.tsx
+msgid "For services that ask who's connecting (mutual TLS). Each is shown only to the hosts you name."
+msgstr ""
+
+#: src/Templates.tsx
+msgid "For things you have lots of the same kind of — coins, cards, dolls: the details to fill in for each (year, grade…), and the category and tags they start with. Pick one when adding or editing a thing."
+msgstr ""
+
+#: src/App.tsx
+msgid "Forgot it?"
+msgstr ""
+
+#: src/App.tsx
+msgid "Forgot your password?"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Found in a room scan"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "from {file}"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "from {from}"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "from {from} · {date}"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "From {name}, filling gaps: {fields}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "From {person} since {since}"
+msgstr ""
+
+#: src/Product.tsx
+msgid "From {source} — check before applying."
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "from a QR label"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "From a receipt or warranty card, when the purchase date is known"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "from a room scan"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "from a spreadsheet"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "From a visit to coming back"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "from Home Assistant"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "From Home Assistant"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "From Home Assistant ({integration})"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "from its manual"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "From photos"
+msgstr ""
+
+#: src/Product.tsx
+msgid "From the barcode"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "from the provider"
+msgstr ""
+
+#: src/Server.tsx
+msgid "From the settings"
+msgstr ""
+
+#: src/App.tsx
+msgid "From the UPCitemdb product database"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "From what each cost last time, where it's known."
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Full screen"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Gave it away"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Get the same daily reminder in ntfy, Pushover, Telegram, email and <0>100+ other apps</0>. Just for you."
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Getting started"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Give {name} a QR label"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Given away"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Given back"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "Go to sign in"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "goes for good today"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Goes in a place you have"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Goes to (heir)"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Goes to {heir}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Good"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Good condition"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Google Calendar, Outlook or another calendar"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Got it"
+msgstr ""
+
+#: src/Server.tsx
+msgid "ha.example.lan, *.example.lan"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Hand over"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Hand over to"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Hand over…"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Handyman"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Have"
+msgstr ""
+
+#: src/App.tsx
+msgid "Have an account? <0>Sign in</0>"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Have it or want it"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Hear about filters, servicing and warranties about to end, when it matters. Just for you."
+msgstr ""
+
+#: src/HelpLink.tsx
+#: src/Nav.tsx
+msgid "Help"
+msgstr ""
+
+#: src/HelpLink.tsx
+msgid "Help: {label}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Hi {person} — you have {owner}'s {itemName}"
+msgstr ""
+
+#: src/Pairing.tsx
+#: src/Setup.tsx
+msgid "Hide"
+msgstr ""
+
+#: src/History.tsx
+#: src/ItemPage.tsx
+#: src/Stock.tsx
+msgid "History"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+#: src/Nav.tsx
+#: src/NotFound.tsx
+#: src/Places.tsx
+#: src/TabBar.tsx
+msgid "Home"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Home Assistant"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Home Assistant's address"
+msgstr ""
+
+#: src/lib/device.ts
+msgid "Home network · {ip}"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "HomeKit / Matter code"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Host names or addresses, separated by commas. <0>*.example.lan</0> covers everything under it."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Hosting this month"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Hour meter"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Hours (engine, run time)"
+msgstr ""
+
+#: src/App.tsx
+#: src/Nav.tsx
+#: src/Settings.tsx
+msgid "Household"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Household & settings"
+msgstr ""
+
+#: src/App.tsx
+#: src/Household.tsx
+#: src/NewHousehold.tsx
+msgid "Household name"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Households"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/Labels.tsx
+#: src/Maintenance.tsx
+#: src/RoomScan.tsx
+msgid "How many"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "How many {name} to buy"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "How many {unit}"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "How many at a time"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "How many each time"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "How many of thing {number}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "How to restore"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "HVAC"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "I have it"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "I'm looking for it"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "I've given it back"
+msgstr ""
+
+#: src/Security.tsx
+msgid "I've saved them"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Icon"
+msgstr ""
+
+#: src/App.tsx
+msgid "If an account uses that email, a link to choose a new password is on its way. It works once, for an hour. Nothing there? Check spam, or ask again in ten minutes."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "If it comes out sideways, switch Landscape / Portrait."
+msgstr ""
+
+#: src/Server.tsx
+msgid "If lost: {lost}"
+msgstr ""
+
+#: src/App.tsx
+msgid "If there's an account for {held}, a link to sign in again is on its way — by email, and to any devices with Ferret notifications on. It works once, for 30 minutes."
+msgstr ""
+
+#: src/App.tsx
+msgid "If there's an account for {variables}, a sign-in link is on its way — it works once, for 15 minutes. (Accounts with two-step sign-in use their password and code instead.)"
+msgstr ""
+
+#: src/Import.tsx
+#: src/ImportCsv.tsx
+#: src/ImportHomeAssistant.tsx
+#: src/Nav.tsx
+#: src/Setup.tsx
+msgid "Import"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Import a spreadsheet"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Import from Home Assistant"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Import progress"
+msgstr ""
+
+#: src/ImportCsv.tsx
+#: src/ImportHomeAssistant.tsx
+msgid "Import steps"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Imported from a spreadsheet"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Imported from Home Assistant"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Importing"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Importing…"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Importing… {done} of {total}"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Report.tsx
+msgid "In {box}"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "In {home}"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+#: src/ItemPage.tsx
+#: src/ItemRow.tsx
+msgid "In {name}"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "In a box"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "In Claude Code, run this once (with your key in place of <0>ferret_…</0>"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "In Ferret"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "In Ferret: {place}"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "In Home Assistant: your profile → Security → Long-lived access tokens → Create token (an administrator's). Ferret uses it for this one read and doesn't keep it — delete the token in Home Assistant afterwards if you like."
+msgstr ""
+
+#: src/Claims.tsx
+msgid "In progress"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "In the <0>Calendar</0> app, choose <1>File → New Calendar Subscription…</1> (⌥⌘S)."
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "in the app"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "In the Home app: Add Accessory → More options, and type the code."
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "In the Home app: Add Accessory, then point the camera at this QR code — or type the code."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "In the print dialog:"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "In the trolley"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Includes AI: photo suggestions, Ask Ferret, documents read and search by meaning."
+msgstr ""
+
+#: src/Boxes.tsx
+#: src/Catalog.tsx
+#: src/Places.tsx
+msgid "Inside"
+msgstr ""
+
+#: src/App.tsx
+msgid "Inside {name}"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Install"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Insurance"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Insurance agent"
+msgstr ""
+
+#: src/Nav.tsx
+#: src/PayOff.tsx
+msgid "Insurance coverage"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Insurance paid"
+msgstr ""
+
+#: src/Nav.tsx
+#: src/Report.tsx
+msgid "Insurance report"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Invitation for <0>{email}</0>"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Invitation link"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Invitation on its way to <0>{email}</0>"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "Invitation to {householdName}"
+msgstr ""
+
+#: src/Household.tsx
+#: src/Setup.tsx
+msgid "Invite"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Invite to {householdName}"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Invite your household"
+msgstr ""
+
+#: src/App.tsx
+msgid "Is it this?"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "it"
+msgstr ""
+
+#: src/Server.tsx
+msgid "It also works from the server: <0>docker compose exec ferret node dist/cli.js admin their@email</0>"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "It cost us"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "It counts"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "It covers"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "It has expired."
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "It holds your token, so Ferret keeps it encrypted and won't show it again. <0>Every service's format</0>"
+msgstr ""
+
+#: src/Server.tsx
+msgid "It isn't set, so signing in works from the local address Ferret is opened at (an IP address or a name like umbrel.local, not a domain name) — but links it sends (invitations, password resets, share links, calendar feeds) point to <0>{publicUrl}</0>, and passkeys and single sign-on won't work. Set <1>PUBLIC_URL</1> in Ferret's settings — probably to <2>{here}</2> — and restart it."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "It leaves your lists, totals and the insurance report, and its maintenance stops — but it keeps its page, photos and history, and you can bring it back."
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "It may have been deleted — Recently deleted keeps things for 30 days — or it belongs to another household."
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "It may have been removed, or it belongs to another household."
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "It opened another app, or asked to open Chrome?"
+msgstr ""
+
+#: src/Install.tsx
+msgid "It opens full screen, like any app, and can remind you when things are due."
+msgstr ""
+
+#: src/Install.tsx
+msgid "It opens full screen, like any app, and can remind you when things are due. Add it first, then sign in there."
+msgstr ""
+
+#: src/Shares.tsx
+msgid "It opens only where Ferret can be reached: if Ferret is on your home network only, the person needs to be on it (or your VPN) too."
+msgstr ""
+
+#: src/Maintenance.tsx
+#: src/Usage.tsx
+msgid "It says now"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "It was cancelled."
+msgstr ""
+
+#: src/Invite.tsx
+msgid "It was declined."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "It was stolen"
+msgstr ""
+
+#: src/Household.tsx
+msgid "It works for two weeks, and only for that email address — copy or share it to send it another way too."
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid "It's {timeIn} there now."
+msgstr ""
+
+#: src/App.tsx
+msgid "It's a box"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "It's a box (other things go in it)"
+msgstr ""
+
+#: src/App.tsx
+msgid "It's a label — put it on something I have"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "It's already been accepted."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "It's back"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "it's on several things — which?"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "It's wherever the box is"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "It's your only household, so <0>your account is deleted too</0>, and you're signed out."
+msgstr ""
+
+#: src/ItemPage.tsx
+#: src/Maintenance.tsx
+#: src/Report.tsx
+#: src/ScanSession.tsx
+msgid "Item"
+msgstr ""
+
+#: src/Report.tsx
+msgid "Items"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Its {itemCount} things keep what's filled in."
+msgstr ""
+
+#: src/Collections.tsx
+msgid "its collection"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Its name"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Its own labels"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Its own property, “{name}”"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Its password"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Its QR code, or the code as printed"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "its QR label ({code})"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Its settings page"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Jewelry & watches"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Jobs"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Join {household} on Ferret"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Join {household} on Ferret:"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "Join {householdName}"
+msgstr ""
+
+#: src/App.tsx
+msgid "Join your household"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+#: src/Server.tsx
+msgid "just now"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Just open it"
+msgstr ""
+
+#: src/Boxes.tsx
+#: src/Collections.tsx
+#: src/Deleted.tsx
+#: src/Duplicates.tsx
+#: src/Household.tsx
+#: src/Import.tsx
+#: src/ItemEditor.tsx
+#: src/Maintenance.tsx
+#: src/Notifications.tsx
+#: src/Pairing.tsx
+#: src/Places.tsx
+#: src/RoomScan.tsx
+#: src/Settings.tsx
+#: src/Shares.tsx
+#: src/Stock.tsx
+#: src/Templates.tsx
+#: src/Walkthrough.tsx
+msgid "Keep"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Keep at least"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Keep at least {min}"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Keep at least {min} — on the shopping list"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Keep going: photos and scans wait on this phone and go up to {householdName} by themselves when there's signal again."
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Keep it private: anyone with the link can see your maintenance tasks. <0>Trouble adding it?</0>"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Keep your plumber, electrician and HVAC company here — one tap to call, and a record of every job and what it cost."
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Kept in"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Key file command"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Key file made {formatTime}, in"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Keys"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Kilometres"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Kind"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Kitchen, garage, shelves and closets inside them."
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Label"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Label (optional)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Label {code}"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Label {shown} — show, print or change"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Labels"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Labels · {name}"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Landscaper"
+msgstr ""
+
 #: src/Language.tsx
 msgid "Language"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Last 30 days"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Last 7 days"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Last 90 days"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Last backup {when}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Last backup failed: {when}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Last backup: {when}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Last changed"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "last day"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Last reminder {formatDay}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Last scanned"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "last used {date}"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Later"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Leave"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Leave empty:"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Leave it out"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Leave out"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Leave out things that cost less than"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Leave this household"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Leave?"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Lend or borrow {itemName}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Lend or borrow…"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Lend something from its page (Lend or borrow…) and it's listed here until it's back — with a reminder email to whoever has it, if you like."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Lending"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Lent"
+msgstr ""
+
+#: src/AttentionBell.tsx
+#: src/Loans.tsx
+#: src/Nav.tsx
+msgid "Lent & borrowed"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Lent out"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Lent to {person}"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Let AI fill in"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Let AI fill in, by default"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Let Claude (or your own scripts) look things up and keep {householdName}'s inventory up to date. A key only works for this household, and you can revoke it any time."
+msgstr ""
+
+#: src/App.tsx
+msgid "Light"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Like it? <0/> — on a computer at home, so your things never leave it."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Line {line}"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Line {line}: {name}"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Link"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Link {number} address"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Link {number} label"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Links"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Maintenance.tsx
+msgid "List"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Lists"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+#: src/PlanUsage.tsx
+msgid "Loading"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Locksmith"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Log it"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Long-lived access token"
+msgstr ""
+
+#: src/Server.tsx
+msgid "look after this server: its backups, and their alerts in the bell. It's one person at a time — you can hand it to someone else with an account here."
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Look up"
+msgstr ""
+
+#: src/App.tsx
+msgid "Looking through your things…"
+msgstr ""
+
+#: src/App.tsx
+msgid "Looking up"
+msgstr ""
+
+#: src/Product.tsx
+msgid "Looking up barcode {barcode}…"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Looks right"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Lost"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Lost for good without a copy: nothing uploaded can be opened."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Lost it"
+msgstr ""
+
+#: src/App.tsx
+msgid "Lost your phone? Use a backup code"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "made {date}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Made by Ferret"
+msgstr ""
+
+#: src/ItemPage.tsx
+#: src/TabBar.tsx
+msgid "Main"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Main menu"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "maintenance"
+msgstr ""
+
+#: src/AttentionBell.tsx
+#: src/ItemPage.tsx
+#: src/Maintenance.tsx
+#: src/Nav.tsx
+#: src/Overview.tsx
+#: src/TabBar.tsx
+msgid "Maintenance"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Maintenance by use"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Make {trim} the server admin?"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Make a key file"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Make a new label"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Make a new link? Calendars subscribed to the current one stop updating until you subscribe again."
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Make it the main photo"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Make new codes"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Make the box"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Make the link"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Maker"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Manage billing"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Map"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "Map of {addr}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Mark {title} done"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Mark a task done and choose them as who did it, and the job shows up here."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Mark done"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Marks it done."
+msgstr ""
+
+#: src/ItemRow.tsx
+msgid "Matched by meaning"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "MCP server URL"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Member"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Merge"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Merge two things"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Merge…"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Miles"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Mine, lent to someone"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Missing"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "mm"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/ImportHomeAssistant.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+#: src/Product.tsx
+#: src/Suggestions.tsx
+#: src/Walkthrough.tsx
+msgid "Model"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Month"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "months"
+msgstr ""
+
+#: src/Nav.tsx
+#: src/TabBar.tsx
+msgid "More"
+msgstr ""
+
+#: src/Currency.tsx
+msgid "Most used"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Overview.tsx
+msgid "Most valuable"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Move"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Move {things}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Move to…"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/App.tsx
+#: src/Catalog.tsx
+#: src/Collections.tsx
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/ImportHomeAssistant.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+#: src/Notifications.tsx
+#: src/PayOff.tsx
+#: src/Places.tsx
+#: src/Product.tsx
+#: src/Providers.tsx
+#: src/Server.tsx
+#: src/Settings.tsx
+#: src/Suggestions.tsx
+#: src/Templates.tsx
+msgid "Name"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Name it yourself."
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Name of thing {number}"
+msgstr ""
+
+#: src/App.tsx
+msgid "Name your household"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Needs attention"
+msgstr ""
+
+#: src/lib/api.ts
+msgid "Network error — check your connection and try again"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Never"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Never by itself: merging duplicates, values or replacement costs, renaming what you named, marking things gone, or maintenance schedules — those always wait for you. <0>See what it filled in</0>"
+msgstr ""
+
+#: src/App.tsx
+#: src/ScanSession.tsx
+msgid "Never mind"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "never used"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "New"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "New API key"
+msgstr ""
+
+#: src/Security.tsx
+msgid "New backup codes"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "New category"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "New condition"
+msgstr ""
+
+#: src/App.tsx
+msgid "New here? <0>Create an account</0>"
+msgstr ""
+
+#: src/NewHousehold.tsx
+msgid "New household"
+msgstr ""
+
+#: src/App.tsx
+#: src/Nav.tsx
+msgid "New household…"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "New item"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "New key"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "New label {code}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "New maintenance task"
+msgstr ""
+
+#: src/App.tsx
+msgid "New password"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "New place: {where} › {newPath}"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "New reading ({unit}"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "New service provider"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "New template"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Newest"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Next"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Next due"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Next due by date"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Next month"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid "Next photo"
+msgstr ""
+
+#: src/Server.tsx
+msgid "No backup has reported yet."
+msgstr ""
+
+#: src/Server.tsx
+msgid "No backup yet — the first runs tonight, or now if you ask."
+msgstr ""
+
+#: src/Install.tsx
+msgid "No bar at the bottom? Tap the very bottom of the screen and it comes back."
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "No barcode found in that photo. Try again, closer and in good light."
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "No boxes yet — mark an item as a box"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "No categories yet — add them under Categories & tags"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "No categories yet. Start with a set made for home insurance, and change it as you like."
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Report.tsx
+#: src/RoomScan.tsx
+msgid "No category"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "No category matches that"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "No category yet"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "No changes ticked"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "No codes yet — scanning one can count it in or out."
+msgstr ""
+
+#: src/ItemPage.tsx
+#: src/ItemRow.tsx
+msgid "No details yet"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "No duplicates found"
+msgstr ""
+
+#: src/Server.tsx
+msgid "No errors."
+msgstr ""
+
+#: src/Templates.tsx
+msgid "No fields yet"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "No floor"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "No item"
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "No items yet"
+msgstr ""
+
+#: src/Report.tsx
+msgid "No items yet."
+msgstr ""
+
+#: src/Providers.tsx
+msgid "No jobs recorded yet"
+msgstr ""
+
+#: src/Server.tsx
+msgid "No key file made yet."
+msgstr ""
+
+#: src/Settings.tsx
+msgid "No keys yet. Make one to connect Claude."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "No longer have {name}?"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "No longer have it?"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "No longer in Home Assistant ({count})"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "No maintenance tasks name them yet — choose them under \"Who does it\" on a task."
+msgstr ""
+
+#: src/App.tsx
+#: src/Combobox.tsx
+msgid "No matches"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "No more reminders will be sent."
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "No particular place"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "No photo yet"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "No photos yet. A photo makes it easy to recognise later."
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "No place matches that"
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "No places yet — add them under Places"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "No receipt or manual"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "No reminders sent yet"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "No room in Home Assistant"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "No rooms yet — add them under <0>Places</0>"
+msgstr ""
+
+#: src/App.tsx
+#: src/Places.tsx
+msgid "No rooms yet."
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "No tags yet."
+msgstr ""
+
+#: src/Templates.tsx
+msgid "No templates yet. Start with ones for the usual collections, and change them as you like."
+msgstr ""
+
+#: src/Invite.tsx
+msgid "No thanks"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "No value or price"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "No visits yet. Links with ?ref= show here."
+msgstr ""
+
+#: src/WarrantyList.tsx
+msgid "No warranties yet"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "none"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/Templates.tsx
+msgid "None"
+msgstr ""
+
+#: src/Server.tsx
+msgid "None has worked yet."
+msgstr ""
+
+#: src/Overview.tsx
+msgid "none left"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "None left"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "None left to take"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "None of them has a tag."
+msgstr ""
+
+#: src/Security.tsx
+msgid "None recorded yet — sign-ins are kept from now on."
+msgstr ""
+
+#: src/Server.tsx
+#: src/Warranties.tsx
+msgid "None yet."
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "None yet. Add one, or upload the warranty card and Ferret will read it."
+msgstr ""
+
+#: src/Shares.tsx
+msgid "None yet. Share the insurance report (Report → Share…), or a tag's or category's things, with someone who has no account."
+msgstr ""
+
+#: src/Server.tsx
+msgid "None."
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Normally what the AI reads from photos and receipts waits as a suggestion for you to apply. Switch a kind on and it fills in by itself — only empty fields, only what it read plainly, each marked until someone checks it, and each can be undone."
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Not a duplicate"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Not a place in Ferret"
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid "Not chosen (the server's: {serverTimeZone})"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Not decided yet"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Not emailed — send them the link yourself"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Not emailed yet"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Not enough parts left by then"
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "Not found"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Not in 6 months"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Not in a box"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Not in a month"
+msgstr ""
+
+#: src/Report.tsx
+msgid "Not in a place"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Not in a place yet"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Not in a room"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Not in a year"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Overview.tsx
+msgid "Not in any place"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Not in this plan"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Not in your lists or totals any more."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Not mine"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Not needed"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Not now"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "not opened yet"
+msgstr ""
+
+#: src/Report.tsx
+msgid "Not placed"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Not recorded"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Not set"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Not set up on this server yet (it needs the Apprise container and APPRISE_URL)."
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Not set up on this server yet (it needs VAPID keys)."
+msgstr ""
+
+#: src/Import.tsx
+msgid "Not what you wanted? Undo it under Import → Recent imports."
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Not worth keeping"
+msgstr ""
+
+#: src/Gone.tsx
+#: src/Loans.tsx
+#: src/Maintenance.tsx
+#: src/PayOff.tsx
+msgid "Note"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Note (optional)"
+msgstr ""
+
+#: src/Claims.tsx
+#: src/Duplicates.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+#: src/Maintenance.tsx
+#: src/Places.tsx
+#: src/Providers.tsx
+msgid "Notes"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Nothing"
+msgstr ""
+
+#: src/App.tsx
+#: src/Everything.tsx
+msgid "Nothing added this way yet."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Nothing asked yet — the allowance shows after the first lookup."
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "Nothing deleted lately"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "nothing due"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Nothing due soon"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Nothing due that day."
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Nothing due this month."
+msgstr ""
+
+#: src/App.tsx
+msgid "Nothing has barcode"
+msgstr ""
+
+#: src/App.tsx
+msgid "Nothing has barcode <0>{code}</0> yet. What is it?"
+msgstr ""
+
+#: src/App.tsx
+msgid "Nothing here matches that — try Search everywhere."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Nothing here yet"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Nothing here yet — + Add puts in your first thing."
+msgstr ""
+
+#: src/App.tsx
+msgid "Nothing here yet — add your first item above."
+msgstr ""
+
+#: src/Offline.tsx
+msgid "nothing in Ferret has this code."
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Nothing in it yet — add the first one."
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Nothing is limited on this server — these are just this month's numbers."
+msgstr ""
+
+#: src/App.tsx
+msgid "Nothing kept here yet."
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Nothing left to review"
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "Nothing matches \"{q}\""
+msgstr ""
+
+#: src/App.tsx
+msgid "Nothing matches that yet. Try fewer words, or what it's for (“something to cut wood”)."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Nothing matches these filters."
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Nothing needs attention"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Nothing new"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Nothing new to import"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Nothing on the want list — add the ones you're still looking for."
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Nothing overdue, ending soon or waiting on you."
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Nothing photographed in {roomName} yet."
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Nothing scheduled — track filters, servicing and the like."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Nothing scheduled. Upload the manual and Ferret will suggest what it needs."
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Nothing to buy"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Nothing to check"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Nothing to keep up with yet"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Nothing to review yet"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Nothing yet."
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Nothing yet. Add your ntfy topic, Pushover or anything else Apprise can send to."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Nothing's out"
+msgstr ""
+
+#: src/WarrantyList.tsx
+msgid "Nothing's under warranty right now. Add one from a thing's page, under Warranties."
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Notifications"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Notifications are blocked for Ferret — allow them in your browser or iPhone Settings"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Now {reading}"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Now unknown"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Numbers, Excel or Google Sheets: File → Export / Download → CSV."
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Odometer"
+msgstr ""
+
+#: src/Security.tsx
+#: src/Server.tsx
+msgid "Off"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Offline"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Often $2,500."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Often $200."
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "OK"
+msgstr ""
+
+#: src/Security.tsx
+#: src/Server.tsx
+#: src/Usage.tsx
+msgid "On"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "on a room walkthrough"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "On for this device: one notification a day when maintenance is due or a warranty ends within a week."
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "On iPhone: tap Share → Add to Home Screen, open Ferret from your Home Screen, then turn this on there."
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "On the list"
+msgstr ""
+
+#: src/Server.tsx
+msgid "On the server, in Ferret's folder (where <0>compose.yaml</0> is), with the same <1>.env</1> — its <2>FILES_KEY</2> opens the backup (lost it? <3>cli.js key recover</3> gets it back from a key file):"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "On the shopping list"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "On the shopping list at or below this"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "On the shopping list when it runs out"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "On the want list (don't have it yet)"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "On the want list for"
+msgstr ""
+
+#: src/Currency.tsx
+msgid "On this device, 1234.50 reads"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "On this page"
+msgstr ""
+
+#: src/Security.tsx
+msgid "On this phone? Tap the code to open your authenticator app. Or type this key:"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "On: due maintenance shows up in your calendar, with an alert at 9:00 on the day. Add it on each device you want it on."
+msgstr ""
+
+#: src/lib/words.ts
+msgid "once"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Once a week, everything in the bell — not just what's urgent: possible recalls, coverage gaps, claims waiting, things to name, what's lent out. It comes where your reminders do, and by email if you like."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Once a week, everything in the bell — not just what's urgent: possible recalls, coverage gaps, claims waiting, things to name, what's lent out. It comes where your reminders do."
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "One fewer"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "one interval from today"
+msgstr ""
+
+#: src/App.tsx
+msgid "One moment…"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "One more"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "One photo of a room: Ferret lists what's in it"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "One thing per photo. Keep going — they upload while you work."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Ones that aren't there yet are made, e.g. \"Garage › Shelf 2\"."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Online barcode lookups"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Only {left} recorded — it won't go below 0."
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid "Only a small copy of this photo is kept."
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Only the server admin sees this."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Only the usual authorities."
+msgstr ""
+
+#: src/Everything.tsx
+#: src/ScanSession.tsx
+msgid "Open"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Open a box or place to print its label."
+msgstr ""
+
+#: src/Browse.tsx
+msgid "Open in Maps"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Open in your authenticator app"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Open it"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid "Open the original of {filename}"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Open until {longDate}"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Open what's scanned"
+msgstr ""
+
+#: src/App.tsx
+msgid "Open your authenticator app and type the code for Ferret."
+msgstr ""
+
+#: src/Install.tsx
+msgid "Open your browser's menu and tap {SHARE}"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Opens your Calendar app, which asks to subscribe — say yes."
+msgstr ""
+
+#: src/App.tsx
+msgid "or"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Or a place"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Or create your own account below: it and its households are deleted after {visitorDays} days. Or <0/> at home."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Or paste it"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Or pick from your photos"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Or put something already in Ferret in it"
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "Or search for it: press <0>/</0> on the home screen."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Order"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Organise"
+msgstr ""
+
+#: src/Places.tsx
+#: src/TimeZone.tsx
+msgid "Other"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Other apps"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Other people are in {join}. Make one of them its owner (Settings → Household), or delete it, first."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Other thermal printers"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Other ways"
+msgstr ""
+
+#: src/Maintenance.tsx
+#: src/MaintenanceCalendar.tsx
+msgid "Overdue"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Owner"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Pages"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Paid"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "paid {amount}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Pairing code"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Pairing codes"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Part numbers, how-to, who to call…"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Parts of the demo"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Passkey"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Passkeys"
+msgstr ""
+
+#: src/App.tsx
+#: src/Demo.tsx
+#: src/Security.tsx
+msgid "Password"
+msgstr ""
+
+#: src/App.tsx
+msgid "Password changed"
+msgstr ""
+
+#: src/Gone.tsx
+#: src/Nav.tsx
+msgid "Past things"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Paste it, then <0>Subscribe</0> and <1>OK</1>"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Paused: nothing new comes through to your calendar until your plan has calendar feeds again."
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "People"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Period"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Personal property (Coverage C)"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Pest control"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Phone"
+msgstr ""
+
+#: src/Overview.tsx
+#: src/Report.tsx
+msgid "Photo"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+#: src/RoomScan.tsx
+msgid "Photo {number}"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Photo {number} of the room"
+msgstr ""
+
+#: src/RoomScan.tsx
+#: src/Walkthrough.tsx
+msgid "Photograph"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Photograph a room's things one after another — each photo becomes an item there. Then go through them: Ferret reads each photo and suggests what it is."
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Photograph a room's things, then name them"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Photograph more"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/ItemPage.tsx
+#: src/PhotoViewer.tsx
+msgid "Photos"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Photos and files"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Photos so far"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Photos, documents, warranties, maintenance, stock, labels, loans, tags and history all move to the one kept. {name} goes to Recently deleted, and its old links lead here."
+msgstr ""
+
+#: src/Report.tsx
+msgid "Photos, receipts and manuals are kept in Ferret and can be provided on request."
+msgstr ""
+
+#: src/Report.tsx
+msgid "Photos, receipts and manuals open from each item's links."
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Photos, receipts and manuals too<0>The proof an insurer asks for. Off: just the list.</0>"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Pick a place"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Pick a room"
+msgstr ""
+
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+msgid "Place"
+msgstr ""
+
+#: src/Browse.tsx
+#: src/Nav.tsx
+#: src/Places.tsx
+#: src/Setup.tsx
+#: src/TabBar.tsx
+msgid "Places"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Places named in the file go in"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Plain"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Plain paper — 6 per page, cut out and tape on"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Plan & usage"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Plumber"
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "Point the camera at the barcode."
+msgstr ""
+
+#: src/Places.tsx
+msgid "Policy number, gate code, who has keys…"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Pool & spa"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Poor"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Poor condition"
+msgstr ""
+
+#: src/Duplicates.tsx
+#: src/Nav.tsx
+msgid "Possible duplicates"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Possibly recalled — check the model"
+msgstr ""
+
+#: src/Report.tsx
+msgid "Prepared {longDate}"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Preview:"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Previous"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Previous month"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid "Previous photo"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/Duplicates.tsx
+#: src/Suggestions.tsx
+#: src/Walkthrough.tsx
+msgid "Price paid"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Price paid (each)"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Price paid (total)"
+msgstr ""
+
+#: src/Boxes.tsx
+#: src/Labels.tsx
+msgid "Print"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Print at <0>100% / Actual size</0> (not \"Fit to page\"), with no headers or footers. Try a plain page first and hold it against a label sheet to the light. If it's off, nudge it:"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Print labels"
+msgstr ""
+
+#: src/Report.tsx
+#: src/Shared.tsx
+msgid "Print or save as PDF"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Printing tips and alignment"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Probably not things ({count})"
+msgstr ""
+
+#: src/Product.tsx
+msgid "Product photos — tap one to add it"
+msgstr ""
+
+#: src/Report.tsx
+msgid "Properties"
+msgstr ""
+
+#: src/Places.tsx
+#: src/Report.tsx
+msgid "Property"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Provider"
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "Provider (e.g. KitchenAid, Geek Squad)"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Providers"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/lib/words.ts
+msgid "Purchase date"
+msgstr ""
+
+#: src/Suggestions.tsx
+#: src/Walkthrough.tsx
+msgid "Purchased"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Push notifications on this device"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Push notifications: signs what Ferret sends."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Push notifications: the key browsers subscribe with."
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Push on this device"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Push public key (public — for tools that send to Ferret's subscribers)"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Put Ferret on your Home Screen"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Put in"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Put some in for each scan"
+msgstr ""
+
+#: src/App.tsx
+#: src/Labels.tsx
+msgid "Put the label on it"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Puts one in your Amazon cart (Amazon asks you to sign in if you aren't)"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Puts them in your Amazon cart, as many as above (Amazon asks you to sign in if you aren't)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "QR code for {text}"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "QR label"
+msgstr ""
+
+#: src/Labels.tsx
+#: src/Nav.tsx
+msgid "QR labels"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Qty"
+msgstr ""
+
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+msgid "Quantity"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Ran out {longDate}"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "Read by AI from your photos and documents — check before applying."
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Read devices"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Read-only"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Reading the photo…"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Ready for a claim?"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Rebuild a data folder from the newest copy (or name one from the list above at the end):"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Recall"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Recall checks"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Recalled"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Receipt or manual"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Receipts, manuals and warranties go here."
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Recent changes"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Recent imports"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Recent sign-ins"
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "Recently changed"
+msgstr ""
+
+#: src/Deleted.tsx
+#: src/Nav.tsx
+#: src/NotFound.tsx
+msgid "Recently deleted"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Refresh"
+msgstr ""
+
+#: src/ItemRow.tsx
+msgid "related"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remade by Ferret: each device turns push on again."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Remind them"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Reminder settings"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Reminders"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Reminding {email} {every}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Reminding {email} {every} · last {date}"
+msgstr ""
+
+#: src/Claims.tsx
+#: src/Collections.tsx
+#: src/Household.tsx
+#: src/ItemEditor.tsx
+#: src/Maintenance.tsx
+#: src/Notifications.tsx
+#: src/Offline.tsx
+#: src/Pairing.tsx
+#: src/Places.tsx
+#: src/Security.tsx
+#: src/Server.tsx
+#: src/Stock.tsx
+#: src/Templates.tsx
+msgid "Remove"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Remove — it was a mistake"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove “{name}"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Remove “{name}”? It won't sign in to Ferret any more."
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Remove {filename}"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Remove {filename}?"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Remove {k}"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Household.tsx
+#: src/Notifications.tsx
+#: src/Places.tsx
+msgid "Remove {name}"
+msgstr ""
+
+#: src/Household.tsx
+#: src/PayOff.tsx
+msgid "Remove {name}?"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Remove {name}? Its items and subcategories move up a level."
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Remove {name}? Their past jobs stay on the tasks."
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "Remove {provider} warranty"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Remove {reading} on {date}?"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Remove a tag"
+msgstr ""
+
+#: src/Fields.tsx
+msgid "Remove field {label}"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Remove it?"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Remove it? The {owned} you have stay in Ferret; the {wanted} on the want list go to Recently deleted."
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Remove it? The {owned} you have stay in Ferret."
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Remove item"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Remove link {number}"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Remove photo {number}"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Remove provider"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Everything.tsx
+msgid "Remove tag"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Remove tag {tag}"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Remove the {kind} code for {title}"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Remove the reading of {describeUsage}"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Remove the tag {name}? The items stay."
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Remove this claim?"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Remove this collection"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Remove this limit"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Remove this loan? (Use “It's back” when it's back.)"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Remove this template"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Remove this warranty?"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove…"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Rename"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Rename household"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Rename or move {name}"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Rename or remove {name}"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Rental"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Replaced, sold, or just taken out of Home Assistant? Open one and use Edit → No longer have it? if it's gone."
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "Replacement cost"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "Reset link"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Resolved"
+msgstr ""
+
+#: src/Offline.tsx
+#: src/ScanSession.tsx
+msgid "Restock"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Restock (put in)"
+msgstr ""
+
+#: src/Deleted.tsx
+msgid "Restore"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Restore command"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Retry"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Retry upload"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Return"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+#: src/Suggestions.tsx
+msgid "Return by"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "return by {date}"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Return by {when} — {left}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Return-by dates"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Review"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Review {room}"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Revoke"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Revoke {name}"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Revoke key"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Right"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Role for {name}"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Roofer"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Room"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "room scan"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Room scan"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Room scan saved"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Room scan saved — Ferret looks at it once there's signal, and the bell says when it's ready."
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Room scans"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Room scans need the vision model, which isn't set up on this server."
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Room scans use AI, which isn't part of the {name} plan."
+msgstr ""
+
+#: src/App.tsx
+#: src/ImportHomeAssistant.tsx
+msgid "Rooms"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Rooms go in"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Rooms, closets, shelves, boxes — as fine as you like"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Run your own Ferret"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Safari's"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/Claims.tsx
+#: src/Collections.tsx
+#: src/Everything.tsx
+#: src/Household.tsx
+#: src/ItemEditor.tsx
+#: src/Loans.tsx
+#: src/Maintenance.tsx
+#: src/PayOff.tsx
+#: src/Places.tsx
+#: src/Providers.tsx
+#: src/Stock.tsx
+#: src/Templates.tsx
+msgid "Save"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Save & next"
+msgstr ""
+
+#: src/Pairing.tsx
+#: src/ScanSession.tsx
+msgid "Save code"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Save crop"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Save these backup codes. Each one signs you in once if you lose your phone."
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "Save warranty"
+msgstr ""
+
+#: src/App.tsx
+msgid "Saved in Ferret before"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Saved the pairing code to {name}"
+msgstr ""
+
+#: src/SpeakButton.tsx
+msgid "Say it"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Say what it is"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Scale 100% (not \"Fit\"), margins None, no headers or footers."
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Scan"
+msgstr ""
+
+#: src/App.tsx
+#: src/Nav.tsx
+#: src/Scanner.tsx
+msgid "Scan a barcode"
+msgstr ""
+
+#: src/Nav.tsx
+#: src/RoomScan.tsx
+msgid "Scan a room"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Scan document"
+msgstr ""
+
+#: src/Boxes.tsx
+#: src/Stock.tsx
+msgid "Scan it"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Scan it with the camera to open {name}. Printing it again always gives the same code."
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Scan its QR code"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Scan of {at}"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Scan the QR sticker on the device, its box or its manual — or type the 8-digit (HomeKit) or 11-digit (Matter) code."
+msgstr ""
+
+#: src/App.tsx
+msgid "Scan this room"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Scan this room (up to 5 photos)"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Scan this with your authenticator app, then type the code it shows."
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Scan to add"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Scan what's inside"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "scanned"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Scanned {when}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Scanned most recently"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Scanning one of these opens {name} too."
+msgstr ""
+
+#: src/Overview.tsx
+msgid "script"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Scroll down and tap {ADD} — if it isn't there, tap <0>Edit Actions</0> or <1>More</1> first."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Seals every photo, document and pairing code, and the backups."
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Search by words; no AI."
+msgstr ""
+
+#: src/App.tsx
+msgid "Search everywhere"
+msgstr ""
+
+#: src/App.tsx
+msgid "Search in {name}…"
+msgstr ""
+
+#: src/App.tsx
+msgid "Search in {tag}…"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Search indexes rebuild themselves on start."
+msgstr ""
+
+#: src/Nav.tsx
+#: src/Search.tsx
+msgid "Search your stuff"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Searches"
+msgstr ""
+
+#: src/Search.tsx
+msgid "Searching"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Security"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "See all"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "See them all"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "seen {times} times in HA"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Select {name}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Select everything on this page"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Selected"
+msgstr ""
+
+#: src/Notifications.tsx
+#: src/Reminders.tsx
+msgid "Send a test"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Send again"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Send invitation"
+msgstr ""
+
+#: src/App.tsx
+msgid "Send it again"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Send it on"
+msgstr ""
+
+#: src/App.tsx
+msgid "Send the link again"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Send this to <0>{email}</0>"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Send…"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Sending by email…"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Sent — check that it arrived."
+msgstr ""
+
+#: src/App.tsx
+msgid "Sent again."
+msgstr ""
+
+#: src/Household.tsx
+msgid "Sent by email {formatDate}"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Suggestions.tsx
+#: src/Walkthrough.tsx
+msgid "Serial"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Serial {serialNumber}"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/Duplicates.tsx
+#: src/ImportHomeAssistant.tsx
+#: src/ItemEditor.tsx
+#: src/lib/words.ts
+msgid "Serial number"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Serial number (valuable things)"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Serial: {serialNumber}"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Server"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Server admin"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Service"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Service errors"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Service provider"
+msgstr ""
+
+#: src/Maintenance.tsx
+#: src/Nav.tsx
+msgid "Service providers"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Set <0>BACKUP_DIR</0> in Ferret's <1>.env</1> to a folder on another machine — e.g. an NFS share on the NAS, mounted into the container — and restart Ferret. Keep <2>FILES_KEY</2> in your password manager: a backup can't be opened without it."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Set Ferret's address (PUBLIC_URL)"
+msgstr ""
+
+#: src/App.tsx
+msgid "Set new password"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Set the category"
+msgstr ""
+
+#: src/Server.tsx
+#: src/Settings.tsx
+msgid "Settings"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Settings sections"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "Setup code {join}"
+msgstr ""
+
+#: src/Household.tsx
+#: src/Install.tsx
+#: src/Shopping.tsx
+msgid "Share"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Share {what}"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Share button"
+msgstr ""
+
+#: src/lib/words.ts
+#: src/Shares.tsx
+msgid "Share links"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Share…"
+msgstr ""
+
+#: src/Shared.tsx
+msgid "Shared links work for a while, then stop. Ask whoever sent it for a new one."
+msgstr ""
+
+#: src/AuthLayout.tsx
+msgid "Shared with your household, kept on your own server, files encrypted."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Sheets (any printer)"
+msgstr ""
+
+#: src/Nav.tsx
+#: src/Overview.tsx
+#: src/Shopping.tsx
+msgid "Shopping list"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/Pairing.tsx
+msgid "Show"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Show {filename} full screen"
+msgstr ""
+
+#: src/History.tsx
+msgid "Show all"
+msgstr ""
+
+#: src/Everything.tsx
+#: src/Maintenance.tsx
+msgid "Show as"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Show it to"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Show me where"
+msgstr ""
+
+#: src/History.tsx
+msgid "Show older"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Show photo {number}"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Show the menu's names"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Show the photo full screen"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+msgid "Show the whole month"
+msgstr ""
+
+#: src/App.tsx
+msgid "Sign in"
+msgstr ""
+
+#: src/App.tsx
+msgid "Sign in again"
+msgstr ""
+
+#: src/App.tsx
+msgid "Sign in to find your stuff."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Sign in to the demo"
+msgstr ""
+
+#: src/App.tsx
+msgid "Sign in with {name}"
+msgstr ""
+
+#: src/App.tsx
+msgid "Sign in with a passkey"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Sign in with Face ID, Touch ID, Windows Hello or a security key instead of your password — nothing to type, and nothing a fake site can steal. A passkey counts as both steps of two-step sign-in."
+msgstr ""
+
+#: src/App.tsx
+msgid "Sign in with the password you chose to confirm your email."
+msgstr ""
+
+#: src/App.tsx
+#: src/Nav.tsx
+#: src/Security.tsx
+msgid "Sign out"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Sign out {label}"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "Sign out and switch account"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Sign out everywhere else"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Sign out to make your own"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Signing in takes your password and a code from your authenticator app. Devices you trust skip the code for 30 days."
+msgstr ""
+
+#: src/App.tsx
+msgid "Signing you in…"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Signs sign-ins, and seals two-step sign-in."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Silverware"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Since"
+msgstr ""
+
+#: src/App.tsx
+msgid "Single sign-on didn't work"
+msgstr ""
+
+#: src/App.tsx
+msgid "Single sign-on didn't work — try again, or sign in with your password."
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Skip"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Small copy only"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "So everyone can find things — viewers can only look."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Sold"
+msgstr ""
+
+#: src/Gone.tsx
+#: src/lib/words.ts
+msgid "Sold for"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Sold it"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Sold on"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Some policies limit these."
+msgstr ""
+
+#: src/History.tsx
+#: src/Overview.tsx
+#: src/Shared.tsx
+msgid "Someone"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Someone's, borrowed by us"
+msgstr ""
+
+#: src/App.tsx
+msgid "Something else"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Something else…"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Something in Ferret"
+msgstr ""
+
+#: src/App.tsx
+#: src/Household.tsx
+#: src/Invite.tsx
+#: src/Offline.tsx
+#: src/Security.tsx
+msgid "Something went wrong"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Something you already have adds to its count"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Sort with AI"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Sorted with AI"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Sorting didn't work"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Sorting… {progress}"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Square (as photos show in lists)"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Start"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Start a <0>collection</0> (coins, cards, dolls), or tag things (camping, Christmas, Grandma's china) and each tag gathers them here."
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Start a collection"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Start again"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Start from one of these:"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Start from the suggested ones and change them later."
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Start it"
+msgstr ""
+
+#: src/App.tsx
+msgid "Start keeping track of everything you own."
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Start tracking"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Starting…"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Starts in"
+msgstr ""
+
+#: src/Places.tsx
+msgid "State / region"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Status"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Stick a QR label on {name}: scanning it with a phone's camera opens {name} in Ferret, with everything kept there."
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Stick a QR label on {name}: scanning it with a phone's camera opens {name} in Ferret."
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Stock"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Stolen"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Stop counting with {label}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Stop Ferret (<0>docker compose stop ferret</0>), move its data folder aside (the one mounted at <1>/data</1>, <2>FERRET_DATA</2>), put <3>restored</3> in its place, and start it again (<4>docker compose up -d ferret</4>"
+msgstr ""
+
+#: src/SpeakButton.tsx
+msgid "Stop recording"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Stop these reminders"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Stop tracking"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Stop tracking {meter} readings for {name}? Maintenance by use on it stops counting."
+msgstr ""
+
+#: src/Places.tsx
+msgid "Storage unit"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Street address"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Suggest typical upkeep"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Suggest typical upkeep for my things"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Suggested maintenance"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "Suggestion"
+msgstr ""
+
+#: src/Suggestions.tsx
+msgid "Suggestions from your files"
+msgstr ""
+
+#: src/App.tsx
+msgid "Switch household"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Switch one off to stop its cost or its misuse without closing the demo. Changes reach every visitor within seconds."
+msgstr ""
+
+#: src/Collections.tsx
+#: src/Everything.tsx
+msgid "Table"
+msgstr ""
+
+#: src/App.tsx
+#: src/Everything.tsx
+#: src/PayOff.tsx
+msgid "Tag"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Tag {things}"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Tagged {tag}"
+msgstr ""
+
+#: src/Catalog.tsx
+#: src/lib/words.ts
+msgid "Tags"
+msgstr ""
+
+#: src/lib/device.ts
+msgid "Tailscale · {ip}"
+msgstr ""
+
+#: src/Offline.tsx
+#: src/RoomScan.tsx
+#: src/Walkthrough.tsx
+msgid "Take a photo"
+msgstr ""
+
+#: src/Scanner.tsx
+msgid "Take a photo instead"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Take another"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Take it off"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Take label {code} off"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Take label off"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Take off"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Take one out for each scan"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Take out"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Take photo"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Take this tag off {things}"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Tap"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Tap {SHARE}"
+msgstr ""
+
+#: src/Install.tsx
+msgid "Tap {SHARE} at the top right, beside the address."
+msgstr ""
+
+#: src/Install.tsx
+msgid "Tap {SHARE} in Safari's bar at the very bottom — below Ferret's tabs."
+msgstr ""
+
+#: src/Install.tsx
+msgid "Tap {SHARE} in the address bar, top right."
+msgstr ""
+
+#: src/Install.tsx
+msgid "Tap <0>Add</0>, top right."
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Tap a line to see the items that still need it."
+msgstr ""
+
+#: src/Install.tsx
+msgid "Tap Safari's <0/> at the very bottom right, beside the address — below Ferret's tabs."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Task"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Template"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "Templates"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Thanks — {owner} knows it's back. No more reminders."
+msgstr ""
+
+#: src/App.tsx
+msgid "That code didn't work"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "That doesn't look like a HomeKit or Matter code yet."
+msgstr ""
+
+#: src/FromWeb.tsx
+#: src/Links.tsx
+msgid "That doesn't look like a web address."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "That file has no rows under its header."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "That file is over 20 MB — split it into smaller ones."
+msgstr ""
+
+#: src/App.tsx
+msgid "That link didn't work — it may have expired. Sign in, and we'll offer a new one."
+msgstr ""
+
+#: src/Invite.tsx
+msgid "That link doesn't work"
+msgstr ""
+
+#: src/App.tsx
+msgid "That passkey didn't work"
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "That place isn't here"
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "That property isn't here"
+msgstr ""
+
+#: src/App.tsx
+msgid "That sign-in link didn't work — each one works once, for 15 minutes. Ask for a new one below."
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "That thing isn't here"
+msgstr ""
+
+#: src/Security.tsx
+msgid "The 6-digit code from your authenticator app"
+msgstr ""
+
+#: src/Import.tsx
+msgid "The appliances, TVs, speakers, cameras and network gear it knows — with their maker, model and room."
+msgstr ""
+
+#: src/Install.tsx
+msgid "The browser's"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "The counts are being kept, but can’t be read back from here."
+msgstr ""
+
+#: src/Server.tsx
+msgid "The database and every household's files, copied each night off this server."
+msgstr ""
+
+#: src/Server.tsx
+msgid "The database and every household's files, copied each night to a folder off this machine and checked."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "The demo is paused (DEMO_PAUSED)."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "The demo is resting for now — please come back later."
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "The file says where things are — add your home under <0>Places</0> first, or leave the \"Where it is\" column out."
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "The household's owner manages its plan."
+msgstr ""
+
+#: src/Report.tsx
+msgid "the insurance report"
+msgstr ""
+
+#: src/Server.tsx
+msgid "The last backup failed ({formatTime}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "The last day to return it, from a receipt"
+msgstr ""
+
+#: src/Server.tsx
+msgid "The last one that worked: {formatTime}."
+msgstr ""
+
+#: src/Shares.tsx
+msgid "The link"
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "The link may be mistyped, or from an older version of Ferret."
+msgstr ""
+
+#: src/Server.tsx
+msgid "The newest key file ({formatTime}) holds another FILES_KEY ({keyId}), not the one in use. Make a new one."
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "The photo to name"
+msgstr ""
+
+#: src/DataExport.tsx
+msgid "The photos and documents in it aren't encrypted, so anyone who gets the file can read them. Keep it somewhere safe. With many photos it's large and takes a while."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "The recall notice"
+msgstr ""
+
+#: src/Report.tsx
+msgid "the report for {property}"
+msgstr ""
+
+#: src/App.tsx
+msgid "The same again"
+msgstr ""
+
+#: src/Server.tsx
+msgid "The secrets Ferret needs. Any set in Ferret's settings are used; the rest Ferret made itself and keeps in <0>{file}</0> — never in its backups."
+msgstr ""
+
+#: src/Server.tsx
+msgid "The secrets Ferret needs. Any set in Ferret's settings are used; the rest Ferret made itself and keeps in its data folder — never in its backups."
+msgstr ""
+
+#: src/Security.tsx
+msgid "The server didn't offer an authenticator code"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "The store's last day to take it back — Ferret reminds you the week before."
+msgstr ""
+
+#: src/Collections.tsx
+msgid "The template's details (a coin's year, mint mark, grade…) are the collection's columns, and what you add starts from it."
+msgstr ""
+
+#: src/App.tsx
+msgid "The two passwords don't match"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "The whole household"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Theft is often limited to $1,500."
+msgstr ""
+
+#: src/Server.tsx
+msgid "their account's email"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Their email"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Their email, to remind them (optional)"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Their households"
+msgstr ""
+
+#: src/App.tsx
+msgid "There's no Ferret account for you yet, and Ferret is invite-only — ask someone in your household for an invitation link."
+msgstr ""
+
+#: src/NotFound.tsx
+msgid "There's no page here"
+msgstr ""
+
+#: src/Household.tsx
+msgid "They can…"
+msgstr ""
+
+#: src/Household.tsx
+msgid "They sign up (or in) with this address to join."
+msgstr ""
+
+#: src/Server.tsx
+msgid "They're made outside this server: {where}"
+msgstr ""
+
+#: src/Demo.tsx
+#: src/Overview.tsx
+#: src/PlanUsage.tsx
+msgid "Things"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Things in a box come out of it; a box moved takes what's inside with it."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Things in a category"
+msgstr ""
+
+#: src/App.tsx
+msgid "Things kept here"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Things with a tag"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Things with no value aren't counted, so the real total may be higher."
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Things with the same serial number, the same barcode and name, or descriptions that read nearly the same show up here."
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Things you track show up here when they run out, or drop to the number you keep at least — set it on the item's Stock card."
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "This browser can't crop photos"
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "This browser can't receive push notifications."
+msgstr ""
+
+#: src/Security.tsx
+msgid "This browser can't use passkeys."
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "This can take a few minutes. You can leave — the bell says when it's ready to review."
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "This deletes <0>{householdName}</0> and everything in it, for good. It can't be undone."
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "This deletes your account for good. It can't be undone."
+msgstr ""
+
+#: src/Security.tsx
+msgid "This device"
+msgstr ""
+
+#: src/Currency.tsx
+msgid "This household's money"
+msgstr ""
+
+#: src/Invite.tsx
+msgid "This invitation is for {email}, but you're signed in as {email2}"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "This is"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "This is the Ferret demo: your account and its households are deleted {visitorDays} days after you made them."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "This label isn't on anything yet."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "This label isn't one of yours — or the code was misread. Try scanning again."
+msgstr ""
+
+#: src/Reminders.tsx
+msgid "This link was made before Ferret kept links, so it can't be shown. Reset it to get one you can see here (subscribe again with it)."
+msgstr ""
+
+#: src/App.tsx
+msgid "This link was used already or has expired — ask for a new one from the sign-in screen."
+msgstr ""
+
+#: src/Report.tsx
+msgid "this property"
+msgstr ""
+
+#: src/Security.tsx
+msgid "This replaces your old codes. Your password first."
+msgstr ""
+
+#: src/lib/device.ts
+msgid "This server"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "This was merged into another"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Threw it out"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Throw this one away?"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Thrown out"
+msgstr ""
+
+#: src/ImportCsv.tsx
+#: src/ImportHomeAssistant.tsx
+msgid "Tick all"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Tick its room under Rooms to move it there."
+msgstr ""
+
+#: src/App.tsx
+msgid "Tick the \"I'm a person\" check first."
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Tick what you bought"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Ticked"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Ticked changes are made in Ferret; unticked ones are left as they are, and not offered again."
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid "Time zone"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Tip: a full sheet of 5163 is 10, of 5160 is 30, of 22806 is 12, of 22805 is 24."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "To {person} since {since}"
+msgstr ""
+
+#: src/AttentionBell.tsx
+#: src/Overview.tsx
+#: src/Shopping.tsx
+msgid "To buy"
+msgstr ""
+
+#: src/AttentionBell.tsx
+msgid "To name"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "To replace new"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "To stick on boxes as you pack"
+msgstr ""
+
+#: src/MaintenanceCalendar.tsx
+#: src/Overview.tsx
+msgid "Today"
+msgstr ""
+
+#: src/Server.tsx
+msgid "tomorrow at {time}"
+msgstr ""
+
+#: src/App.tsx
+msgid "Too many requests from here — try again in a minute."
+msgstr ""
+
+#: src/App.tsx
+msgid "Too many tries from here — wait a minute."
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Top level"
+msgstr ""
+
+#: src/Charts.tsx
+msgid "Total"
+msgstr ""
+
+#: src/Report.tsx
+msgid "Total value"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Track filters, servicing, gutters — anything {householdName} does on a schedule. Upload a manual to an item and Ferret suggests what it needs."
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Track miles / hours"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Track stock"
+msgstr ""
+
+#: src/Usage.tsx
+msgid "Track what {name} counts"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Trade"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Tried"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Trust a certificate"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Trust a certificate…"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Trust it"
+msgstr ""
+
+#: src/App.tsx
+msgid "Trust this device for 30 days"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Trusted"
+msgstr ""
+
+#: src/App.tsx
+#: src/Offline.tsx
+msgid "Try again"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Try reading {filename} again"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Try the demo"
+msgstr ""
+
+#: src/Reminders.tsx
+#: src/Security.tsx
+#: src/Shares.tsx
+msgid "Turn off"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Turn off two-step sign-in?"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Turn off…"
+msgstr ""
+
+#: src/Reminders.tsx
+#: src/Security.tsx
+msgid "Turn on"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Turn on two-step sign-in"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Turned off {longDate}"
+msgstr ""
+
+#: src/HumanCheck.tsx
+msgid "Turnstile didn't load"
+msgstr ""
+
+#: src/App.tsx
+#: src/Security.tsx
+msgid "Two-step sign-in"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Two-step sign-in is on"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Type it in"
+msgstr ""
+
+#: src/App.tsx
+msgid "Type one of your backup codes. Each works once."
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Type or scan it"
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "Type to find a box"
+msgstr ""
+
+#: src/Combobox.tsx
+msgid "Type to find an item"
+msgstr ""
+
+#: src/App.tsx
+msgid "Type your email and we'll send a link to choose a new one."
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Typed into the app"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "typical for things like it — check its manual"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "TZe 12 mm tape (40 mm long)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "TZe 18 mm tape (50 mm long)"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "TZe 24 mm tape (60 mm long)"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "undo"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/ScanSession.tsx
+#: src/Stock.tsx
+msgid "Undo"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Undo — remove {items}"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Undo {field}"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Undo…"
+msgstr ""
+
+#: src/Import.tsx
+msgid "undone"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Undone — {quantity} left"
+msgstr ""
+
+#: src/Fields.tsx
+#: src/Maintenance.tsx
+msgid "Unit"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "unknown address"
+msgstr ""
+
+#: src/lib/device.ts
+msgid "Unknown device"
+msgstr ""
+
+#: src/lib/device.ts
+msgid "Unknown network"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "Unnamed key"
+msgstr ""
+
+#: src/ImportCsv.tsx
+#: src/ImportHomeAssistant.tsx
+msgid "Untick all"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "Untick what you don't want and fix anything that's off. Missed something? Tap it on the photo."
+msgstr ""
+
+#: src/Warranties.tsx
+msgid "Until "
+msgstr ""
+
+#: src/Server.tsx
+msgid "Until {formatDate}"
+msgstr ""
+
+#: src/Import.tsx
+msgid "Updated from Home Assistant"
+msgstr ""
+
+#: src/PlanUsage.tsx
+msgid "Upgrade"
+msgstr ""
+
+#: src/SuggestedMaintenance.tsx
+msgid "Upkeep read from your manuals shows up here to add. Ferret can also suggest what things like yours usually need."
+msgstr ""
+
+#: src/lib/api.ts
+msgid "Upload failed ({status})"
+msgstr ""
+
+#: src/Offline.tsx
+#: src/Walkthrough.tsx
+msgid "Uploading"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Uploading {name}"
+msgstr ""
+
+#: src/PlanUsage.tsx
+#: src/Settings.tsx
+msgid "Usage"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Use"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Use (take out)"
+msgstr ""
+
+#: src/Replacement.tsx
+msgid "Use {amount}"
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid "Use {replace}"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Use {step}"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Use {step} from which?"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Use a blank label you've printed — type its code"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Use a label you already have — a blank one you've printed, or an asset tag or sticker"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Use a long passphrase — a few unrelated words — and keep it in your password manager: anyone with the file can try passphrases. Then copy the file off this server."
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Use as main photo, uncropped"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Use it"
+msgstr ""
+
+#: src/Stock.tsx
+msgid "Use one {name}"
+msgstr ""
+
+#: src/Product.tsx
+msgid "Use product photo {number}"
+msgstr ""
+
+#: src/App.tsx
+msgid "Use the app instead"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Use the server's default (off)"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "Use the server's default (on)"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Used {step}"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Used one"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Uses {uses} × {name} · {left} left"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Uses {uses} × {name} · none left"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Uses a part (from stock)"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Usually does"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Usually goes for"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Usually need a separate rider."
+msgstr ""
+
+#: src/Places.tsx
+msgid "Vacation home"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Valuable, no serial number"
+msgstr ""
+
+#: src/Duplicates.tsx
+#: src/Everything.tsx
+#: src/Report.tsx
+msgid "Value"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Value (each)"
+msgstr ""
+
+#: src/App.tsx
+msgid "Value $"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Value or price"
+msgstr ""
+
+#: src/Browse.tsx
+#: src/Report.tsx
+msgid "Valued at {amount}"
+msgstr ""
+
+#: src/Report.tsx
+msgid "Values are the owner's records: the current value where given, otherwise the price paid, times the quantity."
+msgstr ""
+
+#: src/Places.tsx
+msgid "Vehicle"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "View"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Viewer"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Visitors’ accounts now"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Visits"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Wait for a suggestion, or type it"
+msgstr ""
+
+#: src/Household.tsx
+msgid "Waiting to join"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Waiting to upload"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Walk through"
+msgstr ""
+
+#: src/Nav.tsx
+#: src/Walkthrough.tsx
+msgid "Walk through a room"
+msgstr ""
+
+#: src/Setup.tsx
+msgid "Walk through a room with your camera, or import a spreadsheet."
+msgstr ""
+
+#: src/App.tsx
+msgid "Walk through this room"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Walkthrough"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Walkthrough steps"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Want list"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Wanted"
+msgstr ""
+
+#: src/ItemPage.tsx
+#: src/lib/words.ts
+#: src/Nav.tsx
+#: src/Overview.tsx
+#: src/Warranties.tsx
+#: src/WarrantyList.tsx
+msgid "Warranties"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Warranties to act on"
+msgstr ""
+
+#: src/AuthLayout.tsx
+msgid "Warranties, manuals and maintenance, with a reminder before they matter."
+msgstr ""
+
+#: src/AttentionBell.tsx
+#: src/Warranties.tsx
+#: src/WarrantyList.tsx
+msgid "Warranty"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Warranty claim"
+msgstr ""
+
+#: src/AiFill.tsx
+#: src/lib/words.ts
+msgid "Warranty until"
+msgstr ""
+
+#: src/Report.tsx
+msgid "warranty until {date}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "We did"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "We do it ourselves"
+msgstr ""
+
+#: src/App.tsx
+msgid "We sent a link to <0>{checkEmail}</0>. Open it to confirm it's your address, then sign in. It works for a day."
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Web link"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Website"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Weekly summary"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "weeks"
+msgstr ""
+
+#: src/App.tsx
+msgid "Welcome back"
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid "What \"today\" is for due dates, overdue and ending soon, and when reminders go out — wherever you are when you look."
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "What {name} becomes"
+msgstr ""
+
+#: src/Offline.tsx
+#: src/ScanSession.tsx
+msgid "What a scan does"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "What did you stick it on?"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "What each thing is. The insurance report adds value up by the top level."
+msgstr ""
+
+#: src/Claims.tsx
+#: src/Gone.tsx
+msgid "What happened"
+msgstr ""
+
+#: src/App.tsx
+#: src/Collections.tsx
+#: src/Nav.tsx
+#: src/RoomScan.tsx
+#: src/Walkthrough.tsx
+msgid "What is it?"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "What it says now ({unit}"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "What it says now, in {unit}"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "What it's of"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "What it's on"
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "What kind of thing is it?"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "What needs doing"
+msgstr ""
+
+#: src/Currency.tsx
+msgid "What prices and values are in — on every screen, the insurance report and spreadsheets. Changing it doesn't convert anything: amounts already entered stay the same numbers."
+msgstr ""
+
+#: src/Stock.tsx
+msgid "What scanning {label} does"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "What they tried"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "What to import"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "What went wrong"
+msgstr ""
+
+#: src/RoomScan.tsx
+msgid "what's in the box"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "When"
+msgstr ""
+
+#: src/Server.tsx
+msgid "When a call to a service Ferret uses fails — the AI models, the vector store, the document reader, Apprise, push, the barcode and recall databases, maps — it's listed here, and you're told (push, your other apps, email) when one starts failing, at most every 6 hours each. Ferret carries on without them where it can."
+msgstr ""
+
+#: src/Stock.tsx
+msgid "When it's scanned"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "when its use gets there"
+msgstr ""
+
+#: src/AiFill.tsx
+msgid "When the household lets AI fill in (Settings → Household), what it fills in waits here until someone says it looks right."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "When you sell, give away, throw out, lose or have something stolen, mark it on its page (Edit → No longer have it?). It leaves your lists and totals and comes here."
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Where"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Where {column} goes"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Where {name}'s rooms go"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Where {things} go"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Where column {number} goes"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "Where do you keep things?"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Where does {householdName} keep things?"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Where from"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Where is it kept? Add a place"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Where is it?"
+msgstr ""
+
+#: src/Labels.tsx
+#: src/lib/words.ts
+msgid "Where it is"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Where it's kept"
+msgstr ""
+
+#: src/Notifications.tsx
+msgid "Where should Ferret send your reminders?"
+msgstr ""
+
+#: src/Duplicates.tsx
+msgid "Where they differ, use:"
+msgstr ""
+
+#: src/TimeZone.tsx
+msgid "Where this household is"
+msgstr ""
+
+#: src/Browse.tsx
+msgid "Where this is"
+msgstr ""
+
+#: src/Demo.tsx
+msgid "Where visits came from"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "Where you are (optional)"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Where you're signed in"
+msgstr ""
+
+#: src/App.tsx
+msgid "Where's the…?"
+msgstr ""
+
+#: src/ImportCsv.tsx
+msgid "Which column goes where? Ferret guessed — change anything that's wrong."
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Which item is this {what} for?"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Which one"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "Which one?"
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+#: src/Labels.tsx
+msgid "Which place"
+msgstr ""
+
+#: src/RoomScan.tsx
+#: src/Walkthrough.tsx
+msgid "Which room?"
+msgstr ""
+
+#: src/App.tsx
+msgid "Which thing is it on?"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Who did it"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Who does it"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Who has it"
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Who it's for (just for you)"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Who works on your home?"
+msgstr ""
+
+#: src/Providers.tsx
+msgid "Who you deal with"
+msgstr ""
+
+#: src/Claims.tsx
+msgid "Who you spoke to, what they asked for…"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "Whose it is"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "With {person} since {since}"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "with Add from photos"
+msgstr ""
+
+#: src/Report.tsx
+msgid "With photos"
+msgstr ""
+
+#: src/Report.tsx
+msgid "With receipts"
+msgstr ""
+
+#: src/Templates.tsx
+msgid "With tags"
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Within the limit ({amount} to spare)."
+msgstr ""
+
+#: src/Shares.tsx
+msgid "Works for"
+msgstr ""
+
+#: src/Collections.tsx
+#: src/Nav.tsx
+#: src/Overview.tsx
+#: src/PayOff.tsx
+#: src/Places.tsx
+#: src/Product.tsx
+msgid "Worth"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Worth (each)"
+msgstr ""
+
+#: src/Charts.tsx
+msgid "Worth at the end of each month"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Worth now"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Worth over {amount}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Worth over time"
+msgstr ""
+
+#: src/PlainWordsFilter.tsx
+msgid "Worth under {amount}"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Worth, by category"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Worth, room by room"
+msgstr ""
+
+#: src/Pairing.tsx
+msgid "X-HM://…, MT:…, 123-45-678"
+msgstr ""
+
+#: src/Places.tsx
+msgid "Year built"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "years"
+msgstr ""
+
+#: src/Household.tsx
+#: src/Server.tsx
+msgid "You"
+msgstr ""
+
+#: src/Import.tsx
+#: src/RoomScan.tsx
+#: src/Walkthrough.tsx
+msgid "You can look around, but not add things, in this household."
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "You have this"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "You have this — add {step} to which?"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "You have this already"
+msgstr ""
+
+#: src/Offline.tsx
+msgid "you have this already."
+msgstr ""
+
+#: src/Household.tsx
+msgid "You'll get a link to send them"
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "You'll need to have signed in within the last 15 minutes."
+msgstr ""
+
+#: src/Server.tsx
+msgid "You'll stop seeing this tab and backup alerts. Only they (or the command on the server) can give it back."
+msgstr ""
+
+#: src/Demo.tsx
+msgid "You're in the shared demo."
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "You're this server's admin. Hand that over to someone else first (Settings → Server)."
+msgstr ""
+
+#: src/DeleteForGood.tsx
+msgid "Your account is deleted for good, with any household only you are in. Households you share stay with the others."
+msgstr ""
+
+#: src/App.tsx
+msgid "Your account uses two-step sign-in, so a link can't sign you in — use your password and code (or a passkey)."
+msgstr ""
+
+#: src/App.tsx
+msgid "Your email is confirmed. Sign in to carry on."
+msgstr ""
+
+#: src/ImportHomeAssistant.tsx
+msgid "Your home's name"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Your last dozen, and wrong passwords: when, from which network, and on what. After a few wrong passwords Ferret slows down that address and asks every browser for a quick automatic check."
+msgstr ""
+
+#: src/App.tsx
+msgid "Your name"
+msgstr ""
+
+#: src/Security.tsx
+msgid "Your old codes no longer work. Save these somewhere safe."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Your own certificate authority, or a service's self-signed certificate."
+msgstr ""
+
+#: src/Security.tsx
+msgid "Your password alone will sign you in again. Your backup codes stop working."
+msgstr ""
+
+#: src/PayOff.tsx
+msgid "Your policy's limits, next to what your things are worth. A homeowner's or renter's policy covers your belongings up to one amount, and often much less for some kinds of things — jewelry, firearms, silverware. The numbers are on your policy's declarations page."
+msgstr ""
+
+#: src/App.tsx
+msgid "Your sign-in provider hasn't confirmed your email address, so Ferret can't tell which account is yours."
+msgstr ""
+
+#: src/Places.tsx
+msgid "ZIP / postal code"
+msgstr ""
+
+#: src/Walkthrough.tsx
+msgid "Zoom"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid "Zoom in"
+msgstr ""
+
+#: src/PhotoViewer.tsx
+msgid "Zoom out"
 msgstr ""
