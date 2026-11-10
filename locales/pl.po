@@ -3,159 +3,133 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
+"X-Generator: Weblate 2026.11.2.dev0\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-11-11 02:51+0000\n"
+"Last-Translator: Agnieszka Benson "
+"<shadowgift@users.noreply.hosted.weblate.org>\n"
 "Language: pl\n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/ferret/app/pl/>\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 
 #: src/Import.tsx
-#, fuzzy
 msgid " — the first {done} went in; see Recent imports to undo them."
-msgstr " — dodano pierwszy element {done}; zajrzyj do sekcji „Ostatnie "
-"importy”, żeby je cofnąć."
+msgstr ""
+" — dodano pierwszy element {done}; zajrzyj do sekcji „Ostatnie importy”, "
+"żeby je cofnąć."
 
 #: src/Offline.tsx
-#, fuzzy
 msgid " — when there's signal"
 msgstr " — gdy jest zasięg"
 
 #: src/Catalog.tsx
-#, fuzzy
 msgid " · {count} inside"
 msgstr " · Wewnątrz {count}"
 
 #: src/PhotoViewer.tsx
-#, fuzzy
 msgid " · {number} of {count}"
 msgstr " · {number} z {count}"
 
 #: src/Loans.tsx
-#, fuzzy
 msgid " · {person} says it's back"
-msgstr " · {person} – mówi, że wrócił"
+msgstr " · {person} – zgłasza zwrot"
 
 #: src/Walkthrough.tsx
-#, fuzzy
 msgid " · {saved} done"
 msgstr " · {saved} gotowe"
 
 #: src/History.tsx
-#, fuzzy
 msgid " · {times} times"
 msgstr " · {times} razy"
 
 #: src/Collections.tsx
-#, fuzzy
 msgid " · {wanted} wanted"
-msgstr " · Potrzebny jest tag {wanted}"
+msgstr " · Potrzebny  {wanted}"
 
 #: src/ItemPage.tsx
-#, fuzzy
 msgid " · <0>see the room photo</0>"
 msgstr " · <0>zobacz zdjęcie pokoju</0>"
 
 #: src/Security.tsx
-#, fuzzy
 msgid " · active {formatWhen}"
 msgstr " · aktywne {formatWhen}"
 
 #: src/Maintenance.tsx
-#, fuzzy
 msgid " · buy more before {date}"
 msgstr " · kup więcej przed {date}"
 
 #: src/Server.tsx
-#, fuzzy
 msgid " · checking now"
 msgstr " · sprawdzam teraz"
 
 #: src/ItemPage.tsx
-#, fuzzy
 msgid " · Couldn't read it"
-msgstr " · Nie dało się tego odczytać"
+msgstr " · Nieczytelne"
 
 #: src/Server.tsx
-#, fuzzy
 msgid " · first {when}"
 msgstr " · pierwszy {when}"
 
 #: src/Server.tsx
-#, fuzzy
 msgid " · from {issuer}"
-msgstr " · źródło: {issuer}"
+msgstr " · z {issuer}"
 
 #: src/Shopping.tsx
-#, fuzzy
 msgid " · keep at least {minQuantity}"
-msgstr " · zachowaj przynajmniej {minQuantity}"
+msgstr " · zachowaj tylko {minQuantity}"
 
 #: src/Server.tsx
-#, fuzzy
 msgid " · last asked {when}"
 msgstr " · ostatnie pytanie {when}"
 
 #: src/ImportCsv.tsx
-#, fuzzy
 msgid " · looks like {preset}"
-msgstr " · wygląda tak: {preset}"
+msgstr " · wygląda na to ,że: {preset}"
 
 #: src/Loans.tsx
-#, fuzzy
 msgid " · overdue"
 msgstr " · zaległe"
 
 #: src/ItemPage.tsx
-#, fuzzy
 msgid " · Reading…"
 msgstr " · Czytanie…"
 
 #: src/Security.tsx
-#, fuzzy
 msgid " · synced (iCloud, Google…)"
 msgstr " · synchronizowane (iCloud, Google…)"
 
 #: src/Security.tsx
-#, fuzzy
 msgid " · this device only"
 msgstr " · tylko to urządzenie"
 
 #: src/MaintenanceCalendar.tsx
-#, fuzzy
 msgid " · Today"
 msgstr " · Dzisiaj"
 
 #: src/App.tsx
-#, fuzzy
 msgid " · usually {amount}"
 msgstr " · zazwyczaj {amount}"
 
 #: src/Shares.tsx
-#, fuzzy
 msgid " · with files"
 msgstr " · z plikami"
 
 #: src/Pairing.tsx
-#, fuzzy
 msgid " · with its QR code"
 msgstr " · wraz z kodem QR"
 
 #: src/PayOff.tsx
-#, fuzzy
 msgid " ({unvalued} with no value)"
 msgstr " ({unvalued} bez wartości)"
 
 #: src/ImportHomeAssistant.tsx
-#, fuzzy
 msgid " (and {hidden} that are probably software or services)"
 msgstr " (oraz {hidden}, które to prawdopodobnie oprogramowanie lub usługi)"
 
 #: src/Setup.tsx
-#, fuzzy
 msgid " (done)"
 msgstr " (gotowe)"
 
@@ -165,7 +139,6 @@ msgid " (the server's — the household's owner can choose one)"
 msgstr " (serwera – właściciel gospodarstwa domowego może wybrać jeden)"
 
 #: src/Shopping.tsx
-#, fuzzy
 msgid " (ticked)"
 msgstr " (zaznaczone)"
 
@@ -194,17 +167,14 @@ msgid " by {preparedBy}"
 msgstr " autor: {preparedBy}"
 
 #: src/DeleteForGood.tsx
-#, fuzzy
 msgid " If it's on a plan, the plan ends now."
 msgstr " Jeśli coś jest objęte abonamentem, to abonament właśnie się kończy."
 
 #: src/DeleteForGood.tsx
-#, fuzzy
 msgid " If one is on a plan, the plan ends now."
 msgstr " Jeśli masz abonament, to właśnie się kończy."
 
 #: src/App.tsx
-#, fuzzy
 msgid " in {name}"
 msgstr " w {name}"
 
@@ -219,12 +189,10 @@ msgid " of {total}"
 msgstr ""
 
 #: src/Gone.tsx
-#, fuzzy
 msgid " on {formatDate}"
 msgstr " na {formatDate}"
 
 #: src/App.tsx
-#, fuzzy
 msgid " tagged {tag}"
 msgstr " oznaczone {tag}"
 
@@ -248,7 +216,6 @@ msgid " via {label}"
 msgstr " źródło: {label}"
 
 #: src/Boxes.tsx
-#, fuzzy
 msgid "— <0>open {name}</0>"
 msgstr "— <0>otwórz {name}</0>"
 
