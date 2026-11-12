@@ -2810,6 +2810,10 @@ msgstr ""
 msgid "Also read off the photo"
 msgstr "Zobacz też zdjęcie"
 
+#: src/Shopping.tsx
+msgid "Amazon"
+msgstr ""
+
 #: src/ImportCsv.tsx
 #, fuzzy
 msgid "Amazon order history"
@@ -6947,6 +6951,12 @@ msgstr "Wyszukiwanie"
 msgid "Looking up barcode {barcode}…"
 msgstr "Wyszukiwanie kodu kreskowego {barcode}…"
 
+#: src/Links.tsx
+msgid ""
+"Looks for it on Amazon by its part or model number — add the product's link "
+"here for an Add to cart button"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "Looks over the running server: every file the database expects is in the "
@@ -9765,6 +9775,22 @@ msgstr ""
 #, fuzzy
 msgid "Search {name}"
 msgstr "Wyszukaj w {name}…"
+
+#: src/Links.tsx
+#, fuzzy
+msgid "Search Amazon"
+msgstr "Wyszukiwanie"
+
+#: src/Shopping.tsx
+#, fuzzy
+msgid "Search Amazon for {name}"
+msgstr "Wyszukaj w {name}…"
+
+#: src/Shopping.tsx
+msgid ""
+"Search Amazon for it — add the product's link to the item for an Add to cart "
+"button"
+msgstr ""
 
 #: src/PlanUsage.tsx
 #, fuzzy

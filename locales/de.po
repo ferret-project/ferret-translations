@@ -2120,6 +2120,10 @@ msgstr ""
 msgid "Also read off the photo"
 msgstr ""
 
+#: src/Shopping.tsx
+msgid "Amazon"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "Amazon order history"
 msgstr ""
@@ -5327,6 +5331,12 @@ msgstr ""
 msgid "Looking up barcode {barcode}…"
 msgstr ""
 
+#: src/Links.tsx
+msgid ""
+"Looks for it on Amazon by its part or model number — add the product's link "
+"here for an Add to cart button"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "Looks over the running server: every file the database expects is in the "
@@ -7496,6 +7506,20 @@ msgstr ""
 
 #: src/ItemSearch.tsx
 msgid "Search {name}"
+msgstr ""
+
+#: src/Links.tsx
+msgid "Search Amazon"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid "Search Amazon for {name}"
+msgstr ""
+
+#: src/Shopping.tsx
+msgid ""
+"Search Amazon for it — add the product's link to the item for an Add to cart "
+"button"
 msgstr ""
 
 #: src/PlanUsage.tsx
