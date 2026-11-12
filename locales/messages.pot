@@ -352,6 +352,11 @@ msgstr ""
 msgid "{0, plural, one {# new place} other {# new places}}"
 msgstr ""
 
+#. placeholder {0}: result.total
+#: src/ItemSearch.tsx
+msgid "{0, plural, one {# passage} other {# passages}}"
+msgstr ""
+
 #. placeholder {0}: groups.length
 #: src/Heirs.tsx
 msgid "{0, plural, one {# person} other {# people}}"
@@ -1229,10 +1234,6 @@ msgstr ""
 
 #: src/Scanner.tsx
 msgid "<0>Scan a barcode</0>"
-msgstr ""
-
-#: src/Nav.tsx
-msgid "<0>Search…</0>"
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -2113,7 +2114,11 @@ msgstr ""
 msgid "Another reading in a week or two shows how fast it goes up."
 msgstr ""
 
-#: src/App.tsx
+#: src/Ask.tsx
+msgid "Answered by AI from this item's documents and details — check the sources."
+msgstr ""
+
+#: src/Ask.tsx
 msgid "Answered by AI from your inventory — check the sources."
 msgstr ""
 
@@ -2219,11 +2224,15 @@ msgstr ""
 msgid "As in the table"
 msgstr ""
 
+#: src/Ask.tsx
+msgid "Ask about this item"
+msgstr ""
+
 #: src/Stock.tsx
 msgid "Ask each time"
 msgstr ""
 
-#: src/App.tsx
+#: src/Ask.tsx
 msgid "Ask Ferret"
 msgstr ""
 
@@ -2831,6 +2840,10 @@ msgstr ""
 msgid "Close scanner"
 msgstr ""
 
+#: src/ItemSearch.tsx
+msgid "Close search"
+msgstr ""
+
 #: src/Claims.tsx
 msgid "Closed on"
 msgstr ""
@@ -3213,6 +3226,7 @@ msgstr ""
 
 #: src/Duplicates.tsx
 #: src/ItemEditor.tsx
+#: src/ItemSearch.tsx
 #: src/lib/words.ts
 #: src/Listing.tsx
 msgid "Description"
@@ -3898,7 +3912,7 @@ msgstr ""
 msgid "Favourite"
 msgstr ""
 
-#: src/App.tsx
+#: src/Ask.tsx
 #: src/AuthLayout.tsx
 #: src/History.tsx
 #: src/Overview.tsx
@@ -3978,7 +3992,7 @@ msgstr ""
 msgid "Ferret stops trusting it: services whose certificate it vouches for won't connect."
 msgstr ""
 
-#: src/App.tsx
+#: src/Ask.tsx
 msgid "Ferret's answer"
 msgstr ""
 
@@ -5221,7 +5235,7 @@ msgstr ""
 msgid "Looked for {checked} of {total} files and decrypted {decrypted} · {seconds} s"
 msgstr ""
 
-#: src/App.tsx
+#: src/Ask.tsx
 msgid "Looking through your things…"
 msgstr ""
 
@@ -5968,6 +5982,7 @@ msgstr ""
 #: src/Claims.tsx
 #: src/Duplicates.tsx
 #: src/ItemEditor.tsx
+#: src/ItemSearch.tsx
 #: src/lib/words.ts
 #: src/Maintenance.tsx
 #: src/Places.tsx
@@ -6038,6 +6053,10 @@ msgstr ""
 
 #: src/Collections.tsx
 msgid "Nothing in it yet — add the first one."
+msgstr ""
+
+#: src/ItemSearch.tsx
+msgid "Nothing in this item's documents, warranties or notes says “{q}”."
 msgstr ""
 
 #: src/PlanUsage.tsx
@@ -6332,8 +6351,16 @@ msgstr ""
 msgid "Open it"
 msgstr ""
 
+#: src/ItemSearch.tsx
+msgid "Open the document"
+msgstr ""
+
 #: src/PhotoViewer.tsx
 msgid "Open the original of {filename}"
+msgstr ""
+
+#: src/ItemSearch.tsx
+msgid "Open the photo"
 msgstr ""
 
 #: src/Shares.tsx
@@ -6841,6 +6868,10 @@ msgstr ""
 
 #: src/Settings.tsx
 msgid "Read-only"
+msgstr ""
+
+#: src/Ask.tsx
+msgid "Reading its documents…"
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -7416,8 +7447,16 @@ msgstr ""
 msgid "Seals every photo, document and pairing code, and the backups."
 msgstr ""
 
+#: src/ItemSearch.tsx
+msgid "Search {name}"
+msgstr ""
+
 #: src/PlanUsage.tsx
 msgid "Search by words; no AI."
+msgstr ""
+
+#: src/ItemSearch.tsx
+msgid "Search everything for “{q}”"
 msgstr ""
 
 #: src/App.tsx
@@ -7436,15 +7475,33 @@ msgstr ""
 msgid "Search indexes rebuild themselves on start."
 msgstr ""
 
+#: src/ItemSearch.tsx
+msgid "Search its documents, warranties and notes…"
+msgstr ""
+
+#: src/ItemSearch.tsx
+#: src/Nav.tsx
+msgid "Search this item"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Search this item…"
+msgstr ""
+
 #: src/Nav.tsx
 #: src/Search.tsx
 msgid "Search your stuff"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Search…"
 msgstr ""
 
 #: src/Demo.tsx
 msgid "Searches"
 msgstr ""
 
+#: src/ItemSearch.tsx
 #: src/Search.tsx
 msgid "Searching"
 msgstr ""
@@ -8650,7 +8707,7 @@ msgstr ""
 msgid "Trusted"
 msgstr ""
 
-#: src/App.tsx
+#: src/Ask.tsx
 #: src/Listing.tsx
 #: src/Offline.tsx
 msgid "Try again"
