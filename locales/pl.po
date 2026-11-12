@@ -469,6 +469,13 @@ msgstr ""
 "{0, plural, one {# nowe miejsce} few {# nowe miejsca} many {# nowych miejsc} "
 "other {# nowych miejsc}}"
 
+#. placeholder {0}: result.total
+#: src/ItemSearch.tsx
+#, fuzzy
+msgid "{0, plural, one {# passage} other {# passages}}"
+msgstr ""
+"{0, plural, one {# zadanie} few {# zadania} many {# zadań} other {# zadań}}"
+
 #. placeholder {0}: groups.length
 #: src/Heirs.tsx
 #, fuzzy
@@ -1732,11 +1739,6 @@ msgstr "<0>Raport</0>"
 msgid "<0>Scan a barcode</0>"
 msgstr "<0>Zeskanuj kod kreskowy</0>"
 
-#: src/Nav.tsx
-#, fuzzy
-msgid "<0>Search…</0>"
-msgstr "<0>Wyszukaj…</0>"
-
 #: src/Walkthrough.tsx
 #, fuzzy
 msgid "<0>See {roomName}</0>"
@@ -2906,7 +2908,14 @@ msgstr "Kolejny plik"
 msgid "Another reading in a week or two shows how fast it goes up."
 msgstr "Kolejny pomiar za tydzień lub dwa pokaże, jak szybko to rośnie."
 
-#: src/App.tsx
+#: src/Ask.tsx
+#, fuzzy
+msgid ""
+"Answered by AI from this item's documents and details — check the sources."
+msgstr ""
+"Odpowiedź wygenerowana przez AI na podstawie twojego spisu – sprawdź źródła."
+
+#: src/Ask.tsx
 #, fuzzy
 msgid "Answered by AI from your inventory — check the sources."
 msgstr ""
@@ -3058,12 +3067,16 @@ msgstr "Sztuka i przedmioty kolekcjonerskie"
 msgid "As in the table"
 msgstr "Tak jak w tabeli"
 
+#: src/Ask.tsx
+msgid "Ask about this item"
+msgstr ""
+
 #: src/Stock.tsx
 #, fuzzy
 msgid "Ask each time"
 msgstr "Pytaj za każdym razem"
 
-#: src/App.tsx
+#: src/Ask.tsx
 #, fuzzy
 msgid "Ask Ferret"
 msgstr "Zapytaj Ferret"
@@ -3772,6 +3785,11 @@ msgstr "Zamknij"
 msgid "Close scanner"
 msgstr "Zamknij skaner"
 
+#: src/ItemSearch.tsx
+#, fuzzy
+msgid "Close search"
+msgstr "Zamknij skaner"
+
 #: src/Claims.tsx
 #, fuzzy
 msgid "Closed on"
@@ -4248,7 +4266,8 @@ msgstr "Opisz to: narzędzia kupione w zeszłym roku za ponad 100 dolarów"
 msgid "Describe what you're looking for"
 msgstr "Opisz, czego szukasz"
 
-#: src/Duplicates.tsx src/ItemEditor.tsx src/lib/words.ts src/Listing.tsx
+#: src/Duplicates.tsx src/ItemEditor.tsx src/ItemSearch.tsx src/lib/words.ts
+#: src/Listing.tsx
 #, fuzzy
 msgid "Description"
 msgstr "Opis"
@@ -5116,7 +5135,7 @@ msgstr ""
 msgid "Favourite"
 msgstr "Ulubione"
 
-#: src/App.tsx src/AuthLayout.tsx src/History.tsx src/Overview.tsx
+#: src/Ask.tsx src/AuthLayout.tsx src/History.tsx src/Overview.tsx
 #, fuzzy
 msgid "Ferret"
 msgstr "Ferret"
@@ -5247,7 +5266,7 @@ msgstr ""
 "Ferret przestaje mu ufać: serwisy, których certyfikaty potwierdza, nie będą "
 "się łączyć."
 
-#: src/App.tsx
+#: src/Ask.tsx
 #, fuzzy
 msgid "Ferret's answer"
 msgstr "Odpowiedź Ferret"
@@ -6908,7 +6927,7 @@ msgid ""
 "Looked for {checked} of {total} files and decrypted {decrypted} · {seconds} s"
 msgstr ""
 
-#: src/App.tsx
+#: src/Ask.tsx
 #, fuzzy
 msgid "Looking through your things…"
 msgstr "Przeglądasz swoje rzeczy…"
@@ -7847,8 +7866,8 @@ msgstr "Uwaga"
 msgid "Note (optional)"
 msgstr "Uwaga (opcjonalnie)"
 
-#: src/Claims.tsx src/Duplicates.tsx src/ItemEditor.tsx src/lib/words.ts
-#: src/Maintenance.tsx src/Places.tsx src/Providers.tsx
+#: src/Claims.tsx src/Duplicates.tsx src/ItemEditor.tsx src/ItemSearch.tsx
+#: src/lib/words.ts src/Maintenance.tsx src/Places.tsx src/Providers.tsx
 #, fuzzy
 msgid "Notes"
 msgstr "Uwagi"
@@ -7935,6 +7954,10 @@ msgstr "W Ferret nic nie ma tego kodu."
 #, fuzzy
 msgid "Nothing in it yet — add the first one."
 msgstr "Na razie nic tu nie ma – dodaj pierwszą pozycję."
+
+#: src/ItemSearch.tsx
+msgid "Nothing in this item's documents, warranties or notes says “{q}”."
+msgstr ""
 
 #: src/PlanUsage.tsx
 #, fuzzy
@@ -8362,10 +8385,20 @@ msgstr "Otwórz w swojej aplikacji do uwierzytelniania"
 msgid "Open it"
 msgstr "Otwórz ją"
 
+#: src/ItemSearch.tsx
+#, fuzzy
+msgid "Open the document"
+msgstr "Zeskanuj dokument"
+
 #: src/PhotoViewer.tsx
 #, fuzzy
 msgid "Open the original of {filename}"
 msgstr "Otwórz oryginał {filename}"
+
+#: src/ItemSearch.tsx
+#, fuzzy
+msgid "Open the photo"
+msgstr "Oglądam zdjęcie…"
 
 #: src/Shares.tsx
 #, fuzzy
@@ -9006,6 +9039,11 @@ msgstr "Urządzenia do odczytu"
 #, fuzzy
 msgid "Read-only"
 msgstr "Tylko do odczytu"
+
+#: src/Ask.tsx
+#, fuzzy
+msgid "Reading its documents…"
+msgstr "Oglądam zdjęcie…"
 
 #: src/Walkthrough.tsx
 #, fuzzy
@@ -9718,10 +9756,19 @@ msgid "Seals every photo, document and pairing code, and the backups."
 msgstr ""
 "Zabezpiecza każde zdjęcie, dokument i kod parowania, a także kopie zapasowe."
 
+#: src/ItemSearch.tsx
+#, fuzzy
+msgid "Search {name}"
+msgstr "Wyszukaj w {name}…"
+
 #: src/PlanUsage.tsx
 #, fuzzy
 msgid "Search by words; no AI."
 msgstr "Wyszukiwanie według słów; bez sztucznej inteligencji."
+
+#: src/ItemSearch.tsx
+msgid "Search everything for “{q}”"
+msgstr ""
 
 #: src/App.tsx
 #, fuzzy
@@ -9743,17 +9790,36 @@ msgstr "Wyszukaj w {tag}…"
 msgid "Search indexes rebuild themselves on start."
 msgstr "Indeksy wyszukiwania odbudowują się samoczynnie przy uruchomieniu."
 
+#: src/ItemSearch.tsx
+msgid "Search its documents, warranties and notes…"
+msgstr ""
+
+#: src/ItemSearch.tsx src/Nav.tsx
+#, fuzzy
+msgid "Search this item"
+msgstr "za każdym razem"
+
+#: src/Nav.tsx
+#, fuzzy
+msgid "Search this item…"
+msgstr "Wyszukaj w {tag}…"
+
 #: src/Nav.tsx src/Search.tsx
 #, fuzzy
 msgid "Search your stuff"
 msgstr "Przeszukaj swoje rzeczy"
+
+#: src/Nav.tsx
+#, fuzzy
+msgid "Search…"
+msgstr "<0>Wyszukaj…</0>"
 
 #: src/Demo.tsx
 #, fuzzy
 msgid "Searches"
 msgstr "Wyszukiwanie"
 
-#: src/Search.tsx
+#: src/ItemSearch.tsx src/Search.tsx
 #, fuzzy
 msgid "Searching"
 msgstr "Wyszukiwanie"
@@ -11377,7 +11443,7 @@ msgstr "Wypróbuj to urządzenie przez 30 dni"
 msgid "Trusted"
 msgstr "Sprawdzone"
 
-#: src/App.tsx src/Listing.tsx src/Offline.tsx
+#: src/Ask.tsx src/Listing.tsx src/Offline.tsx
 #, fuzzy
 msgid "Try again"
 msgstr "Spróbuj jeszcze raz"
