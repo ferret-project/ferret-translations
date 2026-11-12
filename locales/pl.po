@@ -108,6 +108,10 @@ msgstr " · wygląda na to ,że: {preset}"
 msgid " · overdue"
 msgstr " · zaległe"
 
+#: src/Parts.tsx
+msgid " · pack of {packSize}"
+msgstr ""
+
 #: src/ItemPage.tsx
 msgid " · Reading…"
 msgstr " · Czytanie…"
@@ -469,6 +473,14 @@ msgstr ""
 "{0, plural, one {# nowe miejsce} few {# nowe miejsca} many {# nowych miejsc} "
 "other {# nowych miejsc}}"
 
+#. placeholder {0}: suggested.length
+#: src/Parts.tsx
+#, fuzzy
+msgid ""
+"{0, plural, one {# part its manual lists} other {# parts its manual lists}}"
+msgstr ""
+"{0, plural, one {# zadanie} few {# zadania} many {# zadań} other {# zadań}}"
+
 #. placeholder {0}: result.total
 #: src/ItemSearch.tsx
 #, fuzzy
@@ -803,6 +815,12 @@ msgid "{0, plural, one {Sent to # device.} other {Sent to # devices.}}"
 msgstr ""
 "{0, plural, one {Wysłano na # urządzenie.} few {Wysłano na # urządzenia.} "
 "many {Wysłano na # urządzeń.} other {Wysłano na # urządzenia.}}"
+
+#. placeholder {0}: suggested.length - FIRST_SUGGESTIONS
+#: src/Parts.tsx
+#, fuzzy
+msgid "{0, plural, one {Show # more} other {Show # more}}"
+msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
 
 #. placeholder {0}: revokeOthers.data.signedOut
 #: src/Security.tsx
@@ -1234,6 +1252,15 @@ msgstr "{name} znajduje się w koszyku"
 msgid "{name} is ready"
 msgstr "{name} jest gotowe"
 
+#: src/Parts.tsx
+msgid "{name} isn't a part of this"
+msgstr ""
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "{name} isn't needed"
+msgstr "{title} nie jest potrzebne"
+
 #: src/ScanSession.tsx
 #, fuzzy
 msgid "{name}: use, restock or open?"
@@ -1333,9 +1360,19 @@ msgstr "{property} (pokój)"
 msgid "{quantity} left"
 msgstr "{quantity} po lewej"
 
+#: src/Parts.tsx
+#, fuzzy
+msgid "{quantity} left — on the shopping list"
+msgstr "Dodaj przynajmniej {min} — na listę zakupów"
+
 #: src/ItemPage.tsx
 #, fuzzy
 msgid "{quantity} of them"
+msgstr "{quantity} z nich"
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "{quantity} on hand"
 msgstr "{quantity} z nich"
 
 #: src/Server.tsx
@@ -2088,6 +2125,11 @@ msgstr ""
 "Powiadomienie na tym urządzeniu w dniach, kiedy zbliża się termin "
 "konserwacji lub wygasa gwarancja."
 
+#: src/Parts.tsx
+#, fuzzy
+msgid "A part for <0>{name}</0>"
+msgstr "Zaproszenie do <0>{email}</0>"
+
 #: src/Labels.tsx
 #, fuzzy
 msgid "A part-used sheet? Skip the first"
@@ -2252,7 +2294,7 @@ msgstr "Aktywne"
 
 #: src/App.tsx src/Boxes.tsx src/Collections.tsx src/FromWeb.tsx
 #: src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx src/Notifications.tsx
-#: src/Offline.tsx src/Pairing.tsx src/Places.tsx src/Stock.tsx
+#: src/Offline.tsx src/Pairing.tsx src/Parts.tsx src/Places.tsx src/Stock.tsx
 #: src/SuggestedMaintenance.tsx src/Suggestions.tsx src/Warranties.tsx
 #, fuzzy
 msgid "Add"
@@ -2267,6 +2309,11 @@ msgstr "Dodaj {count} {name} do swojego koszyka na Amazonie"
 #, fuzzy
 msgid "Add {name}"
 msgstr "Dodaj {name}"
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "Add {name} as a part"
+msgstr "+ Dodaj „{name}” jako dostawcę"
 
 #: src/ScanSession.tsx
 #, fuzzy
@@ -2329,6 +2376,16 @@ msgstr "Dodaj limit"
 #, fuzzy
 msgid "Add a link"
 msgstr "Dodaj link"
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "Add a part"
+msgstr "Dodaj nieruchomość"
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "Add a part for {name}"
+msgstr "Dodaj pokój do {name}"
 
 #: src/Security.tsx
 #, fuzzy
@@ -2454,6 +2511,11 @@ msgstr ""
 "Dodaj to na stronie danego przedmiotu, w sekcji „Gwarancje”. Prześlij "
 "paragon lub kartę gwarancyjną, a Ferret sam zaproponuje ci daty."
 
+#: src/Parts.tsx
+#, fuzzy
+msgid "Add part"
+msgstr "Dodaj to"
+
 #: src/ItemPage.tsx
 #, fuzzy
 msgid "Add photos and documents"
@@ -2560,7 +2622,7 @@ msgstr "Dodaj do {place}"
 msgid "Add to {tag}…"
 msgstr "Dodaj do {tag}…"
 
-#: src/Links.tsx src/Shopping.tsx
+#: src/Links.tsx src/Parts.tsx src/Shopping.tsx
 #, fuzzy
 msgid "Add to Amazon cart"
 msgstr "Dodaj do koszyka na Amazonie"
@@ -2665,6 +2727,11 @@ msgstr "Dodane ze zdjęć"
 #, fuzzy
 msgid "Added on a walkthrough"
 msgstr "Dodano podczas prezentacji"
+
+#: src/Parts.tsx
+msgid ""
+"Added parts start at none on hand, on the shopping list until you buy some."
+msgstr ""
 
 #: src/PhotoAdd.tsx
 #, fuzzy
@@ -2824,6 +2891,11 @@ msgstr "Historia zamówień na Amazonie"
 msgid "Amazon product (ASIN)"
 msgstr "Produkt na Amazonie (ASIN)"
 
+#: src/Currency.tsx
+#, fuzzy
+msgid "Amazon store"
+msgstr "Historia zamówień na Amazonie"
+
 #: src/ImportCsv.tsx
 #, fuzzy
 msgid ""
@@ -2840,6 +2912,12 @@ msgstr ""
 #, fuzzy
 msgid "an admin"
 msgstr "administrator"
+
+#: src/Parts.tsx
+msgid ""
+"An Amazon product page gives it an Add to cart button; without one, it can "
+"be searched for on Amazon by its part number."
+msgstr ""
 
 #: src/Notifications.tsx
 #, fuzzy
@@ -3473,10 +3551,10 @@ msgstr "Nie mogę połączyć się z Ferretem"
 #: src/DeleteForGood.tsx src/Duplicates.tsx src/Everything.tsx src/FromWeb.tsx
 #: src/Gone.tsx src/Household.tsx src/ItemEditor.tsx src/Loans.tsx
 #: src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
-#: src/Pairing.tsx src/PayOff.tsx src/PhotoCrop.tsx src/Places.tsx
-#: src/Providers.tsx src/Security.tsx src/Server.tsx src/Settings.tsx
-#: src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx src/Usage.tsx
-#: src/Warranties.tsx
+#: src/Pairing.tsx src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx
+#: src/Places.tsx src/Providers.tsx src/Security.tsx src/Server.tsx
+#: src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx
+#: src/Usage.tsx src/Warranties.tsx
 #, fuzzy
 msgid "Cancel"
 msgstr "Anuluj"
@@ -4035,6 +4113,10 @@ msgstr "Nie udało się wysłać — spróbuj ponownie za chwilę"
 msgid "Couldn't upload it"
 msgstr "Nie udało mi się tego wrzucić"
 
+#: src/App.tsx
+msgid "Count what manuals and receipts say"
+msgstr ""
+
 #: src/Stock.tsx
 #, fuzzy
 msgid "Count with {text}"
@@ -4495,6 +4577,10 @@ msgstr ""
 "Przeciągnij ramkę na obiekt, a potem dostosuj jej rogi, żeby idealnie "
 "pasowała. Wycięty fragment zostanie zapisany jako nowe zdjęcie – oryginał "
 "pozostaje bez zmian."
+
+#: src/Parts.tsx
+msgid "Drum collection bags (5-pack)"
+msgstr ""
 
 #: src/Maintenance.tsx
 #, fuzzy
@@ -5938,6 +6024,11 @@ msgstr "Ile za każdym razem"
 msgid "How many of thing {number}"
 msgstr "Ile rzeczy {number}"
 
+#: src/Parts.tsx
+#, fuzzy
+msgid "How many on hand"
+msgstr "Ile"
+
 #: src/Server.tsx
 #, fuzzy
 msgid "How to restore"
@@ -6167,6 +6258,10 @@ msgstr "W koszyku"
 #, fuzzy
 msgid "In this item"
 msgstr "za każdym razem"
+
+#: src/App.tsx
+msgid "Include manuals & receipts"
+msgstr ""
 
 #: src/PlanUsage.tsx
 #, fuzzy
@@ -6951,6 +7046,12 @@ msgstr "Wyszukiwanie"
 msgid "Looking up barcode {barcode}…"
 msgstr "Wyszukiwanie kodu kreskowego {barcode}…"
 
+#: src/Parts.tsx
+msgid ""
+"Looks for it on Amazon by its part number — add the product's link to the "
+"part for an Add to cart button"
+msgstr ""
+
 #: src/Links.tsx
 msgid ""
 "Looks for it on Amazon by its part or model number — add the product's link "
@@ -7212,9 +7313,9 @@ msgstr "Przejdź do…"
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
 #: src/Duplicates.tsx src/Everything.tsx src/ImportHomeAssistant.tsx
-#: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/PayOff.tsx
-#: src/Places.tsx src/Product.tsx src/Providers.tsx src/Server.tsx
-#: src/Settings.tsx src/Suggestions.tsx src/Templates.tsx
+#: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/Parts.tsx
+#: src/PayOff.tsx src/Places.tsx src/Product.tsx src/Providers.tsx
+#: src/Server.tsx src/Settings.tsx src/Suggestions.tsx src/Templates.tsx
 #, fuzzy
 msgid "Name"
 msgstr "Nazwa"
@@ -7385,6 +7486,10 @@ msgstr "W przyszłym miesiącu"
 #, fuzzy
 msgid "Next photo"
 msgstr "Następne zdjęcie"
+
+#: src/Parts.tsx
+msgid "No — a new part"
+msgstr ""
 
 #: src/Server.tsx
 #, fuzzy
@@ -7665,6 +7770,11 @@ msgstr "nie ma już"
 msgid "None left"
 msgstr "Nie ma już żadnych"
 
+#: src/Parts.tsx
+#, fuzzy
+msgid "None left — on the shopping list"
+msgstr "Dodaj przynajmniej {min} — na listę zakupów"
+
 #: src/ScanSession.tsx
 #, fuzzy
 msgid "None left to take"
@@ -7725,6 +7835,10 @@ msgstr ""
 #, fuzzy
 msgid "Not a duplicate"
 msgstr "To nie jest duplikat"
+
+#: src/Parts.tsx
+msgid "Not a part of this (the part itself stays)"
+msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 #, fuzzy
@@ -7816,7 +7930,7 @@ msgstr "Nie ma tego już na twoich listach ani w sumach."
 msgid "Not mine"
 msgstr "To nie moje"
 
-#: src/SuggestedMaintenance.tsx
+#: src/Parts.tsx src/SuggestedMaintenance.tsx
 #, fuzzy
 msgid "Not needed"
 msgstr "Niepotrzebne"
@@ -8555,10 +8669,28 @@ msgstr "Kod parowania"
 msgid "Pairing codes"
 msgstr "Kody parowania"
 
+#: src/Parts.tsx
+msgid "Part no. {model}"
+msgstr ""
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "Part no. {partNumber}"
+msgstr "Zdjęcie {number}"
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "Part number"
+msgstr "Zdjęcie {number}"
+
 #: src/Maintenance.tsx
 #, fuzzy
 msgid "Part numbers, how-to, who to call…"
 msgstr "Numery katalogowe, instrukcje, do kogo zadzwonić…"
+
+#: src/Parts.tsx
+msgid "Parts & supplies"
+msgstr ""
 
 #: src/Demo.tsx
 #, fuzzy
@@ -8982,6 +9114,11 @@ msgstr "Dodaj Ferret do ekranu głównego"
 msgid "Put in"
 msgstr "Wpisz"
 
+#: src/Parts.tsx
+#, fuzzy
+msgid "Put it on the shopping list when none are left"
+msgstr "Na liście zakupów, gdy coś się skończy"
+
 #: src/ScanSession.tsx
 #, fuzzy
 msgid "Put some in for each scan"
@@ -8992,7 +9129,7 @@ msgstr "Wpisz coś po każdym skanowaniu"
 msgid "Put the label on it"
 msgstr "Po prostu dodaj etykietę"
 
-#: src/Links.tsx
+#: src/Links.tsx src/Parts.tsx
 #, fuzzy
 msgid "Puts one in your Amazon cart (Amazon asks you to sign in if you aren't)"
 msgstr ""
@@ -9776,7 +9913,7 @@ msgstr ""
 msgid "Search {name}"
 msgstr "Wyszukaj w {name}…"
 
-#: src/Links.tsx
+#: src/Links.tsx src/Parts.tsx
 #, fuzzy
 msgid "Search Amazon"
 msgstr "Wyszukiwanie"
@@ -10139,6 +10276,11 @@ msgstr "Pokaż wszystko"
 msgid "Show as"
 msgstr "Pokaż jako"
 
+#: src/Parts.tsx
+#, fuzzy
+msgid "Show fewer"
+msgstr "Pokaż mi, gdzie"
+
 #: src/Server.tsx
 #, fuzzy
 msgid "Show it to"
@@ -10353,6 +10495,11 @@ msgstr "Ktoś"
 #, fuzzy
 msgid "Someone's, borrowed by us"
 msgstr "Czyjeś, zapożyczone przez nas"
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "Something already in Ferret"
+msgstr "Coś w Ferret"
 
 #: src/App.tsx
 #, fuzzy
@@ -11204,6 +11351,11 @@ msgstr "To urządzenie"
 
 #: src/Currency.tsx
 #, fuzzy
+msgid "This household's Amazon"
+msgstr "Finanse tej rodziny"
+
+#: src/Currency.tsx
+#, fuzzy
 msgid "This household's money"
 msgstr "Finanse tej rodziny"
 
@@ -11808,6 +11960,10 @@ msgstr "Użyj domyślnego ustawienia serwera (włączone)"
 msgid "Used {step}"
 msgstr "Użyto {step}"
 
+#: src/Parts.tsx
+msgid "Used by “{task}”"
+msgstr ""
+
 #: src/Offline.tsx
 #, fuzzy
 msgid "Used one"
@@ -12288,6 +12444,13 @@ msgstr "Gdzie to jest"
 msgid "Where it's kept"
 msgstr "Gdzie to jest przechowywane"
 
+#: src/Currency.tsx
+msgid ""
+"Where Search Amazon looks for parts and supplies on the shopping list. "
+"Ferret works it out from the household's time zone and currency; pick one if "
+"it's wrong."
+msgstr ""
+
 #: src/Notifications.tsx
 #, fuzzy
 msgid "Where should Ferret send your reminders?"
@@ -12307,6 +12470,11 @@ msgstr "Gdzie znajduje się to gospodarstwo domowe"
 #, fuzzy
 msgid "Where this is"
 msgstr "Gdzie to jest"
+
+#: src/Parts.tsx
+#, fuzzy
+msgid "Where to buy it (optional)"
+msgstr "Gdzie jesteś (opcjonalnie)"
 
 #: src/ItemSearch.tsx
 #, fuzzy
@@ -12439,6 +12607,10 @@ msgstr "Z tagami"
 #, fuzzy
 msgid "Within the limit ({amount} to spare)."
 msgstr "W ramach limitu (zostało jeszcze {amount})."
+
+#: src/Currency.tsx
+msgid "Worked out: {store}"
+msgstr ""
 
 #: src/Shares.tsx
 #, fuzzy

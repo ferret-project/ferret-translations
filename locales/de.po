@@ -99,6 +99,10 @@ msgstr ""
 msgid " · overdue"
 msgstr ""
 
+#: src/Parts.tsx
+msgid " · pack of {packSize}"
+msgstr ""
+
 #: src/ItemPage.tsx
 msgid " · Reading…"
 msgstr ""
@@ -367,6 +371,12 @@ msgstr ""
 msgid "{0, plural, one {# new place} other {# new places}}"
 msgstr ""
 
+#. placeholder {0}: suggested.length
+#: src/Parts.tsx
+msgid ""
+"{0, plural, one {# part its manual lists} other {# parts its manual lists}}"
+msgstr ""
+
 #. placeholder {0}: result.total
 #: src/ItemSearch.tsx
 msgid "{0, plural, one {# passage} other {# passages}}"
@@ -591,6 +601,11 @@ msgstr ""
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
 msgid "{0, plural, one {Sent to # device.} other {Sent to # devices.}}"
+msgstr ""
+
+#. placeholder {0}: suggested.length - FIRST_SUGGESTIONS
+#: src/Parts.tsx
+msgid "{0, plural, one {Show # more} other {Show # more}}"
 msgstr ""
 
 #. placeholder {0}: revokeOthers.data.signedOut
@@ -920,6 +935,14 @@ msgstr ""
 msgid "{name} is ready"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "{name} isn't a part of this"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "{name} isn't needed"
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "{name}: use, restock or open?"
 msgstr ""
@@ -995,8 +1018,16 @@ msgstr ""
 msgid "{quantity} left"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "{quantity} left — on the shopping list"
+msgstr ""
+
 #: src/ItemPage.tsx
 msgid "{quantity} of them"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "{quantity} on hand"
 msgstr ""
 
 #: src/Server.tsx
@@ -1561,6 +1592,10 @@ msgid ""
 "about to end."
 msgstr ""
 
+#: src/Parts.tsx
+msgid "A part for <0>{name}</0>"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "A part-used sheet? Skip the first"
 msgstr ""
@@ -1684,7 +1719,7 @@ msgstr ""
 
 #: src/App.tsx src/Boxes.tsx src/Collections.tsx src/FromWeb.tsx
 #: src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx src/Notifications.tsx
-#: src/Offline.tsx src/Pairing.tsx src/Places.tsx src/Stock.tsx
+#: src/Offline.tsx src/Pairing.tsx src/Parts.tsx src/Places.tsx src/Stock.tsx
 #: src/SuggestedMaintenance.tsx src/Suggestions.tsx src/Warranties.tsx
 msgid "Add"
 msgstr ""
@@ -1695,6 +1730,10 @@ msgstr ""
 
 #: src/RoomScan.tsx
 msgid "Add {name}"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Add {name} as a part"
 msgstr ""
 
 #: src/ScanSession.tsx
@@ -1743,6 +1782,14 @@ msgstr ""
 
 #: src/Links.tsx
 msgid "Add a link"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Add a part"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Add a part for {name}"
 msgstr ""
 
 #: src/Security.tsx
@@ -1843,6 +1890,10 @@ msgid ""
 "card and Ferret suggests the dates for you."
 msgstr ""
 
+#: src/Parts.tsx
+msgid "Add part"
+msgstr ""
+
 #: src/ItemPage.tsx
 msgid "Add photos and documents"
 msgstr ""
@@ -1926,7 +1977,7 @@ msgstr ""
 msgid "Add to {tag}…"
 msgstr ""
 
-#: src/Links.tsx src/Shopping.tsx
+#: src/Links.tsx src/Parts.tsx src/Shopping.tsx
 msgid "Add to Amazon cart"
 msgstr ""
 
@@ -2006,6 +2057,11 @@ msgstr ""
 
 #: src/lib/origin.ts
 msgid "Added on a walkthrough"
+msgstr ""
+
+#: src/Parts.tsx
+msgid ""
+"Added parts start at none on hand, on the shopping list until you buy some."
 msgstr ""
 
 #: src/PhotoAdd.tsx
@@ -2132,6 +2188,10 @@ msgstr ""
 msgid "Amazon product (ASIN)"
 msgstr ""
 
+#: src/Currency.tsx
+msgid "Amazon store"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid ""
 "Amazon: Account → Request your data → Your orders; use <0>Order History.csv</"
@@ -2141,6 +2201,12 @@ msgstr ""
 
 #: src/Invite.tsx
 msgid "an admin"
+msgstr ""
+
+#: src/Parts.tsx
+msgid ""
+"An Amazon product page gives it an Add to cart button; without one, it can "
+"be searched for on Amazon by its part number."
 msgstr ""
 
 #: src/Notifications.tsx
@@ -2636,10 +2702,10 @@ msgstr ""
 #: src/DeleteForGood.tsx src/Duplicates.tsx src/Everything.tsx src/FromWeb.tsx
 #: src/Gone.tsx src/Household.tsx src/ItemEditor.tsx src/Loans.tsx
 #: src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
-#: src/Pairing.tsx src/PayOff.tsx src/PhotoCrop.tsx src/Places.tsx
-#: src/Providers.tsx src/Security.tsx src/Server.tsx src/Settings.tsx
-#: src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx src/Usage.tsx
-#: src/Warranties.tsx
+#: src/Pairing.tsx src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx
+#: src/Places.tsx src/Providers.tsx src/Security.tsx src/Server.tsx
+#: src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx
+#: src/Usage.tsx src/Warranties.tsx
 msgid "Cancel"
 msgstr ""
 
@@ -3082,6 +3148,10 @@ msgstr ""
 msgid "Couldn't upload it"
 msgstr ""
 
+#: src/App.tsx
+msgid "Count what manuals and receipts say"
+msgstr ""
+
 #: src/Stock.tsx
 msgid "Count with {text}"
 msgstr ""
@@ -3446,6 +3516,10 @@ msgstr ""
 msgid ""
 "Drag the box onto the thing, and its corners to fit. The crop is saved as a "
 "new photo — the original stays."
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Drum collection bags (5-pack)"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -4558,6 +4632,10 @@ msgstr ""
 msgid "How many of thing {number}"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "How many on hand"
+msgstr ""
+
 #: src/Server.tsx
 msgid "How to restore"
 msgstr ""
@@ -4730,6 +4808,10 @@ msgstr ""
 
 #: src/ItemSearch.tsx
 msgid "In this item"
+msgstr ""
+
+#: src/App.tsx
+msgid "Include manuals & receipts"
 msgstr ""
 
 #: src/PlanUsage.tsx
@@ -5331,6 +5413,12 @@ msgstr ""
 msgid "Looking up barcode {barcode}…"
 msgstr ""
 
+#: src/Parts.tsx
+msgid ""
+"Looks for it on Amazon by its part number — add the product's link to the "
+"part for an Add to cart button"
+msgstr ""
+
 #: src/Links.tsx
 msgid ""
 "Looks for it on Amazon by its part or model number — add the product's link "
@@ -5540,9 +5628,9 @@ msgstr ""
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
 #: src/Duplicates.tsx src/Everything.tsx src/ImportHomeAssistant.tsx
-#: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/PayOff.tsx
-#: src/Places.tsx src/Product.tsx src/Providers.tsx src/Server.tsx
-#: src/Settings.tsx src/Suggestions.tsx src/Templates.tsx
+#: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/Parts.tsx
+#: src/PayOff.tsx src/Places.tsx src/Product.tsx src/Providers.tsx
+#: src/Server.tsx src/Settings.tsx src/Suggestions.tsx src/Templates.tsx
 msgid "Name"
 msgstr ""
 
@@ -5675,6 +5763,10 @@ msgstr ""
 
 #: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Next photo"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "No — a new part"
 msgstr ""
 
 #: src/Server.tsx
@@ -5888,6 +5980,10 @@ msgstr ""
 msgid "None left"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "None left — on the shopping list"
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "None left to take"
 msgstr ""
@@ -5928,6 +6024,10 @@ msgstr ""
 
 #: src/Duplicates.tsx
 msgid "Not a duplicate"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Not a part of this (the part itself stays)"
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
@@ -6002,7 +6102,7 @@ msgstr ""
 msgid "Not mine"
 msgstr ""
 
-#: src/SuggestedMaintenance.tsx
+#: src/Parts.tsx src/SuggestedMaintenance.tsx
 msgid "Not needed"
 msgstr ""
 
@@ -6562,8 +6662,24 @@ msgstr ""
 msgid "Pairing codes"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "Part no. {model}"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Part no. {partNumber}"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Part number"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "Part numbers, how-to, who to call…"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Parts & supplies"
 msgstr ""
 
 #: src/Demo.tsx
@@ -6893,6 +7009,10 @@ msgstr ""
 msgid "Put in"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "Put it on the shopping list when none are left"
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "Put some in for each scan"
 msgstr ""
@@ -6901,7 +7021,7 @@ msgstr ""
 msgid "Put the label on it"
 msgstr ""
 
-#: src/Links.tsx
+#: src/Links.tsx src/Parts.tsx
 msgid "Puts one in your Amazon cart (Amazon asks you to sign in if you aren't)"
 msgstr ""
 
@@ -7508,7 +7628,7 @@ msgstr ""
 msgid "Search {name}"
 msgstr ""
 
-#: src/Links.tsx
+#: src/Links.tsx src/Parts.tsx
 msgid "Search Amazon"
 msgstr ""
 
@@ -7796,6 +7916,10 @@ msgstr ""
 msgid "Show as"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "Show fewer"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Show it to"
 msgstr ""
@@ -7961,6 +8085,10 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "Someone's, borrowed by us"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Something already in Ferret"
 msgstr ""
 
 #: src/App.tsx
@@ -8608,6 +8736,10 @@ msgid "This device"
 msgstr ""
 
 #: src/Currency.tsx
+msgid "This household's Amazon"
+msgstr ""
+
+#: src/Currency.tsx
 msgid "This household's money"
 msgstr ""
 
@@ -9075,6 +9207,10 @@ msgstr ""
 msgid "Used {step}"
 msgstr ""
 
+#: src/Parts.tsx
+msgid "Used by “{task}”"
+msgstr ""
+
 #: src/Offline.tsx
 msgid "Used one"
 msgstr ""
@@ -9445,6 +9581,13 @@ msgstr ""
 msgid "Where it's kept"
 msgstr ""
 
+#: src/Currency.tsx
+msgid ""
+"Where Search Amazon looks for parts and supplies on the shopping list. "
+"Ferret works it out from the household's time zone and currency; pick one if "
+"it's wrong."
+msgstr ""
+
 #: src/Notifications.tsx
 msgid "Where should Ferret send your reminders?"
 msgstr ""
@@ -9459,6 +9602,10 @@ msgstr ""
 
 #: src/Browse.tsx
 msgid "Where this is"
+msgstr ""
+
+#: src/Parts.tsx
+msgid "Where to buy it (optional)"
 msgstr ""
 
 #: src/ItemSearch.tsx
@@ -9563,6 +9710,10 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "Within the limit ({amount} to spare)."
+msgstr ""
+
+#: src/Currency.tsx
+msgid "Worked out: {store}"
 msgstr ""
 
 #: src/Shares.tsx
