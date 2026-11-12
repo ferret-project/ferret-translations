@@ -3784,6 +3784,7 @@ msgid "Everyone trying Ferret sees this house, and it starts afresh every night.
 msgstr ""
 
 #: src/Everything.tsx
+#: src/ItemSearch.tsx
 #: src/Nav.tsx
 #: src/NotFound.tsx
 #: src/PayOff.tsx
@@ -4659,6 +4660,10 @@ msgstr ""
 
 #: src/Shopping.tsx
 msgid "In the trolley"
+msgstr ""
+
+#: src/ItemSearch.tsx
+msgid "In this item"
 msgstr ""
 
 #: src/PlanUsage.tsx
@@ -5602,6 +5607,7 @@ msgstr ""
 msgid "Next month"
 msgstr ""
 
+#: src/ItemPage.tsx
 #: src/PhotoViewer.tsx
 msgid "Next photo"
 msgstr ""
@@ -6699,6 +6705,7 @@ msgstr ""
 msgid "Previous month"
 msgstr ""
 
+#: src/ItemPage.tsx
 #: src/PhotoViewer.tsx
 msgid "Previous photo"
 msgstr ""
@@ -9348,6 +9355,10 @@ msgstr ""
 
 #: src/Browse.tsx
 msgid "Where this is"
+msgstr ""
+
+#: src/ItemSearch.tsx
+msgid "Where to search"
 msgstr ""
 
 #: src/Demo.tsx
