@@ -3807,8 +3807,8 @@ msgid ""
 "Account settings are locked here — make your own account to try those too."
 msgstr ""
 
-#: src/Everything.tsx src/Nav.tsx src/NotFound.tsx src/PayOff.tsx
-#: src/TabBar.tsx
+#: src/Everything.tsx src/ItemSearch.tsx src/Nav.tsx src/NotFound.tsx
+#: src/PayOff.tsx src/TabBar.tsx
 msgid "Everything"
 msgstr ""
 
@@ -4722,6 +4722,10 @@ msgstr ""
 
 #: src/Shopping.tsx
 msgid "In the trolley"
+msgstr ""
+
+#: src/ItemSearch.tsx
+msgid "In this item"
 msgstr ""
 
 #: src/PlanUsage.tsx
@@ -5659,7 +5663,7 @@ msgstr ""
 msgid "Next month"
 msgstr ""
 
-#: src/PhotoViewer.tsx
+#: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Next photo"
 msgstr ""
 
@@ -6772,7 +6776,7 @@ msgstr ""
 msgid "Previous month"
 msgstr ""
 
-#: src/PhotoViewer.tsx
+#: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Previous photo"
 msgstr ""
 
@@ -9431,6 +9435,10 @@ msgstr ""
 
 #: src/Browse.tsx
 msgid "Where this is"
+msgstr ""
+
+#: src/ItemSearch.tsx
+msgid "Where to search"
 msgstr ""
 
 #: src/Demo.tsx

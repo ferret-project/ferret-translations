@@ -4958,8 +4958,8 @@ msgstr ""
 "od nowa. Ustawienia konta są tu zablokowane – załóż własne konto, żeby je "
 "też wypróbować."
 
-#: src/Everything.tsx src/Nav.tsx src/NotFound.tsx src/PayOff.tsx
-#: src/TabBar.tsx
+#: src/Everything.tsx src/ItemSearch.tsx src/Nav.tsx src/NotFound.tsx
+#: src/PayOff.tsx src/TabBar.tsx
 #, fuzzy
 msgid "Everything"
 msgstr "Wszystko"
@@ -6158,6 +6158,11 @@ msgstr "W oknie dialogowym drukowania:"
 #, fuzzy
 msgid "In the trolley"
 msgstr "W koszyku"
+
+#: src/ItemSearch.tsx
+#, fuzzy
+msgid "In this item"
+msgstr "za każdym razem"
 
 #: src/PlanUsage.tsx
 #, fuzzy
@@ -7366,7 +7371,7 @@ msgstr "Najbliższy termin"
 msgid "Next month"
 msgstr "W przyszłym miesiącu"
 
-#: src/PhotoViewer.tsx
+#: src/ItemPage.tsx src/PhotoViewer.tsx
 #, fuzzy
 msgid "Next photo"
 msgstr "Następne zdjęcie"
@@ -8828,7 +8833,7 @@ msgstr "Poprzedni"
 msgid "Previous month"
 msgstr "Poprzedni miesiąc"
 
-#: src/PhotoViewer.tsx
+#: src/ItemPage.tsx src/PhotoViewer.tsx
 #, fuzzy
 msgid "Previous photo"
 msgstr "Poprzednie zdjęcie"
@@ -12276,6 +12281,11 @@ msgstr "Gdzie znajduje się to gospodarstwo domowe"
 #, fuzzy
 msgid "Where this is"
 msgstr "Gdzie to jest"
+
+#: src/ItemSearch.tsx
+#, fuzzy
+msgid "Where to search"
+msgstr "Wyczyść wyniki wyszukiwania"
 
 #: src/Demo.tsx
 #, fuzzy
