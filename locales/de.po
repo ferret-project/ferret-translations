@@ -2414,8 +2414,8 @@ msgstr ""
 
 #: src/Server.tsx
 msgid ""
-"Background jobs that gave up after their last try (the service error log "
-"says why)."
+"Background jobs that gave up after their last try in the last week (the "
+"service error log says why)."
 msgstr ""
 
 #: src/Server.tsx
