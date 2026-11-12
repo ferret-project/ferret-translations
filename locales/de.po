@@ -11,12 +11,24 @@ msgstr ""
 "X-Generator: Weblate 2026.11.2.dev0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: src/Gone.tsx
+msgid " — for {amount}"
+msgstr ""
+
+#: src/Gone.tsx
+msgid " — insurance paid {amount}"
+msgstr ""
+
 #: src/Import.tsx
 msgid " — the first {done} went in; see Recent imports to undo them."
 msgstr ""
 
 #: src/Offline.tsx
 msgid " — when there's signal"
+msgstr ""
+
+#: src/Gone.tsx
+msgid " — worth {amount}"
 msgstr ""
 
 #: src/Catalog.tsx
@@ -151,6 +163,10 @@ msgstr ""
 msgid " by {by}"
 msgstr ""
 
+#: src/Gone.tsx src/Heirs.tsx
+msgid " by {name}"
+msgstr ""
+
 #: src/Report.tsx
 msgid " by {preparedBy}"
 msgstr ""
@@ -190,6 +206,10 @@ msgstr ""
 #: src/PlanUsage.tsx
 msgid ""
 " This month's AI actions and lookups start again on {toLocaleDateString}."
+msgstr ""
+
+#: src/Gone.tsx
+msgid " to {to}"
 msgstr ""
 
 #: src/History.tsx src/Overview.tsx
@@ -347,6 +367,11 @@ msgstr ""
 msgid "{0, plural, one {# new place} other {# new places}}"
 msgstr ""
 
+#. placeholder {0}: groups.length
+#: src/Heirs.tsx
+msgid "{0, plural, one {# person} other {# people}}"
+msgstr ""
+
 #. placeholder {0}: list.length
 #: src/Offline.tsx
 msgid "{0, plural, one {# photo saved} other {# photos saved}}"
@@ -419,8 +444,9 @@ msgstr ""
 
 #. placeholder {0}: b.items
 #. placeholder {0}: c.items
-#. placeholder {0}: props.items
-#: src/App.tsx src/Import.tsx src/PayOff.tsx src/Templates.tsx
+#. placeholder {0}: g.items.length
+#: src/App.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx src/PayOff.tsx
+#: src/Templates.tsx
 msgid "{0, plural, one {# thing} other {# things}}"
 msgstr ""
 
@@ -443,6 +469,11 @@ msgstr ""
 #. placeholder {0}: n.fields.length
 #: src/Catalog.tsx
 msgid "{0, plural, one {+# field} other {+# fields}}"
+msgstr ""
+
+#. placeholder {0}: ticked.size
+#: src/StarterTasks.tsx
+msgid "{0, plural, one {Add # task} other {Add # tasks}}"
 msgstr ""
 
 #. placeholder {0}: ticked.length
@@ -481,6 +512,16 @@ msgstr ""
 msgid ""
 "{0, plural, one {Checking one more possible match…} other {Checking # more "
 "possible matches…}}"
+msgstr ""
+
+#. placeholder {0}: s.count
+#: src/StarterTasks.tsx
+msgid "{0, plural, one {Every month} other {Every # months}}"
+msgstr ""
+
+#. placeholder {0}: s.count
+#: src/StarterTasks.tsx
+msgid "{0, plural, one {Every year} other {Every # years}}"
 msgstr ""
 
 #. placeholder {0}: fills.length
@@ -528,6 +569,13 @@ msgstr ""
 #. placeholder {0}: l.views
 #: src/Shares.tsx
 msgid "{0, plural, one {opened # time} other {opened # times}}"
+msgstr ""
+
+#. placeholder {0}: r.documents
+#: src/Gone.tsx
+msgid ""
+"{0, plural, one {Receipt or document on file} other {# receipts or documents "
+"on file}}"
 msgstr ""
 
 #. placeholder {0}: r.blobs.length
@@ -707,6 +755,10 @@ msgstr ""
 msgid "{due} due in 2 weeks"
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "{every}, first in {season}"
+msgstr ""
+
 #: src/AiFill.tsx
 msgid "{field} looks right"
 msgstr ""
@@ -729,6 +781,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "{hours} h ago"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "{householdName} — donations in {year}"
 msgstr ""
 
 #: src/Overview.tsx
@@ -1313,8 +1369,16 @@ msgstr ""
 msgid "🐾 Ferret · {householdName}"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "🐾 Ferret · Donations"
+msgstr ""
+
 #: src/Report.tsx
 msgid "🐾 Ferret · Home inventory"
+msgstr ""
+
+#: src/Heirs.tsx
+msgid "🐾 Ferret · Personal property list"
 msgstr ""
 
 #: src/Settings.tsx src/Warranties.tsx
@@ -1423,6 +1487,12 @@ msgid ""
 "in PEM form (<0>-----BEGIN CERTIFICATE-----</0>). Never its private key."
 msgstr ""
 
+#: src/Listing.tsx
+msgid ""
+"A draft from the AI — check it against the thing itself and change what's "
+"wrong. Nothing is saved or posted; copy it into the marketplace you use."
+msgstr ""
+
 #: src/Loans.tsx
 msgid ""
 "A friendly email that it's still with them — from the due date if there is "
@@ -1442,6 +1512,16 @@ msgid ""
 "A limit on a kind of thing counts what's in a category (Electronics) or has "
 "a tag (Jewelry) — tag the things it covers. Values come from each thing's "
 "value, or what you paid; see the <0>insurance report</0> for the list."
+msgstr ""
+
+#: src/Heirs.tsx
+msgid ""
+"A list of wishes kept in Ferret, not a legal document. Whether it counts, "
+"and how to make it count, depends on where you live — ask a lawyer."
+msgstr ""
+
+#: src/Listing.tsx
+msgid "A listing for {name}"
 msgstr ""
 
 #: src/Demo.tsx
@@ -1519,6 +1599,13 @@ msgid ""
 "A read-only link to {what}, for someone without an account — an insurer, an "
 "adjuster, an executor. It shows things as they are when it's opened, never "
 "your notes, and every opening is logged."
+msgstr ""
+
+#: src/Gone.tsx
+msgid ""
+"A record of what was given and what it was worth as entered in Ferret. It "
+"isn't a receipt from the organisation, and it says nothing about what's "
+"deductible."
 msgstr ""
 
 #: src/RoomScan.tsx
@@ -1798,7 +1885,7 @@ msgstr ""
 msgid "Add task"
 msgstr ""
 
-#: src/Overview.tsx
+#: src/Overview.tsx src/StarterTasks.tsx
 msgid "Add tasks"
 msgstr ""
 
@@ -2075,6 +2162,10 @@ msgstr ""
 msgid "Analyzing"
 msgstr ""
 
+#: src/Server.tsx
+msgid "and {more} more"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "And {more} more — they're in the bell."
 msgstr ""
@@ -2238,6 +2329,10 @@ msgstr ""
 msgid "Asked — suggestions appear here"
 msgstr ""
 
+#: src/Listing.tsx
+msgid "Asking price"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "At"
 msgstr ""
@@ -2283,9 +2378,10 @@ msgid "Avery 5163 — 2″ × 4″, 10 per sheet (boxes)"
 msgstr ""
 
 #: src/AiFill.tsx src/App.tsx src/Collections.tsx src/Deleted.tsx
-#: src/Duplicates.tsx src/Gone.tsx src/Import.tsx src/ItemPage.tsx
-#: src/Labels.tsx src/Loans.tsx src/PayOff.tsx src/Providers.tsx
-#: src/RoomScan.tsx src/Shopping.tsx src/Walkthrough.tsx src/WarrantyList.tsx
+#: src/Duplicates.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx
+#: src/ItemPage.tsx src/Labels.tsx src/Loans.tsx src/PayOff.tsx
+#: src/Providers.tsx src/RoomScan.tsx src/Shopping.tsx src/Walkthrough.tsx
+#: src/WarrantyList.tsx
 msgid "Back"
 msgstr ""
 
@@ -2308,6 +2404,18 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Back up now"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Background jobs still running whose turn came over an hour ago — a slow "
+"model, or a restart mid-job."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Background jobs that gave up after their last try (the service error log "
+"says why)."
 msgstr ""
 
 #: src/Server.tsx
@@ -2344,6 +2452,10 @@ msgid ""
 "Barcodes nobody here has saved yet are asked of the online product database, "
 "each once for the whole server. It allows so many a day; when they're used "
 "up, scans still match the barcode books and the rest are asked later."
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Before the first freeze"
 msgstr ""
 
 #: src/Labels.tsx
@@ -2512,7 +2624,8 @@ msgstr ""
 #: src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
 #: src/Pairing.tsx src/PayOff.tsx src/PhotoCrop.tsx src/Places.tsx
 #: src/Providers.tsx src/Security.tsx src/Server.tsx src/Settings.tsx
-#: src/Shares.tsx src/Templates.tsx src/Usage.tsx src/Warranties.tsx
+#: src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx src/Usage.tsx
+#: src/Warranties.tsx
 msgid "Cancel"
 msgstr ""
 
@@ -2561,12 +2674,28 @@ msgstr ""
 msgid "Check"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Check again"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "Check before importing — tick anything it got wrong."
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Check caulk around tubs, sinks and windows"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "Check columns and rows"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Check fire extinguishers"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Check now"
 msgstr ""
 
 #: src/App.tsx
@@ -2685,11 +2814,31 @@ msgstr ""
 msgid "Claude Code command"
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Clean the dishwasher filter"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Clean the dryer vent"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Clean the gutters"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Clean the range hood filter"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Clean the refrigerator coils"
+msgstr ""
+
 #: src/Providers.tsx
 msgid "Cleaner"
 msgstr ""
 
-#: src/Everything.tsx src/Search.tsx
+#: src/Everything.tsx src/Search.tsx src/StarterTasks.tsx
 msgid "Clear"
 msgstr ""
 
@@ -2760,11 +2909,19 @@ msgstr ""
 msgid "Coming up"
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Common house tasks"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Common tasks for {name}"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "Complete"
 msgstr ""
 
-#: src/Duplicates.tsx src/ItemEditor.tsx src/lib/words.ts
+#: src/Duplicates.tsx src/Gone.tsx src/ItemEditor.tsx src/lib/words.ts
 msgid "Condition"
 msgstr ""
 
@@ -2792,8 +2949,8 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: src/Pairing.tsx src/Security.tsx src/Server.tsx src/Shares.tsx
-#: src/Shopping.tsx
+#: src/Listing.tsx src/Pairing.tsx src/Security.tsx src/Server.tsx
+#: src/Shares.tsx src/Shopping.tsx
 msgid "Copied"
 msgstr ""
 
@@ -2801,7 +2958,7 @@ msgstr ""
 msgid "Copies kept"
 msgstr ""
 
-#: src/Security.tsx
+#: src/Listing.tsx src/Security.tsx
 msgid "Copy"
 msgstr ""
 
@@ -2815,6 +2972,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Copy details"
+msgstr ""
+
+#: src/Listing.tsx
+msgid "Copy it all"
 msgstr ""
 
 #: src/Settings.tsx
@@ -2989,6 +3150,10 @@ msgstr ""
 msgid "Dark"
 msgstr ""
 
+#: src/Gone.tsx src/Heirs.tsx
+msgid "Date"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Day (UTC)"
 msgstr ""
@@ -3083,7 +3248,7 @@ msgstr ""
 msgid "Describe what you're looking for"
 msgstr ""
 
-#: src/Duplicates.tsx src/ItemEditor.tsx src/lib/words.ts
+#: src/Duplicates.tsx src/ItemEditor.tsx src/lib/words.ts src/Listing.tsx
 msgid "Description"
 msgstr ""
 
@@ -3176,6 +3341,26 @@ msgstr ""
 msgid "Don't upload this room scan?"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "Donated"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Donated it"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Donations"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Donations by year"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Donations in {year}"
+msgstr ""
+
 #: src/Collections.tsx src/Everything.tsx src/Household.tsx
 #: src/ImportHomeAssistant.tsx src/Maintenance.tsx src/Settings.tsx
 #: src/Shares.tsx
@@ -3222,7 +3407,7 @@ msgstr ""
 msgid "Download everything…"
 msgstr ""
 
-#: src/Report.tsx src/Shared.tsx
+#: src/Gone.tsx src/Report.tsx src/Shared.tsx
 msgid "Download spreadsheet (CSV)"
 msgstr ""
 
@@ -3232,6 +3417,10 @@ msgstr ""
 
 #: src/FromWeb.tsx
 msgid "Downloads"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Downloads from a web address still waiting after a day."
 msgstr ""
 
 #: src/PhotoCrop.tsx
@@ -3391,6 +3580,10 @@ msgstr ""
 
 #: src/Pairing.tsx
 msgid "e.g. the bridge, back door"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "e.g. the charity or organisation"
 msgstr ""
 
 #: src/App.tsx
@@ -3623,6 +3816,10 @@ msgstr ""
 msgid "everything in {name}"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Everything looks right."
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "Everything not already in Ferret"
 msgstr ""
@@ -3648,6 +3845,14 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Everything you track lives in a household. You can invite family later."
+msgstr ""
+
+#: src/Heirs.tsx
+msgid ""
+"Everything you've said someone should have one day (Edit → \"Goes to (heir)"
+"\"), grouped by person, with what identifies each thing. Print it to keep "
+"with your other papers. It's a list for your family, not a will — the rules "
+"differ from place to place, so ask a lawyer how to make your wishes count."
 msgstr ""
 
 #: src/Household.tsx
@@ -3713,6 +3918,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "Fair condition"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "fall"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -3864,6 +4073,18 @@ msgstr ""
 
 #: src/Server.tsx
 msgid ""
+"Files that won't decrypt with their household's key (from a sample) — "
+"damaged, or written with another FILES_KEY."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Files the database lists that aren't in the file store — their photos or "
+"documents can't be opened."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
 "FILES_KEY is only in this server's data folder. If that folder is lost, so "
 "is every photo and document — the backups too. Make a key file and keep it, "
 "and its passphrase, somewhere else."
@@ -3937,6 +4158,10 @@ msgstr ""
 msgid "Fix or remove the link that isn't a web address."
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Flush the water heater"
+msgstr ""
+
 #: src/Nav.tsx
 msgid "Fold the menu to icons"
 msgstr ""
@@ -3947,6 +4172,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "For {join}"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "For a place (optional)"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -4125,6 +4354,10 @@ msgstr ""
 msgid "Given back"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "Given to"
+msgstr ""
+
 #: src/Invite.tsx
 msgid "Go to sign in"
 msgstr ""
@@ -4191,6 +4424,10 @@ msgstr ""
 
 #: src/Collections.tsx
 msgid "Have it or want it"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Have the chimney inspected"
 msgstr ""
 
 #: src/Reminders.tsx
@@ -4272,6 +4509,10 @@ msgstr ""
 
 #: src/Nav.tsx
 msgid "Households"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Households nobody is a member of — nobody can open them."
 msgstr ""
 
 #: src/Collections.tsx src/Labels.tsx src/Maintenance.tsx src/RoomScan.tsx
@@ -4396,6 +4637,10 @@ msgstr ""
 msgid "Importing… {done} of {total}"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Imports sorted with AI that never finished."
+msgstr ""
+
 #: src/Everything.tsx src/Report.tsx
 msgid "In {box}"
 msgstr ""
@@ -4476,6 +4721,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Inside {name}"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Inspect the roof"
 msgstr ""
 
 #: src/Install.tsx
@@ -4791,6 +5040,10 @@ msgstr ""
 msgid "Kept in"
 msgstr ""
 
+#: src/Heirs.tsx
+msgid "Kept in {place}"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Key file command"
 msgstr ""
@@ -5038,6 +5291,11 @@ msgstr ""
 msgid "Look up"
 msgstr ""
 
+#: src/Server.tsx
+msgid ""
+"Looked for {checked} of {total} files and decrypted {decrypted} · {seconds} s"
+msgstr ""
+
 #: src/App.tsx
 msgid "Looking through your things…"
 msgstr ""
@@ -5048,6 +5306,13 @@ msgstr ""
 
 #: src/Product.tsx
 msgid "Looking up barcode {barcode}…"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Looks over the running server: every file the database expects is in the "
+"store (and a few decrypt), nothing points at something deleted, no work was "
+"left unfinished, and backups are recent. It changes nothing."
 msgstr ""
 
 #: src/AiFill.tsx
@@ -5570,6 +5835,10 @@ msgstr ""
 msgid "No warranties yet"
 msgstr ""
 
+#: src/Heirs.tsx
+msgid "Nobody named yet"
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid "none"
 msgstr ""
@@ -5708,7 +5977,7 @@ msgstr ""
 msgid "Not needed"
 msgstr ""
 
-#: src/Install.tsx
+#: src/Install.tsx src/StarterTasks.tsx
 msgid "Not now"
 msgstr ""
 
@@ -5720,7 +5989,7 @@ msgstr ""
 msgid "Not placed"
 msgstr ""
 
-#: src/ItemEditor.tsx
+#: src/Gone.tsx src/ItemEditor.tsx
 msgid "Not recorded"
 msgstr ""
 
@@ -5899,6 +6168,10 @@ msgstr ""
 msgid "Nothing to review yet"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "Nothing was marked donated in this year."
+msgstr ""
+
 #: src/Offline.tsx
 msgid "Nothing yet."
 msgstr ""
@@ -5971,6 +6244,12 @@ msgstr ""
 
 #: src/lib/origin.ts
 msgid "on a room walkthrough"
+msgstr ""
+
+#: src/Heirs.tsx
+msgid ""
+"On a thing's page, Edit → \"Goes to (heir)\" — then it's listed here under "
+"that person."
 msgstr ""
 
 #: src/Reminders.tsx
@@ -6091,6 +6370,15 @@ msgstr ""
 
 #: src/PhotoViewer.tsx
 msgid "Only a small copy of this photo is kept."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Only part of the files were looked for — run it again later for the rest."
+msgstr ""
+
+#: src/Heirs.tsx
+msgid "Only the household's owner and admins can see who should have what."
 msgstr ""
 
 #: src/Settings.tsx
@@ -6217,7 +6505,7 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: src/ItemEditor.tsx
+#: src/Gone.tsx src/ItemEditor.tsx
 msgid "Paid"
 msgstr ""
 
@@ -6283,6 +6571,10 @@ msgstr ""
 msgid "Personal property (Coverage C)"
 msgstr ""
 
+#: src/Heirs.tsx src/Nav.tsx
+msgid "Personal property list"
+msgstr ""
+
 #: src/Providers.tsx
 msgid "Pest control"
 msgstr ""
@@ -6321,12 +6613,16 @@ msgstr ""
 msgid "Photograph more"
 msgstr ""
 
-#: src/Collections.tsx src/ItemPage.tsx src/PhotoViewer.tsx
+#: src/Collections.tsx src/Heirs.tsx src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Photos"
 msgstr ""
 
 #: src/PlanUsage.tsx
 msgid "Photos and files"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Photos or documents whose thing is missing or in another household."
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -6370,6 +6666,11 @@ msgstr ""
 
 #: src/Browse.tsx src/Nav.tsx src/Places.tsx src/Setup.tsx src/TabBar.tsx
 msgid "Places"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Places inside a place that's been deleted — they can't be reached in Places."
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -6420,8 +6721,16 @@ msgstr ""
 msgid "Possibly recalled — check the model"
 msgstr ""
 
+#: src/Gone.tsx src/Heirs.tsx
+msgid "Prepared {date}"
+msgstr ""
+
 #: src/Report.tsx
 msgid "Prepared {longDate}"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Press the test button on each one"
 msgstr ""
 
 #: src/Labels.tsx
@@ -6452,6 +6761,10 @@ msgstr ""
 msgid "Price paid (total)"
 msgstr ""
 
+#: src/Listing.tsx
+msgid "Price: {price}"
+msgstr ""
+
 #: src/Boxes.tsx src/Labels.tsx
 msgid "Print"
 msgstr ""
@@ -6467,7 +6780,7 @@ msgstr ""
 msgid "Print labels"
 msgstr ""
 
-#: src/Report.tsx src/Shared.tsx
+#: src/Gone.tsx src/Heirs.tsx src/Report.tsx src/Shared.tsx
 msgid "Print or save as PDF"
 msgstr ""
 
@@ -6617,6 +6930,10 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "Recalled"
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Receipt (optional)"
 msgstr ""
 
 #: src/Overview.tsx
@@ -6840,6 +7157,14 @@ msgstr ""
 msgid "Rental"
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Replace smoke and CO alarm batteries"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Replace the furnace / AC filter"
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid ""
 "Replaced, sold, or just taken out of Home Assistant? Open one and use Edit → "
@@ -6962,6 +7287,10 @@ msgstr ""
 
 #: src/RoomScan.tsx
 msgid "Room scans need the vision model, which isn't set up on this server."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Room scans that never finished."
 msgstr ""
 
 #: src/RoomScan.tsx
@@ -7122,6 +7451,10 @@ msgid ""
 "<1>More</1> first."
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Seal the driveway"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Seals every photo, document and pairing code, and the backups."
 msgstr ""
@@ -7238,6 +7571,10 @@ msgstr ""
 msgid "Serial"
 msgstr ""
 
+#: src/Heirs.tsx
+msgid "Serial {serial}"
+msgstr ""
+
 #: src/Duplicates.tsx
 msgid "Serial {serialNumber}"
 msgstr ""
@@ -7263,6 +7600,10 @@ msgstr ""
 msgid "Server admin"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Server check"
+msgstr ""
+
 #: src/AttentionBell.tsx
 msgid "Service"
 msgstr ""
@@ -7277,6 +7618,14 @@ msgstr ""
 
 #: src/Maintenance.tsx src/Nav.tsx
 msgid "Service providers"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Service the air conditioner"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Service the furnace"
 msgstr ""
 
 #: src/Server.tsx
@@ -7392,6 +7741,10 @@ msgstr ""
 msgid "Show the whole month"
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Shut off and drain outdoor faucets"
+msgstr ""
+
 #: src/App.tsx
 msgid "Sign in"
 msgstr ""
@@ -7447,6 +7800,10 @@ msgstr ""
 msgid "Sign out to make your own"
 msgstr ""
 
+#: src/Heirs.tsx
+msgid "Signature"
+msgstr ""
+
 #: src/Security.tsx
 msgid ""
 "Signing in takes your password and a code from your authenticator app. "
@@ -7483,6 +7840,12 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Small copy only"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Small pictures (thumbnails) missing from the file store — those things show "
+"no picture in lists."
 msgstr ""
 
 #: src/Setup.tsx
@@ -7552,6 +7915,14 @@ msgstr ""
 
 #: src/ImportCsv.tsx
 msgid "Sorting… {progress}"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "spring"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Spring and fall"
 msgstr ""
 
 #: src/PhotoCrop.tsx
@@ -7813,6 +8184,18 @@ msgstr ""
 msgid "Templates"
 msgstr ""
 
+#: src/StarterTasks.tsx
+msgid "Test GFCI outlets"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Test smoke and CO alarms"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "Test the sump pump"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Thanks — {owner} knows it's back. No more reminders."
 msgstr ""
@@ -7912,6 +8295,10 @@ msgid ""
 "leave the \"Where it is\" column out."
 msgstr ""
 
+#: src/Server.tsx
+msgid "The help's Server check page says what to do about each."
+msgstr ""
+
 #: src/PlanUsage.tsx
 msgid "The household's owner manages its plan."
 msgstr ""
@@ -8000,7 +8387,7 @@ msgstr ""
 msgid "The two passwords don't match"
 msgstr ""
 
-#: src/Maintenance.tsx
+#: src/Maintenance.tsx src/StarterTasks.tsx
 msgid "The whole household"
 msgstr ""
 
@@ -8050,17 +8437,39 @@ msgstr ""
 msgid "Things"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Things belonging to a household that no longer exists."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Things given"
+msgstr ""
+
 #: src/Everything.tsx
 msgid ""
 "Things in a box come out of it; a box moved takes what's inside with it."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Things in a box that's been deleted or belongs to another household."
 msgstr ""
 
 #: src/PayOff.tsx
 msgid "Things in a category"
 msgstr ""
 
+#: src/Server.tsx
+msgid ""
+"Things in a room that's been deleted or belongs to another household — they "
+"don't show under any room."
+msgstr ""
+
 #: src/App.tsx
 msgid "Things kept here"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Things whose category was deleted — they count as having none."
 msgstr ""
 
 #: src/PayOff.tsx
@@ -8182,7 +8591,7 @@ msgstr ""
 msgid "Thrown out"
 msgstr ""
 
-#: src/ImportCsv.tsx src/ImportHomeAssistant.tsx
+#: src/ImportCsv.tsx src/ImportHomeAssistant.tsx src/StarterTasks.tsx
 msgid "Tick all"
 msgstr ""
 
@@ -8192,6 +8601,12 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Tick the \"I'm a person\" check first."
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid ""
+"Tick what applies to your home. Each becomes a task with a reminder — change "
+"how often, or remove it, any time. Seasonal ones start in April or October."
 msgstr ""
 
 #: src/Shopping.tsx
@@ -8216,6 +8631,10 @@ msgstr ""
 msgid ""
 "Tip: a full sheet of 5163 is 10, of 5160 is 30, of 22806 is 12, of 22805 is "
 "24."
+msgstr ""
+
+#: src/Listing.tsx
+msgid "Title"
 msgstr ""
 
 #: src/Everything.tsx
@@ -8258,7 +8677,7 @@ msgstr ""
 msgid "Top level"
 msgstr ""
 
-#: src/Charts.tsx
+#: src/Charts.tsx src/Gone.tsx
 msgid "Total"
 msgstr ""
 
@@ -8312,7 +8731,7 @@ msgstr ""
 msgid "Trusted"
 msgstr ""
 
-#: src/App.tsx src/Offline.tsx
+#: src/App.tsx src/Listing.tsx src/Offline.tsx
 msgid "Try again"
 msgstr ""
 
@@ -8629,6 +9048,10 @@ msgstr ""
 msgid "Valued at {amount}"
 msgstr ""
 
+#: src/Heirs.tsx
+msgid "Values"
+msgstr ""
+
 #: src/Report.tsx
 msgid ""
 "Values are the owner's records: the current value where given, otherwise the "
@@ -8763,6 +9186,10 @@ msgstr ""
 msgid "Welcome back"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "What"
+msgstr ""
+
 #: src/TimeZone.tsx
 msgid ""
 "What \"today\" is for due dates, overdue and ending soon, and when reminders "
@@ -8842,6 +9269,13 @@ msgstr ""
 msgid "What went wrong"
 msgstr ""
 
+#: src/Gone.tsx
+msgid ""
+"What you gave, to whom and what it was worth — to print or download for your "
+"records. Whether any of it is tax-deductible is for you or your accountant "
+"to decide."
+msgstr ""
+
 #: src/RoomScan.tsx
 msgid "what's in the box"
 msgstr ""
@@ -8875,9 +9309,9 @@ msgstr ""
 
 #: src/Gone.tsx
 msgid ""
-"When you sell, give away, throw out, lose or have something stolen, mark it "
-"on its page (Edit → No longer have it?). It leaves your lists and totals and "
-"comes here."
+"When you sell, give away, donate, throw out, lose or have something stolen, "
+"mark it on its page (Edit → No longer have it?). It leaves your lists and "
+"totals and comes here."
 msgstr ""
 
 #: src/Everything.tsx
@@ -9048,7 +9482,7 @@ msgstr ""
 msgid "Works for"
 msgstr ""
 
-#: src/Collections.tsx src/Nav.tsx src/Overview.tsx src/PayOff.tsx
+#: src/Collections.tsx src/Gone.tsx src/Nav.tsx src/Overview.tsx src/PayOff.tsx
 #: src/Places.tsx src/Product.tsx
 msgid "Worth"
 msgstr ""
@@ -9077,12 +9511,24 @@ msgstr ""
 msgid "Worth under {amount}"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "Worth when given"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Worth, by category"
 msgstr ""
 
 #: src/Overview.tsx
 msgid "Worth, room by room"
+msgstr ""
+
+#: src/Listing.tsx
+msgid "Write a listing to sell it"
+msgstr ""
+
+#: src/Listing.tsx
+msgid "Writing a draft…"
 msgstr ""
 
 #: src/Pairing.tsx
@@ -9099,6 +9545,10 @@ msgstr ""
 
 #: src/Household.tsx src/Server.tsx
 msgid "You"
+msgstr ""
+
+#: src/StarterTasks.tsx
+msgid "You already have all of these."
 msgstr ""
 
 #: src/Import.tsx src/RoomScan.tsx src/Walkthrough.tsx
