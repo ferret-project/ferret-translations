@@ -470,8 +470,9 @@ msgstr ""
 
 #. placeholder {0}: b.items
 #. placeholder {0}: c.items
-#. placeholder {0}: g.items.length
+#. placeholder {0}: folder.count
 #: src/App.tsx
+#: src/Everything.tsx
 #: src/Gone.tsx
 #: src/Heirs.tsx
 #: src/Import.tsx
@@ -937,6 +938,10 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "{name} at a glance"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "{name} collection"
 msgstr ""
 
 #: src/Browse.tsx
@@ -4460,6 +4465,10 @@ msgstr ""
 
 #: src/StarterTasks.tsx
 msgid "Flush the water heater"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Fold big categories"
 msgstr ""
 
 #: src/Nav.tsx
@@ -8485,6 +8494,10 @@ msgstr ""
 #: src/Everything.tsx
 #: src/Maintenance.tsx
 msgid "Show as"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Show each category with ten or more things as one row"
 msgstr ""
 
 #: src/Parts.tsx
