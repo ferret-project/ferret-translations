@@ -589,17 +589,37 @@ msgid ""
 "changed to match Home Assistant.}}"
 msgstr ""
 
+#. placeholder {0}: it.contents
+#: src/Tracking.tsx
+#, fuzzy
+msgid ""
+"{0, plural, one {# thing inside — checked with it} other {# things inside — "
+"checked with it}}"
+msgstr ""
+"{0, plural, one {Wypełnione przez AI — sprawdź to} few {Wypełnione przez AI "
+"— sprawdź to} many {Wypełnione przez AI — sprawdź to} other {Wypełnione "
+"przez AI — sprawdź to}}"
+
 #. placeholder {0}: list.length
 #: src/AttentionBell.tsx
 msgid ""
 "{0, plural, one {# thing needs attention} other {# things need attention}}"
 msgstr ""
 
+#. placeholder {0}: r.toCheck.length
+#: src/Tracking.tsx
+#, fuzzy
+msgid ""
+"{0, plural, one {# thing to check here.} other {# things to check here.}}"
+msgstr ""
+"{0, plural, one {# marka sprawdzona} few {Sprawdzono # marki} many "
+"{Sprawdzono # marek} other {# sprawdzonych marek}}"
+
 #. placeholder {0}: b.items
 #. placeholder {0}: c.items
 #. placeholder {0}: g.items.length
-#: src/App.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx src/PayOff.tsx
-#: src/Templates.tsx
+#: src/App.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx src/Overview.tsx
+#: src/PayOff.tsx src/Templates.tsx src/Tracking.tsx
 #, fuzzy
 msgid "{0, plural, one {# thing} other {# things}}"
 msgstr ""
@@ -830,6 +850,14 @@ msgstr ""
 "{0, plural, one {Wylogowano # sesję.} few {Wylogowano # sesje.} many "
 "{Wylogowałeś się po # sesjach.} other {Wylogowano się po # sesji.}}"
 
+#. placeholder {0}: r.open.done
+#: src/Tracking.tsx
+#, fuzzy
+msgid "{0, plural, one {Under way: # checked} other {Under way: # checked}}"
+msgstr ""
+"{0, plural, one {# marka sprawdzona} few {Sprawdzono # marki} many "
+"{Sprawdzono # marek} other {# sprawdzonych marek}}"
+
 #: src/Charts.tsx
 #, fuzzy
 msgid "{amount} in a year"
@@ -1035,6 +1063,11 @@ msgstr "{done} zmieniono"
 msgid "{done} changed · {failed} couldn't be: {reasons}"
 msgstr "{done} zmieniono · {failed} nie mogło być: {reasons}"
 
+#: src/Tracking.tsx
+#, fuzzy
+msgid "{done} of {total} checked"
+msgstr "{done} z {total} gotowe"
+
 #: src/Setup.tsx
 #, fuzzy
 msgid "{done} of {total} done"
@@ -1186,6 +1219,11 @@ msgstr "{low} kończy się"
 msgid "{m} min ago"
 msgstr "{m} minutę temu"
 
+#: src/Overview.tsx
+#, fuzzy
+msgid "{misplaced, plural, one {# nobody can find} other {# nobody can find}}"
+msgstr "{d, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}"
+
 #: src/Suggestions.tsx
 #, fuzzy
 msgid "{months, plural, one {# month} other {# months}}"
@@ -1252,6 +1290,11 @@ msgstr "{name} znajduje się w koszyku"
 msgid "{name} is ready"
 msgstr "{name} jest gotowe"
 
+#: src/Tracking.tsx
+#, fuzzy
+msgid "{name} is reviewed"
+msgstr "{name} jest gotowe"
+
 #: src/Parts.tsx
 msgid "{name} isn't a part of this"
 msgstr ""
@@ -1275,6 +1318,13 @@ msgstr "{name}: co zrobiłeś?"
 #, fuzzy
 msgid "{name}'s website"
 msgstr "{name}"
+
+#: src/Overview.tsx
+#, fuzzy
+msgid ""
+"{notSeenYear, plural, one {# not seen in a year} other {# not seen in a "
+"year}}"
+msgstr "{count, plural, one {rok} few {# lata} many {# lat} other {# roku}}"
 
 #: src/Security.tsx
 #, fuzzy
@@ -3245,8 +3295,8 @@ msgstr "Avery 5163 — 2″ × 4″, 10 sztuk na arkuszu (pudełka)"
 #: src/AiFill.tsx src/App.tsx src/Collections.tsx src/Deleted.tsx
 #: src/Duplicates.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx
 #: src/ItemPage.tsx src/Labels.tsx src/Loans.tsx src/PayOff.tsx
-#: src/Providers.tsx src/RoomScan.tsx src/Shopping.tsx src/Walkthrough.tsx
-#: src/WarrantyList.tsx
+#: src/Providers.tsx src/RoomScan.tsx src/Shopping.tsx src/Tracking.tsx
+#: src/Walkthrough.tsx src/WarrantyList.tsx
 #, fuzzy
 msgid "Back"
 msgstr "Wstecz"
@@ -3542,6 +3592,15 @@ msgstr ""
 msgid "Can look and ask, but not change anything"
 msgstr "Możesz przeglądać i zadawać pytania, ale niczego nie zmienisz"
 
+#: src/Nav.tsx src/Tracking.tsx
+msgid "Can't find"
+msgstr ""
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Can't find it"
+msgstr "Nie udało mi się tego dodać"
+
 #: src/Offline.tsx
 #, fuzzy
 msgid "Can't reach Ferret"
@@ -3554,7 +3613,7 @@ msgstr "Nie mogę połączyć się z Ferretem"
 #: src/Pairing.tsx src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx
 #: src/Places.tsx src/Providers.tsx src/Security.tsx src/Server.tsx
 #: src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx
-#: src/Usage.tsx src/Warranties.tsx
+#: src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
 #, fuzzy
 msgid "Cancel"
 msgstr "Anuluj"
@@ -3573,6 +3632,14 @@ msgstr "anulowane lub zwrócone"
 #, fuzzy
 msgid "Captured offline"
 msgstr "Zrobione w trybie offline"
+
+#: src/Overview.tsx
+msgid "Carry on"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Carry on the room review"
+msgstr ""
 
 #: src/PayOff.tsx
 #, fuzzy
@@ -3604,6 +3671,10 @@ msgstr "Kategoria przedmiotu {number}"
 #, fuzzy
 msgid "Certificates"
 msgstr "Certyfikaty"
+
+#: src/Tracking.tsx
+msgid "Change"
+msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 #, fuzzy
@@ -3647,6 +3718,27 @@ msgstr "Sprawdź"
 #, fuzzy
 msgid "Check your email"
 msgstr "Sprawdź swoją pocztę"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Checked"
+msgstr "Sprawdź"
+
+#: src/lib/last-scanned.ts
+msgid "Checked in a room review {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Checked in a room review {when} by {person}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Checked with its box in a room review {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Checked with its box in a room review {when} by {person}"
+msgstr ""
 
 #: src/ImportCsv.tsx
 #, fuzzy
@@ -5064,6 +5156,11 @@ msgstr "Wszystko dodane w ten sposób"
 msgid "Everything else"
 msgstr "Wszystko inne"
 
+#: src/Tracking.tsx
+msgid ""
+"Everything here is checked. Finish the review to mark {name} as reviewed."
+msgstr ""
+
 #: src/DeleteForGood.tsx
 #, fuzzy
 msgid ""
@@ -5099,6 +5196,12 @@ msgstr "wszystko oznaczone tagiem {tag}"
 #, fuzzy
 msgid "Everything valued"
 msgstr "Wszystko wycenione"
+
+#: src/Tracking.tsx
+msgid ""
+"Everything you checked now shows when it was last seen. Anything you "
+"couldn't find is on the Can't find list."
+msgstr ""
 
 #: src/PayOff.tsx
 #, fuzzy
@@ -5136,6 +5239,10 @@ msgstr ""
 #, fuzzy
 msgid "Everything, including removing the household"
 msgstr "Wszystko, łącznie z usuwaniem przedmiotów z gospodarstwa domowego"
+
+#: src/Overview.tsx
+msgid "Everything, the most recently bought first"
+msgstr ""
 
 #: src/lib/words.ts
 #, fuzzy
@@ -5502,6 +5609,18 @@ msgstr "Znajdź wszystko, co posiadasz."
 msgid "Find things"
 msgstr "Znajdź rzeczy"
 
+#: src/Tracking.tsx
+msgid "Finish now"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Finish the review"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Finishing now leaves the rest unchecked."
+msgstr ""
+
 #: src/PayOff.tsx
 #, fuzzy
 msgid "Firearms"
@@ -5646,6 +5765,11 @@ msgstr "Zapomniałeś hasła?"
 #, fuzzy
 msgid "Found in a room scan"
 msgstr "Znalezione podczas skanowania pokoju"
+
+#: src/ScanSession.tsx src/Tracking.tsx
+#, fuzzy
+msgid "Found it"
+msgstr "Sprzedałem to"
 
 #: src/SuggestedMaintenance.tsx
 #, fuzzy
@@ -5797,6 +5921,12 @@ msgstr "Otrzymano z powrotem"
 msgid "Given to"
 msgstr "Rozdane"
 
+#: src/Tracking.tsx
+msgid ""
+"Go through them one by one. A box you can see counts for everything in it. "
+"You can stop and carry on later — so can anyone else in your household."
+msgstr ""
+
 #: src/Invite.tsx
 #, fuzzy
 msgid "Go to sign in"
@@ -5821,6 +5951,14 @@ msgstr "Przechodzi do (spadkobierca)"
 #, fuzzy
 msgid "Goes to {heir}"
 msgstr "Przechodzi do {heir}"
+
+#: src/Tracking.tsx
+msgid "Gone"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Gone…"
+msgstr ""
 
 #: src/lib/words.ts
 #, fuzzy
@@ -6479,6 +6617,10 @@ msgstr ""
 msgid "It says now"
 msgstr "Teraz jest tam napisane"
 
+#: src/Tracking.tsx
+msgid "It still counts as yours until it turns up or you say it's lost."
+msgstr ""
+
 #: src/Invite.tsx
 #, fuzzy
 msgid "It was cancelled."
@@ -6532,6 +6674,11 @@ msgstr "Zostało to już zaakceptowane."
 #, fuzzy
 msgid "It's back"
 msgstr "Znowu tu jest"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "It's lost"
+msgstr "To jest pole"
 
 #: src/Offline.tsx
 #, fuzzy
@@ -6699,6 +6846,11 @@ msgstr ""
 "klimatyzacją – wystarczy jedno kliknięcie, żeby zadzwonić, a do tego masz "
 "zapis wszystkich zleceń i ich kosztów."
 
+#: src/AttentionBell.tsx src/Overview.tsx
+#, fuzzy
+msgid "Keeping track"
+msgstr "Przywróć to"
+
 #: src/ItemEditor.tsx
 #, fuzzy
 msgid "Kept in"
@@ -6824,9 +6976,14 @@ msgstr "ostatni dzień"
 msgid "Last reminder {formatDay}"
 msgstr "Ostatnie przypomnienie {formatDay}"
 
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Last reviewed {when}."
+msgstr "Ostatnia kopia zapasowa nie powiodła się: {when}"
+
 #: src/Everything.tsx
 #, fuzzy
-msgid "Last scanned"
+msgid "Last seen"
 msgstr "Ostatnie skanowanie"
 
 #: src/Settings.tsx
@@ -7209,6 +7366,14 @@ msgstr ""
 msgid "Mark done"
 msgstr "Zaznacz jako wykonane"
 
+#: src/ScanSession.tsx
+msgid "Marked as found"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Marked as still here"
+msgstr ""
+
 #: src/Maintenance.tsx
 #, fuzzy
 msgid "Marks it done."
@@ -7259,6 +7424,10 @@ msgstr "Moje, pożyczone komuś"
 msgid "Missing"
 msgstr "Brakuje"
 
+#: src/Tracking.tsx
+msgid "missing since {day}"
+msgstr ""
+
 #: src/Labels.tsx
 #, fuzzy
 msgid "mm"
@@ -7306,9 +7475,24 @@ msgstr "Przenieś"
 msgid "Move {things}"
 msgstr "Przenieś {things}"
 
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Move it"
+msgstr "Przenieś"
+
 #: src/Everything.tsx
 #, fuzzy
 msgid "Move to…"
+msgstr "Przejdź do…"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Moved"
+msgstr "Przenieś"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Moved…"
 msgstr "Przejdź do…"
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
@@ -7365,6 +7549,16 @@ msgstr ""
 #: src/App.tsx src/ScanSession.tsx
 #, fuzzy
 msgid "Never mind"
+msgstr "Nieważne"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Never reviewed"
+msgstr "Nieważne"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Never reviewed."
 msgstr "Nieważne"
 
 #: src/Settings.tsx
@@ -7740,6 +7934,10 @@ msgstr ""
 msgid "No warranties yet"
 msgstr "Na razie bez gwarancji"
 
+#: src/Tracking.tsx
+msgid "Nobody can find it (since {since})"
+msgstr ""
+
 #: src/Heirs.tsx
 #, fuzzy
 msgid "Nobody named yet"
@@ -7955,6 +8153,11 @@ msgstr "Nie umieszczono"
 msgid "Not recorded"
 msgstr "Nie zarejestrowano"
 
+#: src/Everything.tsx
+#, fuzzy
+msgid "Not seen the longest"
+msgstr "Nie w tym planie"
+
 #: src/Server.tsx
 #, fuzzy
 msgid "Not set"
@@ -8124,6 +8327,11 @@ msgstr ""
 msgid "Nothing matches these filters."
 msgstr "Żadne wyniki nie pasują do tych filtrów."
 
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Nothing missing"
+msgstr "Nic nowego"
+
 #: src/AttentionBell.tsx
 #, fuzzy
 msgid "Nothing needs attention"
@@ -8242,6 +8450,11 @@ msgstr ""
 #, fuzzy
 msgid "Now {reading}"
 msgstr "A teraz {reading}"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Now kept in"
+msgstr "Znajduje się w"
 
 #: src/Usage.tsx
 #, fuzzy
@@ -8861,7 +9074,7 @@ msgstr ""
 "Zdjęcia, paragony i instrukcje też – <0>to właśnie dowody, o które prosi "
 "ubezpieczyciel. Wyłączone: tylko lista.</0>"
 
-#: src/ImportHomeAssistant.tsx
+#: src/ImportHomeAssistant.tsx src/Tracking.tsx
 #, fuzzy
 msgid "Pick a place"
 msgstr "Wybierz miejsce"
@@ -8884,6 +9097,10 @@ msgstr "Miejsca"
 #: src/Server.tsx
 msgid ""
 "Places inside a place that's been deleted — they can't be reached in Places."
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Places inside, each reviewed on its own"
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -9128,6 +9345,10 @@ msgstr "Wpisz coś po każdym skanowaniu"
 #, fuzzy
 msgid "Put the label on it"
 msgstr "Po prostu dodaj etykietę"
+
+#: src/Tracking.tsx
+msgid "Put things in places first — then each place can be reviewed."
+msgstr ""
 
 #: src/Links.tsx src/Parts.tsx
 #, fuzzy
@@ -9605,15 +9826,34 @@ msgstr "Powrót przez {when} — {left}"
 msgid "Return-by dates"
 msgstr "Terminy zwrotu"
 
-#: src/Walkthrough.tsx
+#: src/Overview.tsx src/Walkthrough.tsx
 #, fuzzy
 msgid "Review"
 msgstr "Recenzja"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Review {name}"
+msgstr "Usuń {name}"
 
 #: src/Walkthrough.tsx
 #, fuzzy
 msgid "Review {room}"
 msgstr "Recenzja {room}"
+
+#: src/Tracking.tsx
+msgid "Review another place"
+msgstr ""
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Review this room"
+msgstr "Recenzja {room}"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Reviewed {when}"
+msgstr "Dodano {when}"
 
 #: src/Settings.tsx
 #, fuzzy
@@ -9649,6 +9889,11 @@ msgstr "Dachowiec"
 #, fuzzy
 msgid "Room"
 msgstr "Pokój"
+
+#: src/Nav.tsx src/Overview.tsx src/Tracking.tsx
+#, fuzzy
+msgid "Room review"
+msgstr "Recenzja"
 
 #: src/Offline.tsx
 #, fuzzy
@@ -10011,6 +10256,25 @@ msgstr "Zobacz je wszystkie"
 #, fuzzy
 msgid "seen {times} times in HA"
 msgstr "wyświetlono {times} razy w HA"
+
+#: src/lib/last-scanned.ts
+#, fuzzy
+msgid "Seen {when}"
+msgstr "Zeskanowano {when}"
+
+#: src/lib/last-scanned.ts
+#, fuzzy
+msgid "Seen {when} by {person}"
+msgstr "Usunięto {date} przez {person}"
+
+#: src/lib/last-scanned.ts
+msgid "Seen in its box {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+#, fuzzy
+msgid "Seen in its box {when} by {person}"
+msgstr "Usunięto {date} przez {person}"
 
 #: src/Everything.tsx
 #, fuzzy
@@ -10605,6 +10869,11 @@ msgstr "Uruchom ją"
 msgid "Start keeping track of everything you own."
 msgstr "Zacznij śledzić wszystko, co posiadasz."
 
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Start the review"
+msgstr "Co próbowali"
+
 #: src/Usage.tsx
 #, fuzzy
 msgid "Start tracking"
@@ -10647,6 +10916,15 @@ msgid ""
 msgstr ""
 "Przyklej etykietę QR do {name}: zeskanowanie jej aparatem w telefonie "
 "otworzy {name} w aplikacji Ferret."
+
+#: src/Tracking.tsx
+msgid "Still here"
+msgstr ""
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Still here, with what's inside"
+msgstr "Zeskanuj, co masz w domu"
 
 #: src/Stock.tsx
 #, fuzzy
@@ -11271,6 +11549,12 @@ msgstr ""
 msgid "Things kept here"
 msgstr "Rzeczy przechowywane tutaj"
 
+#: src/Tracking.tsx
+msgid ""
+"Things marked \"Can't find it\" — on their page or in a room review — wait "
+"here until they turn up or you say they're lost."
+msgstr ""
+
 #: src/Server.tsx
 msgid "Things whose category was deleted — they count as having none."
 msgstr ""
@@ -11426,6 +11710,10 @@ msgstr "To zastępuje twoje stare kody. Najpierw podaj hasło."
 #, fuzzy
 msgid "This server"
 msgstr "Ten serwer"
+
+#: src/ScanSession.tsx
+msgid "This was marked \"Can't find it\". Found it?"
+msgstr ""
 
 #: src/ItemPage.tsx
 #, fuzzy
@@ -12088,6 +12376,13 @@ msgstr "Czekam na dołączenie"
 msgid "Waiting to upload"
 msgstr "Czekam na przesłanie"
 
+#: src/Tracking.tsx
+msgid ""
+"Walk a room and check each thing: still here, moved, gone, or can't find it. "
+"Your inventory stays something you can trust — and an insurer's questions "
+"are easy to answer."
+msgstr ""
+
 #: src/Setup.tsx
 #, fuzzy
 msgid "Walk through"
@@ -12423,6 +12718,11 @@ msgstr "Gdzie przechowuje dane element {householdName}?"
 #, fuzzy
 msgid "Where from"
 msgstr "Skąd to pochodzi"
+
+#: src/Tracking.tsx
+#, fuzzy
+msgid "Where is {name} now?"
+msgstr "Skąd pochodziły wizyty"
 
 #: src/ItemPage.tsx
 #, fuzzy

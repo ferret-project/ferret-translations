@@ -451,17 +451,30 @@ msgid ""
 "changed to match Home Assistant.}}"
 msgstr ""
 
+#. placeholder {0}: it.contents
+#: src/Tracking.tsx
+msgid ""
+"{0, plural, one {# thing inside — checked with it} other {# things inside — "
+"checked with it}}"
+msgstr ""
+
 #. placeholder {0}: list.length
 #: src/AttentionBell.tsx
 msgid ""
 "{0, plural, one {# thing needs attention} other {# things need attention}}"
 msgstr ""
 
+#. placeholder {0}: r.toCheck.length
+#: src/Tracking.tsx
+msgid ""
+"{0, plural, one {# thing to check here.} other {# things to check here.}}"
+msgstr ""
+
 #. placeholder {0}: b.items
 #. placeholder {0}: c.items
 #. placeholder {0}: g.items.length
-#: src/App.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx src/PayOff.tsx
-#: src/Templates.tsx
+#: src/App.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx src/Overview.tsx
+#: src/PayOff.tsx src/Templates.tsx src/Tracking.tsx
 msgid "{0, plural, one {# thing} other {# things}}"
 msgstr ""
 
@@ -611,6 +624,11 @@ msgstr ""
 #. placeholder {0}: revokeOthers.data.signedOut
 #: src/Security.tsx
 msgid "{0, plural, one {Signed out # session.} other {Signed out # sessions.}}"
+msgstr ""
+
+#. placeholder {0}: r.open.done
+#: src/Tracking.tsx
+msgid "{0, plural, one {Under way: # checked} other {Under way: # checked}}"
 msgstr ""
 
 #: src/Charts.tsx
@@ -763,6 +781,10 @@ msgstr ""
 msgid "{done} changed · {failed} couldn't be: {reasons}"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "{done} of {total} checked"
+msgstr ""
+
 #: src/Setup.tsx
 msgid "{done} of {total} done"
 msgstr ""
@@ -886,6 +908,10 @@ msgstr ""
 msgid "{m} min ago"
 msgstr ""
 
+#: src/Overview.tsx
+msgid "{misplaced, plural, one {# nobody can find} other {# nobody can find}}"
+msgstr ""
+
 #: src/Suggestions.tsx
 msgid "{months, plural, one {# month} other {# months}}"
 msgstr ""
@@ -935,6 +961,10 @@ msgstr ""
 msgid "{name} is ready"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "{name} is reviewed"
+msgstr ""
+
 #: src/Parts.tsx
 msgid "{name} isn't a part of this"
 msgstr ""
@@ -953,6 +983,12 @@ msgstr ""
 
 #: src/Providers.tsx
 msgid "{name}'s website"
+msgstr ""
+
+#: src/Overview.tsx
+msgid ""
+"{notSeenYear, plural, one {# not seen in a year} other {# not seen in a "
+"year}}"
 msgstr ""
 
 #: src/Security.tsx
@@ -2460,8 +2496,8 @@ msgstr ""
 #: src/AiFill.tsx src/App.tsx src/Collections.tsx src/Deleted.tsx
 #: src/Duplicates.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx
 #: src/ItemPage.tsx src/Labels.tsx src/Loans.tsx src/PayOff.tsx
-#: src/Providers.tsx src/RoomScan.tsx src/Shopping.tsx src/Walkthrough.tsx
-#: src/WarrantyList.tsx
+#: src/Providers.tsx src/RoomScan.tsx src/Shopping.tsx src/Tracking.tsx
+#: src/Walkthrough.tsx src/WarrantyList.tsx
 msgid "Back"
 msgstr ""
 
@@ -2694,6 +2730,14 @@ msgstr ""
 msgid "Can look and ask, but not change anything"
 msgstr ""
 
+#: src/Nav.tsx src/Tracking.tsx
+msgid "Can't find"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Can't find it"
+msgstr ""
+
 #: src/Offline.tsx
 msgid "Can't reach Ferret"
 msgstr ""
@@ -2705,7 +2749,7 @@ msgstr ""
 #: src/Pairing.tsx src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx
 #: src/Places.tsx src/Providers.tsx src/Security.tsx src/Server.tsx
 #: src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx
-#: src/Usage.tsx src/Warranties.tsx
+#: src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
 msgid "Cancel"
 msgstr ""
 
@@ -2719,6 +2763,14 @@ msgstr ""
 
 #: src/Offline.tsx
 msgid "Captured offline"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Carry on"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Carry on the room review"
 msgstr ""
 
 #: src/PayOff.tsx
@@ -2744,6 +2796,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Certificates"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Change"
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
@@ -2780,6 +2836,26 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Check your email"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Checked"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Checked in a room review {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Checked in a room review {when} by {person}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Checked with its box in a room review {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Checked with its box in a room review {when} by {person}"
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -3898,6 +3974,11 @@ msgstr ""
 msgid "Everything else"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid ""
+"Everything here is checked. Finish the review to mark {name} as reviewed."
+msgstr ""
+
 #: src/DeleteForGood.tsx
 msgid ""
 "Everything in {householdName} — things, photos, documents, places, history — "
@@ -3925,6 +4006,12 @@ msgstr ""
 msgid "Everything valued"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid ""
+"Everything you checked now shows when it was last seen. Anything you "
+"couldn't find is on the Can't find list."
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "Everything you own — on your declarations page."
 msgstr ""
@@ -3950,6 +4037,10 @@ msgstr ""
 
 #: src/Household.tsx
 msgid "Everything, including removing the household"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Everything, the most recently bought first"
 msgstr ""
 
 #: src/lib/words.ts
@@ -4227,6 +4318,18 @@ msgstr ""
 msgid "Find things"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "Finish now"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Finish the review"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Finishing now leaves the rest unchecked."
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "Firearms"
 msgstr ""
@@ -4331,6 +4434,10 @@ msgstr ""
 
 #: src/lib/origin.ts
 msgid "Found in a room scan"
+msgstr ""
+
+#: src/ScanSession.tsx src/Tracking.tsx
+msgid "Found it"
 msgstr ""
 
 #: src/SuggestedMaintenance.tsx
@@ -4451,6 +4558,12 @@ msgstr ""
 msgid "Given to"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid ""
+"Go through them one by one. A box you can see counts for everything in it. "
+"You can stop and carry on later — so can anyone else in your household."
+msgstr ""
+
 #: src/Invite.tsx
 msgid "Go to sign in"
 msgstr ""
@@ -4469,6 +4582,14 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Goes to {heir}"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Gone"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Gone…"
 msgstr ""
 
 #: src/lib/words.ts
@@ -4971,6 +5092,10 @@ msgstr ""
 msgid "It says now"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "It still counts as yours until it turns up or you say it's lost."
+msgstr ""
+
 #: src/Invite.tsx
 msgid "It was cancelled."
 msgstr ""
@@ -5011,6 +5136,10 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "It's back"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "It's lost"
 msgstr ""
 
 #: src/Offline.tsx
@@ -5141,6 +5270,10 @@ msgid ""
 "a record of every job and what it cost."
 msgstr ""
 
+#: src/AttentionBell.tsx src/Overview.tsx
+msgid "Keeping track"
+msgstr ""
+
 #: src/ItemEditor.tsx
 msgid "Kept in"
 msgstr ""
@@ -5241,8 +5374,12 @@ msgstr ""
 msgid "Last reminder {formatDay}"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "Last reviewed {when}."
+msgstr ""
+
 #: src/Everything.tsx
-msgid "Last scanned"
+msgid "Last seen"
 msgstr ""
 
 #: src/Settings.tsx
@@ -5544,6 +5681,14 @@ msgstr ""
 msgid "Mark done"
 msgstr ""
 
+#: src/ScanSession.tsx
+msgid "Marked as found"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Marked as still here"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "Marks it done."
 msgstr ""
@@ -5584,6 +5729,10 @@ msgstr ""
 msgid "Missing"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "missing since {day}"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "mm"
 msgstr ""
@@ -5622,8 +5771,20 @@ msgstr ""
 msgid "Move {things}"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "Move it"
+msgstr ""
+
 #: src/Everything.tsx
 msgid "Move to…"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Moved"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Moved…"
 msgstr ""
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
@@ -5667,6 +5828,14 @@ msgstr ""
 
 #: src/App.tsx src/ScanSession.tsx
 msgid "Never mind"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Never reviewed"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Never reviewed."
 msgstr ""
 
 #: src/Settings.tsx
@@ -5956,6 +6125,10 @@ msgstr ""
 msgid "No warranties yet"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "Nobody can find it (since {since})"
+msgstr ""
+
 #: src/Heirs.tsx
 msgid "Nobody named yet"
 msgstr ""
@@ -6122,6 +6295,10 @@ msgstr ""
 msgid "Not recorded"
 msgstr ""
 
+#: src/Everything.tsx
+msgid "Not seen the longest"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Not set"
 msgstr ""
@@ -6252,6 +6429,10 @@ msgstr ""
 msgid "Nothing matches these filters."
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "Nothing missing"
+msgstr ""
+
 #: src/AttentionBell.tsx
 msgid "Nothing needs attention"
 msgstr ""
@@ -6337,6 +6518,10 @@ msgstr ""
 
 #: src/Usage.tsx
 msgid "Now {reading}"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Now kept in"
 msgstr ""
 
 #: src/Usage.tsx
@@ -6809,7 +6994,7 @@ msgid ""
 "the list.</0>"
 msgstr ""
 
-#: src/ImportHomeAssistant.tsx
+#: src/ImportHomeAssistant.tsx src/Tracking.tsx
 msgid "Pick a place"
 msgstr ""
 
@@ -6828,6 +7013,10 @@ msgstr ""
 #: src/Server.tsx
 msgid ""
 "Places inside a place that's been deleted — they can't be reached in Places."
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Places inside, each reviewed on its own"
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -7019,6 +7208,10 @@ msgstr ""
 
 #: src/App.tsx src/Labels.tsx
 msgid "Put the label on it"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Put things in places first — then each place can be reviewed."
 msgstr ""
 
 #: src/Links.tsx src/Parts.tsx
@@ -7392,12 +7585,28 @@ msgstr ""
 msgid "Return-by dates"
 msgstr ""
 
-#: src/Walkthrough.tsx
+#: src/Overview.tsx src/Walkthrough.tsx
 msgid "Review"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Review {name}"
 msgstr ""
 
 #: src/Walkthrough.tsx
 msgid "Review {room}"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Review another place"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Review this room"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Reviewed {when}"
 msgstr ""
 
 #: src/Settings.tsx
@@ -7426,6 +7635,10 @@ msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "Room"
+msgstr ""
+
+#: src/Nav.tsx src/Overview.tsx src/Tracking.tsx
+msgid "Room review"
 msgstr ""
 
 #: src/Offline.tsx
@@ -7708,6 +7921,22 @@ msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "seen {times} times in HA"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Seen {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Seen {when} by {person}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Seen in its box {when}"
+msgstr ""
+
+#: src/lib/last-scanned.ts
+msgid "Seen in its box {when} by {person}"
 msgstr ""
 
 #: src/Everything.tsx
@@ -8174,6 +8403,10 @@ msgstr ""
 msgid "Start keeping track of everything you own."
 msgstr ""
 
+#: src/Tracking.tsx
+msgid "Start the review"
+msgstr ""
+
 #: src/Usage.tsx
 msgid "Start tracking"
 msgstr ""
@@ -8204,6 +8437,14 @@ msgstr ""
 msgid ""
 "Stick a QR label on {name}: scanning it with a phone's camera opens {name} "
 "in Ferret."
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Still here"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Still here, with what's inside"
 msgstr ""
 
 #: src/Stock.tsx
@@ -8679,6 +8920,12 @@ msgstr ""
 msgid "Things kept here"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid ""
+"Things marked \"Can't find it\" — on their page or in a room review — wait "
+"here until they turn up or you say they're lost."
+msgstr ""
+
 #: src/Server.tsx
 msgid "Things whose category was deleted — they count as having none."
 msgstr ""
@@ -8788,6 +9035,10 @@ msgstr ""
 
 #: src/lib/device.ts
 msgid "This server"
+msgstr ""
+
+#: src/ScanSession.tsx
+msgid "This was marked \"Can't find it\". Found it?"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -9309,6 +9560,13 @@ msgstr ""
 msgid "Waiting to upload"
 msgstr ""
 
+#: src/Tracking.tsx
+msgid ""
+"Walk a room and check each thing: still here, moved, gone, or can't find it. "
+"Your inventory stays something you can trust — and an insurer's questions "
+"are easy to answer."
+msgstr ""
+
 #: src/Setup.tsx
 msgid "Walk through"
 msgstr ""
@@ -9563,6 +9821,10 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "Where from"
+msgstr ""
+
+#: src/Tracking.tsx
+msgid "Where is {name} now?"
 msgstr ""
 
 #: src/ItemPage.tsx
