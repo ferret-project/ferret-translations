@@ -642,9 +642,10 @@ msgstr ""
 
 #. placeholder {0}: b.items
 #. placeholder {0}: c.items
-#. placeholder {0}: g.items.length
-#: src/App.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx src/Overview.tsx
-#: src/PayOff.tsx src/Replacements.tsx src/Templates.tsx src/Tracking.tsx
+#. placeholder {0}: folder.count
+#: src/App.tsx src/Everything.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx
+#: src/Overview.tsx src/PayOff.tsx src/Replacements.tsx src/Templates.tsx
+#: src/Tracking.tsx
 #, fuzzy
 msgid "{0, plural, one {# thing} other {# things}}"
 msgstr ""
@@ -1307,6 +1308,11 @@ msgstr "{name} <0>(dodano {toLocaleDateString})</0>"
 #, fuzzy
 msgid "{name} at a glance"
 msgstr "{name} – w skrócie"
+
+#: src/Collections.tsx
+#, fuzzy
+msgid "{name} collection"
+msgstr "jej kolekcja"
 
 #: src/Browse.tsx
 #, fuzzy
@@ -5821,6 +5827,11 @@ msgstr "Popraw lub usuń link, który nie jest adresem internetowym."
 #: src/StarterTasks.tsx
 msgid "Flush the water heater"
 msgstr ""
+
+#: src/Everything.tsx
+#, fuzzy
+msgid "Fold big categories"
+msgstr "Wybierz kategorie"
 
 #: src/Nav.tsx
 #, fuzzy
@@ -10942,6 +10953,10 @@ msgstr "Pokaż wszystko"
 #, fuzzy
 msgid "Show as"
 msgstr "Pokaż jako"
+
+#: src/Everything.tsx
+msgid "Show each category with ten or more things as one row"
+msgstr ""
 
 #: src/Parts.tsx
 #, fuzzy
