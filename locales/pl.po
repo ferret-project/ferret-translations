@@ -275,10 +275,19 @@ msgstr "— ustaw to w opcjach edycji danego przedmiotu."
 msgid ", {step} at a time"
 msgstr ", po jednym {step} na raz"
 
+#: src/Repairs.tsx
+msgid "· about {perYear} a year over {years} years"
+msgstr ""
+
 #: src/Server.tsx
 #, fuzzy
 msgid "· last {when}"
 msgstr "· ostatni {when}"
+
+#: src/Replacements.tsx
+#, fuzzy
+msgid "(an estimate)"
+msgstr "Szacuj"
 
 #: src/Steps.tsx
 #, fuzzy
@@ -352,6 +361,13 @@ msgid "{0, plural, one {# document} other {# documents}}"
 msgstr ""
 "{0, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other {# "
 "dokumentów}}"
+
+#. placeholder {0}: photos.length
+#: src/Repairs.tsx
+#, fuzzy
+msgid "{0, plural, one {# file to add} other {# files to add}}"
+msgstr ""
+"{0, plural, one {# plik} few {# pliki} many {# plików} other {# pliku}}"
 
 #. placeholder {0}: lastOk.files ?? 0
 #. placeholder {0}: snap.files
@@ -589,6 +605,15 @@ msgid ""
 "changed to match Home Assistant.}}"
 msgstr ""
 
+#. placeholder {0}: f.unknown
+#: src/Replacements.tsx
+msgid ""
+"{0, plural, one {# thing has no typical life Ferret knows. Give its category "
+"one, or set it on the thing, to include it.} other {# things have no typical "
+"life Ferret knows. Give their categories one, or set it on the things, to "
+"include them.}}"
+msgstr ""
+
 #. placeholder {0}: it.contents
 #: src/Tracking.tsx
 #, fuzzy
@@ -619,7 +644,7 @@ msgstr ""
 #. placeholder {0}: c.items
 #. placeholder {0}: g.items.length
 #: src/App.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx src/Overview.tsx
-#: src/PayOff.tsx src/Templates.tsx src/Tracking.tsx
+#: src/PayOff.tsx src/Replacements.tsx src/Templates.tsx src/Tracking.tsx
 #, fuzzy
 msgid "{0, plural, one {# thing} other {# things}}"
 msgstr ""
@@ -641,6 +666,14 @@ msgstr ""
 #, fuzzy
 msgid "{0, plural, one {# time} other {# times}}"
 msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
+
+#. placeholder {0}: g.y.unpriced
+#: src/Replacements.tsx
+#, fuzzy
+msgid "{0, plural, one {# without a price} other {# without a price}}"
+msgstr ""
+"{n, plural, one {# godzina} few {# godziny} many {# godzin} other {# "
+"godziny}}"
 
 #. placeholder {0}: months! / 12
 #: src/Suggestions.tsx
@@ -1560,6 +1593,11 @@ msgstr "{whose} {button} znajduje się tuż poniżej"
 msgid "{why} Ask {inviter} for a new link if you still need one."
 msgstr "{why} Jeśli nadal potrzebujesz nowego linku, poproś o niego {inviter}."
 
+#: src/ItemEditor.tsx
+#, fuzzy
+msgid "{years} (typical)"
+msgstr "{price} (typowa cena)"
+
 #: src/Providers.tsx
 #, fuzzy
 msgid "+ Add \"{name}\" as a provider"
@@ -2185,6 +2223,10 @@ msgstr "Zaproszenie do <0>{email}</0>"
 msgid "A part-used sheet? Skip the first"
 msgstr "Częściowo wypełniony arkusz? Pomiń pierwszą"
 
+#: src/Repairs.tsx
+msgid "A photo of the repair"
+msgstr ""
+
 #: src/PlanUsage.tsx
 #, fuzzy
 msgid ""
@@ -2302,6 +2344,11 @@ msgstr "przeglądarka (zobacz i zapytaj, bez wprowadzania zmian)"
 msgid "About"
 msgstr "O aplikacji"
 
+#: src/Replacements.tsx
+#, fuzzy
+msgid "about {amount}"
+msgstr "około {amount}a rocznie"
+
 #: src/Usage.tsx
 #, fuzzy
 msgid "about {amount} a month"
@@ -2311,6 +2358,11 @@ msgstr "około {amount} miesięcznie"
 #, fuzzy
 msgid "about {amount} a year"
 msgstr "około {amount}a rocznie"
+
+#: src/Replacements.tsx
+#, fuzzy
+msgid "about {amount} to replace"
+msgstr "{amount}, aby zastąpić"
 
 #: src/Collections.tsx
 #, fuzzy
@@ -2748,6 +2800,11 @@ msgstr "Dodano {step}"
 msgid "Added {when}"
 msgstr "Dodano {when}"
 
+#: src/Replacements.tsx
+#, fuzzy
+msgid "added {year}"
+msgstr "Dodano {step}"
+
 #: src/lib/origin.ts
 #, fuzzy
 msgid "Added by a script"
@@ -2847,6 +2904,15 @@ msgstr "AI: {category}"
 #, fuzzy
 msgid "AI: probably a consumable"
 msgstr "AI: prawdopodobnie produkt konsumpcyjny"
+
+#: src/lib/words.ts
+#, fuzzy
+msgid "air conditioner"
+msgstr "Stan zadowalający"
+
+#: src/lib/words.ts
+msgid "air purifier"
+msgstr ""
 
 #: src/Usage.tsx
 #, fuzzy
@@ -3237,6 +3303,11 @@ msgstr "Zadane pytanie — tutaj pojawiają się sugestie"
 msgid "Asking price"
 msgstr ""
 
+#: src/lib/words.ts
+#, fuzzy
+msgid "asphalt shingle roof"
+msgstr "W koszyku"
+
 #: src/PayOff.tsx
 #, fuzzy
 msgid "At"
@@ -3292,11 +3363,15 @@ msgstr "Avery 5160 — 1″ × 2⅝″, 30 sztuk na arkuszu (półki, pojemniki)
 msgid "Avery 5163 — 2″ × 4″, 10 per sheet (boxes)"
 msgstr "Avery 5163 — 2″ × 4″, 10 sztuk na arkuszu (pudełka)"
 
+#: src/lib/words.ts
+msgid "baby monitor"
+msgstr ""
+
 #: src/AiFill.tsx src/App.tsx src/Collections.tsx src/Deleted.tsx
 #: src/Duplicates.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx
 #: src/ItemPage.tsx src/Labels.tsx src/Loans.tsx src/PayOff.tsx
-#: src/Providers.tsx src/RoomScan.tsx src/Shopping.tsx src/Tracking.tsx
-#: src/Walkthrough.tsx src/WarrantyList.tsx
+#: src/Providers.tsx src/Replacements.tsx src/RoomScan.tsx src/Shopping.tsx
+#: src/Tracking.tsx src/Walkthrough.tsx src/WarrantyList.tsx
 #, fuzzy
 msgid "Back"
 msgstr "Wstecz"
@@ -3392,6 +3467,10 @@ msgstr ""
 msgid "Before the first freeze"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "bicycle"
+msgstr ""
+
 #: src/Labels.tsx
 #, fuzzy
 msgid ""
@@ -3406,6 +3485,10 @@ msgstr ""
 #, fuzzy
 msgid "Blank QR labels"
 msgstr "Puste etykiety QR"
+
+#: src/lib/words.ts
+msgid "boiler"
+msgstr ""
 
 #: src/Loans.tsx
 #, fuzzy
@@ -3431,6 +3514,11 @@ msgstr "Kupione"
 #, fuzzy
 msgid "Bought {date}"
 msgstr "Kupione {date}"
+
+#: src/Replacements.tsx
+#, fuzzy
+msgid "bought {year}"
+msgstr "Zbudowano {year}"
 
 #: src/PlainWordsFilter.tsx
 #, fuzzy
@@ -3573,6 +3661,10 @@ msgstr "Kanały kalendarza"
 msgid "Calendar link"
 msgstr "Link do kalendarza"
 
+#: src/lib/words.ts
+msgid "camera"
+msgstr ""
+
 #: src/Scanner.tsx
 #, fuzzy
 msgid "Camera not available — take a photo of the barcode instead."
@@ -3611,9 +3703,9 @@ msgstr "Nie mogę połączyć się z Ferretem"
 #: src/Gone.tsx src/Household.tsx src/ItemEditor.tsx src/Loans.tsx
 #: src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
 #: src/Pairing.tsx src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx
-#: src/Places.tsx src/Providers.tsx src/Security.tsx src/Server.tsx
-#: src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx
-#: src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
+#: src/Places.tsx src/Providers.tsx src/Repairs.tsx src/Security.tsx
+#: src/Server.tsx src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx
+#: src/Templates.tsx src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
 #, fuzzy
 msgid "Cancel"
 msgstr "Anuluj"
@@ -3632,6 +3724,19 @@ msgstr "anulowane lub zwrócone"
 #, fuzzy
 msgid "Captured offline"
 msgstr "Zrobione w trybie offline"
+
+#: src/lib/words.ts
+#, fuzzy
+msgid "car"
+msgstr "Odrzuć"
+
+#: src/lib/words.ts
+msgid "car battery"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "carbon monoxide alarm"
+msgstr ""
 
 #: src/Overview.tsx
 msgid "Carry on"
@@ -3969,10 +4074,19 @@ msgstr "Zamknij skaner"
 msgid "Closed on"
 msgstr "Zamknięte w dniu"
 
+#: src/lib/words.ts
+#, fuzzy
+msgid "clothes dryer"
+msgstr "Wyczyść wyniki wyszukiwania"
+
 #: src/Security.tsx
 #, fuzzy
 msgid "Code from your authenticator app"
 msgstr "Kod z twojej aplikacji do uwierzytelniania"
+
+#: src/lib/words.ts
+msgid "coffee maker"
+msgstr ""
 
 #: src/Collections.tsx
 #, fuzzy
@@ -4009,6 +4123,10 @@ msgstr "Kolumna {number}"
 #, fuzzy
 msgid "Coming up"
 msgstr "Już wkrótce"
+
+#: src/Nav.tsx src/Overview.tsx src/Replacements.tsx
+msgid "Coming up for replacement"
+msgstr ""
 
 #: src/StarterTasks.tsx
 msgid "Common house tasks"
@@ -4120,10 +4238,18 @@ msgstr "Lista tekstów"
 msgid "Copy the calendar link below."
 msgstr "Skopiuj poniższy link do kalendarza."
 
-#: src/Maintenance.tsx
+#: src/lib/words.ts
+msgid "cordless tool"
+msgstr ""
+
+#: src/Maintenance.tsx src/Repairs.tsx
 #, fuzzy
 msgid "Cost"
 msgstr "Koszt"
+
+#: src/Repairs.tsx
+msgid "Cost of owning it"
+msgstr ""
 
 #: src/Claims.tsx
 #, fuzzy
@@ -4344,6 +4470,10 @@ msgstr "Zajęliśmy się tym"
 msgid "deductible, shipping…"
 msgstr "franszyza, koszty wysyłki…"
 
+#: src/lib/words.ts
+msgid "dehumidifier"
+msgstr ""
+
 #: src/Deleted.tsx src/Everything.tsx src/Walkthrough.tsx
 #, fuzzy
 msgid "Delete"
@@ -4451,6 +4581,10 @@ msgid "Description"
 msgstr "Opis"
 
 #: src/lib/words.ts
+msgid "desktop computer"
+msgstr ""
+
+#: src/lib/words.ts
 #, fuzzy
 msgid "Details from photos and receipts"
 msgstr "Szczegóły ze zdjęć i paragonów"
@@ -4484,6 +4618,10 @@ msgstr "Odrzucić to i nic nie dodawać?"
 #, fuzzy
 msgid "Discard scan"
 msgstr "Odrzuć skan"
+
+#: src/lib/words.ts
+msgid "dishwasher"
+msgstr ""
 
 #: src/Everything.tsx src/FromWeb.tsx src/ItemPage.tsx src/Offline.tsx
 #: src/Places.tsx src/Product.tsx src/RoomScan.tsx src/Suggestions.tsx
@@ -4845,10 +4983,18 @@ msgstr "np. Mój telefon (ntfy)"
 msgid "e.g. Power tools"
 msgstr "np. Elektronarzędzia"
 
+#: src/Repairs.tsx
+msgid "e.g. Pump 00436440"
+msgstr ""
+
 #: src/Maintenance.tsx
 #, fuzzy
 msgid "e.g. Replace furnace filter"
 msgstr "np. Wymień filtr pieca"
+
+#: src/Repairs.tsx
+msgid "e.g. Replaced the drain pump"
+msgstr ""
 
 #: src/ItemEditor.tsx
 #, fuzzy
@@ -4899,6 +5045,10 @@ msgstr "np. do sąsiada, na Marketplace"
 msgid "e.g. Top shelf"
 msgstr "np. Górna półka"
 
+#: src/Repairs.tsx
+msgid "e.g. Wouldn't drain, error E21"
+msgstr ""
+
 #: src/Security.tsx
 #, fuzzy
 msgid ""
@@ -4927,7 +5077,7 @@ msgid "each time"
 msgstr "za każdym razem"
 
 #: src/Collections.tsx src/ItemPage.tsx src/Loans.tsx src/PayOff.tsx
-#: src/Providers.tsx
+#: src/Providers.tsx src/Repairs.tsx
 #, fuzzy
 msgid "Edit"
 msgstr "Edytuj"
@@ -4957,6 +5107,10 @@ msgstr "Edytuj konserwację"
 #, fuzzy
 msgid "Edit places"
 msgstr "Edytuj lokalizacje"
+
+#: src/Repairs.tsx
+msgid "Edit the repair"
+msgstr ""
 
 #: src/Stock.tsx
 #, fuzzy
@@ -5047,6 +5201,10 @@ msgstr "Oszacuj jeszcze raz"
 #, fuzzy
 msgid "Estimate replacement cost"
 msgstr "Oszacuj koszt wymiany"
+
+#: src/Overview.tsx
+msgid "Estimates from how long things usually last."
+msgstr ""
 
 #: src/Replacement.tsx
 #, fuzzy
@@ -5268,6 +5426,10 @@ msgstr "Rozwiń"
 #, fuzzy
 msgid "Expected repeat"
 msgstr "Przewidywane powtórzenie"
+
+#: src/Replacements.tsx
+msgid "Expected to last {years} years"
+msgstr ""
 
 #: src/MaintenanceCalendar.tsx
 #, fuzzy
@@ -5621,6 +5783,10 @@ msgstr ""
 msgid "Finishing now leaves the rest unchecked."
 msgstr ""
 
+#: src/lib/words.ts
+msgid "fire extinguisher"
+msgstr ""
+
 #: src/PayOff.tsx
 #, fuzzy
 msgid "Firearms"
@@ -5739,6 +5905,12 @@ msgstr ""
 "W przypadku usług, które sprawdzają, kto się łączy (wzajemne TLS). Każdy z "
 "nich jest widoczny tylko dla hostów, które sam wskażesz."
 
+#: src/Catalog.tsx
+msgid ""
+"For the replacement forecast. Leave it empty and Ferret uses the typical "
+"life of each kind of thing (a fridge ~13 years). Subcategories get it too."
+msgstr ""
+
 #: src/Templates.tsx
 #, fuzzy
 msgid ""
@@ -5770,6 +5942,10 @@ msgstr "Znalezione podczas skanowania pokoju"
 #, fuzzy
 msgid "Found it"
 msgstr "Sprzedałem to"
+
+#: src/lib/words.ts
+msgid "freezer"
+msgstr ""
 
 #: src/SuggestedMaintenance.tsx
 #, fuzzy
@@ -5882,10 +6058,34 @@ msgstr "Na podstawie cen z ostatniego zakupu, jeśli są znane."
 msgid "Full screen"
 msgstr "Pełny ekran"
 
+#: src/lib/words.ts
+msgid "furnace"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "game console"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "garage door"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "garage door opener"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "garbage disposal"
+msgstr ""
+
 #: src/Gone.tsx
 #, fuzzy
 msgid "Gave it away"
 msgstr "Oddałem to"
+
+#: src/lib/words.ts
+msgid "generator"
+msgstr ""
 
 #: src/Notifications.tsx
 #, fuzzy
@@ -5975,15 +6175,28 @@ msgstr "W dobrym stanie"
 msgid "Google Calendar, Outlook or another calendar"
 msgstr "Kalendarz Google, Outlook lub inny kalendarz"
 
+#: src/Repairs.tsx
+#, fuzzy
+msgid "got back {amount}"
+msgstr "Koszt do tej pory: {amount}"
+
 #: src/Collections.tsx
 #, fuzzy
 msgid "Got it"
 msgstr "Rozumiem"
 
+#: src/lib/words.ts
+msgid "grill"
+msgstr ""
+
 #: src/Server.tsx
 #, fuzzy
 msgid "ha.example.lan, *.example.lan"
 msgstr "ha.example.lan, *.example.lan"
+
+#: src/lib/words.ts
+msgid "hair dryer"
+msgstr ""
 
 #: src/Server.tsx
 #, fuzzy
@@ -6024,6 +6237,10 @@ msgstr "Masz to czy chcesz to?"
 msgid "Have the chimney inspected"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "headphones"
+msgstr ""
+
 #: src/Reminders.tsx
 #, fuzzy
 msgid ""
@@ -6032,6 +6249,10 @@ msgid ""
 msgstr ""
 "Dowiedz się o filtrach, przeglądach serwisowych i kończących się gwarancjach "
 "wtedy, kiedy to ma znaczenie. Specjalnie dla ciebie."
+
+#: src/lib/words.ts
+msgid "heat pump"
+msgstr ""
 
 #: src/HelpLink.tsx src/Nav.tsx
 #, fuzzy
@@ -6172,6 +6393,10 @@ msgstr "Ile"
 msgid "How to restore"
 msgstr "Jak przywrócić"
 
+#: src/lib/words.ts
+msgid "humidifier"
+msgstr ""
+
 #: src/Providers.tsx
 #, fuzzy
 msgid "HVAC"
@@ -6223,6 +6448,10 @@ msgstr ""
 #, fuzzy
 msgid "If lost: {lost}"
 msgstr "W razie zgubienia: {lost}"
+
+#: src/Repairs.tsx
+msgid "If the repair is guaranteed, it's added to the warranties."
+msgstr ""
 
 #: src/App.tsx
 #, fuzzy
@@ -6931,6 +7160,10 @@ msgstr "Ogrodnik"
 msgid "Language"
 msgstr "Język"
 
+#: src/lib/words.ts
+msgid "laptop"
+msgstr ""
+
 #: src/Demo.tsx
 #, fuzzy
 msgid "Last 30 days"
@@ -6991,10 +7224,19 @@ msgstr "Ostatnie skanowanie"
 msgid "last used {date}"
 msgstr "ostatnio używane {date}"
 
+#: src/ItemEditor.tsx
+#, fuzzy
+msgid "Lasts (years)"
+msgstr "2 lata"
+
 #: src/MaintenanceCalendar.tsx
 #, fuzzy
 msgid "Later"
 msgstr "Później"
+
+#: src/lib/words.ts
+msgid "lawn mower"
+msgstr ""
 
 #: src/Household.tsx
 #, fuzzy
@@ -7108,6 +7350,11 @@ msgstr ""
 "Podoba ci się? <0/> — na komputerze w domu, dzięki czemu twoje rzeczy nigdy "
 "go nie opuszczają."
 
+#: src/Replacements.tsx
+#, fuzzy
+msgid "Likely due around {year}"
+msgstr "Premiera przewidziana na {date}"
+
 #: src/ImportCsv.tsx
 #, fuzzy
 msgid "Line {line}"
@@ -7158,7 +7405,11 @@ msgstr "Ładowanie"
 msgid "Locksmith"
 msgstr "Ślusarz"
 
-#: src/Usage.tsx
+#: src/Repairs.tsx
+msgid "Log a repair"
+msgstr ""
+
+#: src/Repairs.tsx src/Usage.tsx
 #, fuzzy
 msgid "Log it"
 msgstr "Zapisz to"
@@ -7279,6 +7530,11 @@ msgstr "konserwacja"
 msgid "Maintenance"
 msgstr "Konserwacja"
 
+#: src/Repairs.tsx
+#, fuzzy
+msgid "maintenance {amount}"
+msgstr "konserwacja"
+
 #: src/Usage.tsx
 #, fuzzy
 msgid "Maintenance by use"
@@ -7384,6 +7640,10 @@ msgstr "Oznacza, że zadanie jest wykonane."
 msgid "Matched by meaning"
 msgstr "Dopasowane pod względem znaczenia"
 
+#: src/lib/words.ts
+msgid "mattress"
+msgstr ""
+
 #: src/Settings.tsx
 #, fuzzy
 msgid "MCP server URL"
@@ -7408,6 +7668,10 @@ msgstr "Połącz dwie rzeczy"
 #, fuzzy
 msgid "Merge…"
 msgstr "Połącz…"
+
+#: src/lib/words.ts
+msgid "microwave"
+msgstr ""
 
 #: src/Usage.tsx
 #, fuzzy
@@ -7439,6 +7703,10 @@ msgstr "mm"
 #, fuzzy
 msgid "Model"
 msgstr "Model"
+
+#: src/lib/words.ts
+msgid "monitor"
+msgstr ""
 
 #: src/Maintenance.tsx
 #, fuzzy
@@ -7518,6 +7786,10 @@ msgstr "Nazwa przedmiotu {number}"
 #, fuzzy
 msgid "Name your household"
 msgstr "Nadaj nazwę swojemu gospodarstwu domowemu"
+
+#: src/lib/words.ts
+msgid "NAS"
+msgstr ""
 
 #: src/AttentionBell.tsx
 #, fuzzy
@@ -7680,6 +7952,11 @@ msgstr "W przyszłym miesiącu"
 #, fuzzy
 msgid "Next photo"
 msgstr "Następne zdjęcie"
+
+#: src/Repairs.tsx
+#, fuzzy
+msgid "No"
+msgstr "Brak"
 
 #: src/Parts.tsx
 msgid "No — a new part"
@@ -8204,7 +8481,7 @@ msgstr "Uwaga (opcjonalnie)"
 msgid "Notes"
 msgstr "Uwagi"
 
-#: src/Maintenance.tsx
+#: src/Gone.tsx src/Maintenance.tsx
 #, fuzzy
 msgid "Nothing"
 msgstr "Nic"
@@ -8231,6 +8508,11 @@ msgstr "Ostatnio nic nie usunięto"
 msgid "nothing due"
 msgstr "nic nie jest wymagalne"
 
+#: src/Replacements.tsx
+#, fuzzy
+msgid "Nothing due in the next ten years"
+msgstr "Termin w ciągu najbliższych dwóch tygodni"
+
 #: src/Overview.tsx
 #, fuzzy
 msgid "Nothing due soon"
@@ -8245,6 +8527,12 @@ msgstr "W tym dniu nie masz żadnych spraw do załatwienia."
 #, fuzzy
 msgid "Nothing due this month."
 msgstr "W tym miesiącu nie masz żadnych terminów."
+
+#: src/Repairs.tsx
+msgid ""
+"Nothing fixed yet. When something is, log it here — it counts in what owning "
+"it has cost."
+msgstr ""
 
 #: src/App.tsx
 #, fuzzy
@@ -8867,7 +9155,7 @@ msgstr "Strony"
 msgid "Paid"
 msgstr "Płatna"
 
-#: src/Collections.tsx
+#: src/Collections.tsx src/Repairs.tsx
 #, fuzzy
 msgid "paid {amount}"
 msgstr "płatne {amount}"
@@ -8901,6 +9189,20 @@ msgstr "Zdjęcie {number}"
 msgid "Part numbers, how-to, who to call…"
 msgstr "Numery katalogowe, instrukcje, do kogo zadzwonić…"
 
+#: src/Repairs.tsx
+#, fuzzy
+msgid "Part of a maintenance task"
+msgstr "Nowe zadanie konserwacyjne"
+
+#: src/Repairs.tsx
+#, fuzzy
+msgid "Part of: {task}"
+msgstr "{day}: {tasks}"
+
+#: src/Repairs.tsx
+msgid "Parts"
+msgstr ""
+
 #: src/Parts.tsx
 msgid "Parts & supplies"
 msgstr ""
@@ -8909,6 +9211,11 @@ msgstr ""
 #, fuzzy
 msgid "Parts of the demo"
 msgstr "Fragmenty wersji demonstracyjnej"
+
+#: src/Repairs.tsx
+#, fuzzy
+msgid "Parts: {parts}"
+msgstr "Zdjęcie {number}"
 
 #: src/Security.tsx
 #, fuzzy
@@ -8930,10 +9237,23 @@ msgstr "Hasło"
 msgid "Password changed"
 msgstr "Hasło zmieniono"
 
+#: src/Replacements.tsx
+msgid "Past its typical life (since about {year})"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "Past their typical life"
+msgstr ""
+
 #: src/Gone.tsx src/Nav.tsx
 #, fuzzy
 msgid "Past things"
 msgstr "Różne rzeczy"
+
+#: src/Replacements.tsx
+#, fuzzy
+msgid "Past typical life"
+msgstr "Zaproponuj typowe czynności konserwacyjne"
 
 #: src/Reminders.tsx
 #, fuzzy
@@ -9031,6 +9351,10 @@ msgstr "Zdjęcia i pliki"
 
 #: src/Server.tsx
 msgid "Photos or documents whose thing is missing or in another household."
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Photos or the invoice"
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -9163,6 +9487,11 @@ msgstr "Możliwe duplikaty"
 msgid "Possibly recalled — check the model"
 msgstr "Być może wycofana z rynku – sprawdź model"
 
+#: src/lib/words.ts
+#, fuzzy
+msgid "power tool"
+msgstr "np. Elektronarzędzia"
+
 #: src/Gone.tsx src/Heirs.tsx
 #, fuzzy
 msgid "Prepared {date}"
@@ -9175,6 +9504,10 @@ msgstr "Gotowe {longDate}"
 
 #: src/StarterTasks.tsx
 msgid "Press the test button on each one"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "pressure washer"
 msgstr ""
 
 #: src/Labels.tsx
@@ -9243,6 +9576,11 @@ msgstr "Drukuj etykiety"
 msgid "Print or save as PDF"
 msgstr "Wydrukuj lub zapisz jako PDF"
 
+#: src/lib/words.ts
+#, fuzzy
+msgid "printer"
+msgstr "Drukuj"
+
 #: src/Labels.tsx
 #, fuzzy
 msgid "Printing tips and alignment"
@@ -9252,6 +9590,11 @@ msgstr "Wskazówki dotyczące drukowania i wyrównywania"
 #, fuzzy
 msgid "Probably not things ({count})"
 msgstr "Prawdopodobnie nie są to przedmioty ({count})"
+
+#: src/Repairs.tsx
+#, fuzzy
+msgid "Problem: {problem}"
+msgstr "Zapłacona cena"
 
 #: src/Product.tsx
 #, fuzzy
@@ -9396,6 +9739,15 @@ msgstr "Ilość"
 msgid "Ran out {longDate}"
 msgstr "Skończyło się {longDate}"
 
+#: src/lib/words.ts
+#, fuzzy
+msgid "range hood"
+msgstr "Utwórz spis rzeczy w domu"
+
+#: src/lib/words.ts
+msgid "range or oven"
+msgstr ""
+
 #: src/Suggestions.tsx
 #, fuzzy
 msgid "Read by AI from your photos and documents — check before applying."
@@ -9496,6 +9848,10 @@ msgstr "Ostatnio usunięte"
 #, fuzzy
 msgid "Refresh"
 msgstr "Odśwież"
+
+#: src/lib/words.ts
+msgid "refrigerator"
+msgstr ""
 
 #: src/ItemRow.tsx
 #, fuzzy
@@ -9673,6 +10029,11 @@ msgstr "Usuń kod {kind} dla {title}"
 msgid "Remove the reading of {describeUsage}"
 msgstr "Usuń tekst {describeUsage}"
 
+#: src/Repairs.tsx
+#, fuzzy
+msgid "Remove the repair"
+msgstr "Usuń ten szablon"
+
 #: src/Catalog.tsx
 #, fuzzy
 msgid "Remove the tag {name}? The items stay."
@@ -9697,6 +10058,10 @@ msgstr "Usuń to ograniczenie"
 #, fuzzy
 msgid "Remove this loan? (Use “It's back” when it's back.)"
 msgstr "Usunąć tę pożyczkę? (Użyj opcji „Powróciła”, gdy się pojawi.)"
+
+#: src/Repairs.tsx
+msgid "Remove this repair? Its photos and warranty stay with the item."
+msgstr ""
 
 #: src/Templates.tsx
 #, fuzzy
@@ -9738,6 +10103,20 @@ msgstr "Zmień nazwę lub usuń {name}"
 msgid "Rental"
 msgstr "Wynajem"
 
+#: src/Repairs.tsx
+#, fuzzy
+msgid "Repair warranty until {day}"
+msgstr "gwarancja do {date}"
+
+#: src/ItemPage.tsx src/Repairs.tsx
+msgid "Repairs"
+msgstr ""
+
+#: src/Repairs.tsx
+#, fuzzy
+msgid "repairs {amount}"
+msgstr "płatne {amount}"
+
 #: src/StarterTasks.tsx
 msgid "Replace smoke and CO alarm batteries"
 msgstr ""
@@ -9746,6 +10125,17 @@ msgstr ""
 #, fuzzy
 msgid "Replace the furnace / AC filter"
 msgstr "np. Wymień filtr pieca"
+
+#: src/Gone.tsx
+#, fuzzy
+msgid "Replaced by (optional)"
+msgstr "Uwaga (opcjonalnie)"
+
+#: src/Repairs.tsx
+#, fuzzy
+#| msgid " in {name}"
+msgid "Replaced by {name}"
+msgstr " w {name}"
 
 #: src/ImportHomeAssistant.tsx
 #, fuzzy
@@ -9760,6 +10150,11 @@ msgstr ""
 #, fuzzy
 msgid "Replacement cost"
 msgstr "Koszt odtworzenia"
+
+#: src/Repairs.tsx
+#, fuzzy
+msgid "Replaces {name}"
+msgstr "Usuń {name}"
 
 #: src/Reminders.tsx
 #, fuzzy
@@ -9870,10 +10265,18 @@ msgstr "Cofnij {name}"
 msgid "Revoke key"
 msgstr "Cofnij klucz"
 
+#: src/lib/words.ts
+msgid "riding mower"
+msgstr ""
+
 #: src/Labels.tsx
 #, fuzzy
 msgid "Right"
 msgstr "Po prawej"
+
+#: src/lib/words.ts
+msgid "robot mower"
+msgstr ""
 
 #: src/Household.tsx
 #, fuzzy
@@ -9970,8 +10373,8 @@ msgstr "Safari"
 
 #: src/Catalog.tsx src/Claims.tsx src/Collections.tsx src/Everything.tsx
 #: src/Household.tsx src/ItemEditor.tsx src/Loans.tsx src/Maintenance.tsx
-#: src/PayOff.tsx src/Places.tsx src/Providers.tsx src/Stock.tsx
-#: src/Templates.tsx
+#: src/PayOff.tsx src/Places.tsx src/Providers.tsx src/Repairs.tsx
+#: src/Stock.tsx src/Templates.tsx
 #, fuzzy
 msgid "Save"
 msgstr "Zapisz"
@@ -10719,11 +11122,27 @@ msgid ""
 "no picture in lists."
 msgstr ""
 
+#: src/lib/words.ts
+msgid "smartphone"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "smoke alarm"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "snow blower"
+msgstr ""
+
 #: src/Setup.tsx
 #, fuzzy
 msgid "So everyone can find things — viewers can only look."
 msgstr ""
 "Dzięki temu każdy może znaleźć to, czego szuka – widzowie mogą tylko patrzeć."
+
+#: src/lib/words.ts
+msgid "sofa"
+msgstr ""
 
 #: src/Gone.tsx
 #, fuzzy
@@ -10810,6 +11229,11 @@ msgstr "Sortowanie nie działało"
 #, fuzzy
 msgid "Sorting… {progress}"
 msgstr "Sortowanie… {progress}"
+
+#: src/lib/words.ts
+#, fuzzy
+msgid "speaker"
+msgstr "Twórca"
 
 #: src/StarterTasks.tsx
 msgid "spring"
@@ -11012,6 +11436,10 @@ msgstr "Sugestia"
 msgid "Suggestions from your files"
 msgstr "Propozycje z twoich plików"
 
+#: src/lib/words.ts
+msgid "sump pump"
+msgstr ""
+
 #: src/App.tsx
 #, fuzzy
 msgid "Switch household"
@@ -11030,6 +11458,11 @@ msgstr ""
 #: src/Collections.tsx src/Everything.tsx
 #, fuzzy
 msgid "Table"
+msgstr "Tabela"
+
+#: src/lib/words.ts
+#, fuzzy
+msgid "tablet"
 msgstr "Tabela"
 
 #: src/App.tsx src/Everything.tsx src/PayOff.tsx
@@ -11111,6 +11544,10 @@ msgstr "Zrób zdjęcie"
 #, fuzzy
 msgid "Take this tag off {things}"
 msgstr "Usuń ten tag {things}"
+
+#: src/lib/words.ts
+msgid "tankless water heater"
+msgstr ""
 
 #: src/Install.tsx
 #, fuzzy
@@ -11389,6 +11826,10 @@ msgstr ""
 msgid "The recall notice"
 msgstr "Komunikat o wycofaniu produktu"
 
+#: src/Repairs.tsx
+msgid "The repair's own warranty ends"
+msgstr ""
+
 #: src/Report.tsx
 #, fuzzy
 msgid "the report for {property}"
@@ -11491,6 +11932,10 @@ msgstr ""
 msgid "There's no page here"
 msgstr "Nie ma tu żadnej strony"
 
+#: src/lib/words.ts
+msgid "thermostat"
+msgstr ""
+
 #: src/Household.tsx
 #, fuzzy
 msgid "They can…"
@@ -11515,10 +11960,20 @@ msgstr "Rzeczy"
 msgid "Things belonging to a household that no longer exists."
 msgstr ""
 
+#: src/Replacements.tsx
+msgid ""
+"Things Ferret knows the typical life of — appliances, electronics, the water "
+"heater, the roof — show up here as they get older."
+msgstr ""
+
 #: src/Gone.tsx
 #, fuzzy
 msgid "Things given"
 msgstr "Rzeczy"
+
+#: src/Replacements.tsx
+msgid "Things in {category} last about {years} years"
+msgstr ""
 
 #: src/Everything.tsx
 #, fuzzy
@@ -11543,6 +11998,11 @@ msgid ""
 "Things in a room that's been deleted or belongs to another household — they "
 "don't show under any room."
 msgstr ""
+
+#: src/Catalog.tsx
+#, fuzzy
+msgid "Things in it last (years)"
+msgstr "Elementy w kategorii"
 
 #: src/App.tsx
 #, fuzzy
@@ -11790,6 +12250,11 @@ msgid ""
 msgstr ""
 "Wskazówka: pełny arkusz 5163 to 10, 5160 to 30, 22806 to 12, a 22805 to 24."
 
+#: src/lib/words.ts
+#, fuzzy
+msgid "tires"
+msgstr "Wygasają"
+
 #: src/Listing.tsx
 msgid "Title"
 msgstr ""
@@ -11964,6 +12429,10 @@ msgstr "Wyłączone {longDate}"
 msgid "Turnstile didn't load"
 msgstr "Turnstile się nie załadowało"
 
+#: src/lib/words.ts
+msgid "TV"
+msgstr ""
+
 #: src/App.tsx src/Security.tsx
 #, fuzzy
 msgid "Two-step sign-in"
@@ -12009,10 +12478,18 @@ msgstr "Wpisz swój adres e-mail, a wyślemy Ci link, żebyś mógł wybrać now
 msgid "Typed into the app"
 msgstr "Wpisane w aplikacji"
 
+#: src/Catalog.tsx src/ItemEditor.tsx
+msgid "Typical"
+msgstr ""
+
 #: src/SuggestedMaintenance.tsx
 #, fuzzy
 msgid "typical for things like it — check its manual"
 msgstr "typowe dla tego typu aplikacji – zajrzyj do instrukcji"
+
+#: src/Replacements.tsx
+msgid "Typical life of a {kind}: about {years} years"
+msgstr ""
 
 #: src/Labels.tsx
 #, fuzzy
@@ -12147,6 +12624,10 @@ msgstr "Przesyłanie"
 #, fuzzy
 msgid "Uploading {name}"
 msgstr "Przesyłanie {name}"
+
+#: src/lib/words.ts
+msgid "UPS battery backup"
+msgstr ""
 
 #: src/PlanUsage.tsx src/Settings.tsx
 #, fuzzy
@@ -12291,6 +12772,10 @@ msgstr "Zazwyczaj trzeba do tego dołączyć osobny załącznik."
 #, fuzzy
 msgid "Vacation home"
 msgstr "Dom wakacyjny"
+
+#: src/lib/words.ts
+msgid "vacuum cleaner"
+msgstr ""
 
 #: src/Overview.tsx
 #, fuzzy
@@ -12462,7 +12947,19 @@ msgstr "Gwarancja do"
 msgid "warranty until {date}"
 msgstr "gwarancja do {date}"
 
-#: src/Maintenance.tsx
+#: src/lib/words.ts
+msgid "washing machine"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "water heater"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "water softener"
+msgstr ""
+
+#: src/Maintenance.tsx src/Repairs.tsx
 #, fuzzy
 msgid "We did"
 msgstr "Zrobiliśmy to"
@@ -12505,6 +13002,10 @@ msgstr "tygodnie"
 #, fuzzy
 msgid "Welcome back"
 msgstr "Witaj z powrotem"
+
+#: src/lib/words.ts
+msgid "well pump"
+msgstr ""
 
 #: src/Gone.tsx
 msgid "What"
@@ -12610,7 +13111,12 @@ msgstr "Co próbowali"
 msgid "What to import"
 msgstr "Co zaimportować"
 
-#: src/Claims.tsx
+#: src/Repairs.tsx
+#, fuzzy
+msgid "What was done"
+msgstr "Czym jest skanowanie"
+
+#: src/Claims.tsx src/Repairs.tsx
 #, fuzzy
 msgid "What went wrong"
 msgstr "Co poszło nie tak"
@@ -12627,7 +13133,7 @@ msgstr ""
 msgid "what's in the box"
 msgstr "co jest w pudełku"
 
-#: src/Gone.tsx
+#: src/Gone.tsx src/Repairs.tsx
 #, fuzzy
 msgid "When"
 msgstr "Kiedy"
@@ -12667,6 +13173,14 @@ msgstr ""
 "Kiedy domownicy pozwolą sztucznej inteligencji wypełnić dane (Ustawienia → "
 "Gospodarstwo domowe), to, co ona wpisze, czeka tutaj, aż ktoś potwierdzi, że "
 "wszystko wygląda dobrze."
+
+#: src/Replacements.tsx
+msgid ""
+"When things are likely to wear out, from how long each kind usually lasts "
+"and when it was bought (or added). These are estimates to plan with — plenty "
+"of things last much longer. Set how long something lasts on it, or on its "
+"<0>category</0>."
+msgstr ""
 
 #: src/Gone.tsx
 #, fuzzy
@@ -12838,7 +13352,7 @@ msgstr "Które pomieszczenie?"
 msgid "Which thing is it on?"
 msgstr "Na czym to jest?"
 
-#: src/Maintenance.tsx
+#: src/Maintenance.tsx src/Repairs.tsx
 #, fuzzy
 msgid "Who did it"
 msgstr "Kto to zrobił"
@@ -12873,10 +13387,24 @@ msgstr "Z kim masz do czynienia"
 msgid "Who you spoke to, what they asked for…"
 msgstr "Z kim rozmawiałeś, o co cię poprosili…"
 
+#: src/lib/words.ts
+#, fuzzy
+msgid "whole-house water filter"
+msgstr "Wybierz plik"
+
 #: src/Loans.tsx
 #, fuzzy
 msgid "Whose it is"
 msgstr "Czyja to aplikacja"
+
+#: src/lib/words.ts
+msgid "Wi-Fi router"
+msgstr ""
+
+#: src/lib/words.ts
+#, fuzzy
+msgid "window air conditioner"
+msgstr "Stan zadowalający"
 
 #: src/Loans.tsx
 #, fuzzy
@@ -12980,6 +13508,10 @@ msgstr ""
 #, fuzzy
 msgid "X-HM://…, MT:…, 123-45-678"
 msgstr "X-HM://…, MT:…, 123-45-678"
+
+#: src/lib/words.ts
+msgid "yard tool"
+msgstr ""
 
 #: src/Places.tsx
 #, fuzzy
