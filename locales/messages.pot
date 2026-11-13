@@ -235,8 +235,16 @@ msgstr ""
 msgid ", {step} at a time"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "· about {perYear} a year over {years} years"
+msgstr ""
+
 #: src/Server.tsx
 msgid "· last {when}"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "(an estimate)"
 msgstr ""
 
 #: src/Steps.tsx
@@ -284,6 +292,11 @@ msgstr ""
 #. placeholder {0}: p.documents
 #: src/PlanUsage.tsx
 msgid "{0, plural, one {# document} other {# documents}}"
+msgstr ""
+
+#. placeholder {0}: photos.length
+#: src/Repairs.tsx
+msgid "{0, plural, one {# file to add} other {# files to add}}"
 msgstr ""
 
 #. placeholder {0}: lastOk.files ?? 0
@@ -435,6 +448,11 @@ msgstr ""
 msgid "{0, plural, one {# thing changed to match Home Assistant.} other {# things changed to match Home Assistant.}}"
 msgstr ""
 
+#. placeholder {0}: f.unknown
+#: src/Replacements.tsx
+msgid "{0, plural, one {# thing has no typical life Ferret knows. Give its category one, or set it on the thing, to include it.} other {# things have no typical life Ferret knows. Give their categories one, or set it on the things, to include them.}}"
+msgstr ""
+
 #. placeholder {0}: it.contents
 #: src/Tracking.tsx
 msgid "{0, plural, one {# thing inside — checked with it} other {# things inside — checked with it}}"
@@ -459,6 +477,7 @@ msgstr ""
 #: src/Import.tsx
 #: src/Overview.tsx
 #: src/PayOff.tsx
+#: src/Replacements.tsx
 #: src/Templates.tsx
 #: src/Tracking.tsx
 msgid "{0, plural, one {# thing} other {# things}}"
@@ -472,6 +491,11 @@ msgstr ""
 #. placeholder {0}: e.count
 #: src/Server.tsx
 msgid "{0, plural, one {# time} other {# times}}"
+msgstr ""
+
+#. placeholder {0}: g.y.unpriced
+#: src/Replacements.tsx
+msgid "{0, plural, one {# without a price} other {# without a price}}"
 msgstr ""
 
 #. placeholder {0}: months! / 12
@@ -1122,6 +1146,10 @@ msgstr ""
 msgid "{why} Ask {inviter} for a new link if you still need one."
 msgstr ""
 
+#: src/ItemEditor.tsx
+msgid "{years} (typical)"
+msgstr ""
+
 #: src/Providers.tsx
 msgid "+ Add \"{name}\" as a provider"
 msgstr ""
@@ -1560,6 +1588,10 @@ msgstr ""
 msgid "A part-used sheet? Skip the first"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "A photo of the repair"
+msgstr ""
+
 #: src/PlanUsage.tsx
 msgid "A photo's suggestions count as 2 AI actions; a question to Ask Ferret or a document read, 1."
 msgstr ""
@@ -1629,12 +1661,20 @@ msgstr ""
 msgid "About"
 msgstr ""
 
+#: src/Replacements.tsx
+msgid "about {amount}"
+msgstr ""
+
 #: src/Usage.tsx
 msgid "about {amount} a month"
 msgstr ""
 
 #: src/Usage.tsx
 msgid "about {amount} a year"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "about {amount} to replace"
 msgstr ""
 
 #: src/Collections.tsx
@@ -1994,6 +2034,10 @@ msgstr ""
 msgid "Added {when}"
 msgstr ""
 
+#: src/Replacements.tsx
+msgid "added {year}"
+msgstr ""
+
 #: src/lib/origin.ts
 msgid "Added by a script"
 msgstr ""
@@ -2072,6 +2116,14 @@ msgstr ""
 
 #: src/ImportCsv.tsx
 msgid "AI: probably a consumable"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "air conditioner"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "air purifier"
 msgstr ""
 
 #: src/Usage.tsx
@@ -2353,6 +2405,10 @@ msgstr ""
 msgid "Asking price"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "asphalt shingle roof"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "At"
 msgstr ""
@@ -2398,6 +2454,10 @@ msgstr ""
 msgid "Avery 5163 — 2″ × 4″, 10 per sheet (boxes)"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "baby monitor"
+msgstr ""
+
 #: src/AiFill.tsx
 #: src/App.tsx
 #: src/Collections.tsx
@@ -2411,6 +2471,7 @@ msgstr ""
 #: src/Loans.tsx
 #: src/PayOff.tsx
 #: src/Providers.tsx
+#: src/Replacements.tsx
 #: src/RoomScan.tsx
 #: src/Shopping.tsx
 #: src/Tracking.tsx
@@ -2493,12 +2554,20 @@ msgstr ""
 msgid "Before the first freeze"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "bicycle"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "Blank labels to stick on boxes as you pack. Scan one later and say what it is — a new box, or something already in Ferret."
 msgstr ""
 
 #: src/Nav.tsx
 msgid "Blank QR labels"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "boiler"
 msgstr ""
 
 #: src/Loans.tsx
@@ -2521,6 +2590,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Bought {date}"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "bought {year}"
 msgstr ""
 
 #: src/PlainWordsFilter.tsx
@@ -2641,6 +2714,10 @@ msgstr ""
 msgid "Calendar link"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "camera"
+msgstr ""
+
 #: src/Scanner.tsx
 msgid "Camera not available — take a photo of the barcode instead."
 msgstr ""
@@ -2687,6 +2764,7 @@ msgstr ""
 #: src/PhotoCrop.tsx
 #: src/Places.tsx
 #: src/Providers.tsx
+#: src/Repairs.tsx
 #: src/Security.tsx
 #: src/Server.tsx
 #: src/Settings.tsx
@@ -2709,6 +2787,18 @@ msgstr ""
 
 #: src/Offline.tsx
 msgid "Captured offline"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "car"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "car battery"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "carbon monoxide alarm"
 msgstr ""
 
 #: src/Overview.tsx
@@ -2993,8 +3083,16 @@ msgstr ""
 msgid "Closed on"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "clothes dryer"
+msgstr ""
+
 #: src/Security.tsx
 msgid "Code from your authenticator app"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "coffee maker"
 msgstr ""
 
 #: src/Collections.tsx
@@ -3021,6 +3119,12 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Coming up"
+msgstr ""
+
+#: src/Nav.tsx
+#: src/Overview.tsx
+#: src/Replacements.tsx
+msgid "Coming up for replacement"
 msgstr ""
 
 #: src/StarterTasks.tsx
@@ -3116,8 +3220,17 @@ msgstr ""
 msgid "Copy the calendar link below."
 msgstr ""
 
+#: src/lib/words.ts
+msgid "cordless tool"
+msgstr ""
+
 #: src/Maintenance.tsx
+#: src/Repairs.tsx
 msgid "Cost"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Cost of owning it"
 msgstr ""
 
 #: src/Claims.tsx
@@ -3295,6 +3408,10 @@ msgstr ""
 msgid "deductible, shipping…"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "dehumidifier"
+msgstr ""
+
 #: src/Deleted.tsx
 #: src/Everything.tsx
 #: src/Walkthrough.tsx
@@ -3382,6 +3499,10 @@ msgid "Description"
 msgstr ""
 
 #: src/lib/words.ts
+msgid "desktop computer"
+msgstr ""
+
+#: src/lib/words.ts
 msgid "Details from photos and receipts"
 msgstr ""
 
@@ -3408,6 +3529,10 @@ msgstr ""
 
 #: src/RoomScan.tsx
 msgid "Discard scan"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "dishwasher"
 msgstr ""
 
 #: src/Everything.tsx
@@ -3704,8 +3829,16 @@ msgstr ""
 msgid "e.g. Power tools"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "e.g. Pump 00436440"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "e.g. Replace furnace filter"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "e.g. Replaced the drain pump"
 msgstr ""
 
 #: src/ItemEditor.tsx
@@ -3748,6 +3881,10 @@ msgstr ""
 msgid "e.g. Top shelf"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "e.g. Wouldn't drain, error E21"
+msgstr ""
+
 #: src/Security.tsx
 msgid "Each browser or phone you've signed in on. Don't recognise one? Sign it out."
 msgstr ""
@@ -3769,6 +3906,7 @@ msgstr ""
 #: src/Loans.tsx
 #: src/PayOff.tsx
 #: src/Providers.tsx
+#: src/Repairs.tsx
 msgid "Edit"
 msgstr ""
 
@@ -3795,6 +3933,10 @@ msgstr ""
 
 #: src/Browse.tsx
 msgid "Edit places"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Edit the repair"
 msgstr ""
 
 #: src/Stock.tsx
@@ -3870,6 +4012,10 @@ msgstr ""
 
 #: src/Replacement.tsx
 msgid "Estimate replacement cost"
+msgstr ""
+
+#: src/Overview.tsx
+msgid "Estimates from how long things usually last."
 msgstr ""
 
 #: src/Replacement.tsx
@@ -4027,6 +4173,10 @@ msgstr ""
 
 #: src/MaintenanceCalendar.tsx
 msgid "Expected repeat"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "Expected to last {years} years"
 msgstr ""
 
 #: src/MaintenanceCalendar.tsx
@@ -4280,6 +4430,10 @@ msgstr ""
 msgid "Finishing now leaves the rest unchecked."
 msgstr ""
 
+#: src/lib/words.ts
+msgid "fire extinguisher"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "Firearms"
 msgstr ""
@@ -4356,6 +4510,10 @@ msgstr ""
 msgid "For services that ask who's connecting (mutual TLS). Each is shown only to the hosts you name."
 msgstr ""
 
+#: src/Catalog.tsx
+msgid "For the replacement forecast. Leave it empty and Ferret uses the typical life of each kind of thing (a fridge ~13 years). Subcategories get it too."
+msgstr ""
+
 #: src/Templates.tsx
 msgid "For things you have lots of the same kind of — coins, cards, dolls: the details to fill in for each (year, grade…), and the category and tags they start with. Pick one when adding or editing a thing."
 msgstr ""
@@ -4375,6 +4533,10 @@ msgstr ""
 #: src/ScanSession.tsx
 #: src/Tracking.tsx
 msgid "Found it"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "freezer"
 msgstr ""
 
 #: src/SuggestedMaintenance.tsx
@@ -4465,8 +4627,32 @@ msgstr ""
 msgid "Full screen"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "furnace"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "game console"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "garage door"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "garage door opener"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "garbage disposal"
+msgstr ""
+
 #: src/Gone.tsx
 msgid "Gave it away"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "generator"
 msgstr ""
 
 #: src/Notifications.tsx
@@ -4537,12 +4723,24 @@ msgstr ""
 msgid "Google Calendar, Outlook or another calendar"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "got back {amount}"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "Got it"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "grill"
+msgstr ""
+
 #: src/Server.tsx
 msgid "ha.example.lan, *.example.lan"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "hair dryer"
 msgstr ""
 
 #: src/Server.tsx
@@ -4577,8 +4775,16 @@ msgstr ""
 msgid "Have the chimney inspected"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "headphones"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid "Hear about filters, servicing and warranties about to end, when it matters. Just for you."
+msgstr ""
+
+#: src/lib/words.ts
+msgid "heat pump"
 msgstr ""
 
 #: src/HelpLink.tsx
@@ -4704,6 +4910,10 @@ msgstr ""
 msgid "How to restore"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "humidifier"
+msgstr ""
+
 #: src/Providers.tsx
 msgid "HVAC"
 msgstr ""
@@ -4738,6 +4948,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "If lost: {lost}"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "If the repair is guaranteed, it's added to the warranties."
 msgstr ""
 
 #: src/App.tsx
@@ -5263,6 +5477,10 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "laptop"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Last 30 days"
 msgstr ""
@@ -5311,8 +5529,16 @@ msgstr ""
 msgid "last used {date}"
 msgstr ""
 
+#: src/ItemEditor.tsx
+msgid "Lasts (years)"
+msgstr ""
+
 #: src/MaintenanceCalendar.tsx
 msgid "Later"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "lawn mower"
 msgstr ""
 
 #: src/Household.tsx
@@ -5397,6 +5623,10 @@ msgstr ""
 msgid "Like it? <0/> — on a computer at home, so your things never leave it."
 msgstr ""
 
+#: src/Replacements.tsx
+msgid "Likely due around {year}"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "Line {line}"
 msgstr ""
@@ -5439,6 +5669,11 @@ msgstr ""
 msgid "Locksmith"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "Log a repair"
+msgstr ""
+
+#: src/Repairs.tsx
 #: src/Usage.tsx
 msgid "Log it"
 msgstr ""
@@ -5533,6 +5768,10 @@ msgstr ""
 msgid "Maintenance"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "maintenance {amount}"
+msgstr ""
+
 #: src/Usage.tsx
 msgid "Maintenance by use"
 msgstr ""
@@ -5613,6 +5852,10 @@ msgstr ""
 msgid "Matched by meaning"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "mattress"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "MCP server URL"
 msgstr ""
@@ -5631,6 +5874,10 @@ msgstr ""
 
 #: src/Duplicates.tsx
 msgid "Merge…"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "microwave"
 msgstr ""
 
 #: src/Usage.tsx
@@ -5663,6 +5910,10 @@ msgstr ""
 #: src/Suggestions.tsx
 #: src/Walkthrough.tsx
 msgid "Model"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "monitor"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -5743,6 +5994,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Name your household"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "NAS"
 msgstr ""
 
 #: src/AttentionBell.tsx
@@ -5870,6 +6125,10 @@ msgstr ""
 #: src/ItemPage.tsx
 #: src/PhotoViewer.tsx
 msgid "Next photo"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "No"
 msgstr ""
 
 #: src/Parts.tsx
@@ -6277,6 +6536,7 @@ msgstr ""
 msgid "Notes"
 msgstr ""
 
+#: src/Gone.tsx
 #: src/Maintenance.tsx
 msgid "Nothing"
 msgstr ""
@@ -6298,6 +6558,10 @@ msgstr ""
 msgid "nothing due"
 msgstr ""
 
+#: src/Replacements.tsx
+msgid "Nothing due in the next ten years"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Nothing due soon"
 msgstr ""
@@ -6308,6 +6572,10 @@ msgstr ""
 
 #: src/MaintenanceCalendar.tsx
 msgid "Nothing due this month."
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Nothing fixed yet. When something is, log it here — it counts in what owning it has cost."
 msgstr ""
 
 #: src/App.tsx
@@ -6754,6 +7022,7 @@ msgid "Paid"
 msgstr ""
 
 #: src/Collections.tsx
+#: src/Repairs.tsx
 msgid "paid {amount}"
 msgstr ""
 
@@ -6781,12 +7050,28 @@ msgstr ""
 msgid "Part numbers, how-to, who to call…"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "Part of a maintenance task"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Part of: {task}"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Parts"
+msgstr ""
+
 #: src/Parts.tsx
 msgid "Parts & supplies"
 msgstr ""
 
 #: src/Demo.tsx
 msgid "Parts of the demo"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Parts: {parts}"
 msgstr ""
 
 #: src/Security.tsx
@@ -6807,9 +7092,21 @@ msgstr ""
 msgid "Password changed"
 msgstr ""
 
+#: src/Replacements.tsx
+msgid "Past its typical life (since about {year})"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "Past their typical life"
+msgstr ""
+
 #: src/Gone.tsx
 #: src/Nav.tsx
 msgid "Past things"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "Past typical life"
 msgstr ""
 
 #: src/Reminders.tsx
@@ -6889,6 +7186,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Photos or documents whose thing is missing or in another household."
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Photos or the invoice"
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -6990,6 +7291,10 @@ msgstr ""
 msgid "Possibly recalled — check the model"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "power tool"
+msgstr ""
+
 #: src/Gone.tsx
 #: src/Heirs.tsx
 msgid "Prepared {date}"
@@ -7001,6 +7306,10 @@ msgstr ""
 
 #: src/StarterTasks.tsx
 msgid "Press the test button on each one"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "pressure washer"
 msgstr ""
 
 #: src/Labels.tsx
@@ -7059,12 +7368,20 @@ msgstr ""
 msgid "Print or save as PDF"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "printer"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "Printing tips and alignment"
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "Probably not things ({count})"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Problem: {problem}"
 msgstr ""
 
 #: src/Product.tsx
@@ -7184,6 +7501,14 @@ msgstr ""
 msgid "Ran out {longDate}"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "range hood"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "range or oven"
+msgstr ""
+
 #: src/Suggestions.tsx
 msgid "Read by AI from your photos and documents — check before applying."
 msgstr ""
@@ -7260,6 +7585,10 @@ msgstr ""
 
 #: src/Demo.tsx
 msgid "Refresh"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "refrigerator"
 msgstr ""
 
 #: src/ItemRow.tsx
@@ -7411,6 +7740,10 @@ msgstr ""
 msgid "Remove the reading of {describeUsage}"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "Remove the repair"
+msgstr ""
+
 #: src/Catalog.tsx
 msgid "Remove the tag {name}? The items stay."
 msgstr ""
@@ -7429,6 +7762,10 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "Remove this loan? (Use “It's back” when it's back.)"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Remove this repair? Its photos and warranty stay with the item."
 msgstr ""
 
 #: src/Templates.tsx
@@ -7463,6 +7800,19 @@ msgstr ""
 msgid "Rental"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "Repair warranty until {day}"
+msgstr ""
+
+#: src/ItemPage.tsx
+#: src/Repairs.tsx
+msgid "Repairs"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "repairs {amount}"
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "Replace smoke and CO alarm batteries"
 msgstr ""
@@ -7471,12 +7821,24 @@ msgstr ""
 msgid "Replace the furnace / AC filter"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "Replaced by (optional)"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Replaced by {name}"
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid "Replaced, sold, or just taken out of Home Assistant? Open one and use Edit → No longer have it? if it's gone."
 msgstr ""
 
 #: src/Replacement.tsx
 msgid "Replacement cost"
+msgstr ""
+
+#: src/Repairs.tsx
+msgid "Replaces {name}"
 msgstr ""
 
 #: src/Reminders.tsx
@@ -7572,8 +7934,16 @@ msgstr ""
 msgid "Revoke key"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "riding mower"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "Right"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "robot mower"
 msgstr ""
 
 #: src/Household.tsx
@@ -7658,6 +8028,7 @@ msgstr ""
 #: src/PayOff.tsx
 #: src/Places.tsx
 #: src/Providers.tsx
+#: src/Repairs.tsx
 #: src/Stock.tsx
 #: src/Templates.tsx
 msgid "Save"
@@ -8250,8 +8621,24 @@ msgstr ""
 msgid "Small pictures (thumbnails) missing from the file store — those things show no picture in lists."
 msgstr ""
 
+#: src/lib/words.ts
+msgid "smartphone"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "smoke alarm"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "snow blower"
+msgstr ""
+
 #: src/Setup.tsx
 msgid "So everyone can find things — viewers can only look."
+msgstr ""
+
+#: src/lib/words.ts
+msgid "sofa"
 msgstr ""
 
 #: src/Gone.tsx
@@ -8327,6 +8714,10 @@ msgstr ""
 
 #: src/ImportCsv.tsx
 msgid "Sorting… {progress}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "speaker"
 msgstr ""
 
 #: src/StarterTasks.tsx
@@ -8473,6 +8864,10 @@ msgstr ""
 msgid "Suggestions from your files"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "sump pump"
+msgstr ""
+
 #: src/App.tsx
 msgid "Switch household"
 msgstr ""
@@ -8484,6 +8879,10 @@ msgstr ""
 #: src/Collections.tsx
 #: src/Everything.tsx
 msgid "Table"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "tablet"
 msgstr ""
 
 #: src/App.tsx
@@ -8553,6 +8952,10 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "Take this tag off {things}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "tankless water heater"
 msgstr ""
 
 #: src/Install.tsx
@@ -8748,6 +9151,10 @@ msgstr ""
 msgid "The recall notice"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "The repair's own warranty ends"
+msgstr ""
+
 #: src/Report.tsx
 msgid "the report for {property}"
 msgstr ""
@@ -8813,6 +9220,10 @@ msgstr ""
 msgid "There's no page here"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "thermostat"
+msgstr ""
+
 #: src/Household.tsx
 msgid "They can…"
 msgstr ""
@@ -8835,8 +9246,16 @@ msgstr ""
 msgid "Things belonging to a household that no longer exists."
 msgstr ""
 
+#: src/Replacements.tsx
+msgid "Things Ferret knows the typical life of — appliances, electronics, the water heater, the roof — show up here as they get older."
+msgstr ""
+
 #: src/Gone.tsx
 msgid "Things given"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "Things in {category} last about {years} years"
 msgstr ""
 
 #: src/Everything.tsx
@@ -8853,6 +9272,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Things in a room that's been deleted or belongs to another household — they don't show under any room."
+msgstr ""
+
+#: src/Catalog.tsx
+msgid "Things in it last (years)"
 msgstr ""
 
 #: src/App.tsx
@@ -9017,6 +9440,10 @@ msgstr ""
 msgid "Tip: a full sheet of 5163 is 10, of 5160 is 30, of 22806 is 12, of 22805 is 24."
 msgstr ""
 
+#: src/lib/words.ts
+msgid "tires"
+msgstr ""
+
 #: src/Listing.tsx
 msgid "Title"
 msgstr ""
@@ -9162,6 +9589,10 @@ msgstr ""
 msgid "Turnstile didn't load"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "TV"
+msgstr ""
+
 #: src/App.tsx
 #: src/Security.tsx
 msgid "Two-step sign-in"
@@ -9199,8 +9630,17 @@ msgstr ""
 msgid "Typed into the app"
 msgstr ""
 
+#: src/Catalog.tsx
+#: src/ItemEditor.tsx
+msgid "Typical"
+msgstr ""
+
 #: src/SuggestedMaintenance.tsx
 msgid "typical for things like it — check its manual"
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "Typical life of a {kind}: about {years} years"
 msgstr ""
 
 #: src/Labels.tsx
@@ -9306,6 +9746,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Uploading {name}"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "UPS battery backup"
 msgstr ""
 
 #: src/PlanUsage.tsx
@@ -9415,6 +9859,10 @@ msgstr ""
 
 #: src/Places.tsx
 msgid "Vacation home"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "vacuum cleaner"
 msgstr ""
 
 #: src/Overview.tsx
@@ -9557,7 +10005,20 @@ msgstr ""
 msgid "warranty until {date}"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "washing machine"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "water heater"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "water softener"
+msgstr ""
+
 #: src/Maintenance.tsx
+#: src/Repairs.tsx
 msgid "We did"
 msgstr ""
 
@@ -9587,6 +10048,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Welcome back"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "well pump"
 msgstr ""
 
 #: src/Gone.tsx
@@ -9667,7 +10132,12 @@ msgstr ""
 msgid "What to import"
 msgstr ""
 
+#: src/Repairs.tsx
+msgid "What was done"
+msgstr ""
+
 #: src/Claims.tsx
+#: src/Repairs.tsx
 msgid "What went wrong"
 msgstr ""
 
@@ -9680,6 +10150,7 @@ msgid "what's in the box"
 msgstr ""
 
 #: src/Gone.tsx
+#: src/Repairs.tsx
 msgid "When"
 msgstr ""
 
@@ -9697,6 +10168,10 @@ msgstr ""
 
 #: src/AiFill.tsx
 msgid "When the household lets AI fill in (Settings → Household), what it fills in waits here until someone says it looks right."
+msgstr ""
+
+#: src/Replacements.tsx
+msgid "When things are likely to wear out, from how long each kind usually lasts and when it was bought (or added). These are estimates to plan with — plenty of things last much longer. Set how long something lasts on it, or on its <0>category</0>."
 msgstr ""
 
 #: src/Gone.tsx
@@ -9831,6 +10306,7 @@ msgid "Which thing is it on?"
 msgstr ""
 
 #: src/Maintenance.tsx
+#: src/Repairs.tsx
 msgid "Who did it"
 msgstr ""
 
@@ -9858,8 +10334,20 @@ msgstr ""
 msgid "Who you spoke to, what they asked for…"
 msgstr ""
 
+#: src/lib/words.ts
+msgid "whole-house water filter"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Whose it is"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "Wi-Fi router"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "window air conditioner"
 msgstr ""
 
 #: src/Loans.tsx
@@ -9950,6 +10438,10 @@ msgstr ""
 
 #: src/Pairing.tsx
 msgid "X-HM://…, MT:…, 123-45-678"
+msgstr ""
+
+#: src/lib/words.ts
+msgid "yard tool"
 msgstr ""
 
 #: src/Places.tsx
