@@ -643,9 +643,9 @@ msgstr ""
 #. placeholder {0}: b.items
 #. placeholder {0}: c.items
 #. placeholder {0}: folder.count
-#: src/App.tsx src/Everything.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx
-#: src/Overview.tsx src/PayOff.tsx src/Replacements.tsx src/Templates.tsx
-#: src/Tracking.tsx
+#: src/App.tsx src/Everything.tsx src/Folder.tsx src/Gone.tsx src/Heirs.tsx
+#: src/Import.tsx src/Overview.tsx src/PayOff.tsx src/Replacements.tsx
+#: src/Templates.tsx src/Tracking.tsx
 #, fuzzy
 msgid "{0, plural, one {# thing} other {# things}}"
 msgstr ""
