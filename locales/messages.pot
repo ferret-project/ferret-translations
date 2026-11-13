@@ -473,6 +473,7 @@ msgstr ""
 #. placeholder {0}: folder.count
 #: src/App.tsx
 #: src/Everything.tsx
+#: src/Folder.tsx
 #: src/Gone.tsx
 #: src/Heirs.tsx
 #: src/Import.tsx
