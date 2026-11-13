@@ -8557,6 +8557,14 @@ msgstr ""
 msgid "Show the whole month"
 msgstr ""
 
+#: src/Collections.tsx
+msgid "Show whole photos, not cropped"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Showing whole photos — tap to crop them square"
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "Shut off and drain outdoor faucets"
 msgstr ""
@@ -10430,6 +10438,10 @@ msgstr ""
 
 #: src/Claims.tsx
 msgid "Who you spoke to, what they asked for…"
+msgstr ""
+
+#: src/Collections.tsx
+msgid "Whole photos"
 msgstr ""
 
 #: src/lib/words.ts

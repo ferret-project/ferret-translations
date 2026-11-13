@@ -10998,6 +10998,15 @@ msgstr "Pokaż zdjęcie na całym ekranie"
 msgid "Show the whole month"
 msgstr "Pokaż cały miesiąc"
 
+#: src/Collections.tsx
+#, fuzzy
+msgid "Show whole photos, not cropped"
+msgstr "Pokaż zdjęcie na całym ekranie"
+
+#: src/Collections.tsx
+msgid "Showing whole photos — tap to crop them square"
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "Shut off and drain outdoor faucets"
 msgstr ""
@@ -13401,6 +13410,11 @@ msgstr "Z kim masz do czynienia"
 #, fuzzy
 msgid "Who you spoke to, what they asked for…"
 msgstr "Z kim rozmawiałeś, o co cię poprosili…"
+
+#: src/Collections.tsx
+#, fuzzy
+msgid "Whole photos"
+msgstr "Wybierz zdjęcia"
 
 #: src/lib/words.ts
 #, fuzzy
