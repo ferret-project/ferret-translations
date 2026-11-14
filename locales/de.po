@@ -301,6 +301,13 @@ msgstr ""
 msgid "{0, plural, one {# document} other {# documents}}"
 msgstr ""
 
+#. placeholder {0}: result.queued
+#: src/Everything.tsx
+msgid ""
+"{0, plural, one {# file queued for the AI to read} other {# files queued for "
+"the AI to read}}"
+msgstr ""
+
 #. placeholder {0}: photos.length
 #: src/Repairs.tsx
 msgid "{0, plural, one {# file to add} other {# files to add}}"
@@ -827,6 +834,10 @@ msgstr ""
 
 #: src/StarterTasks.tsx
 msgid "{every}, first in {season}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "{failed} couldn't be: {reasons}"
 msgstr ""
 
 #: src/AiFill.tsx
@@ -1801,7 +1812,7 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: src/App.tsx src/Boxes.tsx src/Collections.tsx src/FromWeb.tsx
+#: src/App.tsx src/Boxes.tsx src/Collections.tsx src/Files.tsx src/FromWeb.tsx
 #: src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx src/Notifications.tsx
 #: src/Offline.tsx src/Pairing.tsx src/Parts.tsx src/Places.tsx src/Stock.tsx
 #: src/SuggestedMaintenance.tsx src/Suggestions.tsx src/Warranties.tsx
@@ -1850,6 +1861,14 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Add a client certificate…"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Add a document"
+msgstr ""
+
+#: src/Files.tsx
+msgid "Add a document or photo"
 msgstr ""
 
 #: src/Overview.tsx
@@ -1910,6 +1929,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Add a task"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Add a warranty"
 msgstr ""
 
 #: src/Notifications.tsx
@@ -2027,6 +2050,10 @@ msgstr ""
 
 #: src/Templates.tsx
 msgid "Add template"
+msgstr ""
+
+#: src/Files.tsx
+msgid "Add the invoice or photos"
 msgstr ""
 
 #: src/Suggestions.tsx
@@ -2323,6 +2350,22 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Analysis failed for {filename}. Try again"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Analyze"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Analyze {filename} again"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Analyze again"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Analyze their photos and documents?"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -3118,7 +3161,8 @@ msgstr ""
 msgid "Client certificates"
 msgstr ""
 
-#: src/Everything.tsx src/Modal.tsx src/PhotoViewer.tsx src/Shares.tsx
+#: src/Everything.tsx src/Maintenance.tsx src/Modal.tsx src/PhotoViewer.tsx
+#: src/Shares.tsx
 msgid "Close"
 msgstr ""
 
@@ -3612,6 +3656,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Documents"
+msgstr ""
+
+#: src/App.tsx src/Maintenance.tsx
+msgid "Documents & photos"
 msgstr ""
 
 #: src/Loans.tsx
@@ -4530,6 +4578,13 @@ msgstr ""
 msgid "For {join}"
 msgstr ""
 
+#: src/Everything.tsx
+msgid ""
+"For {things}, the AI reads each photo and document it hasn't read yet, or "
+"couldn't read before, one at a time in the background. What it finds waits "
+"on each thing's page as suggestions. Each file counts as an AI action."
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "For a place (optional)"
 msgstr ""
@@ -5102,6 +5157,10 @@ msgid ""
 "In Claude Code, run this once (with your key in place of <0>ferret_…</0>"
 msgstr ""
 
+#: src/Files.tsx
+msgid "In documents"
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid "In Ferret"
 msgstr ""
@@ -5225,6 +5284,10 @@ msgstr ""
 
 #: src/Setup.tsx
 msgid "Invite your household"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Invoice or photos"
 msgstr ""
 
 #: src/App.tsx
@@ -5753,7 +5816,7 @@ msgstr ""
 msgid "Locksmith"
 msgstr ""
 
-#: src/Repairs.tsx
+#: src/ItemPage.tsx src/Repairs.tsx
 msgid "Log a repair"
 msgstr ""
 
@@ -5933,6 +5996,12 @@ msgstr ""
 
 #: src/Tracking.tsx
 msgid "Marked as still here"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid ""
+"Marked done, but the files couldn't be added ({reason}). Add them from the "
+"task's Done before list."
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -6379,6 +6448,10 @@ msgstr ""
 msgid "No thanks"
 msgstr ""
 
+#: src/App.tsx
+msgid "No things match"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "No value or price"
 msgstr ""
@@ -6742,6 +6815,10 @@ msgid ""
 "Nothing scheduled. Upload the manual and Ferret will suggest what it needs."
 msgstr ""
 
+#: src/Everything.tsx
+msgid "Nothing there was waiting to be read"
+msgstr ""
+
 #: src/Shopping.tsx
 msgid "Nothing to buy"
 msgstr ""
@@ -7033,6 +7110,14 @@ msgstr ""
 
 #: src/Reminders.tsx
 msgid "Opens your Calendar app, which asks to subscribe — say yes."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Optional. Kept with this record, and on {name}'s page."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Optional. Kept with this record."
 msgstr ""
 
 #: src/App.tsx
@@ -7580,12 +7665,20 @@ msgstr ""
 msgid "range or oven"
 msgstr ""
 
+#: src/ItemPage.tsx
+msgid "Read {filename} again"
+msgstr ""
+
 #: src/Suggestions.tsx
 msgid "Read by AI from your photos and documents — check before applying."
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "Read devices"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Read it again"
 msgstr ""
 
 #: src/Settings.tsx
@@ -7709,11 +7802,11 @@ msgstr ""
 msgid "Remove “{name}”? It won't sign in to Ferret any more."
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid "Remove {filename}"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid "Remove {filename}?"
 msgstr ""
 
@@ -8509,7 +8602,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid "Show {filename} full screen"
 msgstr ""
 
@@ -8662,7 +8755,7 @@ msgstr ""
 msgid "Skip"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid "Small copy only"
 msgstr ""
 
@@ -9259,6 +9352,10 @@ msgid ""
 "collection's columns, and what you add starts from it."
 msgstr ""
 
+#: src/Maintenance.tsx
+msgid "the thing"
+msgstr ""
+
 #: src/App.tsx
 msgid "The two passwords don't match"
 msgstr ""
@@ -9647,10 +9744,6 @@ msgstr ""
 msgid "Try again"
 msgstr ""
 
-#: src/ItemPage.tsx
-msgid "Try reading {filename} again"
-msgstr ""
-
 #: src/Demo.tsx
 msgid "Try the demo"
 msgstr ""
@@ -9837,6 +9930,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Uploading {name}"
+msgstr ""
+
+#: src/Files.tsx
+msgid "Uploading…"
 msgstr ""
 
 #: src/lib/words.ts

@@ -362,6 +362,15 @@ msgstr ""
 "{0, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other {# "
 "dokumentów}}"
 
+#. placeholder {0}: result.queued
+#: src/Everything.tsx
+#, fuzzy
+msgid ""
+"{0, plural, one {# file queued for the AI to read} other {# files queued for "
+"the AI to read}}"
+msgstr ""
+"{0, plural, one {# plik} few {# pliki} many {# plików} other {# pliku}}"
+
 #. placeholder {0}: photos.length
 #: src/Repairs.tsx
 #, fuzzy
@@ -1121,6 +1130,11 @@ msgstr "{due} termin za 2 tygodnie"
 #, fuzzy
 msgid "{every}, first in {season}"
 msgstr "{left} po lewej · {reason}"
+
+#: src/Everything.tsx
+#, fuzzy
+msgid "{failed} couldn't be: {reasons}"
+msgstr "{done} zmieniono · {failed} nie mogło być: {reasons}"
 
 #: src/AiFill.tsx
 #, fuzzy
@@ -2400,7 +2414,7 @@ msgstr "Konta"
 msgid "Active"
 msgstr "Aktywne"
 
-#: src/App.tsx src/Boxes.tsx src/Collections.tsx src/FromWeb.tsx
+#: src/App.tsx src/Boxes.tsx src/Collections.tsx src/Files.tsx src/FromWeb.tsx
 #: src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx src/Notifications.tsx
 #: src/Offline.tsx src/Pairing.tsx src/Parts.tsx src/Places.tsx src/Stock.tsx
 #: src/SuggestedMaintenance.tsx src/Suggestions.tsx src/Warranties.tsx
@@ -2462,6 +2476,16 @@ msgstr "Dodaj certyfikat klienta"
 #, fuzzy
 msgid "Add a client certificate…"
 msgstr "Dodaj certyfikat klienta…"
+
+#: src/ItemPage.tsx
+#, fuzzy
+msgid "Add a document"
+msgstr "Zeskanuj dokument"
+
+#: src/Files.tsx
+#, fuzzy
+msgid "Add a document or photo"
+msgstr "Dodaj ze zdjęć"
 
 #: src/Overview.tsx
 #, fuzzy
@@ -2539,6 +2563,11 @@ msgstr "Dodaj tag"
 #, fuzzy
 msgid "Add a task"
 msgstr "Dodaj zadanie"
+
+#: src/ItemPage.tsx
+#, fuzzy
+msgid "Add a warranty"
+msgstr "Dodaj nieruchomość"
 
 #: src/Notifications.tsx
 #, fuzzy
@@ -2689,6 +2718,11 @@ msgstr "Dodaj zadania"
 #, fuzzy
 msgid "Add template"
 msgstr "Dodaj szablon"
+
+#: src/Files.tsx
+#, fuzzy
+msgid "Add the invoice or photos"
+msgstr "Dodane ze zdjęć"
 
 #: src/Suggestions.tsx
 #, fuzzy
@@ -3066,6 +3100,26 @@ msgstr "właściciel"
 #, fuzzy
 msgid "Analysis failed for {filename}. Try again"
 msgstr "Nie udało się przeanalizować obrazu {filename}. Spróbuj jeszcze raz"
+
+#: src/Everything.tsx
+#, fuzzy
+msgid "Analyze"
+msgstr "Analiza"
+
+#: src/ItemPage.tsx
+#, fuzzy
+msgid "Analyze {filename} again"
+msgstr "Spróbuj jeszcze raz przeczytać {filename}"
+
+#: src/ItemPage.tsx
+#, fuzzy
+msgid "Analyze again"
+msgstr "Analiza"
+
+#: src/Everything.tsx
+#, fuzzy
+msgid "Analyze their photos and documents?"
+msgstr "Dodaj zdjęcia i dokumenty"
 
 #: src/ItemPage.tsx
 #, fuzzy
@@ -4060,7 +4114,8 @@ msgstr "Usuń ten błąd {serviceName}"
 msgid "Client certificates"
 msgstr "Certyfikaty klienckie"
 
-#: src/Everything.tsx src/Modal.tsx src/PhotoViewer.tsx src/Shares.tsx
+#: src/Everything.tsx src/Maintenance.tsx src/Modal.tsx src/PhotoViewer.tsx
+#: src/Shares.tsx
 #, fuzzy
 msgid "Close"
 msgstr "Zamknij"
@@ -4679,6 +4734,11 @@ msgstr "DK-2210 — 29 mm ciągły (cięty na 50 mm)"
 #, fuzzy
 msgid "Documents"
 msgstr "Dokumenty"
+
+#: src/App.tsx src/Maintenance.tsx
+#, fuzzy
+msgid "Documents & photos"
+msgstr "Zdjęcia {count}"
 
 #: src/Loans.tsx
 #, fuzzy
@@ -5848,6 +5908,13 @@ msgstr "Dla {forTaskText}"
 msgid "For {join}"
 msgstr "Dla {join}"
 
+#: src/Everything.tsx
+msgid ""
+"For {things}, the AI reads each photo and document it hasn't read yet, or "
+"couldn't read before, one at a time in the background. What it finds waits "
+"on each thing's page as suggestions. Each file counts as an AI action."
+msgstr ""
+
 #: src/StarterTasks.tsx
 #, fuzzy
 msgid "For a place (optional)"
@@ -6567,6 +6634,11 @@ msgid ""
 "In Claude Code, run this once (with your key in place of <0>ferret_…</0>"
 msgstr "W Claude Code uruchom to raz (z twoim kluczem zamiast <0>ferret_…</0>"
 
+#: src/Files.tsx
+#, fuzzy
+msgid "In documents"
+msgstr "Zeskanuj dokument"
+
 #: src/ImportHomeAssistant.tsx
 #, fuzzy
 msgid "In Ferret"
@@ -6729,6 +6801,11 @@ msgstr "Zaproś do {householdName}"
 #, fuzzy
 msgid "Invite your household"
 msgstr "Zaproś członków swojej rodziny"
+
+#: src/Maintenance.tsx
+#, fuzzy
+msgid "Invoice or photos"
+msgstr "Wybierz zdjęcia"
 
 #: src/App.tsx
 #, fuzzy
@@ -7416,7 +7493,7 @@ msgstr "Ładowanie"
 msgid "Locksmith"
 msgstr "Ślusarz"
 
-#: src/Repairs.tsx
+#: src/ItemPage.tsx src/Repairs.tsx
 msgid "Log a repair"
 msgstr ""
 
@@ -7639,6 +7716,12 @@ msgstr ""
 
 #: src/Tracking.tsx
 msgid "Marked as still here"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid ""
+"Marked done, but the files couldn't be added ({reason}). Add them from the "
+"task's Done before list."
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -8205,6 +8288,11 @@ msgstr ""
 msgid "No thanks"
 msgstr "Nie, dziękuję"
 
+#: src/App.tsx
+#, fuzzy
+msgid "No things match"
+msgstr "Nic nie pasuje do „{q}”"
+
 #: src/Overview.tsx
 #, fuzzy
 msgid "No value or price"
@@ -8678,6 +8766,10 @@ msgstr ""
 "Nie ma żadnych zaplanowanych zadań. Prześlij instrukcję, a Ferret sam "
 "podpowie, czego potrzebuje."
 
+#: src/Everything.tsx
+msgid "Nothing there was waiting to be read"
+msgstr ""
+
 #: src/Shopping.tsx
 #, fuzzy
 msgid "Nothing to buy"
@@ -9067,6 +9159,14 @@ msgid "Opens your Calendar app, which asks to subscribe — say yes."
 msgstr ""
 "Otworzy się aplikacja Kalendarz, która zapyta, czy chcesz ją subskrybować – "
 "zgódź się."
+
+#: src/Maintenance.tsx
+msgid "Optional. Kept with this record, and on {name}'s page."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Optional. Kept with this record."
+msgstr ""
 
 #: src/App.tsx
 #, fuzzy
@@ -9759,6 +9859,11 @@ msgstr "Utwórz spis rzeczy w domu"
 msgid "range or oven"
 msgstr ""
 
+#: src/ItemPage.tsx
+#, fuzzy
+msgid "Read {filename} again"
+msgstr "Spróbuj jeszcze raz przeczytać {filename}"
+
 #: src/Suggestions.tsx
 #, fuzzy
 msgid "Read by AI from your photos and documents — check before applying."
@@ -9770,6 +9875,11 @@ msgstr ""
 #, fuzzy
 msgid "Read devices"
 msgstr "Urządzenia do odczytu"
+
+#: src/ItemPage.tsx
+#, fuzzy
+msgid "Read it again"
+msgstr "Wyślij to jeszcze raz"
 
 #: src/Settings.tsx
 #, fuzzy
@@ -9924,12 +10034,12 @@ msgstr "Usuń „{name}"
 msgid "Remove “{name}”? It won't sign in to Ferret any more."
 msgstr "Usunąć „{name}”? Wtedy nie da się już zalogować do Ferret."
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 #, fuzzy
 msgid "Remove {filename}"
 msgstr "Usuń {filename}"
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 #, fuzzy
 msgid "Remove {filename}?"
 msgstr "Usunąć {filename}?"
@@ -10939,7 +11049,7 @@ msgstr "Lista zakupów"
 msgid "Show"
 msgstr "Pokaż"
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 #, fuzzy
 msgid "Show {filename} full screen"
 msgstr "Pokaż {filename} na pełnym ekranie"
@@ -11135,7 +11245,7 @@ msgstr ""
 msgid "Skip"
 msgstr "Pomiń"
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 #, fuzzy
 msgid "Small copy only"
 msgstr "Tylko krótkie teksty"
@@ -11906,6 +12016,11 @@ msgstr ""
 "Szczegóły szablonu (rok emisji monety, znak mennicy, stan zachowania…) to "
 "kolumny w twojej kolekcji, a to, co dodasz, zaczyna się właśnie od nich."
 
+#: src/Maintenance.tsx
+#, fuzzy
+msgid "the thing"
+msgstr "Różne rzeczy"
+
 #: src/App.tsx
 #, fuzzy
 msgid "The two passwords don't match"
@@ -12408,11 +12523,6 @@ msgstr "Sprawdzone"
 msgid "Try again"
 msgstr "Spróbuj jeszcze raz"
 
-#: src/ItemPage.tsx
-#, fuzzy
-msgid "Try reading {filename} again"
-msgstr "Spróbuj jeszcze raz przeczytać {filename}"
-
 #: src/Demo.tsx
 #, fuzzy
 msgid "Try the demo"
@@ -12648,6 +12758,11 @@ msgstr "Przesyłanie"
 #, fuzzy
 msgid "Uploading {name}"
 msgstr "Przesyłanie {name}"
+
+#: src/Files.tsx
+#, fuzzy
+msgid "Uploading…"
+msgstr "Przesyłanie"
 
 #: src/lib/words.ts
 msgid "UPS battery backup"
