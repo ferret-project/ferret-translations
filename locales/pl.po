@@ -2698,9 +2698,15 @@ msgstr "właściciela"
 msgid "Analysis failed for {filename}. Try again"
 msgstr "Analiza {filename} się nie udała. Spróbuj ponownie"
 
-#: src/Everything.tsx
+#: src/Everything.tsx src/ItemPage.tsx
 msgid "Analyze"
 msgstr "Analizuj"
+
+#: src/ItemPage.tsx
+#, fuzzy
+#| msgid "Analyze {filename} again"
+msgid "Analyze {filename}"
+msgstr "Przeanalizuj {filename} ponownie"
 
 #: src/ItemPage.tsx
 msgid "Analyze {filename} again"
@@ -8688,6 +8694,10 @@ msgstr "Przywróć"
 msgid "Restore command"
 msgstr "Polecenie przywracania"
 
+#: src/PhotoCrop.tsx
+msgid "Retake"
+msgstr ""
+
 #: src/ItemPage.tsx
 msgid "Retry"
 msgstr "Spróbuj ponownie"
@@ -10041,6 +10051,12 @@ msgstr ""
 msgid "The photo to name"
 msgstr "Zdjęcie do nazwania"
 
+#: src/PhotoCrop.tsx
+#, fuzzy
+#| msgid "The photo to name"
+msgid "The photo you took"
+msgstr "Zdjęcie do nazwania"
+
 #: src/DataExport.tsx
 msgid ""
 "The photos and documents in it aren't encrypted, so anyone who gets the file "
@@ -10447,6 +10463,10 @@ msgstr "Dla: {person}, od {since}"
 msgid "To buy"
 msgstr "Do kupienia"
 
+#: src/PhotoCrop.tsx
+msgid "To keep just part of it, drag the corners in."
+msgstr ""
+
 #: src/AttentionBell.tsx
 msgid "To name"
 msgstr "Do nazwania"
@@ -10794,6 +10814,12 @@ msgstr ""
 msgid "Use as main photo, uncropped"
 msgstr "Użyj jako zdjęcia głównego, bez przycinania"
 
+#: src/PhotoCrop.tsx
+#, fuzzy
+#| msgid "Save crop"
+msgid "Use crop"
+msgstr "Zapisz przycięcie"
+
 #: src/Boxes.tsx
 msgid "Use it"
 msgstr "Użyj jej"
@@ -10801,6 +10827,12 @@ msgstr "Użyj jej"
 #: src/Stock.tsx
 msgid "Use one {name}"
 msgstr "Zużyj jedną sztukę: {name}"
+
+#: src/PhotoCrop.tsx
+#, fuzzy
+#| msgid "Take photo"
+msgid "Use photo"
+msgstr "Zrób zdjęcie"
 
 #: src/Product.tsx
 msgid "Use product photo {number}"
@@ -10817,6 +10849,12 @@ msgstr "Użyj domyślnego ustawienia serwera (wyłączone)"
 #: src/AiFill.tsx
 msgid "Use the server's default (on)"
 msgstr "Użyj domyślnego ustawienia serwera (włączone)"
+
+#: src/PhotoCrop.tsx
+#, fuzzy
+#| msgid "Open the photo"
+msgid "Use this photo?"
+msgstr "Otwórz zdjęcie"
 
 #: src/Offline.tsx
 msgid "Used {step}"
@@ -11376,6 +11414,12 @@ msgstr "Z kim się kontaktujesz"
 #: src/Claims.tsx
 msgid "Who you spoke to, what they asked for…"
 msgstr "Z kim rozmawiano, o co prosili…"
+
+#: src/PhotoCrop.tsx
+#, fuzzy
+#| msgid "Whole photos"
+msgid "Whole photo"
+msgstr "Całe zdjęcia"
 
 #: src/Collections.tsx
 msgid "Whole photos"
