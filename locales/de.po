@@ -1676,6 +1676,12 @@ msgstr ""
 msgid "A new place"
 msgstr ""
 
+#: src/ItemEditor.tsx
+msgid ""
+"A new thing with the same details. Its serial number, place, notes, photos "
+"and labels start empty."
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "A notification on this device on days maintenance is due or a warranty is "
@@ -1954,6 +1960,14 @@ msgstr ""
 msgid "Add and send a test"
 msgstr ""
 
+#: src/ItemPage.tsx
+msgid "Add another"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Add another {name}"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "Add another after this one"
 msgstr ""
@@ -1978,7 +1992,7 @@ msgstr ""
 msgid "Add from photos"
 msgstr ""
 
-#: src/App.tsx src/Collections.tsx src/Server.tsx
+#: src/App.tsx src/Collections.tsx src/ItemEditor.tsx src/Server.tsx
 msgid "Add it"
 msgstr ""
 
@@ -4902,6 +4916,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Have an account? <0>Sign in</0>"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Have another one? Add another like this"
 msgstr ""
 
 #: src/Collections.tsx
@@ -8289,6 +8307,10 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "Scanned most recently"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Scanned. Is this a different one?"
 msgstr ""
 
 #: src/Boxes.tsx

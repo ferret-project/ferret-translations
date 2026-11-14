@@ -1956,6 +1956,12 @@ msgstr "Nowy link jest już w drodze na {unconfirmed}"
 msgid "A new place"
 msgstr "Nowe miejsce"
 
+#: src/ItemEditor.tsx
+msgid ""
+"A new thing with the same details. Its serial number, place, notes, photos "
+"and labels start empty."
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "A notification on this device on days maintenance is due or a warranty is "
@@ -2255,6 +2261,18 @@ msgstr "Dodaj rzecz…"
 msgid "Add and send a test"
 msgstr "Dodaj i wyślij test"
 
+#: src/ItemPage.tsx
+#, fuzzy
+#| msgid "Add another limit"
+msgid "Add another"
+msgstr "Dodaj kolejny limit"
+
+#: src/ItemEditor.tsx
+#, fuzzy
+#| msgid "Add one {name}"
+msgid "Add another {name}"
+msgstr "Dodaj jedną sztukę: {name}"
+
 #: src/Collections.tsx
 msgid "Add another after this one"
 msgstr "Po tej dodaj kolejną"
@@ -2279,7 +2297,7 @@ msgstr "Dodaj z adresu internetowego"
 msgid "Add from photos"
 msgstr "Dodaj ze zdjęć"
 
-#: src/App.tsx src/Collections.tsx src/Server.tsx
+#: src/App.tsx src/Collections.tsx src/ItemEditor.tsx src/Server.tsx
 msgid "Add it"
 msgstr "Dodaj to"
 
@@ -5355,6 +5373,10 @@ msgstr "Mam"
 #: src/App.tsx
 msgid "Have an account? <0>Sign in</0>"
 msgstr "Masz konto? <0>Zaloguj się</0>"
+
+#: src/ItemPage.tsx
+msgid "Have another one? Add another like this"
+msgstr ""
 
 #: src/Collections.tsx
 msgid "Have it or want it"
@@ -8942,6 +8964,10 @@ msgstr "Zeskanowano {when}"
 #: src/Everything.tsx
 msgid "Scanned most recently"
 msgstr "Ostatnio zeskanowane"
+
+#: src/ItemPage.tsx
+msgid "Scanned. Is this a different one?"
+msgstr ""
 
 #: src/Boxes.tsx
 msgid "Scanning one of these opens {name} too."
