@@ -1719,6 +1719,7 @@ msgstr ""
 #: src/App.tsx
 #: src/Boxes.tsx
 #: src/Collections.tsx
+#: src/Files.tsx
 #: src/FromWeb.tsx
 #: src/ItemPage.tsx
 #: src/Maintenance.tsx
@@ -1781,6 +1782,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Add a document"
+msgstr ""
+
+#: src/Files.tsx
+msgid "Add a document or photo"
 msgstr ""
 
 #: src/Overview.tsx
@@ -1961,6 +1966,10 @@ msgstr ""
 
 #: src/Templates.tsx
 msgid "Add template"
+msgstr ""
+
+#: src/Files.tsx
+msgid "Add the invoice or photos"
 msgstr ""
 
 #: src/Suggestions.tsx
@@ -3104,6 +3113,7 @@ msgid "Client certificates"
 msgstr ""
 
 #: src/Everything.tsx
+#: src/Maintenance.tsx
 #: src/Modal.tsx
 #: src/PhotoViewer.tsx
 #: src/Shares.tsx
@@ -3619,6 +3629,11 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Documents"
+msgstr ""
+
+#: src/App.tsx
+#: src/Maintenance.tsx
+msgid "Documents & photos"
 msgstr ""
 
 #: src/Loans.tsx
@@ -5081,6 +5096,10 @@ msgstr ""
 msgid "In Claude Code, run this once (with your key in place of <0>ferret_…</0>"
 msgstr ""
 
+#: src/Files.tsx
+msgid "In documents"
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid "In Ferret"
 msgstr ""
@@ -5200,6 +5219,10 @@ msgstr ""
 
 #: src/Setup.tsx
 msgid "Invite your household"
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Invoice or photos"
 msgstr ""
 
 #: src/App.tsx
@@ -5893,6 +5916,10 @@ msgid "Marked as still here"
 msgstr ""
 
 #: src/Maintenance.tsx
+msgid "Marked done, but the files couldn't be added ({reason}). Add them from the task's Done before list."
+msgstr ""
+
+#: src/Maintenance.tsx
 msgid "Marks it done."
 msgstr ""
 
@@ -6354,6 +6381,10 @@ msgstr ""
 
 #: src/Invite.tsx
 msgid "No thanks"
+msgstr ""
+
+#: src/App.tsx
+msgid "No things match"
 msgstr ""
 
 #: src/Overview.tsx
@@ -6996,6 +7027,14 @@ msgstr ""
 
 #: src/Reminders.tsx
 msgid "Opens your Calendar app, which asks to subscribe — say yes."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Optional. Kept with this record, and on {name}'s page."
+msgstr ""
+
+#: src/Maintenance.tsx
+msgid "Optional. Kept with this record."
 msgstr ""
 
 #: src/App.tsx
@@ -7707,10 +7746,12 @@ msgstr ""
 msgid "Remove “{name}”? It won't sign in to Ferret any more."
 msgstr ""
 
+#: src/Files.tsx
 #: src/ItemPage.tsx
 msgid "Remove {filename}"
 msgstr ""
 
+#: src/Files.tsx
 #: src/ItemPage.tsx
 msgid "Remove {filename}?"
 msgstr ""
@@ -8534,6 +8575,7 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
+#: src/Files.tsx
 #: src/ItemPage.tsx
 msgid "Show {filename} full screen"
 msgstr ""
@@ -8685,6 +8727,7 @@ msgstr ""
 msgid "Skip"
 msgstr ""
 
+#: src/Files.tsx
 #: src/ItemPage.tsx
 msgid "Small copy only"
 msgstr ""
@@ -9255,6 +9298,10 @@ msgstr ""
 msgid "The template's details (a coin's year, mint mark, grade…) are the collection's columns, and what you add starts from it."
 msgstr ""
 
+#: src/Maintenance.tsx
+msgid "the thing"
+msgstr ""
+
 #: src/App.tsx
 msgid "The two passwords don't match"
 msgstr ""
@@ -9814,6 +9861,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Uploading {name}"
+msgstr ""
+
+#: src/Files.tsx
+msgid "Uploading…"
 msgstr ""
 
 #: src/lib/words.ts
