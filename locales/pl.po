@@ -852,6 +852,16 @@ msgstr ""
 "{0, plural, one {otwarto # raz} few {otwarto # razy} many {otwarto # razy} "
 "other {otwierano # razy}}"
 
+#. placeholder {0}: unused.length
+#: src/Labels.tsx
+#, fuzzy
+msgid ""
+"{0, plural, one {Print the # unused blank label again} other {Print the # "
+"unused blank labels again}}"
+msgstr ""
+"{count, plural, one {Utwórz # pustą etykietę} few {Zrób # puste etykiety} "
+"many {Zrób # pustych etykiet} other {Zrób # pustej etykiety}}"
+
 #. placeholder {0}: r.documents
 #: src/Gone.tsx
 #, fuzzy
