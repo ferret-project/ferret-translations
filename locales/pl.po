@@ -7720,6 +7720,12 @@ msgstr "Otwórz"
 msgid "Open the document"
 msgstr "Otwórz dokument"
 
+#: src/FileThumb.tsx
+#, fuzzy
+#| msgid "Open the original of {filename}"
+msgid "Open the original"
+msgstr "Otwórz oryginał {filename}"
+
 #: src/PhotoViewer.tsx
 msgid "Open the original of {filename}"
 msgstr "Otwórz oryginał {filename}"
@@ -8344,6 +8350,12 @@ msgstr ""
 #: src/ImportHomeAssistant.tsx
 msgid "Read devices"
 msgstr "Odczytaj urządzenia"
+
+#: src/FileThumb.tsx
+#, fuzzy
+#| msgid "Role for {name}"
+msgid "Read from {name}"
+msgstr "Rola: {name}"
 
 #: src/ItemPage.tsx
 msgid "Read it again"
@@ -9314,6 +9326,10 @@ msgstr "Pokaż"
 msgid "Show {filename} full screen"
 msgstr "Pokaż {filename} na pełnym ekranie"
 
+#: src/FileThumb.tsx
+msgid "Show {name}, where this was read"
+msgstr ""
+
 #: src/History.tsx
 msgid "Show all"
 msgstr "Pokaż wszystko"
@@ -9998,6 +10014,12 @@ msgstr "Demo jest wstrzymane (DEMO_PAUSED)."
 #: src/Demo.tsx
 msgid "The demo is resting for now — please come back later."
 msgstr "Wersja demo na razie odpoczywa — zajrzyj później."
+
+#: src/FileThumb.tsx
+#, fuzzy
+#| msgid "Another file"
+msgid "the file"
+msgstr "Inny plik"
 
 #: src/ImportCsv.tsx
 msgid ""
