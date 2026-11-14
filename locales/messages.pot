@@ -294,6 +294,11 @@ msgstr ""
 msgid "{0, plural, one {# document} other {# documents}}"
 msgstr ""
 
+#. placeholder {0}: result.queued
+#: src/Everything.tsx
+msgid "{0, plural, one {# file queued for the AI to read} other {# files queued for the AI to read}}"
+msgstr ""
+
 #. placeholder {0}: photos.length
 #: src/Repairs.tsx
 msgid "{0, plural, one {# file to add} other {# files to add}}"
@@ -791,6 +796,10 @@ msgstr ""
 
 #: src/StarterTasks.tsx
 msgid "{every}, first in {season}"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "{failed} couldn't be: {reasons}"
 msgstr ""
 
 #: src/AiFill.tsx
@@ -1770,6 +1779,10 @@ msgstr ""
 msgid "Add a client certificate…"
 msgstr ""
 
+#: src/ItemPage.tsx
+msgid "Add a document"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Add a few things and Ferret will show what each one still needs."
 msgstr ""
@@ -1828,6 +1841,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Add a task"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Add a warranty"
 msgstr ""
 
 #: src/Notifications.tsx
@@ -2235,6 +2252,22 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Analysis failed for {filename}. Try again"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Analyze"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Analyze {filename} again"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Analyze again"
+msgstr ""
+
+#: src/Everything.tsx
+msgid "Analyze their photos and documents?"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -4484,6 +4517,10 @@ msgstr ""
 msgid "For {join}"
 msgstr ""
 
+#: src/Everything.tsx
+msgid "For {things}, the AI reads each photo and document it hasn't read yet, or couldn't read before, one at a time in the background. What it finds waits on each thing's page as suggestions. Each file counts as an AI action."
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "For a place (optional)"
 msgstr ""
@@ -5679,6 +5716,7 @@ msgstr ""
 msgid "Locksmith"
 msgstr ""
 
+#: src/ItemPage.tsx
 #: src/Repairs.tsx
 msgid "Log a repair"
 msgstr ""
@@ -6684,6 +6722,10 @@ msgstr ""
 msgid "Nothing scheduled. Upload the manual and Ferret will suggest what it needs."
 msgstr ""
 
+#: src/Everything.tsx
+msgid "Nothing there was waiting to be read"
+msgstr ""
+
 #: src/Shopping.tsx
 msgid "Nothing to buy"
 msgstr ""
@@ -7519,12 +7561,20 @@ msgstr ""
 msgid "range or oven"
 msgstr ""
 
+#: src/ItemPage.tsx
+msgid "Read {filename} again"
+msgstr ""
+
 #: src/Suggestions.tsx
 msgid "Read by AI from your photos and documents — check before applying."
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "Read devices"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Read it again"
 msgstr ""
 
 #: src/Settings.tsx
@@ -9570,10 +9620,6 @@ msgstr ""
 #: src/Listing.tsx
 #: src/Offline.tsx
 msgid "Try again"
-msgstr ""
-
-#: src/ItemPage.tsx
-msgid "Try reading {filename} again"
 msgstr ""
 
 #: src/Demo.tsx
