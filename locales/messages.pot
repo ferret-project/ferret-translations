@@ -2282,7 +2282,12 @@ msgid "Analysis failed for {filename}. Try again"
 msgstr ""
 
 #: src/Everything.tsx
+#: src/ItemPage.tsx
 msgid "Analyze"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Analyze {filename}"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -7989,6 +7994,10 @@ msgstr ""
 msgid "Restore command"
 msgstr ""
 
+#: src/PhotoCrop.tsx
+msgid "Retake"
+msgstr ""
+
 #: src/ItemPage.tsx
 msgid "Retry"
 msgstr ""
@@ -9284,6 +9293,10 @@ msgstr ""
 msgid "The photo to name"
 msgstr ""
 
+#: src/PhotoCrop.tsx
+msgid "The photo you took"
+msgstr ""
+
 #: src/DataExport.tsx
 msgid "The photos and documents in it aren't encrypted, so anyone who gets the file can read them. Keep it somewhere safe. With many photos it's large and takes a while."
 msgstr ""
@@ -9601,6 +9614,10 @@ msgstr ""
 #: src/Overview.tsx
 #: src/Shopping.tsx
 msgid "To buy"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "To keep just part of it, drag the corners in."
 msgstr ""
 
 #: src/AttentionBell.tsx
@@ -9942,12 +9959,20 @@ msgstr ""
 msgid "Use as main photo, uncropped"
 msgstr ""
 
+#: src/PhotoCrop.tsx
+msgid "Use crop"
+msgstr ""
+
 #: src/Boxes.tsx
 msgid "Use it"
 msgstr ""
 
 #: src/Stock.tsx
 msgid "Use one {name}"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Use photo"
 msgstr ""
 
 #: src/Product.tsx
@@ -9964,6 +9989,10 @@ msgstr ""
 
 #: src/AiFill.tsx
 msgid "Use the server's default (on)"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Use this photo?"
 msgstr ""
 
 #: src/Offline.tsx
@@ -10477,6 +10506,10 @@ msgstr ""
 
 #: src/Claims.tsx
 msgid "Who you spoke to, what they asked for…"
+msgstr ""
+
+#: src/PhotoCrop.tsx
+msgid "Whole photo"
 msgstr ""
 
 #: src/Collections.tsx
