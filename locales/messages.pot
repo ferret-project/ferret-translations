@@ -7028,6 +7028,10 @@ msgstr ""
 msgid "Open the document"
 msgstr ""
 
+#: src/FileThumb.tsx
+msgid "Open the original"
+msgstr ""
+
 #: src/PhotoViewer.tsx
 msgid "Open the original of {filename}"
 msgstr ""
@@ -7637,6 +7641,10 @@ msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "Read devices"
+msgstr ""
+
+#: src/FileThumb.tsx
+msgid "Read from {name}"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -8615,6 +8623,10 @@ msgstr ""
 msgid "Show {filename} full screen"
 msgstr ""
 
+#: src/FileThumb.tsx
+msgid "Show {name}, where this was read"
+msgstr ""
+
 #: src/History.tsx
 msgid "Show all"
 msgstr ""
@@ -9247,6 +9259,10 @@ msgstr ""
 
 #: src/Demo.tsx
 msgid "The demo is resting for now — please come back later."
+msgstr ""
+
+#: src/FileThumb.tsx
+msgid "the file"
 msgstr ""
 
 #: src/ImportCsv.tsx
