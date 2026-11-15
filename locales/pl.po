@@ -296,6 +296,15 @@ msgstr ""
 "kreskowych} many {# wyszukań kodów kreskowych} other {# wyszukania kodów "
 "kreskowych}}"
 
+#. placeholder {0}: s.books
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# room} other {# rooms}}"
+msgid "{0, plural, one {# book found} other {# books found}}"
+msgstr ""
+"{0, plural, one {# pomieszczenie} few {# pomieszczenia} many {# pomieszczeń} "
+"other {# pomieszczenia}}"
+
 #. placeholder {0}: s.brands
 #: src/Server.tsx
 msgid "{0, plural, one {# brand checked} other {# brands checked}}"
@@ -447,6 +456,15 @@ msgstr ""
 msgid "{0, plural, one {# match} other {# matches}}"
 msgstr ""
 "{0, plural, one {# wynik} few {# wyniki} many {# wyników} other {# wyniku}}"
+
+#. placeholder {0}: s.asked
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# column left out} other {# columns left out}}"
+msgid "{0, plural, one {# model asked about} other {# models asked about}}"
+msgstr ""
+"{0, plural, one {Pominięto # kolumnę} few {Pominięto # kolumny} many "
+"{Pominięto # kolumn} other {Pominięto # kolumny}}"
 
 #. placeholder {0}: Math.round(d / 30.4)
 #: src/Warranties.tsx
@@ -649,6 +667,31 @@ msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
 #, fuzzy
 #| msgid "{0, plural, one {# time} other {# times}}"
 msgid "{0, plural, one {# try} other {# tries}}"
+msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
+
+#. placeholder {0}: s.vehicles
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# device} other {# devices}}"
+msgid "{0, plural, one {# vehicle read} other {# vehicles read}}"
+msgstr ""
+"{0, plural, one {# urządzenie} few {# urządzenia} many {# urządzeń} other {# "
+"urządzenia}}"
+
+#. placeholder {0}: s.recalls
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# recall kept} other {# recalls kept}}"
+msgid "{0, plural, one {# vehicle recall kept} other {# vehicle recalls kept}}"
+msgstr ""
+"{0, plural, one {Zapisano # wycofanie} few {Zapisano # wycofania} many "
+"{Zapisano # wycofań} other {Zapisano # wycofania}}"
+
+#. placeholder {0}: s.found
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# time} other {# times}}"
+msgid "{0, plural, one {# with guides} other {# with guides}}"
 msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
 
 #. placeholder {0}: g.y.unpriced
@@ -1879,6 +1922,14 @@ msgstr "90 dni"
 msgid "A {what} — which item is it for?"
 msgstr "{what} — do której rzeczy należy?"
 
+#: src/Server.tsx
+msgid ""
+"A book's barcode is its ISBN: scanned or saved, it's asked of Open Library "
+"(openlibrary.org) for the title, author and cover — each once for the whole "
+"server, free, and not counted against any lookup allowance. Only the ISBN is "
+"sent."
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "A category"
 msgstr "Kategoria"
@@ -3020,6 +3071,10 @@ msgstr "w prawym dolnym rogu"
 msgid "at the top right"
 msgstr "w prawym górnym rogu"
 
+#: src/Product.tsx
+msgid "Author"
+msgstr ""
+
 #: src/App.tsx src/ScanSession.tsx
 msgid "Auto"
 msgstr "Auto"
@@ -3157,6 +3212,12 @@ msgstr "Puste etykiety QR"
 #: src/lib/words.ts
 msgid "boiler"
 msgstr "kocioł"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Barcode lookups"
+msgid "Book look-ups"
+msgstr "Wyszukiwania kodów kreskowych"
 
 #: src/Loans.tsx
 msgid "Borrowed"
@@ -5373,6 +5434,12 @@ msgstr "Z Home Assistant ({integration})"
 msgid "from its manual"
 msgstr "z jej instrukcji"
 
+#: src/Product.tsx
+#, fuzzy
+#| msgid "From {source} — check before applying."
+msgid "From NHTSA's VIN decoder ({vin}) — check before applying."
+msgstr "Z {source} — sprawdź przed zastosowaniem."
+
 #: src/Offline.tsx
 msgid "From photos"
 msgstr "Ze zdjęć"
@@ -5392,6 +5459,12 @@ msgstr "Z ustawień"
 #: src/App.tsx
 msgid "From the UPCitemdb product database"
 msgstr "Z bazy danych produktów UPCitemdb"
+
+#: src/Product.tsx
+#, fuzzy
+#| msgid "From the barcode"
+msgid "From the VIN"
+msgstr "Z kodu kreskowego"
 
 #: src/Shopping.tsx
 msgid "From what each cost last time, where it's known."
@@ -6188,6 +6261,12 @@ msgstr "Jego rzeczy ({itemCount}) zachowają to, co uzupełniono."
 msgid "its collection"
 msgstr "jej kolekcja"
 
+#: src/Product.tsx
+#, fuzzy
+#| msgid "Product photos — tap one to add it"
+msgid "Its cover — tap to add it"
+msgstr "Zdjęcia produktu — dotknij jednego, aby je dodać"
+
 #: src/Collections.tsx
 msgid "Its name"
 msgstr "Nazwa"
@@ -6560,6 +6639,15 @@ msgstr "Etykieta linku {number}"
 #: src/Links.tsx
 msgid "Links"
 msgstr "Linki"
+
+#: src/Server.tsx
+msgid ""
+"Links a thing to iFixit's page for its exact model — repair guides, parts "
+"and troubleshooting — when its brand and model surely match one. To find it, "
+"the brand and model are sent to iFixit's search (ifixit.com), each at most "
+"once a month; nothing else is. Ferret only links to iFixit and never copies "
+"its guides."
+msgstr ""
 
 #: src/Everything.tsx src/Maintenance.tsx
 msgid "List"
@@ -7073,6 +7161,10 @@ msgstr "Następny miesiąc"
 msgid "Next photo"
 msgstr "Następne zdjęcie"
 
+#: src/Product.tsx
+msgid "NHTSA couldn't read VIN {vin} — check it for a typo."
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "No"
 msgstr "Nie"
@@ -7080,6 +7172,12 @@ msgstr "Nie"
 #: src/Parts.tsx
 msgid "No — a new part"
 msgstr "Nie — nowa część"
+
+#: src/Settings.tsx
+msgid ""
+"No apps connected to {householdName}. An app you connect is listed under the "
+"household you picked for it."
+msgstr ""
 
 #: src/Server.tsx
 msgid "No backup has reported yet."
@@ -8662,6 +8760,22 @@ msgstr "Czytam jej dokumenty…"
 msgid "Reading the photo…"
 msgstr "Odczytuję zdjęcie…"
 
+#: src/Product.tsx
+#, fuzzy
+#| msgid "Reading the photo…"
+msgid "Reading VIN {vin}…"
+msgstr "Odczytuję zdjęcie…"
+
+#: src/Server.tsx
+msgid ""
+"Reads a vehicle's VIN — a Vehicles category's VIN field, or a serial number "
+"that is one — with the US National Highway Traffic Safety Administration's "
+"decoder, and offers its make, model and year on the thing's page. Vehicles "
+"are also checked against NHTSA's recalls, which the product recall checks "
+"don't cover. To do that, the VIN and the make, model and year are sent to "
+"NHTSA (nhtsa.gov); nothing else is."
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Ready for a claim?"
 msgstr "Gotowe na zgłoszenie szkody?"
@@ -8942,6 +9056,16 @@ msgstr "Zmień nazwę lub usuń {name}"
 #: src/Places.tsx
 msgid "Rental"
 msgstr "Wynajmowane"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Repairs"
+msgid "Repair guides"
+msgstr "Naprawy"
+
+#: src/ItemPage.tsx
+msgid "Repair guides on iFixit: {device}"
+msgstr ""
 
 #: src/Repairs.tsx
 msgid "Repair warranty until {day}"
@@ -11363,6 +11487,12 @@ msgstr ""
 #: src/Places.tsx
 msgid "Vehicle"
 msgstr "Pojazd"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Barcode lookups"
+msgid "Vehicle look-ups"
+msgstr "Wyszukiwania kodów kreskowych"
 
 #: src/Collections.tsx
 msgid "View"
