@@ -1541,6 +1541,10 @@ msgstr "<0>Zaznaczono: {n}</0>"
 msgid "<0>{name} is back.</0><1>Open</1>"
 msgstr "<0>{name} — przywrócono.</0><1>Otwórz</1>"
 
+#: src/Connect.tsx
+msgid "<0>{name}</0> wants to use Ferret with your account, {email}."
+msgstr ""
+
 #: src/Duplicates.tsx
 msgid "<0>Added {toLocaleDateString}</0>"
 msgstr "<0>Dodano {toLocaleDateString}</0>"
@@ -2522,6 +2526,10 @@ msgstr ""
 msgid "Add your policy's limits"
 msgstr "Dodaj limity swojej polisy"
 
+#: src/Connect.tsx
+msgid "Add, change and remove things there"
+msgstr ""
+
 #: src/Security.tsx src/Walkthrough.tsx
 msgid "Added"
 msgstr "Dodano"
@@ -2680,6 +2688,10 @@ msgstr "Wszystko gotowe"
 #: src/Overview.tsx
 msgid "All warranties"
 msgstr "Wszystkie gwarancje"
+
+#: src/Connect.tsx
+msgid "Allow"
+msgstr ""
 
 #: src/ImportCsv.tsx
 msgid "already in Ferret"
@@ -2923,6 +2935,12 @@ msgstr "Adres URL Apprise"
 #: src/Claims.tsx
 msgid "Approved"
 msgstr "Zatwierdzona"
+
+#: src/Settings.tsx
+msgid ""
+"Apps you signed in to Ferret from, for {householdName}. Disconnecting one "
+"stops it at once."
+msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid ""
@@ -3310,15 +3328,15 @@ msgstr "Nie mogę znaleźć"
 msgid "Can't reach Ferret"
 msgstr "Nie można połączyć się z Ferret"
 
-#: src/Catalog.tsx src/Claims.tsx src/Collections.tsx src/DataExport.tsx
-#: src/DeleteForGood.tsx src/Duplicates.tsx src/Everything.tsx src/FromWeb.tsx
-#: src/Gone.tsx src/Household.tsx src/ItemEditor.tsx src/Loans.tsx
-#: src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
-#: src/Pairing.tsx src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx
-#: src/Places.tsx src/Providers.tsx src/Repairs.tsx src/Security.tsx
-#: src/Server.tsx src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx
-#: src/Templates.tsx src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
-#: src/Webhooks.tsx
+#: src/Catalog.tsx src/Claims.tsx src/Collections.tsx src/Connect.tsx
+#: src/DataExport.tsx src/DeleteForGood.tsx src/Duplicates.tsx
+#: src/Everything.tsx src/FromWeb.tsx src/Gone.tsx src/Household.tsx
+#: src/ItemEditor.tsx src/Loans.tsx src/Maintenance.tsx src/NewHousehold.tsx
+#: src/Notifications.tsx src/Pairing.tsx src/Parts.tsx src/PayOff.tsx
+#: src/PhotoCrop.tsx src/Places.tsx src/Providers.tsx src/Repairs.tsx
+#: src/Security.tsx src/Server.tsx src/Settings.tsx src/Shares.tsx
+#: src/StarterTasks.tsx src/Templates.tsx src/Tracking.tsx src/Usage.tsx
+#: src/Warranties.tsx src/Webhooks.tsx
 msgid "Cancel"
 msgstr "Anuluj"
 
@@ -3703,6 +3721,12 @@ msgstr ""
 msgid "Connect"
 msgstr "Połącz"
 
+#: src/Connect.tsx
+#, fuzzy
+#| msgid "Select {name}"
+msgid "Connect {name}"
+msgstr "Zaznacz {name}"
+
 #: src/Settings.tsx
 msgid "Connect Claude"
 msgstr "Połącz z Claude"
@@ -3710,6 +3734,18 @@ msgstr "Połącz z Claude"
 #: src/Settings.tsx
 msgid "Connect Claude Code with it:"
 msgstr "Połącz z nią Claude Code:"
+
+#: src/Settings.tsx
+#, fuzzy
+#| msgid "Done {date}"
+msgid "connected {date}"
+msgstr "Zrobione {date}"
+
+#: src/Settings.tsx
+#, fuzzy
+#| msgid "Connect"
+msgid "Connected apps"
+msgstr "Połącz"
 
 #: src/Providers.tsx
 msgid "Contact person"
@@ -3798,6 +3834,12 @@ msgstr "Nie udało się dodać"
 #: src/App.tsx
 msgid "Couldn't confirm it just now — try again."
 msgstr "Nie udało się tego teraz potwierdzić — spróbuj jeszcze raz."
+
+#: src/Connect.tsx
+#, fuzzy
+#| msgid "Couldn't make the crop"
+msgid "Couldn't connect the app"
+msgstr "Nie udało się przyciąć"
 
 #: src/lib/challenge.ts
 msgid "Couldn't finish the check — try again"
@@ -4087,6 +4129,18 @@ msgstr "Odrzucić i niczego nie dodawać?"
 #: src/RoomScan.tsx
 msgid "Discard scan"
 msgstr "Odrzuć skan"
+
+#: src/Settings.tsx
+#, fuzzy
+#| msgid "Connect"
+msgid "Disconnect"
+msgstr "Połącz"
+
+#: src/Settings.tsx
+#, fuzzy
+#| msgid "Use one {name}"
+msgid "Disconnect {name}"
+msgstr "Zużyj jedną sztukę: {name}"
 
 #: src/lib/words.ts
 msgid "dishwasher"
@@ -4843,6 +4897,18 @@ msgstr "Ferret"
 msgid "Ferret backup codes ({host}) — each works once"
 msgstr "Kody zapasowe Ferret ({host}) — każdy działa tylko raz"
 
+#: src/Connect.tsx
+msgid ""
+"Ferret can't check an app's name. Only allow this if you just asked {name} "
+"to connect — it sends you back to <0>{host}</0>."
+msgstr ""
+
+#: src/Connect.tsx
+msgid ""
+"Ferret can't check an app's name. Only allow this if you just asked {name} "
+"to connect."
+msgstr ""
+
 #: src/Loans.tsx
 msgid ""
 "Ferret can't send email yet (whoever runs it sets MAIL_URL), so no reminders "
@@ -5399,6 +5465,12 @@ msgstr ""
 "Przejdź przez nie po kolei. Widoczne pudełko liczy się za wszystko, co jest "
 "w środku. Możesz przerwać i wrócić później — każdy z domowników też."
 
+#: src/Connect.tsx
+#, fuzzy
+#| msgid "Back to Ferret"
+msgid "Go to Ferret"
+msgstr "Wróć do Ferret"
+
 #: src/Invite.tsx
 msgid "Go to sign in"
 msgstr "Przejdź do logowania"
@@ -5766,6 +5838,13 @@ msgid ""
 "In Claude Code, run this once (with your key in place of <0>ferret_…</0>"
 msgstr "W Claude Code uruchom raz (z twoim kluczem zamiast <0>ferret_…</0>"
 
+#: src/Settings.tsx
+msgid ""
+"In claude.ai (or another app that adds MCP servers by address), add it as a "
+"custom connector: it asks you to sign in to Ferret and pick a household — no "
+"key needed."
+msgstr ""
+
 #: src/Files.tsx
 msgid "In documents"
 msgstr "W dokumentach"
@@ -5924,6 +6003,10 @@ msgid ""
 msgstr ""
 "Działa też z poziomu serwera: <0>docker compose exec ferret node dist/cli.js "
 "admin their@email</0>"
+
+#: src/Connect.tsx
+msgid "It can use <0>{household}</0>."
+msgstr ""
 
 #: src/Claims.tsx
 msgid "It cost us"
@@ -6433,6 +6516,12 @@ msgstr ""
 "Pozwól Claude’owi (lub własnym skryptom) wyszukiwać rzeczy i aktualizować "
 "spis {householdName}. Klucz działa tylko dla tego gospodarstwa domowego i "
 "możesz go w każdej chwili unieważnić."
+
+#: src/Connect.tsx
+#, fuzzy
+#| msgid "Adds and changes things"
+msgid "Let it add and change things"
+msgstr "Dodaje i zmienia rzeczy"
 
 #: src/App.tsx
 msgid "Light"
@@ -7411,6 +7500,10 @@ msgstr "Nie o to chodziło? Cofnij to w Import → Ostatnie importy."
 msgid "Not worth keeping"
 msgstr "Niewarte zapisywania"
 
+#: src/Connect.tsx
+msgid "Not your other households, your password or your settings"
+msgstr ""
+
 #: src/Gone.tsx src/Loans.tsx src/Maintenance.tsx src/PayOff.tsx
 msgid "Note"
 msgstr "Notatka"
@@ -7600,6 +7693,11 @@ msgstr "Na razie nie ma o czym pamiętać"
 msgid "Nothing to review yet"
 msgstr "Na razie nic do przejrzenia"
 
+#: src/Connect.tsx
+msgid ""
+"Nothing was connected. To connect an app, start again from the app itself."
+msgstr ""
+
 #: src/Gone.tsx
 msgid "Nothing was marked donated in this year."
 msgstr "W tym roku nic nie oznaczono jako darowizny."
@@ -7663,6 +7761,16 @@ msgstr "Licznik przebiegu"
 #: src/Security.tsx src/Server.tsx
 msgid "Off"
 msgstr "Wyłączone"
+
+#: src/Connect.tsx
+#, fuzzy
+#| msgid ""
+#| "<0>Read-only</0><1>Can search and ask, but not add, change or remove "
+#| "anything.</1>"
+msgid "Off: it can search and ask, but not add, change or remove anything."
+msgstr ""
+"<0>Tylko do odczytu</0><1>Może szukać i pytać, ale nie dodawać, zmieniać ani "
+"usuwać.</1>"
 
 #: src/Offline.tsx
 msgid "Offline"
@@ -8224,6 +8332,12 @@ msgid ""
 msgstr ""
 "Także zdjęcia, paragony i instrukcje<0>Dowody, o które prosi ubezpieczyciel. "
 "Wyłączone: tylko lista.</0>"
+
+#: src/Connect.tsx
+#, fuzzy
+#| msgid "Switch household"
+msgid "Pick a household first."
+msgstr "Zmień gospodarstwo domowe"
 
 #: src/ImportHomeAssistant.tsx src/Tracking.tsx
 msgid "Pick a place"
@@ -9231,6 +9345,10 @@ msgstr ""
 "Szukaj tego na Amazonie — dodaj link do produktu przy rzeczy, aby mieć "
 "przycisk „Dodaj do koszyka”"
 
+#: src/Connect.tsx
+msgid "Search and ask about everything in {household}"
+msgstr ""
+
 #: src/PlanUsage.tsx
 msgid "Search by words; no AI."
 msgstr "Wyszukiwanie po słowach; bez AI."
@@ -9600,6 +9718,10 @@ msgstr "Zaloguj się"
 msgid "Sign in again"
 msgstr "Zaloguj się ponownie"
 
+#: src/Connect.tsx
+msgid "Sign in to Ferret to connect an app to your inventory."
+msgstr ""
+
 #: src/App.tsx
 msgid "Sign in to find your stuff."
 msgstr "Zaloguj się, żeby znaleźć swoje rzeczy."
@@ -9796,6 +9918,10 @@ msgstr "Nic nie zostało — na liście zakupów"
 #: src/Security.tsx
 msgid "Something went wrong"
 msgstr "Coś poszło nie tak"
+
+#: src/Connect.tsx
+msgid "Something went wrong — start again from the app."
+msgstr ""
 
 #: src/ScanSession.tsx
 msgid "Something you already have adds to its count"
@@ -10636,6 +10762,11 @@ msgstr ""
 "Ta etykieta nie jest twoja — albo kod został źle odczytany. Spróbuj "
 "zeskanować ponownie."
 
+#: src/Connect.tsx
+msgid ""
+"This link is missing the app's details. Start connecting again from the app."
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "This link was made before Ferret kept links, so it can't be shown. Reset it "
@@ -11237,7 +11368,7 @@ msgstr "Pojazd"
 msgid "View"
 msgstr "Widok"
 
-#: src/Household.tsx
+#: src/Connect.tsx src/Household.tsx
 msgid "Viewer"
 msgstr "Tylko podgląd"
 
@@ -11672,6 +11803,12 @@ msgstr "Gdzie jest…?"
 msgid "Which column goes where? Ferret guessed — change anything that's wrong."
 msgstr "Która kolumna dokąd? Ferret zgadł — popraw, co się nie zgadza."
 
+#: src/Connect.tsx
+#, fuzzy
+#| msgid "Where this household is"
+msgid "Which household can it use?"
+msgstr "Gdzie jest to gospodarstwo domowe"
+
 #: src/ScanSession.tsx
 msgid "Which item is this {what} for?"
 msgstr "Do której rzeczy jest ten {what}?"
@@ -11857,6 +11994,10 @@ msgstr "Ty"
 msgid "You already have all of these."
 msgstr "Masz już wszystkie."
 
+#: src/Connect.tsx
+msgid "You can disconnect it any time in Settings → Claude & API."
+msgstr ""
+
 #: src/Import.tsx src/RoomScan.tsx src/Walkthrough.tsx
 msgid "You can look around, but not add things, in this household."
 msgstr ""
@@ -11894,9 +12035,19 @@ msgstr ""
 "Przestaniesz widzieć tę kartę i alerty kopii zapasowych. Tylko ta osoba (lub "
 "polecenie na serwerze) może ci to oddać."
 
+#: src/Connect.tsx
+msgid "You're a viewer in {household}, so it can only look things up."
+msgstr ""
+
 #: src/Demo.tsx
 msgid "You're in the shared demo."
 msgstr "Jesteś we wspólnej wersji demo."
+
+#: src/Connect.tsx
+msgid ""
+"You're not in a household yet. Make one in Ferret first, then connect {name} "
+"again."
+msgstr ""
 
 #: src/DeleteForGood.tsx
 msgid ""
