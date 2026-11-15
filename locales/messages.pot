@@ -271,6 +271,11 @@ msgstr ""
 msgid "{0, plural, one {# barcode lookup} other {# barcode lookups}}"
 msgstr ""
 
+#. placeholder {0}: s.books
+#: src/Server.tsx
+msgid "{0, plural, one {# book found} other {# books found}}"
+msgstr ""
+
 #. placeholder {0}: s.brands
 #: src/Server.tsx
 msgid "{0, plural, one {# brand checked} other {# brands checked}}"
@@ -364,6 +369,11 @@ msgstr ""
 #. placeholder {0}: items.data.total
 #: src/App.tsx
 msgid "{0, plural, one {# match} other {# matches}}"
+msgstr ""
+
+#. placeholder {0}: s.asked
+#: src/Server.tsx
+msgid "{0, plural, one {# model asked about} other {# models asked about}}"
 msgstr ""
 
 #. placeholder {0}: Math.round(d / 30.4)
@@ -510,6 +520,21 @@ msgstr ""
 #. placeholder {0}: d.attempts
 #: src/Webhooks.tsx
 msgid "{0, plural, one {# try} other {# tries}}"
+msgstr ""
+
+#. placeholder {0}: s.vehicles
+#: src/Server.tsx
+msgid "{0, plural, one {# vehicle read} other {# vehicles read}}"
+msgstr ""
+
+#. placeholder {0}: s.recalls
+#: src/Server.tsx
+msgid "{0, plural, one {# vehicle recall kept} other {# vehicle recalls kept}}"
+msgstr ""
+
+#. placeholder {0}: s.found
+#: src/Server.tsx
+msgid "{0, plural, one {# with guides} other {# with guides}}"
 msgstr ""
 
 #. placeholder {0}: g.y.unpriced
@@ -1550,6 +1575,10 @@ msgstr ""
 msgid "A {what} — which item is it for?"
 msgstr ""
 
+#: src/Server.tsx
+msgid "A book's barcode is its ISBN: scanned or saved, it's asked of Open Library (openlibrary.org) for the title, author and cover — each once for the whole server, free, and not counted against any lookup allowance. Only the ISBN is sent."
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "A category"
 msgstr ""
@@ -2566,6 +2595,10 @@ msgstr ""
 msgid "at the top right"
 msgstr ""
 
+#: src/Product.tsx
+msgid "Author"
+msgstr ""
+
 #: src/App.tsx
 #: src/ScanSession.tsx
 msgid "Auto"
@@ -2705,6 +2738,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "boiler"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Book look-ups"
 msgstr ""
 
 #: src/Loans.tsx
@@ -4814,6 +4851,10 @@ msgstr ""
 msgid "from its manual"
 msgstr ""
 
+#: src/Product.tsx
+msgid "From NHTSA's VIN decoder ({vin}) — check before applying."
+msgstr ""
+
 #: src/Offline.tsx
 msgid "From photos"
 msgstr ""
@@ -4832,6 +4873,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "From the UPCitemdb product database"
+msgstr ""
+
+#: src/Product.tsx
+msgid "From the VIN"
 msgstr ""
 
 #: src/Shopping.tsx
@@ -5546,6 +5591,10 @@ msgstr ""
 msgid "its collection"
 msgstr ""
 
+#: src/Product.tsx
+msgid "Its cover — tap to add it"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "Its name"
 msgstr ""
@@ -5905,6 +5954,10 @@ msgstr ""
 
 #: src/Links.tsx
 msgid "Links"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Links a thing to iFixit's page for its exact model — repair guides, parts and troubleshooting — when its brand and model surely match one. To find it, the brand and model are sent to iFixit's search (ifixit.com), each at most once a month; nothing else is. Ferret only links to iFixit and never copies its guides."
 msgstr ""
 
 #: src/Everything.tsx
@@ -6405,12 +6458,20 @@ msgstr ""
 msgid "Next photo"
 msgstr ""
 
+#: src/Product.tsx
+msgid "NHTSA couldn't read VIN {vin} — check it for a typo."
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "No"
 msgstr ""
 
 #: src/Parts.tsx
 msgid "No — a new part"
+msgstr ""
+
+#: src/Settings.tsx
+msgid "No apps connected to {householdName}. An app you connect is listed under the household you picked for it."
 msgstr ""
 
 #: src/Server.tsx
@@ -7886,6 +7947,14 @@ msgstr ""
 msgid "Reading the photo…"
 msgstr ""
 
+#: src/Product.tsx
+msgid "Reading VIN {vin}…"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Reads a vehicle's VIN — a Vehicles category's VIN field, or a serial number that is one — with the US National Highway Traffic Safety Administration's decoder, and offers its make, model and year on the thing's page. Vehicles are also checked against NHTSA's recalls, which the product recall checks don't cover. To do that, the VIN and the make, model and year are sent to NHTSA (nhtsa.gov); nothing else is."
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Ready for a claim?"
 msgstr ""
@@ -8170,6 +8239,14 @@ msgstr ""
 
 #: src/Places.tsx
 msgid "Rental"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Repair guides"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Repair guides on iFixit: {device}"
 msgstr ""
 
 #: src/Repairs.tsx
@@ -10420,6 +10497,10 @@ msgstr ""
 
 #: src/Places.tsx
 msgid "Vehicle"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Vehicle look-ups"
 msgstr ""
 
 #: src/Collections.tsx
