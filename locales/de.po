@@ -71,7 +71,7 @@ msgstr ""
 msgid " · checking now"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid " · Couldn't read it"
 msgstr ""
 
@@ -103,7 +103,7 @@ msgstr ""
 msgid " · pack of {packSize}"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid " · Reading…"
 msgstr ""
 
@@ -299,6 +299,11 @@ msgstr ""
 #. placeholder {0}: p.documents
 #: src/PlanUsage.tsx
 msgid "{0, plural, one {# document} other {# documents}}"
+msgstr ""
+
+#. placeholder {0}: hook.events.length
+#: src/Webhooks.tsx
+msgid "{0, plural, one {# event} other {# events}}"
 msgstr ""
 
 #. placeholder {0}: result.queued
@@ -517,6 +522,11 @@ msgstr ""
 #. placeholder {0}: e.count
 #: src/Server.tsx
 msgid "{0, plural, one {# time} other {# times}}"
+msgstr ""
+
+#. placeholder {0}: d.attempts
+#: src/Webhooks.tsx
+msgid "{0, plural, one {# try} other {# tries}}"
 msgstr ""
 
 #. placeholder {0}: g.y.unpriced
@@ -1737,11 +1747,19 @@ msgid ""
 "your notes, and every opening is logged."
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "A recall matches a thing"
+msgstr ""
+
 #: src/Gone.tsx
 msgid ""
 "A record of what was given and what it was worth as entered in Ferret. It "
 "isn't a receipt from the organisation, and it says nothing about what's "
 "deductible."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "A return window is closing"
 msgstr ""
 
 #: src/RoomScan.tsx
@@ -1777,8 +1795,28 @@ msgstr ""
 msgid "A spreadsheet, or Home Assistant"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "A thing is added"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "A thing is changed"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "A thing is deleted"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "A thing is gone (sold, given away, lost…)"
+msgstr ""
+
 #: src/Invite.tsx
 msgid "a viewer (look and ask, no changes)"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "A warranty ends within a month"
 msgstr ""
 
 #: src/Product.tsx src/Shopping.tsx
@@ -1829,6 +1867,7 @@ msgstr ""
 #: src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx src/Notifications.tsx
 #: src/Offline.tsx src/Pairing.tsx src/Parts.tsx src/Places.tsx src/Stock.tsx
 #: src/SuggestedMaintenance.tsx src/Suggestions.tsx src/Warranties.tsx
+#: src/Webhooks.tsx
 msgid "Add"
 msgstr ""
 
@@ -1946,6 +1985,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Add a warranty"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Add a webhook"
 msgstr ""
 
 #: src/Notifications.tsx
@@ -2212,7 +2255,7 @@ msgstr ""
 msgid "Adding them…"
 msgstr ""
 
-#: src/Providers.tsx
+#: src/Providers.tsx src/Webhooks.tsx
 msgid "Address"
 msgstr ""
 
@@ -2545,6 +2588,10 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "As in the table"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "As things change"
 msgstr ""
 
 #: src/Ask.tsx
@@ -2902,6 +2949,7 @@ msgstr ""
 #: src/Places.tsx src/Providers.tsx src/Repairs.tsx src/Security.tsx
 #: src/Server.tsx src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx
 #: src/Templates.tsx src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
+#: src/Webhooks.tsx
 msgid "Cancel"
 msgstr ""
 
@@ -2962,8 +3010,12 @@ msgstr ""
 msgid "Certificates"
 msgstr ""
 
-#: src/Tracking.tsx
+#: src/Tracking.tsx src/Webhooks.tsx
 msgid "Change"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Change {name}"
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
@@ -3585,6 +3637,14 @@ msgid ""
 "documents, warranties and maintenance, then go for good."
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Delivered"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Delivered — answered {status}"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Demo"
 msgstr ""
@@ -3729,7 +3789,7 @@ msgstr ""
 
 #: src/Collections.tsx src/Everything.tsx src/Household.tsx
 #: src/ImportHomeAssistant.tsx src/Maintenance.tsx src/Settings.tsx
-#: src/Shares.tsx
+#: src/Shares.tsx src/Webhooks.tsx
 msgid "Done"
 msgstr ""
 
@@ -3926,6 +3986,10 @@ msgstr ""
 
 #: src/Notifications.tsx
 msgid "e.g. My phone (ntfy)"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "e.g. n8n"
 msgstr ""
 
 #: src/Catalog.tsx
@@ -4131,6 +4195,13 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "Every 2 weeks"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid ""
+"Every delivery is signed with this secret (the Ferret-Signature header). "
+"Give it to the receiver so it can check a delivery really came from this "
+"Ferret."
 msgstr ""
 
 #: src/App.tsx
@@ -4391,6 +4462,18 @@ msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "Ferret makes it, and the rooms go in it."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid ""
+"Ferret POSTs JSON here — an address on the internet. The address is kept "
+"encrypted and only its host is shown again."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid ""
+"Ferret POSTs JSON here. It can be on this server's own network (n8n, Home "
+"Assistant). The address is kept encrypted and only its host is shown again."
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
@@ -5055,6 +5138,10 @@ msgstr ""
 msgid "How many on hand"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "How to check the signature"
+msgstr ""
+
 #: src/Server.tsx
 msgid "How to restore"
 msgstr ""
@@ -5550,7 +5637,7 @@ msgstr ""
 #: src/Household.tsx src/Import.tsx src/ItemEditor.tsx src/Maintenance.tsx
 #: src/Notifications.tsx src/Pairing.tsx src/Places.tsx src/RoomScan.tsx
 #: src/Settings.tsx src/Shares.tsx src/Stock.tsx src/Templates.tsx
-#: src/Walkthrough.tsx
+#: src/Walkthrough.tsx src/Webhooks.tsx
 msgid "Keep"
 msgstr ""
 
@@ -5700,6 +5787,10 @@ msgstr ""
 msgid "Last seen"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Last sent {when}"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "last used {date}"
 msgstr ""
@@ -5718,6 +5809,10 @@ msgstr ""
 
 #: src/Household.tsx
 msgid "Leave"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Leave blank to keep {host}"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -5956,6 +6051,14 @@ msgstr ""
 msgid "Maintenance by use"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Maintenance is due within a week"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Maintenance is overdue"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Make {trim} the server admin?"
 msgstr ""
@@ -5972,6 +6075,10 @@ msgstr ""
 msgid ""
 "Make a new link? Calendars subscribed to the current one stop updating until "
 "you subscribe again."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Make a new secret? The old one keeps working for a day."
 msgstr ""
 
 #: src/PhotoCrop.tsx
@@ -6148,6 +6255,7 @@ msgstr ""
 #: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/Parts.tsx
 #: src/PayOff.tsx src/Places.tsx src/Product.tsx src/Providers.tsx
 #: src/Server.tsx src/Settings.tsx src/Suggestions.tsx src/Templates.tsx
+#: src/Webhooks.tsx
 msgid "Name"
 msgstr ""
 
@@ -6260,6 +6368,10 @@ msgstr ""
 
 #: src/Usage.tsx
 msgid "New reading ({unit}"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "New secret"
 msgstr ""
 
 #: src/Providers.tsx
@@ -6537,12 +6649,17 @@ msgstr ""
 msgid "None recorded yet — sign-ins are kept from now on."
 msgstr ""
 
-#: src/Server.tsx src/Warranties.tsx
+#: src/Server.tsx src/Warranties.tsx src/Webhooks.tsx
 msgid "None yet."
 msgstr ""
 
 #: src/Warranties.tsx
 msgid "None yet. Add one, or upload the warranty card and Ferret will read it."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid ""
+"None yet. Add the address of an n8n or Home Assistant webhook, or your own."
 msgstr ""
 
 #: src/Shares.tsx
@@ -6581,6 +6698,10 @@ msgstr ""
 
 #: src/Labels.tsx
 msgid "Not decided yet"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Not delivered"
 msgstr ""
 
 #: src/Household.tsx
@@ -6844,6 +6965,10 @@ msgid ""
 "Nothing scheduled. Upload the manual and Ferret will suggest what it needs."
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Nothing sent yet"
+msgstr ""
+
 #: src/Everything.tsx
 msgid "Nothing there was waiting to be read"
 msgstr ""
@@ -7093,8 +7218,16 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Open {name}"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "Open a box or place to print its label."
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Open in Home Assistant"
 msgstr ""
 
 #: src/Browse.tsx
@@ -7315,6 +7448,14 @@ msgstr ""
 
 #: src/Reminders.tsx
 msgid "Paste it, then <0>Subscribe</0> and <1>OK</1>"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Pause"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Paused"
 msgstr ""
 
 #: src/Reminders.tsx
@@ -7698,7 +7839,7 @@ msgstr ""
 msgid "range or oven"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid "Read {filename} again"
 msgstr ""
 
@@ -7714,7 +7855,7 @@ msgstr ""
 msgid "Read from {name}"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/Files.tsx src/ItemPage.tsx
 msgid "Read it again"
 msgstr ""
 
@@ -7766,6 +7907,10 @@ msgstr ""
 
 #: src/Overview.tsx
 msgid "Recent changes"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Recent deliveries"
 msgstr ""
 
 #: src/Import.tsx
@@ -7823,7 +7968,7 @@ msgstr ""
 #: src/Claims.tsx src/Collections.tsx src/Household.tsx src/ItemEditor.tsx
 #: src/Maintenance.tsx src/Notifications.tsx src/Offline.tsx src/Pairing.tsx
 #: src/Places.tsx src/Security.tsx src/Server.tsx src/Stock.tsx
-#: src/Templates.tsx
+#: src/Templates.tsx src/Webhooks.tsx
 msgid "Remove"
 msgstr ""
 
@@ -7965,6 +8110,14 @@ msgstr ""
 msgid "Remove this warranty?"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Remove this webhook and its deliveries?"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Remove webhook"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Remove…"
 msgstr ""
@@ -8059,7 +8212,7 @@ msgstr ""
 msgid "Retake"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: src/ItemPage.tsx src/Webhooks.tsx
 msgid "Retry"
 msgstr ""
 
@@ -8197,6 +8350,10 @@ msgstr ""
 msgid "Rooms, closets, shelves, boxes — as fine as you like"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Rotate"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Run your own Ferret"
 msgstr ""
@@ -8208,7 +8365,7 @@ msgstr ""
 #: src/Catalog.tsx src/Claims.tsx src/Collections.tsx src/Everything.tsx
 #: src/Household.tsx src/ItemEditor.tsx src/Loans.tsx src/Maintenance.tsx
 #: src/PayOff.tsx src/Places.tsx src/Providers.tsx src/Repairs.tsx
-#: src/Stock.tsx src/Templates.tsx
+#: src/Stock.tsx src/Templates.tsx src/Webhooks.tsx
 msgid "Save"
 msgstr ""
 
@@ -8421,6 +8578,10 @@ msgstr ""
 msgid "Searching"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Secret"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "Security"
 msgstr ""
@@ -8465,7 +8626,7 @@ msgstr ""
 msgid "Selected"
 msgstr ""
 
-#: src/Notifications.tsx src/Reminders.tsx
+#: src/Notifications.tsx src/Reminders.tsx src/Webhooks.tsx
 msgid "Send a test"
 msgstr ""
 
@@ -8687,6 +8848,10 @@ msgstr ""
 msgid "Show photo {number}"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Show secret"
+msgstr ""
+
 #: src/Nav.tsx
 msgid "Show the menu's names"
 msgstr ""
@@ -8774,6 +8939,14 @@ msgstr ""
 msgid ""
 "Signing in takes your password and a code from your authenticator app. "
 "Devices you trust skip the code for 30 days."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Signing secret"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Signing secret for {name}"
 msgstr ""
 
 #: src/App.tsx
@@ -8876,6 +9049,14 @@ msgstr ""
 
 #: src/Labels.tsx
 msgid "Something in Ferret"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Something lent or borrowed is due back"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Something runs low (onto the shopping list)"
 msgstr ""
 
 #: src/App.tsx src/Household.tsx src/Invite.tsx src/Offline.tsx
@@ -9076,6 +9257,14 @@ msgid ""
 "Changes reach every visitor within seconds."
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Switched off — its deliveries kept failing"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Switched off — its deliveries kept failing ({error})"
+msgstr ""
+
 #: src/Collections.tsx src/Everything.tsx
 msgid "Table"
 msgstr ""
@@ -9190,12 +9379,22 @@ msgstr ""
 msgid "Task"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid ""
+"Tell n8n, Home Assistant or your own script when things change in this "
+"household, or when something needs doing."
+msgstr ""
+
 #: src/Templates.tsx
 msgid "Template"
 msgstr ""
 
 #: src/Templates.tsx
 msgid "Templates"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Test delivered ({status})"
 msgstr ""
 
 #: src/StarterTasks.tsx
@@ -9325,6 +9524,10 @@ msgstr ""
 msgid "the insurance report"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "The last 50, kept for 30 days."
+msgstr ""
+
 #: src/Server.tsx
 msgid "The last backup failed ({formatTime}"
 msgstr ""
@@ -9351,6 +9554,11 @@ msgid ""
 "the one in use. Make a new one."
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid ""
+"The old secret also signs until {until}, so the receiver can switch over."
+msgstr ""
+
 #: src/Walkthrough.tsx
 msgid "The photo to name"
 msgstr ""
@@ -9368,6 +9576,11 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "The recall notice"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid ""
+"The receiver checks each delivery's Ferret-Signature header with this secret."
 msgstr ""
 
 #: src/Repairs.tsx
@@ -9469,6 +9682,10 @@ msgstr ""
 
 #: src/Demo.tsx src/Overview.tsx src/PlanUsage.tsx
 msgid "Things"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Things are imported"
 msgstr ""
 
 #: src/Server.tsx
@@ -9631,6 +9848,14 @@ msgstr ""
 
 #: src/lib/device.ts
 msgid "This server"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "This server doesn't send webhooks."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "This server's network allowed"
 msgstr ""
 
 #: src/ScanSession.tsx
@@ -9809,6 +10034,10 @@ msgstr ""
 msgid "Try the demo"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Trying again soon ({error})"
+msgstr ""
+
 #: src/Reminders.tsx src/Security.tsx src/Shares.tsx
 msgid "Turn off"
 msgstr ""
@@ -9821,7 +10050,7 @@ msgstr ""
 msgid "Turn off…"
 msgstr ""
 
-#: src/Reminders.tsx src/Security.tsx
+#: src/Reminders.tsx src/Security.tsx src/Webhooks.tsx
 msgid "Turn on"
 msgstr ""
 
@@ -10188,6 +10417,10 @@ msgstr ""
 msgid "Wait for a suggestion, or type it"
 msgstr ""
 
+#: src/Webhooks.tsx
+msgid "Waiting to be sent"
+msgstr ""
+
 #: src/Household.tsx
 msgid "Waiting to join"
 msgstr ""
@@ -10293,6 +10526,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "Web link"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "Webhooks"
 msgstr ""
 
 #: src/Providers.tsx
@@ -10432,6 +10669,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "when its use gets there"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "When something needs attention (once each)"
 msgstr ""
 
 #: src/AiFill.tsx
@@ -10580,6 +10821,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Which thing is it on?"
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "While it's paused, nothing is kept to send later."
 msgstr ""
 
 #: src/Maintenance.tsx src/Repairs.tsx
