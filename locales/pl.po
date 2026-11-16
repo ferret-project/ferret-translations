@@ -1133,6 +1133,10 @@ msgstr "{hours} godz. temu"
 msgid "{householdName} — donations in {year}"
 msgstr "{householdName} — darowizny w {year}"
 
+#: src/Server.tsx
+msgid "{indexed} of {things} things embedded."
+msgstr ""
+
 #: src/Overview.tsx
 msgid "{itemsWithoutValue} without a value"
 msgstr "Bez wartości: {itemsWithoutValue}"
@@ -3682,6 +3686,12 @@ msgstr "Wyczyść wszystko"
 msgid "Clear filters"
 msgstr "Wyczyść filtry"
 
+#: src/Server.tsx
+msgid ""
+"Clear the index and embed all {things} things again? Until it's done, smart "
+"search finds only the things already embedded."
+msgstr ""
+
 #: src/Search.tsx
 msgid "Clear the search"
 msgstr "Wyczyść wyszukiwanie"
@@ -4651,6 +4661,19 @@ msgstr "Wyślij mi e-mailem link do ponownego zalogowania"
 msgid "Email me a sign-in link"
 msgstr "Wyślij mi e-mailem link do logowania"
 
+#: src/Server.tsx
+msgid ""
+"Embedding everything again, because the index was made by {before}. Until "
+"it's done, smart search finds only the things already embedded; keyword "
+"search works as usual."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Embedding everything again. Until it's done, smart search finds only the "
+"things already embedded; keyword search works as usual."
+msgstr ""
+
 #: src/Boxes.tsx
 msgid "Empty."
 msgstr "Puste."
@@ -5010,6 +5033,13 @@ msgstr ""
 #: src/Household.tsx
 msgid "Ferret emails them a link to join"
 msgstr "Ferret wyśle im e-mailem link do dołączenia"
+
+#: src/Server.tsx
+msgid ""
+"Ferret embeds everything again by itself when EMBED_MODEL or the vector "
+"store changes. Re-index everything is for a change it can't see, like new "
+"weights under the same model name."
+msgstr ""
 
 #: src/App.tsx src/Nav.tsx
 msgid "Ferret home"
@@ -8727,6 +8757,18 @@ msgstr "okap kuchenny"
 msgid "range or oven"
 msgstr "kuchenka lub piekarnik"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Download everything"
+msgid "Re-index everything"
+msgstr "Pobierz wszystko"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Download everything…"
+msgid "Re-index everything…"
+msgstr "Pobierz wszystko…"
+
 #: src/Files.tsx src/ItemPage.tsx
 msgid "Read {filename} again"
 msgstr "Przeczytaj {filename} ponownie"
@@ -9963,6 +10005,12 @@ msgid ""
 msgstr ""
 "Brakujące w magazynie plików małe obrazki (miniatury) — te rzeczy nie mają "
 "obrazka na listach."
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Clear the search"
+msgid "Smart search"
+msgstr "Wyczyść wyszukiwanie"
 
 #: src/lib/words.ts
 msgid "smartphone"
