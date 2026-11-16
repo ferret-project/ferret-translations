@@ -872,6 +872,10 @@ msgstr ""
 msgid "{householdName} — donations in {year}"
 msgstr ""
 
+#: src/Server.tsx
+msgid "{indexed} of {things} things embedded."
+msgstr ""
+
 #: src/Overview.tsx
 msgid "{itemsWithoutValue} without a value"
 msgstr ""
@@ -3233,6 +3237,10 @@ msgstr ""
 msgid "Clear filters"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Clear the index and embed all {things} things again? Until it's done, smart search finds only the things already embedded."
+msgstr ""
+
 #: src/Search.tsx
 msgid "Clear the search"
 msgstr ""
@@ -4197,6 +4205,14 @@ msgstr ""
 msgid "Email me a sign-in link"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Embedding everything again, because the index was made by {before}. Until it's done, smart search finds only the things already embedded; keyword search works as usual."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Embedding everything again. Until it's done, smart search finds only the things already embedded; keyword search works as usual."
+msgstr ""
+
 #: src/Boxes.tsx
 msgid "Empty."
 msgstr ""
@@ -4497,6 +4513,10 @@ msgstr ""
 
 #: src/Household.tsx
 msgid "Ferret emails them a link to join"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Ferret embeds everything again by itself when EMBED_MODEL or the vector store changes. Re-index everything is for a change it can't see, like new weights under the same model name."
 msgstr ""
 
 #: src/App.tsx
@@ -7913,6 +7933,14 @@ msgstr ""
 msgid "range or oven"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Re-index everything"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Re-index everything…"
+msgstr ""
+
 #: src/Files.tsx
 #: src/ItemPage.tsx
 msgid "Read {filename} again"
@@ -9125,6 +9153,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Small pictures (thumbnails) missing from the file store — those things show no picture in lists."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Smart search"
 msgstr ""
 
 #: src/lib/words.ts
