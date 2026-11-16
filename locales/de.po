@@ -250,6 +250,10 @@ msgstr ""
 msgid "· last {when}"
 msgstr ""
 
+#: src/DocumentViewer.tsx
+msgid "“{find}” isn't in this file's text — it may be a scan."
+msgstr ""
+
 #: src/Replacements.tsx
 msgid "(an estimate)"
 msgstr ""
@@ -264,6 +268,11 @@ msgstr ""
 
 #: src/PlanUsage.tsx
 msgid "(not in this plan)"
+msgstr ""
+
+#. placeholder {0}: matches.length
+#: src/DocumentViewer.tsx
+msgid "{0, plural, one {“{find}” on page {page}} other {“{find}” on # pages}}"
 msgstr ""
 
 #. placeholder {0}: p.aiActions
@@ -1108,6 +1117,10 @@ msgstr ""
 msgid "{owner} lent it to you on {since}."
 msgstr ""
 
+#: src/DocumentViewer.tsx
+msgid "{pages, plural, one {# page} other {# pages}}"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "{pct}% of the limit"
 msgstr ""
@@ -1913,7 +1926,7 @@ msgstr ""
 #: src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx src/Notifications.tsx
 #: src/Offline.tsx src/Pairing.tsx src/Paperless.tsx src/Parts.tsx
 #: src/Places.tsx src/Stock.tsx src/SuggestedMaintenance.tsx
-#: src/Suggestions.tsx src/Warranties.tsx src/Webhooks.tsx
+#: src/Suggestions.tsx src/Videos.tsx src/Warranties.tsx src/Webhooks.tsx
 msgid "Add"
 msgstr ""
 
@@ -2027,6 +2040,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Add a task"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "Add a video"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -2244,7 +2261,7 @@ msgstr ""
 msgid "Add, change and remove things there"
 msgstr ""
 
-#: src/Security.tsx src/Walkthrough.tsx
+#: src/Security.tsx src/Videos.tsx src/Walkthrough.tsx
 msgid "Added"
 msgstr ""
 
@@ -3352,8 +3369,8 @@ msgstr ""
 msgid "Client certificates"
 msgstr ""
 
-#: src/Everything.tsx src/Maintenance.tsx src/Modal.tsx src/PhotoViewer.tsx
-#: src/Shares.tsx
+#: src/DocumentViewer.tsx src/Everything.tsx src/Maintenance.tsx src/Modal.tsx
+#: src/PhotoViewer.tsx src/Shares.tsx src/Videos.tsx
 msgid "Close"
 msgstr ""
 
@@ -3583,6 +3600,10 @@ msgstr ""
 
 #: src/PhotoCrop.tsx
 msgid "Couldn't make the crop"
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "Couldn't open this file."
 msgstr ""
 
 #: src/Scanner.tsx
@@ -3984,6 +4005,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Done {date}"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "Done adding"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -4754,6 +4779,10 @@ msgstr ""
 msgid "Field type"
 msgstr ""
 
+#: src/DocumentViewer.tsx
+msgid "File"
+msgstr ""
+
 #: src/Server.tsx
 msgid "File (.p12, .pfx)"
 msgstr ""
@@ -4849,8 +4878,16 @@ msgstr ""
 msgid "Find anything you own."
 msgstr ""
 
+#: src/Videos.tsx
+msgid "Find one on YouTube"
+msgstr ""
+
 #: src/RoomScan.tsx
 msgid "Find things"
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "Finding “{find}”…"
 msgstr ""
 
 #: src/Tracking.tsx
@@ -5393,6 +5430,10 @@ msgstr ""
 msgid "How to restore"
 msgstr ""
 
+#: src/Videos.tsx
+msgid "How-to videos"
+msgstr ""
+
 #: src/lib/words.ts
 msgid "humidifier"
 msgstr ""
@@ -5909,7 +5950,7 @@ msgstr ""
 #: src/Household.tsx src/Import.tsx src/ItemEditor.tsx src/Maintenance.tsx
 #: src/Notifications.tsx src/Pairing.tsx src/Paperless.tsx src/Places.tsx
 #: src/RoomScan.tsx src/Settings.tsx src/Shares.tsx src/Stock.tsx
-#: src/Templates.tsx src/Walkthrough.tsx src/Webhooks.tsx
+#: src/Templates.tsx src/Videos.tsx src/Walkthrough.tsx src/Webhooks.tsx
 msgid "Keep"
 msgstr ""
 
@@ -6712,6 +6753,10 @@ msgstr ""
 msgid "Next month"
 msgstr ""
 
+#: src/DocumentViewer.tsx
+msgid "Next page with it"
+msgstr ""
+
 #: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Next photo"
 msgstr ""
@@ -6915,6 +6960,10 @@ msgstr ""
 
 #: src/Overview.tsx
 msgid "No value or price"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "No videos found. Try other words."
 msgstr ""
 
 #: src/Demo.tsx
@@ -7590,8 +7639,20 @@ msgstr ""
 msgid "Open {name}"
 msgstr ""
 
+#: src/DocumentViewer.tsx
+msgid "Open {name} in a new tab"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "Open {title} on YouTube"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "Open a box or place to print its label."
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "Open in a new tab"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -7612,6 +7673,10 @@ msgstr ""
 
 #: src/ScanSession.tsx
 msgid "Open it"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "Open on YouTube"
 msgstr ""
 
 #: src/ItemSearch.tsx
@@ -7650,6 +7715,10 @@ msgstr ""
 msgid "Open your browser's menu and tap {SHARE}"
 msgstr ""
 
+#: src/DocumentViewer.tsx
+msgid "Opening…"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid "Opens your Calendar app, which asks to subscribe — say yes."
 msgstr ""
@@ -7674,6 +7743,10 @@ msgstr ""
 msgid ""
 "Or create your own account below: it and its households are deleted after "
 "{visitorDays} days. Or <0/> at home."
+msgstr ""
+
+#: src/Videos.tsx
+msgid "Or paste a YouTube link"
 msgstr ""
 
 #: src/Server.tsx
@@ -7728,6 +7801,14 @@ msgstr ""
 
 #: src/Household.tsx
 msgid "Owner"
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "Page {number}"
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "page {page}"
 msgstr ""
 
 #: src/Everything.tsx
@@ -8060,6 +8141,10 @@ msgstr ""
 
 #: src/MaintenanceCalendar.tsx
 msgid "Previous month"
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "Previous page with it"
 msgstr ""
 
 #: src/ItemPage.tsx src/PhotoViewer.tsx
@@ -8409,7 +8494,7 @@ msgstr ""
 #: src/Claims.tsx src/Collections.tsx src/Household.tsx src/ItemEditor.tsx
 #: src/Maintenance.tsx src/Notifications.tsx src/Offline.tsx src/Pairing.tsx
 #: src/Places.tsx src/Security.tsx src/Server.tsx src/Stock.tsx
-#: src/Templates.tsx src/Webhooks.tsx
+#: src/Templates.tsx src/Videos.tsx src/Webhooks.tsx
 msgid "Remove"
 msgstr ""
 
@@ -8459,6 +8544,10 @@ msgstr ""
 
 #: src/Usage.tsx
 msgid "Remove {reading} on {date}?"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "Remove {title}"
 msgstr ""
 
 #: src/Everything.tsx
@@ -8957,7 +9046,7 @@ msgstr ""
 msgid "Seals every photo, document and pairing code, and the backups."
 msgstr ""
 
-#: src/Paperless.tsx
+#: src/Paperless.tsx src/Videos.tsx
 msgid "Search"
 msgstr ""
 
@@ -9025,6 +9114,10 @@ msgstr ""
 
 #: src/Nav.tsx src/Search.tsx
 msgid "Search your stuff"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "Search YouTube"
 msgstr ""
 
 #: src/Nav.tsx
@@ -9242,6 +9335,10 @@ msgstr ""
 
 #: src/lib/words.ts src/Shares.tsx
 msgid "Share links"
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "Share or save {name}"
 msgstr ""
 
 #: src/Shares.tsx
@@ -9918,6 +10015,10 @@ msgstr ""
 msgid "That file is over 20 MB — split it into smaller ones."
 msgstr ""
 
+#: src/Videos.tsx
+msgid "That isn't a YouTube link."
+msgstr ""
+
 #: src/App.tsx
 msgid ""
 "That link didn't work — it may have expired. Sign in, and we'll offer a new "
@@ -10149,6 +10250,10 @@ msgstr ""
 msgid "Their households"
 msgstr ""
 
+#: src/Videos.tsx
+msgid "Then copy the video's link (Share → Copy link) and paste it here."
+msgstr ""
+
 #: src/App.tsx
 msgid ""
 "There's no Ferret account for you yet, and Ferret is invite-only — ask "
@@ -10290,6 +10395,14 @@ msgstr ""
 msgid "This device"
 msgstr ""
 
+#: src/DocumentViewer.tsx
+msgid "This file can't be shown here."
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "This file can't be shown here. Use Share to open it in another app."
+msgstr ""
+
 #: src/Currency.tsx
 msgid "This household's Amazon"
 msgstr ""
@@ -10356,6 +10469,10 @@ msgstr ""
 
 #: src/Webhooks.tsx
 msgid "This server's network allowed"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "this video"
 msgstr ""
 
 #: src/ScanSession.tsx
@@ -11010,6 +11127,10 @@ msgstr ""
 msgid "washing machine"
 msgstr ""
 
+#: src/Videos.tsx
+msgid "Watch {title}"
+msgstr ""
+
 #: src/Paperless.tsx
 msgid "Watches the tag"
 msgstr ""
@@ -11620,6 +11741,14 @@ msgid ""
 "tell which account is yours."
 msgstr ""
 
+#: src/Videos.tsx
+msgid "YouTube link"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "YouTube video"
+msgstr ""
+
 #: src/Places.tsx
 msgid "ZIP / postal code"
 msgstr ""
@@ -11628,10 +11757,10 @@ msgstr ""
 msgid "Zoom"
 msgstr ""
 
-#: src/PhotoViewer.tsx
+#: src/DocumentViewer.tsx src/PhotoViewer.tsx
 msgid "Zoom in"
 msgstr ""
 
-#: src/PhotoViewer.tsx
+#: src/DocumentViewer.tsx src/PhotoViewer.tsx
 msgid "Zoom out"
 msgstr ""

@@ -265,6 +265,10 @@ msgstr "· około {perYear} rocznie przez {years} lat"
 msgid "· last {when}"
 msgstr "· ostatnio {when}"
 
+#: src/DocumentViewer.tsx
+msgid "“{find}” isn't in this file's text — it may be a scan."
+msgstr ""
+
 #: src/Replacements.tsx
 msgid "(an estimate)"
 msgstr "(szacunek)"
@@ -280,6 +284,15 @@ msgstr "(zrobione)"
 #: src/PlanUsage.tsx
 msgid "(not in this plan)"
 msgstr "(nie w tym planie)"
+
+#. placeholder {0}: matches.length
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# passage} other {# passages}}"
+msgid "{0, plural, one {“{find}” on page {page}} other {“{find}” on # pages}}"
+msgstr ""
+"{0, plural, one {# fragment} few {# fragmenty} many {# fragmentów} other {# "
+"fragmentu}}"
 
 #. placeholder {0}: p.aiActions
 #: src/PlanUsage.tsx
@@ -1356,6 +1369,14 @@ msgstr "{owner} pożycza ci to od {since}, do oddania do {due}."
 msgid "{owner} lent it to you on {since}."
 msgstr "{owner} pożycza ci to od {since}."
 
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# passage} other {# passages}}"
+msgid "{pages, plural, one {# page} other {# pages}}"
+msgstr ""
+"{0, plural, one {# fragment} few {# fragmenty} many {# fragmentów} other {# "
+"fragmentu}}"
+
 #: src/PayOff.tsx
 msgid "{pct}% of the limit"
 msgstr "{pct}% limitu"
@@ -2252,7 +2273,7 @@ msgstr "Aktywne"
 #: src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx src/Notifications.tsx
 #: src/Offline.tsx src/Pairing.tsx src/Paperless.tsx src/Parts.tsx
 #: src/Places.tsx src/Stock.tsx src/SuggestedMaintenance.tsx
-#: src/Suggestions.tsx src/Warranties.tsx src/Webhooks.tsx
+#: src/Suggestions.tsx src/Videos.tsx src/Warranties.tsx src/Webhooks.tsx
 msgid "Add"
 msgstr "Dodaj"
 
@@ -2367,6 +2388,12 @@ msgstr "Dodaj tag"
 #: src/Maintenance.tsx
 msgid "Add a task"
 msgstr "Dodaj zadanie"
+
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "Add a provider"
+msgid "Add a video"
+msgstr "Dodaj usługodawcę"
 
 #: src/ItemPage.tsx
 msgid "Add a warranty"
@@ -2594,7 +2621,7 @@ msgstr "Dodaj limity swojej polisy"
 msgid "Add, change and remove things there"
 msgstr ""
 
-#: src/Security.tsx src/Walkthrough.tsx
+#: src/Security.tsx src/Videos.tsx src/Walkthrough.tsx
 msgid "Added"
 msgstr "Dodano"
 
@@ -3765,8 +3792,8 @@ msgstr "Wyczyść ten błąd {serviceName}"
 msgid "Client certificates"
 msgstr "Certyfikaty klienta"
 
-#: src/Everything.tsx src/Maintenance.tsx src/Modal.tsx src/PhotoViewer.tsx
-#: src/Shares.tsx
+#: src/DocumentViewer.tsx src/Everything.tsx src/Maintenance.tsx src/Modal.tsx
+#: src/PhotoViewer.tsx src/Shares.tsx src/Videos.tsx
 msgid "Close"
 msgstr "Zamknij"
 
@@ -4015,6 +4042,12 @@ msgstr "Nie udało się obejrzeć zdjęć."
 
 #: src/PhotoCrop.tsx
 msgid "Couldn't make the crop"
+msgstr "Nie udało się przyciąć"
+
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Couldn't make the crop"
+msgid "Couldn't open this file."
 msgstr "Nie udało się przyciąć"
 
 #: src/Scanner.tsx
@@ -4433,6 +4466,12 @@ msgstr "Gotowe — możesz od razu zalogować się ponownie."
 #: src/Maintenance.tsx
 msgid "Done {date}"
 msgstr "Zrobione {date}"
+
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "Done on"
+msgid "Done adding"
+msgstr "Data wykonania"
 
 #: src/Maintenance.tsx
 msgid "Done before"
@@ -5258,6 +5297,12 @@ msgstr "Nazwa pola"
 msgid "Field type"
 msgstr "Typ pola"
 
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Filed"
+msgid "File"
+msgstr "Zgłoszona"
+
 #: src/Server.tsx
 msgid "File (.p12, .pfx)"
 msgstr "Plik (.p12, .pfx)"
@@ -5363,9 +5408,17 @@ msgstr ""
 msgid "Find anything you own."
 msgstr "Znajdź wszystko, co masz."
 
+#: src/Videos.tsx
+msgid "Find one on YouTube"
+msgstr ""
+
 #: src/RoomScan.tsx
 msgid "Find things"
 msgstr "Znajdź rzeczy"
+
+#: src/DocumentViewer.tsx
+msgid "Finding “{find}”…"
+msgstr ""
 
 #: src/Tracking.tsx
 msgid "Finish now"
@@ -5945,6 +5998,10 @@ msgstr "Jak przywrócić"
 msgid "How to restore"
 msgstr "Jak przywrócić"
 
+#: src/Videos.tsx
+msgid "How-to videos"
+msgstr ""
+
 #: src/lib/words.ts
 msgid "humidifier"
 msgstr "nawilżacz powietrza"
@@ -6513,7 +6570,7 @@ msgstr "Tylko otwórz"
 #: src/Household.tsx src/Import.tsx src/ItemEditor.tsx src/Maintenance.tsx
 #: src/Notifications.tsx src/Pairing.tsx src/Paperless.tsx src/Places.tsx
 #: src/RoomScan.tsx src/Settings.tsx src/Shares.tsx src/Stock.tsx
-#: src/Templates.tsx src/Walkthrough.tsx src/Webhooks.tsx
+#: src/Templates.tsx src/Videos.tsx src/Walkthrough.tsx src/Webhooks.tsx
 msgid "Keep"
 msgstr "Zostaw"
 
@@ -7372,6 +7429,12 @@ msgstr "Następny termin według daty"
 msgid "Next month"
 msgstr "Następny miesiąc"
 
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Dealt with it"
+msgid "Next page with it"
+msgstr "Załatwione"
+
 #: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Next photo"
 msgstr "Następne zdjęcie"
@@ -7587,6 +7650,10 @@ msgstr "Żadne rzeczy nie pasują"
 #: src/Overview.tsx
 msgid "No value or price"
 msgstr "Brak wartości ani ceny"
+
+#: src/Videos.tsx
+msgid "No videos found. Try other words."
+msgstr ""
 
 #: src/Demo.tsx
 msgid "No visits yet. Links with ?ref= show here."
@@ -8333,9 +8400,27 @@ msgstr "Otwórz"
 msgid "Open {name}"
 msgstr "W {name}"
 
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "In {name}"
+msgid "Open {name} in a new tab"
+msgstr "W {name}"
+
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "Mark {title} done"
+msgid "Open {title} on YouTube"
+msgstr "Oznacz „{title}” jako zrobione"
+
 #: src/Labels.tsx
 msgid "Open a box or place to print its label."
 msgstr "Otwórz pudełko lub miejsce, aby wydrukować jego etykietę."
+
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Open in Maps"
+msgid "Open in a new tab"
+msgstr "Otwórz w Mapach"
 
 #: src/ItemPage.tsx
 #, fuzzy
@@ -8360,6 +8445,10 @@ msgstr "Otwórz w aplikacji uwierzytelniającej"
 #: src/ScanSession.tsx
 msgid "Open it"
 msgstr "Otwórz"
+
+#: src/Videos.tsx
+msgid "Open on YouTube"
+msgstr ""
 
 #: src/ItemSearch.tsx
 msgid "Open the document"
@@ -8399,6 +8488,12 @@ msgstr "Otwórz aplikację uwierzytelniającą i wpisz kod dla Ferret."
 msgid "Open your browser's menu and tap {SHARE}"
 msgstr "Otwórz menu przeglądarki i dotknij {SHARE}"
 
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Importing…"
+msgid "Opening…"
+msgstr "Importowanie…"
+
 #: src/Reminders.tsx
 msgid "Opens your Calendar app, which asks to subscribe — say yes."
 msgstr "Otwiera aplikację Kalendarz, która zapyta o subskrypcję — zgódź się."
@@ -8426,6 +8521,10 @@ msgid ""
 msgstr ""
 "Albo załóż własne konto poniżej: ono i jego gospodarstwa domowe zostaną "
 "usunięte po {visitorDays} dniach. Albo <0/> w domu."
+
+#: src/Videos.tsx
+msgid "Or paste a YouTube link"
+msgstr ""
 
 #: src/Server.tsx
 msgid "Or paste it"
@@ -8482,6 +8581,18 @@ msgstr "Po terminie"
 #: src/Household.tsx
 msgid "Owner"
 msgstr "Właściciel"
+
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Part number"
+msgid "Page {number}"
+msgstr "Numer części"
+
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "In {name}"
+msgid "page {page}"
+msgstr "W {name}"
 
 #: src/Everything.tsx
 msgid "Pages"
@@ -8835,6 +8946,12 @@ msgstr "Poprzednia"
 #: src/MaintenanceCalendar.tsx
 msgid "Previous month"
 msgstr "Poprzedni miesiąc"
+
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Previous photo"
+msgid "Previous page with it"
+msgstr "Poprzednie zdjęcie"
 
 #: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Previous photo"
@@ -9212,7 +9329,7 @@ msgstr "Przypominam {email} {every} · ostatnio {date}"
 #: src/Claims.tsx src/Collections.tsx src/Household.tsx src/ItemEditor.tsx
 #: src/Maintenance.tsx src/Notifications.tsx src/Offline.tsx src/Pairing.tsx
 #: src/Places.tsx src/Security.tsx src/Server.tsx src/Stock.tsx
-#: src/Templates.tsx src/Webhooks.tsx
+#: src/Templates.tsx src/Videos.tsx src/Webhooks.tsx
 msgid "Remove"
 msgstr "Usuń"
 
@@ -9263,6 +9380,12 @@ msgstr "Usuń gwarancję: {provider}"
 #: src/Usage.tsx
 msgid "Remove {reading} on {date}?"
 msgstr "Usunąć {reading} z {date}?"
+
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "Remove item"
+msgid "Remove {title}"
+msgstr "Usuń rzecz"
 
 #: src/Everything.tsx
 msgid "Remove a tag"
@@ -9782,7 +9905,7 @@ msgid "Seals every photo, document and pairing code, and the backups."
 msgstr ""
 "Zabezpiecza każde zdjęcie, dokument i kod parowania, a także kopie zapasowe."
 
-#: src/Paperless.tsx
+#: src/Paperless.tsx src/Videos.tsx
 #, fuzzy
 #| msgid "Searches"
 msgid "Search"
@@ -9856,6 +9979,12 @@ msgstr "Przeszukaj tę rzecz…"
 
 #: src/Nav.tsx src/Search.tsx
 msgid "Search your stuff"
+msgstr "Przeszukaj swoje rzeczy"
+
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "Search your stuff"
+msgid "Search YouTube"
 msgstr "Przeszukaj swoje rzeczy"
 
 #: src/Nav.tsx
@@ -10078,6 +10207,12 @@ msgstr "Przycisk „Udostępnij”"
 #: src/lib/words.ts src/Shares.tsx
 msgid "Share links"
 msgstr "Linki do udostępnienia"
+
+#: src/DocumentViewer.tsx
+#, fuzzy
+#| msgid "Rename or move {name}"
+msgid "Share or save {name}"
+msgstr "Zmień nazwę lub przenieś {name}"
 
 #: src/Shares.tsx
 msgid "Share…"
@@ -10801,6 +10936,10 @@ msgstr "Ten plik nie ma żadnych wierszy pod nagłówkiem."
 msgid "That file is over 20 MB — split it into smaller ones."
 msgstr "Ten plik ma ponad 20 MB — podziel go na mniejsze."
 
+#: src/Videos.tsx
+msgid "That isn't a YouTube link."
+msgstr ""
+
 #: src/App.tsx
 msgid ""
 "That link didn't work — it may have expired. Sign in, and we'll offer a new "
@@ -11060,6 +11199,10 @@ msgstr "Ich e-mail, aby im przypominać (opcjonalnie)"
 msgid "Their households"
 msgstr "Ich gospodarstwa domowe"
 
+#: src/Videos.tsx
+msgid "Then copy the video's link (Share → Copy link) and paste it here."
+msgstr ""
+
 #: src/App.tsx
 msgid ""
 "There's no Ferret account for you yet, and Ferret is invite-only — ask "
@@ -11227,6 +11370,14 @@ msgstr "To usunie twoje konto na zawsze. Nie da się tego cofnąć."
 msgid "This device"
 msgstr "To urządzenie"
 
+#: src/DocumentViewer.tsx
+msgid "This file can't be shown here."
+msgstr ""
+
+#: src/DocumentViewer.tsx
+msgid "This file can't be shown here. Use Share to open it in another app."
+msgstr ""
+
 #: src/Currency.tsx
 msgid "This household's Amazon"
 msgstr "Amazon tego gospodarstwa domowego"
@@ -11303,6 +11454,12 @@ msgstr ""
 #: src/Webhooks.tsx
 msgid "This server's network allowed"
 msgstr ""
+
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "This device"
+msgid "this video"
+msgstr "To urządzenie"
 
 #: src/ScanSession.tsx
 msgid "This was marked \"Can't find it\". Found it?"
@@ -11987,6 +12144,12 @@ msgstr "gwarancja do {date}"
 msgid "washing machine"
 msgstr "pralka"
 
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "at {time}"
+msgid "Watch {title}"
+msgstr "o {time}"
+
 #: src/Paperless.tsx
 #, fuzzy
 #| msgid "What they tried"
@@ -12652,6 +12815,16 @@ msgstr ""
 "Twój dostawca logowania nie potwierdził twojego adresu e-mail, więc Ferret "
 "nie wie, które konto jest twoje."
 
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "The link"
+msgid "YouTube link"
+msgstr "Link"
+
+#: src/Videos.tsx
+msgid "YouTube video"
+msgstr ""
+
 #: src/Places.tsx
 msgid "ZIP / postal code"
 msgstr "Kod pocztowy"
@@ -12660,10 +12833,10 @@ msgstr "Kod pocztowy"
 msgid "Zoom"
 msgstr "Powiększenie"
 
-#: src/PhotoViewer.tsx
+#: src/DocumentViewer.tsx src/PhotoViewer.tsx
 msgid "Zoom in"
 msgstr "Powiększ"
 
-#: src/PhotoViewer.tsx
+#: src/DocumentViewer.tsx src/PhotoViewer.tsx
 msgid "Zoom out"
 msgstr "Pomniejsz"
