@@ -1153,6 +1153,10 @@ msgstr ""
 msgid "{saved} — each will be a \"New item\" to name."
 msgstr ""
 
+#: src/Server.tsx
+msgid "{size} tokens"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "{skip, plural, one {label} other {labels}}"
 msgstr ""
@@ -1311,10 +1315,6 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "<0>Drag & drop or </0>choose files"
-msgstr ""
-
-#: src/ItemPage.tsx
-msgid "<0>Edit</0>"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -1705,6 +1705,10 @@ msgstr ""
 
 #: src/Setup.tsx
 msgid "A property — or several: a cabin, a storage unit."
+msgstr ""
+
+#: src/Server.tsx
+msgid "A question reads up to about {reads} characters of your things and documents — {readsHowTo} for a how-to question, which leaves more room for the steps."
 msgstr ""
 
 #: src/Shares.tsx
@@ -2604,6 +2608,7 @@ msgid "Ask each time"
 msgstr ""
 
 #: src/Ask.tsx
+#: src/Server.tsx
 msgid "Ask Ferret"
 msgstr ""
 
@@ -2688,26 +2693,8 @@ msgstr ""
 msgid "baby monitor"
 msgstr ""
 
-#: src/AiFill.tsx
 #: src/App.tsx
-#: src/Collections.tsx
-#: src/Deleted.tsx
-#: src/Duplicates.tsx
-#: src/Gone.tsx
-#: src/Heirs.tsx
-#: src/Import.tsx
-#: src/ItemPage.tsx
-#: src/Labels.tsx
-#: src/Loans.tsx
-#: src/Paperless.tsx
-#: src/PayOff.tsx
-#: src/Providers.tsx
-#: src/Replacements.tsx
-#: src/RoomScan.tsx
-#: src/Shopping.tsx
-#: src/Tracking.tsx
-#: src/Walkthrough.tsx
-#: src/WarrantyList.tsx
+#: src/Nav.tsx
 msgid "Back"
 msgstr ""
 
@@ -2725,14 +2712,6 @@ msgstr ""
 
 #: src/Paperless.tsx
 msgid "Back to the inbox"
-msgstr ""
-
-#: src/Catalog.tsx
-#: src/Maintenance.tsx
-#: src/Places.tsx
-#: src/Report.tsx
-#: src/Settings.tsx
-msgid "Back to your stuff"
 msgstr ""
 
 #: src/Server.tsx
@@ -3450,6 +3429,10 @@ msgstr ""
 msgid "Contact person"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Context size"
+msgstr ""
+
 #: src/Security.tsx
 msgid "Continue"
 msgstr ""
@@ -3706,6 +3689,10 @@ msgstr ""
 
 #: src/Claims.tsx
 msgid "deductible, shipping…"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Default ({size})"
 msgstr ""
 
 #: src/lib/words.ts
@@ -5341,6 +5328,10 @@ msgstr ""
 
 #: src/Parts.tsx
 msgid "How many on hand"
+msgstr ""
+
+#: src/Server.tsx
+msgid "How much the answering model can read at once (its context size, in tokens). Set it to the context size its model server runs it with (each server has its own setting for it — see the help). Bigger reads more of a long manual for each question, and is slower; bigger than the model allows, and answers come back cut off or fail."
 msgstr ""
 
 #: src/Webhooks.tsx
