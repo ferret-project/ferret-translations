@@ -1451,6 +1451,10 @@ msgstr ""
 msgid "{saved} — each will be a \"New item\" to name."
 msgstr "{saved} — każde stanie się „New item” do nazwania."
 
+#: src/Server.tsx
+msgid "{size} tokens"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "{skip, plural, one {label} other {labels}}"
 msgstr ""
@@ -1649,10 +1653,6 @@ msgstr "<0>Pobierz do zgłoszenia szkody (CSV)</0>"
 #: src/ItemPage.tsx
 msgid "<0>Drag & drop or </0>choose files"
 msgstr "<0>Przeciągnij i upuść lub </0>wybierz pliki"
-
-#: src/ItemPage.tsx
-msgid "<0>Edit</0>"
-msgstr "<0>Edytuj</0>"
 
 #: src/Maintenance.tsx
 msgid "<0>Every</0>"
@@ -2124,6 +2124,12 @@ msgstr ""
 #: src/Setup.tsx
 msgid "A property — or several: a cabin, a storage unit."
 msgstr "Nieruchomość — albo kilka: domek, magazyn samoobsługowy."
+
+#: src/Server.tsx
+msgid ""
+"A question reads up to about {reads} characters of your things and documents "
+"— {readsHowTo} for a how-to question, which leaves more room for the steps."
+msgstr ""
 
 #: src/Shares.tsx
 msgid ""
@@ -3093,7 +3099,7 @@ msgstr "Zapytaj o tę rzecz"
 msgid "Ask each time"
 msgstr "Pytaj za każdym razem"
 
-#: src/Ask.tsx
+#: src/Ask.tsx src/Server.tsx
 msgid "Ask Ferret"
 msgstr "Zapytaj Ferret"
 
@@ -3184,11 +3190,7 @@ msgstr "Avery 5163 — 2″ × 4″, 10 sztuk na arkuszu (pudełka)"
 msgid "baby monitor"
 msgstr "elektroniczna niania"
 
-#: src/AiFill.tsx src/App.tsx src/Collections.tsx src/Deleted.tsx
-#: src/Duplicates.tsx src/Gone.tsx src/Heirs.tsx src/Import.tsx
-#: src/ItemPage.tsx src/Labels.tsx src/Loans.tsx src/Paperless.tsx
-#: src/PayOff.tsx src/Providers.tsx src/Replacements.tsx src/RoomScan.tsx
-#: src/Shopping.tsx src/Tracking.tsx src/Walkthrough.tsx src/WarrantyList.tsx
+#: src/App.tsx src/Nav.tsx
 msgid "Back"
 msgstr "Wstecz"
 
@@ -3209,11 +3211,6 @@ msgstr "Wróć do pulpitu"
 #| msgid "Back to the dashboard"
 msgid "Back to the inbox"
 msgstr "Wróć do pulpitu"
-
-#: src/Catalog.tsx src/Maintenance.tsx src/Places.tsx src/Report.tsx
-#: src/Settings.tsx
-msgid "Back to your stuff"
-msgstr "Wróć do swoich rzeczy"
 
 #: src/Server.tsx
 msgid "Back up now"
@@ -3928,6 +3925,12 @@ msgstr "Połącz"
 msgid "Contact person"
 msgstr "Osoba kontaktowa"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{contents} inside"
+msgid "Context size"
+msgstr "W środku: {contents}"
+
 #: src/Security.tsx
 msgid "Continue"
 msgstr "Kontynuuj"
@@ -4191,6 +4194,10 @@ msgstr "Załatwione"
 #: src/Claims.tsx
 msgid "deductible, shipping…"
 msgstr "udział własny, wysyłka…"
+
+#: src/Server.tsx
+msgid "Default ({size})"
+msgstr ""
 
 #: src/lib/words.ts
 msgid "dehumidifier"
@@ -5987,6 +5994,15 @@ msgstr "Ilość rzeczy {number}"
 #: src/Parts.tsx
 msgid "How many on hand"
 msgstr "Ile na stanie"
+
+#: src/Server.tsx
+msgid ""
+"How much the answering model can read at once (its context size, in tokens). "
+"Set it to the context size its model server runs it with (each server has "
+"its own setting for it — see the help). Bigger reads more of a long manual "
+"for each question, and is slower; bigger than the model allows, and answers "
+"come back cut off or fail."
+msgstr ""
 
 #: src/Webhooks.tsx
 #, fuzzy
@@ -12852,3 +12868,9 @@ msgstr "Powiększ"
 #: src/DocumentViewer.tsx src/PhotoViewer.tsx
 msgid "Zoom out"
 msgstr "Pomniejsz"
+
+#~ msgid "<0>Edit</0>"
+#~ msgstr "<0>Edytuj</0>"
+
+#~ msgid "Back to your stuff"
+#~ msgstr "Wróć do swoich rzeczy"
