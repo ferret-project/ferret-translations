@@ -5430,6 +5430,10 @@ msgstr ""
 msgid "How to restore"
 msgstr ""
 
+#: src/ItemPage.tsx
+msgid "How-to video"
+msgstr ""
+
 #: src/Videos.tsx
 msgid "How-to videos"
 msgstr ""
@@ -7478,6 +7482,10 @@ msgstr ""
 #. placeholder {0}: d.item.name
 #: src/Paperless.tsx
 msgid "On {0}"
+msgstr ""
+
+#: src/Videos.tsx
+msgid "On {thing}:"
 msgstr ""
 
 #: src/lib/origin.ts

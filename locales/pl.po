@@ -5998,6 +5998,12 @@ msgstr "Jak przywrócić"
 msgid "How to restore"
 msgstr "Jak przywrócić"
 
+#: src/ItemPage.tsx
+#, fuzzy
+#| msgid "This device"
+msgid "How-to video"
+msgstr "To urządzenie"
+
 #: src/Videos.tsx
 msgid "How-to videos"
 msgstr ""
@@ -8212,6 +8218,12 @@ msgstr "Włączone"
 #: src/Paperless.tsx
 msgid "On {0}"
 msgstr ""
+
+#: src/Videos.tsx
+#, fuzzy
+#| msgid "Tag {things}"
+msgid "On {thing}:"
+msgstr "Otaguj {things}"
 
 #: src/lib/origin.ts
 msgid "on a room walkthrough"
