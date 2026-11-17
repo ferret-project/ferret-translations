@@ -4314,6 +4314,10 @@ msgstr "Szczegóły do uzupełnienia"
 msgid "Devices"
 msgstr "Urządzenia"
 
+#: src/App.tsx
+msgid "Did you mean <0>{suggestion}</0>?"
+msgstr ""
+
 #: src/SpeakButton.tsx
 msgid "Didn't catch that — try again"
 msgstr "Nie dosłyszałem — spróbuj ponownie"
