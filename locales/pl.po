@@ -267,7 +267,7 @@ msgstr "· ostatnio {when}"
 
 #: src/DocumentViewer.tsx
 msgid "“{find}” isn't in this file's text — it may be a scan."
-msgstr ""
+msgstr "„{find}” nie występuje w tekście tego pliku — to może być skan."
 
 #: src/Replacements.tsx
 msgid "(an estimate)"
@@ -287,12 +287,10 @@ msgstr "(nie w tym planie)"
 
 #. placeholder {0}: matches.length
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# passage} other {# passages}}"
 msgid "{0, plural, one {“{find}” on page {page}} other {“{find}” on # pages}}"
 msgstr ""
-"{0, plural, one {# fragment} few {# fragmenty} many {# fragmentów} other {# "
-"fragmentu}}"
+"{0, plural, one {„{find}” na stronie {page}} few {„{find}” na # stronach} "
+"many {„{find}” na # stronach} other {„{find}” na # strony}}"
 
 #. placeholder {0}: p.aiActions
 #: src/PlanUsage.tsx
@@ -311,12 +309,10 @@ msgstr ""
 
 #. placeholder {0}: s.books
 #: src/Server.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# room} other {# rooms}}"
 msgid "{0, plural, one {# book found} other {# books found}}"
 msgstr ""
-"{0, plural, one {# pomieszczenie} few {# pomieszczenia} many {# pomieszczeń} "
-"other {# pomieszczenia}}"
+"{0, plural, one {Znaleziono # książkę} few {Znaleziono # książki} many "
+"{Znaleziono # książek} other {Znaleziono # książki}}"
 
 #. placeholder {0}: s.brands
 #: src/Server.tsx
@@ -355,12 +351,10 @@ msgstr ""
 
 #. placeholder {0}: hook.events.length
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# sheet} other {# sheets}}"
 msgid "{0, plural, one {# event} other {# events}}"
 msgstr ""
-"{0, plural, one {# arkusz} few {# arkusze} many {# arkuszy} other {# "
-"arkusza}}"
+"{0, plural, one {# zdarzenie} few {# zdarzenia} many {# zdarzeń} other {# "
+"zdarzenia}}"
 
 #. placeholder {0}: result.queued
 #: src/Everything.tsx
@@ -472,12 +466,10 @@ msgstr ""
 
 #. placeholder {0}: s.asked
 #: src/Server.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# column left out} other {# columns left out}}"
 msgid "{0, plural, one {# model asked about} other {# models asked about}}"
 msgstr ""
-"{0, plural, one {Pominięto # kolumnę} few {Pominięto # kolumny} many "
-"{Pominięto # kolumn} other {Pominięto # kolumny}}"
+"{0, plural, one {Sprawdzono # model} few {Sprawdzono # modele} many "
+"{Sprawdzono # modeli} other {Sprawdzono # modelu}}"
 
 #. placeholder {0}: Math.round(d / 30.4)
 #: src/Warranties.tsx
@@ -495,12 +487,10 @@ msgstr ""
 
 #. placeholder {0}: sync.data.added
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# document} other {# documents}}"
 msgid "{0, plural, one {# new document} other {# new documents}}"
 msgstr ""
-"{0, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other {# "
-"dokumentu}}"
+"{0, plural, one {# nowy dokument} few {# nowe dokumenty} many {# nowych "
+"dokumentów} other {# nowego dokumentu}}"
 
 #. placeholder {0}: r.placesCreated
 #: src/Import.tsx
@@ -686,35 +676,30 @@ msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
 
 #. placeholder {0}: d.attempts
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# time} other {# times}}"
 msgid "{0, plural, one {# try} other {# tries}}"
-msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
+msgstr "{0, plural, one {# próba} few {# próby} many {# prób} other {# próby}}"
 
 #. placeholder {0}: s.vehicles
 #: src/Server.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# device} other {# devices}}"
 msgid "{0, plural, one {# vehicle read} other {# vehicles read}}"
 msgstr ""
-"{0, plural, one {# urządzenie} few {# urządzenia} many {# urządzeń} other {# "
-"urządzenia}}"
+"{0, plural, one {Odczytano # pojazd} few {Odczytano # pojazdy} many "
+"{Odczytano # pojazdów} other {Odczytano # pojazdu}}"
 
 #. placeholder {0}: s.recalls
 #: src/Server.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# recall kept} other {# recalls kept}}"
 msgid "{0, plural, one {# vehicle recall kept} other {# vehicle recalls kept}}"
 msgstr ""
-"{0, plural, one {Zapisano # wycofanie} few {Zapisano # wycofania} many "
-"{Zapisano # wycofań} other {Zapisano # wycofania}}"
+"{0, plural, one {Zapisano # wycofanie pojazdów} few {Zapisano # wycofania "
+"pojazdów} many {Zapisano # wycofań pojazdów} other {Zapisano # wycofania "
+"pojazdów}}"
 
 #. placeholder {0}: s.found
 #: src/Server.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# time} other {# times}}"
 msgid "{0, plural, one {# with guides} other {# with guides}}"
-msgstr "{0, plural, one {# raz} few {# razy} many {# razy} other {# razy}}"
+msgstr ""
+"{0, plural, one {# z poradnikami} few {# z poradnikami} many {# z "
+"poradnikami} other {# z poradnikami}}"
 
 #. placeholder {0}: g.y.unpriced
 #: src/Replacements.tsx
@@ -1157,7 +1142,7 @@ msgstr "{householdName} — darowizny w {year}"
 
 #: src/Server.tsx
 msgid "{indexed} of {things} things embedded."
-msgstr ""
+msgstr "Osadzono {indexed} z {things} rzeczy."
 
 #: src/Overview.tsx
 msgid "{itemsWithoutValue} without a value"
@@ -1370,12 +1355,10 @@ msgid "{owner} lent it to you on {since}."
 msgstr "{owner} pożycza ci to od {since}."
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# passage} other {# passages}}"
 msgid "{pages, plural, one {# page} other {# pages}}"
 msgstr ""
-"{0, plural, one {# fragment} few {# fragmenty} many {# fragmentów} other {# "
-"fragmentu}}"
+"{pages, plural, one {# strona} few {# strony} many {# stron} other {# "
+"strony}}"
 
 #: src/PayOff.tsx
 msgid "{pct}% of the limit"
@@ -1453,7 +1436,7 @@ msgstr "{saved} — każde stanie się „New item” do nazwania."
 
 #: src/Server.tsx
 msgid "{size} tokens"
-msgstr ""
+msgstr "{size} tokenów"
 
 #: src/Labels.tsx
 msgid "{skip, plural, one {label} other {labels}}"
@@ -1625,6 +1608,7 @@ msgstr "<0>{name} — przywrócono.</0><1>Otwórz</1>"
 #: src/Connect.tsx
 msgid "<0>{name}</0> wants to use Ferret with your account, {email}."
 msgstr ""
+"<0>{name}</0> chce korzystać z Ferret przy użyciu twojego konta, {email}."
 
 #: src/Duplicates.tsx
 msgid "<0>Added {toLocaleDateString}</0>"
@@ -1963,6 +1947,10 @@ msgid ""
 "server, free, and not counted against any lookup allowance. Only the ISBN is "
 "sent."
 msgstr ""
+"Kod kreskowy książki to jej ISBN: po zeskanowaniu lub zapisaniu Ferret pyta "
+"Open Library (openlibrary.org) o tytuł, autora i okładkę — każdy raz dla "
+"całego serwera, bezpłatnie i bez wliczania do limitu wyszukiwań. Wysyłany "
+"jest tylko ISBN."
 
 #: src/PayOff.tsx
 msgid "A category"
@@ -2130,6 +2118,9 @@ msgid ""
 "A question reads up to about {reads} characters of your things and documents "
 "— {readsHowTo} for a how-to question, which leaves more room for the steps."
 msgstr ""
+"Pytanie czyta do około {reads} znaków z twoich rzeczy i dokumentów — "
+"{readsHowTo} przy pytaniu „jak to zrobić”, co zostawia więcej miejsca na "
+"kroki."
 
 #: src/Shares.tsx
 msgid ""
@@ -2143,7 +2134,7 @@ msgstr ""
 
 #: src/Webhooks.tsx
 msgid "A recall matches a thing"
-msgstr ""
+msgstr "Wycofanie produktu pasuje do rzeczy"
 
 #: src/Gone.tsx
 msgid ""
@@ -2157,7 +2148,7 @@ msgstr ""
 
 #: src/Webhooks.tsx
 msgid "A return window is closing"
-msgstr ""
+msgstr "Kończy się termin zwrotu"
 
 #: src/RoomScan.tsx
 msgid "a room"
@@ -2200,36 +2191,28 @@ msgid "A spreadsheet, or Home Assistant"
 msgstr "Arkusz albo Home Assistant"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Nothing has barcode"
 msgid "A thing is added"
-msgstr "Nic nie ma kodu kreskowego"
+msgstr "Dodano rzecz"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "That thing isn't here"
 msgid "A thing is changed"
-msgstr "Tej rzeczy tu nie ma"
+msgstr "Zmieniono rzecz"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Nothing deleted lately"
 msgid "A thing is deleted"
-msgstr "Ostatnio nic nie usunięto"
+msgstr "Usunięto rzecz"
 
 #: src/Webhooks.tsx
 msgid "A thing is gone (sold, given away, lost…)"
-msgstr ""
+msgstr "Rzeczy już nie ma (sprzedana, oddana, zgubiona…)"
 
 #: src/Invite.tsx
 msgid "a viewer (look and ask, no changes)"
 msgstr "osobę z podglądem (przegląda i pyta, bez zmian)"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Warranties to act on"
 msgid "A warranty ends within a month"
-msgstr "Gwarancje wymagające działania"
+msgstr "Gwarancja kończy się w ciągu miesiąca"
 
 #: src/Product.tsx src/Shopping.tsx
 msgid "About"
@@ -2396,20 +2379,16 @@ msgid "Add a task"
 msgstr "Dodaj zadanie"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "Add a provider"
 msgid "Add a video"
-msgstr "Dodaj usługodawcę"
+msgstr "Dodaj film"
 
 #: src/ItemPage.tsx
 msgid "Add a warranty"
 msgstr "Dodaj gwarancję"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Add a room"
 msgid "Add a webhook"
-msgstr "Dodaj pomieszczenie"
+msgstr "Dodaj webhook"
 
 #: src/Notifications.tsx
 msgid "Add an app"
@@ -2625,7 +2604,7 @@ msgstr "Dodaj limity swojej polisy"
 
 #: src/Connect.tsx
 msgid "Add, change and remove things there"
-msgstr ""
+msgstr "Dodawać, zmieniać i usuwać tam rzeczy"
 
 #: src/Security.tsx src/Videos.tsx src/Walkthrough.tsx
 msgid "Added"
@@ -2649,10 +2628,8 @@ msgstr "dodano {year}"
 
 #. placeholder {0}: d.item.name
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Added {step}"
 msgid "Added as {0}"
-msgstr "Dodano {step}"
+msgstr "Dodano jako {0}"
 
 #: src/lib/origin.ts
 msgid "Added by a script"
@@ -2671,10 +2648,8 @@ msgid "Added from a QR label"
 msgstr "Dodane z etykiety QR"
 
 #: src/lib/origin.ts
-#, fuzzy
-#| msgid "Add from a web address"
 msgid "Added from Paperless"
-msgstr "Dodaj z adresu internetowego"
+msgstr "Dodane z Paperless"
 
 #: src/lib/origin.ts
 msgid "Added from photos"
@@ -2694,7 +2669,7 @@ msgstr ""
 #. placeholder {0}: done.item.name
 #: src/Paperless.tsx
 msgid "Added to {0}, with its file."
-msgstr ""
+msgstr "Dodano do: {0}, razem z plikiem."
 
 #: src/PhotoAdd.tsx
 msgid "Adding {number} of {total}…"
@@ -2806,7 +2781,7 @@ msgstr "Wszystkie gwarancje"
 
 #: src/Connect.tsx
 msgid "Allow"
-msgstr ""
+msgstr "Zezwól"
 
 #: src/ImportCsv.tsx
 msgid "already in Ferret"
@@ -2855,6 +2830,8 @@ msgid ""
 "An address on the internet: only whoever runs this Ferret can connect it to "
 "one on its own network."
 msgstr ""
+"Adres w internecie: z adresem w swojej sieci może go połączyć tylko osoba "
+"prowadząca ten serwer Ferret."
 
 #: src/Invite.tsx
 msgid "an admin"
@@ -3026,10 +3003,8 @@ msgid "API reference"
 msgstr "Dokumentacja API"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "API key"
 msgid "API token"
-msgstr "Klucz API"
+msgstr "Token API"
 
 #: src/Overview.tsx
 msgid "app"
@@ -3068,6 +3043,8 @@ msgid ""
 "Apps you signed in to Ferret from, for {householdName}. Disconnecting one "
 "stops it at once."
 msgstr ""
+"Aplikacje, w których zalogowano się do Ferret, dla gospodarstwa "
+"{householdName}. Odłączenie aplikacji od razu odcina jej dostęp."
 
 #: src/ImportHomeAssistant.tsx
 msgid ""
@@ -3086,10 +3063,8 @@ msgid "As in the table"
 msgstr "Tak jak w tabeli"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Its settings page"
 msgid "As things change"
-msgstr "Jego strona ustawień"
+msgstr "Gdy rzeczy się zmieniają"
 
 #: src/Ask.tsx
 msgid "Ask about this item"
@@ -3149,17 +3124,15 @@ msgstr "w prawym górnym rogu"
 
 #: src/Paperless.tsx
 msgid "Attach"
-msgstr ""
+msgstr "Dołącz"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Add from a web address"
 msgid "Attach from Paperless"
-msgstr "Dodaj z adresu internetowego"
+msgstr "Dołącz z Paperless"
 
 #: src/Product.tsx
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: src/App.tsx src/ScanSession.tsx
 msgid "Auto"
@@ -3207,10 +3180,8 @@ msgid "Back to the dashboard"
 msgstr "Wróć do pulpitu"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Back to the dashboard"
 msgid "Back to the inbox"
-msgstr "Wróć do pulpitu"
+msgstr "Wróć do skrzynki"
 
 #: src/Server.tsx
 msgid "Back up now"
@@ -3297,10 +3268,8 @@ msgid "boiler"
 msgstr "kocioł"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Barcode lookups"
 msgid "Book look-ups"
-msgstr "Wyszukiwania kodów kreskowych"
+msgstr "Wyszukiwanie książek"
 
 #: src/Loans.tsx
 msgid "Borrowed"
@@ -3546,16 +3515,12 @@ msgid "Change"
 msgstr "Zmień"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "In {name}"
 msgid "Change {name}"
-msgstr "W {name}"
+msgstr "Zmień {name}"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Change"
 msgid "Change…"
-msgstr "Zmień"
+msgstr "Zmień…"
 
 #: src/ImportHomeAssistant.tsx
 msgid "Changed in Home Assistant since the last import"
@@ -3776,6 +3741,8 @@ msgid ""
 "Clear the index and embed all {things} things again? Until it's done, smart "
 "search finds only the things already embedded."
 msgstr ""
+"Wyczyścić indeks i ponownie osadzić wszystkie rzeczy ({things})? Do końca "
+"inteligentne wyszukiwanie znajdzie tylko rzeczy już osadzone."
 
 #: src/Search.tsx
 msgid "Clear the search"
@@ -3878,10 +3845,8 @@ msgid "Connect"
 msgstr "Połącz"
 
 #: src/Connect.tsx
-#, fuzzy
-#| msgid "Select {name}"
 msgid "Connect {name}"
-msgstr "Zaznacz {name}"
+msgstr "Połącz {name}"
 
 #: src/Settings.tsx
 msgid "Connect Claude"
@@ -3892,44 +3857,37 @@ msgid "Connect Claude Code with it:"
 msgstr "Połącz z nią Claude Code:"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Reminder settings"
 msgid "Connect in Settings"
-msgstr "Ustawienia przypomnień"
+msgstr "Połącz w Ustawieniach"
 
 #: src/Paperless.tsx
 msgid ""
 "Connect your Paperless-ngx and tag receipts and manuals there for Ferret: "
 "each one comes here, to add as a new thing or put on one you have."
 msgstr ""
+"Połącz swój Paperless-ngx i oznaczaj tam paragony oraz instrukcje dla "
+"Ferret: każdy trafi tutaj, by dodać go jako nową rzecz albo dołączyć do tej, "
+"którą masz."
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Connect"
 msgid "Connect…"
-msgstr "Połącz"
+msgstr "Połącz…"
 
 #: src/Settings.tsx
-#, fuzzy
-#| msgid "Done {date}"
 msgid "connected {date}"
-msgstr "Zrobione {date}"
+msgstr "połączono {date}"
 
 #: src/Settings.tsx
-#, fuzzy
-#| msgid "Connect"
 msgid "Connected apps"
-msgstr "Połącz"
+msgstr "Połączone aplikacje"
 
 #: src/Providers.tsx
 msgid "Contact person"
 msgstr "Osoba kontaktowa"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "{contents} inside"
 msgid "Context size"
-msgstr "W środku: {contents}"
+msgstr "Rozmiar kontekstu"
 
 #: src/Security.tsx
 msgid "Continue"
@@ -3942,7 +3900,7 @@ msgstr "Skopiowano"
 
 #: src/Paperless.tsx
 msgid "Copied into Ferret, with a link back"
-msgstr ""
+msgstr "Kopiowane do Ferret, z linkiem do oryginału"
 
 #: src/Server.tsx
 msgid "Copies kept"
@@ -3965,10 +3923,8 @@ msgid "Copy details"
 msgstr "Kopiuj szczegóły"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Not a place in Ferret"
 msgid "Copy files into Ferret"
-msgstr "Nie ma takiego miejsca w Ferret"
+msgstr "Kopiuj pliki do Ferret"
 
 #: src/Listing.tsx
 msgid "Copy it all"
@@ -4026,10 +3982,8 @@ msgid "Couldn't confirm it just now — try again."
 msgstr "Nie udało się tego teraz potwierdzić — spróbuj jeszcze raz."
 
 #: src/Connect.tsx
-#, fuzzy
-#| msgid "Couldn't make the crop"
 msgid "Couldn't connect the app"
-msgstr "Nie udało się przyciąć"
+msgstr "Nie udało się połączyć aplikacji"
 
 #: src/lib/challenge.ts
 msgid "Couldn't finish the check — try again"
@@ -4048,10 +4002,8 @@ msgid "Couldn't make the crop"
 msgstr "Nie udało się przyciąć"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Couldn't make the crop"
 msgid "Couldn't open this file."
-msgstr "Nie udało się przyciąć"
+msgstr "Nie udało się otworzyć tego pliku."
 
 #: src/Scanner.tsx
 msgid "Couldn't read barcodes here: {error}"
@@ -4197,7 +4149,7 @@ msgstr "udział własny, wysyłka…"
 
 #: src/Server.tsx
 msgid "Default ({size})"
-msgstr ""
+msgstr "Domyślny ({size})"
 
 #: src/lib/words.ts
 msgid "dehumidifier"
@@ -4268,14 +4220,12 @@ msgstr ""
 "dokumentami, gwarancjami i konserwacją, a potem znikają na dobre."
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Covered"
 msgid "Delivered"
-msgstr "Objęte gwarancją"
+msgstr "Dostarczono"
 
 #: src/Webhooks.tsx
 msgid "Delivered — answered {status}"
-msgstr ""
+msgstr "Dostarczono — odpowiedź {status}"
 
 #: src/Demo.tsx
 msgid "Demo"
@@ -4316,7 +4266,7 @@ msgstr "Urządzenia"
 
 #: src/App.tsx
 msgid "Did you mean <0>{suggestion}</0>?"
-msgstr ""
+msgstr "Czy chodziło o <0>{suggestion}</0>?"
 
 #: src/SpeakButton.tsx
 msgid "Didn't catch that — try again"
@@ -4335,26 +4285,20 @@ msgid "Discard scan"
 msgstr "Odrzuć skan"
 
 #: src/Paperless.tsx src/Settings.tsx
-#, fuzzy
-#| msgid "Connect"
 msgid "Disconnect"
-msgstr "Połącz"
+msgstr "Odłącz"
 
 #: src/Settings.tsx
-#, fuzzy
-#| msgid "Use one {name}"
 msgid "Disconnect {name}"
-msgstr "Zużyj jedną sztukę: {name}"
+msgstr "Odłącz {name}"
 
 #: src/Paperless.tsx
 msgid "Disconnect? Files already copied stay on their things."
-msgstr ""
+msgstr "Odłączyć? Pliki już skopiowane zostaną przy swoich rzeczach."
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Connect"
 msgid "Disconnect…"
-msgstr "Połącz"
+msgstr "Odłącz…"
 
 #: src/lib/words.ts
 msgid "dishwasher"
@@ -4367,10 +4311,8 @@ msgid "Dismiss"
 msgstr "Odrzuć"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Dismiss"
 msgid "Dismissed"
-msgstr "Odrzuć"
+msgstr "Odrzucone"
 
 #: src/Labels.tsx
 msgid "DK-11204 — 17 × 54 mm (multi-purpose)"
@@ -4417,12 +4359,17 @@ msgid ""
 "Documents with this tag in Paperless come to Ferret's inbox. Make the tag in "
 "Paperless first."
 msgstr ""
+"Dokumenty z tym tagiem w Paperless trafiają do skrzynki Ferret. Najpierw "
+"utwórz ten tag w Paperless."
 
 #: src/Paperless.tsx
 msgid ""
 "Documents you tag in your Paperless come to Ferret, to add as new things or "
 "put on ones you have. Ferret only reads Paperless."
 msgstr ""
+"Dokumenty oznaczone w twoim Paperless trafiają do Ferret, by dodać je jako "
+"nowe rzeczy albo dołączyć do tych, które masz. Ferret tylko czyta z "
+"Paperless."
 
 #: src/Loans.tsx
 msgid "Don't"
@@ -4479,10 +4426,8 @@ msgid "Done {date}"
 msgstr "Zrobione {date}"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "Done on"
 msgid "Done adding"
-msgstr "Data wykonania"
+msgstr "Gotowe"
 
 #: src/Maintenance.tsx
 msgid "Done before"
@@ -4679,10 +4624,8 @@ msgid "e.g. My phone (ntfy)"
 msgstr "np. Mój telefon (ntfy)"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "e.g. Coin"
 msgid "e.g. n8n"
-msgstr "np. Moneta"
+msgstr "np. n8n"
 
 #: src/Catalog.tsx
 msgid "e.g. Power tools"
@@ -4835,12 +4778,17 @@ msgid ""
 "it's done, smart search finds only the things already embedded; keyword "
 "search works as usual."
 msgstr ""
+"Ponowne osadzanie wszystkiego, bo indeks utworzył {before}. Do końca "
+"inteligentne wyszukiwanie znajdzie tylko rzeczy już osadzone; wyszukiwanie "
+"po słowach działa jak zwykle."
 
 #: src/Server.tsx
 msgid ""
 "Embedding everything again. Until it's done, smart search finds only the "
 "things already embedded; keyword search works as usual."
 msgstr ""
+"Ponowne osadzanie wszystkiego. Do końca inteligentne wyszukiwanie znajdzie "
+"tylko rzeczy już osadzone; wyszukiwanie po słowach działa jak zwykle."
 
 #: src/Boxes.tsx
 msgid "Empty."
@@ -4912,6 +4860,9 @@ msgid ""
 "Give it to the receiver so it can check a delivery really came from this "
 "Ferret."
 msgstr ""
+"Każda dostawa jest podpisana tym sekretem (nagłówek Ferret-Signature). "
+"Przekaż go odbiorcy, by mógł sprawdzić, że dostawa naprawdę pochodzi z tego "
+"Ferret."
 
 #: src/App.tsx
 msgid "Every device was signed out. Sign in with the new one."
@@ -5154,12 +5105,16 @@ msgid ""
 "Ferret can't check an app's name. Only allow this if you just asked {name} "
 "to connect — it sends you back to <0>{host}</0>."
 msgstr ""
+"Ferret nie może sprawdzić nazwy aplikacji. Zezwól tylko, jeśli właśnie "
+"poproszono {name} o połączenie — odeśle cię do <0>{host}</0>."
 
 #: src/Connect.tsx
 msgid ""
 "Ferret can't check an app's name. Only allow this if you just asked {name} "
 "to connect."
 msgstr ""
+"Ferret nie może sprawdzić nazwy aplikacji. Zezwól tylko, jeśli właśnie "
+"poproszono {name} o połączenie."
 
 #: src/Loans.tsx
 msgid ""
@@ -5208,6 +5163,9 @@ msgid ""
 "store changes. Re-index everything is for a change it can't see, like new "
 "weights under the same model name."
 msgstr ""
+"Ferret sam osadza wszystko ponownie, gdy zmieni się EMBED_MODEL lub baza "
+"wektorów. „Zaindeksuj wszystko ponownie” jest na zmianę, której nie widzi, "
+"np. nowe wagi pod tą samą nazwą modelu."
 
 #: src/App.tsx src/Nav.tsx
 msgid "Ferret home"
@@ -5230,12 +5188,18 @@ msgid ""
 "Ferret POSTs JSON here — an address on the internet. The address is kept "
 "encrypted and only its host is shown again."
 msgstr ""
+"Ferret wysyła tu JSON metodą POST — na adres w internecie. Adres jest "
+"przechowywany w postaci zaszyfrowanej, a później pokazywany jest tylko jego "
+"host."
 
 #: src/Webhooks.tsx
 msgid ""
 "Ferret POSTs JSON here. It can be on this server's own network (n8n, Home "
 "Assistant). The address is kept encrypted and only its host is shown again."
 msgstr ""
+"Ferret wysyła tu JSON metodą POST. Adres może być w sieci tego serwera (n8n, "
+"Home Assistant). Jest przechowywany w postaci zaszyfrowanej, a później "
+"pokazywany jest tylko jego host."
 
 #: src/ImportHomeAssistant.tsx
 msgid ""
@@ -5253,6 +5217,8 @@ msgid ""
 "Ferret reads them for details and keeps them in its backups. Off: things "
 "only get a link to the document in Paperless."
 msgstr ""
+"Ferret odczytuje z nich szczegóły i trzyma je w swoich kopiach zapasowych. "
+"Wyłączone: rzeczy dostają tylko link do dokumentu w Paperless."
 
 #: src/App.tsx
 msgid "Ferret remembers it: next time anyone scans this code, it knows."
@@ -5309,10 +5275,8 @@ msgid "Field type"
 msgstr "Typ pola"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Filed"
 msgid "File"
-msgstr "Zgłoszona"
+msgstr "Plik"
 
 #: src/Server.tsx
 msgid "File (.p12, .pfx)"
@@ -5347,10 +5311,8 @@ msgid "Filed on"
 msgstr "Zgłoszona dnia"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Filed"
 msgid "Files"
-msgstr "Zgłoszona"
+msgstr "Pliki"
 
 #: src/Server.tsx
 msgid ""
@@ -5421,7 +5383,7 @@ msgstr "Znajdź wszystko, co masz."
 
 #: src/Videos.tsx
 msgid "Find one on YouTube"
-msgstr ""
+msgstr "Znajdź film na YouTube"
 
 #: src/RoomScan.tsx
 msgid "Find things"
@@ -5429,7 +5391,7 @@ msgstr "Znajdź rzeczy"
 
 #: src/DocumentViewer.tsx
 msgid "Finding “{find}”…"
-msgstr ""
+msgstr "Szukam „{find}”…"
 
 #: src/Tracking.tsx
 msgid "Finish now"
@@ -5623,10 +5585,8 @@ msgid "From {source} — check before applying."
 msgstr "Z {source} — sprawdź przed zastosowaniem."
 
 #: src/lib/origin.ts
-#, fuzzy
-#| msgid "from a spreadsheet"
 msgid "from a Paperless document"
-msgstr "z arkusza"
+msgstr "z dokumentu w Paperless"
 
 #: src/lib/origin.ts
 msgid "from a QR label"
@@ -5665,14 +5625,12 @@ msgid "from its manual"
 msgstr "z jej instrukcji"
 
 #: src/Product.tsx
-#, fuzzy
-#| msgid "From {source} — check before applying."
 msgid "From NHTSA's VIN decoder ({vin}) — check before applying."
-msgstr "Z {source} — sprawdź przed zastosowaniem."
+msgstr "Z dekodera VIN NHTSA ({vin}) — sprawdź przed zastosowaniem."
 
 #: src/Nav.tsx src/Paperless.tsx
 msgid "From Paperless"
-msgstr ""
+msgstr "Z Paperless"
 
 #: src/Offline.tsx
 msgid "From photos"
@@ -5695,10 +5653,8 @@ msgid "From the UPCitemdb product database"
 msgstr "Z bazy danych produktów UPCitemdb"
 
 #: src/Product.tsx
-#, fuzzy
-#| msgid "From the barcode"
 msgid "From the VIN"
-msgstr "Z kodu kreskowego"
+msgstr "Z numeru VIN"
 
 #: src/Shopping.tsx
 msgid "From what each cost last time, where it's known."
@@ -5773,10 +5729,8 @@ msgstr ""
 "w środku. Możesz przerwać i wrócić później — każdy z domowników też."
 
 #: src/Connect.tsx
-#, fuzzy
-#| msgid "Back to Ferret"
 msgid "Go to Ferret"
-msgstr "Wróć do Ferret"
+msgstr "Przejdź do Ferret"
 
 #: src/Invite.tsx
 msgid "Go to sign in"
@@ -6007,26 +5961,27 @@ msgid ""
 "for each question, and is slower; bigger than the model allows, and answers "
 "come back cut off or fail."
 msgstr ""
+"Ile model odpowiadający może przeczytać naraz (rozmiar kontekstu, w "
+"tokenach). Ustaw taki, z jakim uruchamia go serwer modelu (każdy serwer ma "
+"na to własne ustawienie — zobacz pomoc). Większy czyta więcej z długiej "
+"instrukcji przy każdym pytaniu i działa wolniej; większy, niż model pozwala, "
+"a odpowiedzi będą ucięte albo się nie udadzą."
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "How to restore"
 msgid "How to check the signature"
-msgstr "Jak przywrócić"
+msgstr "Jak sprawdzić podpis"
 
 #: src/Server.tsx
 msgid "How to restore"
 msgstr "Jak przywrócić"
 
 #: src/ItemPage.tsx
-#, fuzzy
-#| msgid "This device"
 msgid "How-to video"
-msgstr "To urządzenie"
+msgstr "Film instruktażowy"
 
 #: src/Videos.tsx
 msgid "How-to videos"
-msgstr ""
+msgstr "Filmy instruktażowe"
 
 #: src/lib/words.ts
 msgid "humidifier"
@@ -6170,6 +6125,9 @@ msgid ""
 "custom connector: it asks you to sign in to Ferret and pick a household — no "
 "key needed."
 msgstr ""
+"W claude.ai (lub innej aplikacji, która dodaje serwery MCP po adresie) dodaj "
+"go jako własny konektor: poprosi o zalogowanie do Ferret i wybranie "
+"gospodarstwa domowego — klucz nie jest potrzebny."
 
 #: src/Files.tsx
 msgid "In documents"
@@ -6199,6 +6157,8 @@ msgid ""
 "In Paperless: your name → My profile → API auth token. A Paperless user who "
 "can only view documents is enough."
 msgstr ""
+"W Paperless: twoja nazwa → Mój profil → token uwierzytelniania API. "
+"Wystarczy użytkownik Paperless, który może tylko przeglądać dokumenty."
 
 #: src/Claims.tsx
 msgid "In progress"
@@ -6338,7 +6298,7 @@ msgstr ""
 
 #: src/Connect.tsx
 msgid "It can use <0>{household}</0>."
-msgstr ""
+msgstr "Może korzystać z <0>{household}</0>."
 
 #: src/Claims.tsx
 msgid "It cost us"
@@ -6521,10 +6481,8 @@ msgid "its collection"
 msgstr "jej kolekcja"
 
 #: src/Product.tsx
-#, fuzzy
-#| msgid "Product photos — tap one to add it"
 msgid "Its cover — tap to add it"
-msgstr "Zdjęcia produktu — dotknij jednego, aby je dodać"
+msgstr "Okładka — dotknij, aby ją dodać"
 
 #: src/Collections.tsx
 msgid "Its name"
@@ -6555,10 +6513,8 @@ msgid "Its settings page"
 msgstr "Jego strona ustawień"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Nothing deleted lately"
 msgid "Its thing was deleted"
-msgstr "Ostatnio nic nie usunięto"
+msgstr "Jego rzecz została usunięta"
 
 #: src/PayOff.tsx
 msgid "Jewelry & watches"
@@ -6737,10 +6693,8 @@ msgid "Last changed"
 msgstr "Ostatnia zmiana"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Last changed"
 msgid "Last checked"
-msgstr "Ostatnia zmiana"
+msgstr "Ostatnio sprawdzono"
 
 #: src/ItemPage.tsx
 msgid "last day"
@@ -6759,10 +6713,8 @@ msgid "Last seen"
 msgstr "Ostatnio widziane"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Last seen"
 msgid "Last sent {when}"
-msgstr "Ostatnio widziane"
+msgstr "Ostatnio wysłano {when}"
 
 #: src/Settings.tsx
 msgid "last used {date}"
@@ -6786,11 +6738,11 @@ msgstr "Opuść"
 
 #: src/Webhooks.tsx
 msgid "Leave blank to keep {host}"
-msgstr ""
+msgstr "Zostaw puste, aby zachować {host}"
 
 #: src/Paperless.tsx
 msgid "Leave empty to keep the one saved"
-msgstr ""
+msgstr "Zostaw puste, aby zachować zapisany"
 
 #: src/Maintenance.tsx
 msgid "Leave empty:"
@@ -6872,10 +6824,8 @@ msgstr ""
 "możesz go w każdej chwili unieważnić."
 
 #: src/Connect.tsx
-#, fuzzy
-#| msgid "Adds and changes things"
 msgid "Let it add and change things"
-msgstr "Dodaje i zmienia rzeczy"
+msgstr "Pozwól dodawać i zmieniać rzeczy"
 
 #: src/App.tsx
 msgid "Light"
@@ -6912,15 +6862,13 @@ msgid "Link {number} label"
 msgstr "Etykieta linku {number}"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Filed on"
 msgid "Linked only"
-msgstr "Zgłoszona dnia"
+msgstr "Tylko link"
 
 #. placeholder {0}: done.item.name
 #: src/Paperless.tsx
 msgid "Linked to {0}."
-msgstr ""
+msgstr "Podlinkowano do: {0}."
 
 #: src/Links.tsx
 msgid "Links"
@@ -6934,6 +6882,11 @@ msgid ""
 "once a month; nothing else is. Ferret only links to iFixit and never copies "
 "its guides."
 msgstr ""
+"Łączy rzecz ze stroną iFixit dla jej dokładnego modelu — poradniki naprawy, "
+"części i rozwiązywanie problemów — gdy marka i model na pewno do niej "
+"pasują. Aby ją znaleźć, marka i model są wysyłane do wyszukiwarki iFixit "
+"(ifixit.com), każde najwyżej raz w miesiącu; nic więcej. Ferret tylko "
+"linkuje do iFixit i nigdy nie kopiuje jego poradników."
 
 #: src/Everything.tsx src/Maintenance.tsx
 msgid "List"
@@ -7077,16 +7030,12 @@ msgid "Maintenance by use"
 msgstr "Konserwacja według użycia"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Maintenance by use"
 msgid "Maintenance is due within a week"
-msgstr "Konserwacja według użycia"
+msgstr "Konserwacja przypada w ciągu tygodnia"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Maintenance by use"
 msgid "Maintenance is overdue"
-msgstr "Konserwacja według użycia"
+msgstr "Konserwacja jest zaległa"
 
 #: src/Server.tsx
 msgid "Make {trim} the server admin?"
@@ -7110,7 +7059,7 @@ msgstr ""
 
 #: src/Webhooks.tsx
 msgid "Make a new secret? The old one keeps working for a day."
-msgstr ""
+msgstr "Utworzyć nowy sekret? Stary będzie działał jeszcze przez dzień."
 
 #: src/PhotoCrop.tsx
 msgid "Make it the main photo"
@@ -7410,10 +7359,8 @@ msgid "New reading ({unit}"
 msgstr "Nowy odczyt ({unit}"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "New service provider"
 msgid "New secret"
-msgstr "Nowy usługodawca"
+msgstr "Nowy sekret"
 
 #: src/Providers.tsx
 msgid "New service provider"
@@ -7424,16 +7371,12 @@ msgid "New template"
 msgstr "Nowy szablon"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Open the document"
 msgid "New thing from a document"
-msgstr "Otwórz dokument"
+msgstr "Nowa rzecz z dokumentu"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "the thing"
 msgid "New thing…"
-msgstr "ta rzecz"
+msgstr "Nowa rzecz…"
 
 #: src/Everything.tsx
 msgid "Newest"
@@ -7456,10 +7399,8 @@ msgid "Next month"
 msgstr "Następny miesiąc"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Dealt with it"
 msgid "Next page with it"
-msgstr "Załatwione"
+msgstr "Następna strona z tym"
 
 #: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Next photo"
@@ -7467,7 +7408,7 @@ msgstr "Następne zdjęcie"
 
 #: src/Product.tsx
 msgid "NHTSA couldn't read VIN {vin} — check it for a typo."
-msgstr ""
+msgstr "NHTSA nie odczytała numeru VIN {vin} — sprawdź, czy nie ma literówki."
 
 #: src/Repairs.tsx
 msgid "No"
@@ -7482,6 +7423,8 @@ msgid ""
 "No apps connected to {householdName}. An app you connect is listed under the "
 "household you picked for it."
 msgstr ""
+"Brak aplikacji połączonych z {householdName}. Połączona aplikacja jest "
+"widoczna przy gospodarstwie domowym, które dla niej wybrano."
 
 #: src/Server.tsx
 msgid "No backup has reported yet."
@@ -7679,7 +7622,7 @@ msgstr "Brak wartości ani ceny"
 
 #: src/Videos.tsx
 msgid "No videos found. Try other words."
-msgstr ""
+msgstr "Nie znaleziono filmów. Spróbuj innych słów."
 
 #: src/Demo.tsx
 msgid "No visits yet. Links with ?ref= show here."
@@ -7746,7 +7689,7 @@ msgstr ""
 #: src/Webhooks.tsx
 msgid ""
 "None yet. Add the address of an n8n or Home Assistant webhook, or your own."
-msgstr ""
+msgstr "Na razie brak. Dodaj adres webhooka n8n, Home Assistant albo własnego."
 
 #: src/Shares.tsx
 msgid ""
@@ -7793,10 +7736,8 @@ msgid "Not decided yet"
 msgstr "Jeszcze nie wiadomo"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Not needed"
 msgid "Not delivered"
-msgstr "Niepotrzebne"
+msgstr "Nie dostarczono"
 
 #: src/Household.tsx
 msgid "Not emailed — send them the link yourself"
@@ -7899,10 +7840,8 @@ msgid "Not set up on this server yet (it needs VAPID keys)."
 msgstr "Jeszcze nieskonfigurowane na tym serwerze (potrzebne są klucze VAPID)."
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Not set"
 msgid "Not sure yet"
-msgstr "Nie ustawiono"
+msgstr "Jeszcze nie wiem"
 
 #: src/Import.tsx
 msgid "Not what you wanted? Undo it under Import → Recent imports."
@@ -7913,14 +7852,12 @@ msgid "Not worth keeping"
 msgstr "Niewarte zapisywania"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Not set"
 msgid "Not yet"
-msgstr "Nie ustawiono"
+msgstr "Jeszcze nie"
 
 #: src/Connect.tsx
 msgid "Not your other households, your password or your settings"
-msgstr ""
+msgstr "Bez dostępu do innych gospodarstw domowych, hasła ani ustawień"
 
 #: src/Gone.tsx src/Loans.tsx src/Maintenance.tsx src/PayOff.tsx
 msgid "Note"
@@ -8012,10 +7949,8 @@ msgid "Nothing in it yet — add the first one."
 msgstr "Na razie nic tu nie ma — dodaj pierwszą."
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "No place matches that"
 msgid "Nothing in Paperless matches that."
-msgstr "Żadne miejsce do tego nie pasuje"
+msgstr "Nic w Paperless do tego nie pasuje."
 
 #: src/ItemSearch.tsx
 msgid "Nothing in this item's documents, warranties or notes says “{q}”."
@@ -8065,10 +8000,8 @@ msgid "Nothing new"
 msgstr "Nic nowego"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Nothing new to import"
 msgid "Nothing new in Paperless."
-msgstr "Nie ma nic nowego do zaimportowania"
+msgstr "Nic nowego w Paperless."
 
 #: src/Import.tsx
 msgid "Nothing new to import"
@@ -8098,16 +8031,12 @@ msgstr ""
 "potrzebuje."
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Nothing here yet"
 msgid "Nothing sent yet"
-msgstr "Na razie tu nic nie ma"
+msgstr "Na razie nic nie wysłano"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Nothing here yet"
 msgid "Nothing sorted yet."
-msgstr "Na razie tu nic nie ma"
+msgstr "Na razie nic nie posortowano."
 
 #: src/Everything.tsx
 msgid "Nothing there was waiting to be read"
@@ -8134,11 +8063,15 @@ msgid ""
 "Nothing to sort. Tag a document in Paperless and it comes here within ten "
 "minutes."
 msgstr ""
+"Nie ma nic do posortowania. Oznacz dokument w Paperless, a pojawi się tu w "
+"ciągu dziesięciu minut."
 
 #: src/Connect.tsx
 msgid ""
 "Nothing was connected. To connect an app, start again from the app itself."
 msgstr ""
+"Nic nie połączono. Aby połączyć aplikację, zacznij jeszcze raz w samej "
+"aplikacji."
 
 #: src/Gone.tsx
 msgid "Nothing was marked donated in this year."
@@ -8205,14 +8138,8 @@ msgid "Off"
 msgstr "Wyłączone"
 
 #: src/Connect.tsx
-#, fuzzy
-#| msgid ""
-#| "<0>Read-only</0><1>Can search and ask, but not add, change or remove "
-#| "anything.</1>"
 msgid "Off: it can search and ask, but not add, change or remove anything."
-msgstr ""
-"<0>Tylko do odczytu</0><1>Może szukać i pytać, ale nie dodawać, zmieniać ani "
-"usuwać.</1>"
+msgstr "Wyłączone: może szukać i pytać, ale nie dodawać, zmieniać ani usuwać."
 
 #: src/Offline.tsx
 msgid "Offline"
@@ -8237,13 +8164,11 @@ msgstr "Włączone"
 #. placeholder {0}: d.item.name
 #: src/Paperless.tsx
 msgid "On {0}"
-msgstr ""
+msgstr "Przy: {0}"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "Tag {things}"
 msgid "On {thing}:"
-msgstr "Otaguj {things}"
+msgstr "Przy rzeczy {thing}:"
 
 #: src/lib/origin.ts
 msgid "on a room walkthrough"
@@ -8323,10 +8248,8 @@ msgstr ""
 "Albo wpisz ten klucz:"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "the thing"
 msgid "On this thing"
-msgstr "ta rzecz"
+msgstr "Przy tej rzeczy"
 
 #: src/Reminders.tsx
 msgid ""
@@ -8427,48 +8350,36 @@ msgid "Open"
 msgstr "Otwórz"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "In {name}"
 msgid "Open {name}"
-msgstr "W {name}"
+msgstr "Otwórz {name}"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "In {name}"
 msgid "Open {name} in a new tab"
-msgstr "W {name}"
+msgstr "Otwórz {name} w nowej karcie"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "Mark {title} done"
 msgid "Open {title} on YouTube"
-msgstr "Oznacz „{title}” jako zrobione"
+msgstr "Otwórz „{title}” na YouTube"
 
 #: src/Labels.tsx
 msgid "Open a box or place to print its label."
 msgstr "Otwórz pudełko lub miejsce, aby wydrukować jego etykietę."
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Open in Maps"
 msgid "Open in a new tab"
-msgstr "Otwórz w Mapach"
+msgstr "Otwórz w nowej karcie"
 
 #: src/ItemPage.tsx
-#, fuzzy
-#| msgid "Home Assistant"
 msgid "Open in Home Assistant"
-msgstr "Home Assistant"
+msgstr "Otwórz w Home Assistant"
 
 #: src/Browse.tsx
 msgid "Open in Maps"
 msgstr "Otwórz w Mapach"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Open in Maps"
 msgid "Open in Paperless"
-msgstr "Otwórz w Mapach"
+msgstr "Otwórz w Paperless"
 
 #: src/Security.tsx
 msgid "Open in your authenticator app"
@@ -8480,17 +8391,15 @@ msgstr "Otwórz"
 
 #: src/Videos.tsx
 msgid "Open on YouTube"
-msgstr ""
+msgstr "Otwórz na YouTube"
 
 #: src/ItemSearch.tsx
 msgid "Open the document"
 msgstr "Otwórz dokument"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Open the photo"
 msgid "Open the inbox"
-msgstr "Otwórz zdjęcie"
+msgstr "Otwórz skrzynkę"
 
 #: src/FileThumb.tsx
 msgid "Open the original"
@@ -8521,10 +8430,8 @@ msgid "Open your browser's menu and tap {SHARE}"
 msgstr "Otwórz menu przeglądarki i dotknij {SHARE}"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Importing…"
 msgid "Opening…"
-msgstr "Importowanie…"
+msgstr "Otwieranie…"
 
 #: src/Reminders.tsx
 msgid "Opens your Calendar app, which asks to subscribe — say yes."
@@ -8556,7 +8463,7 @@ msgstr ""
 
 #: src/Videos.tsx
 msgid "Or paste a YouTube link"
-msgstr ""
+msgstr "Albo wklej link do YouTube"
 
 #: src/Server.tsx
 msgid "Or paste it"
@@ -8615,16 +8522,12 @@ msgid "Owner"
 msgstr "Właściciel"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Part number"
 msgid "Page {number}"
-msgstr "Numer części"
+msgstr "Strona {number}"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "In {name}"
 msgid "page {page}"
-msgstr "W {name}"
+msgstr "strona {page}"
 
 #: src/Everything.tsx
 msgid "Pages"
@@ -8648,21 +8551,19 @@ msgstr "Kody parowania"
 
 #: src/AttentionBell.tsx
 msgid "Paperless"
-msgstr ""
+msgstr "Paperless"
 
 #: src/Paperless.tsx
 msgid "Paperless isn't connected"
-msgstr ""
+msgstr "Paperless nie jest połączony"
 
 #: src/Import.tsx src/Paperless.tsx
 msgid "Paperless-ngx"
-msgstr ""
+msgstr "Paperless-ngx"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Street address"
 msgid "Paperless's address"
-msgstr "Ulica i numer"
+msgstr "Adres Paperless"
 
 #: src/Parts.tsx
 msgid "Part no. {model}"
@@ -8742,11 +8643,11 @@ msgstr "Wklej go, potem <0>Subskrybuj</0> i <1>OK</1>"
 
 #: src/Webhooks.tsx
 msgid "Pause"
-msgstr ""
+msgstr "Wstrzymaj"
 
 #: src/Webhooks.tsx
 msgid "Paused"
-msgstr ""
+msgstr "Wstrzymany"
 
 #: src/Reminders.tsx
 msgid ""
@@ -8867,10 +8768,8 @@ msgstr ""
 "Wyłączone: tylko lista.</0>"
 
 #: src/Connect.tsx
-#, fuzzy
-#| msgid "Switch household"
 msgid "Pick a household first."
-msgstr "Zmień gospodarstwo domowe"
+msgstr "Najpierw wybierz gospodarstwo domowe."
 
 #: src/ImportHomeAssistant.tsx src/Tracking.tsx
 msgid "Pick a place"
@@ -8980,10 +8879,8 @@ msgid "Previous month"
 msgstr "Poprzedni miesiąc"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Previous photo"
 msgid "Previous page with it"
-msgstr "Poprzednie zdjęcie"
+msgstr "Poprzednia strona z tym"
 
 #: src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Previous photo"
@@ -9098,10 +8995,8 @@ msgstr ""
 "subskrybentów Ferret)"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Add a document or photo"
 msgid "Put a document on a thing"
-msgstr "Dodaj dokument lub zdjęcie"
+msgstr "Dołącz dokument do rzeczy"
 
 #: src/Install.tsx
 msgid "Put Ferret on your Home Screen"
@@ -9112,10 +9007,8 @@ msgid "Put in"
 msgstr "Włóż"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Put in"
 msgid "Put it on"
-msgstr "Włóż"
+msgstr "Dołącz"
 
 #: src/Parts.tsx
 msgid "Put it on the shopping list when none are left"
@@ -9124,13 +9017,11 @@ msgstr "Dodaj do listy zakupów, gdy się skończą"
 #. placeholder {0}: d.match.name
 #: src/Paperless.tsx
 msgid "Put on {0}…"
-msgstr ""
+msgstr "Dołącz do: {0}…"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Starting…"
 msgid "Put on a thing…"
-msgstr "Rozpoczynam…"
+msgstr "Dołącz do rzeczy…"
 
 #: src/ScanSession.tsx
 msgid "Put some in for each scan"
@@ -9192,16 +9083,12 @@ msgid "range or oven"
 msgstr "kuchenka lub piekarnik"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Download everything"
 msgid "Re-index everything"
-msgstr "Pobierz wszystko"
+msgstr "Zaindeksuj wszystko ponownie"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Download everything…"
 msgid "Re-index everything…"
-msgstr "Pobierz wszystko…"
+msgstr "Zaindeksuj wszystko ponownie…"
 
 #: src/Files.tsx src/ItemPage.tsx
 msgid "Read {filename} again"
@@ -9237,10 +9124,8 @@ msgid "Reading the photo…"
 msgstr "Odczytuję zdjęcie…"
 
 #: src/Product.tsx
-#, fuzzy
-#| msgid "Reading the photo…"
 msgid "Reading VIN {vin}…"
-msgstr "Odczytuję zdjęcie…"
+msgstr "Odczytuję VIN {vin}…"
 
 #: src/Server.tsx
 msgid ""
@@ -9251,6 +9136,12 @@ msgid ""
 "don't cover. To do that, the VIN and the make, model and year are sent to "
 "NHTSA (nhtsa.gov); nothing else is."
 msgstr ""
+"Odczytuje numer VIN pojazdu — z pola VIN kategorii Pojazdy albo z numeru "
+"seryjnego, który jest numerem VIN — dekoderem amerykańskiej agencji NHTSA "
+"(National Highway Traffic Safety Administration) i proponuje markę, model i "
+"rok na stronie rzeczy. Pojazdy są też sprawdzane pod kątem wycofań NHTSA, "
+"których nie obejmuje sprawdzanie wycofań produktów. W tym celu VIN oraz "
+"marka, model i rok są wysyłane do NHTSA (nhtsa.gov); nic więcej."
 
 #: src/Overview.tsx
 msgid "Ready for a claim?"
@@ -9289,6 +9180,8 @@ msgid ""
 "Receipts and manuals you tag in Paperless — each becomes a new thing, or "
 "goes onto one you have."
 msgstr ""
+"Paragony i instrukcje oznaczone w Paperless — każdy staje się nową rzeczą "
+"albo trafia do tej, którą masz."
 
 #: src/ItemPage.tsx
 msgid "Receipts, manuals and warranties go here."
@@ -9299,10 +9192,8 @@ msgid "Recent changes"
 msgstr "Ostatnie zmiany"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Recently deleted"
 msgid "Recent deliveries"
-msgstr "Ostatnio usunięte"
+msgstr "Ostatnie dostawy"
 
 #: src/Import.tsx
 msgid "Recent imports"
@@ -9414,10 +9305,8 @@ msgid "Remove {reading} on {date}?"
 msgstr "Usunąć {reading} z {date}?"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "Remove item"
 msgid "Remove {title}"
-msgstr "Usuń rzecz"
+msgstr "Usuń „{title}”"
 
 #: src/Everything.tsx
 msgid "Remove a tag"
@@ -9513,13 +9402,11 @@ msgstr "Usunąć tę gwarancję?"
 
 #: src/Webhooks.tsx
 msgid "Remove this webhook and its deliveries?"
-msgstr ""
+msgstr "Usunąć ten webhook i jego dostawy?"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Remove {k}"
 msgid "Remove webhook"
-msgstr "Usuń {k}"
+msgstr "Usuń webhook"
 
 #: src/Server.tsx
 msgid "Remove…"
@@ -9546,14 +9433,12 @@ msgid "Rental"
 msgstr "Wynajmowane"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Repairs"
 msgid "Repair guides"
-msgstr "Naprawy"
+msgstr "Poradniki naprawy"
 
 #: src/ItemPage.tsx
 msgid "Repair guides on iFixit: {device}"
-msgstr ""
+msgstr "Poradniki naprawy w iFixit: {device}"
 
 #: src/Repairs.tsx
 msgid "Repair warranty until {day}"
@@ -9771,7 +9656,7 @@ msgstr "Pomieszczenia, szafy, półki, pudełka — tak szczegółowo, jak chces
 
 #: src/Webhooks.tsx
 msgid "Rotate"
-msgstr ""
+msgstr "Wymień"
 
 #: src/Demo.tsx
 msgid "Run your own Ferret"
@@ -9938,10 +9823,8 @@ msgstr ""
 "Zabezpiecza każde zdjęcie, dokument i kod parowania, a także kopie zapasowe."
 
 #: src/Paperless.tsx src/Videos.tsx
-#, fuzzy
-#| msgid "Searches"
 msgid "Search"
-msgstr "Wyszukiwania"
+msgstr "Szukaj"
 
 #: src/ItemSearch.tsx
 msgid "Search {name}"
@@ -9965,7 +9848,7 @@ msgstr ""
 
 #: src/Connect.tsx
 msgid "Search and ask about everything in {household}"
-msgstr ""
+msgstr "Szukać i pytać o wszystko w {household}"
 
 #: src/PlanUsage.tsx
 msgid "Search by words; no AI."
@@ -9996,10 +9879,8 @@ msgid "Search its documents, warranties and notes…"
 msgstr "Przeszukaj jej dokumenty, gwarancje i notatki…"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Searches"
 msgid "Search Paperless"
-msgstr "Wyszukiwania"
+msgstr "Szukaj w Paperless"
 
 #: src/ItemSearch.tsx src/Nav.tsx
 msgid "Search this item"
@@ -10014,10 +9895,8 @@ msgid "Search your stuff"
 msgstr "Przeszukaj swoje rzeczy"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "Search your stuff"
 msgid "Search YouTube"
-msgstr "Przeszukaj swoje rzeczy"
+msgstr "Szukaj na YouTube"
 
 #: src/Nav.tsx
 msgid "Search…"
@@ -10033,7 +9912,7 @@ msgstr "Szukam"
 
 #: src/Webhooks.tsx
 msgid "Secret"
-msgstr ""
+msgstr "Sekret"
 
 #: src/Settings.tsx
 msgid "Security"
@@ -10241,10 +10120,8 @@ msgid "Share links"
 msgstr "Linki do udostępnienia"
 
 #: src/DocumentViewer.tsx
-#, fuzzy
-#| msgid "Rename or move {name}"
 msgid "Share or save {name}"
-msgstr "Zmień nazwę lub przenieś {name}"
+msgstr "Udostępnij lub zapisz {name}"
 
 #: src/Shares.tsx
 msgid "Share…"
@@ -10317,10 +10194,8 @@ msgid "Show photo {number}"
 msgstr "Pokaż zdjęcie {number}"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Show as"
 msgid "Show secret"
-msgstr "Pokaż jako"
+msgstr "Pokaż sekret"
 
 #: src/Nav.tsx
 msgid "Show the menu's names"
@@ -10356,7 +10231,7 @@ msgstr "Zaloguj się ponownie"
 
 #: src/Connect.tsx
 msgid "Sign in to Ferret to connect an app to your inventory."
-msgstr ""
+msgstr "Zaloguj się do Ferret, aby połączyć aplikację ze swoim spisem rzeczy."
 
 #: src/App.tsx
 msgid "Sign in to find your stuff."
@@ -10415,10 +10290,8 @@ msgid "Signature"
 msgstr "Podpis"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Sign in"
 msgid "Signed in as"
-msgstr "Zaloguj się"
+msgstr "Zalogowano jako"
 
 #: src/Security.tsx
 msgid ""
@@ -10429,16 +10302,12 @@ msgstr ""
 "urządzenia pomijają kod przez 30 dni."
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Something in Ferret"
 msgid "Signing secret"
-msgstr "Coś w Ferret"
+msgstr "Sekret podpisu"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Sign in with {name}"
 msgid "Signing secret for {name}"
-msgstr "Zaloguj się za pomocą {name}"
+msgstr "Sekret podpisu dla {name}"
 
 #: src/App.tsx
 msgid "Signing you in…"
@@ -10483,10 +10352,8 @@ msgstr ""
 "obrazka na listach."
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Clear the search"
 msgid "Smart search"
-msgstr "Wyczyść wyszukiwanie"
+msgstr "Inteligentne wyszukiwanie"
 
 #: src/lib/words.ts
 msgid "smartphone"
@@ -10554,13 +10421,11 @@ msgstr "Coś w Ferret"
 
 #: src/Webhooks.tsx
 msgid "Something lent or borrowed is due back"
-msgstr ""
+msgstr "Mija termin zwrotu czegoś pożyczonego"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "None left — on the shopping list"
 msgid "Something runs low (onto the shopping list)"
-msgstr "Nic nie zostało — na liście zakupów"
+msgstr "Czegoś zaczyna brakować (trafia na listę zakupów)"
 
 #: src/App.tsx src/Household.tsx src/Invite.tsx src/Offline.tsx
 #: src/Security.tsx
@@ -10569,7 +10434,7 @@ msgstr "Coś poszło nie tak"
 
 #: src/Connect.tsx
 msgid "Something went wrong — start again from the app."
-msgstr ""
+msgstr "Coś poszło nie tak — zacznij jeszcze raz w aplikacji."
 
 #: src/ScanSession.tsx
 msgid "Something you already have adds to its count"
@@ -10580,10 +10445,8 @@ msgid "Sort with AI"
 msgstr "Posortuj z AI"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Sorted with AI"
 msgid "Sorted"
-msgstr "Posortowane przez AI"
+msgstr "Posortowane"
 
 #: src/ImportCsv.tsx
 msgid "Sorted with AI"
@@ -10786,11 +10649,11 @@ msgstr ""
 
 #: src/Webhooks.tsx
 msgid "Switched off — its deliveries kept failing"
-msgstr ""
+msgstr "Wyłączony — dostawy wciąż się nie udawały"
 
 #: src/Webhooks.tsx
 msgid "Switched off — its deliveries kept failing ({error})"
-msgstr ""
+msgstr "Wyłączony — dostawy wciąż się nie udawały ({error})"
 
 #: src/Collections.tsx src/Everything.tsx
 msgid "Table"
@@ -10810,7 +10673,7 @@ msgstr "Otaguj {things}"
 
 #: src/Paperless.tsx
 msgid "Tag to watch"
-msgstr ""
+msgstr "Obserwowany tag"
 
 #: src/PayOff.tsx
 msgid "Tagged {tag}"
@@ -10917,6 +10780,8 @@ msgid ""
 "Tell n8n, Home Assistant or your own script when things change in this "
 "household, or when something needs doing."
 msgstr ""
+"Powiadamiaj n8n, Home Assistant lub własny skrypt, gdy w tym gospodarstwie "
+"domowym coś się zmienia albo coś trzeba zrobić."
 
 #: src/Templates.tsx
 msgid "Template"
@@ -10927,10 +10792,8 @@ msgid "Templates"
 msgstr "Szablony"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Upload failed ({status})"
 msgid "Test delivered ({status})"
-msgstr "Przesyłanie nie powiodło się ({status})"
+msgstr "Test dostarczony ({status})"
 
 #: src/StarterTasks.tsx
 msgid "Test GFCI outlets"
@@ -10970,7 +10833,7 @@ msgstr "Ten plik ma ponad 20 MB — podziel go na mniejsze."
 
 #: src/Videos.tsx
 msgid "That isn't a YouTube link."
-msgstr ""
+msgstr "To nie jest link do YouTube."
 
 #: src/App.tsx
 msgid ""
@@ -11013,7 +10876,7 @@ msgstr "6-cyfrowy kod z aplikacji uwierzytelniającej"
 
 #: src/Paperless.tsx
 msgid "The address Ferret's server reaches it at — on your network is fine."
-msgstr ""
+msgstr "Adres, pod którym serwer Ferret go osiąga — może być w twojej sieci."
 
 #: src/Import.tsx
 msgid ""
@@ -11059,6 +10922,8 @@ msgid ""
 "The document goes on the new thing, and Ferret reads it for the details "
 "(price, date, model…) to suggest."
 msgstr ""
+"Dokument trafia do nowej rzeczy, a Ferret odczytuje z niego szczegóły (cenę, "
+"datę, model…), by je zaproponować."
 
 #: src/FileThumb.tsx
 msgid "the file"
@@ -11085,10 +10950,8 @@ msgid "the insurance report"
 msgstr "raport dla ubezpieczyciela"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Trust this device for 30 days"
 msgid "The last 50, kept for 30 days."
-msgstr "Ufaj temu urządzeniu przez 30 dni"
+msgstr "Ostatnie 50, przechowywane przez 30 dni."
 
 #: src/Server.tsx
 msgid "The last backup failed ({formatTime}"
@@ -11122,6 +10985,7 @@ msgstr ""
 msgid ""
 "The old secret also signs until {until}, so the receiver can switch over."
 msgstr ""
+"Stary sekret też podpisuje do {until}, żeby odbiorca zdążył się przestawić."
 
 #: src/Walkthrough.tsx
 msgid "The photo to name"
@@ -11149,6 +11013,7 @@ msgstr "Komunikat o wycofaniu produktu"
 msgid ""
 "The receiver checks each delivery's Ferret-Signature header with this secret."
 msgstr ""
+"Odbiorca sprawdza tym sekretem nagłówek Ferret-Signature każdej dostawy."
 
 #: src/Repairs.tsx
 msgid "The repair's own warranty ends"
@@ -11234,6 +11099,7 @@ msgstr "Ich gospodarstwa domowe"
 #: src/Videos.tsx
 msgid "Then copy the video's link (Share → Copy link) and paste it here."
 msgstr ""
+"Potem skopiuj link do filmu (Udostępnij → Kopiuj link) i wklej go tutaj."
 
 #: src/App.tsx
 msgid ""
@@ -11268,10 +11134,8 @@ msgid "Things"
 msgstr "Rzeczy"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Nothing new to import"
 msgid "Things are imported"
-msgstr "Nie ma nic nowego do zaimportowania"
+msgstr "Zaimportowano rzeczy"
 
 #: src/Server.tsx
 msgid "Things belonging to a household that no longer exists."
@@ -11404,11 +11268,13 @@ msgstr "To urządzenie"
 
 #: src/DocumentViewer.tsx
 msgid "This file can't be shown here."
-msgstr ""
+msgstr "Tego pliku nie da się tu pokazać."
 
 #: src/DocumentViewer.tsx
 msgid "This file can't be shown here. Use Share to open it in another app."
 msgstr ""
+"Tego pliku nie da się tu pokazać. Użyj Udostępnij, aby otworzyć go w innej "
+"aplikacji."
 
 #: src/Currency.tsx
 msgid "This household's Amazon"
@@ -11450,6 +11316,8 @@ msgstr ""
 msgid ""
 "This link is missing the app's details. Start connecting again from the app."
 msgstr ""
+"W tym linku brakuje danych aplikacji. Zacznij łączenie jeszcze raz w "
+"aplikacji."
 
 #: src/Reminders.tsx
 msgid ""
@@ -11481,17 +11349,15 @@ msgstr "Ten serwer"
 
 #: src/Webhooks.tsx
 msgid "This server doesn't send webhooks."
-msgstr ""
+msgstr "Ten serwer nie wysyła webhooków."
 
 #: src/Webhooks.tsx
 msgid "This server's network allowed"
-msgstr ""
+msgstr "Sieć tego serwera dozwolona"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "This device"
 msgid "this video"
-msgstr "To urządzenie"
+msgstr "ten film"
 
 #: src/ScanSession.tsx
 msgid "This was marked \"Can't find it\". Found it?"
@@ -11593,7 +11459,7 @@ msgstr "Odkupienie nowej"
 
 #: src/Paperless.tsx
 msgid "To sort"
-msgstr ""
+msgstr "Do posortowania"
 
 #: src/Nav.tsx
 msgid "To stick on boxes as you pack"
@@ -11685,7 +11551,7 @@ msgstr "Wypróbuj wersję demo"
 
 #: src/Webhooks.tsx
 msgid "Trying again soon ({error})"
-msgstr ""
+msgstr "Wkrótce kolejna próba ({error})"
 
 #: src/Reminders.tsx src/Security.tsx src/Shares.tsx
 msgid "Turn off"
@@ -12059,10 +11925,8 @@ msgid "Vehicle"
 msgstr "Pojazd"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Barcode lookups"
 msgid "Vehicle look-ups"
-msgstr "Wyszukiwania kodów kreskowych"
+msgstr "Wyszukiwanie pojazdów"
 
 #: src/Collections.tsx
 msgid "View"
@@ -12085,10 +11949,8 @@ msgid "Wait for a suggestion, or type it"
 msgstr "Poczekaj na sugestię albo wpisz"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Waiting to join"
 msgid "Waiting to be sent"
-msgstr "Czeka na dołączenie"
+msgstr "Czeka na wysłanie"
 
 #: src/Household.tsx
 msgid "Waiting to join"
@@ -12177,16 +12039,12 @@ msgid "washing machine"
 msgstr "pralka"
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "at {time}"
 msgid "Watch {title}"
-msgstr "o {time}"
+msgstr "Obejrzyj „{title}”"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "What they tried"
 msgid "Watches the tag"
-msgstr "Co wypróbowali"
+msgstr "Obserwuje tag"
 
 #: src/lib/words.ts
 msgid "water heater"
@@ -12218,7 +12076,7 @@ msgstr "Link"
 
 #: src/Webhooks.tsx
 msgid "Webhooks"
-msgstr ""
+msgstr "Webhooki"
 
 #: src/Providers.tsx
 msgid "Website"
@@ -12374,10 +12232,8 @@ msgid "when its use gets there"
 msgstr "gdy użycie do tego dojdzie"
 
 #: src/Webhooks.tsx
-#, fuzzy
-#| msgid "Nothing needs attention"
 msgid "When something needs attention (once each)"
-msgstr "Nic nie wymaga uwagi"
+msgstr "Gdy coś wymaga uwagi (raz na każdą sprawę)"
 
 #: src/AiFill.tsx
 msgid ""
@@ -12516,10 +12372,8 @@ msgid "Which column goes where? Ferret guessed — change anything that's wrong.
 msgstr "Która kolumna dokąd? Ferret zgadł — popraw, co się nie zgadza."
 
 #: src/Connect.tsx
-#, fuzzy
-#| msgid "Where this household is"
 msgid "Which household can it use?"
-msgstr "Gdzie jest to gospodarstwo domowe"
+msgstr "Z którego gospodarstwa domowego może korzystać?"
 
 #: src/ScanSession.tsx
 msgid "Which item is this {what} for?"
@@ -12546,14 +12400,13 @@ msgid "Which thing is it on?"
 msgstr "Na której rzeczy jest naklejona?"
 
 #: src/Paperless.tsx
-#, fuzzy
-#| msgid "Which thing is it on?"
 msgid "Which thing?"
-msgstr "Na której rzeczy jest naklejona?"
+msgstr "Która rzecz?"
 
 #: src/Webhooks.tsx
 msgid "While it's paused, nothing is kept to send later."
 msgstr ""
+"Gdy jest wstrzymany, nic nie jest zachowywane do późniejszego wysłania."
 
 #: src/Maintenance.tsx src/Repairs.tsx
 msgid "Who did it"
@@ -12714,7 +12567,7 @@ msgstr "Masz już wszystkie."
 
 #: src/Connect.tsx
 msgid "You can disconnect it any time in Settings → Claude & API."
-msgstr ""
+msgstr "Możesz ją odłączyć w każdej chwili w Ustawienia → Claude i API."
 
 #: src/Import.tsx src/RoomScan.tsx src/Walkthrough.tsx
 msgid "You can look around, but not add things, in this household."
@@ -12756,6 +12609,7 @@ msgstr ""
 #: src/Connect.tsx
 msgid "You're a viewer in {household}, so it can only look things up."
 msgstr ""
+"W {household} masz tylko podgląd, więc aplikacja może jedynie wyszukiwać."
 
 #: src/Demo.tsx
 msgid "You're in the shared demo."
@@ -12766,6 +12620,8 @@ msgid ""
 "You're not in a household yet. Make one in Ferret first, then connect {name} "
 "again."
 msgstr ""
+"Nie należysz jeszcze do żadnego gospodarstwa domowego. Najpierw utwórz je w "
+"Ferret, a potem połącz {name} ponownie."
 
 #: src/DeleteForGood.tsx
 msgid ""
@@ -12848,14 +12704,12 @@ msgstr ""
 "nie wie, które konto jest twoje."
 
 #: src/Videos.tsx
-#, fuzzy
-#| msgid "The link"
 msgid "YouTube link"
-msgstr "Link"
+msgstr "Link do YouTube"
 
 #: src/Videos.tsx
 msgid "YouTube video"
-msgstr ""
+msgstr "Film z YouTube"
 
 #: src/Places.tsx
 msgid "ZIP / postal code"
@@ -12873,8 +12727,8 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
+msgid "Back to your stuff"
+msgstr "Wróć do swoich rzeczy"
+
 #~ msgid "<0>Edit</0>"
 #~ msgstr "<0>Edytuj</0>"
-
-#~ msgid "Back to your stuff"
-#~ msgstr "Wróć do swoich rzeczy"
