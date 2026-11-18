@@ -242,6 +242,10 @@ msgstr ""
 msgid ", {step} at a time"
 msgstr ""
 
+#: ../server/src/jobs/remind.ts
+msgid "…and {count} more"
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "· about {perYear} a year over {years} years"
 msgstr ""
@@ -734,6 +738,24 @@ msgstr ""
 msgid "{amount} to replace"
 msgstr ""
 
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{app} can now look things up in {household} with your account. If that "
+"wasn't you, disconnect it in Settings → Claude & API, change your password "
+"and sign out everywhere else in Settings → Security."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{app} can now look things up in and change {household} with your account. If "
+"that wasn't you, disconnect it in Settings → Claude & API, change your "
+"password and sign out everywhere else in Settings → Security."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid "{app} was connected to your Ferret account"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "{brand} (label printer)"
 msgstr ""
@@ -754,8 +776,40 @@ msgstr ""
 msgid "{contents} inside"
 msgstr ""
 
+#: ../server/src/jobs/remind.ts
+msgid ""
+"{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
+msgstr ""
+
+#: ../server/src/jobs/remind.ts
+msgid ""
+"{count, plural, one {# maintenance task} other {# maintenance tasks}} overdue"
+msgstr ""
+
 #: src/MoveHere.tsx
 msgid "{count, plural, one {# moved so far} other {# moved so far}}"
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid "{count, plural, one {# thing is} other {# things are}} lent out."
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid ""
+"{count, plural, one {# thing needs} other {# things need}} a look, {urgent} "
+"of them urgent."
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid "{count, plural, one {# thing needs} other {# things need}} a look."
+msgstr ""
+
+#: ../server/src/jobs/remind.ts
+msgid "{count, plural, one {# thing needs} other {# things need}} attention"
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid "{count, plural, one {# thing} other {# things}} lent out"
 msgstr ""
 
 #: src/lib/words.ts
@@ -898,6 +952,20 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "{failed} couldn't be: {reasons}"
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{failures, plural, one {# wrong password} other {# wrong passwords}} for "
+"your account since you last signed in, the latest from {address}. If that "
+"wasn't you, turn on two-step sign-in in Settings → Security."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{failures, plural, one {# wrong password} other {# wrong passwords}} for "
+"your account since you last signed in. If that wasn't you, turn on two-step "
+"sign-in in Settings → Security."
 msgstr ""
 
 #: src/AiFill.tsx
@@ -1141,6 +1209,16 @@ msgstr ""
 msgid "{person} asked for no more reminders"
 msgstr ""
 
+#: ../server/src/lib/invitation-email.ts
+msgid "{person} invited you to {household} on Ferret"
+msgstr ""
+
+#: ../server/src/lib/invitation-email.ts
+msgid ""
+"{person} invited you to join “{household}” on Ferret, where they keep track "
+"of the things in their home."
+msgstr ""
+
 #: src/Loans.tsx
 msgid "{person} says it's back."
 msgstr ""
@@ -1268,6 +1346,18 @@ msgstr ""
 
 #: src/lib/last-scanned.ts
 msgid "{what} last scanned {when} by {person}"
+msgstr ""
+
+#: ../server/src/lib/loans.ts
+msgid ""
+"{who} lent you {thing} on {since}, to bring back by {due}. This is a "
+"friendly reminder that it's still with you."
+msgstr ""
+
+#: ../server/src/lib/loans.ts
+msgid ""
+"{who} lent you {thing} on {since}. This is a friendly reminder that it's "
+"still with you."
 msgstr ""
 
 #: src/Install.tsx
@@ -1698,6 +1788,14 @@ msgid ""
 "one — with a link to say it's back or to stop the reminders."
 msgstr ""
 
+#: ../server/src/lib/loans.ts
+msgid "A friendly reminder from {who}"
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid "a household"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "A key file holds these secrets sealed with a passphrase you choose, so it "
@@ -1773,6 +1871,17 @@ msgstr ""
 msgid "A part-used sheet? Skip the first"
 msgstr ""
 
+#: ../server/src/jobs/security-alert.ts
+msgid "A passkey was added to your Ferret account"
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"A passkey was just added from {device}. It can sign in to your account "
+"without a password. If that wasn't you, remove it and sign out everywhere "
+"else in Settings → Security."
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "A photo of the repair"
 msgstr ""
@@ -1829,6 +1938,10 @@ msgid ""
 "A record of what was given and what it was worth as entered in Ferret. It "
 "isn't a receipt from the organisation, and it says nothing about what's "
 "deductible."
+msgstr ""
+
+#: ../server/src/lib/loans.ts
+msgid "A reminder from {who}: {thing}"
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -1892,6 +2005,10 @@ msgstr ""
 msgid "A warranty ends within a month"
 msgstr ""
 
+#: ../server/src/jobs/remind.ts
+msgid "A warranty is ending"
+msgstr ""
+
 #: src/Product.tsx src/Shopping.tsx
 msgid "About"
 msgstr ""
@@ -1914,6 +2031,10 @@ msgstr ""
 
 #: src/Collections.tsx
 msgid "About it <0>(optional)</0>"
+msgstr ""
+
+#: ../server/src/lib/invitation-email.ts
+msgid "Accept the invitation"
 msgstr ""
 
 #: src/App.tsx
@@ -2446,6 +2567,10 @@ msgstr ""
 msgid "Allow"
 msgstr ""
 
+#: ../server/src/lib/loans.ts
+msgid "Already given it back, or don't want these reminders? Let {who} know:"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "already in Ferret"
 msgstr ""
@@ -2499,6 +2624,10 @@ msgstr ""
 msgid ""
 "An Amazon product page gives it an Add to cart button; without one, it can "
 "be searched for on Amazon by its part number."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid "An app"
 msgstr ""
 
 #: src/Notifications.tsx
@@ -2851,7 +2980,7 @@ msgstr ""
 msgid "Backup code"
 msgstr ""
 
-#: src/Server.tsx
+#: ../server/src/lib/digest.ts src/Server.tsx
 msgid "Backups"
 msgstr ""
 
@@ -3236,7 +3365,11 @@ msgstr ""
 msgid "Choose a file"
 msgstr ""
 
-#: src/App.tsx
+#: ../server/src/app.ts
+msgid "Choose a new Ferret password"
+msgstr ""
+
+#: ../server/src/app.ts src/App.tsx
 msgid "Choose a new password"
 msgstr ""
 
@@ -3356,6 +3489,10 @@ msgstr ""
 msgid "Clear filters"
 msgstr ""
 
+#: ../server/src/jobs/unlock.ts
+msgid "Clear it and sign in"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "Clear the index and embed all {things} things again? Until it's done, smart "
@@ -3450,8 +3587,20 @@ msgstr ""
 msgid "Condition"
 msgstr ""
 
+#: ../server/src/lib/email-verification.ts
+msgid "Confirm my email"
+msgstr ""
+
+#: ../server/src/lib/email-verification.ts
+msgid "Confirm your email"
+msgstr ""
+
 #: src/App.tsx
 msgid "Confirm your email first — open the link we sent you."
+msgstr ""
+
+#: ../server/src/lib/email-verification.ts
+msgid "Confirm your email for Ferret"
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx src/Paperless.tsx
@@ -5340,6 +5489,15 @@ msgstr ""
 msgid "Help: {label}"
 msgstr ""
 
+#: ../server/src/app.ts
+msgid "Here's your link to sign in to Ferret."
+msgstr ""
+
+#: ../server/src/app.ts ../server/src/lib/email-verification.ts
+#: ../server/src/lib/loans.ts
+msgid "Hi {name},"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Hi {person} — you have {owner}'s {itemName}"
 msgstr ""
@@ -5507,6 +5665,18 @@ msgstr ""
 msgid "If lost: {lost}"
 msgstr ""
 
+#: ../server/src/jobs/unlock.ts
+msgid ""
+"If that wasn't you, ignore this — and consider turning on two-step sign-in "
+"in Settings → Security."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"If that wasn't you, reset it again now and turn on two-step sign-in in "
+"Settings → Security."
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "If the repair is guaranteed, it's added to the warranties."
 msgstr ""
@@ -5523,6 +5693,22 @@ msgid ""
 "If there's an account for {variables}, a sign-in link is on its way — it "
 "works once, for 15 minutes. (Accounts with two-step sign-in use their "
 "password and code instead.)"
+msgstr ""
+
+#: ../server/src/app.ts
+msgid ""
+"If you didn't ask for it, ignore this email: nobody can use the link without "
+"getting into your inbox."
+msgstr ""
+
+#: ../server/src/app.ts
+msgid "If you didn't ask, ignore this email: your password stays as it is."
+msgstr ""
+
+#: ../server/src/lib/email-verification.ts
+msgid ""
+"If you didn't sign up for Ferret, ignore this email: the account is removed "
+"in a week."
 msgstr ""
 
 #: src/Import.tsx src/ImportCsv.tsx src/ImportHomeAssistant.tsx src/Nav.tsx
@@ -5697,7 +5883,7 @@ msgstr ""
 msgid "Insurance agent"
 msgstr ""
 
-#: src/Nav.tsx src/PayOff.tsx
+#: ../server/src/lib/digest.ts src/Nav.tsx src/PayOff.tsx
 msgid "Insurance coverage"
 msgstr ""
 
@@ -5854,6 +6040,18 @@ msgid ""
 "to send it another way too."
 msgstr ""
 
+#: ../server/src/app.ts
+msgid "It works once, for 15 minutes."
+msgstr ""
+
+#: ../server/src/jobs/unlock.ts
+msgid "It works once, for 30 minutes."
+msgstr ""
+
+#: ../server/src/lib/invitation-email.ts
+msgid "It works until {until}, and only for {email}."
+msgstr ""
+
 #: src/TimeZone.tsx
 msgid "It's {timeIn} there now."
 msgstr ""
@@ -5956,7 +6154,7 @@ msgstr ""
 msgid "Jobs"
 msgstr ""
 
-#: src/Household.tsx
+#: ../server/src/lib/invitation-email.ts src/Household.tsx
 msgid "Join {household} on Ferret"
 msgstr ""
 
@@ -6224,12 +6422,20 @@ msgstr ""
 msgid "Lent & borrowed"
 msgstr ""
 
-#: src/Loans.tsx
+#: ../server/src/lib/digest.ts
+msgid "Lent and borrowed"
+msgstr ""
+
+#: ../server/src/lib/digest.ts src/Loans.tsx
 msgid "Lent out"
 msgstr ""
 
 #: src/Everything.tsx
 msgid "Lent to {person}"
+msgstr ""
+
+#: ../server/src/lib/loans.ts
+msgid "Let {who} know"
 msgstr ""
 
 #: src/AiFill.tsx
@@ -6419,8 +6625,8 @@ msgstr ""
 msgid "maintenance"
 msgstr ""
 
-#: src/AttentionBell.tsx src/ItemPage.tsx src/Maintenance.tsx src/Nav.tsx
-#: src/Overview.tsx src/TabBar.tsx
+#: ../server/src/lib/digest.ts src/AttentionBell.tsx src/ItemPage.tsx
+#: src/Maintenance.tsx src/Nav.tsx src/Overview.tsx src/TabBar.tsx
 msgid "Maintenance"
 msgstr ""
 
@@ -6430,6 +6636,10 @@ msgstr ""
 
 #: src/Usage.tsx
 msgid "Maintenance by use"
+msgstr ""
+
+#: ../server/src/jobs/remind.ts
+msgid "Maintenance due today"
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -6775,6 +6985,10 @@ msgstr ""
 msgid "New service provider"
 msgstr ""
 
+#: ../server/src/jobs/security-alert.ts
+msgid "New sign-in to Ferret"
+msgstr ""
+
 #: src/Templates.tsx
 msgid "New template"
 msgstr ""
@@ -6785,6 +6999,12 @@ msgstr ""
 
 #: src/Paperless.tsx
 msgid "New thing…"
+msgstr ""
+
+#: ../server/src/lib/invitation-email.ts
+msgid ""
+"New to Ferret? You'll make an account with this email address first. If you "
+"weren't expecting this, ignore it."
 msgstr ""
 
 #: src/Everything.tsx
@@ -7713,6 +7933,10 @@ msgstr ""
 msgid "Open a box or place to print its label."
 msgstr ""
 
+#: ../server/src/lib/digest.ts
+msgid "Open Ferret"
+msgstr ""
+
 #: src/DocumentViewer.tsx
 msgid "Open in a new tab"
 msgstr ""
@@ -7761,6 +7985,10 @@ msgstr ""
 msgid "Open the photo"
 msgstr ""
 
+#: ../server/src/jobs/unlock.ts
+msgid "Open this link (it works once, for 30 minutes):"
+msgstr ""
+
 #: src/Shares.tsx
 msgid "Open until {longDate}"
 msgstr ""
@@ -7799,6 +8027,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Or a place"
+msgstr ""
+
+#: ../server/src/lib/email.ts
+msgid "Or copy this link: {link}"
 msgstr ""
 
 #: src/Demo.tsx
@@ -7859,6 +8091,10 @@ msgstr ""
 
 #: src/Maintenance.tsx src/MaintenanceCalendar.tsx
 msgid "Overdue"
+msgstr ""
+
+#: ../server/src/jobs/remind.ts
+msgid "Overdue maintenance"
 msgstr ""
 
 #: src/Household.tsx
@@ -8479,6 +8715,10 @@ msgstr ""
 msgid "Recalled"
 msgstr ""
 
+#: ../server/src/lib/digest.ts
+msgid "Recalls"
+msgstr ""
+
 #: src/Gone.tsx
 msgid "Receipt (optional)"
 msgstr ""
@@ -8844,6 +9084,10 @@ msgstr ""
 msgid "Return-by dates"
 msgstr ""
 
+#: ../server/src/lib/digest.ts
+msgid "Returns"
+msgstr ""
+
 #: src/Overview.tsx src/Walkthrough.tsx
 msgid "Review"
 msgstr ""
@@ -8860,8 +9104,16 @@ msgstr ""
 msgid "Review another place"
 msgstr ""
 
+#: ../server/src/jobs/security-alert.ts
+msgid "Review connected apps"
+msgstr ""
+
 #: src/Tracking.tsx
 msgid "Review this room"
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Review your sign-in security"
 msgstr ""
 
 #: src/Tracking.tsx
@@ -9302,6 +9554,14 @@ msgstr ""
 msgid "Sent by email {formatDate}"
 msgstr ""
 
+#: ../server/src/lib/email.ts
+msgid "Sent by Ferret at {host}"
+msgstr ""
+
+#: ../server/src/lib/loans.ts
+msgid "Sent by Ferret, {who}'s home inventory."
+msgstr ""
+
 #: src/Everything.tsx src/Suggestions.tsx src/Walkthrough.tsx
 msgid "Serial"
 msgstr ""
@@ -9512,8 +9772,16 @@ msgstr ""
 msgid "Sign in"
 msgstr ""
 
-#: src/App.tsx
+#: ../server/src/jobs/unlock.ts src/App.tsx
 msgid "Sign in again"
+msgstr ""
+
+#: ../server/src/app.ts
+msgid "Sign in to Ferret"
+msgstr ""
+
+#: ../server/src/jobs/unlock.ts
+msgid "Sign in to Ferret again"
 msgstr ""
 
 #: src/Connect.tsx
@@ -9675,6 +9943,26 @@ msgstr ""
 msgid "Someone"
 msgstr ""
 
+#: ../server/src/app.ts
+msgid "Someone — hopefully you — asked to reset your Ferret password."
+msgstr ""
+
+#: ../server/src/jobs/unlock.ts
+msgid ""
+"Someone asked to clear the wrong-password count on your Ferret account, so "
+"you can sign in again straight away."
+msgstr ""
+
+#: ../server/src/jobs/unlock.ts
+msgid ""
+"Someone at {address} asked to clear the wrong-password count on your Ferret "
+"account, so you can sign in again straight away."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Someone is trying your Ferret password"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Someone's, borrowed by us"
 msgstr ""
@@ -9714,6 +10002,10 @@ msgstr ""
 
 #: src/ScanSession.tsx
 msgid "Something you already have adds to its count"
+msgstr ""
+
+#: ../server/src/jobs/remind.ts
+msgid "Something's run out"
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -9891,6 +10183,10 @@ msgstr ""
 msgid "Suggestion"
 msgstr ""
 
+#: ../server/src/lib/digest.ts
+msgid "Suggestions"
+msgstr ""
+
 #: src/Suggestions.tsx
 msgid "Suggestions from your files"
 msgstr ""
@@ -10029,6 +10325,10 @@ msgstr ""
 msgid ""
 "Tap Safari's <0/> at the very bottom right, beside the address — below "
 "Ferret's tabs."
+msgstr ""
+
+#: ../server/src/jobs/unlock.ts
+msgid "Tap to clear the wrong-password count and sign in again."
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -10254,6 +10554,14 @@ msgstr ""
 
 #: src/NotFound.tsx
 msgid "The link may be mistyped, or from an older version of Ferret."
+msgstr ""
+
+#: ../server/src/lib/email-verification.ts
+msgid "The link works for a day."
+msgstr ""
+
+#: ../server/src/app.ts
+msgid "The link works once, for an hour."
 msgstr ""
 
 #: src/Server.tsx
@@ -10661,15 +10969,22 @@ msgstr ""
 msgid "To {person} since {since}"
 msgstr ""
 
-#: src/AttentionBell.tsx src/Overview.tsx src/Shopping.tsx
+#: ../server/src/lib/digest.ts src/AttentionBell.tsx src/Overview.tsx
+#: src/Shopping.tsx
 msgid "To buy"
+msgstr ""
+
+#: ../server/src/lib/email-verification.ts
+msgid ""
+"To finish setting up your Ferret account, confirm this is your email "
+"address. Then sign in."
 msgstr ""
 
 #: src/PhotoCrop.tsx
 msgid "To keep just part of it, drag the corners in."
 msgstr ""
 
-#: src/AttentionBell.tsx
+#: ../server/src/lib/digest.ts src/AttentionBell.tsx
 msgid "To name"
 msgstr ""
 
@@ -10963,6 +11278,14 @@ msgstr ""
 msgid "UPS battery backup"
 msgstr ""
 
+#: ../server/src/lib/email.ts
+msgid "urgent"
+msgstr ""
+
+#: ../server/src/lib/email.ts
+msgid "Urgent"
+msgstr ""
+
 #: src/PlanUsage.tsx src/Settings.tsx
 msgid "Usage"
 msgstr ""
@@ -11208,6 +11531,10 @@ msgstr ""
 #: src/ItemPage.tsx src/lib/words.ts src/Nav.tsx src/Overview.tsx
 #: src/Warranties.tsx src/WarrantyList.tsx
 msgid "Warranties"
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid "Warranties and claims"
 msgstr ""
 
 #: src/Overview.tsx
@@ -11636,7 +11963,7 @@ msgstr ""
 msgid "window air conditioner"
 msgstr ""
 
-#: src/Loans.tsx
+#: ../server/src/lib/digest.ts src/Loans.tsx
 msgid "With {person} since {since}"
 msgstr ""
 
@@ -11749,6 +12076,12 @@ msgstr ""
 msgid "You can look around, but not add things, in this household."
 msgstr ""
 
+#: ../server/src/lib/digest.ts
+msgid ""
+"You get this summary once a week. Change the day or stop it in Settings → "
+"Notifications."
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "You have this"
 msgstr ""
@@ -11811,8 +12144,32 @@ msgid ""
 "password and code (or a passkey)."
 msgstr ""
 
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your account was just signed in to from somewhere new: {device} at "
+"{address}, {when}. If that was you, there's nothing to do. If not, change "
+"your password and sign out everywhere else in Settings → Security."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your account was just signed in to from somewhere new: {device}, {when}. If "
+"that was you, there's nothing to do. If not, change your password and sign "
+"out everywhere else in Settings → Security."
+msgstr ""
+
 #: src/App.tsx
 msgid "Your email is confirmed. Sign in to carry on."
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Your Ferret password was changed"
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your Ferret password was just reset with an emailed link, and every session "
+"was signed out."
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
@@ -11843,6 +12200,17 @@ msgid ""
 "Your password alone will sign you in again. Your backup codes stop working."
 msgstr ""
 
+#: ../server/src/jobs/security-alert.ts
+msgid "Your password was changed"
+msgstr ""
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your password was just reset with an emailed link, and every session was "
+"signed out. If that wasn't you, reset it again now and turn on two-step sign-"
+"in in Settings → Security."
+msgstr ""
+
 #: src/PayOff.tsx
 msgid ""
 "Your policy's limits, next to what your things are worth. A homeowner's or "
@@ -11851,10 +12219,30 @@ msgid ""
 "your policy's declarations page."
 msgstr ""
 
+#: ../server/src/app.ts
+msgid "Your sign-in link"
+msgstr ""
+
 #: src/App.tsx
 msgid ""
 "Your sign-in provider hasn't confirmed your email address, so Ferret can't "
 "tell which account is yours."
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid "Your week in Ferret"
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid ""
+"Your week in Ferret: {count, plural, one {# thing} other {# things}} to look "
+"at"
+msgstr ""
+
+#: ../server/src/lib/digest.ts
+msgid ""
+"Your week in Ferret: {count, plural, one {# thing} other {# things}} to look "
+"at ({urgent} urgent)"
 msgstr ""
 
 #: src/Videos.tsx
