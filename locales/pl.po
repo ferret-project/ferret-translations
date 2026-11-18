@@ -13285,8 +13285,416 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
+msgid "Back to your stuff"
+msgstr "Wróć do swoich rzeczy"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# document} other {# documents}} from Paperless to sort"
+msgstr ""
+"{count, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other "
+"{# dokumentu}} z Paperless do posortowania"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# error} other {# errors}} today, the last {ago}"
+msgstr ""
+"{count, plural, one {# błąd} few {# błędy} many {# błędów} other {# błędu}} "
+"dzisiaj, ostatni {ago}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# possible duplicate} other {# possible duplicates}}"
+msgstr ""
+"{count, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
+"możliwych duplikatów} other {# możliwego duplikatu}}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# suggested maintenance task} other {# suggested "
+"maintenance tasks}}"
+msgstr ""
+"{count, plural, one {# proponowane zadanie konserwacyjne} few {# proponowane "
+"zadania konserwacyjne} many {# proponowanych zadań konserwacyjnych} other {# "
+"proponowanego zadania konserwacyjnego}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} found"
+msgstr ""
+"{count, plural, one {Znaleziono # rzecz} few {Znaleziono # rzeczy} many "
+"{Znaleziono # rzeczy} other {Znaleziono # rzeczy}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} found in {place}"
+msgstr ""
+"{count, plural, one {Znaleziono # rzecz} few {Znaleziono # rzeczy} many "
+"{Znaleziono # rzeczy} other {Znaleziono # rzeczy}} w: {place}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} nobody can find"
+msgstr ""
+"{count, plural, one {# rzecz, której nikt nie może znaleźć} few {# rzeczy, "
+"których nikt nie może znaleźć} many {# rzeczy, których nikt nie może "
+"znaleźć} other {# rzeczy, których nikt nie może znaleźć}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} not seen in a year"
+msgstr ""
+"{count, plural, one {# rzecz niewidziana od roku} few {# rzeczy niewidziane "
+"od roku} many {# rzeczy niewidzianych od roku} other {# rzeczy niewidziane "
+"od roku}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} to buy"
+msgstr ""
+"{count, plural, one {# rzecz do kupienia} few {# rzeczy do kupienia} many {# "
+"rzeczy do kupienia} other {# rzeczy do kupienia}}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# valuable thing has} other {# valuable things have}} "
+"no serial number"
+msgstr ""
+"{count, plural, one {# cenna rzecz nie ma} few {# cenne rzeczy nie mają} "
+"many {# cennych rzeczy nie ma} other {# cennej rzeczy nie ma}} numeru "
+"seryjnego"
+
+#: ../server/src/lib/attention.ts
+msgid "{count} run out: {list}"
+msgstr "Skończyło się ({count}): {list}"
+
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day left} other {# days left}} to return it"
+msgstr ""
+"{days, plural, one {Został # dzień} few {Zostały # dni} many {Zostało # dni} "
+"other {Zostało # dnia}} na zwrot"
+
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day overdue} other {# days overdue}}"
+msgstr ""
+"{days, plural, one {# dzień po terminie} few {# dni po terminie} many {# dni "
+"po terminie} other {# dnia po terminie}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day} other {# days}}, since {since}"
+msgstr ""
+"{days, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}, od "
+"{since}"
+
+#: ../server/src/lib/attention.ts
+msgid "{label}: worth {value}"
+msgstr "{label}: wartość {value}"
+
+#: ../server/src/lib/attention.ts
+msgid "{minutes} min ago"
+msgstr "{minutes} min temu"
+
+#: ../server/src/lib/attention.ts
+msgid "{names} and {count} more"
+msgstr "{names} i jeszcze {count}"
+
+#: ../server/src/lib/attention.ts
+msgid "{person} says {thing} is back"
+msgstr "{person} daje znać, że {thing} jest już z powrotem"
+
+#: ../server/src/lib/attention.ts
+msgid "{recall} — check the model"
+msgstr "{recall} — sprawdź model"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{remaining} of {limit} left; it fills up again at {at}. Scans still match "
+"the barcode books."
+msgstr ""
+"Zostało {remaining} z {limit}; limit odnowi się {at}. Skanowanie nadal "
+"korzysta z zapisanych kodów kreskowych."
+
+#: ../server/src/lib/attention.ts
+msgid "{service} is failing"
+msgstr "{service} nie działa"
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} is still with {person}"
+msgstr "{thing} wciąż jest u: {person}"
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} warranty"
+msgstr "Gwarancja: {thing}"
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} warranty ({provider})"
+msgstr "Gwarancja: {thing} ({provider})"
+
+#: ../server/src/lib/attention.ts
+msgid "A new item to name"
+msgstr "Nowa rzecz do nazwania"
+
+#: ../server/src/lib/attention.ts
+msgid "A room scan didn't work"
+msgstr "Skanowanie pomieszczenia się nie udało"
+
+#: ../server/src/lib/attention.ts
+msgid "Add each as a new thing, or attach it to one"
+msgstr "Dodaj każdy jako nową rzecz albo dołącz do istniejącej"
+
+#: ../server/src/lib/attention.ts
+msgid "Added from a photo — confirm what it is"
+msgstr "Dodane ze zdjęcia — potwierdź, co to jest"
+
+#: ../server/src/lib/attention.ts
+msgid "Added from a photo, still being read"
+msgstr "Dodane ze zdjęcia, wciąż odczytywane"
+
+#: ../server/src/lib/attention.ts
+msgid "AI filled in {count, plural, one {# detail} other {# details}}"
+msgstr ""
+"AI uzupełniła {count, plural, one {# szczegół} few {# szczegóły} many {# "
+"szczegółów} other {# szczegółu}}"
+
+#: ../server/src/lib/attention.ts
+msgid "Backup failed"
+msgstr "Kopia zapasowa się nie udała"
+
+#: ../server/src/lib/attention.ts
+msgid "Backups have stopped"
+msgstr "Kopie zapasowe przestały się wykonywać"
+
+#: ../server/src/lib/attention.ts
+msgid "Buy {thing}"
+msgstr "Kup: {thing}"
+
+#: ../server/src/lib/attention.ts
+msgid "Certificate “{name}” expires soon"
+msgstr "Certyfikat „{name}” wkrótce wygaśnie"
+
+#: ../server/src/lib/attention.ts
+msgid "Certificate “{name}” has expired"
+msgstr "Certyfikat „{name}” wygasł"
+
+#: ../server/src/lib/attention.ts
+msgid "Check what it filled in"
+msgstr "Sprawdź, co uzupełniła"
+
+#: ../server/src/lib/attention.ts
+msgid "Claim for {thing}"
+msgstr "Reklamacja: {thing}"
+
+#: ../server/src/lib/attention.ts
+msgid "Claim for {thing} #{reference}"
+msgstr "Reklamacja: {thing} nr {reference}"
+
+#: ../server/src/lib/attention.ts
+msgid "Couldn't look at the photos"
+msgstr "Nie udało się obejrzeć zdjęć"
+
+#: ../server/src/lib/attention.ts
+msgid "Covered for {limit} — {short} short"
+msgstr "Ubezpieczone na {limit} — brakuje {short}"
+
+#: ../server/src/lib/attention.ts
+msgid "denied"
+msgstr "odrzucona"
+
+#: ../server/src/lib/attention.ts
+msgid "Due back {due} (since {since})"
+msgstr "Termin zwrotu {due} (od {since})"
+
+#: ../server/src/lib/attention.ts
+msgid "Due back in {days, plural, one {# day} other {# days}}"
+msgstr ""
+"Termin zwrotu za {days, plural, one {# dzień} few {# dni} many {# dni} other "
+"{# dnia}}"
+
+#: ../server/src/lib/attention.ts
+msgid "Due back today"
+msgstr "Termin zwrotu dzisiaj"
+
+#: ../server/src/lib/attention.ts
+msgid "Due in {days, plural, one {# day} other {# days}}"
+msgstr ""
+"Termin za {days, plural, one {# dzień} few {# dni} many {# dni} other {# "
+"dnia}}"
+
+#: ../server/src/lib/attention.ts
+msgid "Ended {date} — add its replacement in Settings → Server → Certificates."
+msgstr "Wygasł {date} — dodaj następcę w Ustawienia → Serwer → Certyfikaty."
+
+#: ../server/src/lib/attention.ts
+msgid "Ends {date} — add its replacement in Settings → Server → Certificates."
+msgstr "Wygasa {date} — dodaj następcę w Ustawienia → Serwer → Certyfikaty."
+
+#: ../server/src/lib/attention.ts
+msgid "Ends in {days, plural, one {# day} other {# days}} — anything to claim?"
+msgstr ""
+"Kończy się za {days, plural, one {# dzień} few {# dni} many {# dni} other {# "
+"dnia}} — coś do reklamowania?"
+
+#: ../server/src/lib/attention.ts
+msgid "Ends today"
+msgstr "Kończy się dzisiaj"
+
+#: ../server/src/lib/attention.ts
+msgid "Failed since {date}"
+msgstr "Nieudane od {date}"
+
+#: ../server/src/lib/attention.ts
+msgid "Ferret can't reach Paperless"
+msgstr "Ferret nie może połączyć się z Paperless"
+
+#: ../server/src/lib/attention.ts
+msgid "filed"
+msgstr "zgłoszona"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"Filed {days, plural, one {# day ago} other {# days ago}}, still {status} — "
+"follow up?"
+msgstr ""
+"Zgłoszona {days, plural, one {# dzień temu} few {# dni temu} many {# dni "
+"temu} other {# dnia temu}}, wciąż {status} — przypomnieć się?"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"FILES_KEY is only in this server's data folder: lose that, and every photo, "
+"document and backup is lost too. Make a key file — Settings → Server → Keys."
+msgstr ""
+"FILES_KEY jest tylko w folderze danych tego serwera: jeśli go stracisz, "
+"stracisz też wszystkie zdjęcia, dokumenty i kopie zapasowe. Utwórz plik "
+"klucza — Ustawienia → Serwer → Klucze."
+
+#: ../server/src/lib/attention.ts
+msgid "Found in manuals or typical for your things — add or dismiss"
+msgstr ""
+"Znalezione w instrukcjach albo typowe dla twoich rzeczy — dodaj lub odrzuć"
+
+#: ../server/src/lib/attention.ts
+msgid "Found it, or is it lost for good?"
+msgstr "Znalazło się, czy zginęło na dobre?"
+
+#: ../server/src/lib/attention.ts
+msgid "Give {thing} back to {person}"
+msgstr "Oddaj {thing} — {person}"
+
+#: ../server/src/lib/attention.ts
+msgid "in progress"
+msgstr "w toku"
+
+#: ../server/src/lib/attention.ts
+msgid "Insurers ask for it — photograph the label and Ferret reads it"
+msgstr ""
+"Ubezpieczyciele o to pytają — zrób zdjęcie tabliczki, a Ferret go odczyta"
+
+#: ../server/src/lib/attention.ts
+msgid "Is it? Mark it back on its page"
+msgstr "Na pewno? Oznacz zwrot na stronie tej rzeczy"
+
+#: ../server/src/lib/attention.ts
+msgid "Its deliveries kept failing — fix the address, then turn it on again"
+msgstr ""
+"Jego wysyłki ciągle się nie udawały — popraw adres, a potem włącz go ponownie"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"Its deliveries kept failing ({error}) — fix the address, then turn it on "
+"again"
+msgstr ""
+"Jego wysyłki ciągle się nie udawały ({error}) — popraw adres, a potem włącz "
+"go ponownie"
+
+#: ../server/src/lib/attention.ts
+msgid "Last day to return it"
+msgstr "Ostatni dzień na zwrot"
+
+#: ../server/src/lib/attention.ts
+msgid "Last day to return it is tomorrow"
+msgstr "Ostatni dzień na zwrot jest jutro"
+
+#: ../server/src/lib/attention.ts
+msgid "Looks like: {name}"
+msgstr "Wygląda na: {name}"
+
+#: ../server/src/lib/attention.ts
+msgid "no {part} left"
+msgstr "brak: {part}"
+
+#: ../server/src/lib/attention.ts
+msgid "No backup has worked yet"
+msgstr "Żadna kopia zapasowa jeszcze się nie udała"
+
+#: ../server/src/lib/attention.ts
+msgid "No backup since {date}"
+msgstr "Brak kopii zapasowej od {date}"
+
+#: ../server/src/lib/attention.ts
+msgid "None reported yet ({where})"
+msgstr "Jeszcze żadnej nie zgłoszono ({where})"
+
+#: ../server/src/lib/attention.ts
+msgid "None since {date}"
+msgstr "Żadnej od {date}"
+
+#: ../server/src/lib/attention.ts
+msgid "not enough {part} left (other tasks use it too)"
+msgstr "za mało: {part} (używają tego też inne zadania)"
+
+#: ../server/src/lib/attention.ts
+msgid "Nothing found yet — add what's there"
+msgstr "Na razie nic nie znaleziono — dodaj, co tam jest"
+
+#: ../server/src/lib/attention.ts
+msgid "Nothing found yet in {place} — add what's there"
+msgstr "Na razie nic nie znaleziono w: {place} — dodaj, co tam jest"
+
+#: ../server/src/lib/attention.ts
+msgid "Online barcode lookups are running low"
+msgstr "Kończą się wyszukiwania kodów kreskowych online"
+
+#: ../server/src/lib/attention.ts
+msgid "Online barcode lookups are used up"
+msgstr "Wyczerpano wyszukiwania kodów kreskowych online"
+
+#: ../server/src/lib/attention.ts
+msgid "only {count} {part} left"
+msgstr "zostało tylko {count}: {part}"
+
+#: ../server/src/lib/attention.ts
+msgid "Possible recall: {thing}"
+msgstr "Możliwe wycofanie: {thing}"
+
+#: ../server/src/lib/attention.ts
+msgid "Recalled: {thing}"
+msgstr "Wycofane: {thing}"
+
+#: ../server/src/lib/attention.ts
+msgid "Return {thing}?"
+msgstr "Zwrócić: {thing}?"
+
+#: ../server/src/lib/attention.ts
+msgid "Review a room to check they're still there"
+msgstr "Przejrzyj pomieszczenie, aby sprawdzić, czy wciąż tam są"
+
+#: ../server/src/lib/attention.ts
+msgid "Room scan ready to review"
+msgstr "Skan pomieszczenia gotowy do przejrzenia"
+
+#: ../server/src/lib/attention.ts
+msgid "Run out: {list}"
+msgstr "Skończyło się: {list}"
+
+#: ../server/src/lib/attention.ts
+msgid "Running low: {list}"
+msgstr "Kończy się: {list}"
+
+#: ../server/src/lib/attention.ts
+msgid "Save a copy of Ferret's keys"
+msgstr "Zapisz kopię kluczy Ferret"
+
+#: ../server/src/lib/attention.ts
+msgid "The same thing added twice? Merge or keep both"
+msgstr "Ta sama rzecz dodana dwa razy? Połącz albo zostaw obie"
+
+#: ../server/src/lib/attention.ts
+msgid "Webhook “{name}” was switched off"
+msgstr "Webhook „{name}” został wyłączony"
+
 #~ msgid "<0>Edit</0>"
 #~ msgstr "<0>Edytuj</0>"
-
-#~ msgid "Back to your stuff"
-#~ msgstr "Wróć do swoich rzeczy"
