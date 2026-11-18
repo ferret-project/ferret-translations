@@ -754,6 +754,10 @@ msgstr ""
 msgid "{contents} inside"
 msgstr ""
 
+#: src/MoveHere.tsx
+msgid "{count, plural, one {# moved so far} other {# moved so far}}"
+msgstr ""
+
 #: src/lib/words.ts
 msgid "{count, plural, one {a day} other {# days}}"
 msgstr ""
@@ -1054,6 +1058,10 @@ msgstr ""
 
 #: src/Browse.tsx
 msgid "{name} in Apple Maps"
+msgstr ""
+
+#: src/MoveHere.tsx
+msgid "{name} is already here."
 msgstr ""
 
 #: src/Shopping.tsx
@@ -5566,6 +5574,10 @@ msgstr ""
 msgid "In {box}"
 msgstr ""
 
+#: src/ItemEditor.tsx
+msgid "In {box}."
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid "In {home}"
 msgstr ""
@@ -6016,6 +6028,10 @@ msgstr ""
 
 #: src/Heirs.tsx
 msgid "Kept in {place}"
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "Kept in {place}."
 msgstr ""
 
 #: src/Server.tsx
@@ -6603,6 +6619,10 @@ msgstr ""
 msgid "Move it"
 msgstr ""
 
+#: src/MoveHere.tsx
+msgid "Move things here"
+msgstr ""
+
 #: src/Everything.tsx
 msgid "Move to…"
 msgstr ""
@@ -6611,8 +6631,20 @@ msgstr ""
 msgid "Moved"
 msgstr ""
 
+#: src/MoveHere.tsx
+msgid "Moved here"
+msgstr ""
+
+#: src/MoveHere.tsx
+msgid "Moved here from {from}"
+msgstr ""
+
 #: src/Tracking.tsx
 msgid "Moved…"
+msgstr ""
+
+#: src/MoveHere.tsx
+msgid "Moving things to {name}"
 msgstr ""
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
@@ -6659,7 +6691,7 @@ msgid ""
 "wait for you. <0>See what it filled in</0>"
 msgstr ""
 
-#: src/App.tsx src/ScanSession.tsx
+#: src/App.tsx src/MoveHere.tsx src/ScanSession.tsx
 msgid "Never mind"
 msgstr ""
 
@@ -7274,6 +7306,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Nothing has barcode <0>{code}</0> yet. What is it?"
+msgstr ""
+
+#: src/MoveHere.tsx
+msgid "Nothing here has that code."
 msgstr ""
 
 #: src/App.tsx
@@ -8284,6 +8320,10 @@ msgstr ""
 msgid "Put a document on a thing"
 msgstr ""
 
+#: src/MoveHere.tsx
+msgid "Put back"
+msgstr ""
+
 #: src/Install.tsx
 msgid "Put Ferret on your Home Screen"
 msgstr ""
@@ -8982,12 +9022,20 @@ msgstr ""
 msgid "Scan a barcode"
 msgstr ""
 
+#: src/ItemEditor.tsx
+msgid "Scan a place's or box's label"
+msgstr ""
+
 #: src/Nav.tsx src/RoomScan.tsx
 msgid "Scan a room"
 msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Scan document"
+msgstr ""
+
+#: src/MoveHere.tsx
+msgid "Scan each thing's label or barcode."
 msgstr ""
 
 #: src/Boxes.tsx src/Stock.tsx
@@ -10025,6 +10073,10 @@ msgstr ""
 msgid "That code didn't work"
 msgstr ""
 
+#: src/lib/scan-place.ts
+msgid "That code is on a thing, not a box or a place."
+msgstr ""
+
 #: src/Pairing.tsx
 msgid "That doesn't look like a HomeKit or Matter code yet."
 msgstr ""
@@ -10041,8 +10093,30 @@ msgstr ""
 msgid "That file is over 20 MB — split it into smaller ones."
 msgstr ""
 
+#: src/lib/scan-place.ts
+msgid "That isn't a place's or a box's label."
+msgstr ""
+
 #: src/Videos.tsx
 msgid "That isn't a YouTube link."
+msgstr ""
+
+#: src/lib/scan-place.ts
+msgid "That isn't one of this household's labels."
+msgstr ""
+
+#: src/lib/scan-place.ts
+msgid "That label belongs to another household."
+msgstr ""
+
+#: src/lib/scan-place.ts
+msgid "That label is on {name}, which isn't a box or a place."
+msgstr ""
+
+#: src/lib/scan-place.ts
+msgid ""
+"That label isn't on a place yet — stick it on one from the place's page "
+"first."
 msgstr ""
 
 #: src/App.tsx
@@ -10075,6 +10149,18 @@ msgstr ""
 
 #: src/NotFound.tsx
 msgid "That thing isn't here"
+msgstr ""
+
+#: src/MoveHere.tsx
+msgid "That's {name} itself."
+msgstr ""
+
+#: src/MoveHere.tsx
+msgid "That's a place's label (or a blank one) — scan the things to move."
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "That's this box's own label."
 msgstr ""
 
 #: src/Security.tsx
@@ -10781,7 +10867,7 @@ msgstr ""
 msgid "undo"
 msgstr ""
 
-#: src/AiFill.tsx src/ScanSession.tsx src/Stock.tsx
+#: src/AiFill.tsx src/MoveHere.tsx src/ScanSession.tsx src/Stock.tsx
 msgid "Undo"
 msgstr ""
 
@@ -11470,7 +11556,11 @@ msgstr ""
 msgid "Which one"
 msgstr ""
 
-#: src/ScanSession.tsx
+#: src/MoveHere.tsx
+msgid "Which one are you moving?"
+msgstr ""
+
+#: src/MoveHere.tsx src/ScanSession.tsx
 msgid "Which one?"
 msgstr ""
 

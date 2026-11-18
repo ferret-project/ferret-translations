@@ -949,6 +949,12 @@ msgstr "{COMMAND_K} lub /, aby szukać"
 msgid "{contents} inside"
 msgstr "W środku: {contents}"
 
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "{count, plural, one {a year} other {# years}}"
+msgid "{count, plural, one {# moved so far} other {# moved so far}}"
+msgstr "{count, plural, one {rok} few {# lata} many {# lat} other {# roku}}"
+
 #: src/lib/words.ts
 msgid "{count, plural, one {a day} other {# days}}"
 msgstr "{count, plural, one {dzień} few {# dni} many {# dni} other {# dnia}}"
@@ -1284,6 +1290,12 @@ msgstr "Kolekcja {name}"
 #: src/Browse.tsx
 msgid "{name} in Apple Maps"
 msgstr "{name} w Mapach Apple"
+
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "{name} is ready"
+msgid "{name} is already here."
+msgstr "{name} jest gotowy"
 
 #: src/Shopping.tsx
 msgid "{name} is in the trolley"
@@ -6102,6 +6114,12 @@ msgstr "Importy sortowane przez AI, które nigdy się nie zakończyły."
 msgid "In {box}"
 msgstr "W {box}"
 
+#: src/ItemEditor.tsx
+#, fuzzy
+#| msgid "In {box}"
+msgid "In {box}."
+msgstr "W {box}"
+
 #: src/ImportHomeAssistant.tsx
 msgid "In {home}"
 msgstr "W {home}"
@@ -6602,6 +6620,12 @@ msgstr "Przechowywane w"
 
 #: src/Heirs.tsx
 msgid "Kept in {place}"
+msgstr "Przechowywane: {place}"
+
+#: src/ItemEditor.tsx
+#, fuzzy
+#| msgid "Kept in {place}"
+msgid "Kept in {place}."
 msgstr "Przechowywane: {place}"
 
 #: src/Server.tsx
@@ -7222,6 +7246,12 @@ msgstr "Przenieś {things}"
 msgid "Move it"
 msgstr "Przenieś"
 
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "Move {things}"
+msgid "Move things here"
+msgstr "Przenieś {things}"
+
 #: src/Everything.tsx
 msgid "Move to…"
 msgstr "Przenieś do…"
@@ -7230,9 +7260,27 @@ msgstr "Przenieś do…"
 msgid "Moved"
 msgstr "Przeniesione"
 
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "Moved"
+msgid "Moved here"
+msgstr "Przeniesione"
+
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "from {from}"
+msgid "Moved here from {from}"
+msgstr "źródło: {from}"
+
 #: src/Tracking.tsx
 msgid "Moved…"
 msgstr "Przeniesione…"
+
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "Sign in with {name}"
+msgid "Moving things to {name}"
+msgstr "Zaloguj się za pomocą {name}"
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
 #: src/Duplicates.tsx src/Everything.tsx src/ImportHomeAssistant.tsx
@@ -7282,7 +7330,7 @@ msgstr ""
 "ani harmonogramy konserwacji — to zawsze czeka na ciebie. <0>Zobacz, co "
 "uzupełniło</0>"
 
-#: src/App.tsx src/ScanSession.tsx
+#: src/App.tsx src/MoveHere.tsx src/ScanSession.tsx
 msgid "Never mind"
 msgstr "Nieważne"
 
@@ -7923,6 +7971,12 @@ msgstr "Nic nie ma kodu kreskowego"
 #: src/App.tsx
 msgid "Nothing has barcode <0>{code}</0> yet. What is it?"
 msgstr "Nic nie ma jeszcze kodu kreskowego <0>{code}</0>. Co to jest?"
+
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "nothing in Ferret has this code."
+msgid "Nothing here has that code."
+msgstr "nic w Ferret nie ma tego kodu."
 
 #: src/App.tsx
 msgid "Nothing here matches that — try Search everywhere."
@@ -8998,6 +9052,12 @@ msgstr ""
 msgid "Put a document on a thing"
 msgstr "Dołącz dokument do rzeczy"
 
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "Due back"
+msgid "Put back"
+msgstr "Termin zwrotu"
+
 #: src/Install.tsx
 msgid "Put Ferret on your Home Screen"
 msgstr "Dodaj Ferret do ekranu głównego"
@@ -9724,6 +9784,10 @@ msgstr "Skanuj"
 msgid "Scan a barcode"
 msgstr "Zeskanuj kod kreskowy"
 
+#: src/ItemEditor.tsx
+msgid "Scan a place's or box's label"
+msgstr ""
+
 #: src/Nav.tsx src/RoomScan.tsx
 msgid "Scan a room"
 msgstr "Zeskanuj pomieszczenie"
@@ -9731,6 +9795,10 @@ msgstr "Zeskanuj pomieszczenie"
 #: src/ItemPage.tsx
 msgid "Scan document"
 msgstr "Zeskanuj dokument"
+
+#: src/MoveHere.tsx
+msgid "Scan each thing's label or barcode."
+msgstr ""
 
 #: src/Boxes.tsx src/Stock.tsx
 msgid "Scan it"
@@ -10815,6 +10883,10 @@ msgstr "Dziękujemy — {owner} wie, że wróciło. Koniec przypomnień."
 msgid "That code didn't work"
 msgstr "Ten kod nie zadziałał"
 
+#: src/lib/scan-place.ts
+msgid "That code is on a thing, not a box or a place."
+msgstr ""
+
 #: src/Pairing.tsx
 msgid "That doesn't look like a HomeKit or Matter code yet."
 msgstr "To jeszcze nie wygląda na kod HomeKit ani Matter."
@@ -10831,9 +10903,35 @@ msgstr "Ten plik nie ma żadnych wierszy pod nagłówkiem."
 msgid "That file is over 20 MB — split it into smaller ones."
 msgstr "Ten plik ma ponad 20 MB — podziel go na mniejsze."
 
+#: src/lib/scan-place.ts
+msgid "That isn't a place's or a box's label."
+msgstr ""
+
 #: src/Videos.tsx
 msgid "That isn't a YouTube link."
 msgstr "To nie jest link do YouTube."
+
+#: src/lib/scan-place.ts
+msgid "That isn't one of this household's labels."
+msgstr ""
+
+#: src/lib/scan-place.ts
+#, fuzzy
+#| msgid "Things in a box that's been deleted or belongs to another household."
+msgid "That label belongs to another household."
+msgstr ""
+"Rzeczy w pudełku, które zostało usunięte lub należy do innego gospodarstwa "
+"domowego."
+
+#: src/lib/scan-place.ts
+msgid "That label is on {name}, which isn't a box or a place."
+msgstr ""
+
+#: src/lib/scan-place.ts
+msgid ""
+"That label isn't on a place yet — stick it on one from the place's page "
+"first."
+msgstr ""
 
 #: src/App.tsx
 msgid ""
@@ -10869,6 +10967,20 @@ msgstr ""
 #: src/NotFound.tsx
 msgid "That thing isn't here"
 msgstr "Tej rzeczy tu nie ma"
+
+#: src/MoveHere.tsx
+#, fuzzy
+#| msgid "Track what {name} counts"
+msgid "That's {name} itself."
+msgstr "Śledź, co liczy {name}"
+
+#: src/MoveHere.tsx
+msgid "That's a place's label (or a blank one) — scan the things to move."
+msgstr ""
+
+#: src/ItemEditor.tsx
+msgid "That's this box's own label."
+msgstr ""
 
 #: src/Security.tsx
 msgid "The 6-digit code from your authenticator app"
@@ -11649,7 +11761,7 @@ msgstr "Taśma TZe 24 mm (długość 60 mm)"
 msgid "undo"
 msgstr "cofnięcie"
 
-#: src/AiFill.tsx src/ScanSession.tsx src/Stock.tsx
+#: src/AiFill.tsx src/MoveHere.tsx src/ScanSession.tsx src/Stock.tsx
 msgid "Undo"
 msgstr "Cofnij"
 
@@ -12383,7 +12495,11 @@ msgstr "Do której rzeczy jest ten {what}?"
 msgid "Which one"
 msgstr "Która"
 
-#: src/ScanSession.tsx
+#: src/MoveHere.tsx
+msgid "Which one are you moving?"
+msgstr ""
+
+#: src/MoveHere.tsx src/ScanSession.tsx
 msgid "Which one?"
 msgstr "Która?"
 
@@ -12727,8 +12843,8 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
-msgid "Back to your stuff"
-msgstr "Wróć do swoich rzeczy"
+#~ msgid "Back to your stuff"
+#~ msgstr "Wróć do swoich rzeczy"
 
 #~ msgid "<0>Edit</0>"
 #~ msgstr "<0>Edytuj</0>"
