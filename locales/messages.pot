@@ -734,6 +734,14 @@ msgstr ""
 msgid "{contents} inside"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# document} other {# documents}} from Paperless to sort"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# error} other {# errors}} today, the last {ago}"
+msgstr ""
+
 #: ../server/src/jobs/remind.ts
 msgid "{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
 msgstr ""
@@ -744,6 +752,14 @@ msgstr ""
 
 #: src/MoveHere.tsx
 msgid "{count, plural, one {# moved so far} other {# moved so far}}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# possible duplicate} other {# possible duplicates}}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# suggested maintenance task} other {# suggested maintenance tasks}}"
 msgstr ""
 
 #: ../server/src/lib/digest.ts
@@ -762,8 +778,32 @@ msgstr ""
 msgid "{count, plural, one {# thing needs} other {# things need}} attention"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} found"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} found in {place}"
+msgstr ""
+
 #: ../server/src/lib/digest.ts
 msgid "{count, plural, one {# thing} other {# things}} lent out"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} nobody can find"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} not seen in a year"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} to buy"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# valuable thing has} other {# valuable things have}} no serial number"
 msgstr ""
 
 #: src/lib/words.ts
@@ -826,6 +866,10 @@ msgstr ""
 msgid "{count} rooms and {count2} devices in Home Assistant"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{count} run out: {list}"
+msgstr ""
+
 #: src/Walkthrough.tsx
 msgid "{count} skipped — they wait in the bell as \"New item\"."
 msgstr ""
@@ -858,8 +902,20 @@ msgstr ""
 msgid "{days, plural, one {# day left} other {# days left}}"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day left} other {# days left}} to return it"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day overdue} other {# days overdue}}"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "{days, plural, one {# day} other {# days}}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day} other {# days}}, since {since}"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -934,6 +990,7 @@ msgstr ""
 msgid "{format} of {format2}"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
 #: src/Server.tsx
 msgid "{hours} h ago"
 msgstr ""
@@ -990,6 +1047,10 @@ msgstr ""
 msgid "{label}: {have} of {total}"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{label}: worth {value}"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "{labels} on {sheets}."
 msgstr ""
@@ -1020,6 +1081,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "{m} min ago"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{minutes} min ago"
 msgstr ""
 
 #: src/Overview.tsx
@@ -1110,6 +1175,10 @@ msgstr ""
 msgid "{name}'s website"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{names} and {count} more"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "{notSeenYear, plural, one {# not seen in a year} other {# not seen in a year}}"
 msgstr ""
@@ -1158,6 +1227,10 @@ msgstr ""
 msgid "{person} invited you to join “{household}” on Ferret, where they keep track of the things in their home."
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{person} says {thing} is back"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "{person} says it's back."
 msgstr ""
@@ -1201,8 +1274,16 @@ msgstr ""
 msgid "{quantity} on hand"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{recall} — check the model"
+msgstr ""
+
 #: src/Server.tsx
 msgid "{remaining} of {limit} barcode lookups left"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{remaining} of {limit} left; it fills up again at {at}. Scans still match the barcode books."
 msgstr ""
 
 #: src/Household.tsx
@@ -1221,6 +1302,10 @@ msgstr ""
 msgid "{saved} — each will be a \"New item\" to name."
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "{service} is failing"
+msgstr ""
+
 #: src/Server.tsx
 msgid "{size} tokens"
 msgstr ""
@@ -1231,6 +1316,18 @@ msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "{takenCount, plural, one {# change} other {# changes}}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} is still with {person}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} warranty"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} warranty ({provider})"
 msgstr ""
 
 #: src/Everything.tsx
@@ -1739,6 +1836,10 @@ msgstr ""
 msgid "A new box"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "A new item to name"
+msgstr ""
+
 #: src/App.tsx
 msgid "A new link is on its way to {unconfirmed}"
 msgstr ""
@@ -1825,6 +1926,10 @@ msgstr ""
 
 #: src/RoomScan.tsx
 msgid "a room"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "A room scan didn't work"
 msgstr ""
 
 #: src/NewHousehold.tsx
@@ -2112,6 +2217,10 @@ msgstr ""
 msgid "Add category"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Add each as a new thing, or attach it to one"
+msgstr ""
+
 #: src/FromWeb.tsx
 msgid "Add from a web address"
 msgstr ""
@@ -2324,6 +2433,14 @@ msgstr ""
 msgid "Added by scanning"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Added from a photo — confirm what it is"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Added from a photo, still being read"
+msgstr ""
+
 #: src/lib/origin.ts
 msgid "Added from a QR label"
 msgstr ""
@@ -2393,6 +2510,10 @@ msgstr ""
 
 #: src/Demo.tsx
 msgid "AI calls today"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "AI filled in {count, plural, one {# detail} other {# details}}"
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -2850,6 +2971,10 @@ msgstr ""
 msgid "Backup code"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Backup failed"
+msgstr ""
+
 #: ../server/src/lib/digest.ts
 #: src/Server.tsx
 msgid "Backups"
@@ -2857,6 +2982,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Backups are off."
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Backups have stopped"
 msgstr ""
 
 #: src/AiFill.tsx
@@ -2987,6 +3116,10 @@ msgstr ""
 
 #: src/Shopping.tsx
 msgid "Buy {count}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Buy {thing}"
 msgstr ""
 
 #: src/lib/origin.ts
@@ -3171,6 +3304,14 @@ msgstr ""
 msgid "Category of thing {number}"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Certificate “{name}” expires soon"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Certificate “{name}” has expired"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Certificates"
 msgstr ""
@@ -3219,6 +3360,10 @@ msgstr ""
 #: src/Paperless.tsx
 #: src/Server.tsx
 msgid "Check now"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Check what it filled in"
 msgstr ""
 
 #: src/App.tsx
@@ -3333,6 +3478,14 @@ msgstr ""
 
 #: src/AttentionBell.tsx
 msgid "Claim"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Claim for {thing}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Claim for {thing} #{reference}"
 msgstr ""
 
 #: src/Claims.tsx
@@ -3674,6 +3827,10 @@ msgstr ""
 msgid "Couldn't load the photo — try again"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Couldn't look at the photos"
+msgstr ""
+
 #: src/RoomScan.tsx
 msgid "Couldn't look at the photos."
 msgstr ""
@@ -3741,6 +3898,10 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "Covered for"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Covered for {limit} — {short} short"
 msgstr ""
 
 #: src/PayOff.tsx
@@ -3905,6 +4066,10 @@ msgstr ""
 
 #: src/Demo.tsx
 msgid "Demo"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "denied"
 msgstr ""
 
 #: src/Claims.tsx
@@ -4184,6 +4349,22 @@ msgstr ""
 msgid "Due back"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Due back {due} (since {since})"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Due back in {days, plural, one {# day} other {# days}}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Due back today"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Due in {days, plural, one {# day} other {# days}}"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Due in 2 weeks"
 msgstr ""
@@ -4200,6 +4381,7 @@ msgstr ""
 msgid "Due soon"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
 #: src/Maintenance.tsx
 msgid "Due today"
 msgstr ""
@@ -4467,6 +4649,10 @@ msgstr ""
 msgid "Ended"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Ended {date} — add its replacement in Settings → Server → Certificates."
+msgstr ""
+
 #: src/Warranties.tsx
 msgid "ended {time} ago"
 msgstr ""
@@ -4483,8 +4669,20 @@ msgstr ""
 msgid "Ends"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Ends {date} — add its replacement in Settings → Server → Certificates."
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Ends in {days, plural, one {# day} other {# days}} — anything to claim?"
+msgstr ""
+
 #: src/Warranties.tsx
 msgid "Ends soon"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Ends today"
 msgstr ""
 
 #: src/Replacement.tsx
@@ -4701,6 +4899,10 @@ msgstr ""
 msgid "Extra fields for its items"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Failed since {date}"
+msgstr ""
+
 #: src/lib/words.ts
 msgid "Fair"
 msgstr ""
@@ -4734,6 +4936,10 @@ msgstr ""
 
 #: src/Connect.tsx
 msgid "Ferret can't check an app's name. Only allow this if you just asked {name} to connect."
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Ferret can't reach Paperless"
 msgstr ""
 
 #: src/Loans.tsx
@@ -4866,12 +5072,20 @@ msgstr ""
 msgid "File claim"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "filed"
+msgstr ""
+
 #: src/Claims.tsx
 msgid "Filed"
 msgstr ""
 
 #: src/Claims.tsx
 msgid "Filed {date}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Filed {days, plural, one {# day ago} other {# days ago}}, still {status} — follow up?"
 msgstr ""
 
 #: src/Claims.tsx
@@ -4888,6 +5102,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Files the database lists that aren't in the file store — their photos or documents can't be opened."
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "FILES_KEY is only in this server's data folder: lose that, and every photo, document and backup is lost too. Make a key file — Settings → Server → Keys."
 msgstr ""
 
 #: src/Server.tsx
@@ -5067,9 +5285,17 @@ msgstr ""
 msgid "Found in a room scan"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Found in manuals or typical for your things — add or dismiss"
+msgstr ""
+
 #: src/ScanSession.tsx
 #: src/Tracking.tsx
 msgid "Found it"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Found it, or is it lost for good?"
 msgstr ""
 
 #: src/lib/words.ts
@@ -5219,6 +5445,10 @@ msgstr ""
 
 #: src/Boxes.tsx
 msgid "Give {name} a QR label"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Give {thing} back to {person}"
 msgstr ""
 
 #: src/Gone.tsx
@@ -5670,6 +5900,10 @@ msgstr ""
 msgid "In Paperless: your name → My profile → API auth token. A Paperless user who can only view documents is enough."
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "in progress"
+msgstr ""
+
 #: src/Claims.tsx
 msgid "In progress"
 msgstr ""
@@ -5751,6 +5985,10 @@ msgstr ""
 msgid "Insurance report"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Insurers ask for it — photograph the label and Ferret reads it"
+msgstr ""
+
 #: src/Household.tsx
 msgid "Invitation for <0>{email}</0>"
 msgstr ""
@@ -5786,6 +6024,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Is it this?"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Is it? Mark it back on its page"
 msgstr ""
 
 #: src/Boxes.tsx
@@ -5952,6 +6194,14 @@ msgstr ""
 msgid "Its cover — tap to add it"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Its deliveries kept failing — fix the address, then turn it on again"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Its deliveries kept failing ({error}) — fix the address, then turn it on again"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "Its name"
 msgstr ""
@@ -6009,6 +6259,7 @@ msgstr ""
 msgid "Join your household"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
 #: src/lib/last-scanned.ts
 #: src/Server.tsx
 msgid "just now"
@@ -6176,6 +6427,14 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "last day"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Last day to return it"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Last day to return it is tomorrow"
 msgstr ""
 
 #: src/Notifications.tsx
@@ -6416,6 +6675,10 @@ msgstr ""
 
 #: src/Links.tsx
 msgid "Looks for it on Amazon by its part or model number — add the product's link here for an Add to cart button"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Looks like: {name}"
 msgstr ""
 
 #: src/Server.tsx
@@ -6907,12 +7170,24 @@ msgstr ""
 msgid "No — a new part"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "no {part} left"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "No apps connected to {householdName}. An app you connect is listed under the household you picked for it."
 msgstr ""
 
 #: src/Server.tsx
 msgid "No backup has reported yet."
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "No backup has worked yet"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "No backup since {date}"
 msgstr ""
 
 #: src/Server.tsx
@@ -7149,6 +7424,14 @@ msgstr ""
 msgid "None recorded yet — sign-ins are kept from now on."
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "None reported yet ({where})"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "None since {date}"
+msgstr ""
+
 #: src/Server.tsx
 #: src/Warranties.tsx
 #: src/Webhooks.tsx
@@ -7205,6 +7488,10 @@ msgstr ""
 
 #: src/Household.tsx
 msgid "Not emailed yet"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "not enough {part} left (other tasks use it too)"
 msgstr ""
 
 #: src/MaintenanceCalendar.tsx
@@ -7381,6 +7668,14 @@ msgstr ""
 
 #: src/Repairs.tsx
 msgid "Nothing fixed yet. When something is, log it here — it counts in what owning it has cost."
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Nothing found yet — add what's there"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Nothing found yet in {place} — add what's there"
 msgstr ""
 
 #: src/App.tsx
@@ -7721,6 +8016,18 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Online barcode lookups"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Online barcode lookups are running low"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Online barcode lookups are used up"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "only {count} {part} left"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -8247,6 +8554,10 @@ msgstr ""
 msgid "Possible duplicates"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Possible recall: {thing}"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "Possibly recalled — check the model"
 msgstr ""
@@ -8562,6 +8873,10 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "Recalled"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Recalled: {thing}"
 msgstr ""
 
 #: ../server/src/lib/digest.ts
@@ -8934,6 +9249,10 @@ msgstr ""
 msgid "Return"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Return {thing}?"
+msgstr ""
+
 #: src/AiFill.tsx
 #: src/ItemEditor.tsx
 #: src/lib/words.ts
@@ -8968,6 +9287,10 @@ msgstr ""
 
 #: src/Walkthrough.tsx
 msgid "Review {room}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Review a room to check they're still there"
 msgstr ""
 
 #: src/Tracking.tsx
@@ -9040,6 +9363,10 @@ msgstr ""
 msgid "Room scan"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Room scan ready to review"
+msgstr ""
+
 #: src/Offline.tsx
 msgid "Room scan saved"
 msgstr ""
@@ -9081,8 +9408,16 @@ msgstr ""
 msgid "Rotate"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Run out: {list}"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Run your own Ferret"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Running low: {list}"
 msgstr ""
 
 #: src/Install.tsx
@@ -9110,6 +9445,10 @@ msgstr ""
 
 #: src/Walkthrough.tsx
 msgid "Save & next"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Save a copy of Ferret's keys"
 msgstr ""
 
 #: src/Pairing.tsx
@@ -10474,6 +10813,10 @@ msgstr ""
 msgid "The same again"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "The same thing added twice? Merge or keep both"
+msgstr ""
+
 #: src/Server.tsx
 msgid "The secrets Ferret needs. Any set in Ferret's settings are used; the rest Ferret made itself and keeps in <0>{file}</0> — never in its backups."
 msgstr ""
@@ -11440,6 +11783,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "Web link"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Webhook “{name}” was switched off"
 msgstr ""
 
 #: src/Webhooks.tsx
