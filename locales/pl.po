@@ -950,10 +950,10 @@ msgid "{contents} inside"
 msgstr "W środku: {contents}"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "{count, plural, one {a year} other {# years}}"
 msgid "{count, plural, one {# moved so far} other {# moved so far}}"
-msgstr "{count, plural, one {rok} few {# lata} many {# lat} other {# roku}}"
+msgstr ""
+"{count, plural, one {Przeniesiono już #} few {Przeniesiono już #} many "
+"{Przeniesiono już #} other {Przeniesiono już #}}"
 
 #: src/lib/words.ts
 msgid "{count, plural, one {a day} other {# days}}"
@@ -1292,10 +1292,8 @@ msgid "{name} in Apple Maps"
 msgstr "{name} w Mapach Apple"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "{name} is ready"
 msgid "{name} is already here."
-msgstr "{name} jest gotowy"
+msgstr "{name} już tu jest."
 
 #: src/Shopping.tsx
 msgid "{name} is in the trolley"
@@ -6115,10 +6113,8 @@ msgid "In {box}"
 msgstr "W {box}"
 
 #: src/ItemEditor.tsx
-#, fuzzy
-#| msgid "In {box}"
 msgid "In {box}."
-msgstr "W {box}"
+msgstr "W pudełku: {box}."
 
 #: src/ImportHomeAssistant.tsx
 msgid "In {home}"
@@ -6623,10 +6619,8 @@ msgid "Kept in {place}"
 msgstr "Przechowywane: {place}"
 
 #: src/ItemEditor.tsx
-#, fuzzy
-#| msgid "Kept in {place}"
 msgid "Kept in {place}."
-msgstr "Przechowywane: {place}"
+msgstr "Przechowywane w: {place}."
 
 #: src/Server.tsx
 msgid "Key file command"
@@ -7247,10 +7241,8 @@ msgid "Move it"
 msgstr "Przenieś"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "Move {things}"
 msgid "Move things here"
-msgstr "Przenieś {things}"
+msgstr "Przenieś tu rzeczy"
 
 #: src/Everything.tsx
 msgid "Move to…"
@@ -7261,26 +7253,20 @@ msgid "Moved"
 msgstr "Przeniesione"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "Moved"
 msgid "Moved here"
-msgstr "Przeniesione"
+msgstr "Przeniesione tutaj"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "from {from}"
 msgid "Moved here from {from}"
-msgstr "źródło: {from}"
+msgstr "Przeniesione tutaj z: {from}"
 
 #: src/Tracking.tsx
 msgid "Moved…"
 msgstr "Przeniesione…"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "Sign in with {name}"
 msgid "Moving things to {name}"
-msgstr "Zaloguj się za pomocą {name}"
+msgstr "Przenoszenie rzeczy do: {name}"
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
 #: src/Duplicates.tsx src/Everything.tsx src/ImportHomeAssistant.tsx
@@ -7973,10 +7959,8 @@ msgid "Nothing has barcode <0>{code}</0> yet. What is it?"
 msgstr "Nic nie ma jeszcze kodu kreskowego <0>{code}</0>. Co to jest?"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "nothing in Ferret has this code."
 msgid "Nothing here has that code."
-msgstr "nic w Ferret nie ma tego kodu."
+msgstr "Nic tutaj nie ma tego kodu."
 
 #: src/App.tsx
 msgid "Nothing here matches that — try Search everywhere."
@@ -9053,10 +9037,8 @@ msgid "Put a document on a thing"
 msgstr "Dołącz dokument do rzeczy"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "Due back"
 msgid "Put back"
-msgstr "Termin zwrotu"
+msgstr "Odłożone z powrotem"
 
 #: src/Install.tsx
 msgid "Put Ferret on your Home Screen"
@@ -9786,7 +9768,7 @@ msgstr "Zeskanuj kod kreskowy"
 
 #: src/ItemEditor.tsx
 msgid "Scan a place's or box's label"
-msgstr ""
+msgstr "Zeskanuj etykietę miejsca lub pudełka"
 
 #: src/Nav.tsx src/RoomScan.tsx
 msgid "Scan a room"
@@ -9798,7 +9780,7 @@ msgstr "Zeskanuj dokument"
 
 #: src/MoveHere.tsx
 msgid "Scan each thing's label or barcode."
-msgstr ""
+msgstr "Zeskanuj etykietę lub kod kreskowy każdej rzeczy."
 
 #: src/Boxes.tsx src/Stock.tsx
 msgid "Scan it"
@@ -10885,7 +10867,7 @@ msgstr "Ten kod nie zadziałał"
 
 #: src/lib/scan-place.ts
 msgid "That code is on a thing, not a box or a place."
-msgstr ""
+msgstr "Ten kod jest na rzeczy, a nie na pudełku ani w miejscu."
 
 #: src/Pairing.tsx
 msgid "That doesn't look like a HomeKit or Matter code yet."
@@ -10905,7 +10887,7 @@ msgstr "Ten plik ma ponad 20 MB — podziel go na mniejsze."
 
 #: src/lib/scan-place.ts
 msgid "That isn't a place's or a box's label."
-msgstr ""
+msgstr "To nie jest etykieta miejsca ani pudełka."
 
 #: src/Videos.tsx
 msgid "That isn't a YouTube link."
@@ -10913,25 +10895,23 @@ msgstr "To nie jest link do YouTube."
 
 #: src/lib/scan-place.ts
 msgid "That isn't one of this household's labels."
-msgstr ""
+msgstr "To nie jest etykieta tego gospodarstwa domowego."
 
 #: src/lib/scan-place.ts
-#, fuzzy
-#| msgid "Things in a box that's been deleted or belongs to another household."
 msgid "That label belongs to another household."
-msgstr ""
-"Rzeczy w pudełku, które zostało usunięte lub należy do innego gospodarstwa "
-"domowego."
+msgstr "Ta etykieta należy do innego gospodarstwa domowego."
 
 #: src/lib/scan-place.ts
 msgid "That label is on {name}, which isn't a box or a place."
-msgstr ""
+msgstr "Ta etykieta jest na: {name} — to nie pudełko ani miejsce."
 
 #: src/lib/scan-place.ts
 msgid ""
 "That label isn't on a place yet — stick it on one from the place's page "
 "first."
 msgstr ""
+"Ta etykieta nie jest jeszcze przypisana do miejsca — najpierw przypisz ją na "
+"stronie miejsca."
 
 #: src/App.tsx
 msgid ""
@@ -10969,18 +10949,16 @@ msgid "That thing isn't here"
 msgstr "Tej rzeczy tu nie ma"
 
 #: src/MoveHere.tsx
-#, fuzzy
-#| msgid "Track what {name} counts"
 msgid "That's {name} itself."
-msgstr "Śledź, co liczy {name}"
+msgstr "To właśnie {name}."
 
 #: src/MoveHere.tsx
 msgid "That's a place's label (or a blank one) — scan the things to move."
-msgstr ""
+msgstr "To etykieta miejsca (albo pusta) — zeskanuj rzeczy do przeniesienia."
 
 #: src/ItemEditor.tsx
 msgid "That's this box's own label."
-msgstr ""
+msgstr "To etykieta tego pudełka."
 
 #: src/Security.tsx
 msgid "The 6-digit code from your authenticator app"
@@ -12497,7 +12475,7 @@ msgstr "Która"
 
 #: src/MoveHere.tsx
 msgid "Which one are you moving?"
-msgstr ""
+msgstr "Którą rzecz przenosisz?"
 
 #: src/MoveHere.tsx src/ScanSession.tsx
 msgid "Which one?"
@@ -12843,8 +12821,471 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
+msgid "<0>Edit</0>"
+msgstr "<0>Edytuj</0>"
+
+#: ../server/src/jobs/remind.ts
+msgid "…and {count} more"
+msgstr "…i jeszcze {count}"
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{app} can now look things up in {household} with your account. If that "
+"wasn't you, disconnect it in Settings → Claude & API, change your password "
+"and sign out everywhere else in Settings → Security."
+msgstr ""
+"{app} może teraz przeglądać {household} przez twoje konto. Jeśli to nie ty, "
+"odłącz ją w Ustawienia → Claude i API, zmień hasło i wyloguj się wszędzie "
+"indziej w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{app} can now look things up in and change {household} with your account. If "
+"that wasn't you, disconnect it in Settings → Claude & API, change your "
+"password and sign out everywhere else in Settings → Security."
+msgstr ""
+"{app} może teraz przeglądać i zmieniać {household} przez twoje konto. Jeśli "
+"to nie ty, odłącz ją w Ustawienia → Claude i API, zmień hasło i wyloguj się "
+"wszędzie indziej w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/jobs/security-alert.ts
+msgid "{app} was connected to your Ferret account"
+msgstr "Do twojego konta Ferret podłączono: {app}"
+
+#: ../server/src/jobs/remind.ts
+msgid ""
+"{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
+msgstr ""
+"{count, plural, one {# zadanie konserwacyjne} few {# zadania konserwacyjne} "
+"many {# zadań konserwacyjnych} other {# zadania konserwacyjnego}} do "
+"wykonania"
+
+#: ../server/src/jobs/remind.ts
+msgid ""
+"{count, plural, one {# maintenance task} other {# maintenance tasks}} overdue"
+msgstr ""
+"{count, plural, one {# zadanie konserwacyjne} few {# zadania konserwacyjne} "
+"many {# zadań konserwacyjnych} other {# zadania konserwacyjnego}} po terminie"
+
+#: ../server/src/lib/digest.ts
+msgid "{count, plural, one {# thing is} other {# things are}} lent out."
+msgstr ""
+"{count, plural, one {# rzecz jest pożyczona} few {# rzeczy są pożyczone} "
+"many {# rzeczy jest pożyczonych} other {# rzeczy jest pożyczone}}."
+
+#: ../server/src/lib/digest.ts
+msgid ""
+"{count, plural, one {# thing needs} other {# things need}} a look, {urgent} "
+"of them urgent."
+msgstr ""
+"{count, plural, one {# rzecz wymaga} few {# rzeczy wymagają} many {# rzeczy "
+"wymaga} other {# rzeczy wymaga}} uwagi, w tym pilne: {urgent}."
+
+#: ../server/src/lib/digest.ts
+msgid "{count, plural, one {# thing needs} other {# things need}} a look."
+msgstr ""
+"{count, plural, one {# rzecz wymaga} few {# rzeczy wymagają} many {# rzeczy "
+"wymaga} other {# rzeczy wymaga}} uwagi."
+
+#: ../server/src/jobs/remind.ts
+msgid "{count, plural, one {# thing needs} other {# things need}} attention"
+msgstr ""
+"{count, plural, one {# rzecz wymaga} few {# rzeczy wymagają} many {# rzeczy "
+"wymaga} other {# rzeczy wymaga}} uwagi"
+
+#: ../server/src/lib/digest.ts
+msgid "{count, plural, one {# thing} other {# things}} lent out"
+msgstr ""
+"{count, plural, one {# rzecz pożyczona} few {# rzeczy pożyczone} many {# "
+"rzeczy pożyczonych} other {# rzeczy pożyczone}}"
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{failures, plural, one {# wrong password} other {# wrong passwords}} for "
+"your account since you last signed in, the latest from {address}. If that "
+"wasn't you, turn on two-step sign-in in Settings → Security."
+msgstr ""
+"{failures, plural, one {# błędne hasło} few {# błędne hasła} many {# "
+"błędnych haseł} other {# błędnego hasła}} do twojego konta od ostatniego "
+"logowania, ostatnie z adresu {address}. Jeśli to nie ty, włącz logowanie "
+"dwuetapowe w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"{failures, plural, one {# wrong password} other {# wrong passwords}} for "
+"your account since you last signed in. If that wasn't you, turn on two-step "
+"sign-in in Settings → Security."
+msgstr ""
+"{failures, plural, one {# błędne hasło} few {# błędne hasła} many {# "
+"błędnych haseł} other {# błędnego hasła}} do twojego konta od ostatniego "
+"logowania. Jeśli to nie ty, włącz logowanie dwuetapowe w Ustawienia → "
+"Bezpieczeństwo."
+
+#: ../server/src/lib/invitation-email.ts
+msgid "{person} invited you to {household} on Ferret"
+msgstr "{person} zaprasza cię do „{household}” w Ferret"
+
+#: ../server/src/lib/invitation-email.ts
+msgid ""
+"{person} invited you to join “{household}” on Ferret, where they keep track "
+"of the things in their home."
+msgstr ""
+"{person} zaprasza cię do „{household}” w Ferret, gdzie prowadzi spis rzeczy "
+"w swoim domu."
+
+#: ../server/src/lib/loans.ts
+msgid ""
+"{who} lent you {thing} on {since}, to bring back by {due}. This is a "
+"friendly reminder that it's still with you."
+msgstr ""
+"Od {since} masz pożyczone od {who}: {thing} — do oddania do {due}. To "
+"przyjazne przypomnienie, że wciąż jest u ciebie."
+
+#: ../server/src/lib/loans.ts
+msgid ""
+"{who} lent you {thing} on {since}. This is a friendly reminder that it's "
+"still with you."
+msgstr ""
+"Od {since} masz pożyczone od {who}: {thing}. To przyjazne przypomnienie, że "
+"wciąż jest u ciebie."
+
+#: ../server/src/lib/loans.ts
+msgid "A friendly reminder from {who}"
+msgstr "Przyjazne przypomnienie od {who}"
+
+#: ../server/src/jobs/security-alert.ts
+msgid "a household"
+msgstr "gospodarstwo domowe"
+
+#: ../server/src/jobs/security-alert.ts
+msgid "A passkey was added to your Ferret account"
+msgstr "Do twojego konta Ferret dodano klucz dostępu"
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"A passkey was just added from {device}. It can sign in to your account "
+"without a password. If that wasn't you, remove it and sign out everywhere "
+"else in Settings → Security."
+msgstr ""
+"Właśnie dodano klucz dostępu z urządzenia: {device}. Można nim zalogować się "
+"do twojego konta bez hasła. Jeśli to nie ty, usuń go i wyloguj się wszędzie "
+"indziej w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/lib/loans.ts
+msgid "A reminder from {who}: {thing}"
+msgstr "Przypomnienie od {who}: {thing}"
+
+#: ../server/src/jobs/remind.ts
+msgid "A warranty is ending"
+msgstr "Kończy się gwarancja"
+
+#: ../server/src/lib/invitation-email.ts
+msgid "Accept the invitation"
+msgstr "Przyjmij zaproszenie"
+
+#: ../server/src/lib/loans.ts
+msgid "Already given it back, or don't want these reminders? Let {who} know:"
+msgstr "Już oddane albo nie chcesz tych przypomnień? Daj znać {who}:"
+
+#: ../server/src/jobs/security-alert.ts
+msgid "An app"
+msgstr "Aplikacja"
+
+#: ../server/src/app.ts
+msgid "Choose a new Ferret password"
+msgstr "Wybierz nowe hasło do Ferret"
+
+#: ../server/src/jobs/unlock.ts
+msgid "Clear it and sign in"
+msgstr "Wyzeruj licznik i zaloguj się"
+
+#: ../server/src/lib/email-verification.ts
+msgid "Confirm my email"
+msgstr "Potwierdź mój e-mail"
+
+#: ../server/src/lib/email-verification.ts
+msgid "Confirm your email"
+msgstr "Potwierdź swój e-mail"
+
+#: ../server/src/lib/email-verification.ts
+msgid "Confirm your email for Ferret"
+msgstr "Potwierdź swój e-mail w Ferret"
+
+#: ../server/src/app.ts
+msgid "Here's your link to sign in to Ferret."
+msgstr "Oto twój link do logowania w Ferret."
+
+#: ../server/src/app.ts ../server/src/lib/email-verification.ts
+#: ../server/src/lib/loans.ts
+msgid "Hi {name},"
+msgstr "Cześć {name},"
+
+#: ../server/src/jobs/unlock.ts
+msgid ""
+"If that wasn't you, ignore this — and consider turning on two-step sign-in "
+"in Settings → Security."
+msgstr ""
+"Jeśli to nie ty, zignoruj tę wiadomość — i rozważ włączenie logowania "
+"dwuetapowego w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"If that wasn't you, reset it again now and turn on two-step sign-in in "
+"Settings → Security."
+msgstr ""
+"Jeśli to nie ty, od razu zresetuj je ponownie i włącz logowanie dwuetapowe w "
+"Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/app.ts
+msgid ""
+"If you didn't ask for it, ignore this email: nobody can use the link without "
+"getting into your inbox."
+msgstr ""
+"Jeśli to nie twoja prośba, zignoruj ten e-mail: nikt nie użyje linku bez "
+"dostępu do twojej skrzynki."
+
+#: ../server/src/app.ts
+msgid "If you didn't ask, ignore this email: your password stays as it is."
+msgstr ""
+"Jeśli to nie twoja prośba, zignoruj ten e-mail: twoje hasło pozostanie bez "
+"zmian."
+
+#: ../server/src/lib/email-verification.ts
+msgid ""
+"If you didn't sign up for Ferret, ignore this email: the account is removed "
+"in a week."
+msgstr ""
+"Jeśli to nie ty zakładasz konto w Ferret, zignoruj ten e-mail: konto "
+"zostanie usunięte po tygodniu."
+
+#: ../server/src/app.ts
+msgid "It works once, for 15 minutes."
+msgstr "Działa raz, przez 15 minut."
+
+#: ../server/src/jobs/unlock.ts
+msgid "It works once, for 30 minutes."
+msgstr "Działa raz, przez 30 minut."
+
+#: ../server/src/lib/invitation-email.ts
+msgid "It works until {until}, and only for {email}."
+msgstr "Działa do {until} i tylko dla {email}."
+
+#: ../server/src/lib/digest.ts
+msgid "Lent and borrowed"
+msgstr "Pożyczone komuś i od kogoś"
+
+#: ../server/src/lib/loans.ts
+msgid "Let {who} know"
+msgstr "Daj znać {who}"
+
+#: ../server/src/jobs/remind.ts
+msgid "Maintenance due today"
+msgstr "Konserwacja na dziś"
+
+#: ../server/src/jobs/security-alert.ts
+msgid "New sign-in to Ferret"
+msgstr "Nowe logowanie do Ferret"
+
+#: ../server/src/lib/invitation-email.ts
+msgid ""
+"New to Ferret? You'll make an account with this email address first. If you "
+"weren't expecting this, ignore it."
+msgstr ""
+"Nie masz jeszcze konta w Ferret? Najpierw założysz je z tym adresem e-mail. "
+"Jeśli się tego nie spodziewasz, zignoruj tę wiadomość."
+
+#: ../server/src/lib/digest.ts
+msgid "Open Ferret"
+msgstr "Otwórz Ferret"
+
+#: ../server/src/jobs/unlock.ts
+msgid "Open this link (it works once, for 30 minutes):"
+msgstr "Otwórz ten link (działa raz, przez 30 minut):"
+
+#: ../server/src/lib/email.ts
+msgid "Or copy this link: {link}"
+msgstr "Albo skopiuj ten link: {link}"
+
+#: ../server/src/jobs/remind.ts
+msgid "Overdue maintenance"
+msgstr "Zaległa konserwacja"
+
+#: ../server/src/lib/digest.ts
+msgid "Recalls"
+msgstr "Wycofania"
+
+#: ../server/src/lib/digest.ts
+msgid "Returns"
+msgstr "Zwroty"
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Review connected apps"
+msgstr "Sprawdź połączone aplikacje"
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Review your sign-in security"
+msgstr "Sprawdź bezpieczeństwo logowania"
+
+#: ../server/src/lib/email.ts
+msgid "Sent by Ferret at {host}"
+msgstr "Wysłane przez Ferret z {host}"
+
+#: ../server/src/lib/loans.ts
+msgid "Sent by Ferret, {who}'s home inventory."
+msgstr "Wysłane przez Ferret, domowy spis rzeczy osoby {who}."
+
+#: ../server/src/app.ts
+msgid "Sign in to Ferret"
+msgstr "Zaloguj się do Ferret"
+
+#: ../server/src/jobs/unlock.ts
+msgid "Sign in to Ferret again"
+msgstr "Zaloguj się ponownie do Ferret"
+
+#: ../server/src/app.ts
+msgid "Someone — hopefully you — asked to reset your Ferret password."
+msgstr ""
+"Ktoś — miejmy nadzieję, że ty — poprosił o zresetowanie twojego hasła do "
+"Ferret."
+
+#: ../server/src/jobs/unlock.ts
+msgid ""
+"Someone asked to clear the wrong-password count on your Ferret account, so "
+"you can sign in again straight away."
+msgstr ""
+"Ktoś poprosił o wyzerowanie licznika błędnych haseł na twoim koncie Ferret, "
+"żeby można było od razu znów się zalogować."
+
+#: ../server/src/jobs/unlock.ts
+msgid ""
+"Someone at {address} asked to clear the wrong-password count on your Ferret "
+"account, so you can sign in again straight away."
+msgstr ""
+"Ktoś z adresu {address} poprosił o wyzerowanie licznika błędnych haseł na "
+"twoim koncie Ferret, żeby można było od razu znów się zalogować."
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Someone is trying your Ferret password"
+msgstr "Ktoś próbuje zgadnąć twoje hasło do Ferret"
+
+#: ../server/src/jobs/remind.ts
+msgid "Something's run out"
+msgstr "Coś się skończyło"
+
+#: ../server/src/lib/digest.ts
+msgid "Suggestions"
+msgstr "Sugestie"
+
+#: ../server/src/jobs/unlock.ts
+msgid "Tap to clear the wrong-password count and sign in again."
+msgstr ""
+"Stuknij, aby wyzerować licznik błędnych haseł i zalogować się ponownie."
+
+#: ../server/src/lib/email-verification.ts
+msgid "The link works for a day."
+msgstr "Link działa przez jeden dzień."
+
+#: ../server/src/app.ts
+msgid "The link works once, for an hour."
+msgstr "Link działa raz, przez godzinę."
+
+#: ../server/src/lib/email-verification.ts
+msgid ""
+"To finish setting up your Ferret account, confirm this is your email "
+"address. Then sign in."
+msgstr ""
+"Aby dokończyć zakładanie konta w Ferret, potwierdź, że to twój adres e-mail. "
+"Potem się zaloguj."
+
+#: ../server/src/lib/email.ts
+msgid "urgent"
+msgstr "pilne"
+
+#: ../server/src/lib/email.ts
+msgid "Urgent"
+msgstr "Pilne"
+
+#: ../server/src/lib/digest.ts
+msgid "Warranties and claims"
+msgstr "Gwarancje i reklamacje"
+
+#: ../server/src/lib/digest.ts
+msgid ""
+"You get this summary once a week. Change the day or stop it in Settings → "
+"Notifications."
+msgstr ""
+"To podsumowanie przychodzi raz w tygodniu. Zmień dzień lub je wyłącz w "
+"Ustawienia → Powiadomienia."
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your account was just signed in to from somewhere new: {device} at "
+"{address}, {when}. If that was you, there's nothing to do. If not, change "
+"your password and sign out everywhere else in Settings → Security."
+msgstr ""
+"Ktoś właśnie zalogował się na twoje konto z nowego miejsca: {device}, adres "
+"{address}, {when}. Jeśli to ty, nic nie musisz robić. Jeśli nie, zmień hasło "
+"i wyloguj się wszędzie indziej w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your account was just signed in to from somewhere new: {device}, {when}. If "
+"that was you, there's nothing to do. If not, change your password and sign "
+"out everywhere else in Settings → Security."
+msgstr ""
+"Ktoś właśnie zalogował się na twoje konto z nowego miejsca: {device}, "
+"{when}. Jeśli to ty, nic nie musisz robić. Jeśli nie, zmień hasło i wyloguj "
+"się wszędzie indziej w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Your Ferret password was changed"
+msgstr "Twoje hasło do Ferret zostało zmienione"
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your Ferret password was just reset with an emailed link, and every session "
+"was signed out."
+msgstr ""
+"Twoje hasło do Ferret zostało właśnie zresetowane linkiem z e-maila, a "
+"wszystkie sesje zostały wylogowane."
+
+#: ../server/src/jobs/security-alert.ts
+msgid "Your password was changed"
+msgstr "Twoje hasło zostało zmienione"
+
+#: ../server/src/jobs/security-alert.ts
+msgid ""
+"Your password was just reset with an emailed link, and every session was "
+"signed out. If that wasn't you, reset it again now and turn on two-step sign-"
+"in in Settings → Security."
+msgstr ""
+"Twoje hasło zostało właśnie zresetowane linkiem z e-maila, a wszystkie sesje "
+"zostały wylogowane. Jeśli to nie ty, od razu zresetuj je ponownie i włącz "
+"logowanie dwuetapowe w Ustawienia → Bezpieczeństwo."
+
+#: ../server/src/app.ts
+msgid "Your sign-in link"
+msgstr "Twój link do logowania"
+
+#: ../server/src/lib/digest.ts
+msgid "Your week in Ferret"
+msgstr "Twój tydzień w Ferret"
+
+#: ../server/src/lib/digest.ts
+msgid ""
+"Your week in Ferret: {count, plural, one {# thing} other {# things}} to look "
+"at"
+msgstr ""
+"Twój tydzień w Ferret: {count, plural, one {# rzecz} few {# rzeczy} many {# "
+"rzeczy} other {# rzeczy}} do sprawdzenia"
+
+#: ../server/src/lib/digest.ts
+msgid ""
+"Your week in Ferret: {count, plural, one {# thing} other {# things}} to look "
+"at ({urgent} urgent)"
+msgstr ""
+"Twój tydzień w Ferret: {count, plural, one {# rzecz} few {# rzeczy} many {# "
+"rzeczy} other {# rzeczy}} do sprawdzenia (pilne: {urgent})"
+
 #~ msgid "Back to your stuff"
 #~ msgstr "Wróć do swoich rzeczy"
-
-#~ msgid "<0>Edit</0>"
-#~ msgstr "<0>Edytuj</0>"
