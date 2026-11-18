@@ -977,6 +977,19 @@ msgstr "{COMMAND_K} lub /, aby szukać"
 msgid "{contents} inside"
 msgstr "W środku: {contents}"
 
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# document} other {# documents}} from Paperless to sort"
+msgstr ""
+"{count, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other "
+"{# dokumentu}} z Paperless do posortowania"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# error} other {# errors}} today, the last {ago}"
+msgstr ""
+"{count, plural, one {# błąd} few {# błędy} many {# błędów} other {# błędu}} "
+"dzisiaj, ostatni {ago}"
+
 #: ../server/src/jobs/remind.ts
 msgid ""
 "{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
@@ -997,6 +1010,22 @@ msgid "{count, plural, one {# moved so far} other {# moved so far}}"
 msgstr ""
 "{count, plural, one {Przeniesiono już #} few {Przeniesiono już #} many "
 "{Przeniesiono już #} other {Przeniesiono już #}}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# possible duplicate} other {# possible duplicates}}"
+msgstr ""
+"{count, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
+"możliwych duplikatów} other {# możliwego duplikatu}}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# suggested maintenance task} other {# suggested "
+"maintenance tasks}}"
+msgstr ""
+"{count, plural, one {# proponowane zadanie konserwacyjne} few {# proponowane "
+"zadania konserwacyjne} many {# proponowanych zadań konserwacyjnych} other {# "
+"proponowanego zadania konserwacyjnego}}"
 
 #: ../server/src/lib/digest.ts
 msgid "{count, plural, one {# thing is} other {# things are}} lent out."
@@ -1024,11 +1053,52 @@ msgstr ""
 "{count, plural, one {# rzecz wymaga} few {# rzeczy wymagają} many {# rzeczy "
 "wymaga} other {# rzeczy wymaga}} uwagi"
 
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} found"
+msgstr ""
+"{count, plural, one {Znaleziono # rzecz} few {Znaleziono # rzeczy} many "
+"{Znaleziono # rzeczy} other {Znaleziono # rzeczy}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} found in {place}"
+msgstr ""
+"{count, plural, one {Znaleziono # rzecz} few {Znaleziono # rzeczy} many "
+"{Znaleziono # rzeczy} other {Znaleziono # rzeczy}} w: {place}"
+
 #: ../server/src/lib/digest.ts
 msgid "{count, plural, one {# thing} other {# things}} lent out"
 msgstr ""
 "{count, plural, one {# rzecz pożyczona} few {# rzeczy pożyczone} many {# "
 "rzeczy pożyczonych} other {# rzeczy pożyczone}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} nobody can find"
+msgstr ""
+"{count, plural, one {# rzecz, której nikt nie może znaleźć} few {# rzeczy, "
+"których nikt nie może znaleźć} many {# rzeczy, których nikt nie może "
+"znaleźć} other {# rzeczy, których nikt nie może znaleźć}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} not seen in a year"
+msgstr ""
+"{count, plural, one {# rzecz niewidziana od roku} few {# rzeczy niewidziane "
+"od roku} many {# rzeczy niewidzianych od roku} other {# rzeczy niewidziane "
+"od roku}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{count, plural, one {# thing} other {# things}} to buy"
+msgstr ""
+"{count, plural, one {# rzecz do kupienia} few {# rzeczy do kupienia} many {# "
+"rzeczy do kupienia} other {# rzeczy do kupienia}}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{count, plural, one {# valuable thing has} other {# valuable things have}} "
+"no serial number"
+msgstr ""
+"{count, plural, one {# cenna rzecz nie ma} few {# cenne rzeczy nie mają} "
+"many {# cennych rzeczy nie ma} other {# cennej rzeczy nie ma}} numeru "
+"seryjnego"
 
 #: src/lib/words.ts
 msgid "{count, plural, one {a day} other {# days}}"
@@ -1104,6 +1174,10 @@ msgstr "Zdjęcia: {count}"
 msgid "{count} rooms and {count2} devices in Home Assistant"
 msgstr "Pomieszczenia: {count}, urządzenia: {count2} w Home Assistant"
 
+#: ../server/src/lib/attention.ts
+msgid "{count} run out: {list}"
+msgstr "Skończyło się ({count}): {list}"
+
 #: src/Walkthrough.tsx
 msgid "{count} skipped — they wait in the bell as \"New item\"."
 msgstr "Pominięto: {count} — czekają w dzwonku jako „New item”."
@@ -1138,9 +1212,27 @@ msgstr ""
 "{days, plural, one {Został # dzień} few {Zostały # dni} many {Zostało # dni} "
 "other {Zostało # dnia}}"
 
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day left} other {# days left}} to return it"
+msgstr ""
+"{days, plural, one {Został # dzień} few {Zostały # dni} many {Zostało # dni} "
+"other {Zostało # dnia}} na zwrot"
+
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day overdue} other {# days overdue}}"
+msgstr ""
+"{days, plural, one {# dzień po terminie} few {# dni po terminie} many {# dni "
+"po terminie} other {# dnia po terminie}}"
+
 #: src/Overview.tsx
 msgid "{days, plural, one {# day} other {# days}}"
 msgstr "{days, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{days, plural, one {# day} other {# days}}, since {since}"
+msgstr ""
+"{days, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}, od "
+"{since}"
 
 #: src/Maintenance.tsx
 msgid "{days, plural, one {Due in # day} other {Due in # days}}"
@@ -1235,7 +1327,7 @@ msgstr "{floor} (nowa nieruchomość)"
 msgid "{format} of {format2}"
 msgstr "{format} z {format2}"
 
-#: src/Server.tsx
+#: ../server/src/lib/attention.ts src/Server.tsx
 msgid "{hours} h ago"
 msgstr "{hours} godz. temu"
 
@@ -1300,6 +1392,10 @@ msgstr "{label}: {format} z {format2}"
 msgid "{label}: {have} of {total}"
 msgstr "{label}: {have} z {total}"
 
+#: ../server/src/lib/attention.ts
+msgid "{label}: worth {value}"
+msgstr "{label}: wartość {value}"
+
 #: src/Labels.tsx
 msgid "{labels} on {sheets}."
 msgstr "{labels} na {sheets}."
@@ -1331,6 +1427,10 @@ msgstr "Kończy się: {low}"
 #: src/Server.tsx
 msgid "{m} min ago"
 msgstr "{m} min temu"
+
+#: ../server/src/lib/attention.ts
+msgid "{minutes} min ago"
+msgstr "{minutes} min temu"
 
 #: src/Overview.tsx
 msgid "{misplaced, plural, one {# nobody can find} other {# nobody can find}}"
@@ -1424,6 +1524,10 @@ msgstr "{name}: co zrobiono?"
 msgid "{name}'s website"
 msgstr "Strona internetowa: {name}"
 
+#: ../server/src/lib/attention.ts
+msgid "{names} and {count} more"
+msgstr "{names} i jeszcze {count}"
+
 #: src/Overview.tsx
 msgid ""
 "{notSeenYear, plural, one {# not seen in a year} other {# not seen in a "
@@ -1491,6 +1595,10 @@ msgstr ""
 "{person} zaprasza cię do „{household}” w Ferret, gdzie prowadzi spis rzeczy "
 "w swoim domu."
 
+#: ../server/src/lib/attention.ts
+msgid "{person} says {thing} is back"
+msgstr "{person} daje znać, że {thing} jest już z powrotem"
+
 #: src/Loans.tsx
 msgid "{person} says it's back."
 msgstr "{person} mówi, że to już wróciło."
@@ -1531,9 +1639,21 @@ msgstr "{quantity} szt."
 msgid "{quantity} on hand"
 msgstr "Na stanie: {quantity}"
 
+#: ../server/src/lib/attention.ts
+msgid "{recall} — check the model"
+msgstr "{recall} — sprawdź model"
+
 #: src/Server.tsx
 msgid "{remaining} of {limit} barcode lookups left"
 msgstr "Zostało {remaining} z {limit} wyszukań kodów kreskowych"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{remaining} of {limit} left; it fills up again at {at}. Scans still match "
+"the barcode books."
+msgstr ""
+"Zostało {remaining} z {limit}; limit odnowi się {at}. Skanowanie nadal "
+"korzysta z zapisanych kodów kreskowych."
 
 #: src/Household.tsx
 msgid "{role} · link works until {date}"
@@ -1553,6 +1673,10 @@ msgstr ""
 msgid "{saved} — each will be a \"New item\" to name."
 msgstr "{saved} — każde stanie się „New item” do nazwania."
 
+#: ../server/src/lib/attention.ts
+msgid "{service} is failing"
+msgstr "{service} nie działa"
+
 #: src/Server.tsx
 msgid "{size} tokens"
 msgstr "{size} tokenów"
@@ -1567,6 +1691,18 @@ msgid "{takenCount, plural, one {# change} other {# changes}}"
 msgstr ""
 "{takenCount, plural, one {# zmiana} few {# zmiany} many {# zmian} other {# "
 "zmiany}}"
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} is still with {person}"
+msgstr "{thing} wciąż jest u: {person}"
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} warranty"
+msgstr "Gwarancja: {thing}"
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} warranty ({provider})"
+msgstr "Gwarancja: {thing} ({provider})"
 
 #: src/Everything.tsx
 msgid ""
@@ -2184,6 +2320,10 @@ msgstr "Nazwa i cokolwiek jeszcze wiesz"
 msgid "A new box"
 msgstr "Nowe pudełko"
 
+#: ../server/src/lib/attention.ts
+msgid "A new item to name"
+msgstr "Nowa rzecz do nazwania"
+
 #: src/App.tsx
 msgid "A new link is on its way to {unconfirmed}"
 msgstr "Nowy link jest już w drodze na {unconfirmed}"
@@ -2314,6 +2454,10 @@ msgstr "Kończy się termin zwrotu"
 #: src/RoomScan.tsx
 msgid "a room"
 msgstr "pomieszczenie"
+
+#: ../server/src/lib/attention.ts
+msgid "A room scan didn't work"
+msgstr "Skanowanie pomieszczenia się nie udało"
 
 #: src/NewHousehold.tsx
 msgid ""
@@ -2595,6 +2739,10 @@ msgstr "Dodaj jako osobną rzecz"
 msgid "Add category"
 msgstr "Dodaj kategorię"
 
+#: ../server/src/lib/attention.ts
+msgid "Add each as a new thing, or attach it to one"
+msgstr "Dodaj każdy jako nową rzecz albo dołącz do istniejącej"
+
 #: src/FromWeb.tsx
 msgid "Add from a web address"
 msgstr "Dodaj z adresu internetowego"
@@ -2812,6 +2960,14 @@ msgstr "Dodane przez Claude’a"
 msgid "Added by scanning"
 msgstr "Dodane przez skanowanie"
 
+#: ../server/src/lib/attention.ts
+msgid "Added from a photo — confirm what it is"
+msgstr "Dodane ze zdjęcia — potwierdź, co to jest"
+
+#: ../server/src/lib/attention.ts
+msgid "Added from a photo, still being read"
+msgstr "Dodane ze zdjęcia, wciąż odczytywane"
+
 #: src/lib/origin.ts
 msgid "Added from a QR label"
 msgstr "Dodane z etykiety QR"
@@ -2883,6 +3039,12 @@ msgstr "Akcje AI"
 #: src/Demo.tsx
 msgid "AI calls today"
 msgstr "Wywołania AI dzisiaj"
+
+#: ../server/src/lib/attention.ts
+msgid "AI filled in {count, plural, one {# detail} other {# details}}"
+msgstr ""
+"AI uzupełniła {count, plural, one {# szczegół} few {# szczegóły} many {# "
+"szczegółów} other {# szczegółu}}"
 
 #: src/ImportCsv.tsx
 msgid "AI: {category}"
@@ -3392,6 +3554,10 @@ msgstr "Kopia zapasowa"
 msgid "Backup code"
 msgstr "Kod zapasowy"
 
+#: ../server/src/lib/attention.ts
+msgid "Backup failed"
+msgstr "Kopia zapasowa się nie udała"
+
 #: ../server/src/lib/digest.ts src/Server.tsx
 msgid "Backups"
 msgstr "Kopie zapasowe"
@@ -3399,6 +3565,10 @@ msgstr "Kopie zapasowe"
 #: src/Server.tsx
 msgid "Backups are off."
 msgstr "Kopie zapasowe są wyłączone."
+
+#: ../server/src/lib/attention.ts
+msgid "Backups have stopped"
+msgstr "Kopie zapasowe przestały się wykonywać"
 
 #: src/AiFill.tsx src/Duplicates.tsx src/ItemEditor.tsx src/lib/last-scanned.ts
 #: src/lib/words.ts src/Suggestions.tsx src/Walkthrough.tsx
@@ -3529,6 +3699,10 @@ msgstr "Rok budowy: {year}"
 #: src/Shopping.tsx
 msgid "Buy {count}"
 msgstr "Kup {count}"
+
+#: ../server/src/lib/attention.ts
+msgid "Buy {thing}"
+msgstr "Kup: {thing}"
 
 #: src/lib/origin.ts
 msgid "by a script (API key)"
@@ -3683,6 +3857,14 @@ msgstr "Kategoria"
 msgid "Category of thing {number}"
 msgstr "Kategoria rzeczy {number}"
 
+#: ../server/src/lib/attention.ts
+msgid "Certificate “{name}” expires soon"
+msgstr "Certyfikat „{name}” wkrótce wygaśnie"
+
+#: ../server/src/lib/attention.ts
+msgid "Certificate “{name}” has expired"
+msgstr "Certyfikat „{name}” wygasł"
+
 #: src/Server.tsx
 msgid "Certificates"
 msgstr "Certyfikaty"
@@ -3730,6 +3912,10 @@ msgstr "Sprawdź gaśnice"
 #: src/Paperless.tsx src/Server.tsx
 msgid "Check now"
 msgstr "Sprawdź teraz"
+
+#: ../server/src/lib/attention.ts
+msgid "Check what it filled in"
+msgstr "Sprawdź, co uzupełniła"
 
 #: src/App.tsx
 msgid "Check your email"
@@ -3852,6 +4038,14 @@ msgstr "Miasto"
 #: src/AttentionBell.tsx
 msgid "Claim"
 msgstr "Reklamacja"
+
+#: ../server/src/lib/attention.ts
+msgid "Claim for {thing}"
+msgstr "Reklamacja: {thing}"
+
+#: ../server/src/lib/attention.ts
+msgid "Claim for {thing} #{reference}"
+msgstr "Reklamacja: {thing} nr {reference}"
 
 #: src/Claims.tsx
 msgid "Claim number"
@@ -4190,6 +4384,10 @@ msgstr "Nie udało się zakończyć sprawdzania — spróbuj jeszcze raz"
 msgid "Couldn't load the photo — try again"
 msgstr "Nie udało się załadować zdjęcia — spróbuj jeszcze raz"
 
+#: ../server/src/lib/attention.ts
+msgid "Couldn't look at the photos"
+msgstr "Nie udało się obejrzeć zdjęć"
+
 #: src/RoomScan.tsx
 msgid "Couldn't look at the photos."
 msgstr "Nie udało się obejrzeć zdjęć."
@@ -4261,6 +4459,10 @@ msgstr "Objęte gwarancją"
 #: src/PayOff.tsx
 msgid "Covered for"
 msgstr "Ubezpieczone na"
+
+#: ../server/src/lib/attention.ts
+msgid "Covered for {limit} — {short} short"
+msgstr "Ubezpieczone na {limit} — brakuje {short}"
 
 #: src/PayOff.tsx
 msgid "Covered up to"
@@ -4427,6 +4629,10 @@ msgstr "Dostarczono — odpowiedź {status}"
 #: src/Demo.tsx
 msgid "Demo"
 msgstr "Demo"
+
+#: ../server/src/lib/attention.ts
+msgid "denied"
+msgstr "odrzucona"
 
 #: src/Claims.tsx
 msgid "Denied"
@@ -4698,6 +4904,26 @@ msgstr "Termin około {date}"
 msgid "Due back"
 msgstr "Termin zwrotu"
 
+#: ../server/src/lib/attention.ts
+msgid "Due back {due} (since {since})"
+msgstr "Termin zwrotu {due} (od {since})"
+
+#: ../server/src/lib/attention.ts
+msgid "Due back in {days, plural, one {# day} other {# days}}"
+msgstr ""
+"Termin zwrotu za {days, plural, one {# dzień} few {# dni} many {# dni} other "
+"{# dnia}}"
+
+#: ../server/src/lib/attention.ts
+msgid "Due back today"
+msgstr "Termin zwrotu dzisiaj"
+
+#: ../server/src/lib/attention.ts
+msgid "Due in {days, plural, one {# day} other {# days}}"
+msgstr ""
+"Termin za {days, plural, one {# dzień} few {# dni} many {# dni} other {# "
+"dnia}}"
+
 #: src/Overview.tsx
 msgid "Due in 2 weeks"
 msgstr "Termin za 2 tygodnie"
@@ -4718,7 +4944,7 @@ msgstr ""
 msgid "Due soon"
 msgstr "Termin wkrótce"
 
-#: src/Maintenance.tsx
+#: ../server/src/lib/attention.ts src/Maintenance.tsx
 msgid "Due today"
 msgstr "Termin dzisiaj"
 
@@ -4995,6 +5221,10 @@ msgstr "Puste."
 msgid "Ended"
 msgstr "Zakończona"
 
+#: ../server/src/lib/attention.ts
+msgid "Ended {date} — add its replacement in Settings → Server → Certificates."
+msgstr "Wygasł {date} — dodaj następcę w Ustawienia → Serwer → Certyfikaty."
+
 #: src/Warranties.tsx
 msgid "ended {time} ago"
 msgstr "zakończyła się {time} temu"
@@ -5011,9 +5241,23 @@ msgstr "Kończą się w ciągu 60 dni"
 msgid "Ends"
 msgstr "Kończy się"
 
+#: ../server/src/lib/attention.ts
+msgid "Ends {date} — add its replacement in Settings → Server → Certificates."
+msgstr "Wygasa {date} — dodaj następcę w Ustawienia → Serwer → Certyfikaty."
+
+#: ../server/src/lib/attention.ts
+msgid "Ends in {days, plural, one {# day} other {# days}} — anything to claim?"
+msgstr ""
+"Kończy się za {days, plural, one {# dzień} few {# dni} many {# dni} other {# "
+"dnia}} — coś do reklamowania?"
+
 #: src/Warranties.tsx
 msgid "Ends soon"
 msgstr "Wkrótce się kończy"
+
+#: ../server/src/lib/attention.ts
+msgid "Ends today"
+msgstr "Kończy się dzisiaj"
 
 #: src/Replacement.tsx
 msgid "Estimate"
@@ -5273,6 +5517,10 @@ msgstr "Wygasa {formatDate}"
 msgid "Extra fields for its items"
 msgstr "Dodatkowe pola dla jej rzeczy"
 
+#: ../server/src/lib/attention.ts
+msgid "Failed since {date}"
+msgstr "Nieudane od {date}"
+
 #: src/lib/words.ts
 msgid "Fair"
 msgstr "Zadowalający"
@@ -5312,6 +5560,10 @@ msgid ""
 msgstr ""
 "Ferret nie może sprawdzić nazwy aplikacji. Zezwól tylko, jeśli właśnie "
 "poproszono {name} o połączenie."
+
+#: ../server/src/lib/attention.ts
+msgid "Ferret can't reach Paperless"
+msgstr "Ferret nie może połączyć się z Paperless"
 
 #: src/Loans.tsx
 msgid ""
@@ -5495,6 +5747,10 @@ msgstr "Zgłoś reklamację do {provider}"
 msgid "File claim"
 msgstr "Zgłoś reklamację"
 
+#: ../server/src/lib/attention.ts
+msgid "filed"
+msgstr "zgłoszona"
+
 #: src/Claims.tsx
 msgid "Filed"
 msgstr "Zgłoszona"
@@ -5502,6 +5758,14 @@ msgstr "Zgłoszona"
 #: src/Claims.tsx
 msgid "Filed {date}"
 msgstr "Zgłoszona {date}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"Filed {days, plural, one {# day ago} other {# days ago}}, still {status} — "
+"follow up?"
+msgstr ""
+"Zgłoszona {days, plural, one {# dzień temu} few {# dni temu} many {# dni "
+"temu} other {# dnia temu}}, wciąż {status} — przypomnieć się?"
 
 #: src/Claims.tsx
 msgid "Filed on"
@@ -5526,6 +5790,15 @@ msgid ""
 msgstr ""
 "Pliki, które wymienia baza danych, a których nie ma w magazynie plików — ich "
 "zdjęć ani dokumentów nie da się otworzyć."
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"FILES_KEY is only in this server's data folder: lose that, and every photo, "
+"document and backup is lost too. Make a key file — Settings → Server → Keys."
+msgstr ""
+"FILES_KEY jest tylko w folderze danych tego serwera: jeśli go stracisz, "
+"stracisz też wszystkie zdjęcia, dokumenty i kopie zapasowe. Utwórz plik "
+"klucza — Ustawienia → Serwer → Klucze."
 
 #: src/Server.tsx
 msgid ""
@@ -5749,9 +6022,18 @@ msgstr "Nie pamiętasz hasła?"
 msgid "Found in a room scan"
 msgstr "Znalezione podczas skanowania pomieszczenia"
 
+#: ../server/src/lib/attention.ts
+msgid "Found in manuals or typical for your things — add or dismiss"
+msgstr ""
+"Znalezione w instrukcjach albo typowe dla twoich rzeczy — dodaj lub odrzuć"
+
 #: src/ScanSession.tsx src/Tracking.tsx
 msgid "Found it"
 msgstr "Znalezione"
+
+#: ../server/src/lib/attention.ts
+msgid "Found it, or is it lost for good?"
+msgstr "Znalazło się, czy zginęło na dobre?"
 
 #: src/lib/words.ts
 msgid "freezer"
@@ -5904,6 +6186,10 @@ msgstr "Pierwsze kroki"
 #: src/Boxes.tsx
 msgid "Give {name} a QR label"
 msgstr "Daj {name} etykietę QR"
+
+#: ../server/src/lib/attention.ts
+msgid "Give {thing} back to {person}"
+msgstr "Oddaj {thing} — {person}"
 
 #: src/Gone.tsx
 msgid "Given away"
@@ -6408,6 +6694,10 @@ msgstr ""
 "W Paperless: twoja nazwa → Mój profil → token uwierzytelniania API. "
 "Wystarczy użytkownik Paperless, który może tylko przeglądać dokumenty."
 
+#: ../server/src/lib/attention.ts
+msgid "in progress"
+msgstr "w toku"
+
 #: src/Claims.tsx
 msgid "In progress"
 msgstr "W toku"
@@ -6496,6 +6786,11 @@ msgstr "Ubezpieczyciel wypłacił"
 msgid "Insurance report"
 msgstr "Raport dla ubezpieczyciela"
 
+#: ../server/src/lib/attention.ts
+msgid "Insurers ask for it — photograph the label and Ferret reads it"
+msgstr ""
+"Ubezpieczyciele o to pytają — zrób zdjęcie tabliczki, a Ferret go odczyta"
+
 #: src/Household.tsx
 msgid "Invitation for <0>{email}</0>"
 msgstr "Zaproszenie dla <0>{email}</0>"
@@ -6531,6 +6826,10 @@ msgstr "Faktura lub zdjęcia"
 #: src/App.tsx
 msgid "Is it this?"
 msgstr "Czy to o to chodzi?"
+
+#: ../server/src/lib/attention.ts
+msgid "Is it? Mark it back on its page"
+msgstr "Na pewno? Oznacz zwrot na stronie tej rzeczy"
 
 #: src/Boxes.tsx
 msgid "it"
@@ -6744,6 +7043,19 @@ msgstr "jej kolekcja"
 msgid "Its cover — tap to add it"
 msgstr "Okładka — dotknij, aby ją dodać"
 
+#: ../server/src/lib/attention.ts
+msgid "Its deliveries kept failing — fix the address, then turn it on again"
+msgstr ""
+"Jego wysyłki ciągle się nie udawały — popraw adres, a potem włącz go ponownie"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"Its deliveries kept failing ({error}) — fix the address, then turn it on "
+"again"
+msgstr ""
+"Jego wysyłki ciągle się nie udawały ({error}) — popraw adres, a potem włącz "
+"go ponownie"
+
 #: src/Collections.tsx
 msgid "Its name"
 msgstr "Nazwa"
@@ -6800,7 +7112,7 @@ msgstr "Dołącz do {householdName}"
 msgid "Join your household"
 msgstr "Dołącz do swojego gospodarstwa domowego"
 
-#: src/lib/last-scanned.ts src/Server.tsx
+#: ../server/src/lib/attention.ts src/lib/last-scanned.ts src/Server.tsx
 msgid "just now"
 msgstr "przed chwilą"
 
@@ -6963,6 +7275,14 @@ msgstr "Ostatnio sprawdzono"
 #: src/ItemPage.tsx
 msgid "last day"
 msgstr "ostatni dzień"
+
+#: ../server/src/lib/attention.ts
+msgid "Last day to return it"
+msgstr "Ostatni dzień na zwrot"
+
+#: ../server/src/lib/attention.ts
+msgid "Last day to return it is tomorrow"
+msgstr "Ostatni dzień na zwrot jest jutro"
 
 #: src/Notifications.tsx
 msgid "Last reminder {formatDay}"
@@ -7235,6 +7555,10 @@ msgid ""
 msgstr ""
 "Szuka jej na Amazonie po numerze części lub modelu — dodaj tu link do "
 "produktu, aby mieć przycisk „Dodaj do koszyka”"
+
+#: ../server/src/lib/attention.ts
+msgid "Looks like: {name}"
+msgstr "Wygląda na: {name}"
 
 #: src/Server.tsx
 msgid ""
@@ -7722,6 +8046,10 @@ msgstr "Nie"
 msgid "No — a new part"
 msgstr "Nie — nowa część"
 
+#: ../server/src/lib/attention.ts
+msgid "no {part} left"
+msgstr "brak: {part}"
+
 #: src/Settings.tsx
 msgid ""
 "No apps connected to {householdName}. An app you connect is listed under the "
@@ -7733,6 +8061,14 @@ msgstr ""
 #: src/Server.tsx
 msgid "No backup has reported yet."
 msgstr "Żadna kopia zapasowa jeszcze się nie zgłosiła."
+
+#: ../server/src/lib/attention.ts
+msgid "No backup has worked yet"
+msgstr "Żadna kopia zapasowa jeszcze się nie udała"
+
+#: ../server/src/lib/attention.ts
+msgid "No backup since {date}"
+msgstr "Brak kopii zapasowej od {date}"
 
 #: src/Server.tsx
 msgid "No backup yet — the first runs tonight, or now if you ask."
@@ -7980,6 +8316,14 @@ msgstr "Żadna z nich nie ma tagu."
 msgid "None recorded yet — sign-ins are kept from now on."
 msgstr "Na razie nic nie zapisano — od teraz logowania są zapisywane."
 
+#: ../server/src/lib/attention.ts
+msgid "None reported yet ({where})"
+msgstr "Jeszcze żadnej nie zgłoszono ({where})"
+
+#: ../server/src/lib/attention.ts
+msgid "None since {date}"
+msgstr "Żadnej od {date}"
+
 #: src/Server.tsx src/Warranties.tsx src/Webhooks.tsx
 msgid "None yet."
 msgstr "Na razie brak."
@@ -8050,6 +8394,10 @@ msgstr "Bez e-maila — wyślij im link sam(a)"
 #: src/Household.tsx
 msgid "Not emailed yet"
 msgstr "Jeszcze nie wysłano e-mailem"
+
+#: ../server/src/lib/attention.ts
+msgid "not enough {part} left (other tasks use it too)"
+msgstr "za mało: {part} (używają tego też inne zadania)"
 
 #: src/MaintenanceCalendar.tsx
 msgid "Not enough parts left by then"
@@ -8219,6 +8567,14 @@ msgid ""
 msgstr ""
 "Na razie nic nie naprawiano. Gdy coś będzie, zapisz to tutaj — liczy się do "
 "tego, ile kosztowało posiadanie tej rzeczy."
+
+#: ../server/src/lib/attention.ts
+msgid "Nothing found yet — add what's there"
+msgstr "Na razie nic nie znaleziono — dodaj, co tam jest"
+
+#: ../server/src/lib/attention.ts
+msgid "Nothing found yet in {place} — add what's there"
+msgstr "Na razie nic nie znaleziono w: {place} — dodaj, co tam jest"
 
 #: src/App.tsx
 msgid "Nothing has barcode"
@@ -8623,6 +8979,18 @@ msgstr "Te, których jeszcze nie ma, zostaną utworzone, np. „Garaż › Pół
 #: src/Server.tsx
 msgid "Online barcode lookups"
 msgstr "Wyszukiwania kodów kreskowych online"
+
+#: ../server/src/lib/attention.ts
+msgid "Online barcode lookups are running low"
+msgstr "Kończą się wyszukiwania kodów kreskowych online"
+
+#: ../server/src/lib/attention.ts
+msgid "Online barcode lookups are used up"
+msgstr "Wyczerpano wyszukiwania kodów kreskowych online"
+
+#: ../server/src/lib/attention.ts
+msgid "only {count} {part} left"
+msgstr "zostało tylko {count}: {part}"
 
 #: src/Maintenance.tsx
 msgid "Only {left} recorded — it won't go below 0."
@@ -9166,6 +9534,10 @@ msgstr "Stan słaby"
 msgid "Possible duplicates"
 msgstr "Możliwe duplikaty"
 
+#: ../server/src/lib/attention.ts
+msgid "Possible recall: {thing}"
+msgstr "Możliwe wycofanie: {thing}"
+
 #: src/PayOff.tsx
 msgid "Possibly recalled — check the model"
 msgstr "Możliwe wycofanie — sprawdź model"
@@ -9494,6 +9866,10 @@ msgstr "Sprawdzanie wycofań"
 #: src/PayOff.tsx
 msgid "Recalled"
 msgstr "Wycofany z rynku"
+
+#: ../server/src/lib/attention.ts
+msgid "Recalled: {thing}"
+msgstr "Wycofane: {thing}"
 
 #: ../server/src/lib/digest.ts
 msgid "Recalls"
@@ -9856,6 +10232,10 @@ msgstr "Ponów przesyłanie"
 msgid "Return"
 msgstr "Zwrot"
 
+#: ../server/src/lib/attention.ts
+msgid "Return {thing}?"
+msgstr "Zwrócić: {thing}?"
+
 #: src/AiFill.tsx src/ItemEditor.tsx src/lib/words.ts src/Suggestions.tsx
 msgid "Return by"
 msgstr "Zwrot do"
@@ -9887,6 +10267,10 @@ msgstr "Przejrzyj {name}"
 #: src/Walkthrough.tsx
 msgid "Review {room}"
 msgstr "Przejrzyj {room}"
+
+#: ../server/src/lib/attention.ts
+msgid "Review a room to check they're still there"
+msgstr "Przejrzyj pomieszczenie, aby sprawdzić, czy wciąż tam są"
 
 #: src/Tracking.tsx
 msgid "Review another place"
@@ -9956,6 +10340,10 @@ msgstr "skan pomieszczenia"
 msgid "Room scan"
 msgstr "Skanowanie pomieszczenia"
 
+#: ../server/src/lib/attention.ts
+msgid "Room scan ready to review"
+msgstr "Skan pomieszczenia gotowy do przejrzenia"
+
 #: src/Offline.tsx
 msgid "Room scan saved"
 msgstr "Skan pomieszczenia zapisany"
@@ -10002,9 +10390,17 @@ msgstr "Pomieszczenia, szafy, półki, pudełka — tak szczegółowo, jak chces
 msgid "Rotate"
 msgstr "Wymień"
 
+#: ../server/src/lib/attention.ts
+msgid "Run out: {list}"
+msgstr "Skończyło się: {list}"
+
 #: src/Demo.tsx
 msgid "Run your own Ferret"
 msgstr "Uruchom własny Ferret"
+
+#: ../server/src/lib/attention.ts
+msgid "Running low: {list}"
+msgstr "Kończy się: {list}"
 
 #: src/Install.tsx
 msgid "Safari's"
@@ -10020,6 +10416,10 @@ msgstr "Zapisz"
 #: src/Walkthrough.tsx
 msgid "Save & next"
 msgstr "Zapisz i dalej"
+
+#: ../server/src/lib/attention.ts
+msgid "Save a copy of Ferret's keys"
+msgstr "Zapisz kopię kluczy Ferret"
 
 #: src/Pairing.tsx src/ScanSession.tsx
 msgid "Save code"
@@ -11482,6 +11882,10 @@ msgstr "raport dla {property}"
 msgid "The same again"
 msgstr "Jeszcze raz to samo"
 
+#: ../server/src/lib/attention.ts
+msgid "The same thing added twice? Merge or keep both"
+msgstr "Ta sama rzecz dodana dwa razy? Połącz albo zostaw obie"
+
 #: src/Server.tsx
 msgid ""
 "The secrets Ferret needs. Any set in Ferret's settings are used; the rest "
@@ -12550,6 +12954,10 @@ msgstr ""
 msgid "Web link"
 msgstr "Link"
 
+#: ../server/src/lib/attention.ts
+msgid "Webhook “{name}” was switched off"
+msgstr "Webhook „{name}” został wyłączony"
+
 #: src/Webhooks.tsx
 msgid "Webhooks"
 msgstr "Webhooki"
@@ -13285,416 +13693,8 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
-msgid "Back to your stuff"
-msgstr "Wróć do swoich rzeczy"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"{count, plural, one {# document} other {# documents}} from Paperless to sort"
-msgstr ""
-"{count, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other "
-"{# dokumentu}} z Paperless do posortowania"
-
-#: ../server/src/lib/attention.ts
-msgid "{count, plural, one {# error} other {# errors}} today, the last {ago}"
-msgstr ""
-"{count, plural, one {# błąd} few {# błędy} many {# błędów} other {# błędu}} "
-"dzisiaj, ostatni {ago}"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"{count, plural, one {# possible duplicate} other {# possible duplicates}}"
-msgstr ""
-"{count, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
-"możliwych duplikatów} other {# możliwego duplikatu}}"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"{count, plural, one {# suggested maintenance task} other {# suggested "
-"maintenance tasks}}"
-msgstr ""
-"{count, plural, one {# proponowane zadanie konserwacyjne} few {# proponowane "
-"zadania konserwacyjne} many {# proponowanych zadań konserwacyjnych} other {# "
-"proponowanego zadania konserwacyjnego}}"
-
-#: ../server/src/lib/attention.ts
-msgid "{count, plural, one {# thing} other {# things}} found"
-msgstr ""
-"{count, plural, one {Znaleziono # rzecz} few {Znaleziono # rzeczy} many "
-"{Znaleziono # rzeczy} other {Znaleziono # rzeczy}}"
-
-#: ../server/src/lib/attention.ts
-msgid "{count, plural, one {# thing} other {# things}} found in {place}"
-msgstr ""
-"{count, plural, one {Znaleziono # rzecz} few {Znaleziono # rzeczy} many "
-"{Znaleziono # rzeczy} other {Znaleziono # rzeczy}} w: {place}"
-
-#: ../server/src/lib/attention.ts
-msgid "{count, plural, one {# thing} other {# things}} nobody can find"
-msgstr ""
-"{count, plural, one {# rzecz, której nikt nie może znaleźć} few {# rzeczy, "
-"których nikt nie może znaleźć} many {# rzeczy, których nikt nie może "
-"znaleźć} other {# rzeczy, których nikt nie może znaleźć}}"
-
-#: ../server/src/lib/attention.ts
-msgid "{count, plural, one {# thing} other {# things}} not seen in a year"
-msgstr ""
-"{count, plural, one {# rzecz niewidziana od roku} few {# rzeczy niewidziane "
-"od roku} many {# rzeczy niewidzianych od roku} other {# rzeczy niewidziane "
-"od roku}}"
-
-#: ../server/src/lib/attention.ts
-msgid "{count, plural, one {# thing} other {# things}} to buy"
-msgstr ""
-"{count, plural, one {# rzecz do kupienia} few {# rzeczy do kupienia} many {# "
-"rzeczy do kupienia} other {# rzeczy do kupienia}}"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"{count, plural, one {# valuable thing has} other {# valuable things have}} "
-"no serial number"
-msgstr ""
-"{count, plural, one {# cenna rzecz nie ma} few {# cenne rzeczy nie mają} "
-"many {# cennych rzeczy nie ma} other {# cennej rzeczy nie ma}} numeru "
-"seryjnego"
-
-#: ../server/src/lib/attention.ts
-msgid "{count} run out: {list}"
-msgstr "Skończyło się ({count}): {list}"
-
-#: ../server/src/lib/attention.ts
-msgid "{days, plural, one {# day left} other {# days left}} to return it"
-msgstr ""
-"{days, plural, one {Został # dzień} few {Zostały # dni} many {Zostało # dni} "
-"other {Zostało # dnia}} na zwrot"
-
-#: ../server/src/lib/attention.ts
-msgid "{days, plural, one {# day overdue} other {# days overdue}}"
-msgstr ""
-"{days, plural, one {# dzień po terminie} few {# dni po terminie} many {# dni "
-"po terminie} other {# dnia po terminie}}"
-
-#: ../server/src/lib/attention.ts
-msgid "{days, plural, one {# day} other {# days}}, since {since}"
-msgstr ""
-"{days, plural, one {# dzień} few {# dni} many {# dni} other {# dnia}}, od "
-"{since}"
-
-#: ../server/src/lib/attention.ts
-msgid "{label}: worth {value}"
-msgstr "{label}: wartość {value}"
-
-#: ../server/src/lib/attention.ts
-msgid "{minutes} min ago"
-msgstr "{minutes} min temu"
-
-#: ../server/src/lib/attention.ts
-msgid "{names} and {count} more"
-msgstr "{names} i jeszcze {count}"
-
-#: ../server/src/lib/attention.ts
-msgid "{person} says {thing} is back"
-msgstr "{person} daje znać, że {thing} jest już z powrotem"
-
-#: ../server/src/lib/attention.ts
-msgid "{recall} — check the model"
-msgstr "{recall} — sprawdź model"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"{remaining} of {limit} left; it fills up again at {at}. Scans still match "
-"the barcode books."
-msgstr ""
-"Zostało {remaining} z {limit}; limit odnowi się {at}. Skanowanie nadal "
-"korzysta z zapisanych kodów kreskowych."
-
-#: ../server/src/lib/attention.ts
-msgid "{service} is failing"
-msgstr "{service} nie działa"
-
-#: ../server/src/lib/attention.ts
-msgid "{thing} is still with {person}"
-msgstr "{thing} wciąż jest u: {person}"
-
-#: ../server/src/lib/attention.ts
-msgid "{thing} warranty"
-msgstr "Gwarancja: {thing}"
-
-#: ../server/src/lib/attention.ts
-msgid "{thing} warranty ({provider})"
-msgstr "Gwarancja: {thing} ({provider})"
-
-#: ../server/src/lib/attention.ts
-msgid "A new item to name"
-msgstr "Nowa rzecz do nazwania"
-
-#: ../server/src/lib/attention.ts
-msgid "A room scan didn't work"
-msgstr "Skanowanie pomieszczenia się nie udało"
-
-#: ../server/src/lib/attention.ts
-msgid "Add each as a new thing, or attach it to one"
-msgstr "Dodaj każdy jako nową rzecz albo dołącz do istniejącej"
-
-#: ../server/src/lib/attention.ts
-msgid "Added from a photo — confirm what it is"
-msgstr "Dodane ze zdjęcia — potwierdź, co to jest"
-
-#: ../server/src/lib/attention.ts
-msgid "Added from a photo, still being read"
-msgstr "Dodane ze zdjęcia, wciąż odczytywane"
-
-#: ../server/src/lib/attention.ts
-msgid "AI filled in {count, plural, one {# detail} other {# details}}"
-msgstr ""
-"AI uzupełniła {count, plural, one {# szczegół} few {# szczegóły} many {# "
-"szczegółów} other {# szczegółu}}"
-
-#: ../server/src/lib/attention.ts
-msgid "Backup failed"
-msgstr "Kopia zapasowa się nie udała"
-
-#: ../server/src/lib/attention.ts
-msgid "Backups have stopped"
-msgstr "Kopie zapasowe przestały się wykonywać"
-
-#: ../server/src/lib/attention.ts
-msgid "Buy {thing}"
-msgstr "Kup: {thing}"
-
-#: ../server/src/lib/attention.ts
-msgid "Certificate “{name}” expires soon"
-msgstr "Certyfikat „{name}” wkrótce wygaśnie"
-
-#: ../server/src/lib/attention.ts
-msgid "Certificate “{name}” has expired"
-msgstr "Certyfikat „{name}” wygasł"
-
-#: ../server/src/lib/attention.ts
-msgid "Check what it filled in"
-msgstr "Sprawdź, co uzupełniła"
-
-#: ../server/src/lib/attention.ts
-msgid "Claim for {thing}"
-msgstr "Reklamacja: {thing}"
-
-#: ../server/src/lib/attention.ts
-msgid "Claim for {thing} #{reference}"
-msgstr "Reklamacja: {thing} nr {reference}"
-
-#: ../server/src/lib/attention.ts
-msgid "Couldn't look at the photos"
-msgstr "Nie udało się obejrzeć zdjęć"
-
-#: ../server/src/lib/attention.ts
-msgid "Covered for {limit} — {short} short"
-msgstr "Ubezpieczone na {limit} — brakuje {short}"
-
-#: ../server/src/lib/attention.ts
-msgid "denied"
-msgstr "odrzucona"
-
-#: ../server/src/lib/attention.ts
-msgid "Due back {due} (since {since})"
-msgstr "Termin zwrotu {due} (od {since})"
-
-#: ../server/src/lib/attention.ts
-msgid "Due back in {days, plural, one {# day} other {# days}}"
-msgstr ""
-"Termin zwrotu za {days, plural, one {# dzień} few {# dni} many {# dni} other "
-"{# dnia}}"
-
-#: ../server/src/lib/attention.ts
-msgid "Due back today"
-msgstr "Termin zwrotu dzisiaj"
-
-#: ../server/src/lib/attention.ts
-msgid "Due in {days, plural, one {# day} other {# days}}"
-msgstr ""
-"Termin za {days, plural, one {# dzień} few {# dni} many {# dni} other {# "
-"dnia}}"
-
-#: ../server/src/lib/attention.ts
-msgid "Ended {date} — add its replacement in Settings → Server → Certificates."
-msgstr "Wygasł {date} — dodaj następcę w Ustawienia → Serwer → Certyfikaty."
-
-#: ../server/src/lib/attention.ts
-msgid "Ends {date} — add its replacement in Settings → Server → Certificates."
-msgstr "Wygasa {date} — dodaj następcę w Ustawienia → Serwer → Certyfikaty."
-
-#: ../server/src/lib/attention.ts
-msgid "Ends in {days, plural, one {# day} other {# days}} — anything to claim?"
-msgstr ""
-"Kończy się za {days, plural, one {# dzień} few {# dni} many {# dni} other {# "
-"dnia}} — coś do reklamowania?"
-
-#: ../server/src/lib/attention.ts
-msgid "Ends today"
-msgstr "Kończy się dzisiaj"
-
-#: ../server/src/lib/attention.ts
-msgid "Failed since {date}"
-msgstr "Nieudane od {date}"
-
-#: ../server/src/lib/attention.ts
-msgid "Ferret can't reach Paperless"
-msgstr "Ferret nie może połączyć się z Paperless"
-
-#: ../server/src/lib/attention.ts
-msgid "filed"
-msgstr "zgłoszona"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"Filed {days, plural, one {# day ago} other {# days ago}}, still {status} — "
-"follow up?"
-msgstr ""
-"Zgłoszona {days, plural, one {# dzień temu} few {# dni temu} many {# dni "
-"temu} other {# dnia temu}}, wciąż {status} — przypomnieć się?"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"FILES_KEY is only in this server's data folder: lose that, and every photo, "
-"document and backup is lost too. Make a key file — Settings → Server → Keys."
-msgstr ""
-"FILES_KEY jest tylko w folderze danych tego serwera: jeśli go stracisz, "
-"stracisz też wszystkie zdjęcia, dokumenty i kopie zapasowe. Utwórz plik "
-"klucza — Ustawienia → Serwer → Klucze."
-
-#: ../server/src/lib/attention.ts
-msgid "Found in manuals or typical for your things — add or dismiss"
-msgstr ""
-"Znalezione w instrukcjach albo typowe dla twoich rzeczy — dodaj lub odrzuć"
-
-#: ../server/src/lib/attention.ts
-msgid "Found it, or is it lost for good?"
-msgstr "Znalazło się, czy zginęło na dobre?"
-
-#: ../server/src/lib/attention.ts
-msgid "Give {thing} back to {person}"
-msgstr "Oddaj {thing} — {person}"
-
-#: ../server/src/lib/attention.ts
-msgid "in progress"
-msgstr "w toku"
-
-#: ../server/src/lib/attention.ts
-msgid "Insurers ask for it — photograph the label and Ferret reads it"
-msgstr ""
-"Ubezpieczyciele o to pytają — zrób zdjęcie tabliczki, a Ferret go odczyta"
-
-#: ../server/src/lib/attention.ts
-msgid "Is it? Mark it back on its page"
-msgstr "Na pewno? Oznacz zwrot na stronie tej rzeczy"
-
-#: ../server/src/lib/attention.ts
-msgid "Its deliveries kept failing — fix the address, then turn it on again"
-msgstr ""
-"Jego wysyłki ciągle się nie udawały — popraw adres, a potem włącz go ponownie"
-
-#: ../server/src/lib/attention.ts
-msgid ""
-"Its deliveries kept failing ({error}) — fix the address, then turn it on "
-"again"
-msgstr ""
-"Jego wysyłki ciągle się nie udawały ({error}) — popraw adres, a potem włącz "
-"go ponownie"
-
-#: ../server/src/lib/attention.ts
-msgid "Last day to return it"
-msgstr "Ostatni dzień na zwrot"
-
-#: ../server/src/lib/attention.ts
-msgid "Last day to return it is tomorrow"
-msgstr "Ostatni dzień na zwrot jest jutro"
-
-#: ../server/src/lib/attention.ts
-msgid "Looks like: {name}"
-msgstr "Wygląda na: {name}"
-
-#: ../server/src/lib/attention.ts
-msgid "no {part} left"
-msgstr "brak: {part}"
-
-#: ../server/src/lib/attention.ts
-msgid "No backup has worked yet"
-msgstr "Żadna kopia zapasowa jeszcze się nie udała"
-
-#: ../server/src/lib/attention.ts
-msgid "No backup since {date}"
-msgstr "Brak kopii zapasowej od {date}"
-
-#: ../server/src/lib/attention.ts
-msgid "None reported yet ({where})"
-msgstr "Jeszcze żadnej nie zgłoszono ({where})"
-
-#: ../server/src/lib/attention.ts
-msgid "None since {date}"
-msgstr "Żadnej od {date}"
-
-#: ../server/src/lib/attention.ts
-msgid "not enough {part} left (other tasks use it too)"
-msgstr "za mało: {part} (używają tego też inne zadania)"
-
-#: ../server/src/lib/attention.ts
-msgid "Nothing found yet — add what's there"
-msgstr "Na razie nic nie znaleziono — dodaj, co tam jest"
-
-#: ../server/src/lib/attention.ts
-msgid "Nothing found yet in {place} — add what's there"
-msgstr "Na razie nic nie znaleziono w: {place} — dodaj, co tam jest"
-
-#: ../server/src/lib/attention.ts
-msgid "Online barcode lookups are running low"
-msgstr "Kończą się wyszukiwania kodów kreskowych online"
-
-#: ../server/src/lib/attention.ts
-msgid "Online barcode lookups are used up"
-msgstr "Wyczerpano wyszukiwania kodów kreskowych online"
-
-#: ../server/src/lib/attention.ts
-msgid "only {count} {part} left"
-msgstr "zostało tylko {count}: {part}"
-
-#: ../server/src/lib/attention.ts
-msgid "Possible recall: {thing}"
-msgstr "Możliwe wycofanie: {thing}"
-
-#: ../server/src/lib/attention.ts
-msgid "Recalled: {thing}"
-msgstr "Wycofane: {thing}"
-
-#: ../server/src/lib/attention.ts
-msgid "Return {thing}?"
-msgstr "Zwrócić: {thing}?"
-
-#: ../server/src/lib/attention.ts
-msgid "Review a room to check they're still there"
-msgstr "Przejrzyj pomieszczenie, aby sprawdzić, czy wciąż tam są"
-
-#: ../server/src/lib/attention.ts
-msgid "Room scan ready to review"
-msgstr "Skan pomieszczenia gotowy do przejrzenia"
-
-#: ../server/src/lib/attention.ts
-msgid "Run out: {list}"
-msgstr "Skończyło się: {list}"
-
-#: ../server/src/lib/attention.ts
-msgid "Running low: {list}"
-msgstr "Kończy się: {list}"
-
-#: ../server/src/lib/attention.ts
-msgid "Save a copy of Ferret's keys"
-msgstr "Zapisz kopię kluczy Ferret"
-
-#: ../server/src/lib/attention.ts
-msgid "The same thing added twice? Merge or keep both"
-msgstr "Ta sama rzecz dodana dwa razy? Połącz albo zostaw obie"
-
-#: ../server/src/lib/attention.ts
-msgid "Webhook “{name}” was switched off"
-msgstr "Webhook „{name}” został wyłączony"
+#~ msgid "Back to your stuff"
+#~ msgstr "Wróć do swoich rzeczy"
 
 #~ msgid "<0>Edit</0>"
 #~ msgstr "<0>Edytuj</0>"
