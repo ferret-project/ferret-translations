@@ -15,9 +15,10 @@ until someone translates it, it shows in English.
   text changes. Don't edit it by hand.
 - `locales/<language>.po` is one language: `de.po`, `hu.po`, `pt-BR.po`… Each holds that language's translations
   of the strings in `messages.pot`.
-- Every Ferret build (the Docker image, the demo, hosted Ferret) fetches this repository and includes every language
-  in it. A language shows up by itself (picked from the browser's language) once it's at least **80%** translated.
-  Below that, people can still choose it under Language in the account menu, where it says how far along it is.
+- Every Ferret build (the Docker image, the demo, hosted Ferret) fetches this repository and includes each language
+  that's at least **50%** translated: from then on people can choose it under Language in the account menu, where it
+  says how far along it is. Once it's at least **80%** translated it's also picked by itself from the browser's
+  language. A language below 50% stays here and on Weblate, ready for whoever takes it up.
 
 ## Translating
 
@@ -29,7 +30,9 @@ here by itself, and it flags a broken placeholder or plural as you type.
 then open a pull request. Any PO editor works (Poedit, Lokalize, a text editor). If the language is also being
 translated on Weblate, prefer Weblate, so two people don't edit the same file at once.
 
-Pick the language in Ferret's account menu (Language) to see your work in context.
+Pick the language in Ferret's account menu (Language) to see your work in context. Before it reaches 50%, run Ferret
+from source with `FERRET_TRANSLATIONS_DIR=<your clone of this repository>`: a local clone's languages are always
+included, however far along.
 
 ### Machine drafts
 
