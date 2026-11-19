@@ -520,6 +520,13 @@ msgstr ""
 "{0, plural, one {# nowe miejsce} few {# nowe miejsca} many {# nowych miejsc} "
 "other {# nowych miejsc}}"
 
+#. placeholder {0}: data.length - RECENT_COPIES
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# try} other {# tries}}"
+msgid "{0, plural, one {# older copy} other {# older copies}}"
+msgstr "{0, plural, one {# próba} few {# próby} many {# prób} other {# próby}}"
+
 #. placeholder {0}: suggested.length
 #: src/Parts.tsx
 msgid ""
@@ -14010,8 +14017,8 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
-msgid "<0>Edit</0>"
-msgstr "<0>Edytuj</0>"
+#~ msgid "<0>Edit</0>"
+#~ msgstr "<0>Edytuj</0>"
 
 #~ msgid "AI filled in {count, plural, one {# detail} other {# details}}"
 #~ msgstr ""
