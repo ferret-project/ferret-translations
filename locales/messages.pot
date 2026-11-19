@@ -419,6 +419,11 @@ msgstr ""
 msgid "{0, plural, one {# new place} other {# new places}}"
 msgstr ""
 
+#. placeholder {0}: data.length - RECENT_COPIES
+#: src/Server.tsx
+msgid "{0, plural, one {# older copy} other {# older copies}}"
+msgstr ""
+
 #. placeholder {0}: suggested.length
 #: src/Parts.tsx
 msgid "{0, plural, one {# part its manual lists} other {# parts its manual lists}}"
