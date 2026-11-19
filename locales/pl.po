@@ -341,11 +341,11 @@ msgstr ""
 
 #. placeholder {0}: c.aiFilled
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# file} other {# files}}"
 msgid "{0, plural, one {# detail AI filled in} other {# details AI filled in}}"
 msgstr ""
-"{0, plural, one {# plik} few {# pliki} many {# plików} other {# pliku}}"
+"{0, plural, one {# szczegół uzupełniony przez AI} few {# szczegóły "
+"uzupełnione przez AI} many {# szczegółów uzupełnionych przez AI} other {# "
+"szczegółu uzupełnionego przez AI}}"
 
 #. placeholder {0}: chosen.length
 #: src/ImportHomeAssistant.tsx
@@ -356,16 +356,12 @@ msgstr ""
 
 #. placeholder {0}: c.paperless
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid ""
-#| "{count, plural, one {# document} other {# documents}} from Paperless to "
-#| "sort"
 msgid ""
 "{0, plural, one {# document from Paperless} other {# documents from "
 "Paperless}}"
 msgstr ""
-"{count, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other "
-"{# dokumentu}} z Paperless do posortowania"
+"{0, plural, one {# dokument z Paperless} few {# dokumenty z Paperless} many "
+"{# dokumentów z Paperless} other {# dokumentu z Paperless}}"
 
 #. placeholder {0}: p.documents
 #: src/PlanUsage.tsx
@@ -567,12 +563,9 @@ msgstr ""
 
 #. placeholder {0}: c.duplicates
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid ""
-#| "{count, plural, one {# possible duplicate} other {# possible duplicates}}"
 msgid "{0, plural, one {# possible duplicate} other {# possible duplicates}}"
 msgstr ""
-"{count, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
+"{0, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
 "możliwych duplikatów} other {# możliwego duplikatu}}"
 
 #. placeholder {0}: o.properties
@@ -626,15 +619,11 @@ msgstr ""
 
 #. placeholder {0}: c.suggestedTasks
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid ""
-#| "{count, plural, one {# suggested maintenance task} other {# suggested "
-#| "maintenance tasks}}"
 msgid ""
 "{0, plural, one {# suggested maintenance task} other {# suggested "
 "maintenance tasks}}"
 msgstr ""
-"{count, plural, one {# proponowane zadanie konserwacyjne} few {# proponowane "
+"{0, plural, one {# proponowane zadanie konserwacyjne} few {# proponowane "
 "zadania konserwacyjne} many {# proponowanych zadań konserwacyjnych} other {# "
 "proponowanego zadania konserwacyjnego}}"
 
@@ -793,17 +782,13 @@ msgstr ""
 
 #. placeholder {0}: lines.length
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid ""
-#| "{0, plural, one {Added # thing from this scan} other {Added # things from "
-#| "this scan}}"
 msgid ""
 "{0, plural, one {Add the thing on this receipt…} other {Add the # things on "
 "this receipt…}}"
 msgstr ""
-"{0, plural, one {Dodano # rzecz z tego skanu} few {Dodano # rzeczy z tego "
-"skanu} many {Dodano # rzeczy z tego skanu} other {Dodano # rzeczy z tego "
-"skanu}}"
+"{0, plural, one {Dodaj rzecz z tego paragonu…} few {Dodaj # rzeczy z tego "
+"paragonu…} many {Dodaj # rzeczy z tego paragonu…} other {Dodaj # rzeczy z "
+"tego paragonu…}}"
 
 #. placeholder {0}: scan.items.length
 #: src/RoomScan.tsx
@@ -1037,12 +1022,11 @@ msgid "{contents} inside"
 msgstr "W środku: {contents}"
 
 #: ../server/src/lib/attention.ts
-#, fuzzy
-#| msgid "{0, plural, one {# question} other {# questions}}"
 msgid ""
 "{count, plural, one {# AI suggestion} other {# AI suggestions}} to confirm"
 msgstr ""
-"{0, plural, one {# pytanie} few {# pytania} many {# pytań} other {# pytania}}"
+"Do potwierdzenia: {count, plural, one {# sugestia AI} few {# sugestie AI} "
+"many {# sugestii AI} other {# sugestii AI}}"
 
 #: ../server/src/lib/attention.ts
 msgid ""
@@ -1222,20 +1206,16 @@ msgid "{count} couldn't go up: {error}"
 msgstr "Nie udało się przesłać ({count}): {error}"
 
 #: src/PhotoAdd.tsx
-#, fuzzy
-#| msgid "{count} waiting to upload"
 msgid "{count} new things, one photo each"
-msgstr "Czeka na przesłanie: {count}"
+msgstr "{count} nowych rzeczy, po jednym zdjęciu"
 
 #: src/Import.tsx
 msgid "{count} not imported"
 msgstr "Nie zaimportowano: {count}"
 
 #: src/QuickAdd.tsx
-#, fuzzy
-#| msgid "{quantity} of them"
 msgid "{count} of them"
-msgstr "{quantity} szt."
+msgstr "{count} szt."
 
 #: src/Walkthrough.tsx
 msgid "{count} photographed"
@@ -1616,17 +1596,13 @@ msgstr ""
 "roku} many {# niewidzianych od roku} other {# niewidzianej od roku}}"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid ""
-#| "{0, plural, one {Added # thing from this scan} other {Added # things from "
-#| "this scan}}"
 msgid ""
 "{others, plural, one {Add the other thing on this receipt…} other {Add the # "
 "other things on this receipt…}}"
 msgstr ""
-"{0, plural, one {Dodano # rzecz z tego skanu} few {Dodano # rzeczy z tego "
-"skanu} many {Dodano # rzeczy z tego skanu} other {Dodano # rzeczy z tego "
-"skanu}}"
+"{others, plural, one {Dodaj drugą rzecz z tego paragonu…} few {Dodaj # "
+"pozostałe rzeczy z tego paragonu…} many {Dodaj # pozostałych rzeczy z tego "
+"paragonu…} other {Dodaj # pozostałych rzeczy z tego paragonu…}}"
 
 #: src/Security.tsx
 msgid ""
@@ -1737,6 +1713,12 @@ msgid ""
 "confirm in a minute or two.} other {Asked about # things — their estimates "
 "appear under To confirm over the next few minutes.}}"
 msgstr ""
+"{queued, plural, one {Zapytano o # rzecz — jej wycena pojawi się w Do "
+"potwierdzenia za minutę lub dwie.} few {Zapytano o # rzeczy — ich wyceny "
+"pojawią się w Do potwierdzenia w ciągu kilku minut.} many {Zapytano o # "
+"rzeczy — ich wyceny pojawią się w Do potwierdzenia w ciągu kilku minut.} "
+"other {Zapytano o # rzeczy — ich wyceny pojawią się w Do potwierdzenia w "
+"ciągu kilku minut.}}"
 
 #: ../server/src/lib/attention.ts
 msgid "{recall} — check the model"
@@ -2327,10 +2309,8 @@ msgid "A category"
 msgstr "Kategoria"
 
 #: src/AiFill.tsx
-#, fuzzy
-#| msgid "Add a category inside {name}"
 msgid "A category since removed"
-msgstr "Dodaj kategorię w {name}"
+msgstr "Kategoria, której już nie ma"
 
 #: src/Server.tsx
 msgid ""
@@ -2383,6 +2363,8 @@ msgid ""
 "A label, a serial number or a receipt? Take it as another photo of the same "
 "thing — AI reads them together."
 msgstr ""
+"Etykieta, numer seryjny albo paragon? Zrób z tego kolejne zdjęcie tej samej "
+"rzeczy — AI odczyta je razem."
 
 #: src/PayOff.tsx
 msgid ""
@@ -3085,10 +3067,8 @@ msgid "Added from a QR label"
 msgstr "Dodane z etykiety QR"
 
 #: src/lib/origin.ts
-#, fuzzy
-#| msgid "Added from photos"
 msgid "Added from a receipt"
-msgstr "Dodane ze zdjęć"
+msgstr "Dodane z paragonu"
 
 #: src/lib/origin.ts
 msgid "Added from Paperless"
@@ -3115,10 +3095,8 @@ msgid "Added to {0}, with its file."
 msgstr "Dodano do: {0}, razem z plikiem."
 
 #: src/Walkthrough.tsx
-#, fuzzy
-#| msgid "Add to the want list"
 msgid "Added to the thing before it"
-msgstr "Dodaj do listy poszukiwanych"
+msgstr "Dodane do poprzedniej rzeczy"
 
 #: src/PhotoAdd.tsx
 msgid "Adding {number} of {total}…"
@@ -3169,10 +3147,12 @@ msgid ""
 "AI can estimate what each would cost to replace new, from what it is — up to "
 "50 at a time. Each waits here for you to use or not."
 msgstr ""
+"AI może oszacować, ile kosztowałby zakup każdej z nich jako nowej — do 50 "
+"naraz. Każda wycena czeka tutaj, aż ją użyjesz albo odrzucisz."
 
 #: src/ReadLabel.tsx
 msgid "AI fills in what it can read: brand, model, serial number, price…"
-msgstr ""
+msgstr "AI uzupełni to, co zdoła odczytać: markę, model, numer seryjny, cenę…"
 
 #: src/ImportCsv.tsx
 msgid "AI: {category}"
@@ -3227,10 +3207,8 @@ msgstr ""
 "wszystkie zdjęcia i dokumenty."
 
 #: src/PhotoAdd.tsx
-#, fuzzy
-#| msgid "Add something"
 msgid "All of one thing"
-msgstr "Dodaj coś"
+msgstr "Wszystkie jednej rzeczy"
 
 #: src/Report.tsx
 msgid "All properties"
@@ -3266,11 +3244,9 @@ msgstr "Także według użycia (co nastąpi pierwsze)"
 
 #: src/QuickAdd.tsx
 msgid "Also from what you said"
-msgstr ""
+msgstr "Również z tego, co napisano"
 
 #: src/ItemEditor.tsx
-#, fuzzy
-#| msgid "Also read off the photo"
 msgid "Also read from the photo"
 msgstr "Odczytane też ze zdjęcia"
 
@@ -3401,10 +3377,8 @@ msgid "Another file"
 msgstr "Inny plik"
 
 #: src/Walkthrough.tsx
-#, fuzzy
-#| msgid "A photo of the repair"
 msgid "Another photo of the same thing"
-msgstr "Zdjęcie naprawy"
+msgstr "Kolejne zdjęcie tej samej rzeczy"
 
 #: src/Usage.tsx
 msgid "Another reading in a week or two shows how fast it goes up."
@@ -3789,10 +3763,8 @@ msgid "Bought {date}"
 msgstr "Kupiono {date}"
 
 #: src/QuickAdd.tsx
-#, fuzzy
-#| msgid "Bought on"
 msgid "Bought {on}"
-msgstr "Data zakupu"
+msgstr "Kupione {on}"
 
 #: src/Replacements.tsx
 msgid "bought {year}"
@@ -3878,7 +3850,7 @@ msgstr "Według dni (UTC)"
 
 #: src/lib/origin.ts
 msgid "by describing it in words"
-msgstr ""
+msgstr "przez opisanie jej słowami"
 
 #: src/Stock.tsx
 msgid "by hand"
@@ -4009,10 +3981,8 @@ msgid "Categories & tags"
 msgstr "Kategorie i tagi"
 
 #: src/ItemEditor.tsx
-#, fuzzy
-#| msgid "A category"
 msgid "category"
-msgstr "Kategoria"
+msgstr "kategoria"
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Duplicates.tsx
 #: src/Everything.tsx src/lib/words.ts src/Overview.tsx src/QuickAdd.tsx
@@ -4082,13 +4052,11 @@ msgstr "Sprawdź teraz"
 
 #: ../server/src/lib/attention.ts
 msgid "Check what AI filled in and read off your photos and receipts"
-msgstr ""
+msgstr "Sprawdź, co AI uzupełniło i odczytało z twoich zdjęć i paragonów"
 
 #: ../server/src/lib/attention.ts
-#, fuzzy
-#| msgid "Details from photos and receipts"
 msgid "Check what AI read off your photos and receipts"
-msgstr "Szczegóły ze zdjęć i paragonów"
+msgstr "Sprawdź, co AI odczytało z twoich zdjęć i paragonów"
 
 #: src/App.tsx
 msgid "Check your email"
@@ -4578,10 +4546,9 @@ msgid "Couldn't read barcodes here: {error}"
 msgstr "Nie da się tu odczytywać kodów kreskowych: {error}"
 
 #: src/ReadLabel.tsx
-#, fuzzy
-#| msgid "Couldn't read this photo — name it yourself."
 msgid "Couldn't read it this time. The photo is kept with its photos."
-msgstr "Nie udało się odczytać tego zdjęcia — nazwij je sam(a)."
+msgstr ""
+"Tym razem nie udało się odczytać. Zdjęcie zostaje wśród zdjęć tej rzeczy."
 
 #: src/Scanner.tsx
 msgid "Couldn't read that photo: {error}"
@@ -4819,7 +4786,7 @@ msgstr "Odrzucona"
 
 #: src/QuickAdd.tsx
 msgid "Describe it, and AI fills in the rest"
-msgstr ""
+msgstr "Opisz ją, a AI uzupełni resztę"
 
 #: src/PlainWordsFilter.tsx
 msgid "Describe it: tools bought last year over $100"
@@ -4831,7 +4798,7 @@ msgstr "Opisz, czego szukasz"
 
 #: src/lib/origin.ts
 msgid "Described in words"
-msgstr ""
+msgstr "Opisane słowami"
 
 #: src/Duplicates.tsx src/ItemEditor.tsx src/ItemSearch.tsx src/lib/words.ts
 #: src/Listing.tsx
@@ -5188,6 +5155,8 @@ msgstr "np. Wiertarka akumulatorowa"
 #: src/QuickAdd.tsx
 msgid "e.g. DeWalt drill, garage top shelf, bought last March for $129"
 msgstr ""
+"np. wiertarka DeWalt, garaż, górna półka, kupiona w marcu zeszłego roku za "
+"129 zł"
 
 #: src/Server.tsx
 msgid "e.g. Ferret for Home Assistant"
@@ -5313,10 +5282,8 @@ msgid "Each code does what it's set to"
 msgstr "Każdy kod robi to, do czego go ustawiono"
 
 #: src/PhotoAdd.tsx
-#, fuzzy
-#| msgid "Scanned. Is this a different one?"
 msgid "Each is a different thing"
-msgstr "Zeskanowano. Czy to inna sztuka?"
+msgstr "Każde to inna rzecz"
 
 #: src/Labels.tsx
 msgid ""
@@ -5331,12 +5298,17 @@ msgid ""
 "Each one ticked becomes a thing of its own, bought the same day, with a copy "
 "of the receipt. Check what AI read first."
 msgstr ""
+"Każda zaznaczona pozycja stanie się osobną rzeczą, kupioną tego samego dnia, "
+"z kopią paragonu. Najpierw sprawdź, co odczytało AI."
 
 #: src/ReceiptLines.tsx
 msgid ""
 "Each one ticked becomes a thing, bought the same day, with the receipt — the "
 "first one this \"New item\". Check what AI read first."
 msgstr ""
+"Każda zaznaczona pozycja stanie się rzeczą, kupioną tego samego dnia, z "
+"paragonem — pierwsza z nich tym „New item”. Najpierw sprawdź, co odczytało "
+"AI."
 
 #: src/Maintenance.tsx
 msgid "each time"
@@ -5482,13 +5454,15 @@ msgstr "Oszacuj koszt odkupienia"
 
 #: src/ToConfirm.tsx
 msgid "Estimate values with AI"
-msgstr ""
+msgstr "Wyceń z pomocą AI"
 
 #: src/ToConfirm.tsx
 msgid ""
 "Estimated by AI — check before using. Use sets its replacement cost, and its "
 "value too if it has none."
 msgstr ""
+"Oszacowane przez AI — sprawdź przed użyciem. Zastosowanie ustawia koszt "
+"odkupienia, a także wartość, jeśli jej brak."
 
 #: src/Overview.tsx
 msgid "Estimates from how long things usually last."
@@ -5558,7 +5532,7 @@ msgstr "Każda nieruchomość"
 msgid ""
 "Every thing without a value has an estimate already — they're under To "
 "confirm."
-msgstr ""
+msgstr "Każda rzecz bez wartości ma już wycenę — są w Do potwierdzenia."
 
 #: src/Loans.tsx
 msgid "every week"
@@ -6036,10 +6010,8 @@ msgstr ""
 "również. Utwórz plik klucza i trzymaj go, razem z jego hasłem, gdzie indziej."
 
 #: src/QuickAdd.tsx
-#, fuzzy
-#| msgid "Filled in by AI"
 msgid "Fill in"
-msgstr "Uzupełnione przez AI"
+msgstr "Uzupełnij"
 
 #: src/AiFill.tsx
 msgid "Filled in by AI"
@@ -6048,7 +6020,7 @@ msgstr "Uzupełnione przez AI"
 #. placeholder {0}: filled.join(", ")
 #: src/ItemEditor.tsx
 msgid "Filled in from the photo: {0}. Check before saving."
-msgstr ""
+msgstr "Uzupełnione ze zdjęcia: {0}. Sprawdź przed zapisaniem."
 
 #: src/PlainWordsFilter.tsx
 msgid "Filter"
@@ -6313,7 +6285,7 @@ msgstr "Z paragonu lub karty gwarancyjnej, gdy znana jest data zakupu"
 
 #: src/lib/origin.ts
 msgid "from a receipt with several things on it"
-msgstr ""
+msgstr "z paragonu z kilkoma rzeczami"
 
 #: src/lib/origin.ts
 msgid "from a room scan"
@@ -7299,7 +7271,7 @@ msgstr ""
 
 #: src/PhotoAdd.tsx
 msgid "Its front, its label, its receipt — one new thing, read together"
-msgstr ""
+msgstr "Przód, etykieta, paragon — jedna nowa rzecz, odczytana razem"
 
 #: src/Collections.tsx
 msgid "Its name"
@@ -7590,10 +7562,8 @@ msgid "Leave out things that cost less than"
 msgstr "Pomiń rzeczy, które kosztują mniej niż"
 
 #: src/QuickAdd.tsx
-#, fuzzy
-#| msgid "Sign out {label}"
 msgid "Leave out: {label}"
-msgstr "Wyloguj: {label}"
+msgstr "Pomiń: {label}"
 
 #: src/Household.tsx
 msgid "Leave this household"
@@ -8038,10 +8008,8 @@ msgid "Model"
 msgstr "Model"
 
 #: src/QuickAdd.tsx
-#, fuzzy
-#| msgid "Label {code}"
 msgid "Model {model}"
-msgstr "Etykieta {code}"
+msgstr "Model {model}"
 
 #: src/lib/words.ts
 msgid "monitor"
@@ -8753,22 +8721,16 @@ msgid "Not sure yet"
 msgstr "Jeszcze nie wiem"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "Not set"
 msgid "Not these"
-msgstr "Nie ustawiono"
+msgstr "Nie te"
 
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "Not in this plan"
 msgid "Not this"
-msgstr "Nie w tym planie"
+msgstr "Nie to"
 
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "A listing for {name}"
 msgid "Not this estimate for {name}"
-msgstr "Ogłoszenie dla {name}"
+msgstr "Nie ta wycena dla {name}"
 
 #: src/Import.tsx
 msgid "Not what you wanted? Undo it under Import → Recent imports."
@@ -8943,10 +8905,8 @@ msgid "Nothing new in Paperless."
 msgstr "Nic nowego w Paperless."
 
 #: src/ItemEditor.tsx
-#, fuzzy
-#| msgid "Nothing new to import"
 msgid "Nothing new to fill in from that photo."
-msgstr "Nie ma nic nowego do zaimportowania"
+msgstr "Z tego zdjęcia nie ma nic nowego do uzupełnienia."
 
 #: src/Import.tsx
 msgid "Nothing new to import"
@@ -8996,10 +8956,8 @@ msgid "Nothing to check"
 msgstr "Nie ma nic do sprawdzenia"
 
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "Nothing to check"
 msgid "Nothing to confirm"
-msgstr "Nie ma nic do sprawdzenia"
+msgstr "Nie ma nic do potwierdzenia"
 
 #: src/Maintenance.tsx
 msgid "Nothing to keep up with yet"
@@ -9199,10 +9157,8 @@ msgstr ""
 "Albo wpisz ten klucz:"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "With receipts"
 msgid "On this receipt"
-msgstr "Z paragonami"
+msgstr "Na tym paragonie"
 
 #: src/Paperless.tsx
 msgid "On this thing"
@@ -9480,7 +9436,7 @@ msgstr "Inne aplikacje"
 
 #: src/ToConfirm.tsx
 msgid "Other lists to look at"
-msgstr ""
+msgstr "Inne listy do przejrzenia"
 
 #: src/DeleteForGood.tsx
 msgid ""
@@ -9531,10 +9487,8 @@ msgid "paid {amount}"
 msgstr "zapłacono {amount}"
 
 #: src/QuickAdd.tsx
-#, fuzzy
-#| msgid "paid {amount}"
 msgid "Paid {amount}"
-msgstr "zapłacono {amount}"
+msgstr "Zapłacono {amount}"
 
 #: src/lib/last-scanned.ts
 msgid "Pairing code"
@@ -9886,10 +9840,8 @@ msgid "Previous photo"
 msgstr "Poprzednie zdjęcie"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "{price} each"
 msgid "Price each"
-msgstr "{price} za sztukę"
+msgstr "Cena za sztukę"
 
 #: src/AiFill.tsx src/Duplicates.tsx src/Suggestions.tsx src/Walkthrough.tsx
 msgid "Price paid"
@@ -9942,10 +9894,8 @@ msgid "Probably not things ({count})"
 msgstr "Prawdopodobnie nie rzeczy ({count})"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "On this thing"
 msgid "Probably this thing"
-msgstr "Przy tej rzeczy"
+msgstr "Prawdopodobnie ta rzecz"
 
 #: src/Repairs.tsx
 msgid "Problem: {problem}"
@@ -10111,7 +10061,7 @@ msgstr "Przeczytaj {filename} ponownie"
 
 #: src/ReadLabel.tsx
 msgid "Read a label or receipt"
-msgstr ""
+msgstr "Odczytaj etykietę lub paragon"
 
 #: src/Suggestions.tsx
 msgid "Read by AI from your photos and documents — check before applying."
@@ -10135,10 +10085,8 @@ msgid "Read-only"
 msgstr "Tylko do odczytu"
 
 #: src/ReadLabel.tsx
-#, fuzzy
-#| msgid " · Reading…"
 msgid "Reading it…"
-msgstr " · Czytanie…"
+msgstr "Odczytuję…"
 
 #: src/Ask.tsx
 msgid "Reading its documents…"
@@ -11072,10 +11020,8 @@ msgid "Sending by email…"
 msgstr "Wysyłam e-mailem…"
 
 #: src/ReadLabel.tsx
-#, fuzzy
-#| msgid "Reading the photo…"
 msgid "Sending the photo…"
-msgstr "Odczytuję zdjęcie…"
+msgstr "Wysyłam zdjęcie…"
 
 #: src/Notifications.tsx
 msgid "Sent — check that it arrived."
@@ -12413,10 +12359,8 @@ msgstr ""
 "kreskowym i nazwą albo z prawie identycznymi opisami."
 
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "Things with a tag"
 msgid "Things without a value"
-msgstr "Rzeczy z tagiem"
+msgstr "Rzeczy bez wartości"
 
 #: src/Shopping.tsx
 msgid ""
@@ -12644,7 +12588,7 @@ msgstr "Do kupienia"
 
 #: src/Nav.tsx src/ToConfirm.tsx
 msgid "To confirm"
-msgstr ""
+msgstr "Do potwierdzenia"
 
 #: ../server/src/lib/email-verification.ts
 msgid ""
@@ -12984,10 +12928,8 @@ msgid "Use {amount}"
 msgstr "Użyj {amount}"
 
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "Use one {name}"
 msgid "Use {amount} for {name}"
-msgstr "Zużyj jedną sztukę: {name}"
+msgstr "Użyj {amount} dla {name}"
 
 #: src/TimeZone.tsx
 msgid "Use {replace}"
@@ -13024,10 +12966,8 @@ msgstr ""
 "serwer."
 
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "See all"
 msgid "Use all"
-msgstr "Zobacz wszystko"
+msgstr "Użyj wszystkich"
 
 #: src/PhotoCrop.tsx
 msgid "Use as main photo, uncropped"
@@ -13360,6 +13300,8 @@ msgid ""
 "What AI reads off photos and receipts, and the values it estimates, wait "
 "here until someone applies or dismisses them."
 msgstr ""
+"To, co AI odczyta ze zdjęć i paragonów, oraz oszacowane przez nie wartości "
+"czekają tutaj, aż ktoś je zastosuje albo odrzuci."
 
 #: src/Labels.tsx
 msgid "What did you stick it on?"
@@ -13424,10 +13366,8 @@ msgid "What they tried"
 msgstr "Co wypróbowali"
 
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid "What they tried"
 msgid "What they'd cost to replace"
-msgstr "Co wypróbowali"
+msgstr "Ile kosztowałoby ich odkupienie"
 
 #: src/ImportCsv.tsx
 msgid "What to import"
@@ -13531,10 +13471,8 @@ msgid "Where {things} go"
 msgstr "Dokąd trafią {things}"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "Where is it?"
 msgid "Where are they?"
-msgstr "Gdzie to jest?"
+msgstr "Gdzie są?"
 
 #: src/ImportCsv.tsx
 msgid "Where column {number} goes"
@@ -13639,6 +13577,8 @@ msgid ""
 "Which of your categories a thing belongs in, from its photos and receipts — "
 "only when it has none"
 msgstr ""
+"Do której z twoich kategorii należy rzecz, na podstawie jej zdjęć i "
+"paragonów — tylko gdy nie ma żadnej"
 
 #: src/Labels.tsx
 msgid "Which one"
@@ -14070,6 +14010,9 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
+msgid "<0>Edit</0>"
+msgstr "<0>Edytuj</0>"
+
 #~ msgid "AI filled in {count, plural, one {# detail} other {# details}}"
 #~ msgstr ""
 #~ "AI uzupełniła {count, plural, one {# szczegół} few {# szczegóły} many {# "
@@ -14080,6 +14023,3 @@ msgstr "Pomniejsz"
 
 #~ msgid "Back to your stuff"
 #~ msgstr "Wróć do swoich rzeczy"
-
-#~ msgid "<0>Edit</0>"
-#~ msgstr "<0>Edytuj</0>"
