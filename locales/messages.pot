@@ -298,6 +298,16 @@ msgstr ""
 msgid "{0, plural, one {# brand checked} other {# brands checked}}"
 msgstr ""
 
+#. placeholder {0}: s.cards
+#: src/Server.tsx
+msgid "{0, plural, one {# card looked up} other {# cards looked up}}"
+msgstr ""
+
+#. placeholder {0}: changes.length
+#: src/Cards.tsx
+msgid "{0, plural, one {# card's price has changed:} other {# cards' prices have changed:}}"
+msgstr ""
+
 #. placeholder {0}: unused.length
 #: src/ImportCsv.tsx
 msgid "{0, plural, one {# column left out} other {# columns left out}}"
@@ -311,6 +321,11 @@ msgstr ""
 #. placeholder {0}: c.aiFilled
 #: src/ToConfirm.tsx
 msgid "{0, plural, one {# detail AI filled in} other {# details AI filled in}}"
+msgstr ""
+
+#. placeholder {0}: s.devices
+#: src/Server.tsx
+msgid "{0, plural, one {# device model known} other {# device models known}}"
 msgstr ""
 
 #. placeholder {0}: chosen.length
@@ -465,6 +480,11 @@ msgstr ""
 msgid "{0, plural, one {# possible duplicate} other {# possible duplicates}}"
 msgstr ""
 
+#. placeholder {0}: s.products
+#: src/Server.tsx
+msgid "{0, plural, one {# product found} other {# products found}}"
+msgstr ""
+
 #. placeholder {0}: o.properties
 #: src/Overview.tsx
 msgid "{0, plural, one {# property} other {# properties}}"
@@ -545,6 +565,11 @@ msgstr ""
 #. placeholder {0}: r.toCheck.length
 #: src/Tracking.tsx
 msgid "{0, plural, one {# thing to check here.} other {# things to check here.}}"
+msgstr ""
+
+#. placeholder {0}: s.tracked
+#: src/Server.tsx
+msgid "{0, plural, one {# thing tracked} other {# things tracked}}"
 msgstr ""
 
 #. placeholder {0}: b.items
@@ -685,6 +710,11 @@ msgstr ""
 msgid "{0, plural, one {Made # place} other {Made # places}}"
 msgstr ""
 
+#. placeholder {0}: row.candidates.length - 1
+#: src/CardScan.tsx
+msgid "{0, plural, one {Not this printing? # other} other {Not this printing? # others}}"
+msgstr ""
+
 #. placeholder {0}: scans.length
 #: src/Offline.tsx
 msgid "{0, plural, one {Offline — # scan saved to send later} other {Offline — # scans saved to send later}}"
@@ -720,6 +750,11 @@ msgstr ""
 msgid "{0, plural, one {Save # album} other {Save # albums}}"
 msgstr ""
 
+#. placeholder {0}: toSave.length
+#: src/CardScan.tsx
+msgid "{0, plural, one {Save # card} other {Save # cards}}"
+msgstr ""
+
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
 msgid "{0, plural, one {Sent to # device.} other {Sent to # devices.}}"
@@ -738,6 +773,11 @@ msgstr ""
 #. placeholder {0}: r.open.done
 #: src/Tracking.tsx
 msgid "{0, plural, one {Under way: # checked} other {Under way: # checked}}"
+msgstr ""
+
+#. placeholder {0}: changes.length
+#: src/Cards.tsx
+msgid "{0, plural, one {Update # value} other {Update # values}}"
 msgstr ""
 
 #. placeholder {0}: row.have.length
@@ -778,8 +818,16 @@ msgstr ""
 msgid "{brand} (label printer)"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "{cards, plural, one {# card} other {# cards}}"
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "{change} · {quantity} left"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "{checking, plural, one {Checking today's price of # card…} other {Checking today's prices of # cards…}}"
 msgstr ""
 
 #: src/Labels.tsx
@@ -1379,6 +1427,10 @@ msgstr ""
 msgid "{saved, plural, one {# album added.} other {# albums added.}}"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "{saved, plural, one {# card added.} other {# cards added.}}"
+msgstr ""
+
 #: src/Walkthrough.tsx
 msgid "{saved, plural, one {# thing named} other {# things named}}"
 msgstr ""
@@ -1405,6 +1457,14 @@ msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "{thing} is still with {person}"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} no longer gets security updates"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "{thing} stops getting security updates"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -1856,6 +1916,10 @@ msgid "A {what} — which item is it for?"
 msgstr ""
 
 #: src/Server.tsx
+msgid "A barcode the online product database doesn't know — or every barcode, if there isn't one — is asked of Open Food Facts, Open Products Facts and Open Beauty Facts (openfoodfacts.org): groceries, cleaning supplies, batteries, light bulbs, toiletries. Free, with no allowance, and once for the whole server. Only the barcode is sent."
+msgstr ""
+
+#: src/Server.tsx
 msgid "A book's barcode is its ISBN: scanned or saved, it's asked of Open Library (openlibrary.org) for the title, author and cover — each once for the whole server, free, and not counted against any lookup allowance. Only the ISBN is sent."
 msgstr ""
 
@@ -1869,6 +1933,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "A certificate authority's certificate, or a service's own self-signed one, in PEM form (<0>-----BEGIN CERTIFICATE-----</0>). Never its private key."
+msgstr ""
+
+#: src/Webhooks.tsx
+msgid "A device's security updates stop within 90 days"
 msgstr ""
 
 #: src/Listing.tsx
@@ -2155,6 +2223,10 @@ msgstr ""
 msgid "Add {album}"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "Add {card}"
+msgstr ""
+
 #: src/Shopping.tsx
 msgid "Add {count} {name} to your Amazon cart"
 msgstr ""
@@ -2325,6 +2397,10 @@ msgstr ""
 msgid "Add each as a new thing, or attach it to one"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "Add each card's picture as its photo"
+msgstr ""
+
 #: src/FromWeb.tsx
 msgid "Add from a web address"
 msgstr ""
@@ -2411,6 +2487,10 @@ msgstr ""
 
 #: src/Templates.tsx
 msgid "Add template"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "Add the card's picture"
 msgstr ""
 
 #: src/Files.tsx
@@ -2586,6 +2666,10 @@ msgstr ""
 msgid "Added to the thing before it"
 msgstr ""
 
+#: src/lib/origin.ts
+msgid "Added with Scan cards"
+msgstr ""
+
 #: src/PhotoAdd.tsx
 msgid "Adding {number} of {total}…"
 msgstr ""
@@ -2606,6 +2690,10 @@ msgstr ""
 
 #: src/FromWeb.tsx
 msgid "Address of a photo or PDF"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Adds \"Scan cards\" to + Add: Pokémon cards are looked up on TCGdex (tcgdex.dev) and Magic cards on Scryfall (scryfall.com) — the card, its picture and today's market price. Free, with no allowance. Only what's printed on a card (its name, number and set) is sent; reading a photo of one uses this server's vision model and counts as an AI action."
 msgstr ""
 
 #: src/Server.tsx
@@ -3380,6 +3468,7 @@ msgstr ""
 msgid "Can't reach Ferret"
 msgstr ""
 
+#: src/Cards.tsx
 #: src/Catalog.tsx
 #: src/Claims.tsx
 #: src/Collections.tsx
@@ -3441,6 +3530,18 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "carbon monoxide alarm"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Card"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Card look-ups aren't switched on on this server. Its admin can turn them on in Settings → Server."
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Card name, and number"
 msgstr ""
 
 #: src/Overview.tsx
@@ -3635,6 +3736,7 @@ msgstr ""
 msgid "Choose categories"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/RoomScan.tsx
 msgid "Choose photos"
 msgstr ""
@@ -3727,6 +3829,7 @@ msgstr ""
 msgid "Cleaner"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Everything.tsx
 #: src/MusicScan.tsx
 #: src/Search.tsx
@@ -3754,6 +3857,7 @@ msgstr ""
 msgid "Clear the index and embed all {things} things again? Until it's done, smart search finds only the things already embedded."
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/MusicScan.tsx
 msgid "Clear the list? Nothing in it has been saved."
 msgstr ""
@@ -3812,6 +3916,7 @@ msgstr ""
 msgid "Collapse"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Collections.tsx
 msgid "Collection"
 msgstr ""
@@ -4044,12 +4149,20 @@ msgstr ""
 msgid "Couldn't open this file."
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "Couldn't read a card in that photo."
+msgstr ""
+
 #: src/Scanner.tsx
 msgid "Couldn't read barcodes here: {error}"
 msgstr ""
 
 #: src/ReadLabel.tsx
 msgid "Couldn't read it this time. The photo is kept with its photos."
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Couldn't read that card."
 msgstr ""
 
 #: src/Scanner.tsx
@@ -4321,6 +4434,10 @@ msgstr ""
 msgid "Details to fill in"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Device support"
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid "Devices"
 msgstr ""
@@ -4502,6 +4619,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Done before"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Done choosing"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -4690,6 +4811,10 @@ msgstr ""
 msgid "e.g. Kitchen — plates (or leave as \"Box {code}\")"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "e.g. Lightning Bolt M10 146"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "e.g. MERV 11 filter, 16×25×1"
 msgstr ""
@@ -4708,6 +4833,10 @@ msgstr ""
 
 #: src/Webhooks.tsx
 msgid "e.g. n8n"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "e.g. Pikachu 025/165"
 msgstr ""
 
 #: src/Catalog.tsx
@@ -4965,6 +5094,10 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "Every 2 weeks"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "Every card's value already matches today's price."
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -5391,6 +5524,7 @@ msgstr ""
 msgid "Filters"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Offline.tsx
 msgid "Find"
 msgstr ""
@@ -5425,6 +5559,10 @@ msgstr ""
 
 #: src/DocumentViewer.tsx
 msgid "Finding “{find}”…"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Finish"
 msgstr ""
 
 #: src/Tracking.tsx
@@ -5564,6 +5702,10 @@ msgstr ""
 msgid "freezer"
 msgstr ""
 
+#: src/App.tsx
+msgid "From {database}"
+msgstr ""
+
 #: src/SuggestedMaintenance.tsx
 msgid "from {file}"
 msgstr ""
@@ -5616,6 +5758,10 @@ msgstr ""
 msgid "From a visit to coming back"
 msgstr ""
 
+#: src/DeviceSupport.tsx
+msgid "From endoflife.date — check it's the right model before saying yes."
+msgstr ""
+
 #: src/lib/origin.ts
 msgid "from Home Assistant"
 msgstr ""
@@ -5655,10 +5801,6 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "From the settings"
-msgstr ""
-
-#: src/App.tsx
-msgid "From the UPCitemdb product database"
 msgstr ""
 
 #: src/Product.tsx
@@ -5787,6 +5929,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "grill"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Groceries and household goods"
 msgstr ""
 
 #: src/Server.tsx
@@ -5943,6 +6089,7 @@ msgstr ""
 msgid "Households nobody is a member of — nobody can open them."
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Collections.tsx
 #: src/Labels.tsx
 #: src/Maintenance.tsx
@@ -6298,6 +6445,10 @@ msgstr ""
 msgid "Is it? Mark it back on its page"
 msgstr ""
 
+#: src/DeviceSupport.tsx
+msgid "Is this a {device}?"
+msgstr ""
+
 #: src/Boxes.tsx
 msgid "it"
 msgstr ""
@@ -6328,6 +6479,10 @@ msgstr ""
 
 #: src/Notifications.tsx
 msgid "It holds your token, so Ferret keeps it encrypted and won't show it again. <0>Every service's format</0>"
+msgstr ""
+
+#: src/DeviceSupport.tsx
+msgid "It isn't"
 msgstr ""
 
 #: src/Server.tsx
@@ -7109,6 +7264,14 @@ msgstr ""
 msgid "Marked done, but the files couldn't be added ({reason}). Add them from the task's Done before list."
 msgstr ""
 
+#: src/Cards.tsx
+msgid "market price today ({source})"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "Market prices for ungraded cards (TCGplayer in dollars, Cardmarket in euros)."
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "Marks it done."
 msgstr ""
@@ -7505,6 +7668,14 @@ msgstr ""
 msgid "No boxes yet — mark an item as a box"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "No card called \"{name}\" — fix the spelling and find it again."
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "No cards by that name. Check the spelling, or leave out the number."
+msgstr ""
+
 #: src/Catalog.tsx
 msgid "No categories yet — add them under Categories & tags"
 msgstr ""
@@ -7542,6 +7713,10 @@ msgstr ""
 
 #: src/Duplicates.tsx
 msgid "No duplicates found"
+msgstr ""
+
+#: src/DeviceSupport.tsx
+msgid "No end date announced yet."
 msgstr ""
 
 #: src/Server.tsx
@@ -7617,6 +7792,7 @@ msgstr ""
 msgid "No photos yet. A photo makes it easy to recognise later."
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/MusicScan.tsx
 msgid "No place"
 msgstr ""
@@ -7627,6 +7803,14 @@ msgstr ""
 
 #: src/Combobox.tsx
 msgid "No places yet — add them under Places"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "No price"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "No price for this finish in your currency."
 msgstr ""
 
 #: src/Overview.tsx
@@ -7666,6 +7850,10 @@ msgstr ""
 msgid "No things match"
 msgstr ""
 
+#: src/Cards.tsx
+msgid "No trading cards in this collection yet."
+msgstr ""
+
 #: src/Overview.tsx
 msgid "No value or price"
 msgstr ""
@@ -7694,6 +7882,7 @@ msgstr ""
 msgid "none"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Collections.tsx
 #: src/Templates.tsx
 msgid "None"
@@ -8238,6 +8427,10 @@ msgstr ""
 msgid "On {0}"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "On {date} ({device}) — time to plan a replacement"
+msgstr ""
+
 #: src/Videos.tsx
 msgid "On {thing}:"
 msgstr ""
@@ -8322,6 +8515,7 @@ msgstr ""
 msgid "Once a week, everything in the bell — not just what's urgent: possible recalls, coverage gaps, claims waiting, things to name, what's lent out. It comes where your reminders do."
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Shopping.tsx
 msgid "One fewer"
 msgstr ""
@@ -8334,6 +8528,7 @@ msgstr ""
 msgid "One moment…"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Shopping.tsx
 msgid "One more"
 msgstr ""
@@ -8768,12 +8963,20 @@ msgstr ""
 msgid "Photograph"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "Photograph a card"
+msgstr ""
+
 #: src/Walkthrough.tsx
 msgid "Photograph a room's things one after another — each photo becomes an item there. Then go through them: Ferret reads each photo and suggests what it is."
 msgstr ""
 
 #: src/Nav.tsx
 msgid "Photograph a room's things, then name them"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Photograph each card, front on and filling the photo — Ferret reads its name and number while you take the next. Or type it. Check the list, then save them all; nothing is added until you do."
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -8885,6 +9088,10 @@ msgstr ""
 msgid "Point the camera at the barcode."
 msgstr ""
 
+#: src/Nav.tsx
+msgid "Pokémon and Magic cards: photograph or type each one, with today's price"
+msgstr ""
+
 #: src/Places.tsx
 msgid "Policy number, gate code, who has keys…"
 msgstr ""
@@ -8977,6 +9184,10 @@ msgstr ""
 
 #: src/Listing.tsx
 msgid "Price: {price}"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Prices are for ungraded cards in good condition; a graded card can be worth much more."
 msgstr ""
 
 #: src/Boxes.tsx
@@ -9215,8 +9426,16 @@ msgstr ""
 msgid "Reading its documents…"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "Reading the card…"
+msgstr ""
+
 #: src/Walkthrough.tsx
 msgid "Reading the photo…"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Reading took too long — try another photo, or type its name."
 msgstr ""
 
 #: src/Product.tsx
@@ -9365,6 +9584,10 @@ msgstr ""
 
 #: src/MusicScan.tsx
 msgid "Remove {album} from the list"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Remove {card} from the list"
 msgstr ""
 
 #: src/Files.tsx
@@ -9866,6 +10089,7 @@ msgstr ""
 msgid "Saved the pairing code to {name}"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/MusicScan.tsx
 msgid "Saving {done} of {total}…"
 msgstr ""
@@ -9900,6 +10124,12 @@ msgstr ""
 #: src/Nav.tsx
 #: src/RoomScan.tsx
 msgid "Scan a room"
+msgstr ""
+
+#: src/CardScan.tsx
+#: src/Collections.tsx
+#: src/Nav.tsx
+msgid "Scan cards"
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -10097,10 +10327,19 @@ msgstr ""
 msgid "Security"
 msgstr ""
 
+#: src/DeviceSupport.tsx
+msgid "Security updates stopped on {date}."
+msgstr ""
+
+#: src/DeviceSupport.tsx
+msgid "Security updates until {date}."
+msgstr ""
+
 #: src/Overview.tsx
 msgid "See all"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/MusicScan.tsx
 msgid "See them"
 msgstr ""
@@ -10527,6 +10766,10 @@ msgstr ""
 msgid "Since"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid "Since {date} ({device}) — worth replacing"
+msgstr ""
+
 #: src/App.tsx
 msgid "Single sign-on didn't work"
 msgstr ""
@@ -10570,6 +10813,11 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "sofa"
+msgstr ""
+
+#: src/AttentionBell.tsx
+#: src/DeviceSupport.tsx
+msgid "Software updates"
 msgstr ""
 
 #: src/Gone.tsx
@@ -10775,6 +11023,10 @@ msgstr ""
 msgid "Still here, with what's inside"
 msgstr ""
 
+#: src/CardScan.tsx
+msgid "Still nothing"
+msgstr ""
+
 #: src/Stock.tsx
 msgid "Stock"
 msgstr ""
@@ -10799,6 +11051,7 @@ msgstr ""
 msgid "Stop these reminders"
 msgstr ""
 
+#: src/DeviceSupport.tsx
 #: src/Usage.tsx
 msgid "Stop tracking"
 msgstr ""
@@ -11121,6 +11374,10 @@ msgstr ""
 
 #: src/Install.tsx
 msgid "The browser's"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "The card catalog can't be reached right now."
 msgstr ""
 
 #: src/Demo.tsx
@@ -11659,6 +11916,14 @@ msgstr ""
 msgid "Trade"
 msgstr ""
 
+#: src/Cards.tsx
+msgid "Trading card"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Trading cards"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Tried"
 msgstr ""
@@ -11741,6 +12006,10 @@ msgstr ""
 
 #: src/Security.tsx
 msgid "Two-step sign-in is on"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Type each card's name, and its number if you like (\"Pikachu 025/165\"). Check the list, then save them all; nothing is added until you do."
 msgstr ""
 
 #: src/Nav.tsx
@@ -11865,8 +12134,21 @@ msgstr ""
 msgid "Until {formatDate}"
 msgstr ""
 
+#: src/Cards.tsx
+msgid "Update its value to {price}"
+msgstr ""
+
+#: src/Cards.tsx
+#: src/Collections.tsx
+msgid "Update values"
+msgstr ""
+
 #: src/Import.tsx
 msgid "Updated from Home Assistant"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "Updating {done} of {total}…"
 msgstr ""
 
 #: src/PlanUsage.tsx
@@ -11927,6 +12209,10 @@ msgstr ""
 
 #: src/ToConfirm.tsx
 msgid "Use {amount} for {name}"
+msgstr ""
+
+#: src/Cards.tsx
+msgid "Use {price} as its value"
 msgstr ""
 
 #: src/TimeZone.tsx
@@ -11995,6 +12281,10 @@ msgstr ""
 
 #: src/PhotoCrop.tsx
 msgid "Use this photo?"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Use today's market price as each card's value"
 msgstr ""
 
 #: src/Offline.tsx
@@ -12379,6 +12669,10 @@ msgstr ""
 msgid "when its use gets there"
 msgstr ""
 
+#: src/Server.tsx
+msgid "When phones, tablets, watches, e-readers and the like stop getting security updates, from endoflife.date. A thing that looks like one of its devices is offered on its page to confirm; once confirmed, the bell warns 90 days before its updates stop. Ferret downloads endoflife.date's public device lists once a day — nothing about your things is sent."
+msgstr ""
+
 #: src/Webhooks.tsx
 msgid "When something needs attention (once each)"
 msgstr ""
@@ -12411,6 +12705,7 @@ msgstr ""
 msgid "Where {things} go"
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/MusicScan.tsx
 #: src/ReceiptLines.tsx
 msgid "Where are they?"
@@ -12500,6 +12795,10 @@ msgstr ""
 
 #: src/ImportCsv.tsx
 msgid "Which column goes where? Ferret guessed — change anything that's wrong."
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "Which game?"
 msgstr ""
 
 #: src/Connect.tsx
@@ -12619,6 +12918,10 @@ msgstr ""
 msgid "With receipts"
 msgstr ""
 
+#: src/lib/origin.ts
+msgid "with Scan cards"
+msgstr ""
+
 #: src/Templates.tsx
 msgid "With tags"
 msgstr ""
@@ -12647,6 +12950,10 @@ msgstr ""
 
 #: src/Collections.tsx
 msgid "Worth (each)"
+msgstr ""
+
+#: src/CardScan.tsx
+msgid "worth about {worth}"
 msgstr ""
 
 #: src/Charts.tsx
@@ -12705,6 +13012,10 @@ msgstr ""
 msgid "years"
 msgstr ""
 
+#: src/DeviceSupport.tsx
+msgid "Yes — remind me before updates stop"
+msgstr ""
+
 #: src/Household.tsx
 #: src/Server.tsx
 msgid "You"
@@ -12718,6 +13029,7 @@ msgstr ""
 msgid "You can disconnect it any time in Settings → Claude & API."
 msgstr ""
 
+#: src/CardScan.tsx
 #: src/Import.tsx
 #: src/MusicScan.tsx
 #: src/RoomScan.tsx
