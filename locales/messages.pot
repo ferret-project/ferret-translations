@@ -253,6 +253,10 @@ msgstr ""
 msgid "“{find}” isn't in this file's text — it may be a scan."
 msgstr ""
 
+#: src/MusicScan.tsx
+msgid "({found} found)"
+msgstr ""
+
 #: src/Replacements.tsx
 msgid "(an estimate)"
 msgstr ""
@@ -481,6 +485,11 @@ msgstr ""
 msgid "{0, plural, one {# receipt/document} other {# receipts/documents}}"
 msgstr ""
 
+#. placeholder {0}: s.releases
+#: src/Server.tsx
+msgid "{0, plural, one {# record found} other {# records found}}"
+msgstr ""
+
 #. placeholder {0}: newRooms.length
 #. placeholder {0}: p.locations.length
 #: src/Browse.tsx
@@ -491,6 +500,11 @@ msgstr ""
 #. placeholder {0}: rows.length
 #: src/ImportCsv.tsx
 msgid "{0, plural, one {# row} other {# rows}}"
+msgstr ""
+
+#. placeholder {0}: rows.length
+#: src/MusicScan.tsx
+msgid "{0, plural, one {# scanned} other {# scanned}}"
 msgstr ""
 
 #. placeholder {0}: sheets.length
@@ -701,6 +715,11 @@ msgstr ""
 msgid "{0, plural, one {Room scan · # photo} other {Room scan · # photos}}"
 msgstr ""
 
+#. placeholder {0}: toSave.length
+#: src/MusicScan.tsx
+msgid "{0, plural, one {Save # album} other {Save # albums}}"
+msgstr ""
+
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
 msgid "{0, plural, one {Sent to # device.} other {Sent to # devices.}}"
@@ -719,6 +738,11 @@ msgstr ""
 #. placeholder {0}: r.open.done
 #: src/Tracking.tsx
 msgid "{0, plural, one {Under way: # checked} other {Under way: # checked}}"
+msgstr ""
+
+#. placeholder {0}: row.have.length
+#: src/MusicScan.tsx
+msgid "{0, plural, one {You have this one already} other {You have # of these already}}"
 msgstr ""
 
 #. placeholder {0}: /** * Settings → Server → AI prompts (the server admin): extra instructions added to the end of one of Ferret's built-in * prompts, for people steering their own models. Added to, never replacing (lib/ai-prompts.ts on the server), so the * reply's shape and later fixes to the prompts stay. Advanced on purpose: a bad instruction makes AI worse everywhere. */ import type { PromptKind } from "@ferret/shared"; import { PROMPT_EXTRA_MAX } from "@ferret/shared/utils"; import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query"; import { useEffect, useState } from "react"; import type { MessageDescriptor } from "@lingui/core"; import { msg, t } from "@lingui/core/macro"; import { Trans } from "@lingui/react/macro"; import { api } from "./lib/api"; import { HelpLink } from "./HelpLink"; export const PROMPT_NAMES: Record<PromptKind, MessageDescriptor> = { photo: msg`Photos of things`, document: msg`Documents (receipts, manuals, warranties)`, describe: msg`Describe it (typed or spoken)`, roomScan: msg`Room scans`, ask: msg`Ask Ferret`, }; export function AiPrompts() { const qc = useQueryClient(); const status = useQuery({ queryKey: ["server-prompts"], queryFn: api.promptSettings }); const [kind, setKind] = useState<PromptKind>("photo"); const [draft, setDraft] = useState(""); const [confirming, setConfirming] = useState(false); const prompts = status.data?.data; const current = prompts?.find((p) => p.kind === kind); const save = useMutation({ mutationFn: (extra: string | null) => api.setPromptExtra(kind, extra), onSuccess: (data) => { qc.setQueryData(["server-prompts"], data); setConfirming(false); }, }); // The box shows the chosen prompt's saved instructions — again after switching prompts or saving. useEffect(() => setDraft(current?.extra ?? ""), [current?.kind, current?.extra]); if (!prompts || !current) return null; const dirty = draft.trim() !== (current.extra ?? ""); return ( <section className="card" aria-labelledby="ai-prompts-title"> <div className="card-body gap-3"> <h2 id="ai-prompts-title" className="card-title flex flex-wrap items-center gap-2"> <span className="icon-[tabler--message-cog] size-5 text-primary" /> <Trans>AI prompts</Trans> <span className="badge badge-soft badge-warning badge-sm"><Trans>Advanced</Trans></span> <HelpLink page="hosting/ai.html#ai-prompts" label={t`AI prompts`} /> </h2> <p className="text-sm text-base-content/70"> <Trans>Add your own instructions to the end of what Ferret asks its AI models — for example "For video games, the brand is the publisher". Ferret's own instructions stay, and improvements to them still arrive with updates. Instructions that fight Ferret's can make AI worse for every household on this server; reset them if answers look odd.</Trans> </p> <label className="flex flex-col gap-1"> <span className="text-sm font-medium"><Trans>Prompt</Trans></span> <select className="select" value={kind} onChange={(e) => { setKind(e.target.value as PromptKind); setConfirming(false); save.reset(); }}> {prompts.map((p) => ( <option key={p.kind} value={p.kind}> {p.extra ? t`${t(PROMPT_NAMES[p.kind])} — changed` : t(PROMPT_NAMES[p.kind])} </option> ))} </select> </label> <details className="rounded-box border border-base-content/15"> <summary className="cursor-pointer px-3 py-2 text-sm font-medium"><Trans>Ferret's built-in prompt</Trans></summary> {/* The prompt itself, in English as the model gets it. */} <pre className="max-h-80 overflow-auto whitespace-pre-wrap break-words border-t border-base-content/15 px-3 py-2 text-xs">{current.builtIn}</pre> </details> <label className="flex flex-col gap-1"> <span className="text-sm font-medium"><Trans>Your extra instructions</Trans></span> <textarea className="textarea min-h-28" value={draft} maxLength={PROMPT_EXTRA_MAX} placeholder={t`None — the built-in prompt as it is`} onChange={(e) => setDraft(e.target.value)} /> <span className="text-xs text-base-content/70"><Trans>Added after the built-in prompt, in the language you write them in (English works best).</Trans></span> </label> <div className="flex flex-wrap items-center gap-2"> <button type="button" className="btn btn-primary" disabled={!dirty || save.isPending} onClick={() => save.mutate(draft.trim() || null)}> <Trans>Save</Trans> </button> {current.extra && !confirming && ( <button type="button" className="btn btn-soft" disabled={save.isPending} onClick={() => setConfirming(true)}> <Trans>Reset to default</Trans> </button> )} {confirming && ( <span className="flex flex-wrap items-center gap-2"> <span className="text-sm"><Trans>Remove your instructions from this prompt?</Trans></span> <button type="button" className="btn btn-error btn-soft" disabled={save.isPending} onClick={() => save.mutate(null)}> <Trans>Reset</Trans> </button> <button type="button" className="btn btn-text" onClick={() => setConfirming(false)}> <Trans>Cancel</Trans> </button> </span> )} </div> {save.isError && <div className="alert alert-soft alert-error">{save.error.message}</div>} </div> </section> ); } 
@@ -1349,6 +1373,10 @@ msgstr ""
 
 #: src/PhotoCrop.tsx
 msgid "{round}% wide, {round2}% high"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "{saved, plural, one {# album added.} other {# albums added.}}"
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -2123,6 +2151,10 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
+#: src/MusicScan.tsx
+msgid "Add {album}"
+msgstr ""
+
 #: src/Shopping.tsx
 msgid "Add {count} {name} to your Amazon cart"
 msgstr ""
@@ -2283,6 +2315,10 @@ msgstr ""
 
 #: src/Catalog.tsx
 msgid "Add category"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Add each album's cover as its photo"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -2572,6 +2608,10 @@ msgstr ""
 msgid "Address of a photo or PDF"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Adds \"Scan music\" to + Add: scan a shelf of CDs or records one after another, and each barcode is asked of MusicBrainz (musicbrainz.org) for the album, artist, format, year and cover — once for the whole server, free, and not counted against any lookup allowance. Only the barcode is sent."
+msgstr ""
+
 #: src/Household.tsx
 msgid "Adds and changes things"
 msgstr ""
@@ -2630,6 +2670,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "air purifier"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Album and artist"
 msgstr ""
 
 #: src/Usage.tsx
@@ -2938,6 +2982,10 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "Art & collectibles"
+msgstr ""
+
+#: src/Product.tsx
+msgid "Artist"
 msgstr ""
 
 #: src/Everything.tsx
@@ -3439,6 +3487,10 @@ msgstr ""
 msgid "Category of thing {number}"
 msgstr ""
 
+#: src/Nav.tsx
+msgid "CDs and records, one after another: Ferret looks each up on MusicBrainz"
+msgstr ""
+
 #: ../server/src/lib/attention.ts
 msgid "Certificate “{name}” expires soon"
 msgstr ""
@@ -3676,6 +3728,7 @@ msgid "Cleaner"
 msgstr ""
 
 #: src/Everything.tsx
+#: src/MusicScan.tsx
 #: src/Search.tsx
 #: src/StarterTasks.tsx
 msgid "Clear"
@@ -3699,6 +3752,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Clear the index and embed all {things} things again? Until it's done, smart search finds only the things already embedded."
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Clear the list? Nothing in it has been saved."
 msgstr ""
 
 #: src/Search.tsx
@@ -3972,6 +4029,11 @@ msgstr ""
 
 #: src/RoomScan.tsx
 msgid "Couldn't look at the photos."
+msgstr ""
+
+#. placeholder {0}: row.code
+#: src/MusicScan.tsx
+msgid "Couldn't look up <0>{0}</0>."
 msgstr ""
 
 #: src/PhotoCrop.tsx
@@ -4419,6 +4481,7 @@ msgstr ""
 #: src/Household.tsx
 #: src/ImportHomeAssistant.tsx
 #: src/Maintenance.tsx
+#: src/MusicScan.tsx
 #: src/Settings.tsx
 #: src/Shares.tsx
 #: src/Webhooks.tsx
@@ -6875,6 +6938,7 @@ msgid "Looking through your things…"
 msgstr ""
 
 #: src/App.tsx
+#: src/MusicScan.tsx
 msgid "Looking up"
 msgstr ""
 
@@ -7183,6 +7247,19 @@ msgstr ""
 msgid "Moving things to {name}"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Music look-ups"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Music look-ups aren't switched on on this server. Its admin can turn them on in Settings → Server."
+msgstr ""
+
+#. placeholder {0}: row.code
+#: src/MusicScan.tsx
+msgid "MusicBrainz doesn't know <0>{0}</0>."
+msgstr ""
+
 #: src/AiFill.tsx
 #: src/App.tsx
 #: src/Catalog.tsx
@@ -7206,6 +7283,10 @@ msgstr ""
 #: src/Templates.tsx
 #: src/Webhooks.tsx
 msgid "Name"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Name for {code}"
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -7536,6 +7617,10 @@ msgstr ""
 msgid "No photos yet. A photo makes it easy to recognise later."
 msgstr ""
 
+#: src/MusicScan.tsx
+msgid "No place"
+msgstr ""
+
 #: src/Combobox.tsx
 msgid "No place matches that"
 msgstr ""
@@ -7722,6 +7807,10 @@ msgstr ""
 
 #: src/NotFound.tsx
 msgid "Not found"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Not found — you can name it in the list."
 msgstr ""
 
 #: src/Everything.tsx
@@ -8788,6 +8877,10 @@ msgstr ""
 msgid "Plumber"
 msgstr ""
 
+#: src/MusicScan.tsx
+msgid "Point the camera at a CD's or record's barcode."
+msgstr ""
+
 #: src/Scanner.tsx
 msgid "Point the camera at the barcode."
 msgstr ""
@@ -9268,6 +9361,10 @@ msgstr ""
 
 #: src/Security.tsx
 msgid "Remove “{name}”? It won't sign in to Ferret any more."
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Remove {album} from the list"
 msgstr ""
 
 #: src/Files.tsx
@@ -9769,6 +9866,10 @@ msgstr ""
 msgid "Saved the pairing code to {name}"
 msgstr ""
 
+#: src/MusicScan.tsx
+msgid "Saving {done} of {total}…"
+msgstr ""
+
 #: src/QuickAdd.tsx
 #: src/SpeakButton.tsx
 msgid "Say it"
@@ -9822,8 +9923,21 @@ msgstr ""
 msgid "Scan its QR code"
 msgstr ""
 
+#: src/MusicScan.tsx
+msgid "Scan more"
+msgstr ""
+
+#: src/MusicScan.tsx
+#: src/Nav.tsx
+msgid "Scan music"
+msgstr ""
+
 #: src/RoomScan.tsx
 msgid "Scan of {at}"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Scan the barcode on the back of each CD or record, one after another — the camera keeps going. Ferret looks each one up on MusicBrainz; check the list, then save them all. Nothing is added until you do."
 msgstr ""
 
 #: src/Pairing.tsx
@@ -9987,8 +10101,16 @@ msgstr ""
 msgid "See all"
 msgstr ""
 
+#: src/MusicScan.tsx
+msgid "See them"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "See them all"
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "See them there"
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
@@ -10607,6 +10729,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Start keeping track of everything you own."
+msgstr ""
+
+#: src/MusicScan.tsx
+msgid "Start scanning"
 msgstr ""
 
 #: src/Tracking.tsx
@@ -11559,6 +11685,7 @@ msgstr ""
 
 #: src/Ask.tsx
 #: src/Listing.tsx
+#: src/MusicScan.tsx
 #: src/Offline.tsx
 msgid "Try again"
 msgstr ""
@@ -12284,6 +12411,7 @@ msgstr ""
 msgid "Where {things} go"
 msgstr ""
 
+#: src/MusicScan.tsx
 #: src/ReceiptLines.tsx
 msgid "Where are they?"
 msgstr ""
@@ -12591,6 +12719,7 @@ msgid "You can disconnect it any time in Settings → Claude & API."
 msgstr ""
 
 #: src/Import.tsx
+#: src/MusicScan.tsx
 #: src/RoomScan.tsx
 #: src/Walkthrough.tsx
 msgid "You can look around, but not add things, in this household."
