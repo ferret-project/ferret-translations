@@ -6035,6 +6035,10 @@ msgstr "Doskonały"
 msgid "Excellent condition"
 msgstr "Stan doskonały"
 
+#: src/Server.tsx
+msgid "Exchange rates"
+msgstr ""
+
 #: src/Catalog.tsx
 msgid "Existing tags"
 msgstr "Istniejące tagi"
@@ -8910,7 +8914,9 @@ msgid "No price"
 msgstr "Bez miejsca"
 
 #: src/Cards.tsx
-msgid "No price for this finish in your currency."
+msgid ""
+"No price for this finish in your currency (the server admin can switch on "
+"exchange rates)."
 msgstr ""
 
 #: src/Overview.tsx
@@ -10576,6 +10582,12 @@ msgid "range or oven"
 msgstr "kuchenka lub piekarnik"
 
 #: src/Server.tsx
+#, fuzzy
+#| msgid "Bought from {date}"
+msgid "Rates from {date}."
+msgstr "Kupione od {date}"
+
+#: src/Server.tsx
 msgid "Re-index everything"
 msgstr "Zaindeksuj wszystko ponownie"
 
@@ -12061,6 +12073,15 @@ msgstr "Data sprzedaży"
 #: src/PayOff.tsx
 msgid "Some policies limit these."
 msgstr "Niektóre polisy je ograniczają."
+
+#: src/Server.tsx
+msgid ""
+"Some prices come in another currency: the online product database's are US "
+"dollars, card prices dollars or euros. With exchange rates on, they show in "
+"each household's own currency (marked ≈, the original beside it) and can be "
+"used as a thing's value. The European Central Bank's rates, fetched once a "
+"day from Frankfurter (frankfurter.dev) — nothing about anyone is sent."
+msgstr ""
 
 #: src/History.tsx src/Overview.tsx src/Shared.tsx
 msgid "Someone"
