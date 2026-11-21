@@ -393,6 +393,14 @@ msgstr ""
 "{0, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other {# "
 "dokumentu}}"
 
+#. placeholder {0}: c.editions
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# question} other {# questions}}"
+msgid "{0, plural, one {# edition} other {# editions}}"
+msgstr ""
+"{0, plural, one {# pytanie} few {# pytania} many {# pytań} other {# pytania}}"
+
 #. placeholder {0}: hook.events.length
 #: src/Webhooks.tsx
 msgid "{0, plural, one {# event} other {# events}}"
@@ -715,6 +723,16 @@ msgstr ""
 msgid "{0, plural, one {# season} other {# seasons}}"
 msgstr ""
 "{0, plural, one {# pytanie} few {# pytania} many {# pytań} other {# pytania}}"
+
+#. placeholder {0}: s.checked
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# brand checked} other {# brands checked}}"
+msgid ""
+"{0, plural, one {# serial number checked} other {# serial numbers checked}}"
+msgstr ""
+"{0, plural, one {Sprawdzono # markę} few {Sprawdzono # marki} many "
+"{Sprawdzono # marek} other {Sprawdzono # marki}}"
 
 #. placeholder {0}: sheets.length
 #: src/Labels.tsx
@@ -1250,6 +1268,14 @@ msgid ""
 msgstr ""
 "Do potwierdzenia: {count, plural, one {# sugestia AI} few {# sugestie AI} "
 "many {# sugestii AI} other {# sugestii AI}}"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{count, plural, one {a month} other {# months}}"
+msgid "{count, plural, one {# book} other {# books}}"
+msgstr ""
+"{count, plural, one {miesiąc} few {# miesiące} many {# miesięcy} other {# "
+"miesiąca}}"
 
 #: src/CollectibleScan.tsx
 #, fuzzy
@@ -1806,6 +1832,14 @@ msgid "{n, plural, one {# thing} other {# things}}"
 msgstr ""
 "{n, plural, one {# rzecz} few {# rzeczy} many {# rzeczy} other {# rzeczy}}"
 
+#: src/Graded.tsx
+msgid "{n} graded the same"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "{n} graded the same, {higher} higher"
+msgstr ""
+
 #: src/Language.tsx
 msgid "{name} ({percent}% translated)"
 msgstr "{name} (przetłumaczono w {percent}%)"
@@ -2069,6 +2103,10 @@ msgstr "Nowy klucz API"
 
 #: src/Collectibles.tsx
 msgid "{service} can't be reached right now."
+msgstr ""
+
+#: src/Graded.tsx
+msgid "{service} certificate {cert} — its details can't be fetched right now."
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -2626,12 +2664,23 @@ msgid ""
 "server. Only the barcode is sent."
 msgstr ""
 
+#: src/Bikes.tsx
+msgid "A bike with this serial number is reported stolen on Bike Index."
+msgstr ""
+
 #: src/Server.tsx
+#, fuzzy
+#| msgid ""
+#| "A book's barcode is its ISBN: scanned or saved, it's asked of Open "
+#| "Library (openlibrary.org) for the title, author and cover — each once for "
+#| "the whole server, free, and not counted against any lookup allowance. "
+#| "Only the ISBN is sent."
 msgid ""
 "A book's barcode is its ISBN: scanned or saved, it's asked of Open Library "
 "(openlibrary.org) for the title, author and cover — each once for the whole "
 "server, free, and not counted against any lookup allowance. Only the ISBN is "
-"sent."
+"sent. It also adds \"Books by title\" to + Add, for older books without a "
+"barcode (the words searched for are sent)."
 msgstr ""
 "Kod kreskowy książki to jej ISBN: po zeskanowaniu lub zapisaniu Ferret pyta "
 "Open Library (openlibrary.org) o tytuł, autora i okładkę — każdy raz dla "
@@ -2974,6 +3023,12 @@ msgstr "około {amount} rocznie"
 msgid "about {amount} to replace"
 msgstr "około {amount} za nową"
 
+#: src/Energy.tsx
+#, fuzzy
+#| msgid "about {amount} a year"
+msgid "About {cost} a year"
+msgstr "około {amount} rocznie"
+
 #: src/CollectibleScan.tsx
 #, fuzzy
 #| msgid "Not placed"
@@ -3230,6 +3285,12 @@ msgstr "Dodaj to jako nową rzecz"
 #: src/Reminders.tsx
 msgid "Add it to Apple Calendar on this Mac:"
 msgstr "Dodaj go do Kalendarza Apple na tym Macu:"
+
+#: src/Graded.tsx
+#, fuzzy
+#| msgid "Add a client certificate"
+msgid "Add its certificate"
+msgstr "Dodaj certyfikat klienta"
 
 #: src/Setup.tsx
 msgid "Add its rooms"
@@ -4056,6 +4117,10 @@ msgstr "dach z gontu bitumicznego"
 msgid "At"
 msgstr "W"
 
+#: src/Energy.tsx
+msgid "at {state}'s average home rate ({rate}¢ a kWh in {year})"
+msgstr ""
+
 #: src/Server.tsx
 msgid "at {time}"
 msgstr "o {time}"
@@ -4071,6 +4136,10 @@ msgstr "w prawym dolnym rogu"
 #: src/Install.tsx
 msgid "at the top right"
 msgstr "w prawym górnym rogu"
+
+#: src/Energy.tsx
+msgid "at the US average home rate ({rate}¢ a kWh in {year})"
+msgstr ""
 
 #: src/Paperless.tsx
 msgid "Attach"
@@ -4213,6 +4282,12 @@ msgstr "Przed pierwszymi przymrozkami"
 msgid "bicycle"
 msgstr "rower"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Book look-ups"
+msgid "Bike Index look-ups"
+msgstr "Wyszukiwanie książek"
+
 #: src/Labels.tsx
 msgid ""
 "Blank labels to stick on boxes as you pack. Scan one later and say what it "
@@ -4229,9 +4304,23 @@ msgstr "Puste etykiety QR"
 msgid "boiler"
 msgstr "kocioł"
 
+#: src/Collectibles.tsx
+msgid "Book"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Book look-ups"
 msgstr "Wyszukiwanie książek"
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Webhooks"
+msgid "Books"
+msgstr "Webhooki"
+
+#: src/Nav.tsx
+msgid "Books by title"
+msgstr ""
 
 #: src/Loans.tsx
 msgid "Borrowed"
@@ -4434,14 +4523,14 @@ msgstr "Nie można połączyć się z Ferret"
 
 #: src/Cards.tsx src/Catalog.tsx src/Claims.tsx src/Collections.tsx
 #: src/Connect.tsx src/DataExport.tsx src/DeleteForGood.tsx src/Duplicates.tsx
-#: src/Everything.tsx src/FromWeb.tsx src/Gone.tsx src/Household.tsx
-#: src/ItemEditor.tsx src/Loans.tsx src/Maintenance.tsx src/NewHousehold.tsx
-#: src/Notifications.tsx src/Pairing.tsx src/Paperless.tsx src/Parts.tsx
-#: src/PayOff.tsx src/PhotoCrop.tsx src/Places.tsx src/Prompts.tsx
-#: src/Providers.tsx src/ReceiptLines.tsx src/Repairs.tsx src/Security.tsx
-#: src/Server.tsx src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx
-#: src/Templates.tsx src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
-#: src/Webhooks.tsx
+#: src/Everything.tsx src/FromWeb.tsx src/Gone.tsx src/Graded.tsx
+#: src/Household.tsx src/ItemEditor.tsx src/Loans.tsx src/Maintenance.tsx
+#: src/NewHousehold.tsx src/Notifications.tsx src/Pairing.tsx src/Paperless.tsx
+#: src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx src/Places.tsx
+#: src/Prompts.tsx src/Providers.tsx src/ReceiptLines.tsx src/Repairs.tsx
+#: src/Security.tsx src/Server.tsx src/Settings.tsx src/Shares.tsx
+#: src/StarterTasks.tsx src/Templates.tsx src/Tracking.tsx src/Usage.tsx
+#: src/Warranties.tsx src/Webhooks.tsx
 msgid "Cancel"
 msgstr "Anuluj"
 
@@ -4537,6 +4626,12 @@ msgstr "Certyfikat „{name}” wkrótce wygaśnie"
 msgid "Certificate “{name}” has expired"
 msgstr "Certyfikat „{name}” wygasł"
 
+#: src/Graded.tsx
+#, fuzzy
+#| msgid "Certificates"
+msgid "Certificate number"
+msgstr "Certyfikaty"
+
 #: src/Server.tsx
 msgid "Certificates"
 msgstr "Certyfikaty"
@@ -4569,7 +4664,7 @@ msgstr "Zmień…"
 msgid "Changed in Home Assistant since the last import"
 msgstr "Zmienione w Home Assistant od ostatniego importu"
 
-#: src/Server.tsx
+#: src/Graded.tsx src/Server.tsx
 msgid "Check"
 msgstr "Sprawdź"
 
@@ -6027,9 +6122,23 @@ msgstr "Edytuj naprawę"
 msgid "edited"
 msgstr "edycja"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "API key"
+msgid "EIA API key"
+msgstr "Klucz API"
+
 #: src/Providers.tsx
 msgid "Electrician"
 msgstr "Elektryk"
+
+#: src/Server.tsx
+msgid ""
+"Electricity prices (optional, US): with a free key from the US Energy "
+"Information Administration (eia.gov/opendata), each card also says what that "
+"energy costs a year at the average home rate in the thing's state. Prices "
+"are fetched once a month; nothing about anyone is sent."
+msgstr ""
 
 #: src/PayOff.tsx
 msgid "Electronics"
@@ -6818,6 +6927,10 @@ msgstr "Firefoksa"
 msgid "First due"
 msgstr "Pierwszy termin"
 
+#: src/CollectibleScan.tsx
+msgid "First published {year}"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "First say what it counts — on its page, under Track miles / hours."
 msgstr ""
@@ -6868,6 +6981,13 @@ msgstr "Dla miejsca (opcjonalnie)"
 #: src/Maintenance.tsx
 msgid "For an item"
 msgstr "Dla rzeczy"
+
+#: src/CollectibleScan.tsx
+msgid ""
+"For books without a barcode — older ones printed before ISBNs: photograph "
+"the cover, spine or title page, or type the title and author. Books come "
+"from Open Library. (A book with a barcode is quicker scanned.)"
+msgstr ""
 
 #: src/Settings.tsx
 msgid "For Claude, or a script of your own"
@@ -6936,6 +7056,10 @@ msgstr ""
 "Dla rzeczy, których masz dużo tego samego rodzaju — monet, kart, lalek: "
 "szczegóły do uzupełnienia dla każdej (rok, stan…) oraz kategoria i tagi na "
 "start. Wybierz szablon przy dodawaniu lub edycji rzeczy."
+
+#: src/Graded.tsx
+msgid "Forget this certificate? The thing stays as it is."
+msgstr ""
 
 #: src/App.tsx
 msgid "Forgot it?"
@@ -7247,6 +7371,24 @@ msgstr "Branża"
 #| msgid "Trade"
 msgid "Grade…"
 msgstr "Branża"
+
+#: src/Graded.tsx
+#, fuzzy
+#| msgid "Trade"
+msgid "Graded"
+msgstr "Branża"
+
+#: src/Graded.tsx
+#, fuzzy
+#| msgid "Trade"
+msgid "Graded by"
+msgstr "Branża"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Add to Amazon cart"
+msgid "Graded coins and cards"
+msgstr "Dodaj do koszyka na Amazonie"
 
 #: src/lib/words.ts
 msgid "grill"
@@ -7645,6 +7787,16 @@ msgstr "W {name}"
 #: src/ItemEditor.tsx
 msgid "In a box"
 msgstr "W pudełku"
+
+#: src/Graded.tsx
+msgid ""
+"In a slab? Its certificate number gives the grade and how rare it is — and "
+"for a coin, PCGS's price guide."
+msgstr ""
+
+#: src/Graded.tsx
+msgid "In a slab? Its certificate number gives the grade and how rare it is."
+msgstr ""
 
 #: src/Settings.tsx
 msgid ""
@@ -9560,6 +9712,12 @@ msgstr "Nie znaleziono"
 msgid "Not found — you can name it in the list."
 msgstr ""
 
+#: src/Graded.tsx
+#, fuzzy
+#| msgid "Not recorded"
+msgid "Not graded"
+msgstr "Nie zapisano"
+
 #: src/Everything.tsx
 msgid "Not in 6 months"
 msgstr "Niewidziane od 6 miesięcy"
@@ -9623,6 +9781,10 @@ msgstr "Bez miejsca"
 #: src/Gone.tsx src/ItemEditor.tsx
 msgid "Not recorded"
 msgstr "Nie zapisano"
+
+#: src/Bikes.tsx
+msgid "Not reported stolen on Bike Index."
+msgstr ""
 
 #: src/Everything.tsx
 msgid "Not seen the longest"
@@ -10010,6 +10172,12 @@ msgstr "Często 200 $."
 msgid "OK"
 msgstr "OK"
 
+#: src/Nav.tsx
+msgid ""
+"Older books without a barcode, by title and author or a photo — from Open "
+"Library"
+msgstr ""
+
 #: src/Security.tsx src/Server.tsx src/Usage.tsx
 msgid "On"
 msgstr "Włączone"
@@ -10023,7 +10191,7 @@ msgstr "Przy: {0}"
 msgid "On {date} ({device}) — time to plan a replacement"
 msgstr ""
 
-#: src/Collectibles.tsx src/CollectibleScan.tsx
+#: src/Collectibles.tsx src/CollectibleScan.tsx src/Graded.tsx
 #, fuzzy
 #| msgid "Service"
 msgid "On {service}"
@@ -10032,6 +10200,22 @@ msgstr "Serwis"
 #: src/Videos.tsx
 msgid "On {thing}:"
 msgstr "Przy rzeczy {thing}:"
+
+#: src/Server.tsx
+msgid ""
+"On a bike's page, says whether a bike with its serial number is reported "
+"stolen on Bike Index (bikeindex.org, a non-profit registry) — worth knowing "
+"about one bought second-hand — with links to register it there, or report it "
+"once it's marked stolen. Free, no key. Only bikes' serial numbers are sent."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"On a coin's or card's page, its slab's certificate number is checked with "
+"PCGS (coins) or PSA (cards): the grade, how many are graded the same and "
+"higher, and PCGS's price guide value. Each needs a free key from an account "
+"there; only certificate numbers are sent."
+msgstr ""
 
 #: src/lib/origin.ts
 msgid "on a room walkthrough"
@@ -10570,6 +10754,26 @@ msgstr ""
 "Wstrzymane: nic nowego nie trafi do twojego kalendarza, dopóki twój plan "
 "znów nie będzie miał kalendarzy."
 
+#: src/Server.tsx
+msgid "PCGS (coins): sign in at pcgs.com/publicapi for its API token."
+msgstr ""
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "API token"
+msgid "PCGS API token"
+msgstr "Token API"
+
+#: src/Graded.tsx
+#, fuzzy
+#| msgid "Price paid"
+msgid "PCGS price guide"
+msgstr "Zapłacona cena"
+
+#: src/Graded.tsx
+msgid "PCGS price guide ({dollars})"
+msgstr ""
+
 #: src/PlanUsage.tsx
 msgid "People"
 msgstr "Osoby"
@@ -10609,6 +10813,12 @@ msgstr "Zdjęcie pomieszczenia {number}"
 #: src/RoomScan.tsx src/Walkthrough.tsx
 msgid "Photograph"
 msgstr "Fotografuj"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Photograph more"
+msgid "Photograph a book"
+msgstr "Fotografuj dalej"
 
 #: src/CollectibleScan.tsx
 #, fuzzy
@@ -11008,6 +11218,18 @@ msgstr "Gwarant (np. KitchenAid, RTV Euro AGD)"
 msgid "Providers"
 msgstr "Usługodawcy"
 
+#: src/Server.tsx
+msgid ""
+"PSA (cards): sign in at psacard.com/publicapi for its access token. PSA "
+"approves accounts for its API before the token works."
+msgstr ""
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Long-lived access token"
+msgid "PSA access token"
+msgstr "Token dostępu o długim okresie ważności"
+
 #: src/AiFill.tsx src/lib/words.ts
 msgid "Purchase date"
 msgstr "Data zakupu"
@@ -11311,6 +11533,10 @@ msgstr "Odśwież"
 msgid "refrigerator"
 msgstr "lodówka"
 
+#: src/Bikes.tsx
+msgid "Register it on Bike Index"
+msgstr ""
+
 #: src/ItemRow.tsx
 msgid "related"
 msgstr "powiązane"
@@ -11473,7 +11699,19 @@ msgid ""
 msgstr ""
 
 #: src/Server.tsx
+msgid "Remove the EIA key? The cards won't show what energy costs."
+msgstr ""
+
+#: src/Server.tsx
 msgid "Remove the Google Books key? Only Open Library will be asked."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove the PCGS key? Coins' certificates won't be checked."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove the PSA key? Cards' certificates won't be checked."
 msgstr ""
 
 #: src/Usage.tsx
@@ -11603,6 +11841,20 @@ msgstr "Koszt odkupienia"
 #: src/Repairs.tsx
 msgid "Replaces {name}"
 msgstr "Zastępuje: {name}"
+
+#: src/Bikes.tsx
+msgid ""
+"Report it on Bike Index too: bike shops, police and buyers check it, which "
+"is how stolen bikes come back."
+msgstr ""
+
+#: src/Bikes.tsx
+msgid "Report it stolen on Bike Index"
+msgstr ""
+
+#: src/Bikes.tsx
+msgid "Reported stolen on Bike Index."
+msgstr ""
 
 #: src/Prompts.tsx
 #, fuzzy
@@ -12147,6 +12399,12 @@ msgstr "gwarancja do {date}"
 #: src/Overview.tsx
 msgid "See all"
 msgstr "Zobacz wszystko"
+
+#: src/Bikes.tsx
+#, fuzzy
+#| msgid "See them all"
+msgid "See the report"
+msgstr "Zobacz je wszystkie"
 
 #: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 #, fuzzy
@@ -12906,6 +13164,12 @@ msgstr "Zapas"
 msgid "Stolen"
 msgstr "Skradzione"
 
+#: src/Bikes.tsx
+#, fuzzy
+#| msgid "Last sent {when}"
+msgid "stolen {when}"
+msgstr "Ostatnio wysłano {when}"
+
 #: src/Stock.tsx
 msgid "Stop counting with {label}"
 msgstr "Przestań liczyć kodem {label}"
@@ -13256,6 +13520,10 @@ msgstr "To właśnie {name}."
 #: src/MoveHere.tsx
 msgid "That's a place's label (or a blank one) — scan the things to move."
 msgstr "To etykieta miejsca (albo pusta) — zeskanuj rzeczy do przeniesienia."
+
+#: src/Graded.tsx
+msgid "That's it — save"
+msgstr ""
 
 #: src/ItemEditor.tsx
 msgid "That's this box's own label."
@@ -13877,6 +14145,10 @@ msgid "Title"
 msgstr "Tytuł"
 
 #: src/CollectibleScan.tsx
+msgid "Title and author, e.g. The Hobbit Tolkien"
+msgstr ""
+
+#: src/CollectibleScan.tsx
 msgid "Title, e.g. Breaking Bad season 2"
 msgstr ""
 
@@ -14197,7 +14469,7 @@ msgstr "Do "
 msgid "Until {formatDate}"
 msgstr "Do {formatDate}"
 
-#: src/Cards.tsx src/Collectibles.tsx
+#: src/Cards.tsx src/Collectibles.tsx src/Graded.tsx
 #, fuzzy
 #| msgid "No value or price"
 msgid "Update its value to {price}"
@@ -14278,7 +14550,7 @@ msgstr "Użyj {amount}"
 msgid "Use {amount} for {name}"
 msgstr "Użyj {amount} dla {name}"
 
-#: src/Cards.tsx src/Collectibles.tsx
+#: src/Cards.tsx src/Collectibles.tsx src/Graded.tsx
 msgid "Use {price} as its value"
 msgstr ""
 
