@@ -400,6 +400,19 @@ msgstr ""
 "{0, plural, one {# zdarzenie} few {# zdarzenia} many {# zdarzeń} other {# "
 "zdarzenia}}"
 
+#. placeholder {0}: s.fda
+#: src/Server.tsx
+#, fuzzy
+#| msgid ""
+#| "{0, plural, one {# vehicle recall kept} other {# vehicle recalls kept}}"
+msgid ""
+"{0, plural, one {# FDA food or medicine recall with a barcode kept.} other "
+"{# FDA food and medicine recalls with a barcode kept.}}"
+msgstr ""
+"{0, plural, one {Zapisano # wycofanie pojazdów} few {Zapisano # wycofania "
+"pojazdów} many {Zapisano # wycofań pojazdów} other {Zapisano # wycofania "
+"pojazdów}}"
+
 #. placeholder {0}: result.queued
 #: src/Everything.tsx
 msgid ""
@@ -762,6 +775,16 @@ msgstr ""
 "{0, plural, one {# rzecz w środku — sprawdzona razem z nim} few {# rzeczy w "
 "środku — sprawdzone razem z nim} many {# rzeczy w środku — sprawdzone razem "
 "z nim} other {# rzeczy w środku — sprawdzone razem z nim}}"
+
+#. placeholder {0}: s.kept
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# barcode lookup} other {# barcode lookups}}"
+msgid "{0, plural, one {# thing looked up} other {# things looked up}}"
+msgstr ""
+"{0, plural, one {# wyszukanie kodu kreskowego} few {# wyszukania kodów "
+"kreskowych} many {# wyszukań kodów kreskowych} other {# wyszukania kodów "
+"kreskowych}}"
 
 #. placeholder {0}: list.length
 #: src/AttentionBell.tsx
@@ -1144,6 +1167,10 @@ msgstr ""
 msgid "{0} — changed"
 msgstr "Zmieniono: {done}"
 
+#: src/Energy.tsx
+msgid "{afue}% efficient (AFUE)"
+msgstr ""
+
 #: src/Charts.tsx
 msgid "{amount} in a year"
 msgstr "{amount} w ciągu roku"
@@ -1259,6 +1286,14 @@ msgstr ""
 "{count, plural, one {miesiąc} few {# miesiące} many {# miesięcy} other {# "
 "miesiąca}}"
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# sheet} other {# sheets}}"
+msgid "{count, plural, one {# game} other {# games}}"
+msgstr ""
+"{0, plural, one {# arkusz} few {# arkusze} many {# arkuszy} other {# "
+"arkusza}}"
+
 #: ../server/src/jobs/remind.ts
 msgid ""
 "{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
@@ -1286,6 +1321,14 @@ msgid ""
 msgstr ""
 "{count, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
 "możliwych duplikatów} other {# możliwego duplikatu}}"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{count, plural, one {a month} other {# months}}"
+msgid "{count, plural, one {# record} other {# records}}"
+msgstr ""
+"{count, plural, one {miesiąc} few {# miesiące} many {# miesięcy} other {# "
+"miesiąca}}"
 
 #: src/CollectibleScan.tsx
 #, fuzzy
@@ -1665,6 +1708,10 @@ msgstr ""
 "{# wiersza jest już w Ferret z wcześniejszego importu tego pliku, więc są "
 "pominięte.}}"
 
+#: src/Energy.tsx
+msgid "{kwh} kWh a year"
+msgstr ""
+
 #: src/Install.tsx
 msgid "{label} (tap to hide)"
 msgstr "{label} (dotknij, aby ukryć)"
@@ -1878,6 +1925,10 @@ msgstr "{pct}% limitu"
 #: src/Collections.tsx
 msgid "{percent}% complete"
 msgstr "Ukończono w {percent}%"
+
+#: src/Energy.tsx
+msgid "{percent}% less than the US standard"
+msgstr ""
 
 #: src/Loans.tsx
 msgid "{person} asked for no more reminders"
@@ -3517,11 +3568,11 @@ msgstr "Dodaje i zmienia rzeczy, zaprasza ludzi i nimi zarządza"
 
 #: src/Server.tsx
 msgid ""
-"Adds LEGO sets, coins, comics, and movies and TV shows to + Add, looked up "
-"with their pictures and details — and coins' prices by grade. Each catalog "
-"needs a free key from an account there: paste it here and that catalog is "
-"on. Only the words people search for are sent; reading a photo uses this "
-"server's vision model and counts as an AI action."
+"Adds LEGO sets, coins, comics, movies and TV shows, video games, and records "
+"to + Add, looked up with their pictures and details — and coins' prices by "
+"grade. Each catalog needs a free key from an account there: paste it here "
+"and that catalog is on. Only the words people search for are sent; reading a "
+"photo uses this server's vision model and counts as an AI action."
 msgstr ""
 
 #: src/Household.tsx
@@ -3671,6 +3722,14 @@ msgstr "Odczytane też ze zdjęcia"
 #: src/Walkthrough.tsx
 msgid "Also read off the photo"
 msgstr "Odczytane też ze zdjęcia"
+
+#: src/Server.tsx
+msgid ""
+"Also the FDA's food and medicine recalls: this server fetches the last two "
+"years' reports once a day (nothing about anyone's things is sent) and "
+"matches them by barcode, so a can or a bottle of pills you scanned in is "
+"flagged if it's recalled."
+msgstr ""
 
 #: src/Shopping.tsx
 msgid "Amazon"
@@ -4131,6 +4190,10 @@ msgstr "Kod kreskowy"
 msgid "Barcode lookups"
 msgstr "Wyszukiwania kodów kreskowych"
 
+#: src/CollectibleScan.tsx
+msgid "Barcode, or artist and title"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "Barcodes nobody here has saved yet are asked of the online product database, "
@@ -4313,6 +4376,10 @@ msgstr ""
 msgid "By set number or name, or a photo of the box — from Rebrickable"
 msgstr ""
 
+#: src/Nav.tsx
+msgid "By title or a photo of the case, for the console you have — from IGDB"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "By use (miles, hours…)"
 msgstr "Według użycia (kilometry, godziny…)"
@@ -4473,6 +4540,12 @@ msgstr "Certyfikat „{name}” wygasł"
 #: src/Server.tsx
 msgid "Certificates"
 msgstr "Certyfikaty"
+
+#: src/Energy.tsx
+msgid ""
+"Certified as {brand} {model} — the asterisks stand for any letter (a colour "
+"or version)."
+msgstr ""
 
 #: src/Tracking.tsx src/Webhooks.tsx
 msgid "Change"
@@ -4815,7 +4888,9 @@ msgstr ""
 "i listą tych, których jeszcze szukasz."
 
 #: src/Cards.tsx
-msgid "Coins: Numista's estimates for their year, mint and grade."
+msgid ""
+"Coins: Numista's estimates for their year, mint and grade. Records: Discogs' "
+"suggested price for their condition, or the lowest for sale now."
 msgstr ""
 
 #: src/Nav.tsx
@@ -4868,8 +4943,15 @@ msgstr "Typowe zadania dla: {name}"
 msgid "Complete"
 msgstr "Kompletna"
 
-#: src/Duplicates.tsx src/Gone.tsx src/ItemEditor.tsx src/lib/words.ts
+#: src/Collectibles.tsx src/Duplicates.tsx src/Gone.tsx src/ItemEditor.tsx
+#: src/lib/words.ts
 msgid "Condition"
+msgstr "Stan"
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Condition"
+msgid "Condition…"
 msgstr "Stan"
 
 #: ../server/src/lib/email-verification.ts
@@ -5402,6 +5484,12 @@ msgstr "Odrzucić i niczego nie dodawać?"
 #: src/RoomScan.tsx
 msgid "Discard scan"
 msgstr "Odrzuć skan"
+
+#: src/Server.tsx
+msgid ""
+"Discogs: generate a personal access token. Prices for each condition also "
+"need the account's seller settings saved once."
+msgstr ""
 
 #: src/Paperless.tsx src/Settings.tsx
 msgid "Disconnect"
@@ -6030,6 +6118,10 @@ msgstr "Wkrótce się kończy"
 #: ../server/src/lib/attention.ts
 msgid "Ends today"
 msgstr "Kończy się dzisiaj"
+
+#: src/Server.tsx
+msgid "ENERGY STAR look-ups"
+msgstr ""
 
 #: src/Replacement.tsx
 msgid "Estimate"
@@ -7121,6 +7213,17 @@ msgstr "Dobry"
 msgid "Good condition"
 msgstr "Stan dobry"
 
+#: src/Server.tsx
+msgid ""
+"Google Books (optional): asked when Open Library doesn't know a book — "
+"better for recent and non-English ones. It needs a free API key from a "
+"Google Cloud project with the Books API enabled."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Google Books API key"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid "Google Calendar, Outlook or another calendar"
 msgstr "Kalendarz Google, Outlook lub inny kalendarz"
@@ -7471,6 +7574,12 @@ msgid ""
 msgstr ""
 "Jeśli to nie ty zakładasz konto w Ferret, zignoruj ten e-mail: konto "
 "zostanie usunięte po tygodniu."
+
+#: src/Server.tsx
+msgid ""
+"IGDB uses a Twitch app: paste its client ID and its secret, separated by a "
+"space."
+msgstr ""
 
 #: src/Import.tsx src/ImportCsv.tsx src/ImportHomeAssistant.tsx src/Nav.tsx
 #: src/Setup.tsx
@@ -8513,6 +8622,14 @@ msgstr "Zgubiłem(-am)"
 msgid "Lost your phone? Use a backup code"
 msgstr "Zgubiony telefon? Użyj kodu zapasowego"
 
+#: src/Collectibles.tsx
+msgid "lowest for sale on Discogs now"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "lowest of {n} for sale on Discogs now"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "made {date}"
 msgstr "utworzony {date}"
@@ -8735,6 +8852,10 @@ msgstr "miesięcy"
 #: src/Nav.tsx src/TabBar.tsx
 msgid "More"
 msgstr "Więcej"
+
+#: src/Energy.tsx
+msgid "Most efficient"
+msgstr ""
 
 #: src/Currency.tsx
 msgid "Most used"
@@ -9107,6 +9228,14 @@ msgstr ""
 
 #: src/CollectibleScan.tsx
 msgid "No coins found. Try fewer words, another year, or pick the country."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "No copies for sale on Discogs right now"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "No copies for sale on Discogs right now."
 msgstr ""
 
 #: src/ItemPage.tsx src/ItemRow.tsx
@@ -9916,6 +10045,10 @@ msgstr ""
 "Na stronie rzeczy: Edytuj → „Przypada (spadkobierca)” — wtedy pojawi się "
 "tutaj pod tą osobą."
 
+#: src/Energy.tsx
+msgid "On ENERGY STAR"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "On for this device: one notification a day when maintenance is due or a "
@@ -10521,6 +10654,12 @@ msgid "Photograph a room's things, then name them"
 msgstr "Fotografuj rzeczy w pomieszczeniu, a potem je nazwij"
 
 #: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Photograph more"
+msgid "Photograph a sleeve"
+msgstr "Fotografuj dalej"
+
+#: src/CollectibleScan.tsx
 msgid ""
 "Photograph each box (or its instructions) so the set number shows, or type "
 "the number or name. Sets come from Rebrickable."
@@ -10541,6 +10680,12 @@ msgstr ""
 
 #: src/CollectibleScan.tsx
 msgid ""
+"Photograph each case, or type the title. Games come from IGDB; choose the "
+"console each one is for."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
 "Photograph each coin, or type its country, year and name. Coins come from "
 "Numista, with an estimate for each year and grade."
 msgstr ""
@@ -10549,6 +10694,13 @@ msgstr ""
 msgid ""
 "Photograph each cover, or type the series and issue number. Comics come from "
 "Comic Vine."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each sleeve or case (the back, with its catalogue number, finds "
+"the exact pressing best), or type its barcode, or the artist and title. "
+"Records come from Discogs."
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -10664,6 +10816,14 @@ msgstr "Zwykły papier — 6 na stronę, wytnij i przyklej taśmą"
 #: src/PlanUsage.tsx
 msgid "Plan & usage"
 msgstr "Plan i użycie"
+
+#: src/CollectibleScan.tsx
+msgid "Platform"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Platform…"
+msgstr ""
 
 #: src/Providers.tsx
 msgid "Plumber"
@@ -11135,6 +11295,14 @@ msgstr "Ostatnio zmienione"
 msgid "Recently deleted"
 msgstr "Ostatnio usunięte"
 
+#: src/Collectibles.tsx
+msgid "Record"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Records & CDs"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Refresh"
 msgstr "Odśwież"
@@ -11302,6 +11470,10 @@ msgstr "Usuń kod {kind} dla {title}"
 msgid ""
 "Remove the {service} key? People won't be able to look things up there until "
 "a key is saved again."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove the Google Books key? Only Open Library will be asked."
 msgstr ""
 
 #: src/Usage.tsx
@@ -12303,6 +12475,15 @@ msgstr "Pokazuj całe zdjęcia, nie przycięte"
 msgid "Showing whole photos — tap to crop them square"
 msgstr "Pokazuję całe zdjęcia — dotknij, aby przyciąć je do kwadratu"
 
+#: src/Server.tsx
+msgid ""
+"Shows an appliance's certified energy use on its page — a fridge's, "
+"washer's, furnace's or TV's kWh a year and how it compares with the US "
+"standard — from ENERGY STAR's list of certified products "
+"(data.energystar.gov). Free, no key. A thing's brand and model number (or "
+"its barcode) are sent, once for the whole server; nothing else is."
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "Shut off and drain outdoor faucets"
 msgstr "Zakręć i opróżnij zewnętrzne krany"
@@ -12780,6 +12961,10 @@ msgstr "Zaproponuj typową konserwację moich rzeczy"
 msgid "Suggested maintenance"
 msgstr "Proponowana konserwacja"
 
+#: src/Collectibles.tsx
+msgid "suggested on Discogs for {condition}"
+msgstr ""
+
 #: src/AttentionBell.tsx
 msgid "Suggestion"
 msgstr "Sugestia"
@@ -13135,6 +13320,12 @@ msgstr ""
 "Dokument trafia do nowej rzeczy, a Ferret odczytuje z niego szczegóły (cenę, "
 "datę, model…), by je zaproponować."
 
+#: src/Nav.tsx
+msgid ""
+"The exact pressing by barcode, sleeve photo or name, with prices by "
+"condition — from Discogs"
+msgstr ""
+
 #: src/FileThumb.tsx
 msgid "the file"
 msgstr "plik"
@@ -13293,6 +13484,10 @@ msgstr "ta rzecz"
 #: src/App.tsx
 msgid "The two passwords don't match"
 msgstr "Hasła nie są takie same"
+
+#: src/Energy.tsx
+msgid "the US standard allows {kwh}"
+msgstr ""
 
 #: src/Maintenance.tsx src/StarterTasks.tsx
 msgid "The whole household"
@@ -13683,6 +13878,10 @@ msgstr "Tytuł"
 
 #: src/CollectibleScan.tsx
 msgid "Title, e.g. Breaking Bad season 2"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Title, e.g. Mario Kart 8 Deluxe"
 msgstr ""
 
 #: src/Everything.tsx
@@ -14129,6 +14328,12 @@ msgstr "Użyj jako zdjęcia głównego, bez przycinania"
 msgid "Use crop"
 msgstr "Użyj przycięcia"
 
+#: src/CollectibleScan.tsx
+msgid ""
+"Use Discogs' price as each record's value (for its condition, or the lowest "
+"for sale now)"
+msgstr ""
+
 #: src/Boxes.tsx
 msgid "Use it"
 msgstr "Użyj jej"
@@ -14265,6 +14470,14 @@ msgstr ""
 
 #: src/Collectibles.tsx
 msgid "Very good (VG)"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Video game"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Video games"
 msgstr ""
 
 #: src/Collections.tsx

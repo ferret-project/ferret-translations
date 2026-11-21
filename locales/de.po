@@ -350,6 +350,13 @@ msgstr ""
 msgid "{0, plural, one {# event} other {# events}}"
 msgstr ""
 
+#. placeholder {0}: s.fda
+#: src/Server.tsx
+msgid ""
+"{0, plural, one {# FDA food or medicine recall with a barcode kept.} other "
+"{# FDA food and medicine recalls with a barcode kept.}}"
+msgstr ""
+
 #. placeholder {0}: result.queued
 #: src/Everything.tsx
 msgid ""
@@ -596,6 +603,11 @@ msgstr ""
 msgid ""
 "{0, plural, one {# thing inside — checked with it} other {# things inside — "
 "checked with it}}"
+msgstr ""
+
+#. placeholder {0}: s.kept
+#: src/Server.tsx
+msgid "{0, plural, one {# thing looked up} other {# things looked up}}"
 msgstr ""
 
 #. placeholder {0}: list.length
@@ -860,6 +872,10 @@ msgstr ""
 msgid "{0} — changed"
 msgstr ""
 
+#: src/Energy.tsx
+msgid "{afue}% efficient (AFUE)"
+msgstr ""
+
 #: src/Charts.tsx
 msgid "{amount} in a year"
 msgstr ""
@@ -944,6 +960,10 @@ msgstr ""
 msgid "{count, plural, one {# film or show} other {# films and shows}}"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "{count, plural, one {# game} other {# games}}"
+msgstr ""
+
 #: ../server/src/jobs/remind.ts
 msgid ""
 "{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
@@ -961,6 +981,10 @@ msgstr ""
 #: ../server/src/lib/attention.ts
 msgid ""
 "{count, plural, one {# possible duplicate} other {# possible duplicates}}"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "{count, plural, one {# record} other {# records}}"
 msgstr ""
 
 #: src/CollectibleScan.tsx
@@ -1268,6 +1292,10 @@ msgid ""
 "an earlier import of this file, so they're left out.}}"
 msgstr ""
 
+#: src/Energy.tsx
+msgid "{kwh} kWh a year"
+msgstr ""
+
 #: src/Install.tsx
 msgid "{label} (tap to hide)"
 msgstr ""
@@ -1458,6 +1486,10 @@ msgstr ""
 
 #: src/Collections.tsx
 msgid "{percent}% complete"
+msgstr ""
+
+#: src/Energy.tsx
+msgid "{percent}% less than the US standard"
 msgstr ""
 
 #: src/Loans.tsx
@@ -2941,11 +2973,11 @@ msgstr ""
 
 #: src/Server.tsx
 msgid ""
-"Adds LEGO sets, coins, comics, and movies and TV shows to + Add, looked up "
-"with their pictures and details — and coins' prices by grade. Each catalog "
-"needs a free key from an account there: paste it here and that catalog is "
-"on. Only the words people search for are sent; reading a photo uses this "
-"server's vision model and counts as an AI action."
+"Adds LEGO sets, coins, comics, movies and TV shows, video games, and records "
+"to + Add, looked up with their pictures and details — and coins' prices by "
+"grade. Each catalog needs a free key from an account there: paste it here "
+"and that catalog is on. Only the words people search for are sent; reading a "
+"photo uses this server's vision model and counts as an AI action."
 msgstr ""
 
 #: src/Household.tsx
@@ -3086,6 +3118,14 @@ msgstr ""
 
 #: src/Walkthrough.tsx
 msgid "Also read off the photo"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Also the FDA's food and medicine recalls: this server fetches the last two "
+"years' reports once a day (nothing about anyone's things is sent) and "
+"matches them by barcode, so a can or a bottle of pills you scanned in is "
+"flagged if it's recalled."
 msgstr ""
 
 #: src/Shopping.tsx
@@ -3518,6 +3558,10 @@ msgstr ""
 msgid "Barcode lookups"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Barcode, or artist and title"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "Barcodes nobody here has saved yet are asked of the online product database, "
@@ -3692,6 +3736,10 @@ msgstr ""
 msgid "By set number or name, or a photo of the box — from Rebrickable"
 msgstr ""
 
+#: src/Nav.tsx
+msgid "By title or a photo of the case, for the console you have — from IGDB"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "By use (miles, hours…)"
 msgstr ""
@@ -3841,6 +3889,12 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Certificates"
+msgstr ""
+
+#: src/Energy.tsx
+msgid ""
+"Certified as {brand} {model} — the asterisks stand for any letter (a colour "
+"or version)."
 msgstr ""
 
 #: src/Tracking.tsx src/Webhooks.tsx
@@ -4167,7 +4221,9 @@ msgid ""
 msgstr ""
 
 #: src/Cards.tsx
-msgid "Coins: Numista's estimates for their year, mint and grade."
+msgid ""
+"Coins: Numista's estimates for their year, mint and grade. Records: Discogs' "
+"suggested price for their condition, or the lowest for sale now."
 msgstr ""
 
 #: src/Nav.tsx
@@ -4218,8 +4274,13 @@ msgstr ""
 msgid "Complete"
 msgstr ""
 
-#: src/Duplicates.tsx src/Gone.tsx src/ItemEditor.tsx src/lib/words.ts
+#: src/Collectibles.tsx src/Duplicates.tsx src/Gone.tsx src/ItemEditor.tsx
+#: src/lib/words.ts
 msgid "Condition"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Condition…"
 msgstr ""
 
 #: ../server/src/lib/email-verification.ts
@@ -4727,6 +4788,12 @@ msgstr ""
 
 #: src/RoomScan.tsx
 msgid "Discard scan"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Discogs: generate a personal access token. Prices for each condition also "
+"need the account's seller settings saved once."
 msgstr ""
 
 #: src/Paperless.tsx src/Settings.tsx
@@ -5317,6 +5384,10 @@ msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "Ends today"
+msgstr ""
+
+#: src/Server.tsx
+msgid "ENERGY STAR look-ups"
 msgstr ""
 
 #: src/Replacement.tsx
@@ -6298,6 +6369,17 @@ msgstr ""
 msgid "Good condition"
 msgstr ""
 
+#: src/Server.tsx
+msgid ""
+"Google Books (optional): asked when Open Library doesn't know a book — "
+"better for recent and non-English ones. It needs a free API key from a "
+"Google Cloud project with the Books API enabled."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Google Books API key"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid "Google Calendar, Outlook or another calendar"
 msgstr ""
@@ -6613,6 +6695,12 @@ msgstr ""
 msgid ""
 "If you didn't sign up for Ferret, ignore this email: the account is removed "
 "in a week."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"IGDB uses a Twitch app: paste its client ID and its secret, separated by a "
+"space."
 msgstr ""
 
 #: src/Import.tsx src/ImportCsv.tsx src/ImportHomeAssistant.tsx src/Nav.tsx
@@ -7571,6 +7659,14 @@ msgstr ""
 msgid "Lost your phone? Use a backup code"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "lowest for sale on Discogs now"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "lowest of {n} for sale on Discogs now"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "made {date}"
 msgstr ""
@@ -7786,6 +7882,10 @@ msgstr ""
 
 #: src/Nav.tsx src/TabBar.tsx
 msgid "More"
+msgstr ""
+
+#: src/Energy.tsx
+msgid "Most efficient"
 msgstr ""
 
 #: src/Currency.tsx
@@ -8132,6 +8232,14 @@ msgstr ""
 
 #: src/CollectibleScan.tsx
 msgid "No coins found. Try fewer words, another year, or pick the country."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "No copies for sale on Discogs right now"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "No copies for sale on Discogs right now."
 msgstr ""
 
 #: src/ItemPage.tsx src/ItemRow.tsx
@@ -8897,6 +9005,10 @@ msgid ""
 "that person."
 msgstr ""
 
+#: src/Energy.tsx
+msgid "On ENERGY STAR"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "On for this device: one notification a day when maintenance is due or a "
@@ -9459,6 +9571,10 @@ msgid "Photograph a room's things, then name them"
 msgstr ""
 
 #: src/CollectibleScan.tsx
+msgid "Photograph a sleeve"
+msgstr ""
+
+#: src/CollectibleScan.tsx
 msgid ""
 "Photograph each box (or its instructions) so the set number shows, or type "
 "the number or name. Sets come from Rebrickable."
@@ -9479,6 +9595,12 @@ msgstr ""
 
 #: src/CollectibleScan.tsx
 msgid ""
+"Photograph each case, or type the title. Games come from IGDB; choose the "
+"console each one is for."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
 "Photograph each coin, or type its country, year and name. Coins come from "
 "Numista, with an estimate for each year and grade."
 msgstr ""
@@ -9487,6 +9609,13 @@ msgstr ""
 msgid ""
 "Photograph each cover, or type the series and issue number. Comics come from "
 "Comic Vine."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each sleeve or case (the back, with its catalogue number, finds "
+"the exact pressing best), or type its barcode, or the artist and title. "
+"Records come from Discogs."
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -9587,6 +9716,14 @@ msgstr ""
 
 #: src/PlanUsage.tsx
 msgid "Plan & usage"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Platform"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Platform…"
 msgstr ""
 
 #: src/Providers.tsx
@@ -10032,6 +10169,14 @@ msgstr ""
 msgid "Recently deleted"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Record"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Records & CDs"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "Refresh"
 msgstr ""
@@ -10193,6 +10338,10 @@ msgstr ""
 msgid ""
 "Remove the {service} key? People won't be able to look things up there until "
 "a key is saved again."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove the Google Books key? Only Open Library will be asked."
 msgstr ""
 
 #: src/Usage.tsx
@@ -11149,6 +11298,15 @@ msgstr ""
 msgid "Showing whole photos — tap to crop them square"
 msgstr ""
 
+#: src/Server.tsx
+msgid ""
+"Shows an appliance's certified energy use on its page — a fridge's, "
+"washer's, furnace's or TV's kWh a year and how it compares with the US "
+"standard — from ENERGY STAR's list of certified products "
+"(data.energystar.gov). Free, no key. A thing's brand and model number (or "
+"its barcode) are sent, once for the whole server; nothing else is."
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "Shut off and drain outdoor faucets"
 msgstr ""
@@ -11593,6 +11751,10 @@ msgstr ""
 msgid "Suggested maintenance"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "suggested on Discogs for {condition}"
+msgstr ""
+
 #: src/AttentionBell.tsx
 msgid "Suggestion"
 msgstr ""
@@ -11928,6 +12090,12 @@ msgid ""
 "(price, date, model…) to suggest."
 msgstr ""
 
+#: src/Nav.tsx
+msgid ""
+"The exact pressing by barcode, sleeve photo or name, with prices by "
+"condition — from Discogs"
+msgstr ""
+
 #: src/FileThumb.tsx
 msgid "the file"
 msgstr ""
@@ -12066,6 +12234,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "The two passwords don't match"
+msgstr ""
+
+#: src/Energy.tsx
+msgid "the US standard allows {kwh}"
 msgstr ""
 
 #: src/Maintenance.tsx src/StarterTasks.tsx
@@ -12403,6 +12575,10 @@ msgstr ""
 
 #: src/CollectibleScan.tsx
 msgid "Title, e.g. Breaking Bad season 2"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Title, e.g. Mario Kart 8 Deluxe"
 msgstr ""
 
 #: src/Everything.tsx
@@ -12829,6 +13005,12 @@ msgstr ""
 msgid "Use crop"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid ""
+"Use Discogs' price as each record's value (for its condition, or the lowest "
+"for sale now)"
+msgstr ""
+
 #: src/Boxes.tsx
 msgid "Use it"
 msgstr ""
@@ -12963,6 +13145,14 @@ msgstr ""
 
 #: src/Collectibles.tsx
 msgid "Very good (VG)"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Video game"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Video games"
 msgstr ""
 
 #: src/Collections.tsx
