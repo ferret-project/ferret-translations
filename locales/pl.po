@@ -862,6 +862,15 @@ msgstr "{0, plural, one {# próba} few {# próby} many {# prób} other {# próby
 
 #. placeholder {0}: s.vehicles
 #: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# vehicle read} other {# vehicles read}}"
+msgid "{0, plural, one {# vehicle confirmed} other {# vehicles confirmed}}"
+msgstr ""
+"{0, plural, one {Odczytano # pojazd} few {Odczytano # pojazdy} many "
+"{Odczytano # pojazdów} other {Odczytano # pojazdu}}"
+
+#. placeholder {0}: s.vehicles
+#: src/Server.tsx
 msgid "{0, plural, one {# vehicle read} other {# vehicles read}}"
 msgstr ""
 "{0, plural, one {Odczytano # pojazd} few {Odczytano # pojazdy} many "
@@ -1253,6 +1262,10 @@ msgstr ""
 #: src/Labels.tsx
 msgid "{children}<0>Back to Ferret</0>"
 msgstr "{children}<0>Wróć do Ferret</0>"
+
+#: src/FuelEconomy.tsx
+msgid "{city} city"
+msgstr ""
 
 #: src/Search.tsx
 msgid "{COMMAND_K} or / to search"
@@ -1681,6 +1694,22 @@ msgstr "{floor} (nowa nieruchomość)"
 msgid "{format} of {format2}"
 msgstr "{format} z {format2}"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid " of {total}"
+msgid "{free} free of {total}"
+msgstr " z {total}"
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"{free} free of {total} on the disk with {holds} — free some space, or move "
+"them to a bigger disk."
+msgstr ""
+
+#: src/FuelEconomy.tsx
+msgid "{highway} highway"
+msgstr ""
+
 #: ../server/src/lib/attention.ts src/Server.tsx
 msgid "{hours} h ago"
 msgstr "{hours} godz. temu"
@@ -1738,6 +1767,10 @@ msgstr ""
 msgid "{kwh} kWh a year"
 msgstr ""
 
+#: src/FuelEconomy.tsx
+msgid "{kwh} kWh per 100 miles"
+msgstr ""
+
 #: src/Install.tsx
 msgid "{label} (tap to hide)"
 msgstr "{label} (dotknij, aby ukryć)"
@@ -1777,6 +1810,10 @@ msgstr "{length} ({provider}) — do {endsOn}"
 #: src/Loans.tsx
 msgid "{line} · due back {date}"
 msgstr "{line} · zwrot do {date}"
+
+#: src/FuelEconomy.tsx
+msgid "{litres} L/100 km"
+msgstr ""
 
 #: src/Overview.tsx
 msgid "{low} running low"
@@ -2037,6 +2074,10 @@ msgstr ""
 "other {Zapytano o # rzeczy — ich wyceny pojawią się w Do potwierdzenia w "
 "ciągu kilku minut.}}"
 
+#: src/FuelEconomy.tsx
+msgid "{range} miles of range"
+msgstr ""
+
 #: ../server/src/lib/attention.ts
 msgid "{recall} — check the model"
 msgstr "{recall} — sprawdź model"
@@ -2206,6 +2247,12 @@ msgstr ""
 
 #: src/Demo.tsx
 msgid "{used} of {included}"
+msgstr "{used} z {included}"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{used} of {included}"
+msgid "{used}% used"
 msgstr "{used} z {included}"
 
 #: src/lib/last-scanned.ts
@@ -2708,6 +2755,12 @@ msgstr ""
 msgid "A device's security updates stop within 90 days"
 msgstr ""
 
+#: src/Server.tsx
+msgid ""
+"A disk Ferret writes to is nearly full — when it fills, uploads, the "
+"database and backups stop."
+msgstr ""
+
 #: src/Listing.tsx
 msgid ""
 "A draft from the AI — check it against the thing itself and change what's "
@@ -3027,6 +3080,12 @@ msgstr "około {amount} za nową"
 #, fuzzy
 #| msgid "about {amount} a year"
 msgid "About {cost} a year"
+msgstr "około {amount} rocznie"
+
+#: src/FuelEconomy.tsx
+#, fuzzy
+#| msgid "about {amount} a year"
+msgid "About {cost} a year in fuel"
 msgstr "około {amount} rocznie"
 
 #: src/CollectibleScan.tsx
@@ -4117,8 +4176,20 @@ msgstr "dach z gontu bitumicznego"
 msgid "At"
 msgstr "W"
 
+#: src/FuelEconomy.tsx
+msgid ""
+"at {state}'s average home electricity rate ({price} a kWh in {year}), for "
+"{miles} miles a year"
+msgstr ""
+
 #: src/Energy.tsx
 msgid "at {state}'s average home rate ({rate}¢ a kWh in {year})"
+msgstr ""
+
+#: src/FuelEconomy.tsx
+msgid ""
+"at {state}'s average price the week of {week} ({price} a gallon), for "
+"{miles} miles a year"
 msgstr ""
 
 #: src/Server.tsx
@@ -4129,6 +4200,12 @@ msgstr "o {time}"
 msgid "at a time"
 msgstr "naraz"
 
+#: src/FuelEconomy.tsx
+msgid ""
+"at the average price in {state}'s region the week of {week} ({price} a "
+"gallon), for {miles} miles a year"
+msgstr ""
+
 #: src/Install.tsx
 msgid "at the bottom right"
 msgstr "w prawym dolnym rogu"
@@ -4137,8 +4214,20 @@ msgstr "w prawym dolnym rogu"
 msgid "at the top right"
 msgstr "w prawym górnym rogu"
 
+#: src/FuelEconomy.tsx
+msgid ""
+"at the US average home electricity rate ({price} a kWh in {year}), for "
+"{miles} miles a year"
+msgstr ""
+
 #: src/Energy.tsx
 msgid "at the US average home rate ({rate}¢ a kWh in {year})"
+msgstr ""
+
+#: src/FuelEconomy.tsx
+msgid ""
+"at the US average price the week of {week} ({price} a gallon), for {miles} "
+"miles a year"
 msgstr ""
 
 #: src/Paperless.tsx
@@ -4237,6 +4326,12 @@ msgstr "Kod zapasowy"
 #: ../server/src/lib/attention.ts
 msgid "Backup failed"
 msgstr "Kopia zapasowa się nie udała"
+
+#: ../server/src/lib/attention.ts
+#, fuzzy
+#| msgid "Backups"
+msgid "backups"
+msgstr "Kopie zapasowe"
 
 #: ../server/src/lib/digest.ts src/Server.tsx
 msgid "Backups"
@@ -5401,6 +5496,12 @@ msgstr "Cykle (prania, użycia)"
 msgid "Dark"
 msgstr "Ciemny"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Done {date}"
+msgid "Database"
+msgstr "Zrobione {date}"
+
 #: src/Gone.tsx src/Heirs.tsx
 msgid "Date"
 msgstr "Data"
@@ -5605,6 +5706,10 @@ msgstr "Odłącz…"
 #: src/lib/words.ts
 msgid "dishwasher"
 msgstr "zmywarka"
+
+#: src/Server.tsx
+msgid "Disk space"
+msgstr ""
 
 #: src/Everything.tsx src/FromWeb.tsx src/ItemPage.tsx src/Offline.tsx
 #: src/Paperless.tsx src/Places.tsx src/Product.tsx src/RoomScan.tsx
@@ -6232,6 +6337,16 @@ msgstr "Kończy się dzisiaj"
 msgid "ENERGY STAR look-ups"
 msgstr ""
 
+#: src/FuelEconomy.tsx
+msgid "EPA's estimate at US average prices, for {miles} miles a year"
+msgstr ""
+
+#: src/FuelEconomy.tsx
+msgid ""
+"EPA's figures for the {year} {make} {entry} — what you get depends on how "
+"and where you drive."
+msgstr ""
+
 #: src/Replacement.tsx
 msgid "Estimate"
 msgstr "Oszacuj"
@@ -6548,6 +6663,10 @@ msgstr "Ulubione"
 msgid "Ferret"
 msgstr "Ferret"
 
+#: ../server/src/lib/attention.ts src/Server.tsx
+msgid "Ferret {version} is out"
+msgstr ""
+
 #: src/Security.tsx
 msgid "Ferret backup codes ({host}) — each works once"
 msgstr "Kody zapasowe Ferret ({host}) — każdy działa tylko raz"
@@ -6723,6 +6842,10 @@ msgstr "Eksport z Ferret"
 #: src/ImportCsv.tsx
 msgid "Ferret's own export"
 msgstr "Eksport z Ferret"
+
+#: src/Server.tsx
+msgid "Fetching this week's fuel prices from the EIA…"
+msgstr ""
 
 #: src/Usage.tsx
 msgid "Fewer"
@@ -7213,6 +7336,17 @@ msgstr "Z numeru VIN"
 #: src/Shopping.tsx
 msgid "From what each cost last time, where it's known."
 msgstr "Według tego, ile każda kosztowała ostatnio, tam gdzie wiadomo."
+
+#: src/FuelEconomy.tsx src/Server.tsx
+msgid "Fuel economy"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Fuel is priced at this week's average in the vehicle's state or region (the "
+"EIA's, the week of {week}); an electric car at its state's home electricity "
+"rate."
+msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Full screen"
@@ -8699,6 +8833,10 @@ msgstr ""
 "To zawsze jedna osoba — możesz przekazać tę rolę komuś innemu, kto ma tu "
 "konto."
 
+#: src/ItemPage.tsx
+msgid "Look for its manual on archive.org"
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "Look up"
 msgstr "Sprawdź"
@@ -8709,6 +8847,10 @@ msgid ""
 msgstr ""
 "Sprawdzono {checked} z {total} plików i odszyfrowano {decrypted} · {seconds} "
 "s"
+
+#: src/FuelEconomy.tsx
+msgid "Looking it up on fueleconomy.gov…"
+msgstr ""
 
 #: src/Ask.tsx
 msgid "Looking through your things…"
@@ -9066,6 +9208,14 @@ msgstr ""
 #: src/MoveHere.tsx
 msgid "Moving things to {name}"
 msgstr "Przenoszenie rzeczy do: {name}"
+
+#: src/FuelEconomy.tsx
+msgid "mpg combined"
+msgstr ""
+
+#: src/FuelEconomy.tsx
+msgid "MPGe combined"
+msgstr ""
 
 #: src/Server.tsx
 #, fuzzy
@@ -9613,6 +9763,12 @@ msgstr "Nie ma już czego brać"
 msgid "None of them has a tag."
 msgstr "Żadna z nich nie ma tagu."
 
+#: src/FuelEconomy.tsx
+#, fuzzy
+#| msgid "Not these"
+msgid "None of these"
+msgstr "Nie te"
+
 #: src/Security.tsx
 msgid "None recorded yet — sign-ins are kept from now on."
 msgstr "Na razie nic nie zapisano — od teraz logowania są zapisywane."
@@ -9821,6 +9977,12 @@ msgstr "Nie to"
 #: src/ToConfirm.tsx
 msgid "Not this estimate for {name}"
 msgstr "Nie ta wycena dla {name}"
+
+#: src/FuelEconomy.tsx
+#, fuzzy
+#| msgid "Not this"
+msgid "Not this one?"
+msgstr "Nie to"
 
 #: src/Import.tsx
 msgid "Not what you wanted? Undo it under Import → Recent imports."
@@ -10240,6 +10402,10 @@ msgid ""
 msgstr ""
 "Włączone na tym urządzeniu: jedno powiadomienie dziennie, gdy przypada "
 "konserwacja albo w ciągu tygodnia kończy się gwarancja."
+
+#: src/FuelEconomy.tsx
+msgid "On fueleconomy.gov"
+msgstr ""
 
 #: src/Reminders.tsx
 msgid ""
@@ -10920,6 +11086,18 @@ msgstr "Fotografuj dalej"
 #: src/Collections.tsx src/Heirs.tsx src/ItemPage.tsx src/PhotoViewer.tsx
 msgid "Photos"
 msgstr "Zdjęcia"
+
+#: ../server/src/lib/attention.ts
+#, fuzzy
+#| msgid "Add photos and documents"
+msgid "photos and documents"
+msgstr "Dodaj zdjęcia i dokumenty"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Add photos and documents"
+msgid "Photos and documents"
+msgstr "Dodaj zdjęcia i dokumenty"
 
 #: src/PlanUsage.tsx
 msgid "Photos and files"
@@ -12080,6 +12258,10 @@ msgstr "Kończy się: {list}"
 msgid "Safari's"
 msgstr "Safari"
 
+#: src/FuelEconomy.tsx
+msgid "Same engine as the VIN"
+msgstr ""
+
 #: src/Catalog.tsx src/Claims.tsx src/Collections.tsx src/Everything.tsx
 #: src/Household.tsx src/ItemEditor.tsx src/Loans.tsx src/Maintenance.tsx
 #: src/Paperless.tsx src/PayOff.tsx src/Places.tsx src/Prompts.tsx
@@ -12732,6 +12914,14 @@ msgstr "Pokazuj całe zdjęcia, nie przycięte"
 #: src/Collections.tsx
 msgid "Showing whole photos — tap to crop them square"
 msgstr "Pokazuję całe zdjęcia — dotknij, aby przyciąć je do kwadratu"
+
+#: src/Server.tsx
+msgid ""
+"Shows a vehicle's EPA miles per gallon on its page, and what a year's fuel "
+"costs, from fueleconomy.gov (free, no key). Someone confirms which of its "
+"entries the vehicle is — the one with the VIN's engine comes first. A "
+"decoded vehicle's make, model and year are sent; nothing else is."
+msgstr ""
 
 #: src/Server.tsx
 msgid ""
@@ -13557,6 +13747,12 @@ msgstr ""
 msgid "The counts are being kept, but can’t be read back from here."
 msgstr "Liczniki są zapisywane, ale nie da się ich stąd odczytać."
 
+#: ../server/src/lib/attention.ts
+#, fuzzy
+#| msgid "Done {date}"
+msgid "the database"
+msgstr "Zrobione {date}"
+
 #: src/Server.tsx
 msgid ""
 "The database and every household's files, copied each night off this server."
@@ -13579,6 +13775,10 @@ msgstr "Demo jest wstrzymane (DEMO_PAUSED)."
 #: src/Demo.tsx
 msgid "The demo is resting for now — please come back later."
 msgstr "Wersja demo na razie odpoczywa — zajrzyj później."
+
+#: ../server/src/lib/attention.ts
+msgid "The disk is nearly full"
+msgstr ""
 
 #: src/Paperless.tsx
 msgid ""
@@ -13691,6 +13891,12 @@ msgid ""
 "The receiver checks each delivery's Ferret-Signature header with this secret."
 msgstr ""
 "Odbiorca sprawdza tym sekretem nagłówek Ferret-Signature każdej dostawy."
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Put the label on it"
+msgid "The release on GitHub"
+msgstr "Naklej na nią etykietę"
 
 #: src/Repairs.tsx
 msgid "The repair's own warranty ends"
@@ -13994,6 +14200,12 @@ msgstr ""
 msgid "This is"
 msgstr "To jest"
 
+#: src/Server.tsx
+msgid ""
+"This is a build between releases, so it can't be compared — the newest "
+"release is {version}."
+msgstr ""
+
 #: src/Demo.tsx
 msgid ""
 "This is the Ferret demo: your account and its households are deleted "
@@ -14036,7 +14248,7 @@ msgid ""
 msgstr ""
 "Ten link został już użyty lub wygasł — poproś o nowy na ekranie logowania."
 
-#: src/CollectibleScan.tsx
+#: src/CollectibleScan.tsx src/FuelEconomy.tsx
 #, fuzzy
 #| msgid "Which one"
 msgid "This one"
@@ -14057,6 +14269,19 @@ msgstr "Ten serwer"
 #: src/Webhooks.tsx
 msgid "This server doesn't send webhooks."
 msgstr "Ten serwer nie wysyła webhooków."
+
+#: ../server/src/lib/attention.ts
+msgid ""
+"This server runs {current}. What's new is in Settings → Server → Updates."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"This server runs Ferret {version}. Switched on, Ferret asks GitHub once a "
+"day for its newest release and tells you in the bell when there's a newer "
+"one, with what's new. GitHub sees this server's address; nothing else is "
+"sent."
+msgstr ""
 
 #: src/Webhooks.tsx
 msgid "This server's network allowed"
@@ -14196,6 +14421,13 @@ msgstr "Do posortowania"
 #: src/Nav.tsx
 msgid "To stick on boxes as you pack"
 msgstr "Do naklejania na pudełka podczas pakowania"
+
+#: src/Server.tsx
+msgid ""
+"To update a Docker install: pull the new image and start it again (docker "
+"compose pull, then docker compose up -d). Unraid, TrueNAS and the other app "
+"stores update it from their own screens."
+msgstr ""
 
 #: src/MaintenanceCalendar.tsx src/Overview.tsx
 msgid "Today"
@@ -14469,6 +14701,10 @@ msgstr "Do "
 msgid "Until {formatDate}"
 msgstr "Do {formatDate}"
 
+#: src/Server.tsx
+msgid "Up to date — {version} is the newest release."
+msgstr ""
+
 #: src/Cards.tsx src/Collectibles.tsx src/Graded.tsx
 #, fuzzy
 #| msgid "No value or price"
@@ -14482,6 +14718,12 @@ msgstr ""
 #: src/Import.tsx
 msgid "Updated from Home Assistant"
 msgstr "Zaktualizowano z Home Assistant"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Templates"
+msgid "Updates"
+msgstr "Szablony"
 
 #: src/Cards.tsx
 #, fuzzy
@@ -15271,6 +15513,11 @@ msgstr "Która"
 msgid "Which one are you moving?"
 msgstr "Którą rzecz przenosisz?"
 
+#: src/FuelEconomy.tsx
+msgid ""
+"Which one is it? fueleconomy.gov lists these for a {year} {make} {model}:"
+msgstr ""
+
 #: src/MoveHere.tsx src/ScanSession.tsx
 msgid "Which one?"
 msgstr "Która?"
@@ -15361,6 +15608,13 @@ msgstr "U: {person}, od {since}"
 #: src/lib/origin.ts
 msgid "with Add from photos"
 msgstr "przez „Dodaj ze zdjęć”"
+
+#: src/Server.tsx
+msgid ""
+"With an EIA key (in ENERGY STAR look-ups, below), fuel is priced at this "
+"week's average in the vehicle's state or region. Without one, the cost is "
+"EPA's estimate at US average prices."
+msgstr ""
 
 #: src/Report.tsx
 msgid "With photos"
