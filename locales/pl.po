@@ -695,6 +695,14 @@ msgstr ""
 "{0, plural, one {# fragment} few {# fragmenty} many {# fragmentów} other {# "
 "fragmentu}}"
 
+#. placeholder {0}: c.seasonCount
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# question} other {# questions}}"
+msgid "{0, plural, one {# season} other {# seasons}}"
+msgstr ""
+"{0, plural, one {# pytanie} few {# pytania} many {# pytań} other {# pytania}}"
+
 #. placeholder {0}: sheets.length
 #: src/Labels.tsx
 msgid "{0, plural, one {# sheet} other {# sheets}}"
@@ -1243,6 +1251,14 @@ msgstr ""
 "{count, plural, one {# błąd} few {# błędy} many {# błędów} other {# błędu}} "
 "dzisiaj, ostatni {ago}"
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{count, plural, one {a month} other {# months}}"
+msgid "{count, plural, one {# film or show} other {# films and shows}}"
+msgstr ""
+"{count, plural, one {miesiąc} few {# miesiące} many {# miesięcy} other {# "
+"miesiąca}}"
+
 #: ../server/src/jobs/remind.ts
 msgid ""
 "{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
@@ -1696,6 +1712,12 @@ msgstr "Kończy się: {low}"
 #: src/Server.tsx
 msgid "{m} min ago"
 msgstr "{m} min temu"
+
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{minutes} min ago"
+msgid "{minutes} min"
+msgstr "{minutes} min temu"
 
 #: ../server/src/lib/attention.ts
 msgid "{minutes} min ago"
@@ -3495,11 +3517,11 @@ msgstr "Dodaje i zmienia rzeczy, zaprasza ludzi i nimi zarządza"
 
 #: src/Server.tsx
 msgid ""
-"Adds LEGO sets, coins and comics to + Add, looked up with their pictures and "
-"details — and coins' prices by grade. Each catalog needs a free key from an "
-"account there: paste it here and that catalog is on. Only the words people "
-"search for are sent; reading a photo uses this server's vision model and "
-"counts as an AI action."
+"Adds LEGO sets, coins, comics, and movies and TV shows to + Add, looked up "
+"with their pictures and details — and coins' prices by grade. Each catalog "
+"needs a free key from an account there: paste it here and that catalog is "
+"on. Only the words people search for are sent; reading a photo uses this "
+"server's vision model and counts as an AI action."
 msgstr ""
 
 #: src/Household.tsx
@@ -5658,6 +5680,11 @@ msgstr "Termin dzisiaj"
 msgid "Due tomorrow"
 msgstr "Termin jutro"
 
+#: src/Nav.tsx
+msgid ""
+"DVDs, Blu-rays and box sets, by title or a photo of the case — from TMDB"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "e.g. 1881-S Morgan dollar"
 msgstr "np. dolar Morgana 1881-S"
@@ -6608,6 +6635,10 @@ msgstr "Uzupełnione przez AI"
 msgid "Filled in from the photo: {0}. Check before saving."
 msgstr "Uzupełnione ze zdjęcia: {0}. Sprawdź przed zapisaniem."
 
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+msgid "Film"
+msgstr ""
+
 #: src/PlainWordsFilter.tsx
 msgid "Filter"
 msgstr "Filtruj"
@@ -6821,6 +6852,14 @@ msgstr "Nie pamiętasz?"
 #: src/App.tsx
 msgid "Forgot your password?"
 msgstr "Nie pamiętasz hasła?"
+
+#: src/CollectibleScan.tsx
+msgid "Format"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Format…"
+msgstr ""
 
 #: src/lib/origin.ts
 msgid "Found in a room scan"
@@ -8741,6 +8780,16 @@ msgstr "Przeniesione tutaj z: {from}"
 msgid "Moved…"
 msgstr "Przeniesione…"
 
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Invoice or photos"
+msgid "Movie or show"
+msgstr "Faktura lub zdjęcia"
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Movies & TV"
+msgstr ""
+
 #: src/MoveHere.tsx
 msgid "Moving things to {name}"
 msgstr "Przenoszenie rzeczy do: {name}"
@@ -10443,6 +10492,12 @@ msgstr "Fotografuj dalej"
 #: src/CollectibleScan.tsx
 #, fuzzy
 #| msgid "Photograph more"
+msgid "Photograph a case"
+msgstr "Fotografuj dalej"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Photograph more"
 msgid "Photograph a coin"
 msgstr "Fotografuj dalej"
 
@@ -10476,6 +10531,12 @@ msgid ""
 "Photograph each card, front on and filling the photo — Ferret reads its name "
 "and number while you take the next. Or type it. Check the list, then save "
 "them all; nothing is added until you do."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each case, or type the title (and the year, or a show's season). "
+"Films and shows come from TMDB."
 msgstr ""
 
 #: src/CollectibleScan.tsx
@@ -11883,6 +11944,16 @@ msgstr "Wyszukiwania"
 msgid "Searching"
 msgstr "Szukam"
 
+#: src/CollectibleScan.tsx
+msgid "Season"
+msgstr ""
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Serial {serial}"
+msgid "Season {season}"
+msgstr "Nr seryjny {serial}"
+
 #: src/Webhooks.tsx
 msgid "Secret"
 msgstr "Sekret"
@@ -12533,6 +12604,10 @@ msgstr "Sortowanie… {progress}"
 #: src/lib/words.ts
 msgid "speaker"
 msgstr "głośnik"
+
+#: src/Collectibles.tsx
+msgid "Specials"
+msgstr ""
 
 #: src/StarterTasks.tsx
 msgid "spring"
@@ -13606,6 +13681,10 @@ msgstr "opony"
 msgid "Title"
 msgstr "Tytuł"
 
+#: src/CollectibleScan.tsx
+msgid "Title, e.g. Breaking Bad season 2"
+msgstr ""
+
 #: src/Everything.tsx
 msgid "To {person} since {since}"
 msgstr "Dla: {person}, od {since}"
@@ -13776,6 +13855,10 @@ msgstr "Turnstile się nie załadował"
 #: src/lib/words.ts
 msgid "TV"
 msgstr "telewizor"
+
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+msgid "TV show"
+msgstr ""
 
 #: src/App.tsx src/Security.tsx
 msgid "Two-step sign-in"
@@ -14763,6 +14846,12 @@ msgstr "Całe zdjęcie"
 #: src/Collections.tsx
 msgid "Whole photos"
 msgstr "Całe zdjęcia"
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Choose categories"
+msgid "Whole series"
+msgstr "Wybierz kategorie"
 
 #: src/lib/words.ts
 msgid "whole-house water filter"

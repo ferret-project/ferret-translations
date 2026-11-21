@@ -553,6 +553,11 @@ msgstr ""
 msgid "{0, plural, one {# scanned} other {# scanned}}"
 msgstr ""
 
+#. placeholder {0}: c.seasonCount
+#: src/Collectibles.tsx
+msgid "{0, plural, one {# season} other {# seasons}}"
+msgstr ""
+
 #. placeholder {0}: sheets.length
 #: src/Labels.tsx
 msgid "{0, plural, one {# sheet} other {# sheets}}"
@@ -935,6 +940,10 @@ msgstr ""
 msgid "{count, plural, one {# error} other {# errors}} today, the last {ago}"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "{count, plural, one {# film or show} other {# films and shows}}"
+msgstr ""
+
 #: ../server/src/jobs/remind.ts
 msgid ""
 "{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
@@ -1305,6 +1314,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "{m} min ago"
+msgstr ""
+
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+msgid "{minutes} min"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -2928,11 +2941,11 @@ msgstr ""
 
 #: src/Server.tsx
 msgid ""
-"Adds LEGO sets, coins and comics to + Add, looked up with their pictures and "
-"details — and coins' prices by grade. Each catalog needs a free key from an "
-"account there: paste it here and that catalog is on. Only the words people "
-"search for are sent; reading a photo uses this server's vision model and "
-"counts as an AI action."
+"Adds LEGO sets, coins, comics, and movies and TV shows to + Add, looked up "
+"with their pictures and details — and coins' prices by grade. Each catalog "
+"needs a free key from an account there: paste it here and that catalog is "
+"on. Only the words people search for are sent; reading a photo uses this "
+"server's vision model and counts as an AI action."
 msgstr ""
 
 #: src/Household.tsx
@@ -4976,6 +4989,11 @@ msgstr ""
 msgid "Due tomorrow"
 msgstr ""
 
+#: src/Nav.tsx
+msgid ""
+"DVDs, Blu-rays and box sets, by title or a photo of the case — from TMDB"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "e.g. 1881-S Morgan dollar"
 msgstr ""
@@ -5828,6 +5846,10 @@ msgstr ""
 msgid "Filled in from the photo: {0}. Check before saving."
 msgstr ""
 
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+msgid "Film"
+msgstr ""
+
 #: src/PlainWordsFilter.tsx
 msgid "Filter"
 msgstr ""
@@ -6017,6 +6039,14 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Forgot your password?"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Format"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Format…"
 msgstr ""
 
 #: src/lib/origin.ts
@@ -7802,6 +7832,14 @@ msgstr ""
 msgid "Moved…"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Movie or show"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Movies & TV"
+msgstr ""
+
 #: src/MoveHere.tsx
 msgid "Moving things to {name}"
 msgstr ""
@@ -9399,6 +9437,10 @@ msgid "Photograph a card"
 msgstr ""
 
 #: src/CollectibleScan.tsx
+msgid "Photograph a case"
+msgstr ""
+
+#: src/CollectibleScan.tsx
 msgid "Photograph a coin"
 msgstr ""
 
@@ -9427,6 +9469,12 @@ msgid ""
 "Photograph each card, front on and filling the photo — Ferret reads its name "
 "and number while you take the next. Or type it. Check the list, then save "
 "them all; nothing is added until you do."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each case, or type the title (and the year, or a show's season). "
+"Films and shows come from TMDB."
 msgstr ""
 
 #: src/CollectibleScan.tsx
@@ -10759,6 +10807,14 @@ msgstr ""
 msgid "Searching"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Season"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Season {season}"
+msgstr ""
+
 #: src/Webhooks.tsx
 msgid "Secret"
 msgstr ""
@@ -11376,6 +11432,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "speaker"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Specials"
 msgstr ""
 
 #: src/StarterTasks.tsx
@@ -12341,6 +12401,10 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Title, e.g. Breaking Bad season 2"
+msgstr ""
+
 #: src/Everything.tsx
 msgid "To {person} since {since}"
 msgstr ""
@@ -12504,6 +12568,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "TV"
+msgstr ""
+
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+msgid "TV show"
 msgstr ""
 
 #: src/App.tsx src/Security.tsx
@@ -13431,6 +13499,10 @@ msgstr ""
 
 #: src/Collections.tsx
 msgid "Whole photos"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Whole series"
 msgstr ""
 
 #: src/lib/words.ts
