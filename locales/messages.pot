@@ -338,6 +338,11 @@ msgstr ""
 msgid "{0, plural, one {# document} other {# documents}}"
 msgstr ""
 
+#. placeholder {0}: c.editions
+#: src/Collectibles.tsx
+msgid "{0, plural, one {# edition} other {# editions}}"
+msgstr ""
+
 #. placeholder {0}: hook.events.length
 #: src/Webhooks.tsx
 msgid "{0, plural, one {# event} other {# events}}"
@@ -546,6 +551,11 @@ msgstr ""
 #. placeholder {0}: c.seasonCount
 #: src/Collectibles.tsx
 msgid "{0, plural, one {# season} other {# seasons}}"
+msgstr ""
+
+#. placeholder {0}: s.checked
+#: src/Server.tsx
+msgid "{0, plural, one {# serial number checked} other {# serial numbers checked}}"
 msgstr ""
 
 #. placeholder {0}: sheets.length
@@ -884,6 +894,10 @@ msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "{count, plural, one {# AI suggestion} other {# AI suggestions}} to confirm"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "{count, plural, one {# book} other {# books}}"
 msgstr ""
 
 #: src/CollectibleScan.tsx
@@ -1313,6 +1327,14 @@ msgstr ""
 msgid "{n, plural, one {# thing} other {# things}}"
 msgstr ""
 
+#: src/Graded.tsx
+msgid "{n} graded the same"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "{n} graded the same, {higher} higher"
+msgstr ""
+
 #: src/Language.tsx
 msgid "{name} ({percent}% translated)"
 msgstr ""
@@ -1526,6 +1548,10 @@ msgstr ""
 
 #: src/Collectibles.tsx
 msgid "{service} can't be reached right now."
+msgstr ""
+
+#: src/Graded.tsx
+msgid "{service} certificate {cert} — its details can't be fetched right now."
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -2008,8 +2034,12 @@ msgstr ""
 msgid "A barcode the online product database doesn't know — or every barcode, if there isn't one — is asked of Open Food Facts, Open Products Facts and Open Beauty Facts (openfoodfacts.org): groceries, cleaning supplies, batteries, light bulbs, toiletries. Free, with no allowance, and once for the whole server. Only the barcode is sent."
 msgstr ""
 
+#: src/Bikes.tsx
+msgid "A bike with this serial number is reported stolen on Bike Index."
+msgstr ""
+
 #: src/Server.tsx
-msgid "A book's barcode is its ISBN: scanned or saved, it's asked of Open Library (openlibrary.org) for the title, author and cover — each once for the whole server, free, and not counted against any lookup allowance. Only the ISBN is sent."
+msgid "A book's barcode is its ISBN: scanned or saved, it's asked of Open Library (openlibrary.org) for the title, author and cover — each once for the whole server, free, and not counted against any lookup allowance. Only the ISBN is sent. It also adds \"Books by title\" to + Add, for older books without a barcode (the words searched for are sent)."
 msgstr ""
 
 #: src/PayOff.tsx
@@ -2253,6 +2283,10 @@ msgstr ""
 
 #: src/Replacements.tsx
 msgid "about {amount} to replace"
+msgstr ""
+
+#: src/Energy.tsx
+msgid "About {cost} a year"
 msgstr ""
 
 #: src/CollectibleScan.tsx
@@ -2523,6 +2557,10 @@ msgstr ""
 
 #: src/Reminders.tsx
 msgid "Add it to Apple Calendar on this Mac:"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "Add its certificate"
 msgstr ""
 
 #: src/Setup.tsx
@@ -3247,6 +3285,10 @@ msgstr ""
 msgid "At"
 msgstr ""
 
+#: src/Energy.tsx
+msgid "at {state}'s average home rate ({rate}¢ a kWh in {year})"
+msgstr ""
+
 #: src/Server.tsx
 msgid "at {time}"
 msgstr ""
@@ -3261,6 +3303,10 @@ msgstr ""
 
 #: src/Install.tsx
 msgid "at the top right"
+msgstr ""
+
+#: src/Energy.tsx
+msgid "at the US average home rate ({rate}¢ a kWh in {year})"
 msgstr ""
 
 #: src/Paperless.tsx
@@ -3396,6 +3442,10 @@ msgstr ""
 msgid "bicycle"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Bike Index look-ups"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "Blank labels to stick on boxes as you pack. Scan one later and say what it is — a new box, or something already in Ferret."
 msgstr ""
@@ -3408,8 +3458,20 @@ msgstr ""
 msgid "boiler"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Book"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Book look-ups"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Books"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Books by title"
 msgstr ""
 
 #: src/Loans.tsx
@@ -3624,6 +3686,7 @@ msgstr ""
 #: src/Everything.tsx
 #: src/FromWeb.tsx
 #: src/Gone.tsx
+#: src/Graded.tsx
 #: src/Household.tsx
 #: src/ItemEditor.tsx
 #: src/Loans.tsx
@@ -3745,6 +3808,10 @@ msgstr ""
 msgid "Certificate “{name}” has expired"
 msgstr ""
 
+#: src/Graded.tsx
+msgid "Certificate number"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Certificates"
 msgstr ""
@@ -3774,6 +3841,7 @@ msgstr ""
 msgid "Changed in Home Assistant since the last import"
 msgstr ""
 
+#: src/Graded.tsx
 #: src/Server.tsx
 msgid "Check"
 msgstr ""
@@ -5193,8 +5261,16 @@ msgstr ""
 msgid "edited"
 msgstr ""
 
+#: src/Server.tsx
+msgid "EIA API key"
+msgstr ""
+
 #: src/Providers.tsx
 msgid "Electrician"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Electricity prices (optional, US): with a free key from the US Energy Information Administration (eia.gov/opendata), each card also says what that energy costs a year at the average home rate in the thing's state. Prices are fetched once a month; nothing about anyone is sent."
 msgstr ""
 
 #: src/PayOff.tsx
@@ -5843,6 +5919,10 @@ msgstr ""
 msgid "First due"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "First published {year}"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "First say what it counts — on its page, under Track miles / hours."
 msgstr ""
@@ -5887,6 +5967,10 @@ msgstr ""
 msgid "For an item"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "For books without a barcode — older ones printed before ISBNs: photograph the cover, spine or title page, or type the title and author. Books come from Open Library. (A book with a barcode is quicker scanned.)"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "For Claude, or a script of your own"
 msgstr ""
@@ -5921,6 +6005,10 @@ msgstr ""
 
 #: src/Templates.tsx
 msgid "For things you have lots of the same kind of — coins, cards, dolls: the details to fill in for each (year, grade…), and the category and tags they start with. Pick one when adding or editing a thing."
+msgstr ""
+
+#: src/Graded.tsx
+msgid "Forget this certificate? The thing stays as it is."
 msgstr ""
 
 #: src/App.tsx
@@ -6212,6 +6300,18 @@ msgstr ""
 
 #: src/Collectibles.tsx
 msgid "Grade…"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "Graded"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "Graded by"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Graded coins and cards"
 msgstr ""
 
 #: src/lib/words.ts
@@ -6577,6 +6677,14 @@ msgstr ""
 
 #: src/ItemEditor.tsx
 msgid "In a box"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "In a slab? Its certificate number gives the grade and how rare it is — and for a coin, PCGS's price guide."
+msgstr ""
+
+#: src/Graded.tsx
+msgid "In a slab? Its certificate number gives the grade and how rare it is."
 msgstr ""
 
 #: src/Settings.tsx
@@ -8344,6 +8452,10 @@ msgstr ""
 msgid "Not found — you can name it in the list."
 msgstr ""
 
+#: src/Graded.tsx
+msgid "Not graded"
+msgstr ""
+
 #: src/Everything.tsx
 msgid "Not in 6 months"
 msgstr ""
@@ -8411,6 +8523,10 @@ msgstr ""
 #: src/Gone.tsx
 #: src/ItemEditor.tsx
 msgid "Not recorded"
+msgstr ""
+
+#: src/Bikes.tsx
+msgid "Not reported stolen on Bike Index."
 msgstr ""
 
 #: src/Everything.tsx
@@ -8774,6 +8890,10 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
+#: src/Nav.tsx
+msgid "Older books without a barcode, by title and author or a photo — from Open Library"
+msgstr ""
+
 #: src/Security.tsx
 #: src/Server.tsx
 #: src/Usage.tsx
@@ -8791,11 +8911,20 @@ msgstr ""
 
 #: src/Collectibles.tsx
 #: src/CollectibleScan.tsx
+#: src/Graded.tsx
 msgid "On {service}"
 msgstr ""
 
 #: src/Videos.tsx
 msgid "On {thing}:"
+msgstr ""
+
+#: src/Server.tsx
+msgid "On a bike's page, says whether a bike with its serial number is reported stolen on Bike Index (bikeindex.org, a non-profit registry) — worth knowing about one bought second-hand — with links to register it there, or report it once it's marked stolen. Free, no key. Only bikes' serial numbers are sent."
+msgstr ""
+
+#: src/Server.tsx
+msgid "On a coin's or card's page, its slab's certificate number is checked with PCGS (coins) or PSA (cards): the grade, how many are graded the same and higher, and PCGS's price guide value. Each needs a free key from an account there; only certificate numbers are sent."
 msgstr ""
 
 #: src/lib/origin.ts
@@ -9292,6 +9421,22 @@ msgstr ""
 msgid "Paused: nothing new comes through to your calendar until your plan has calendar feeds again."
 msgstr ""
 
+#: src/Server.tsx
+msgid "PCGS (coins): sign in at pcgs.com/publicapi for its API token."
+msgstr ""
+
+#: src/Server.tsx
+msgid "PCGS API token"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "PCGS price guide"
+msgstr ""
+
+#: src/Graded.tsx
+msgid "PCGS price guide ({dollars})"
+msgstr ""
+
 #: src/PlanUsage.tsx
 msgid "People"
 msgstr ""
@@ -9334,6 +9479,10 @@ msgstr ""
 #: src/RoomScan.tsx
 #: src/Walkthrough.tsx
 msgid "Photograph"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Photograph a book"
 msgstr ""
 
 #: src/CollectibleScan.tsx
@@ -9688,6 +9837,14 @@ msgstr ""
 msgid "Providers"
 msgstr ""
 
+#: src/Server.tsx
+msgid "PSA (cards): sign in at psacard.com/publicapi for its access token. PSA approves accounts for its API before the token works."
+msgstr ""
+
+#: src/Server.tsx
+msgid "PSA access token"
+msgstr ""
+
 #: src/AiFill.tsx
 #: src/lib/words.ts
 msgid "Purchase date"
@@ -9972,6 +10129,10 @@ msgstr ""
 msgid "refrigerator"
 msgstr ""
 
+#: src/Bikes.tsx
+msgid "Register it on Bike Index"
+msgstr ""
+
 #: src/ItemRow.tsx
 msgid "related"
 msgstr ""
@@ -10142,7 +10303,19 @@ msgid "Remove the {service} key? People won't be able to look things up there un
 msgstr ""
 
 #: src/Server.tsx
+msgid "Remove the EIA key? The cards won't show what energy costs."
+msgstr ""
+
+#: src/Server.tsx
 msgid "Remove the Google Books key? Only Open Library will be asked."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove the PCGS key? Coins' certificates won't be checked."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Remove the PSA key? Cards' certificates won't be checked."
 msgstr ""
 
 #: src/Usage.tsx
@@ -10268,6 +10441,18 @@ msgstr ""
 
 #: src/Repairs.tsx
 msgid "Replaces {name}"
+msgstr ""
+
+#: src/Bikes.tsx
+msgid "Report it on Bike Index too: bike shops, police and buyers check it, which is how stolen bikes come back."
+msgstr ""
+
+#: src/Bikes.tsx
+msgid "Report it stolen on Bike Index"
+msgstr ""
+
+#: src/Bikes.tsx
+msgid "Reported stolen on Bike Index."
 msgstr ""
 
 #: src/Prompts.tsx
@@ -10806,6 +10991,10 @@ msgstr ""
 
 #: src/Overview.tsx
 msgid "See all"
+msgstr ""
+
+#: src/Bikes.tsx
+msgid "See the report"
 msgstr ""
 
 #: src/CardScan.tsx
@@ -11526,6 +11715,10 @@ msgstr ""
 msgid "Stolen"
 msgstr ""
 
+#: src/Bikes.tsx
+msgid "stolen {when}"
+msgstr ""
+
 #: src/Stock.tsx
 msgid "Stop counting with {label}"
 msgstr ""
@@ -11849,6 +12042,10 @@ msgstr ""
 
 #: src/MoveHere.tsx
 msgid "That's a place's label (or a blank one) — scan the things to move."
+msgstr ""
+
+#: src/Graded.tsx
+msgid "That's it — save"
 msgstr ""
 
 #: src/ItemEditor.tsx
@@ -12337,6 +12534,10 @@ msgid "Title"
 msgstr ""
 
 #: src/CollectibleScan.tsx
+msgid "Title and author, e.g. The Hobbit Tolkien"
+msgstr ""
+
+#: src/CollectibleScan.tsx
 msgid "Title, e.g. Breaking Bad season 2"
 msgstr ""
 
@@ -12664,6 +12865,7 @@ msgstr ""
 
 #: src/Cards.tsx
 #: src/Collectibles.tsx
+#: src/Graded.tsx
 msgid "Update its value to {price}"
 msgstr ""
 
@@ -12742,6 +12944,7 @@ msgstr ""
 
 #: src/Cards.tsx
 #: src/Collectibles.tsx
+#: src/Graded.tsx
 msgid "Use {price} as its value"
 msgstr ""
 
