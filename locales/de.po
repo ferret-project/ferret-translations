@@ -308,13 +308,6 @@ msgstr ""
 msgid "{0, plural, one {# card looked up} other {# cards looked up}}"
 msgstr ""
 
-#. placeholder {0}: changes.length
-#: src/Cards.tsx
-msgid ""
-"{0, plural, one {# card's price has changed:} other {# cards' prices have "
-"changed:}}"
-msgstr ""
-
 #. placeholder {0}: unused.length
 #: src/ImportCsv.tsx
 msgid "{0, plural, one {# column left out} other {# columns left out}}"
@@ -419,6 +412,11 @@ msgid ""
 "so they're unticked;}}"
 msgstr ""
 
+#. placeholder {0}: status.kept
+#: src/Server.tsx
+msgid "{0, plural, one {# looked up} other {# looked up}}"
+msgstr ""
+
 #. placeholder {0}: lostOrStolen.length
 #: src/Gone.tsx
 msgid ""
@@ -489,6 +487,11 @@ msgstr ""
 msgid "{0, plural, one {# photo} other {# photos}}"
 msgstr ""
 
+#. placeholder {0}: c.pieces
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+msgid "{0, plural, one {# piece} other {# pieces}}"
+msgstr ""
+
 #. placeholder {0}: n.children.length
 #: src/Browse.tsx
 msgid "{0, plural, one {# place inside} other {# places inside}}"
@@ -497,6 +500,11 @@ msgstr ""
 #. placeholder {0}: c.duplicates
 #: src/ToConfirm.tsx
 msgid "{0, plural, one {# possible duplicate} other {# possible duplicates}}"
+msgstr ""
+
+#. placeholder {0}: changes.length
+#: src/Cards.tsx
+msgid "{0, plural, one {# price has changed:} other {# prices have changed:}}"
 msgstr ""
 
 #. placeholder {0}: s.products
@@ -746,6 +754,11 @@ msgid "{0, plural, one {Made # place} other {Made # places}}"
 msgstr ""
 
 #. placeholder {0}: row.candidates.length - 1
+#: src/CollectibleScan.tsx
+msgid "{0, plural, one {Not this one? # other} other {Not this one? # others}}"
+msgstr ""
+
+#. placeholder {0}: row.candidates.length - 1
 #: src/CardScan.tsx
 msgid ""
 "{0, plural, one {Not this printing? # other} other {Not this printing? # "
@@ -798,6 +811,11 @@ msgstr ""
 #. placeholder {0}: toSave.length
 #: src/CardScan.tsx
 msgid "{0, plural, one {Save # card} other {Save # cards}}"
+msgstr ""
+
+#. placeholder {0}: toSave.length
+#: src/CollectibleScan.tsx
+msgid "{0, plural, one {Save # thing} other {Save # things}}"
 msgstr ""
 
 #. placeholder {0}: test.data.sent
@@ -880,9 +898,7 @@ msgid "{change} · {quantity} left"
 msgstr ""
 
 #: src/Cards.tsx
-msgid ""
-"{checking, plural, one {Checking today's price of # card…} other {Checking "
-"today's prices of # cards…}}"
+msgid "{checking, plural, one {Checking # price…} other {Checking # prices…}}"
 msgstr ""
 
 #: src/Labels.tsx
@@ -900,6 +916,14 @@ msgstr ""
 #: ../server/src/lib/attention.ts
 msgid ""
 "{count, plural, one {# AI suggestion} other {# AI suggestions}} to confirm"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "{count, plural, one {# coin} other {# coins}}"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "{count, plural, one {# comic} other {# comics}}"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -928,6 +952,10 @@ msgstr ""
 #: ../server/src/lib/attention.ts
 msgid ""
 "{count, plural, one {# possible duplicate} other {# possible duplicates}}"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "{count, plural, one {# set} other {# sets}}"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -1514,12 +1542,24 @@ msgstr ""
 msgid "{saved, plural, one {# card added.} other {# cards added.}}"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "{saved, plural, one {# thing added.} other {# things added.}}"
+msgstr ""
+
 #: src/Walkthrough.tsx
 msgid "{saved, plural, one {# thing named} other {# things named}}"
 msgstr ""
 
 #: src/Offline.tsx
 msgid "{saved} — each will be a \"New item\" to name."
+msgstr ""
+
+#: src/Server.tsx
+msgid "{service} API key"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "{service} can't be reached right now."
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -2327,8 +2367,16 @@ msgstr ""
 msgid "about {amount} to replace"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "About {price}"
+msgstr ""
+
 #: src/Collections.tsx
 msgid "About it <0>(optional)</0>"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "About uncirculated (AU)"
 msgstr ""
 
 #: ../server/src/lib/invitation-email.ts
@@ -2398,6 +2446,10 @@ msgstr ""
 
 #: src/ScanSession.tsx
 msgid "Add {step} to which?"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Add {thing}"
 msgstr ""
 
 #: src/SuggestedMaintenance.tsx
@@ -2637,6 +2689,14 @@ msgstr ""
 msgid "Add the card's picture"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Add the catalog's picture"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Add the catalog's picture as each one's photo"
+msgstr ""
+
 #: src/Files.tsx
 msgid "Add the invoice or photos"
 msgstr ""
@@ -2771,6 +2831,10 @@ msgstr ""
 msgid "Added by scanning"
 msgstr ""
 
+#: src/lib/origin.ts
+msgid "Added from a collector catalog"
+msgstr ""
+
 #: ../server/src/lib/attention.ts
 msgid "Added from a photo — confirm what it is"
 msgstr ""
@@ -2860,6 +2924,15 @@ msgstr ""
 
 #: src/Household.tsx
 msgid "Adds and changes things, invites and manages people"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Adds LEGO sets, coins and comics to + Add, looked up with their pictures and "
+"details — and coins' prices by grade. Each catalog needs a free key from an "
+"account there: paste it here and that catalog is on. Only the words people "
+"search for are sent; reading a photo uses this server's vision model and "
+"counts as an AI action."
 msgstr ""
 
 #: src/Household.tsx
@@ -3136,6 +3209,10 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "Any category"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Any country"
 msgstr ""
 
 #: src/Import.tsx
@@ -3561,6 +3638,11 @@ msgstr ""
 msgid "by Claude"
 msgstr ""
 
+#: src/Nav.tsx
+msgid ""
+"By country, year and name, or a photo — from Numista, with prices by grade"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "By day (UTC)"
 msgstr ""
@@ -3587,6 +3669,14 @@ msgstr ""
 
 #: src/lib/origin.ts
 msgid "by scanning its barcode"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "By series and issue number, or a photo of the cover — from Comic Vine"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "By set number or name, or a photo of the box — from Rebrickable"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -3748,6 +3838,10 @@ msgstr ""
 msgid "Change {name}"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Change key"
+msgstr ""
+
 #: src/Paperless.tsx
 msgid "Change…"
 msgstr ""
@@ -3762,6 +3856,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Check again"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Check and save"
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -3782,6 +3880,10 @@ msgstr ""
 
 #: src/Paperless.tsx src/Server.tsx
 msgid "Check now"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Check the list, then save them all; nothing is added until you do."
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -3872,7 +3974,7 @@ msgstr ""
 msgid "Choose categories"
 msgstr ""
 
-#: src/CardScan.tsx src/RoomScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/RoomScan.tsx
 msgid "Choose photos"
 msgstr ""
 
@@ -3964,8 +4066,8 @@ msgstr ""
 msgid "Cleaner"
 msgstr ""
 
-#: src/CardScan.tsx src/Everything.tsx src/MusicScan.tsx src/Search.tsx
-#: src/StarterTasks.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Everything.tsx
+#: src/MusicScan.tsx src/Search.tsx src/StarterTasks.tsx
 msgid "Clear"
 msgstr ""
 
@@ -3991,7 +4093,7 @@ msgid ""
 "search finds only the things already embedded."
 msgstr ""
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 msgid "Clear the list? Nothing in it has been saved."
 msgstr ""
 
@@ -4036,6 +4138,14 @@ msgstr ""
 msgid "coffee maker"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Coin"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Coins"
+msgstr ""
+
 #: src/Collections.tsx
 msgid ""
 "Coins, dolls, trading cards, records — keep them together, with the details "
@@ -4043,11 +4153,15 @@ msgid ""
 "want list of the ones you're still looking for."
 msgstr ""
 
+#: src/Cards.tsx
+msgid "Coins: Numista's estimates for their year, mint and grade."
+msgstr ""
+
 #: src/Nav.tsx
 msgid "Collapse"
 msgstr ""
 
-#: src/CardScan.tsx src/Collections.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx
 msgid "Collection"
 msgstr ""
 
@@ -4055,8 +4169,20 @@ msgstr ""
 msgid "Collections"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Collector catalogs"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "Column {number}"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Comic"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Comics"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -4273,6 +4399,10 @@ msgstr ""
 msgid "Couldn't read a card in that photo."
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Couldn't read anything to look up in that photo."
+msgstr ""
+
 #: src/Scanner.tsx
 msgid "Couldn't read barcodes here: {error}"
 msgstr ""
@@ -4287,6 +4417,10 @@ msgstr ""
 
 #: src/Scanner.tsx
 msgid "Couldn't read that photo: {error}"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Couldn't read that photo."
 msgstr ""
 
 #: src/Demo.tsx
@@ -4317,8 +4451,12 @@ msgstr ""
 msgid "Count with {text}"
 msgstr ""
 
-#: src/Places.tsx
+#: src/CollectibleScan.tsx src/Places.tsx
 msgid "Country"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Country (any)"
 msgstr ""
 
 #: src/Demo.tsx
@@ -4726,7 +4864,7 @@ msgstr ""
 msgid "Done before"
 msgstr ""
 
-#: src/CardScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx
 msgid "Done choosing"
 msgstr ""
 
@@ -5001,6 +5139,10 @@ msgstr ""
 msgid "e.g. Top shelf"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "e.g. Washington quarter"
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "e.g. Wouldn't drain, error E21"
 msgstr ""
@@ -5181,6 +5323,10 @@ msgid ""
 "value too if it has none."
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "estimated value today (Numista)"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Estimates from how long things usually last."
 msgstr ""
@@ -5203,10 +5349,6 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "Every 2 weeks"
-msgstr ""
-
-#: src/Cards.tsx
-msgid "Every card's value already matches today's price."
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -5247,6 +5389,10 @@ msgstr ""
 msgid ""
 "Every thing without a value has an estimate already — they're under To "
 "confirm."
+msgstr ""
+
+#: src/Cards.tsx
+msgid "Every value already matches today's price."
 msgstr ""
 
 #: src/Loans.tsx
@@ -5412,6 +5558,10 @@ msgstr ""
 
 #: src/Catalog.tsx
 msgid "Extra fields for its items"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Extremely fine (XF)"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -5690,7 +5840,7 @@ msgstr ""
 msgid "Filters"
 msgstr ""
 
-#: src/CardScan.tsx src/Offline.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Offline.tsx
 msgid "Find"
 msgstr ""
 
@@ -5724,6 +5874,10 @@ msgstr ""
 
 #: src/DocumentViewer.tsx
 msgid "Finding “{find}”…"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Fine (F)"
 msgstr ""
 
 #: src/CardScan.tsx
@@ -5914,6 +6068,10 @@ msgid "From {source} — check before applying."
 msgstr ""
 
 #: src/lib/origin.ts
+msgid "from a collector catalog"
+msgstr ""
+
+#: src/lib/origin.ts
 msgid "from a Paperless document"
 msgstr ""
 
@@ -6025,6 +6183,11 @@ msgstr ""
 msgid "generator"
 msgstr ""
 
+#. placeholder {0}: c.service
+#: src/Server.tsx
+msgid "Get one free at <0>{0}</0> after signing in."
+msgstr ""
+
 #: src/Notifications.tsx
 msgid ""
 "Get the same daily reminder in ntfy, Pushover, Telegram, email and <0>100+ "
@@ -6097,6 +6260,10 @@ msgstr ""
 msgid "Good"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Good (G)"
+msgstr ""
+
 #: src/lib/words.ts
 msgid "Good condition"
 msgstr ""
@@ -6111,6 +6278,14 @@ msgstr ""
 
 #: src/Collections.tsx
 msgid "Got it"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Grade"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Grade…"
 msgstr ""
 
 #: src/lib/words.ts
@@ -6267,8 +6442,8 @@ msgstr ""
 msgid "Households nobody is a member of — nobody can open them."
 msgstr ""
 
-#: src/CardScan.tsx src/Collections.tsx src/Labels.tsx src/Maintenance.tsx
-#: src/ReceiptLines.tsx src/RoomScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx src/Labels.tsx
+#: src/Maintenance.tsx src/ReceiptLines.tsx src/RoomScan.tsx
 msgid "How many"
 msgstr ""
 
@@ -7141,6 +7316,14 @@ msgstr ""
 msgid "Leave?"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "LEGO set"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "LEGO sets"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Lend or borrow {itemName}"
 msgstr ""
@@ -7266,6 +7449,10 @@ msgstr ""
 
 #: src/DeleteForGood.tsx src/PlanUsage.tsx
 msgid "Loading"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Loading…"
 msgstr ""
 
 #: src/Providers.tsx
@@ -7905,6 +8092,10 @@ msgstr ""
 msgid "No codes yet — scanning one can count it in or out."
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "No coins found. Try fewer words, another year, or pick the country."
+msgstr ""
+
 #: src/ItemPage.tsx src/ItemRow.tsx
 msgid "No details yet"
 msgstr ""
@@ -7919,6 +8110,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "No errors."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "No estimate for this grade"
 msgstr ""
 
 #: src/Templates.tsx
@@ -7991,7 +8186,7 @@ msgstr ""
 msgid "No photos yet. A photo makes it easy to recognise later."
 msgstr ""
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 msgid "No place"
 msgstr ""
 
@@ -8051,10 +8246,6 @@ msgstr ""
 msgid "No things match"
 msgstr ""
 
-#: src/Cards.tsx
-msgid "No trading cards in this collection yet."
-msgstr ""
-
 #: src/Overview.tsx
 msgid "No value or price"
 msgstr ""
@@ -8083,7 +8274,8 @@ msgstr ""
 msgid "none"
 msgstr ""
 
-#: src/CardScan.tsx src/Collections.tsx src/Templates.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx
+#: src/Templates.tsx
 msgid "None"
 msgstr ""
 
@@ -8375,12 +8567,20 @@ msgid ""
 "it has cost."
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Nothing found for \"{words}\" — fix the words and look again."
+msgstr ""
+
 #: ../server/src/lib/attention.ts
 msgid "Nothing found yet — add what's there"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "Nothing found yet in {place} — add what's there"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Nothing found. Check the spelling, or try fewer words."
 msgstr ""
 
 #: src/App.tsx
@@ -8421,6 +8621,10 @@ msgstr ""
 
 #: src/Paperless.tsx
 msgid "Nothing in Paperless matches that."
+msgstr ""
+
+#: src/Cards.tsx
+msgid "Nothing in this collection has a market price yet."
 msgstr ""
 
 #: src/ItemSearch.tsx
@@ -8592,6 +8796,10 @@ msgstr ""
 msgid "Numbers, Excel or Google Sheets: File → Export / Download → CSV."
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Numista has no price for this coin in this grade."
+msgstr ""
+
 #: src/Usage.tsx
 msgid "Odometer"
 msgstr ""
@@ -8631,6 +8839,10 @@ msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "On {date} ({device}) — time to plan a replacement"
+msgstr ""
+
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+msgid "On {service}"
 msgstr ""
 
 #: src/Videos.tsx
@@ -8735,7 +8947,7 @@ msgid ""
 "comes where your reminders do."
 msgstr ""
 
-#: src/CardScan.tsx src/Shopping.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Shopping.tsx
 msgid "One fewer"
 msgstr ""
 
@@ -8747,7 +8959,7 @@ msgstr ""
 msgid "One moment…"
 msgstr ""
 
-#: src/CardScan.tsx src/Shopping.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Shopping.tsx
 msgid "One more"
 msgstr ""
 
@@ -9120,6 +9332,10 @@ msgstr ""
 msgid "Paste it, then <0>Subscribe</0> and <1>OK</1>"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Paste the API key"
+msgstr ""
+
 #: src/Webhooks.tsx
 msgid "Pause"
 msgstr ""
@@ -9174,8 +9390,20 @@ msgstr ""
 msgid "Photograph"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Photograph a box"
+msgstr ""
+
 #: src/CardScan.tsx
 msgid "Photograph a card"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Photograph a coin"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Photograph a cover"
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -9188,11 +9416,29 @@ msgstr ""
 msgid "Photograph a room's things, then name them"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each box (or its instructions) so the set number shows, or type "
+"the number or name. Sets come from Rebrickable."
+msgstr ""
+
 #: src/CardScan.tsx
 msgid ""
 "Photograph each card, front on and filling the photo — Ferret reads its name "
 "and number while you take the next. Or type it. Check the list, then save "
 "them all; nothing is added until you do."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each coin, or type its country, year and name. Coins come from "
+"Numista, with an estimate for each year and grade."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each cover, or type the series and issue number. Comics come from "
+"Comic Vine."
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -9256,6 +9502,10 @@ msgstr ""
 
 #: src/Walkthrough.tsx
 msgid "Pick a room"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Picture: {by} on Numista"
 msgstr ""
 
 #: src/Duplicates.tsx src/Everything.tsx
@@ -9636,8 +9886,12 @@ msgstr ""
 msgid "Reading the card…"
 msgstr ""
 
-#: src/Walkthrough.tsx
+#: src/CollectibleScan.tsx src/Walkthrough.tsx
 msgid "Reading the photo…"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Reading took too long — try another photo, or type it."
 msgstr ""
 
 #: src/CardScan.tsx
@@ -9829,6 +10083,10 @@ msgstr ""
 msgid "Remove {reading} on {date}?"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Remove {thing} from the list"
+msgstr ""
+
 #: src/Videos.tsx
 msgid "Remove {title}"
 msgstr ""
@@ -9881,6 +10139,12 @@ msgstr ""
 
 #: src/Pairing.tsx
 msgid "Remove the {kind} code for {title}"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Remove the {service} key? People won't be able to look things up there until "
+"a key is saved again."
 msgstr ""
 
 #: src/Usage.tsx
@@ -10268,7 +10532,7 @@ msgstr ""
 msgid "Saved the pairing code to {name}"
 msgstr ""
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 msgid "Saving {done} of {total}…"
 msgstr ""
 
@@ -10515,7 +10779,7 @@ msgstr ""
 msgid "See all"
 msgstr ""
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 msgid "See them"
 msgstr ""
 
@@ -10644,6 +10908,10 @@ msgstr ""
 msgid "Serial: {serialNumber}"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Series and issue, e.g. Amazing Spider-Man 300"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "Server"
 msgstr ""
@@ -10694,6 +10962,10 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Set new password"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Set number or name, e.g. 75192"
 msgstr ""
 
 #: src/Everything.tsx
@@ -11200,7 +11472,7 @@ msgstr ""
 msgid "Still here, with what's inside"
 msgstr ""
 
-#: src/CardScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx
 msgid "Still nothing"
 msgstr ""
 
@@ -11895,6 +12167,12 @@ msgid ""
 "to review."
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid ""
+"This catalog isn't switched on on this server. Its admin can add its key in "
+"Settings → Server."
+msgstr ""
+
 #: src/DeleteForGood.tsx
 msgid ""
 "This deletes <0>{householdName}</0> and everything in it, for good. It can't "
@@ -11963,6 +12241,10 @@ msgstr ""
 msgid ""
 "This link was used already or has expired — ask for a new one from the sign-"
 "in screen."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "This one"
 msgstr ""
 
 #: src/Report.tsx
@@ -12290,6 +12572,10 @@ msgstr ""
 msgid "TZe 24 mm tape (60 mm long)"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Uncirculated (UNC)"
+msgstr ""
+
 #: src/Stock.tsx
 msgid "undo"
 msgstr ""
@@ -12356,7 +12642,7 @@ msgstr ""
 msgid "Until {formatDate}"
 msgstr ""
 
-#: src/Cards.tsx
+#: src/Cards.tsx src/Collectibles.tsx
 msgid "Update its value to {price}"
 msgstr ""
 
@@ -12430,7 +12716,7 @@ msgstr ""
 msgid "Use {amount} for {name}"
 msgstr ""
 
-#: src/Cards.tsx
+#: src/Cards.tsx src/Collectibles.tsx
 msgid "Use {price} as its value"
 msgstr ""
 
@@ -12477,6 +12763,12 @@ msgstr ""
 
 #: src/Boxes.tsx
 msgid "Use it"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Use Numista's estimate as each coin's value (once its year and grade are "
+"chosen)"
 msgstr ""
 
 #: src/Stock.tsx
@@ -12595,6 +12887,14 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Vehicle look-ups"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Very fine (VF)"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Very good (VG)"
 msgstr ""
 
 #: src/Collections.tsx
@@ -12792,6 +13092,10 @@ msgid ""
 "here until someone applies or dismisses them."
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "What are you adding?"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "What did you stick it on?"
 msgstr ""
@@ -12855,6 +13159,10 @@ msgstr ""
 
 #: src/ImportCsv.tsx
 msgid "What to import"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "What to look up"
 msgstr ""
 
 #: src/Repairs.tsx
@@ -12947,7 +13255,8 @@ msgstr ""
 msgid "Where {things} go"
 msgstr ""
 
-#: src/CardScan.tsx src/MusicScan.tsx src/ReceiptLines.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
+#: src/ReceiptLines.tsx
 msgid "Where are they?"
 msgstr ""
 
@@ -13237,6 +13546,18 @@ msgstr ""
 msgid "yard tool"
 msgstr ""
 
+#: src/CollectibleScan.tsx
+msgid "Year"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Year and mint"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Year and mint…"
+msgstr ""
+
 #: src/Places.tsx
 msgid "Year built"
 msgstr ""
@@ -13261,8 +13582,8 @@ msgstr ""
 msgid "You can disconnect it any time in Settings → Claude & API."
 msgstr ""
 
-#: src/CardScan.tsx src/Import.tsx src/MusicScan.tsx src/RoomScan.tsx
-#: src/Walkthrough.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Import.tsx src/MusicScan.tsx
+#: src/RoomScan.tsx src/Walkthrough.tsx
 msgid "You can look around, but not add things, in this household."
 msgstr ""
 

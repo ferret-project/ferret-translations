@@ -339,17 +339,6 @@ msgstr ""
 "kreskowych} many {# wyszukań kodów kreskowych} other {# wyszukania kodów "
 "kreskowych}}"
 
-#. placeholder {0}: changes.length
-#: src/Cards.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# brand checked} other {# brands checked}}"
-msgid ""
-"{0, plural, one {# card's price has changed:} other {# cards' prices have "
-"changed:}}"
-msgstr ""
-"{0, plural, one {Sprawdzono # markę} few {Sprawdzono # marki} many "
-"{Sprawdzono # marek} other {Sprawdzono # marki}}"
-
 #. placeholder {0}: unused.length
 #: src/ImportCsv.tsx
 msgid "{0, plural, one {# column left out} other {# columns left out}}"
@@ -498,6 +487,16 @@ msgstr ""
 "zapisu, więc są odznaczone;} other {# wiersza wygląda na materiały "
 "eksploatacyjne albo coś niewartego zapisu, więc są odznaczone;}}"
 
+#. placeholder {0}: status.kept
+#: src/Server.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# barcode lookup} other {# barcode lookups}}"
+msgid "{0, plural, one {# looked up} other {# looked up}}"
+msgstr ""
+"{0, plural, one {# wyszukanie kodu kreskowego} few {# wyszukania kodów "
+"kreskowych} many {# wyszukań kodów kreskowych} other {# wyszukania kodów "
+"kreskowych}}"
+
 #. placeholder {0}: lostOrStolen.length
 #: src/Gone.tsx
 msgid ""
@@ -595,6 +594,15 @@ msgid "{0, plural, one {# photo} other {# photos}}"
 msgstr ""
 "{0, plural, one {# zdjęcie} few {# zdjęcia} many {# zdjęć} other {# zdjęcia}}"
 
+#. placeholder {0}: c.pieces
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# device} other {# devices}}"
+msgid "{0, plural, one {# piece} other {# pieces}}"
+msgstr ""
+"{0, plural, one {# urządzenie} few {# urządzenia} many {# urządzeń} other {# "
+"urządzenia}}"
+
 #. placeholder {0}: n.children.length
 #: src/Browse.tsx
 msgid "{0, plural, one {# place inside} other {# places inside}}"
@@ -608,6 +616,15 @@ msgid "{0, plural, one {# possible duplicate} other {# possible duplicates}}"
 msgstr ""
 "{0, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
 "możliwych duplikatów} other {# możliwego duplikatu}}"
+
+#. placeholder {0}: changes.length
+#: src/Cards.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# brand checked} other {# brands checked}}"
+msgid "{0, plural, one {# price has changed:} other {# prices have changed:}}"
+msgstr ""
+"{0, plural, one {Sprawdzono # markę} few {Sprawdzono # marki} many "
+"{Sprawdzono # marek} other {Sprawdzono # marki}}"
 
 #. placeholder {0}: s.products
 #: src/Server.tsx
@@ -957,6 +974,17 @@ msgstr ""
 "{Utworzono # miejsc} other {Utworzono # miejsca}}"
 
 #. placeholder {0}: row.candidates.length - 1
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid ""
+#| "{0, plural, one {# thing to check here.} other {# things to check here.}}"
+msgid "{0, plural, one {Not this one? # other} other {Not this one? # others}}"
+msgstr ""
+"{0, plural, one {# rzecz do sprawdzenia tutaj.} few {# rzeczy do sprawdzenia "
+"tutaj.} many {# rzeczy do sprawdzenia tutaj.} other {# rzeczy do sprawdzenia "
+"tutaj.}}"
+
+#. placeholder {0}: row.candidates.length - 1
 #: src/CardScan.tsx
 #, fuzzy
 #| msgid ""
@@ -1044,6 +1072,14 @@ msgid "{0, plural, one {Save # card} other {Save # cards}}"
 msgstr ""
 "{0, plural, one {Utworzono # miejsce} few {Utworzono # miejsca} many "
 "{Utworzono # miejsc} other {Utworzono # miejsca}}"
+
+#. placeholder {0}: toSave.length
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# thing} other {# things}}"
+msgid "{0, plural, one {Save # thing} other {Save # things}}"
+msgstr ""
+"{0, plural, one {# rzecz} few {# rzeczy} many {# rzeczy} other {# rzeczy}}"
 
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
@@ -1155,9 +1191,7 @@ msgstr "{change} · zostało {quantity}"
 #| msgid ""
 #| "{0, plural, one {Checking one more possible match…} other {Checking # "
 #| "more possible matches…}}"
-msgid ""
-"{checking, plural, one {Checking today's price of # card…} other {Checking "
-"today's prices of # cards…}}"
+msgid "{checking, plural, one {Checking # price…} other {Checking # prices…}}"
 msgstr ""
 "{0, plural, one {Sprawdzam jeszcze jedno możliwe dopasowanie…} few "
 "{Sprawdzam jeszcze # możliwe dopasowania…} many {Sprawdzam jeszcze # "
@@ -1181,6 +1215,20 @@ msgid ""
 msgstr ""
 "Do potwierdzenia: {count, plural, one {# sugestia AI} few {# sugestie AI} "
 "many {# sugestii AI} other {# sugestii AI}}"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{count, plural, one {a month} other {# months}}"
+msgid "{count, plural, one {# coin} other {# coins}}"
+msgstr ""
+"{count, plural, one {miesiąc} few {# miesiące} many {# miesięcy} other {# "
+"miesiąca}}"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{n, plural, one {# mile} other {# miles}}"
+msgid "{count, plural, one {# comic} other {# comics}}"
+msgstr "{n, plural, one {# mila} few {# mile} many {# mil} other {# mili}}"
 
 #: ../server/src/lib/attention.ts
 msgid ""
@@ -1222,6 +1270,14 @@ msgid ""
 msgstr ""
 "{count, plural, one {# możliwy duplikat} few {# możliwe duplikaty} many {# "
 "możliwych duplikatów} other {# możliwego duplikatu}}"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# sheet} other {# sheets}}"
+msgid "{count, plural, one {# set} other {# sets}}"
+msgstr ""
+"{0, plural, one {# arkusz} few {# arkusze} many {# arkuszy} other {# "
+"arkusza}}"
 
 #: ../server/src/lib/attention.ts
 msgid ""
@@ -1914,6 +1970,14 @@ msgstr ""
 "{saved, plural, one {Nazwano # rzecz} few {Nazwano # rzeczy} many {Nazwano # "
 "rzeczy} other {Nazwano # rzeczy}}"
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "{saved, plural, one {# thing named} other {# things named}}"
+msgid "{saved, plural, one {# thing added.} other {# things added.}}"
+msgstr ""
+"{saved, plural, one {Nazwano # rzecz} few {Nazwano # rzeczy} many {Nazwano # "
+"rzeczy} other {Nazwano # rzeczy}}"
+
 #: src/Walkthrough.tsx
 msgid "{saved, plural, one {# thing named} other {# things named}}"
 msgstr ""
@@ -1923,6 +1987,16 @@ msgstr ""
 #: src/Offline.tsx
 msgid "{saved} — each will be a \"New item\" to name."
 msgstr "{saved} — każde stanie się „New item” do nazwania."
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "New API key"
+msgid "{service} API key"
+msgstr "Nowy klucz API"
+
+#: src/Collectibles.tsx
+msgid "{service} can't be reached right now."
+msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "{service} is failing"
@@ -2827,9 +2901,19 @@ msgstr "około {amount} rocznie"
 msgid "about {amount} to replace"
 msgstr "około {amount} za nową"
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Not placed"
+msgid "About {price}"
+msgstr "Bez miejsca"
+
 #: src/Collections.tsx
 msgid "About it <0>(optional)</0>"
 msgstr "Opis <0>(opcjonalnie)</0>"
+
+#: src/Collectibles.tsx
+msgid "About uncirculated (AU)"
+msgstr ""
 
 #: ../server/src/lib/invitation-email.ts
 msgid "Accept the invitation"
@@ -2903,6 +2987,12 @@ msgstr "Dodaj {step} do {name} (teraz {after}"
 #: src/ScanSession.tsx
 msgid "Add {step} to which?"
 msgstr "Do której dodać {step}?"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Add things"
+msgid "Add {thing}"
+msgstr "Dodaj rzeczy"
 
 #: src/SuggestedMaintenance.tsx
 msgid "Add {title}"
@@ -3146,6 +3236,14 @@ msgstr "Dodaj szablon"
 msgid "Add the card's picture"
 msgstr ""
 
+#: src/Collectibles.tsx
+msgid "Add the catalog's picture"
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid "Add the catalog's picture as each one's photo"
+msgstr ""
+
 #: src/Files.tsx
 msgid "Add the invoice or photos"
 msgstr "Dodaj fakturę lub zdjęcia"
@@ -3284,6 +3382,12 @@ msgstr "Dodane przez Claude’a"
 msgid "Added by scanning"
 msgstr "Dodane przez skanowanie"
 
+#: src/lib/origin.ts
+#, fuzzy
+#| msgid "Added from a receipt"
+msgid "Added from a collector catalog"
+msgstr "Dodane z paragonu"
+
 #: ../server/src/lib/attention.ts
 msgid "Added from a photo — confirm what it is"
 msgstr "Dodane ze zdjęcia — potwierdź, co to jest"
@@ -3388,6 +3492,15 @@ msgstr "Dodaje i zmienia rzeczy"
 #: src/Household.tsx
 msgid "Adds and changes things, invites and manages people"
 msgstr "Dodaje i zmienia rzeczy, zaprasza ludzi i nimi zarządza"
+
+#: src/Server.tsx
+msgid ""
+"Adds LEGO sets, coins and comics to + Add, looked up with their pictures and "
+"details — and coins' prices by grade. Each catalog needs a free key from an "
+"account there: paste it here and that catalog is on. Only the words people "
+"search for are sent; reading a photo uses this server's vision model and "
+"counts as an AI action."
+msgstr ""
 
 #: src/Household.tsx
 msgid "Admin"
@@ -3679,6 +3792,12 @@ msgstr "Odpowiedź AI na podstawie twojego spisu — sprawdź źródła."
 
 #: src/Everything.tsx
 msgid "Any category"
+msgstr "Dowolna kategoria"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Any category"
+msgid "Any country"
 msgstr "Dowolna kategoria"
 
 #: src/Import.tsx
@@ -4131,6 +4250,11 @@ msgstr "Według kategorii"
 msgid "by Claude"
 msgstr "przez Claude’a"
 
+#: src/Nav.tsx
+msgid ""
+"By country, year and name, or a photo — from Numista, with prices by grade"
+msgstr ""
+
 #: src/Demo.tsx
 msgid "By day (UTC)"
 msgstr "Według dni (UTC)"
@@ -4158,6 +4282,14 @@ msgstr "Według pomieszczeń"
 #: src/lib/origin.ts
 msgid "by scanning its barcode"
 msgstr "przez zeskanowanie kodu kreskowego"
+
+#: src/Nav.tsx
+msgid "By series and issue number, or a photo of the cover — from Comic Vine"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "By set number or name, or a photo of the box — from Rebrickable"
+msgstr ""
 
 #: src/Maintenance.tsx
 msgid "By use (miles, hours…)"
@@ -4328,6 +4460,12 @@ msgstr "Zmień"
 msgid "Change {name}"
 msgstr "Zmień {name}"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Change"
+msgid "Change key"
+msgstr "Zmień"
+
 #: src/Paperless.tsx
 msgid "Change…"
 msgstr "Zmień…"
@@ -4342,6 +4480,12 @@ msgstr "Sprawdź"
 
 #: src/Server.tsx
 msgid "Check again"
+msgstr "Sprawdź ponownie"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Check again"
+msgid "Check and save"
 msgstr "Sprawdź ponownie"
 
 #: src/ImportCsv.tsx
@@ -4363,6 +4507,10 @@ msgstr "Sprawdź gaśnice"
 #: src/Paperless.tsx src/Server.tsx
 msgid "Check now"
 msgstr "Sprawdź teraz"
+
+#: src/CollectibleScan.tsx
+msgid "Check the list, then save them all; nothing is added until you do."
+msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "Check what AI filled in and read off your photos and receipts"
@@ -4458,7 +4606,7 @@ msgstr "Wybierz tag"
 msgid "Choose categories"
 msgstr "Wybierz kategorie"
 
-#: src/CardScan.tsx src/RoomScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/RoomScan.tsx
 msgid "Choose photos"
 msgstr "Wybierz zdjęcia"
 
@@ -4550,8 +4698,8 @@ msgstr "Wyczyść skraplacz lodówki"
 msgid "Cleaner"
 msgstr "Sprzątanie"
 
-#: src/CardScan.tsx src/Everything.tsx src/MusicScan.tsx src/Search.tsx
-#: src/StarterTasks.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Everything.tsx
+#: src/MusicScan.tsx src/Search.tsx src/StarterTasks.tsx
 msgid "Clear"
 msgstr "Wyczyść"
 
@@ -4579,7 +4727,7 @@ msgstr ""
 "Wyczyścić indeks i ponownie osadzić wszystkie rzeczy ({things})? Do końca "
 "inteligentne wyszukiwanie znajdzie tylko rzeczy już osadzone."
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 msgid "Clear the list? Nothing in it has been saved."
 msgstr ""
 
@@ -4624,6 +4772,16 @@ msgstr "Kod z aplikacji uwierzytelniającej"
 msgid "coffee maker"
 msgstr "ekspres do kawy"
 
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "e.g. Coin"
+msgid "Coin"
+msgstr "np. Moneta"
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Coins"
+msgstr ""
+
 #: src/Collections.tsx
 msgid ""
 "Coins, dolls, trading cards, records — keep them together, with the details "
@@ -4634,11 +4792,15 @@ msgstr ""
 "szczegółami ważnymi dla danego rodzaju (rok, stan, wydanie…), ich wartością "
 "i listą tych, których jeszcze szukasz."
 
+#: src/Cards.tsx
+msgid "Coins: Numista's estimates for their year, mint and grade."
+msgstr ""
+
 #: src/Nav.tsx
 msgid "Collapse"
 msgstr "Zwiń"
 
-#: src/CardScan.tsx src/Collections.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx
 msgid "Collection"
 msgstr "Kolekcja"
 
@@ -4646,9 +4808,23 @@ msgstr "Kolekcja"
 msgid "Collections"
 msgstr "Kolekcje"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Collections"
+msgid "Collector catalogs"
+msgstr "Kolekcje"
+
 #: src/ImportCsv.tsx
 msgid "Column {number}"
 msgstr "Kolumna {number}"
+
+#: src/Collectibles.tsx
+msgid "Comic"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "Comics"
+msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Coming up"
@@ -4871,6 +5047,12 @@ msgstr "Nie udało się otworzyć tego pliku."
 msgid "Couldn't read a card in that photo."
 msgstr "Nie udało się odczytać tego zdjęcia: {error}"
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Couldn't read that photo: {error}"
+msgid "Couldn't read anything to look up in that photo."
+msgstr "Nie udało się odczytać tego zdjęcia: {error}"
+
 #: src/Scanner.tsx
 msgid "Couldn't read barcodes here: {error}"
 msgstr "Nie da się tu odczytywać kodów kreskowych: {error}"
@@ -4888,6 +5070,12 @@ msgstr "Nie udało się odczytać tego zdjęcia: {error}"
 
 #: src/Scanner.tsx
 msgid "Couldn't read that photo: {error}"
+msgstr "Nie udało się odczytać tego zdjęcia: {error}"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Couldn't read that photo: {error}"
+msgid "Couldn't read that photo."
 msgstr "Nie udało się odczytać tego zdjęcia: {error}"
 
 #: src/Demo.tsx
@@ -4918,8 +5106,14 @@ msgstr "Licz też to, co mówią instrukcje i paragony"
 msgid "Count with {text}"
 msgstr "Licz kodem {text}"
 
-#: src/Places.tsx
+#: src/CollectibleScan.tsx src/Places.tsx
 msgid "Country"
+msgstr "Kraj"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Country"
+msgid "Country (any)"
 msgstr "Kraj"
 
 #: src/Demo.tsx
@@ -5342,7 +5536,7 @@ msgstr "Gotowe"
 msgid "Done before"
 msgstr "Zrobione wcześniej"
 
-#: src/CardScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx
 #, fuzzy
 #| msgid "Done on"
 msgid "Done choosing"
@@ -5632,6 +5826,10 @@ msgstr "np. sąsiadowi, na OLX"
 msgid "e.g. Top shelf"
 msgstr "np. Górna półka"
 
+#: src/CollectibleScan.tsx
+msgid "e.g. Washington quarter"
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "e.g. Wouldn't drain, error E21"
 msgstr "np. Nie odpompowywała wody, błąd E21"
@@ -5830,6 +6028,10 @@ msgstr ""
 "Oszacowane przez AI — sprawdź przed użyciem. Zastosowanie ustawia koszt "
 "odkupienia, a także wartość, jeśli jej brak."
 
+#: src/Collectibles.tsx
+msgid "estimated value today (Numista)"
+msgstr ""
+
 #: src/Overview.tsx
 msgid "Estimates from how long things usually last."
 msgstr "Szacunki na podstawie tego, ile rzeczy zwykle wytrzymują."
@@ -5853,10 +6055,6 @@ msgstr "co 2 tygodnie"
 #: src/Loans.tsx
 msgid "Every 2 weeks"
 msgstr "Co 2 tygodnie"
-
-#: src/Cards.tsx
-msgid "Every card's value already matches today's price."
-msgstr ""
 
 #: src/Webhooks.tsx
 msgid ""
@@ -5903,6 +6101,10 @@ msgid ""
 "Every thing without a value has an estimate already — they're under To "
 "confirm."
 msgstr "Każda rzecz bez wartości ma już wycenę — są w Do potwierdzenia."
+
+#: src/Cards.tsx
+msgid "Every value already matches today's price."
+msgstr ""
 
 #: src/Loans.tsx
 msgid "every week"
@@ -6089,6 +6291,10 @@ msgstr "Wygasa {formatDate}"
 #: src/Catalog.tsx
 msgid "Extra fields for its items"
 msgstr "Dodatkowe pola dla jej rzeczy"
+
+#: src/Collectibles.tsx
+msgid "Extremely fine (XF)"
+msgstr ""
 
 #: ../server/src/lib/attention.ts
 msgid "Failed since {date}"
@@ -6414,7 +6620,7 @@ msgstr "Filtruj i sortuj"
 msgid "Filters"
 msgstr "Filtry"
 
-#: src/CardScan.tsx src/Offline.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Offline.tsx
 msgid "Find"
 msgstr "Znajdź"
 
@@ -6450,6 +6656,10 @@ msgstr "Znajdź rzeczy"
 #: src/DocumentViewer.tsx
 msgid "Finding “{find}”…"
 msgstr "Szukam „{find}”…"
+
+#: src/Collectibles.tsx
+msgid "Fine (F)"
+msgstr ""
 
 #: src/CardScan.tsx
 #, fuzzy
@@ -6664,6 +6874,12 @@ msgid "From {source} — check before applying."
 msgstr "Z {source} — sprawdź przed zastosowaniem."
 
 #: src/lib/origin.ts
+#, fuzzy
+#| msgid "from a room scan"
+msgid "from a collector catalog"
+msgstr "ze skanowania pomieszczenia"
+
+#: src/lib/origin.ts
 msgid "from a Paperless document"
 msgstr "z dokumentu w Paperless"
 
@@ -6775,6 +6991,11 @@ msgstr "Oddałem(-am)"
 msgid "generator"
 msgstr "agregat prądotwórczy"
 
+#. placeholder {0}: c.service
+#: src/Server.tsx
+msgid "Get one free at <0>{0}</0> after signing in."
+msgstr ""
+
 #: src/Notifications.tsx
 msgid ""
 "Get the same daily reminder in ntfy, Pushover, Telegram, email and <0>100+ "
@@ -6851,6 +7072,12 @@ msgstr "Już nie ma…"
 msgid "Good"
 msgstr "Dobry"
 
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Good"
+msgid "Good (G)"
+msgstr "Dobry"
+
 #: src/lib/words.ts
 msgid "Good condition"
 msgstr "Stan dobry"
@@ -6866,6 +7093,18 @@ msgstr "odzyskano {amount}"
 #: src/Collections.tsx
 msgid "Got it"
 msgstr "Mam"
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Trade"
+msgid "Grade"
+msgstr "Branża"
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Trade"
+msgid "Grade…"
+msgstr "Branża"
 
 #: src/lib/words.ts
 msgid "grill"
@@ -7027,8 +7266,8 @@ msgstr "Gospodarstwa domowe"
 msgid "Households nobody is a member of — nobody can open them."
 msgstr "Gospodarstwa domowe bez żadnych członków — nikt nie może ich otworzyć."
 
-#: src/CardScan.tsx src/Collections.tsx src/Labels.tsx src/Maintenance.tsx
-#: src/ReceiptLines.tsx src/RoomScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx src/Labels.tsx
+#: src/Maintenance.tsx src/ReceiptLines.tsx src/RoomScan.tsx
 msgid "How many"
 msgstr "Ile"
 
@@ -7981,6 +8220,14 @@ msgstr "Opuść to gospodarstwo domowe"
 msgid "Leave?"
 msgstr "Opuścić?"
 
+#: src/Collectibles.tsx
+msgid "LEGO set"
+msgstr ""
+
+#: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
+msgid "LEGO sets"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Lend or borrow {itemName}"
 msgstr "Pożycz komuś lub od kogoś: {itemName}"
@@ -8119,6 +8366,12 @@ msgstr "Listy"
 
 #: src/DeleteForGood.tsx src/PlanUsage.tsx
 msgid "Loading"
+msgstr "Ładowanie"
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Loading"
+msgid "Loading…"
 msgstr "Ładowanie"
 
 #: src/Providers.tsx
@@ -8803,6 +9056,10 @@ msgid "No codes yet — scanning one can count it in or out."
 msgstr ""
 "Na razie brak kodów — zeskanowanie kodu może dodawać lub odejmować ze stanu."
 
+#: src/CollectibleScan.tsx
+msgid "No coins found. Try fewer words, another year, or pick the country."
+msgstr ""
+
 #: src/ItemPage.tsx src/ItemRow.tsx
 msgid "No details yet"
 msgstr "Na razie brak szczegółów"
@@ -8820,6 +9077,12 @@ msgstr "Jeszcze bez miejsca"
 #: src/Server.tsx
 msgid "No errors."
 msgstr "Żadnych błędów."
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Not this estimate for {name}"
+msgid "No estimate for this grade"
+msgstr "Nie ta wycena dla {name}"
 
 #: src/Templates.tsx
 msgid "No fields yet"
@@ -8893,7 +9156,7 @@ msgstr "Jeszcze bez zdjęcia"
 msgid "No photos yet. A photo makes it easy to recognise later."
 msgstr "Na razie brak zdjęć. Zdjęcie ułatwi rozpoznanie tej rzeczy później."
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 #, fuzzy
 #| msgid "Not placed"
 msgid "No place"
@@ -8959,10 +9222,6 @@ msgstr "Nie, dziękuję"
 msgid "No things match"
 msgstr "Żadne rzeczy nie pasują"
 
-#: src/Cards.tsx
-msgid "No trading cards in this collection yet."
-msgstr ""
-
 #: src/Overview.tsx
 msgid "No value or price"
 msgstr "Brak wartości ani ceny"
@@ -8991,7 +9250,8 @@ msgstr "Nikt jeszcze nie został wskazany"
 msgid "none"
 msgstr "brak"
 
-#: src/CardScan.tsx src/Collections.tsx src/Templates.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx
+#: src/Templates.tsx
 msgid "None"
 msgstr "Brak"
 
@@ -9295,6 +9555,10 @@ msgstr ""
 "Na razie nic nie naprawiano. Gdy coś będzie, zapisz to tutaj — liczy się do "
 "tego, ile kosztowało posiadanie tej rzeczy."
 
+#: src/CollectibleScan.tsx
+msgid "Nothing found for \"{words}\" — fix the words and look again."
+msgstr ""
+
 #: ../server/src/lib/attention.ts
 msgid "Nothing found yet — add what's there"
 msgstr "Na razie nic nie znaleziono — dodaj, co tam jest"
@@ -9302,6 +9566,10 @@ msgstr "Na razie nic nie znaleziono — dodaj, co tam jest"
 #: ../server/src/lib/attention.ts
 msgid "Nothing found yet in {place} — add what's there"
 msgstr "Na razie nic nie znaleziono w: {place} — dodaj, co tam jest"
+
+#: src/CollectibleScan.tsx
+msgid "Nothing found. Check the spelling, or try fewer words."
+msgstr ""
 
 #: src/App.tsx
 msgid "Nothing has barcode"
@@ -9342,6 +9610,10 @@ msgstr "Na razie nic tu nie ma — dodaj pierwszą."
 #: src/Paperless.tsx
 msgid "Nothing in Paperless matches that."
 msgstr "Nic w Paperless do tego nie pasuje."
+
+#: src/Cards.tsx
+msgid "Nothing in this collection has a market price yet."
+msgstr ""
 
 #: src/ItemSearch.tsx
 msgid "Nothing in this item's documents, warranties or notes says “{q}”."
@@ -9528,6 +9800,10 @@ msgstr "Teraz nieznany"
 msgid "Numbers, Excel or Google Sheets: File → Export / Download → CSV."
 msgstr "Numbers, Excel lub Arkusze Google: Plik → Eksportuj / Pobierz → CSV."
 
+#: src/Collectibles.tsx
+msgid "Numista has no price for this coin in this grade."
+msgstr ""
+
 #: src/Usage.tsx
 msgid "Odometer"
 msgstr "Licznik przebiegu"
@@ -9568,6 +9844,12 @@ msgstr "Przy: {0}"
 #: ../server/src/lib/attention.ts
 msgid "On {date} ({device}) — time to plan a replacement"
 msgstr ""
+
+#: src/Collectibles.tsx src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Service"
+msgid "On {service}"
+msgstr "Serwis"
 
 #: src/Videos.tsx
 msgid "On {thing}:"
@@ -9691,7 +9973,7 @@ msgstr ""
 "wycofania produktów, luki w ubezpieczeniu, czekające reklamacje, rzeczy do "
 "nazwania, co jest pożyczone. Przychodzi tam, gdzie twoje przypomnienia."
 
-#: src/CardScan.tsx src/Shopping.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Shopping.tsx
 msgid "One fewer"
 msgstr "Jedna mniej"
 
@@ -9703,7 +9985,7 @@ msgstr "jeden okres od dzisiaj"
 msgid "One moment…"
 msgstr "Chwileczkę…"
 
-#: src/CardScan.tsx src/Shopping.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Shopping.tsx
 msgid "One more"
 msgstr "Jedna więcej"
 
@@ -10084,6 +10366,12 @@ msgstr "Po typowej żywotności"
 msgid "Paste it, then <0>Subscribe</0> and <1>OK</1>"
 msgstr "Wklej go, potem <0>Subskrybuj</0> i <1>OK</1>"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "New API key"
+msgid "Paste the API key"
+msgstr "Nowy klucz API"
+
 #: src/Webhooks.tsx
 msgid "Pause"
 msgstr "Wstrzymaj"
@@ -10140,10 +10428,28 @@ msgstr "Zdjęcie pomieszczenia {number}"
 msgid "Photograph"
 msgstr "Fotografuj"
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Photograph more"
+msgid "Photograph a box"
+msgstr "Fotografuj dalej"
+
 #: src/CardScan.tsx
 #, fuzzy
 #| msgid "Photograph more"
 msgid "Photograph a card"
+msgstr "Fotografuj dalej"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Photograph more"
+msgid "Photograph a coin"
+msgstr "Fotografuj dalej"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Photograph more"
+msgid "Photograph a cover"
 msgstr "Fotografuj dalej"
 
 #: src/Walkthrough.tsx
@@ -10159,11 +10465,29 @@ msgstr ""
 msgid "Photograph a room's things, then name them"
 msgstr "Fotografuj rzeczy w pomieszczeniu, a potem je nazwij"
 
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each box (or its instructions) so the set number shows, or type "
+"the number or name. Sets come from Rebrickable."
+msgstr ""
+
 #: src/CardScan.tsx
 msgid ""
 "Photograph each card, front on and filling the photo — Ferret reads its name "
 "and number while you take the next. Or type it. Check the list, then save "
 "them all; nothing is added until you do."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each coin, or type its country, year and name. Coins come from "
+"Numista, with an estimate for each year and grade."
+msgstr ""
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Photograph each cover, or type the series and issue number. Comics come from "
+"Comic Vine."
 msgstr ""
 
 #: src/Walkthrough.tsx
@@ -10240,6 +10564,10 @@ msgstr "Wybierz miejsce"
 #: src/Walkthrough.tsx
 msgid "Pick a room"
 msgstr "Wybierz pomieszczenie"
+
+#: src/Collectibles.tsx
+msgid "Picture: {by} on Numista"
+msgstr ""
 
 #: src/Duplicates.tsx src/Everything.tsx
 msgid "Place"
@@ -10638,9 +10966,13 @@ msgstr "Czytam jej dokumenty…"
 msgid "Reading the card…"
 msgstr "Odczytuję zdjęcie…"
 
-#: src/Walkthrough.tsx
+#: src/CollectibleScan.tsx src/Walkthrough.tsx
 msgid "Reading the photo…"
 msgstr "Odczytuję zdjęcie…"
+
+#: src/CollectibleScan.tsx
+msgid "Reading took too long — try another photo, or type it."
+msgstr ""
 
 #: src/CardScan.tsx
 msgid "Reading took too long — try another photo, or type its name."
@@ -10843,6 +11175,12 @@ msgstr "Usuń gwarancję: {provider}"
 msgid "Remove {reading} on {date}?"
 msgstr "Usunąć {reading} z {date}?"
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Remove this template"
+msgid "Remove {thing} from the list"
+msgstr "Usuń ten szablon"
+
 #: src/Videos.tsx
 msgid "Remove {title}"
 msgstr "Usuń „{title}”"
@@ -10898,6 +11236,12 @@ msgstr "Usuń tag {tag}"
 #: src/Pairing.tsx
 msgid "Remove the {kind} code for {title}"
 msgstr "Usuń kod {kind} dla {title}"
+
+#: src/Server.tsx
+msgid ""
+"Remove the {service} key? People won't be able to look things up there until "
+"a key is saved again."
+msgstr ""
 
 #: src/Usage.tsx
 msgid "Remove the reading of {describeUsage}"
@@ -11294,7 +11638,7 @@ msgstr "Już wcześniej zapisane w Ferret"
 msgid "Saved the pairing code to {name}"
 msgstr "Zapisano kod parowania przy: {name}"
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 #, fuzzy
 #| msgid "Adding {number} of {total}…"
 msgid "Saving {done} of {total}…"
@@ -11561,7 +11905,7 @@ msgstr "gwarancja do {date}"
 msgid "See all"
 msgstr "Zobacz wszystko"
 
-#: src/CardScan.tsx src/MusicScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
 #, fuzzy
 #| msgid "See them all"
 msgid "See them"
@@ -11694,6 +12038,10 @@ msgstr "Numer seryjny (cenne rzeczy)"
 msgid "Serial: {serialNumber}"
 msgstr "Nr seryjny: {serialNumber}"
 
+#: src/CollectibleScan.tsx
+msgid "Series and issue, e.g. Amazing Spider-Man 300"
+msgstr ""
+
 #: src/Settings.tsx
 msgid "Server"
 msgstr "Serwer"
@@ -11749,6 +12097,10 @@ msgstr "Ustaw adres Ferret (PUBLIC_URL)"
 #: src/App.tsx
 msgid "Set new password"
 msgstr "Ustaw nowe hasło"
+
+#: src/CollectibleScan.tsx
+msgid "Set number or name, e.g. 75192"
+msgstr ""
 
 #: src/Everything.tsx
 msgid "Set the category"
@@ -12284,7 +12636,7 @@ msgstr "Nadal tutaj"
 msgid "Still here, with what's inside"
 msgstr "Nadal tutaj, razem z zawartością"
 
-#: src/CardScan.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx
 #, fuzzy
 #| msgid "the thing"
 msgid "Still nothing"
@@ -13049,6 +13401,18 @@ msgstr ""
 "To może potrwać kilka minut. Możesz wyjść — dzwonek powie, kiedy będzie "
 "gotowe do przejrzenia."
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid ""
+#| "You're this server's admin. Hand that over to someone else first "
+#| "(Settings → Server)."
+msgid ""
+"This catalog isn't switched on on this server. Its admin can add its key in "
+"Settings → Server."
+msgstr ""
+"Jesteś administratorem tego serwera. Najpierw przekaż tę rolę komuś innemu "
+"(Ustawienia → Serwer)."
+
 #: src/DeleteForGood.tsx
 msgid ""
 "This deletes <0>{householdName}</0> and everything in it, for good. It can't "
@@ -13133,6 +13497,12 @@ msgid ""
 "in screen."
 msgstr ""
 "Ten link został już użyty lub wygasł — poproś o nowy na ekranie logowania."
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Which one"
+msgid "This one"
+msgstr "Która"
 
 #: src/Report.tsx
 msgid "this property"
@@ -13473,6 +13843,10 @@ msgstr "Taśma TZe 18 mm (długość 50 mm)"
 msgid "TZe 24 mm tape (60 mm long)"
 msgstr "Taśma TZe 24 mm (długość 60 mm)"
 
+#: src/Collectibles.tsx
+msgid "Uncirculated (UNC)"
+msgstr ""
+
 #: src/Stock.tsx
 msgid "undo"
 msgstr "cofnięcie"
@@ -13541,7 +13915,7 @@ msgstr "Do "
 msgid "Until {formatDate}"
 msgstr "Do {formatDate}"
 
-#: src/Cards.tsx
+#: src/Cards.tsx src/Collectibles.tsx
 #, fuzzy
 #| msgid "No value or price"
 msgid "Update its value to {price}"
@@ -13622,7 +13996,7 @@ msgstr "Użyj {amount}"
 msgid "Use {amount} for {name}"
 msgstr "Użyj {amount} dla {name}"
 
-#: src/Cards.tsx
+#: src/Cards.tsx src/Collectibles.tsx
 msgid "Use {price} as its value"
 msgstr ""
 
@@ -13675,6 +14049,12 @@ msgstr "Użyj przycięcia"
 #: src/Boxes.tsx
 msgid "Use it"
 msgstr "Użyj jej"
+
+#: src/CollectibleScan.tsx
+msgid ""
+"Use Numista's estimate as each coin's value (once its year and grade are "
+"chosen)"
+msgstr ""
 
 #: src/Stock.tsx
 msgid "Use one {name}"
@@ -13795,6 +14175,14 @@ msgstr "Pojazd"
 #: src/Server.tsx
 msgid "Vehicle look-ups"
 msgstr "Wyszukiwanie pojazdów"
+
+#: src/Collectibles.tsx
+msgid "Very fine (VF)"
+msgstr ""
+
+#: src/Collectibles.tsx
+msgid "Very good (VG)"
+msgstr ""
 
 #: src/Collections.tsx
 msgid "View"
@@ -14002,6 +14390,12 @@ msgstr ""
 "To, co AI odczyta ze zdjęć i paragonów, oraz oszacowane przez nie wartości "
 "czekają tutaj, aż ktoś je zastosuje albo odrzuci."
 
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "Which one are you moving?"
+msgid "What are you adding?"
+msgstr "Którą rzecz przenosisz?"
+
 #: src/Labels.tsx
 msgid "What did you stick it on?"
 msgstr "Na czym ją naklejono?"
@@ -14070,6 +14464,12 @@ msgstr "Ile kosztowałoby ich odkupienie"
 
 #: src/ImportCsv.tsx
 msgid "What to import"
+msgstr "Co zaimportować"
+
+#: src/CollectibleScan.tsx
+#, fuzzy
+#| msgid "What to import"
+msgid "What to look up"
 msgstr "Co zaimportować"
 
 #: src/Repairs.tsx
@@ -14178,7 +14578,8 @@ msgstr "Dokąd trafią pomieszczenia z {name}"
 msgid "Where {things} go"
 msgstr "Dokąd trafią {things}"
 
-#: src/CardScan.tsx src/MusicScan.tsx src/ReceiptLines.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/MusicScan.tsx
+#: src/ReceiptLines.tsx
 msgid "Where are they?"
 msgstr "Gdzie są?"
 
@@ -14478,6 +14879,20 @@ msgstr "X-HM://…, MT:…, 123-45-678"
 msgid "yard tool"
 msgstr "narzędzie ogrodowe"
 
+#: src/CollectibleScan.tsx
+msgid "Year"
+msgstr ""
+
+#: src/Collectibles.tsx
+#, fuzzy
+#| msgid "Year built"
+msgid "Year and mint"
+msgstr "Rok budowy"
+
+#: src/Collectibles.tsx
+msgid "Year and mint…"
+msgstr ""
+
 #: src/Places.tsx
 msgid "Year built"
 msgstr "Rok budowy"
@@ -14502,8 +14917,8 @@ msgstr "Masz już wszystkie."
 msgid "You can disconnect it any time in Settings → Claude & API."
 msgstr "Możesz ją odłączyć w każdej chwili w Ustawienia → Claude i API."
 
-#: src/CardScan.tsx src/Import.tsx src/MusicScan.tsx src/RoomScan.tsx
-#: src/Walkthrough.tsx
+#: src/CardScan.tsx src/CollectibleScan.tsx src/Import.tsx src/MusicScan.tsx
+#: src/RoomScan.tsx src/Walkthrough.tsx
 msgid "You can look around, but not add things, in this household."
 msgstr ""
 "W tym gospodarstwie domowym możesz się rozglądać, ale nie dodawać rzeczy."
