@@ -315,6 +315,24 @@ msgstr ""
 "kreskowych} many {# wyszukań kodów kreskowych} other {# wyszukania kodów "
 "kreskowych}}"
 
+#. placeholder {0}: l.bids ?? 0
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# brand checked} other {# brands checked}}"
+msgid "{0, plural, one {# bid, ends {when}} other {# bids, ends {when}}}"
+msgstr ""
+"{0, plural, one {Sprawdzono # markę} few {Sprawdzono # marki} many "
+"{Sprawdzono # marek} other {Sprawdzono # marki}}"
+
+#. placeholder {0}: l.bids ?? 0
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# job} other {# jobs}}"
+msgid "{0, plural, one {# bid} other {# bids}}"
+msgstr ""
+"{0, plural, one {# zlecenie} few {# zlecenia} many {# zleceń} other {# "
+"zlecenia}}"
+
 #. placeholder {0}: s.books
 #: src/Server.tsx
 msgid "{0, plural, one {# book found} other {# books found}}"
@@ -1094,6 +1112,15 @@ msgid "{0, plural, one {Save # thing} other {Save # things}}"
 msgstr ""
 "{0, plural, one {Zapisz # rzecz} few {Zapisz # rzeczy} many {Zapisz # "
 "rzeczy} other {Zapisz # rzeczy}}"
+
+#. placeholder {0}: s.total ?? 0
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "{0, plural, one {Show # more} other {Show # more}}"
+msgid "{0, plural, one {See # on eBay} other {See all # on eBay}}"
+msgstr ""
+"{0, plural, one {Pokaż jeszcze #} few {Pokaż jeszcze #} many {Pokaż jeszcze "
+"#} other {Pokaż jeszcze #}}"
 
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
@@ -2211,6 +2238,12 @@ msgstr "{why} Jeśli nadal go potrzebujesz, poproś {inviter} o nowy link."
 #: src/ItemEditor.tsx
 msgid "{years} (typical)"
 msgstr "{years} (typowo)"
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "{amount} to replace"
+msgid "+ {amount} postage"
+msgstr "{amount} za nową"
 
 #: src/Providers.tsx
 msgid "+ Add \"{name}\" as a provider"
@@ -4080,6 +4113,16 @@ msgstr "Zapytano — nowe sugestie pojawią się tutaj"
 #: src/SuggestedMaintenance.tsx
 msgid "Asked — suggestions appear here"
 msgstr "Zapytano — sugestie pojawią się tutaj"
+
+#: src/Ebay.tsx
+msgid "Asking {low} to {high} across the {n} closest listings."
+msgstr ""
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "Asking price"
+msgid "Asking {price}."
+msgstr "Cena wywoławcza"
 
 #: src/Listing.tsx
 msgid "Asking price"
@@ -6090,6 +6133,20 @@ msgstr ""
 msgid "each time"
 msgstr "za każdym razem"
 
+#: src/Server.tsx
+msgid "eBay App ID and Cert ID"
+msgstr ""
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "Couldn't send it — try again in a minute"
+msgid "eBay didn't answer just now — try again in a while."
+msgstr "Nie udało się wysłać — spróbuj ponownie za chwilę"
+
+#: src/Server.tsx
+msgid "eBay listings"
+msgstr ""
+
 #: src/Collections.tsx src/ItemPage.tsx src/Loans.tsx src/PayOff.tsx
 #: src/Providers.tsx src/Repairs.tsx
 msgid "Edit"
@@ -7101,6 +7158,16 @@ msgstr "Format"
 msgid "Format…"
 msgstr "Format…"
 
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "From the barcode"
+msgid "Found by its barcode."
+msgstr "Z kodu kreskowego"
+
+#: src/Ebay.tsx
+msgid "Found by its brand and model."
+msgstr ""
+
 #: src/lib/origin.ts
 msgid "Found in a room scan"
 msgstr "Znalezione podczas skanowania pomieszczenia"
@@ -7117,6 +7184,10 @@ msgstr "Znalezione"
 #: ../server/src/lib/attention.ts
 msgid "Found it, or is it lost for good?"
 msgstr "Znalazło się, czy zginęło na dobre?"
+
+#: src/Ebay.tsx
+msgid "free postage"
+msgstr ""
 
 #: src/lib/words.ts
 msgid "freezer"
@@ -8092,6 +8163,15 @@ msgstr ""
 #: src/NotFound.tsx
 msgid "It may have been removed, or it belongs to another household."
 msgstr "Mogło zostać usunięte albo należy do innego gospodarstwa domowego."
+
+#: src/Server.tsx
+msgid ""
+"It needs a free keyset from the eBay Developers Program "
+"(developer.ebay.com): the Production App ID and Cert ID, pasted with a space "
+"between them. In the keyset's Alerts & Notifications, turn on \"Exempted "
+"from Marketplace Account Deletion\" (Ferret keeps no eBay data) — eBay "
+"switches off keysets that neither do that nor receive its notifications."
+msgstr ""
 
 #: src/Reminders.tsx
 msgid "It opened another app, or asked to open Chrome?"
@@ -10020,6 +10100,10 @@ msgstr ""
 msgid "Nothing matches these filters."
 msgstr "Nic nie pasuje do tych filtrów."
 
+#: src/Ebay.tsx
+msgid "Nothing matching its brand and model is listed on eBay right now."
+msgstr ""
+
 #: src/Tracking.tsx
 msgid "Nothing missing"
 msgstr "Nic nie zaginęło"
@@ -10117,6 +10201,10 @@ msgstr ""
 #: src/Gone.tsx
 msgid "Nothing was marked donated in this year."
 msgstr "W tym roku nic nie oznaczono jako darowizny."
+
+#: src/Ebay.tsx
+msgid "Nothing with this barcode is listed on eBay right now."
+msgstr ""
 
 #: src/Offline.tsx
 msgid "Nothing yet."
@@ -10260,6 +10348,16 @@ msgstr ""
 msgid "on a room walkthrough"
 msgstr "podczas obchodu pomieszczenia"
 
+#: src/Server.tsx
+msgid ""
+"On a thing's page, and beside a listing the AI drafts, shows what the same "
+"thing is listed for on eBay right now — a few listings and the range of "
+"asking prices, found by its barcode or its brand and model number. Those are "
+"the only things sent, to the eBay of the household's country. Answers are "
+"kept in memory for an hour and never saved; nothing from eBay is written to "
+"a thing."
+msgstr ""
+
 #: src/Heirs.tsx
 msgid ""
 "On a thing's page, Edit → \"Goes to (heir)\" — then it's listed here under "
@@ -10267,6 +10365,12 @@ msgid ""
 msgstr ""
 "Na stronie rzeczy: Edytuj → „Przypada (spadkobierca)” — wtedy pojawi się "
 "tutaj pod tą osobą."
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "It says now"
+msgid "On eBay now"
+msgstr "Teraz pokazuje"
 
 #: src/Energy.tsx
 msgid "On ENERGY STAR"
@@ -11741,6 +11845,12 @@ msgstr ""
 "klucz nie zostanie zapisany ponownie."
 
 #: src/Server.tsx
+#, fuzzy
+#| msgid "Remove the EIA key? The cards won't show what energy costs."
+msgid "Remove the eBay keys? Things' pages won't show eBay listings."
+msgstr "Usunąć klucz EIA? Karty nie będą pokazywać kosztu energii."
+
+#: src/Server.tsx
 msgid "Remove the EIA key? The cards won't show what energy costs."
 msgstr "Usunąć klucz EIA? Karty nie będą pokazywać kosztu energii."
 
@@ -12352,6 +12462,12 @@ msgstr "Szukać i pytać o wszystko w {household}"
 #: src/PlanUsage.tsx
 msgid "Search by words; no AI."
 msgstr "Wyszukiwanie po słowach; bez AI."
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "Searches"
+msgid "Search eBay"
+msgstr "Wyszukiwania"
 
 #: src/ItemSearch.tsx
 msgid "Search everything for “{q}”"
@@ -13863,6 +13979,12 @@ msgstr "Nie ma tu żadnej strony"
 #: src/lib/words.ts
 msgid "thermostat"
 msgstr "termostat"
+
+#: src/Ebay.tsx
+msgid ""
+"These are asking prices, not what things sold for. Listings from eBay as of "
+"{when}."
+msgstr ""
 
 #: src/Household.tsx
 msgid "They can…"
