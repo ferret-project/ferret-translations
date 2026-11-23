@@ -3208,6 +3208,10 @@ msgstr ""
 msgid "already in Ferret"
 msgstr ""
 
+#: src/Listing.tsx
+msgid "Already listed:"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "Also by email"
 msgstr ""
@@ -4119,6 +4123,10 @@ msgstr ""
 msgid "Check columns and rows"
 msgstr ""
 
+#: src/Ebay.tsx
+msgid "Check eBay"
+msgstr ""
+
 #: src/StarterTasks.tsx
 msgid "Check fire extinguishers"
 msgstr ""
@@ -4161,6 +4169,10 @@ msgstr ""
 
 #: src/lib/last-scanned.ts
 msgid "Checked with its box in a room review {when} by {person}"
+msgstr ""
+
+#: src/Ebay.tsx
+msgid "Checking eBay…"
 msgstr ""
 
 #: src/ImportCsv.tsx
@@ -5455,6 +5467,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "eBay App ID and Cert ID"
+msgstr ""
+
+#: src/Ebay.tsx
+msgid "eBay didn't answer about your listing just now."
 msgstr ""
 
 #: src/Ebay.tsx
@@ -7267,6 +7283,12 @@ msgstr ""
 msgid "It isn't"
 msgstr ""
 
+#: src/Ebay.tsx
+msgid ""
+"It isn't on eBay any more — it sold or ended (or the link is wrong). <0>Open "
+"the link</0>"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "It isn't set, so signing in works from the local address Ferret is opened at "
@@ -7387,6 +7409,10 @@ msgstr ""
 
 #: src/Tracking.tsx
 msgid "It's lost"
+msgstr ""
+
+#: src/Ebay.tsx
+msgid "It's on eBay now — open it there."
 msgstr ""
 
 #: src/Offline.tsx
@@ -8270,6 +8296,10 @@ msgstr ""
 #. placeholder {0}: row.code
 #: src/MusicScan.tsx
 msgid "MusicBrainz doesn't know <0>{0}</0>."
+msgstr ""
+
+#: src/Links.tsx
+msgid "My listing — I'm selling it on {market}"
 msgstr ""
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
@@ -9375,6 +9405,10 @@ msgid ""
 msgstr ""
 
 #: src/Ebay.tsx
+msgid "On eBay"
+msgstr ""
+
+#: src/Ebay.tsx
 msgid "On eBay now"
 msgstr ""
 
@@ -10174,6 +10208,10 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "Possibly recalled — check the model"
+msgstr ""
+
+#: src/Listing.tsx
+msgid "Posted it? Paste your listing's link"
 msgstr ""
 
 #: src/lib/words.ts
@@ -11165,6 +11203,10 @@ msgstr ""
 msgid "Save crop"
 msgstr ""
 
+#: src/Listing.tsx
+msgid "Save link"
+msgstr ""
+
 #: src/Security.tsx
 msgid ""
 "Save these backup codes. Each one signs you in once if you lose your phone."
@@ -11455,6 +11497,14 @@ msgstr ""
 
 #: src/MusicScan.tsx
 msgid "See them there"
+msgstr ""
+
+#: src/Ebay.tsx
+msgid "See what it's listed for on eBay right now."
+msgstr ""
+
+#: src/Ebay.tsx
+msgid "See what others are asking for it on eBay."
 msgstr ""
 
 #: src/ImportHomeAssistant.tsx
@@ -11949,6 +11999,10 @@ msgstr ""
 
 #: src/Gone.tsx
 msgid "Sold it"
+msgstr ""
+
+#: src/Ebay.tsx
+msgid "Sold it?"
 msgstr ""
 
 #: src/lib/words.ts
@@ -14450,6 +14504,10 @@ msgid ""
 "Server)."
 msgstr ""
 
+#: src/Links.tsx
+msgid "Your {market} listing"
+msgstr ""
+
 #: src/DeleteForGood.tsx
 msgid ""
 "Your account is deleted for good, with any household only you are in. "
@@ -14503,6 +14561,10 @@ msgid ""
 "Your last dozen, and wrong passwords: when, from which network, and on what. "
 "After a few wrong passwords Ferret slows down that address and asks every "
 "browser for a quick automatic check."
+msgstr ""
+
+#: src/Ebay.tsx src/Links.tsx
+msgid "Your listing"
 msgstr ""
 
 #: src/App.tsx

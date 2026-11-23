@@ -3771,6 +3771,10 @@ msgstr "Już oddane albo nie chcesz tych przypomnień? Daj znać {who}:"
 msgid "already in Ferret"
 msgstr "już w Ferret"
 
+#: src/Listing.tsx
+msgid "Already listed:"
+msgstr ""
+
 #: src/PayOff.tsx
 msgid "Also by email"
 msgstr "Także e-mailem"
@@ -4743,6 +4747,12 @@ msgstr "Sprawdź uszczelnienia wokół wanien, umywalek i okien"
 msgid "Check columns and rows"
 msgstr "Sprawdź kolumny i wiersze"
 
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "Checked"
+msgid "Check eBay"
+msgstr "Sprawdzone"
+
 #: src/StarterTasks.tsx
 msgid "Check fire extinguishers"
 msgstr "Sprawdź gaśnice"
@@ -4790,6 +4800,12 @@ msgid "Checked with its box in a room review {when} by {person}"
 msgstr ""
 "Sprawdzone razem z pudełkiem podczas przeglądu pomieszczenia {when}, przez: "
 "{person}"
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "Backing up…"
+msgid "Checking eBay…"
+msgstr "Tworzę kopię…"
 
 #: src/ImportCsv.tsx
 msgid "Checking what's already in Ferret…"
@@ -6136,6 +6152,12 @@ msgstr "za każdym razem"
 #: src/Server.tsx
 msgid "eBay App ID and Cert ID"
 msgstr ""
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "Couldn't send it — try again in a minute"
+msgid "eBay didn't answer about your listing just now."
+msgstr "Nie udało się wysłać — spróbuj ponownie za chwilę"
 
 #: src/Ebay.tsx
 #, fuzzy
@@ -8127,6 +8149,12 @@ msgstr ""
 msgid "It isn't"
 msgstr "To nie to"
 
+#: src/Ebay.tsx
+msgid ""
+"It isn't on eBay any more — it sold or ended (or the link is wrong). <0>Open "
+"the link</0>"
+msgstr ""
+
 #: src/Server.tsx
 msgid ""
 "It isn't set, so signing in works from the local address Ferret is opened at "
@@ -8271,6 +8299,10 @@ msgstr "Wróciło"
 #: src/Tracking.tsx
 msgid "It's lost"
 msgstr "Zgubiona"
+
+#: src/Ebay.tsx
+msgid "It's on eBay now — open it there."
+msgstr ""
 
 #: src/Offline.tsx
 msgid "it's on several things — which?"
@@ -9200,6 +9232,10 @@ msgstr ""
 #: src/MusicScan.tsx
 msgid "MusicBrainz doesn't know <0>{0}</0>."
 msgstr "MusicBrainz nie zna <0>{0}</0>."
+
+#: src/Links.tsx
+msgid "My listing — I'm selling it on {market}"
+msgstr ""
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
 #: src/Duplicates.tsx src/Everything.tsx src/ImportHomeAssistant.tsx
@@ -10369,6 +10405,12 @@ msgstr ""
 #: src/Ebay.tsx
 #, fuzzy
 #| msgid "It says now"
+msgid "On eBay"
+msgstr "Teraz pokazuje"
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "It says now"
 msgid "On eBay now"
 msgstr "Teraz pokazuje"
 
@@ -11229,6 +11271,10 @@ msgstr "Możliwe wycofanie: {thing}"
 #: src/PayOff.tsx
 msgid "Possibly recalled — check the model"
 msgstr "Możliwe wycofanie — sprawdź model"
+
+#: src/Listing.tsx
+msgid "Posted it? Paste your listing's link"
+msgstr ""
 
 #: src/lib/words.ts
 msgid "power tool"
@@ -12260,6 +12306,12 @@ msgstr "Zapisz kod"
 msgid "Save crop"
 msgstr "Zapisz przycięcie"
 
+#: src/Listing.tsx
+#, fuzzy
+#| msgid "Share links"
+msgid "Save link"
+msgstr "Linki do udostępnienia"
+
 #: src/Security.tsx
 msgid ""
 "Save these backup codes. Each one signs you in once if you lose your phone."
@@ -12568,6 +12620,14 @@ msgstr "Zobacz je wszystkie"
 #: src/MusicScan.tsx
 msgid "See them there"
 msgstr "Zobacz je tam"
+
+#: src/Ebay.tsx
+msgid "See what it's listed for on eBay right now."
+msgstr ""
+
+#: src/Ebay.tsx
+msgid "See what others are asking for it on eBay."
+msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "seen {times} times in HA"
@@ -13090,6 +13150,12 @@ msgstr "Sprzedano za"
 
 #: src/Gone.tsx
 msgid "Sold it"
+msgstr "Sprzedałem(-am)"
+
+#: src/Ebay.tsx
+#, fuzzy
+#| msgid "Sold it"
+msgid "Sold it?"
 msgstr "Sprzedałem(-am)"
 
 #: src/lib/words.ts
@@ -15795,6 +15861,10 @@ msgstr ""
 "Jesteś administratorem tego serwera. Najpierw przekaż tę rolę komuś innemu "
 "(Ustawienia → Serwer)."
 
+#: src/Links.tsx
+msgid "Your {market} listing"
+msgstr ""
+
 #: src/DeleteForGood.tsx
 msgid ""
 "Your account is deleted for good, with any household only you are in. "
@@ -15865,6 +15935,12 @@ msgstr ""
 "Ostatnie kilkanaście logowań i błędnych haseł: kiedy, z jakiej sieci i na "
 "czym. Po kilku błędnych hasłach Ferret spowalnia ten adres i prosi każdą "
 "przeglądarkę o szybkie automatyczne sprawdzenie."
+
+#: src/Ebay.tsx src/Links.tsx
+#, fuzzy
+#| msgid "Add your first things"
+msgid "Your listing"
+msgstr "Dodaj swoje pierwsze rzeczy"
 
 #: src/App.tsx
 msgid "Your name"
