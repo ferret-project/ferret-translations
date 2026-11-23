@@ -2241,6 +2241,12 @@ msgstr ""
 
 #: src/Server.tsx
 msgid ""
+"A backup opens only with FILES_KEY: keep it, or a key file, somewhere safe — "
+"<0>Access → Keys</0>."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
 "A barcode the online product database doesn't know — or every barcode, if "
 "there isn't one — is asked of Open Food Facts, Open Products Facts and Open "
 "Beauty Facts (openfoodfacts.org): groceries, cleaning supplies, batteries, "
@@ -2578,6 +2584,10 @@ msgstr ""
 
 #: ../server/src/lib/invitation-email.ts
 msgid "Accept the invitation"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Access"
 msgstr ""
 
 #: src/App.tsx
@@ -3144,7 +3154,7 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
-#: src/AiFill.tsx
+#: src/AiFill.tsx src/Server.tsx
 msgid "AI"
 msgstr ""
 
@@ -3831,6 +3841,10 @@ msgstr ""
 msgid "Books by title"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Books, music, cards, coins and other things people collect."
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Borrowed"
 msgstr ""
@@ -4492,7 +4506,7 @@ msgstr ""
 msgid "Collection"
 msgstr ""
 
-#: src/Collections.tsx src/Nav.tsx src/Overview.tsx
+#: src/Collections.tsx src/Nav.tsx src/Overview.tsx src/Server.tsx
 msgid "Collections"
 msgstr ""
 
@@ -8094,6 +8108,10 @@ msgstr ""
 msgid "Looks right"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Lookups"
+msgstr ""
+
 #: src/Gone.tsx
 msgid "Lost"
 msgstr ""
@@ -10491,6 +10509,10 @@ msgstr ""
 msgid "Product photos — tap one to add it"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Products and prices"
+msgstr ""
+
 #: src/Prompts.tsx
 msgid "Prompt"
 msgstr ""
@@ -10750,6 +10772,10 @@ msgstr ""
 
 #: ../server/src/lib/digest.ts
 msgid "Recalls"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Recalls, vehicles, repair guides and how long things are supported."
 msgstr ""
 
 #: src/Gone.tsx
@@ -11359,6 +11385,10 @@ msgstr ""
 msgid "Safari's"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Safety and upkeep"
+msgstr ""
+
 #: src/FuelEconomy.tsx
 msgid "Same engine as the VIN"
 msgstr ""
@@ -11830,6 +11860,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Server check"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Server settings"
 msgstr ""
 
 #: src/AttentionBell.tsx
@@ -12393,7 +12427,7 @@ msgstr ""
 msgid "State / region"
 msgstr ""
 
-#: src/Claims.tsx
+#: src/Claims.tsx src/Server.tsx
 msgid "Status"
 msgstr ""
 
@@ -14125,6 +14159,10 @@ msgstr ""
 
 #: src/ImportHomeAssistant.tsx
 msgid "What {name} becomes"
+msgstr ""
+
+#: src/Server.tsx
+msgid "What a barcode is, what it's worth, and what it costs to run."
 msgstr ""
 
 #: src/Offline.tsx src/ScanSession.tsx

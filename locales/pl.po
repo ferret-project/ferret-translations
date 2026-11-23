@@ -2732,6 +2732,12 @@ msgstr "{what} — do której rzeczy należy?"
 
 #: src/Server.tsx
 msgid ""
+"A backup opens only with FILES_KEY: keep it, or a key file, somewhere safe — "
+"<0>Access → Keys</0>."
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
 "A barcode the online product database doesn't know — or every barcode, if "
 "there isn't one — is asked of Open Food Facts, Open Products Facts and Open "
 "Beauty Facts (openfoodfacts.org): groceries, cleaning supplies, batteries, "
@@ -3136,6 +3142,10 @@ msgstr "Prawie menniczy (AU)"
 #: ../server/src/lib/invitation-email.ts
 msgid "Accept the invitation"
 msgstr "Przyjmij zaproszenie"
+
+#: src/Server.tsx
+msgid "Access"
+msgstr ""
 
 #: src/App.tsx
 msgid "Account"
@@ -3735,7 +3745,7 @@ msgstr "Administrator"
 msgid "Advanced"
 msgstr "Zaawansowane"
 
-#: src/AiFill.tsx
+#: src/AiFill.tsx src/Server.tsx
 msgid "AI"
 msgstr "AI"
 
@@ -4482,6 +4492,10 @@ msgstr "Książki"
 msgid "Books by title"
 msgstr "Książki po tytule"
 
+#: src/Server.tsx
+msgid "Books, music, cards, coins and other things people collect."
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Borrowed"
 msgstr "Pożyczone od kogoś"
@@ -5175,7 +5189,7 @@ msgstr "Zwiń"
 msgid "Collection"
 msgstr "Kolekcja"
 
-#: src/Collections.tsx src/Nav.tsx src/Overview.tsx
+#: src/Collections.tsx src/Nav.tsx src/Overview.tsx src/Server.tsx
 msgid "Collections"
 msgstr "Kolekcje"
 
@@ -9070,6 +9084,12 @@ msgstr ""
 msgid "Looks right"
 msgstr "Wygląda dobrze"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Look up"
+msgid "Lookups"
+msgstr "Sprawdź"
+
 #: src/Gone.tsx
 msgid "Lost"
 msgstr "Zgubione"
@@ -11624,6 +11644,12 @@ msgstr "Problem: {problem}"
 msgid "Product photos — tap one to add it"
 msgstr "Zdjęcia produktu — dotknij jednego, aby je dodać"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Photos and files"
+msgid "Products and prices"
+msgstr "Zdjęcia i pliki"
+
 #: src/Prompts.tsx
 msgid "Prompt"
 msgstr "Prompt"
@@ -11904,6 +11930,10 @@ msgstr "Wycofane: {thing}"
 #: ../server/src/lib/digest.ts
 msgid "Recalls"
 msgstr "Wycofania"
+
+#: src/Server.tsx
+msgid "Recalls, vehicles, repair guides and how long things are supported."
+msgstr ""
 
 #: src/Gone.tsx
 msgid "Receipt (optional)"
@@ -12536,6 +12566,12 @@ msgstr "Kończy się: {list}"
 msgid "Safari's"
 msgstr "Safari"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Suggest typical upkeep"
+msgid "Safety and upkeep"
+msgstr "Zaproponuj typową konserwację"
+
 #: src/FuelEconomy.tsx
 msgid "Same engine as the VIN"
 msgstr "Ten sam silnik co w VIN"
@@ -13029,6 +13065,12 @@ msgstr "Administrator serwera"
 #: src/Server.tsx
 msgid "Server check"
 msgstr "Sprawdzenie serwera"
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Reminder settings"
+msgid "Server settings"
+msgstr "Ustawienia przypomnień"
 
 #: src/AttentionBell.tsx
 msgid "Service"
@@ -13642,7 +13684,7 @@ msgstr "Zaczyna w"
 msgid "State / region"
 msgstr "Województwo / region"
 
-#: src/Claims.tsx
+#: src/Claims.tsx src/Server.tsx
 msgid "Status"
 msgstr "Status"
 
@@ -15516,6 +15558,10 @@ msgstr ""
 #: src/ImportHomeAssistant.tsx
 msgid "What {name} becomes"
 msgstr "Czym stanie się {name}"
+
+#: src/Server.tsx
+msgid "What a barcode is, what it's worth, and what it costs to run."
+msgstr ""
 
 #: src/Offline.tsx src/ScanSession.tsx
 msgid "What a scan does"
