@@ -317,21 +317,16 @@ msgstr ""
 
 #. placeholder {0}: l.bids ?? 0
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# brand checked} other {# brands checked}}"
 msgid "{0, plural, one {# bid, ends {when}} other {# bids, ends {when}}}"
 msgstr ""
-"{0, plural, one {Sprawdzono # markę} few {Sprawdzono # marki} many "
-"{Sprawdzono # marek} other {Sprawdzono # marki}}"
+"{0, plural, one {# oferta, koniec {when}} few {# oferty, koniec {when}} many "
+"{# ofert, koniec {when}} other {# oferty, koniec {when}}}"
 
 #. placeholder {0}: l.bids ?? 0
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# job} other {# jobs}}"
 msgid "{0, plural, one {# bid} other {# bids}}"
 msgstr ""
-"{0, plural, one {# zlecenie} few {# zlecenia} many {# zleceń} other {# "
-"zlecenia}}"
+"{0, plural, one {# oferta} few {# oferty} many {# ofert} other {# oferty}}"
 
 #. placeholder {0}: s.books
 #: src/Server.tsx
@@ -678,13 +673,12 @@ msgstr ""
 
 #. placeholder {0}: sure.length
 #: src/PayOff.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# recall kept} other {# recalls kept}}"
 msgid ""
 "{0, plural, one {# recall on your things} other {# recalls on your things}}"
 msgstr ""
-"{0, plural, one {Zapisano # wycofanie} few {Zapisano # wycofania} many "
-"{Zapisano # wycofań} other {Zapisano # wycofania}}"
+"{0, plural, one {# wycofanie dotyczy twoich rzeczy} few {# wycofania dotyczą "
+"twoich rzeczy} many {# wycofań dotyczy twoich rzeczy} other {# wycofania "
+"dotyczy twoich rzeczy}}"
 
 #. placeholder {0}: r.documents
 #: src/Report.tsx
@@ -756,12 +750,10 @@ msgstr ""
 
 #. placeholder {0}: o.maintenance.overdue
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# day overdue} other {# days overdue}}"
 msgid "{0, plural, one {# task overdue} other {# tasks overdue}}"
 msgstr ""
-"{0, plural, one {# dzień po terminie} few {# dni po terminie} many {# dni po "
-"terminie} other {# dnia po terminie}}"
+"{0, plural, one {# zadanie po terminie} few {# zadania po terminie} many {# "
+"zadań po terminie} other {# zadania po terminie}}"
 
 #. placeholder {0}: list.length
 #: src/MaintenanceCalendar.tsx
@@ -823,22 +815,19 @@ msgstr ""
 
 #. placeholder {0}: o.tracking.misplaced
 #: src/Overview.tsx
-#, fuzzy
-#| msgid ""
-#| "{misplaced, plural, one {# nobody can find} other {# nobody can find}}"
 msgid ""
 "{0, plural, one {# thing nobody can find} other {# things nobody can find}}"
 msgstr ""
-"{misplaced, plural, one {# nie do znalezienia} few {# nie do znalezienia} "
-"many {# nie do znalezienia} other {# nie do znalezienia}}"
+"{0, plural, one {# rzecz nie do znalezienia} few {# rzeczy nie do "
+"znalezienia} many {# rzeczy nie do znalezienia} other {# rzeczy nie do "
+"znalezienia}}"
 
 #. placeholder {0}: o.shopping.out
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# thing} other {# things}}"
 msgid "{0, plural, one {# thing run out} other {# things run out}}"
 msgstr ""
-"{0, plural, one {# rzecz} few {# rzeczy} many {# rzeczy} other {# rzeczy}}"
+"{0, plural, one {# rzecz się skończyła} few {# rzeczy się skończyły} many {# "
+"rzeczy się skończyło} other {# rzeczy się skończyło}}"
 
 #. placeholder {0}: r.toCheck.length
 #: src/Tracking.tsx
@@ -988,12 +977,10 @@ msgstr ""
 
 #. placeholder {0}: things.length - 3
 #: src/PayOff.tsx
-#, fuzzy
-#| msgid "{0, plural, one {Show # more} other {Show # more}}"
 msgid "{0, plural, one {and # more} other {and # more}}"
 msgstr ""
-"{0, plural, one {Pokaż jeszcze #} few {Pokaż jeszcze #} many {Pokaż jeszcze "
-"#} other {Pokaż jeszcze #}}"
+"{0, plural, one {i jeszcze #} few {i jeszcze #} many {i jeszcze #} other {i "
+"jeszcze #}}"
 
 #. placeholder {0}: ticked.length
 #: src/Shopping.tsx
@@ -1051,12 +1038,10 @@ msgstr ""
 
 #. placeholder {0}: o.locations
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "{0, plural, one {Made # place} other {Made # places}}"
 msgid "{0, plural, one {In # place} other {In # places}}"
 msgstr ""
-"{0, plural, one {Utworzono # miejsce} few {Utworzono # miejsca} many "
-"{Utworzono # miejsc} other {Utworzono # miejsca}}"
+"{0, plural, one {W # miejscu} few {W # miejscach} many {W # miejscach} other "
+"{W # miejsca}}"
 
 #. placeholder {0}: scan.photos
 #: src/RoomScan.tsx
@@ -1170,12 +1155,10 @@ msgstr ""
 
 #. placeholder {0}: s.total ?? 0
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "{0, plural, one {Show # more} other {Show # more}}"
 msgid "{0, plural, one {See # on eBay} other {See all # on eBay}}"
 msgstr ""
-"{0, plural, one {Pokaż jeszcze #} few {Pokaż jeszcze #} many {Pokaż jeszcze "
-"#} other {Pokaż jeszcze #}}"
+"{0, plural, one {Zobacz # na eBay} few {Zobacz wszystkie # na eBay} many "
+"{Zobacz wszystkie # na eBay} other {Zobacz wszystkie # na eBay}}"
 
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
@@ -1855,14 +1838,11 @@ msgstr ""
 "miesiąca}}"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid ""
-#| "{0, plural, one {# price has changed:} other {# prices have changed:}}"
 msgid ""
 "{more, plural, one {and # earlier change} other {and # earlier changes}}"
 msgstr ""
-"{0, plural, one {Zmieniła się # cena:} few {Zmieniły się # ceny:} many "
-"{Zmieniło się # cen:} other {Zmieniło się # ceny:}}"
+"{more, plural, one {i # wcześniejsza zmiana} few {i # wcześniejsze zmiany} "
+"many {i # wcześniejszych zmian} other {i # wcześniejszej zmiany}}"
 
 #: src/lib/words.ts
 msgid "{n, plural, one {# cycle} other {# cycles}}"
@@ -2175,11 +2155,10 @@ msgstr ""
 "{skip, plural, one {etykietę} few {etykiety} many {etykiet} other {etykiety}}"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "{n, plural, one {# thing} other {# things}}"
 msgid "{soon, plural, one {# warranty ending} other {# warranties ending}}"
 msgstr ""
-"{n, plural, one {# rzecz} few {# rzeczy} many {# rzeczy} other {# rzeczy}}"
+"{soon, plural, one {# gwarancja się kończy} few {# gwarancje się kończą} "
+"many {# gwarancji się kończy} other {# gwarancji się kończy}}"
 
 #: src/ImportHomeAssistant.tsx
 msgid "{takenCount, plural, one {# change} other {# changes}}"
@@ -2312,10 +2291,8 @@ msgid "{years} (typical)"
 msgstr "{years} (typowo)"
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "{amount} to replace"
 msgid "+ {amount} postage"
-msgstr "{amount} za nową"
+msgstr "+ {amount} za wysyłkę"
 
 #: src/Providers.tsx
 msgid "+ Add \"{name}\" as a provider"
@@ -2326,10 +2303,8 @@ msgid "+ Add a provider"
 msgstr "+ Dodaj usługodawcę"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "about {amount} a month"
 msgid "+{amount} this month"
-msgstr "około {amount} miesięcznie"
+msgstr "+{amount} w tym miesiącu"
 
 #: src/MaintenanceCalendar.tsx
 msgid "+{more} more"
@@ -2735,6 +2710,8 @@ msgid ""
 "A backup opens only with FILES_KEY: keep it, or a key file, somewhere safe — "
 "<0>Access → Keys</0>."
 msgstr ""
+"Kopię zapasową otworzysz tylko z FILES_KEY: trzymaj go albo plik z kluczami "
+"w bezpiecznym miejscu — <0>Dostęp → Klucze</0>."
 
 #: src/Server.tsx
 msgid ""
@@ -3122,10 +3099,8 @@ msgid "About {cost} a year in fuel"
 msgstr "Około {cost} rocznie na paliwo"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid " by {name}"
 msgid "About {name}"
-msgstr " przez: {name}"
+msgstr "Szczegóły: {name}"
 
 #: src/CollectibleScan.tsx
 msgid "About {price}"
@@ -3145,7 +3120,7 @@ msgstr "Przyjmij zaproszenie"
 
 #: src/Server.tsx
 msgid "Access"
-msgstr ""
+msgstr "Dostęp"
 
 #: src/App.tsx
 msgid "Account"
@@ -3867,7 +3842,7 @@ msgstr "już w Ferret"
 
 #: src/Listing.tsx
 msgid "Already listed:"
-msgstr ""
+msgstr "Już wystawione:"
 
 #: src/PayOff.tsx
 msgid "Also by email"
@@ -4214,13 +4189,11 @@ msgstr "Zapytano — sugestie pojawią się tutaj"
 
 #: src/Ebay.tsx
 msgid "Asking {low} to {high} across the {n} closest listings."
-msgstr ""
+msgstr "Ceny wywoławcze od {low} do {high} w {n} najbliższych ofertach."
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "Asking price"
 msgid "Asking {price}."
-msgstr "Cena wywoławcza"
+msgstr "Cena wywoławcza {price}."
 
 #: src/Listing.tsx
 msgid "Asking price"
@@ -4320,6 +4293,8 @@ msgid ""
 "Automatic: Ferret splits the sections into two columns of about the same "
 "height, so one can move to the other side as cards grow."
 msgstr ""
+"Automatycznie: Ferret dzieli sekcje na dwie kolumny o mniej więcej równej "
+"wysokości, więc gdy karty rosną, któraś może przejść na drugą stronę."
 
 #: src/App.tsx
 msgid "Automatic: follow this device"
@@ -4355,10 +4330,8 @@ msgid "Back to Ferret"
 msgstr "Wróć do Ferret"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Back to Ferret"
 msgid "Back to Ferret's"
-msgstr "Wróć do Ferret"
+msgstr "Przywróć układ Ferret"
 
 #: src/App.tsx
 msgid "Back to sign in"
@@ -4494,7 +4467,7 @@ msgstr "Książki po tytule"
 
 #: src/Server.tsx
 msgid "Books, music, cards, coins and other things people collect."
-msgstr ""
+msgstr "Książki, muzyka, karty, monety i inne rzeczy, które się kolekcjonuje."
 
 #: src/Loans.tsx
 msgid "Borrowed"
@@ -4858,10 +4831,8 @@ msgid "Check columns and rows"
 msgstr "Sprawdź kolumny i wiersze"
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "Checked"
 msgid "Check eBay"
-msgstr "Sprawdzone"
+msgstr "Sprawdź eBay"
 
 #: src/StarterTasks.tsx
 msgid "Check fire extinguishers"
@@ -4912,10 +4883,8 @@ msgstr ""
 "{person}"
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "Backing up…"
 msgid "Checking eBay…"
-msgstr "Tworzę kopię…"
+msgstr "Sprawdzam eBay…"
 
 #: src/ImportCsv.tsx
 msgid "Checking what's already in Ferret…"
@@ -5001,12 +4970,12 @@ msgstr "Najpierw wybierz, na czym jest"
 msgid ""
 "Choose what's on your dashboard and in what order. Only you see it this way."
 msgstr ""
+"Wybierz, co jest na twoim pulpicie i w jakiej kolejności. Tylko ty widzisz "
+"go w ten sposób."
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Choose rooms and things"
 msgid "Choose where each section goes"
-msgstr "Wybierz pomieszczenia i rzeczy"
+msgstr "Wybierz, gdzie trafia każda sekcja"
 
 #: src/Labels.tsx
 msgid "Choose your label printer, and its paper: {paper}"
@@ -5569,10 +5538,8 @@ msgid "Currency"
 msgstr "Waluta"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "On this page"
 msgid "Customize this page"
-msgstr "Na tej stronie"
+msgstr "Dostosuj tę stronę"
 
 #: src/Usage.tsx
 msgid "Cycle count"
@@ -6279,27 +6246,23 @@ msgstr "za każdym razem"
 
 #: src/Overview.tsx
 msgid "Earlier ones"
-msgstr ""
+msgstr "Wcześniejsze"
 
 #: src/Server.tsx
 msgid "eBay App ID and Cert ID"
-msgstr ""
+msgstr "App ID i Cert ID z eBay"
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "Couldn't send it — try again in a minute"
 msgid "eBay didn't answer about your listing just now."
-msgstr "Nie udało się wysłać — spróbuj ponownie za chwilę"
+msgstr "eBay nie odpowiedział teraz w sprawie twojej oferty."
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "Couldn't send it — try again in a minute"
 msgid "eBay didn't answer just now — try again in a while."
-msgstr "Nie udało się wysłać — spróbuj ponownie za chwilę"
+msgstr "eBay teraz nie odpowiada — spróbuj ponownie za jakiś czas."
 
 #: src/Server.tsx
 msgid "eBay listings"
-msgstr ""
+msgstr "Oferty na eBay"
 
 #: src/Collections.tsx src/ItemPage.tsx src/Loans.tsx src/PayOff.tsx
 #: src/Providers.tsx src/Repairs.tsx
@@ -7313,14 +7276,12 @@ msgid "Format…"
 msgstr "Format…"
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "From the barcode"
 msgid "Found by its barcode."
-msgstr "Z kodu kreskowego"
+msgstr "Znalezione po kodzie kreskowym."
 
 #: src/Ebay.tsx
 msgid "Found by its brand and model."
-msgstr ""
+msgstr "Znalezione po marce i modelu."
 
 #: src/lib/origin.ts
 msgid "Found in a room scan"
@@ -7341,7 +7302,7 @@ msgstr "Znalazło się, czy zginęło na dobre?"
 
 #: src/Ebay.tsx
 msgid "free postage"
-msgstr ""
+msgstr "darmowa wysyłka"
 
 #: src/lib/words.ts
 msgid "freezer"
@@ -7479,7 +7440,7 @@ msgstr "Pełny ekran"
 
 #: src/Overview.tsx
 msgid "Full width"
-msgstr ""
+msgstr "Cała szerokość"
 
 #: src/lib/words.ts
 msgid "furnace"
@@ -7596,35 +7557,31 @@ msgstr "Słaby (G)"
 
 #: src/Overview.tsx
 msgid "Good afternoon"
-msgstr ""
+msgstr "Dzień dobry"
 
 #: src/Overview.tsx
 msgid "Good afternoon, {first}"
-msgstr ""
+msgstr "Dzień dobry, {first}"
 
 #: src/lib/words.ts
 msgid "Good condition"
 msgstr "Stan dobry"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Download everything"
 msgid "Good evening"
-msgstr "Pobierz wszystko"
+msgstr "Dobry wieczór"
 
 #: src/Overview.tsx
 msgid "Good evening, {first}"
-msgstr ""
+msgstr "Dobry wieczór, {first}"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Good condition"
 msgid "Good morning"
-msgstr "Stan dobry"
+msgstr "Dzień dobry"
 
 #: src/Overview.tsx
 msgid "Good morning, {first}"
-msgstr ""
+msgstr "Dzień dobry, {first}"
 
 #: src/Server.tsx
 msgid ""
@@ -7669,10 +7626,8 @@ msgid "Graded by"
 msgstr "Oceniający"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "On {service}"
 msgid "Graded by {service}"
-msgstr "W {service}"
+msgstr "Ocena od {service}"
 
 #: src/Server.tsx
 msgid "Graded coins and cards"
@@ -7773,7 +7728,7 @@ msgstr "Ukryj"
 
 #: src/Overview.tsx
 msgid "Hide the details"
-msgstr ""
+msgstr "Ukryj szczegóły"
 
 #: src/History.tsx src/ItemPage.tsx src/Stock.tsx
 msgid "History"
@@ -8061,10 +8016,8 @@ msgid "Imports sorted with AI that never finished."
 msgstr "Importy sortowane przez AI, które nigdy się nie zakończyły."
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Icon"
 msgid "In"
-msgstr "Ikona"
+msgstr "W"
 
 #: src/Everything.tsx src/QuickAdd.tsx src/Report.tsx
 msgid "In {box}"
@@ -8334,6 +8287,8 @@ msgid ""
 "It isn't on eBay any more — it sold or ended (or the link is wrong). <0>Open "
 "the link</0>"
 msgstr ""
+"Już tego nie ma na eBay — sprzedało się albo oferta się skończyła (albo link "
+"jest błędny). <0>Otwórz link</0>"
 
 #: src/Server.tsx
 msgid ""
@@ -8380,6 +8335,11 @@ msgid ""
 "from Marketplace Account Deletion\" (Ferret keeps no eBay data) — eBay "
 "switches off keysets that neither do that nor receive its notifications."
 msgstr ""
+"Potrzebny jest darmowy zestaw kluczy z eBay Developers Program "
+"(developer.ebay.com): produkcyjne App ID i Cert ID, wklejone ze spacją "
+"pomiędzy. W Alerts & Notifications zestawu włącz „Exempted from Marketplace "
+"Account Deletion” (Ferret nie przechowuje danych z eBay) — eBay wyłącza "
+"zestawy, które ani tego nie mają, ani nie odbierają jego powiadomień."
 
 #: src/Reminders.tsx
 msgid "It opened another app, or asked to open Chrome?"
@@ -8482,7 +8442,7 @@ msgstr "Zgubiona"
 
 #: src/Ebay.tsx
 msgid "It's on eBay now — open it there."
-msgstr ""
+msgstr "Jest teraz na eBay — otwórz tam."
 
 #: src/Offline.tsx
 msgid "it's on several things — which?"
@@ -8839,7 +8799,7 @@ msgstr "Opuścić?"
 
 #: src/Overview.tsx
 msgid "Left"
-msgstr ""
+msgstr "Lewa"
 
 #: src/Collectibles.tsx
 msgid "LEGO set"
@@ -9085,10 +9045,8 @@ msgid "Looks right"
 msgstr "Wygląda dobrze"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Look up"
 msgid "Lookups"
-msgstr "Sprawdź"
+msgstr "Bazy danych"
 
 #: src/Gone.tsx
 msgid "Lost"
@@ -9120,10 +9078,8 @@ msgid "made {date}"
 msgstr "utworzony {date}"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Made by Ferret"
 msgid "Made by"
-msgstr "Utworzony przez Ferret"
+msgstr "Producent"
 
 #: src/Server.tsx
 msgid "Made by Ferret"
@@ -9361,16 +9317,12 @@ msgid "Move"
 msgstr "Przenieś"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Remove {name}"
 msgid "Move {name} down"
-msgstr "Usuń {name}"
+msgstr "Przesuń {name} w dół"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Remove {name}"
 msgid "Move {name} up"
-msgstr "Usuń {name}"
+msgstr "Przesuń {name} w górę"
 
 #: src/Everything.tsx
 msgid "Move {things}"
@@ -9443,7 +9395,7 @@ msgstr "MusicBrainz nie zna <0>{0}</0>."
 
 #: src/Links.tsx
 msgid "My listing — I'm selling it on {market}"
-msgstr ""
+msgstr "Moja oferta — sprzedaję to na {market}"
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
 #: src/Duplicates.tsx src/Everything.tsx src/ImportHomeAssistant.tsx
@@ -9622,10 +9574,8 @@ msgid "Next due by date"
 msgstr "Następny termin według daty"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "expires {date}"
 msgid "Next ends {date}"
-msgstr "wygasa {date}"
+msgstr "Następna kończy się {date}"
 
 #: src/MaintenanceCalendar.tsx
 msgid "Next month"
@@ -9911,10 +9861,8 @@ msgid "No value or price"
 msgstr "Brak wartości ani ceny"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "No details yet"
 msgid "no values yet"
-msgstr "Na razie brak szczegółów"
+msgstr "jeszcze bez wartości"
 
 #: src/Videos.tsx
 msgid "No videos found. Try other words."
@@ -9934,7 +9882,7 @@ msgstr "Nikt nie może tego znaleźć (od {since})"
 
 #: src/Overview.tsx
 msgid "Nobody has changed anything lately."
-msgstr ""
+msgstr "Ostatnio nikt niczego nie zmieniał."
 
 #: src/Heirs.tsx
 msgid "Nobody named yet"
@@ -9954,10 +9902,8 @@ msgid "None — the built-in prompt as it is"
 msgstr "Brak — wbudowany prompt bez zmian"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Nothing due soon"
 msgid "None ending soon"
-msgstr "Wkrótce nic nie ma terminu"
+msgstr "Żadna nie kończy się wkrótce"
 
 #: src/Server.tsx
 msgid "None has worked yet."
@@ -10368,7 +10314,7 @@ msgstr "Nic nie pasuje do tych filtrów."
 
 #: src/Ebay.tsx
 msgid "Nothing matching its brand and model is listed on eBay right now."
-msgstr ""
+msgstr "Na eBay nie ma teraz nic pasującego do tej marki i modelu."
 
 #: src/Tracking.tsx
 msgid "Nothing missing"
@@ -10379,10 +10325,8 @@ msgid "Nothing needs attention"
 msgstr "Nic nie wymaga uwagi"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Nothing due that day."
 msgid "Nothing needs you today."
-msgstr "Tego dnia nic nie ma terminu."
+msgstr "Dziś nic na ciebie nie czeka."
 
 #: src/ImportHomeAssistant.tsx
 msgid "Nothing new"
@@ -10476,7 +10420,7 @@ msgstr "W tym roku nic nie oznaczono jako darowizny."
 
 #: src/Ebay.tsx
 msgid "Nothing with this barcode is listed on eBay right now."
-msgstr ""
+msgstr "Na eBay nie ma teraz nic z tym kodem kreskowym."
 
 #: src/Offline.tsx
 msgid "Nothing yet."
@@ -10622,6 +10566,9 @@ msgid ""
 "the list, and the ones between sit in their column. A phone shows them in "
 "the list's order."
 msgstr ""
+"Na komputerze lub tablecie sekcja na całą szerokość zajmuje stronę w "
+"miejscu, w którym jest na liście, a te pomiędzy stoją w swoich kolumnach. "
+"Telefon pokazuje je w kolejności z listy."
 
 #: src/lib/origin.ts
 msgid "on a room walkthrough"
@@ -10636,6 +10583,12 @@ msgid ""
 "kept in memory for an hour and never saved; nothing from eBay is written to "
 "a thing."
 msgstr ""
+"Na stronie rzeczy i obok oferty przygotowanej przez AI pokazuje, za ile ta "
+"sama rzecz jest teraz wystawiona na eBay — kilka ofert i zakres cen "
+"wywoławczych, znalezionych po kodzie kreskowym albo marce i numerze modelu. "
+"Tylko to jest wysyłane, do eBay kraju gospodarstwa domowego. Odpowiedzi są "
+"trzymane w pamięci przez godzinę i nigdy nie są zapisywane; nic z eBay nie "
+"trafia do rzeczy."
 
 #: src/Heirs.tsx
 msgid ""
@@ -10646,16 +10599,12 @@ msgstr ""
 "tutaj pod tą osobą."
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "It says now"
 msgid "On eBay"
-msgstr "Teraz pokazuje"
+msgstr "Na eBay"
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "It says now"
 msgid "On eBay now"
-msgstr "Teraz pokazuje"
+msgstr "Teraz na eBay"
 
 #: src/Energy.tsx
 msgid "On ENERGY STAR"
@@ -10832,7 +10781,7 @@ msgstr ""
 
 #: src/Overview.tsx
 msgid "Only people's"
-msgstr ""
+msgstr "Tylko zmiany ludzi"
 
 #: src/Heirs.tsx
 msgid "Only the household's owner and admins can see who should have what."
@@ -11033,10 +10982,8 @@ msgid "Other ways"
 msgstr "Inne sposoby"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Worth over time"
 msgid "Over time"
-msgstr "Wartość w czasie"
+msgstr "W czasie"
 
 #: src/Maintenance.tsx src/MaintenanceCalendar.tsx
 msgid "Overdue"
@@ -11528,7 +11475,7 @@ msgstr "Możliwe wycofanie — sprawdź model"
 
 #: src/Listing.tsx
 msgid "Posted it? Paste your listing's link"
-msgstr ""
+msgstr "Wystawione? Wklej link do swojej oferty"
 
 #: src/lib/words.ts
 msgid "power tool"
@@ -11645,10 +11592,8 @@ msgid "Product photos — tap one to add it"
 msgstr "Zdjęcia produktu — dotknij jednego, aby je dodać"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Photos and files"
 msgid "Products and prices"
-msgstr "Zdjęcia i pliki"
+msgstr "Produkty i ceny"
 
 #: src/Prompts.tsx
 msgid "Prompt"
@@ -11894,10 +11839,8 @@ msgstr ""
 "marka, model i rok są wysyłane do NHTSA (nhtsa.gov); nic więcej."
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Ready for a claim?"
 msgid "Ready for a claim: {score}%"
-msgstr "Gotowe na zgłoszenie szkody?"
+msgstr "Gotowe na zgłoszenie szkody: {score}%"
 
 #: src/Overview.tsx
 msgid "Ready for a claim?"
@@ -11934,6 +11877,7 @@ msgstr "Wycofania"
 #: src/Server.tsx
 msgid "Recalls, vehicles, repair guides and how long things are supported."
 msgstr ""
+"Wycofania, pojazdy, poradniki napraw i jak długo urządzenia mają wsparcie."
 
 #: src/Gone.tsx
 msgid "Receipt (optional)"
@@ -11972,10 +11916,8 @@ msgid "Recent sign-ins"
 msgstr "Ostatnie logowania"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Recently changed"
 msgid "Recently added"
-msgstr "Ostatnio zmienione"
+msgstr "Ostatnio dodane"
 
 #: src/Combobox.tsx
 msgid "Recently changed"
@@ -11986,10 +11928,8 @@ msgid "Recently deleted"
 msgstr "Ostatnio usunięte"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Recently deleted"
 msgid "Recently viewed"
-msgstr "Ostatnio usunięte"
+msgstr "Ostatnio oglądane"
 
 #: src/Collectibles.tsx
 msgid "Record"
@@ -12173,10 +12113,8 @@ msgstr ""
 "klucz nie zostanie zapisany ponownie."
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Remove the EIA key? The cards won't show what energy costs."
 msgid "Remove the eBay keys? Things' pages won't show eBay listings."
-msgstr "Usunąć klucz EIA? Karty nie będą pokazywać kosztu energii."
+msgstr "Usunąć klucze eBay? Strony rzeczy nie będą pokazywać ofert z eBay."
 
 #: src/Server.tsx
 msgid "Remove the EIA key? The cards won't show what energy costs."
@@ -12553,10 +12491,8 @@ msgid "Run your own Ferret"
 msgstr "Uruchom własny Ferret"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Running low: {list}"
 msgid "Running low"
-msgstr "Kończy się: {list}"
+msgstr "Kończy się"
 
 #: ../server/src/lib/attention.ts
 msgid "Running low: {list}"
@@ -12567,10 +12503,8 @@ msgid "Safari's"
 msgstr "Safari"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Suggest typical upkeep"
 msgid "Safety and upkeep"
-msgstr "Zaproponuj typową konserwację"
+msgstr "Bezpieczeństwo i utrzymanie"
 
 #: src/FuelEconomy.tsx
 msgid "Same engine as the VIN"
@@ -12601,10 +12535,8 @@ msgid "Save crop"
 msgstr "Zapisz przycięcie"
 
 #: src/Listing.tsx
-#, fuzzy
-#| msgid "Share links"
 msgid "Save link"
-msgstr "Linki do udostępnienia"
+msgstr "Zapisz link"
 
 #: src/Security.tsx
 msgid ""
@@ -12810,10 +12742,8 @@ msgid "Search by words; no AI."
 msgstr "Wyszukiwanie po słowach; bez AI."
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "Searches"
 msgid "Search eBay"
-msgstr "Wyszukiwania"
+msgstr "Szukaj na eBay"
 
 #: src/ItemSearch.tsx
 msgid "Search everything for “{q}”"
@@ -12886,6 +12816,8 @@ msgstr "Sekret"
 #: src/Overview.tsx
 msgid "Sections with nothing in them yet stay out of the way until they do."
 msgstr ""
+"Sekcje, w których jeszcze nic nie ma, nie pokazują się, dopóki coś się w "
+"nich nie pojawi."
 
 #: src/Settings.tsx
 msgid "Security"
@@ -12904,10 +12836,8 @@ msgid "See all"
 msgstr "Zobacz wszystko"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "See all"
 msgid "See all six"
-msgstr "Zobacz wszystko"
+msgstr "Zobacz wszystkie sześć"
 
 #: src/Bikes.tsx
 msgid "See the report"
@@ -12927,11 +12857,11 @@ msgstr "Zobacz je tam"
 
 #: src/Ebay.tsx
 msgid "See what it's listed for on eBay right now."
-msgstr ""
+msgstr "Zobacz, za ile jest teraz wystawione na eBay."
 
 #: src/Ebay.tsx
 msgid "See what others are asking for it on eBay."
-msgstr ""
+msgstr "Zobacz, ile inni chcą za to na eBay."
 
 #: src/ImportHomeAssistant.tsx
 msgid "seen {times} times in HA"
@@ -13067,10 +12997,8 @@ msgid "Server check"
 msgstr "Sprawdzenie serwera"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Reminder settings"
 msgid "Server settings"
-msgstr "Ustawienia przypomnień"
+msgstr "Ustawienia serwera"
 
 #: src/AttentionBell.tsx
 msgid "Service"
@@ -13178,10 +13106,8 @@ msgid "Sheets (any printer)"
 msgstr "Arkusze (dowolna drukarka)"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Shopping list"
 msgid "Shopping"
-msgstr "Lista zakupów"
+msgstr "Zakupy"
 
 #: src/Nav.tsx src/Overview.tsx src/Shopping.tsx
 msgid "Shopping list"
@@ -13213,10 +13139,8 @@ msgstr ""
 "Pokaż każdą kategorię z dziesięcioma lub więcej rzeczami jako jeden wiersz"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Ferret's own export"
 msgid "Show Ferret's own"
-msgstr "Eksport z Ferret"
+msgstr "Pokaż też zmiany Ferret"
 
 #: src/Parts.tsx
 msgid "Show fewer"
@@ -13259,10 +13183,8 @@ msgid "Show whole photos, not cropped"
 msgstr "Pokazuj całe zdjęcia, nie przycięte"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Show fewer"
 msgid "Show worth"
-msgstr "Pokaż mniej"
+msgstr "Pokaż wartość"
 
 #: src/Collections.tsx
 msgid "Showing whole photos — tap to crop them square"
@@ -13481,10 +13403,8 @@ msgid "Sold it"
 msgstr "Sprzedałem(-am)"
 
 #: src/Ebay.tsx
-#, fuzzy
-#| msgid "Sold it"
 msgid "Sold it?"
-msgstr "Sprzedałem(-am)"
+msgstr "Sprzedane?"
 
 #: src/lib/words.ts
 msgid "Sold on"
@@ -14375,6 +14295,7 @@ msgid ""
 "These are asking prices, not what things sold for. Listings from eBay as of "
 "{when}."
 msgstr ""
+"To ceny wywoławcze, a nie ceny sprzedaży. Oferty z eBay — stan na {when}."
 
 #: src/Household.tsx
 msgid "They can…"
@@ -15561,7 +15482,7 @@ msgstr "Czym stanie się {name}"
 
 #: src/Server.tsx
 msgid "What a barcode is, what it's worth, and what it costs to run."
-msgstr ""
+msgstr "Co kryje kod kreskowy, ile coś jest warte i ile kosztuje używanie."
 
 #: src/Offline.tsx src/ScanSession.tsx
 msgid "What a scan does"
@@ -15758,10 +15679,8 @@ msgid "Where {column} goes"
 msgstr "Dokąd trafia {column}"
 
 #: src/Overview.tsx
-#, fuzzy
-#| msgid "Where {column} goes"
 msgid "Where {name} goes"
-msgstr "Dokąd trafia {column}"
+msgstr "Gdzie trafia {name}"
 
 #: src/ImportHomeAssistant.tsx
 msgid "Where {name}'s rooms go"
@@ -16102,7 +16021,7 @@ msgstr "Tak — przypomnij mi przed końcem aktualizacji"
 
 #: src/Overview.tsx
 msgid "Yesterday"
-msgstr ""
+msgstr "Wczoraj"
 
 #: src/Household.tsx src/Server.tsx
 msgid "You"
@@ -16189,7 +16108,7 @@ msgstr ""
 
 #: src/Links.tsx
 msgid "Your {market} listing"
-msgstr ""
+msgstr "Twoja oferta na {market}"
 
 #: src/DeleteForGood.tsx
 msgid ""
@@ -16263,10 +16182,8 @@ msgstr ""
 "przeglądarkę o szybkie automatyczne sprawdzenie."
 
 #: src/Ebay.tsx src/Links.tsx
-#, fuzzy
-#| msgid "Add your first things"
 msgid "Your listing"
-msgstr "Dodaj swoje pierwsze rzeczy"
+msgstr "Twoja oferta"
 
 #: src/App.tsx
 msgid "Your name"
