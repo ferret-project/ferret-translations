@@ -8181,6 +8181,13 @@ msgstr ""
 msgid "in the app"
 msgstr "w aplikacji"
 
+#: src/Settings.tsx
+msgid ""
+"In the app you can change what your sign-in there allows. Your password and "
+"security, API keys, Download everything, members and backups need Ferret in "
+"your browser."
+msgstr ""
+
 #: src/Pairing.tsx
 msgid "In the Home app: Add Accessory → More options, and type the code."
 msgstr "W aplikacji „Dom”: Dodaj akcesorium → Więcej opcji, a potem wpisz kod."
@@ -14653,6 +14660,12 @@ msgstr "tę nieruchomość"
 #: src/Security.tsx
 msgid "This replaces your old codes. Your password first."
 msgstr "To zastąpi twoje stare kody. Najpierw twoje hasło."
+
+#: src/App.tsx
+msgid ""
+"This screen needs Ferret's sign-in in the app. Go back, sign out under More, "
+"and sign in again."
+msgstr ""
 
 #: src/lib/device.ts
 msgid "This server"
