@@ -1249,6 +1249,10 @@ msgstr ""
 msgid "{describeNetwork} · signed in {formatWhen}"
 msgstr ""
 
+#: src/ShareIn.tsx
+msgid "{documents, plural, one {# document} other {# documents}}"
+msgstr ""
+
 #: src/Everything.tsx
 msgid "{done} changed"
 msgstr ""
@@ -1617,6 +1621,16 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "{person} says it's back."
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid "{photos, plural, one {# photo} other {# photos}}"
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid ""
+"{photos, plural, one {# photo} other {# photos}} and {documents, plural, one "
+"{# document} other {# documents}}"
 msgstr ""
 
 #: src/Collections.tsx
@@ -2376,6 +2390,10 @@ msgstr ""
 msgid "A new place"
 msgstr ""
 
+#: src/ShareIn.tsx
+msgid "A new thing"
+msgstr ""
+
 #: src/ItemEditor.tsx
 msgid ""
 "A new thing with the same details. Its serial number, place, notes, photos "
@@ -2812,6 +2830,7 @@ msgid "Add from photos"
 msgstr ""
 
 #: src/App.tsx src/Collections.tsx src/ItemEditor.tsx src/Server.tsx
+#: src/ShareIn.tsx
 msgid "Add it"
 msgstr ""
 
@@ -2928,7 +2947,7 @@ msgstr ""
 msgid "Add this"
 msgstr ""
 
-#: src/Collections.tsx
+#: src/Collections.tsx src/ShareIn.tsx
 msgid "Add to {name}"
 msgstr ""
 
@@ -2954,6 +2973,10 @@ msgstr ""
 
 #: src/Install.tsx
 msgid "Add to Home Screen"
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid "Add to it"
 msgstr ""
 
 #: src/Collections.tsx
@@ -3090,6 +3113,10 @@ msgstr ""
 
 #: src/lib/origin.ts
 msgid "Added with Scan cards"
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid "Added, but some files didn't go up:"
 msgstr ""
 
 #: src/PhotoAdd.tsx
@@ -3986,6 +4013,10 @@ msgstr ""
 msgid "By set number or name, or a photo of the box — from Rebrickable"
 msgstr ""
 
+#: src/lib/origin.ts
+msgid "by sharing it to Ferret from another app"
+msgstr ""
+
 #: src/Nav.tsx
 msgid "By title or a photo of the case, for the console you have — from IGDB"
 msgstr ""
@@ -4332,6 +4363,10 @@ msgstr ""
 msgid "Choose where each section goes"
 msgstr ""
 
+#: src/ShareIn.tsx
+msgid "Choose which thing first"
+msgstr ""
+
 #: src/Labels.tsx
 msgid "Choose your label printer, and its paper: {paper}"
 msgstr ""
@@ -4666,6 +4701,10 @@ msgstr ""
 
 #: src/Shares.tsx
 msgid "Copy link"
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "Copy link for an NFC tag"
 msgstr ""
 
 #: src/Shopping.tsx
@@ -5058,7 +5097,7 @@ msgstr ""
 msgid "Didn't catch that — try again"
 msgstr ""
 
-#: src/Offline.tsx src/RoomScan.tsx
+#: src/Offline.tsx src/RoomScan.tsx src/ShareIn.tsx
 msgid "Discard"
 msgstr ""
 
@@ -6037,6 +6076,10 @@ msgstr ""
 msgid "Ferret can't use the microphone — check the browser's permission"
 msgstr ""
 
+#: src/ShareIn.tsx
+msgid "Ferret couldn't keep what was shared. Try sharing it again."
+msgstr ""
+
 #: src/RoomScan.tsx
 msgid ""
 "Ferret didn't spot anything it was sure of. Tap things on the photo to add "
@@ -7010,6 +7053,10 @@ msgid ""
 "its own setting for it — see the help). Bigger reads more of a long manual "
 "for each question, and is slower; bigger than the model allows, and answers "
 "come back cut off or fail."
+msgstr ""
+
+#: src/Boxes.tsx
+msgid "How NFC tags work"
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -7992,6 +8039,10 @@ msgstr ""
 msgid "Link {number} label"
 msgstr ""
 
+#: src/Boxes.tsx
+msgid "Link copied"
+msgstr ""
+
 #: src/Paperless.tsx
 msgid "Linked only"
 msgstr ""
@@ -8457,7 +8508,7 @@ msgstr ""
 #: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/Paperless.tsx
 #: src/Parts.tsx src/PayOff.tsx src/Places.tsx src/Product.tsx
 #: src/Providers.tsx src/ReceiptLines.tsx src/Server.tsx src/Settings.tsx
-#: src/Suggestions.tsx src/Templates.tsx src/Webhooks.tsx
+#: src/ShareIn.tsx src/Suggestions.tsx src/Templates.tsx src/Webhooks.tsx
 msgid "Name"
 msgstr ""
 
@@ -8548,7 +8599,7 @@ msgstr ""
 msgid "New household…"
 msgstr ""
 
-#: src/Walkthrough.tsx
+#: src/ShareIn.tsx src/Walkthrough.tsx
 msgid "New item"
 msgstr ""
 
@@ -9025,7 +9076,7 @@ msgstr ""
 msgid "Not chosen (the server's: {serverTimeZone})"
 msgstr ""
 
-#: src/Labels.tsx
+#: src/Labels.tsx src/ShareIn.tsx
 msgid "Not decided yet"
 msgstr ""
 
@@ -9307,6 +9358,10 @@ msgid ""
 "Nothing is limited on this server — these are just this month's numbers."
 msgstr ""
 
+#: src/ShareIn.tsx
+msgid "Nothing is waiting here."
+msgstr ""
+
 #: src/App.tsx
 msgid "Nothing kept here yet."
 msgstr ""
@@ -9427,6 +9482,10 @@ msgstr ""
 
 #: src/Gone.tsx
 msgid "Nothing was marked donated in this year."
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid "Nothing was shared"
 msgstr ""
 
 #: src/Ebay.tsx
@@ -9579,6 +9638,13 @@ msgstr ""
 msgid ""
 "On a thing's page, Edit → \"Goes to (heir)\" — then it's listed here under "
 "that person."
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid ""
+"On Android, or in Chrome on a computer, with Ferret installed: tap Share in "
+"a shop's app, a web page, your photos or a PDF, and choose Ferret. It opens "
+"here, ready to add as a new thing or onto one you have."
 msgstr ""
 
 #: src/Ebay.tsx
@@ -9802,7 +9868,7 @@ msgstr ""
 msgid "Open in your authenticator app"
 msgstr ""
 
-#: src/ScanSession.tsx
+#: src/ScanSession.tsx src/ShareIn.tsx
 msgid "Open it"
 msgstr ""
 
@@ -11946,13 +12012,25 @@ msgstr ""
 msgid "Share or save {name}"
 msgstr ""
 
+#: src/ShareIn.tsx
+msgid "Share to Ferret"
+msgstr ""
+
 #: src/Shares.tsx
 msgid "Share…"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Shared from another app"
 msgstr ""
 
 #: src/Shared.tsx
 msgid ""
 "Shared links work for a while, then stop. Ask whoever sent it for a new one."
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid "Shared to Ferret"
 msgstr ""
 
 #: src/AuthLayout.tsx
@@ -12300,7 +12378,7 @@ msgstr ""
 msgid "Something else…"
 msgstr ""
 
-#: src/Labels.tsx
+#: src/Labels.tsx src/ShareIn.tsx
 msgid "Something in Ferret"
 msgstr ""
 
@@ -12782,6 +12860,10 @@ msgstr ""
 msgid ""
 "That sign-in link didn't work — each one works once, for 15 minutes. Ask for "
 "a new one below."
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid "That thing already has 10 links — remove one first"
 msgstr ""
 
 #: src/NotFound.tsx
@@ -14252,6 +14334,10 @@ msgstr ""
 msgid "What was done"
 msgstr ""
 
+#: src/ShareIn.tsx
+msgid "What was shared"
+msgstr ""
+
 #: src/Claims.tsx src/Repairs.tsx
 msgid "What went wrong"
 msgstr ""
@@ -14375,7 +14461,11 @@ msgstr ""
 msgid "Where is it?"
 msgstr ""
 
-#: src/Labels.tsx src/lib/words.ts
+#: src/ShareIn.tsx
+msgid "Where it goes"
+msgstr ""
+
+#: src/Labels.tsx src/lib/words.ts src/ShareIn.tsx
 msgid "Where it is"
 msgstr ""
 
@@ -14452,7 +14542,7 @@ msgid ""
 "only when it has none"
 msgstr ""
 
-#: src/Labels.tsx
+#: src/Labels.tsx src/ShareIn.tsx
 msgid "Which one"
 msgstr ""
 
@@ -14680,6 +14770,10 @@ msgstr ""
 #: src/CardScan.tsx src/CollectibleScan.tsx src/Import.tsx src/MusicScan.tsx
 #: src/RoomScan.tsx src/Walkthrough.tsx
 msgid "You can look around, but not add things, in this household."
+msgstr ""
+
+#: src/ShareIn.tsx
+msgid "You can look but not add things in this household."
 msgstr ""
 
 #: ../server/src/lib/digest.ts

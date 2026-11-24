@@ -1614,6 +1614,14 @@ msgstr ""
 msgid "{describeNetwork} · signed in {formatWhen}"
 msgstr "{describeNetwork} · zalogowano {formatWhen}"
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# document} other {# documents}}"
+msgid "{documents, plural, one {# document} other {# documents}}"
+msgstr ""
+"{0, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other {# "
+"dokumentu}}"
+
 #: src/Everything.tsx
 msgid "{done} changed"
 msgstr "Zmieniono: {done}"
@@ -2023,6 +2031,23 @@ msgstr "{person} daje znać, że {thing} jest już z powrotem"
 #: src/Loans.tsx
 msgid "{person} says it's back."
 msgstr "{person} mówi, że to już wróciło."
+
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# photo} other {# photos}}"
+msgid "{photos, plural, one {# photo} other {# photos}}"
+msgstr ""
+"{0, plural, one {# zdjęcie} few {# zdjęcia} many {# zdjęć} other {# zdjęcia}}"
+
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# new document} other {# new documents}}"
+msgid ""
+"{photos, plural, one {# photo} other {# photos}} and {documents, plural, one "
+"{# document} other {# documents}}"
+msgstr ""
+"{0, plural, one {# nowy dokument} few {# nowe dokumenty} many {# nowych "
+"dokumentów} other {# nowego dokumentu}}"
 
 #: src/Collections.tsx
 msgid "{pieces} pieces with duplicates"
@@ -2879,6 +2904,12 @@ msgstr "Nowy link jest już w drodze na {unconfirmed}"
 msgid "A new place"
 msgstr "Nowe miejsce"
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "All of one thing"
+msgid "A new thing"
+msgstr "Wszystkie jednej rzeczy"
+
 #: src/ItemEditor.tsx
 msgid ""
 "A new thing with the same details. Its serial number, place, notes, photos "
@@ -3344,6 +3375,7 @@ msgid "Add from photos"
 msgstr "Dodaj ze zdjęć"
 
 #: src/App.tsx src/Collections.tsx src/ItemEditor.tsx src/Server.tsx
+#: src/ShareIn.tsx
 msgid "Add it"
 msgstr "Dodaj to"
 
@@ -3465,7 +3497,7 @@ msgstr "Dodaj rzeczy"
 msgid "Add this"
 msgstr "Dodaj to"
 
-#: src/Collections.tsx
+#: src/Collections.tsx src/ShareIn.tsx
 msgid "Add to {name}"
 msgstr "Dodaj do {name}"
 
@@ -3492,6 +3524,12 @@ msgstr "Dodaj do kalendarza"
 #: src/Install.tsx
 msgid "Add to Home Screen"
 msgstr "Dodaj do ekranu głównego"
+
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Add it"
+msgid "Add to it"
+msgstr "Dodaj to"
 
 #: src/Collections.tsx
 msgid "Add to the want list"
@@ -3641,6 +3679,10 @@ msgstr "Dodane do poprzedniej rzeczy"
 #: src/lib/origin.ts
 msgid "Added with Scan cards"
 msgstr "Dodane przez Skanuj karty"
+
+#: src/ShareIn.tsx
+msgid "Added, but some files didn't go up:"
+msgstr ""
 
 #: src/PhotoAdd.tsx
 msgid "Adding {number} of {total}…"
@@ -4614,6 +4656,10 @@ msgstr "Po serii i numerze zeszytu albo ze zdjęcia okładki — z Comic Vine"
 msgid "By set number or name, or a photo of the box — from Rebrickable"
 msgstr "Po numerze lub nazwie zestawu albo ze zdjęcia pudełka — z Rebrickable"
 
+#: src/lib/origin.ts
+msgid "by sharing it to Ferret from another app"
+msgstr ""
+
 #: src/Nav.tsx
 msgid "By title or a photo of the case, for the console you have — from IGDB"
 msgstr "Po tytule albo ze zdjęcia pudełka, na Twoją konsolę — z IGDB"
@@ -4977,6 +5023,12 @@ msgstr ""
 msgid "Choose where each section goes"
 msgstr "Wybierz, gdzie trafia każda sekcja"
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Choose what it's on first"
+msgid "Choose which thing first"
+msgstr "Najpierw wybierz, na czym jest"
+
 #: src/Labels.tsx
 msgid "Choose your label printer, and its paper: {paper}"
 msgstr "Wybierz drukarkę etykiet i papier do niej: {paper}"
@@ -5324,6 +5376,10 @@ msgstr ""
 #: src/Shares.tsx
 msgid "Copy link"
 msgstr "Skopiuj link"
+
+#: src/Boxes.tsx
+msgid "Copy link for an NFC tag"
+msgstr ""
 
 #: src/Shopping.tsx
 msgid "Copy list"
@@ -5722,7 +5778,7 @@ msgstr "Czy chodziło o <0>{suggestion}</0>?"
 msgid "Didn't catch that — try again"
 msgstr "Nie dosłyszałem — spróbuj ponownie"
 
-#: src/Offline.tsx src/RoomScan.tsx
+#: src/Offline.tsx src/RoomScan.tsx src/ShareIn.tsx
 msgid "Discard"
 msgstr "Odrzuć"
 
@@ -6777,6 +6833,10 @@ msgstr ""
 #: src/SpeakButton.tsx
 msgid "Ferret can't use the microphone — check the browser's permission"
 msgstr "Ferret nie może użyć mikrofonu — sprawdź uprawnienia przeglądarki"
+
+#: src/ShareIn.tsx
+msgid "Ferret couldn't keep what was shared. Try sharing it again."
+msgstr ""
 
 #: src/RoomScan.tsx
 msgid ""
@@ -7837,6 +7897,10 @@ msgstr ""
 "na to własne ustawienie — zobacz pomoc). Większy czyta więcej z długiej "
 "instrukcji przy każdym pytaniu i działa wolniej; większy, niż model pozwala, "
 "a odpowiedzi będą ucięte albo się nie udadzą."
+
+#: src/Boxes.tsx
+msgid "How NFC tags work"
+msgstr ""
 
 #: src/Webhooks.tsx
 msgid "How to check the signature"
@@ -8910,6 +8974,10 @@ msgstr "Adres linku {number}"
 msgid "Link {number} label"
 msgstr "Etykieta linku {number}"
 
+#: src/Boxes.tsx
+msgid "Link copied"
+msgstr ""
+
 #: src/Paperless.tsx
 msgid "Linked only"
 msgstr "Tylko link"
@@ -9402,7 +9470,7 @@ msgstr "Moja oferta — sprzedaję to na {market}"
 #: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/Paperless.tsx
 #: src/Parts.tsx src/PayOff.tsx src/Places.tsx src/Product.tsx
 #: src/Providers.tsx src/ReceiptLines.tsx src/Server.tsx src/Settings.tsx
-#: src/Suggestions.tsx src/Templates.tsx src/Webhooks.tsx
+#: src/ShareIn.tsx src/Suggestions.tsx src/Templates.tsx src/Webhooks.tsx
 msgid "Name"
 msgstr "Nazwa"
 
@@ -9497,7 +9565,7 @@ msgstr "Nowe gospodarstwo domowe"
 msgid "New household…"
 msgstr "Nowe gospodarstwo domowe…"
 
-#: src/Walkthrough.tsx
+#: src/ShareIn.tsx src/Walkthrough.tsx
 msgid "New item"
 msgstr "Nowa rzecz"
 
@@ -10000,7 +10068,7 @@ msgstr "Nie ma takiego miejsca w Ferret"
 msgid "Not chosen (the server's: {serverTimeZone})"
 msgstr "Nie wybrano (serwera: {serverTimeZone})"
 
-#: src/Labels.tsx
+#: src/Labels.tsx src/ShareIn.tsx
 msgid "Not decided yet"
 msgstr "Jeszcze nie wiadomo"
 
@@ -10288,6 +10356,12 @@ msgid ""
 msgstr ""
 "Na tym serwerze nic nie jest ograniczone — to tylko liczby z tego miesiąca."
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Nothing there was waiting to be read"
+msgid "Nothing is waiting here."
+msgstr "Nic tam nie czekało na przeczytanie"
+
 #: src/App.tsx
 msgid "Nothing kept here yet."
 msgstr "Na razie nic tu nie jest przechowywane."
@@ -10417,6 +10491,12 @@ msgstr ""
 #: src/Gone.tsx
 msgid "Nothing was marked donated in this year."
 msgstr "W tym roku nic nie oznaczono jako darowizny."
+
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Nothing has barcode"
+msgid "Nothing was shared"
+msgstr "Nic nie ma kodu kreskowego"
 
 #: src/Ebay.tsx
 msgid "Nothing with this barcode is listed on eBay right now."
@@ -10597,6 +10677,13 @@ msgid ""
 msgstr ""
 "Na stronie rzeczy: Edytuj → „Przypada (spadkobierca)” — wtedy pojawi się "
 "tutaj pod tą osobą."
+
+#: src/ShareIn.tsx
+msgid ""
+"On Android, or in Chrome on a computer, with Ferret installed: tap Share in "
+"a shop's app, a web page, your photos or a PDF, and choose Ferret. It opens "
+"here, ready to add as a new thing or onto one you have."
+msgstr ""
 
 #: src/Ebay.tsx
 msgid "On eBay"
@@ -10841,7 +10928,7 @@ msgstr "Otwórz w Paperless"
 msgid "Open in your authenticator app"
 msgstr "Otwórz w aplikacji uwierzytelniającej"
 
-#: src/ScanSession.tsx
+#: src/ScanSession.tsx src/ShareIn.tsx
 msgid "Open it"
 msgstr "Otwórz"
 
@@ -13084,9 +13171,19 @@ msgstr "Linki do udostępnienia"
 msgid "Share or save {name}"
 msgstr "Udostępnij lub zapisz {name}"
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Back to Ferret"
+msgid "Share to Ferret"
+msgstr "Wróć do Ferret"
+
 #: src/Shares.tsx
 msgid "Share…"
 msgstr "Udostępnij…"
+
+#: src/lib/origin.ts
+msgid "Shared from another app"
+msgstr ""
 
 #: src/Shared.tsx
 msgid ""
@@ -13094,6 +13191,12 @@ msgid ""
 msgstr ""
 "Udostępnione linki działają przez pewien czas, a potem przestają. Poproś "
 "osobę, która go wysłała, o nowy."
+
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Back to Ferret"
+msgid "Shared to Ferret"
+msgstr "Wróć do Ferret"
 
 #: src/AuthLayout.tsx
 msgid "Shared with your household, kept on your own server, files encrypted."
@@ -13475,7 +13578,7 @@ msgstr "Coś innego"
 msgid "Something else…"
 msgstr "Coś innego…"
 
-#: src/Labels.tsx
+#: src/Labels.tsx src/ShareIn.tsx
 msgid "Something in Ferret"
 msgstr "Coś w Ferret"
 
@@ -13982,6 +14085,10 @@ msgid ""
 msgstr ""
 "Ten link do logowania nie zadziałał — każdy działa raz, przez 15 minut. "
 "Poproś niżej o nowy."
+
+#: src/ShareIn.tsx
+msgid "That thing already has 10 links — remove one first"
+msgstr ""
 
 #: src/NotFound.tsx
 msgid "That thing isn't here"
@@ -15578,6 +15685,12 @@ msgstr "Czego szukać"
 msgid "What was done"
 msgstr "Co zrobiono"
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "What was done"
+msgid "What was shared"
+msgstr "Co zrobiono"
+
 #: src/Claims.tsx src/Repairs.tsx
 msgid "What went wrong"
 msgstr "Co się zepsuło"
@@ -15723,7 +15836,13 @@ msgstr "Gdzie jest przechowywana? Dodaj miejsce"
 msgid "Where is it?"
 msgstr "Gdzie to jest?"
 
-#: src/Labels.tsx src/lib/words.ts
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Where it is"
+msgid "Where it goes"
+msgstr "Gdzie to jest"
+
+#: src/Labels.tsx src/lib/words.ts src/ShareIn.tsx
 msgid "Where it is"
 msgstr "Gdzie to jest"
 
@@ -15805,7 +15924,7 @@ msgstr ""
 "Do której z twoich kategorii należy rzecz, na podstawie jej zdjęć i "
 "paragonów — tylko gdy nie ma żadnej"
 
-#: src/Labels.tsx
+#: src/Labels.tsx src/ShareIn.tsx
 msgid "Which one"
 msgstr "Która"
 
@@ -16038,6 +16157,13 @@ msgstr "Możesz ją odłączyć w każdej chwili w Ustawienia → Claude i API."
 #: src/CardScan.tsx src/CollectibleScan.tsx src/Import.tsx src/MusicScan.tsx
 #: src/RoomScan.tsx src/Walkthrough.tsx
 msgid "You can look around, but not add things, in this household."
+msgstr ""
+"W tym gospodarstwie domowym możesz się rozglądać, ale nie dodawać rzeczy."
+
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "You can look around, but not add things, in this household."
+msgid "You can look but not add things in this household."
 msgstr ""
 "W tym gospodarstwie domowym możesz się rozglądać, ale nie dodawać rzeczy."
 
