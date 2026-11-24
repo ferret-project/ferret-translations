@@ -6024,7 +6024,8 @@ msgstr "DK-2205 — 62 mm ciągła (cięta co 40 mm)"
 msgid "DK-2210 — 29 mm continuous (cut at 50 mm)"
 msgstr "DK-2210 — 29 mm ciągła (cięta co 50 mm)"
 
-#: ../server/src/lib/item-sheet.ts src/ItemPage.tsx src/ItemSheet.tsx
+#: ../server/src/lib/item-pdf.ts ../server/src/lib/item-sheet.ts
+#: src/ItemPage.tsx src/ItemSheet.tsx
 msgid "Documents"
 msgstr "Dokumenty"
 
@@ -6162,6 +6163,12 @@ msgstr "Pobrać wszystko?"
 #: src/DataExport.tsx
 msgid "Download everything…"
 msgstr "Pobierz wszystko…"
+
+#: src/ItemSheet.tsx
+#, fuzzy
+#| msgid "Downloads"
+msgid "Download signed PDF"
+msgstr "Pobrania"
 
 #: src/ItemSheet.tsx
 #, fuzzy
@@ -6805,12 +6812,17 @@ msgstr ""
 msgid "Everything"
 msgstr "Wszystko"
 
+#: ../server/src/lib/item-pdf.ts
+#, fuzzy
+#| msgid "Everything not already in Ferret"
+msgid "Everything about {name}, from Ferret"
+msgstr "Wszystko, czego jeszcze nie ma w Ferret"
+
 #: src/ItemSheet.tsx
 msgid ""
-"Everything about this thing on one page — print it, save it as a PDF from "
-"the print dialog, or download it as a signed ZIP: Markdown with its photos "
-"and documents, which anyone can check hasn't changed with your household's "
-"public key."
+"Everything about this thing on one page. Download a signed PDF, or a signed "
+"ZIP (Markdown with its photos and documents, and the PDF) — anyone can check "
+"either hasn't changed with your household's public key. Or just print it."
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -7006,8 +7018,8 @@ msgstr "jesień"
 msgid "Favourite"
 msgstr "Ulubione"
 
-#: src/Ask.tsx src/AuthLayout.tsx src/History.tsx src/ItemSheet.tsx
-#: src/Overview.tsx
+#: ../server/src/lib/item-pdf.ts src/Ask.tsx src/AuthLayout.tsx src/History.tsx
+#: src/ItemSheet.tsx src/Overview.tsx
 msgid "Ferret"
 msgstr "Ferret"
 
@@ -7659,7 +7671,8 @@ msgstr "Od wizyty do powrotu"
 msgid "From endoflife.date — check it's the right model before saying yes."
 msgstr "Z endoflife.date — zanim potwierdzisz, sprawdź, czy to właściwy model."
 
-#: ../server/src/lib/item-sheet.ts src/ItemSheet.tsx
+#: ../server/src/lib/item-pdf.ts ../server/src/lib/item-sheet.ts
+#: src/ItemSheet.tsx
 msgid "From Ferret, {date}: {url}"
 msgstr ""
 
@@ -11779,6 +11792,12 @@ msgstr "Zdjęcia i dokumenty"
 msgid "Photos and files"
 msgstr "Zdjęcia i pliki"
 
+#: ../server/src/lib/item-pdf.ts
+#, fuzzy
+#| msgid "Photos and files"
+msgid "Photos not shown here: {files}"
+msgstr "Zdjęcia i pliki"
+
 #: src/Prompts.tsx
 msgid "Photos of things"
 msgstr "Zdjęcia rzeczy"
@@ -12005,7 +12024,7 @@ msgstr ""
 "Ceny dotyczą kart bez oceny w dobrym stanie; karta z oceną może być warta "
 "dużo więcej."
 
-#: src/Boxes.tsx src/Labels.tsx
+#: src/Boxes.tsx src/ItemSheet.tsx src/Labels.tsx
 msgid "Print"
 msgstr "Drukuj"
 
@@ -12029,7 +12048,7 @@ msgstr "Drukuj etykiety"
 msgid "Print or export"
 msgstr "Eksport z Ferret"
 
-#: src/Gone.tsx src/Heirs.tsx src/ItemSheet.tsx src/Report.tsx src/Shared.tsx
+#: src/Gone.tsx src/Heirs.tsx src/Report.tsx src/Shared.tsx
 msgid "Print or save as PDF"
 msgstr "Wydrukuj lub zapisz jako PDF"
 
@@ -13838,6 +13857,12 @@ msgstr ""
 #: src/Paperless.tsx
 msgid "Signed in as"
 msgstr "Zalogowano jako"
+
+#: ../server/src/lib/item-pdf.ts
+msgid ""
+"Signed with the household's key {fingerprint} — check it with: ferret verify "
+"<this file>"
+msgstr ""
 
 #: src/Security.tsx
 msgid ""
