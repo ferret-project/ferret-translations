@@ -350,8 +350,9 @@ msgid ""
 "Paperless}}"
 msgstr ""
 
+#. placeholder {0}: c.documents
 #. placeholder {0}: p.documents
-#: src/PlanUsage.tsx
+#: src/ImportFerret.tsx src/PlanUsage.tsx
 msgid "{0, plural, one {# document} other {# documents}}"
 msgstr ""
 
@@ -446,6 +447,11 @@ msgid ""
 "insurer asks for, with what happened and when.}}"
 msgstr ""
 
+#. placeholder {0}: c.maintenance
+#: src/ImportFerret.tsx
+msgid "{0, plural, one {# maintenance task} other {# maintenance tasks}}"
+msgstr ""
+
 #. placeholder {0}: items.data.total
 #: src/App.tsx
 msgid "{0, plural, one {# match} other {# matches}}"
@@ -502,9 +508,10 @@ msgstr ""
 msgid "{0, plural, one {# photo saved} other {# photos saved}}"
 msgstr ""
 
+#. placeholder {0}: c.photos
 #. placeholder {0}: p.photos
 #. placeholder {0}: r.photos
-#: src/PlanUsage.tsx src/Report.tsx
+#: src/ImportFerret.tsx src/PlanUsage.tsx src/Report.tsx
 msgid "{0, plural, one {# photo} other {# photos}}"
 msgstr ""
 
@@ -562,6 +569,11 @@ msgstr ""
 #. placeholder {0}: s.releases
 #: src/Server.tsx
 msgid "{0, plural, one {# record found} other {# records found}}"
+msgstr ""
+
+#. placeholder {0}: c.repairs
+#: src/ImportFerret.tsx
+msgid "{0, plural, one {# repair} other {# repairs}}"
 msgstr ""
 
 #. placeholder {0}: newRooms.length
@@ -707,6 +719,11 @@ msgstr ""
 #. placeholder {0}: s.recalls
 #: src/Server.tsx
 msgid "{0, plural, one {# vehicle recall kept} other {# vehicle recalls kept}}"
+msgstr ""
+
+#. placeholder {0}: c.warranties
+#: src/ImportFerret.tsx
+msgid "{0, plural, one {# warranty} other {# warranties}}"
 msgstr ""
 
 #. placeholder {0}: s.found
@@ -1131,19 +1148,19 @@ msgstr ""
 msgid "{count, plural, one {a year} other {# years}}"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "{count, plural, one {every day} other {every # days}}"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "{count, plural, one {every month} other {every # months}}"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "{count, plural, one {every week} other {every # weeks}}"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "{count, plural, one {every year} other {every # years}}"
 msgstr ""
 
@@ -1303,6 +1320,18 @@ msgstr ""
 msgid "{field} looks right"
 msgstr ""
 
+#: ../server/src/lib/item-import.ts
+msgid "{file} has changed"
+msgstr ""
+
+#: ../server/src/lib/item-import.ts
+msgid "{file} is missing"
+msgstr ""
+
+#: ../server/src/lib/item-import.ts
+msgid "{file} was added"
+msgstr ""
+
 #: src/Server.tsx
 msgid "{files} ({size}, {copied} new) and the database ({dbSize})"
 msgstr ""
@@ -1327,6 +1356,10 @@ msgstr ""
 msgid ""
 "{free} free of {total} on the disk with {holds} — free some space, or move "
 "them to a bigger disk."
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "{from} to {to}"
 msgstr ""
 
 #: src/FuelEconomy.tsx
@@ -1410,6 +1443,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "{left} → {after} left"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "{left} left"
 msgstr ""
 
 #: src/Stock.tsx
@@ -1933,6 +1970,11 @@ msgstr ""
 
 #: src/Deleted.tsx
 msgid "<0>{name} is back.</0><1>Open</1>"
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid ""
+"<0>{name}</0> here has the same serial number — importing adds a second one."
 msgstr ""
 
 #: src/Connect.tsx
@@ -2528,6 +2570,10 @@ msgstr ""
 msgid "A spreadsheet, or Home Assistant"
 msgstr ""
 
+#: src/Import.tsx
+msgid "A thing exported from Ferret"
+msgstr ""
+
 #: src/Webhooks.tsx
 msgid "A thing is added"
 msgstr ""
@@ -2542,6 +2588,15 @@ msgstr ""
 
 #: src/Webhooks.tsx
 msgid "A thing is gone (sold, given away, lost…)"
+msgstr ""
+
+#: src/SigningKey.tsx
+msgid ""
+"A thing's signed ZIP (Print or export on its page) is signed with this "
+"household's key, so anyone can check nothing in it has changed. Each ZIP "
+"carries the key; compare its fingerprint with this one to know it's yours. "
+"The key is kept in the server's backups, so old exports still check out "
+"after a restore."
 msgstr ""
 
 #: src/Invite.tsx
@@ -2590,6 +2645,10 @@ msgstr ""
 
 #: src/CollectibleScan.tsx
 msgid "About {price}"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "about {years} years"
 msgstr ""
 
 #: src/Collections.tsx
@@ -3022,7 +3081,8 @@ msgstr ""
 msgid "Add, change and remove things there"
 msgstr ""
 
-#: src/Security.tsx src/Videos.tsx src/Walkthrough.tsx
+#: ../server/src/lib/item-sheet.ts src/Security.tsx src/Videos.tsx
+#: src/Walkthrough.tsx
 msgid "Added"
 msgstr ""
 
@@ -3424,6 +3484,13 @@ msgstr ""
 msgid "And {more} more (find one above to see it)."
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid ""
+"and compare it with one you got another way — Settings → Household → Signing "
+"key in Ferret, or the bottom of a sheet printed earlier. If they match, the "
+"key here is your household's."
+msgstr ""
+
 #: src/Import.tsx
 msgid "And made {places} and {categories}."
 msgstr ""
@@ -3556,7 +3623,7 @@ msgstr ""
 msgid "Apprise URL"
 msgstr ""
 
-#: src/Claims.tsx
+#: ../server/src/lib/item-sheet.ts src/Claims.tsx
 msgid "Approved"
 msgstr ""
 
@@ -3738,6 +3805,10 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "back {date}"
+msgstr ""
+
 #: src/Invite.tsx
 msgid "Back to Ferret"
 msgstr ""
@@ -3790,6 +3861,10 @@ msgstr ""
 msgid "Backup failed"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Backup signing key"
+msgstr ""
+
 #: ../server/src/lib/attention.ts
 msgid "backups"
 msgstr ""
@@ -3806,8 +3881,9 @@ msgstr ""
 msgid "Backups have stopped"
 msgstr ""
 
-#: src/AiFill.tsx src/Duplicates.tsx src/ItemEditor.tsx src/lib/last-scanned.ts
-#: src/lib/words.ts src/Suggestions.tsx src/Walkthrough.tsx
+#: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/Duplicates.tsx
+#: src/ItemEditor.tsx src/lib/last-scanned.ts src/lib/words.ts
+#: src/Suggestions.tsx src/Walkthrough.tsx
 msgid "Barcode"
 msgstr ""
 
@@ -3880,11 +3956,16 @@ msgstr ""
 msgid "Borrowed from {person}"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Borrowed from {person} on {date}"
+msgstr ""
+
 #: src/Loans.tsx
 msgid "Borrowed from {person} since {since}"
 msgstr ""
 
-#: src/Duplicates.tsx src/Everything.tsx src/Report.tsx
+#: ../server/src/lib/item-sheet.ts src/Duplicates.tsx src/Everything.tsx
+#: src/Offline.tsx src/Report.tsx
 msgid "Bought"
 msgstr ""
 
@@ -3928,9 +4009,9 @@ msgstr ""
 msgid "Box name"
 msgstr ""
 
-#: src/AiFill.tsx src/App.tsx src/Duplicates.tsx src/Everything.tsx
-#: src/ItemEditor.tsx src/Product.tsx src/QuickAdd.tsx src/Suggestions.tsx
-#: src/Walkthrough.tsx
+#: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/App.tsx
+#: src/Duplicates.tsx src/Everything.tsx src/ItemEditor.tsx src/Offline.tsx
+#: src/Product.tsx src/QuickAdd.tsx src/Suggestions.tsx src/Walkthrough.tsx
 msgid "Brand"
 msgstr ""
 
@@ -3985,7 +4066,7 @@ msgstr ""
 msgid "by describing it in words"
 msgstr ""
 
-#: src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/Stock.tsx
 msgid "by hand"
 msgstr ""
 
@@ -4074,13 +4155,14 @@ msgstr ""
 #: src/Cards.tsx src/Catalog.tsx src/Claims.tsx src/Collections.tsx
 #: src/Connect.tsx src/DataExport.tsx src/DeleteForGood.tsx src/Duplicates.tsx
 #: src/Everything.tsx src/FromWeb.tsx src/Gone.tsx src/Graded.tsx
-#: src/Household.tsx src/ItemEditor.tsx src/Loans.tsx src/Maintenance.tsx
-#: src/NewHousehold.tsx src/Notifications.tsx src/Overview.tsx src/Pairing.tsx
-#: src/Paperless.tsx src/Parts.tsx src/PayOff.tsx src/PhotoCrop.tsx
-#: src/Places.tsx src/Prompts.tsx src/Providers.tsx src/ReceiptLines.tsx
-#: src/Repairs.tsx src/Security.tsx src/Server.tsx src/Settings.tsx
-#: src/Shares.tsx src/StarterTasks.tsx src/Templates.tsx src/Tracking.tsx
-#: src/Usage.tsx src/Warranties.tsx src/Webhooks.tsx
+#: src/Household.tsx src/ImportFerret.tsx src/ItemEditor.tsx src/Loans.tsx
+#: src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
+#: src/Overview.tsx src/Pairing.tsx src/Paperless.tsx src/Parts.tsx
+#: src/PayOff.tsx src/PhotoCrop.tsx src/Places.tsx src/Prompts.tsx
+#: src/Providers.tsx src/ReceiptLines.tsx src/Repairs.tsx src/Security.tsx
+#: src/Server.tsx src/Settings.tsx src/Shares.tsx src/StarterTasks.tsx
+#: src/Templates.tsx src/Tracking.tsx src/Usage.tsx src/Warranties.tsx
+#: src/Webhooks.tsx
 msgid "Cancel"
 msgstr ""
 
@@ -4146,9 +4228,9 @@ msgstr ""
 msgid "category"
 msgstr ""
 
-#: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Duplicates.tsx
-#: src/Everything.tsx src/lib/words.ts src/Overview.tsx src/QuickAdd.tsx
-#: src/Suggestions.tsx
+#: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/App.tsx src/Catalog.tsx
+#: src/Duplicates.tsx src/Everything.tsx src/ImportFerret.tsx src/lib/words.ts
+#: src/Offline.tsx src/Overview.tsx src/QuickAdd.tsx src/Suggestions.tsx
 msgid "Category"
 msgstr ""
 
@@ -4330,6 +4412,14 @@ msgstr ""
 msgid "Choose a tag"
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid "Choose a ZIP"
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid "Choose another ZIP"
+msgstr ""
+
 #: src/Setup.tsx
 msgid "Choose categories"
 msgstr ""
@@ -4348,6 +4438,14 @@ msgstr ""
 
 #: src/ImportCsv.tsx
 msgid "Choose the column with each thing's name."
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid ""
+"Choose the ZIP from a thing's Print or export. Ferret checks its signature "
+"first and shows you what's in it; nothing is added until you say so. It "
+"comes in as a new thing, with its photos, documents, warranties, maintenance "
+"and repairs."
 msgstr ""
 
 #: src/Labels.tsx
@@ -4381,6 +4479,10 @@ msgstr ""
 
 #: src/AttentionBell.tsx
 msgid "Claim"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Claim filed {date}: {problem}"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -4581,8 +4683,8 @@ msgstr ""
 msgid "Complete"
 msgstr ""
 
-#: src/Collectibles.tsx src/Duplicates.tsx src/Gone.tsx src/ItemEditor.tsx
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/Collectibles.tsx src/Duplicates.tsx
+#: src/Gone.tsx src/ItemEditor.tsx src/lib/words.ts
 msgid "Condition"
 msgstr ""
 
@@ -4657,7 +4759,7 @@ msgid "Continue"
 msgstr ""
 
 #: src/Listing.tsx src/Pairing.tsx src/Security.tsx src/Server.tsx
-#: src/Shares.tsx src/Shopping.tsx
+#: src/Shares.tsx src/Shopping.tsx src/SigningKey.tsx
 msgid "Copied"
 msgstr ""
 
@@ -4699,7 +4801,7 @@ msgid ""
 "again."
 msgstr ""
 
-#: src/Shares.tsx
+#: src/ItemPage.tsx src/Shares.tsx
 msgid "Copy link"
 msgstr ""
 
@@ -4711,6 +4813,10 @@ msgstr ""
 msgid "Copy list"
 msgstr ""
 
+#: src/SigningKey.tsx
+msgid "Copy public key"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid "Copy the calendar link below."
 msgstr ""
@@ -4719,7 +4825,7 @@ msgstr ""
 msgid "cordless tool"
 msgstr ""
 
-#: src/Maintenance.tsx src/Repairs.tsx
+#: ../server/src/lib/item-sheet.ts src/Maintenance.tsx src/Repairs.tsx
 msgid "Cost"
 msgstr ""
 
@@ -4749,6 +4855,10 @@ msgstr ""
 
 #: src/Connect.tsx
 msgid "Couldn't connect the app"
+msgstr ""
+
+#: src/ItemPage.tsx
+msgid "Couldn't copy"
 msgstr ""
 
 #: src/lib/challenge.ts
@@ -4854,7 +4964,7 @@ msgstr ""
 msgid "Coverage"
 msgstr ""
 
-#: src/WarrantyList.tsx
+#: ../server/src/lib/item-sheet.ts src/WarrantyList.tsx
 msgid "Covered"
 msgstr ""
 
@@ -4868,6 +4978,10 @@ msgstr ""
 
 #: src/PayOff.tsx
 msgid "Covered up to"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Covers"
 msgstr ""
 
 #: src/App.tsx
@@ -5040,7 +5154,7 @@ msgstr ""
 msgid "denied"
 msgstr ""
 
-#: src/Claims.tsx
+#: ../server/src/lib/item-sheet.ts src/Claims.tsx
 msgid "Denied"
 msgstr ""
 
@@ -5064,13 +5178,17 @@ msgstr ""
 msgid "Described in words"
 msgstr ""
 
-#: src/Duplicates.tsx src/ItemEditor.tsx src/ItemSearch.tsx src/lib/words.ts
-#: src/Listing.tsx
+#: ../server/src/lib/item-sheet.ts src/Duplicates.tsx src/ItemEditor.tsx
+#: src/ItemSearch.tsx src/lib/words.ts src/Listing.tsx src/Offline.tsx
 msgid "Description"
 msgstr ""
 
 #: src/lib/words.ts
 msgid "desktop computer"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Details"
 msgstr ""
 
 #: src/lib/words.ts
@@ -5181,7 +5299,7 @@ msgstr ""
 msgid "DK-2210 — 29 mm continuous (cut at 50 mm)"
 msgstr ""
 
-#: src/ItemPage.tsx
+#: ../server/src/lib/item-sheet.ts src/ItemPage.tsx src/ItemSheet.tsx
 msgid "Documents"
 msgstr ""
 
@@ -5213,6 +5331,12 @@ msgstr ""
 msgid "Don't send one"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid ""
+"Don't take this file's word for it: work the fingerprint out from the key "
+"itself,"
+msgstr ""
+
 #: src/Offline.tsx
 msgid "Don't upload this photo"
 msgstr ""
@@ -5225,7 +5349,7 @@ msgstr ""
 msgid "Don't upload this room scan?"
 msgstr ""
 
-#: src/Gone.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx
 msgid "Donated"
 msgstr ""
 
@@ -5255,7 +5379,7 @@ msgstr ""
 msgid "Done — you can sign in again straight away."
 msgstr ""
 
-#: src/Maintenance.tsx
+#: ../server/src/lib/item-sheet.ts src/Maintenance.tsx
 msgid "Done {date}"
 msgstr ""
 
@@ -5265,6 +5389,10 @@ msgstr ""
 
 #: src/Maintenance.tsx
 msgid "Done before"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Done by"
 msgstr ""
 
 #: src/CardScan.tsx src/CollectibleScan.tsx
@@ -5283,6 +5411,10 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
+#: src/SigningKey.tsx
+msgid "Download allowed_signers"
+msgstr ""
+
 #: src/DataExport.tsx
 msgid "Download everything"
 msgstr ""
@@ -5297,6 +5429,10 @@ msgstr ""
 
 #: src/DataExport.tsx
 msgid "Download everything…"
+msgstr ""
+
+#: src/ItemSheet.tsx
+msgid "Download signed ZIP"
 msgstr ""
 
 #: src/Gone.tsx src/Report.tsx src/Shared.tsx
@@ -5335,6 +5471,10 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "Due back"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "due back {date}"
 msgstr ""
 
 #: ../server/src/lib/attention.ts
@@ -5640,7 +5780,7 @@ msgstr ""
 msgid "Edit the repair"
 msgstr ""
 
-#: src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/Stock.tsx
 msgid "edited"
 msgstr ""
 
@@ -5805,6 +5945,14 @@ msgstr ""
 msgid "Every 2 weeks"
 msgstr ""
 
+#: src/Server.tsx
+msgid ""
+"Every backup is signed with this key, and the backup folder has a copy of "
+"it. With the ferret command-line tool or ssh-keygen, anyone can check a "
+"backup is whole and unchanged — without FILES_KEY. Compare the fingerprint "
+"with this one."
+msgstr ""
+
 #: src/Webhooks.tsx
 msgid ""
 "Every delivery is signed with this secret (the Ferret-Signature header). "
@@ -5874,6 +6022,14 @@ msgstr ""
 #: src/Everything.tsx src/ItemSearch.tsx src/Nav.tsx src/NotFound.tsx
 #: src/PayOff.tsx src/TabBar.tsx
 msgid "Everything"
+msgstr ""
+
+#: src/ItemSheet.tsx
+msgid ""
+"Everything about this thing on one page — print it, save it as a PDF from "
+"the print dialog, or download it as a signed ZIP: Markdown with its photos "
+"and documents, which anyone can check hasn't changed with your household's "
+"public key."
 msgstr ""
 
 #: src/ItemPage.tsx
@@ -5953,7 +6109,7 @@ msgstr ""
 msgid "Everything, the most recently bought first"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "Excellent"
 msgstr ""
 
@@ -5971,6 +6127,10 @@ msgstr ""
 
 #: src/Nav.tsx
 msgid "Expand"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Expected life"
 msgstr ""
 
 #: src/MaintenanceCalendar.tsx
@@ -6010,6 +6170,10 @@ msgstr ""
 msgid "Expires {formatDate}"
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid "Exported"
+msgstr ""
+
 #: src/Catalog.tsx
 msgid "Extra fields for its items"
 msgstr ""
@@ -6022,7 +6186,7 @@ msgstr ""
 msgid "Failed since {date}"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "Fair"
 msgstr ""
 
@@ -6038,7 +6202,8 @@ msgstr ""
 msgid "Favourite"
 msgstr ""
 
-#: src/Ask.tsx src/AuthLayout.tsx src/History.tsx src/Overview.tsx
+#: src/Ask.tsx src/AuthLayout.tsx src/History.tsx src/ItemSheet.tsx
+#: src/Overview.tsx
 msgid "Ferret"
 msgstr ""
 
@@ -6234,7 +6399,7 @@ msgstr ""
 msgid "filed"
 msgstr ""
 
-#: src/Claims.tsx
+#: ../server/src/lib/item-sheet.ts src/Claims.tsx
 msgid "Filed"
 msgstr ""
 
@@ -6348,6 +6513,10 @@ msgstr ""
 
 #: src/Collectibles.tsx
 msgid "Fine (F)"
+msgstr ""
+
+#: src/SigningKey.tsx
+msgid "Fingerprint"
 msgstr ""
 
 #: src/CardScan.tsx
@@ -6577,6 +6746,10 @@ msgid "from a collector catalog"
 msgstr ""
 
 #: src/lib/origin.ts
+msgid "from a Ferret export"
+msgstr ""
+
+#: src/lib/origin.ts
 msgid "from a Paperless document"
 msgstr ""
 
@@ -6606,6 +6779,10 @@ msgstr ""
 
 #: src/DeviceSupport.tsx
 msgid "From endoflife.date — check it's the right model before saying yes."
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts src/ItemSheet.tsx
+msgid "From Ferret, {date}: {url}"
 msgstr ""
 
 #: src/lib/origin.ts
@@ -6726,7 +6903,7 @@ msgstr ""
 msgid "Give {thing} back to {person}"
 msgstr ""
 
-#: src/Gone.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx
 msgid "Given away"
 msgstr ""
 
@@ -6760,6 +6937,10 @@ msgstr ""
 msgid "Goes in a place you have"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Goes to"
+msgstr ""
+
 #: src/ItemEditor.tsx
 msgid "Goes to (heir)"
 msgstr ""
@@ -6776,7 +6957,7 @@ msgstr ""
 msgid "Gone…"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "Good"
 msgstr ""
 
@@ -6954,7 +7135,8 @@ msgstr ""
 msgid "Hide the details"
 msgstr ""
 
-#: src/History.tsx src/ItemPage.tsx src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/History.tsx src/ItemPage.tsx
+#: src/ItemSheet.tsx src/Stock.tsx
 msgid "History"
 msgstr ""
 
@@ -7009,6 +7191,10 @@ msgstr ""
 msgid "Household name"
 msgstr ""
 
+#: src/ItemSheet.tsx
+msgid "Household signing key: {fingerprint}"
+msgstr ""
+
 #: src/Nav.tsx
 msgid "Households"
 msgstr ""
@@ -7018,7 +7204,7 @@ msgid "Households nobody is a member of — nobody can open them."
 msgstr ""
 
 #: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx src/Labels.tsx
-#: src/Maintenance.tsx src/ReceiptLines.tsx src/RoomScan.tsx
+#: src/Maintenance.tsx src/Offline.tsx src/ReceiptLines.tsx src/RoomScan.tsx
 msgid "How many"
 msgstr ""
 
@@ -7057,6 +7243,10 @@ msgstr ""
 
 #: src/Boxes.tsx
 msgid "How NFC tags work"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "How often"
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -7170,13 +7360,25 @@ msgid ""
 "space."
 msgstr ""
 
-#: src/Import.tsx src/ImportCsv.tsx src/ImportHomeAssistant.tsx src/Nav.tsx
-#: src/Setup.tsx
+#: src/Import.tsx src/ImportCsv.tsx src/ImportFerret.tsx
+#: src/ImportHomeAssistant.tsx src/Nav.tsx src/Setup.tsx
 msgid "Import"
 msgstr ""
 
 #: src/Import.tsx
+msgid "Import a Ferret export"
+msgstr ""
+
+#: src/Import.tsx
 msgid "Import a spreadsheet"
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid "Import another"
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid "Import anyway"
 msgstr ""
 
 #: src/Import.tsx
@@ -7189,6 +7391,14 @@ msgstr ""
 
 #: src/ImportCsv.tsx src/ImportHomeAssistant.tsx
 msgid "Import steps"
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid "Imported {name}"
+msgstr ""
+
+#: src/lib/origin.ts
+msgid "Imported from a Ferret export"
 msgstr ""
 
 #: src/lib/origin.ts
@@ -7217,6 +7427,10 @@ msgstr ""
 
 #: src/Overview.tsx
 msgid "In"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "in {box}"
 msgstr ""
 
 #: src/Everything.tsx src/QuickAdd.tsx src/Report.tsx
@@ -7290,8 +7504,12 @@ msgstr ""
 msgid "in progress"
 msgstr ""
 
-#: src/Claims.tsx
+#: ../server/src/lib/item-sheet.ts src/Claims.tsx
 msgid "In progress"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "In stock"
 msgstr ""
 
 #: src/Reminders.tsx
@@ -7331,6 +7549,10 @@ msgstr ""
 
 #: src/ItemSearch.tsx
 msgid "In this item"
+msgstr ""
+
+#: src/ItemSheet.tsx
+msgid "Include"
 msgstr ""
 
 #: src/App.tsx
@@ -7483,6 +7705,11 @@ msgid ""
 "restart it."
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid ""
+"It isn't signed, so Ferret can't tell whether anything in it was changed."
+msgstr ""
+
 #: src/Gone.tsx
 msgid ""
 "It leaves your lists, totals and the insurance report, and its maintenance "
@@ -7613,7 +7840,8 @@ msgid ""
 "signed out."
 msgstr ""
 
-#: src/ItemPage.tsx src/Maintenance.tsx src/Report.tsx src/ScanSession.tsx
+#: src/ItemPage.tsx src/ItemSheet.tsx src/Maintenance.tsx src/Report.tsx
+#: src/ScanSession.tsx
 msgid "Item"
 msgstr ""
 
@@ -7641,6 +7869,10 @@ msgstr ""
 msgid ""
 "Its deliveries kept failing ({error}) — fix the address, then turn it on "
 "again"
+msgstr ""
+
+#: src/ItemSheet.tsx
+msgid "Its details (what it is, where, what it cost) are always included."
 msgstr ""
 
 #: src/PhotoAdd.tsx
@@ -7703,6 +7935,10 @@ msgstr ""
 msgid "Join your household"
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid "Just its details"
+msgstr ""
+
 #: ../server/src/lib/attention.ts src/lib/last-scanned.ts src/Server.tsx
 msgid "just now"
 msgstr ""
@@ -7719,7 +7955,7 @@ msgstr ""
 msgid "Keep"
 msgstr ""
 
-#: src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/Stock.tsx
 msgid "Keep at least"
 msgstr ""
 
@@ -7765,12 +8001,20 @@ msgstr ""
 msgid "Kept in {place}."
 msgstr ""
 
+#: src/Offline.tsx
+msgid "Kept on this device: what you looked at last, as it was then."
+msgstr ""
+
 #: src/Server.tsx
 msgid "Key file command"
 msgstr ""
 
 #: src/Server.tsx
 msgid "Key file made {formatTime}, in"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts src/ImportFerret.tsx
+msgid "Key fingerprint: {fingerprint}"
 msgstr ""
 
 #: src/Server.tsx
@@ -7869,6 +8113,10 @@ msgstr ""
 msgid "Last day to return it is tomorrow"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Last done"
+msgstr ""
+
 #: src/Notifications.tsx
 msgid "Last reminder {formatDay}"
 msgstr ""
@@ -7877,7 +8125,7 @@ msgstr ""
 msgid "Last reviewed {when}."
 msgstr ""
 
-#: src/Everything.tsx
+#: ../server/src/lib/item-sheet.ts src/Everything.tsx
 msgid "Last seen"
 msgstr ""
 
@@ -7979,7 +8227,7 @@ msgstr ""
 msgid "Lent & borrowed"
 msgstr ""
 
-#: ../server/src/lib/digest.ts
+#: ../server/src/lib/digest.ts ../server/src/lib/item-sheet.ts
 msgid "Lent and borrowed"
 msgstr ""
 
@@ -7989,6 +8237,10 @@ msgstr ""
 
 #: src/Everything.tsx
 msgid "Lent to {person}"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Lent to {person} on {date}"
 msgstr ""
 
 #: ../server/src/lib/loans.ts
@@ -8046,7 +8298,7 @@ msgstr ""
 msgid "Link {number} label"
 msgstr ""
 
-#: src/Boxes.tsx
+#: src/Boxes.tsx src/ItemPage.tsx
 msgid "Link copied"
 msgstr ""
 
@@ -8059,7 +8311,7 @@ msgstr ""
 msgid "Linked to {0}."
 msgstr ""
 
-#: src/Links.tsx
+#: ../server/src/lib/item-sheet.ts src/ItemSheet.tsx src/Links.tsx
 msgid "Links"
 msgstr ""
 
@@ -8088,6 +8340,10 @@ msgstr ""
 msgid "Loading…"
 msgstr ""
 
+#: src/ItemSheet.tsx
+msgid "Loans"
+msgstr ""
+
 #: src/Providers.tsx
 msgid "Locksmith"
 msgstr ""
@@ -8112,6 +8368,10 @@ msgstr ""
 
 #: src/ItemPage.tsx
 msgid "Look for its manual on archive.org"
+msgstr ""
+
+#: src/Nav.tsx
+msgid "Look through"
 msgstr ""
 
 #: src/ScanSession.tsx
@@ -8170,7 +8430,7 @@ msgstr ""
 msgid "Lookups"
 msgstr ""
 
-#: src/Gone.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx
 msgid "Lost"
 msgstr ""
 
@@ -8214,12 +8474,13 @@ msgstr ""
 msgid "Main menu"
 msgstr ""
 
-#: src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/Stock.tsx
 msgid "maintenance"
 msgstr ""
 
-#: ../server/src/lib/digest.ts src/AttentionBell.tsx src/ItemPage.tsx
-#: src/Maintenance.tsx src/Nav.tsx src/Overview.tsx src/TabBar.tsx
+#: ../server/src/lib/digest.ts ../server/src/lib/item-sheet.ts
+#: src/AttentionBell.tsx src/ItemPage.tsx src/ItemSheet.tsx src/Maintenance.tsx
+#: src/Nav.tsx src/Overview.tsx src/TabBar.tsx
 msgid "Maintenance"
 msgstr ""
 
@@ -8389,9 +8650,10 @@ msgstr ""
 msgid "mm"
 msgstr ""
 
-#: src/AiFill.tsx src/Duplicates.tsx src/Everything.tsx
-#: src/ImportHomeAssistant.tsx src/ItemEditor.tsx src/lib/words.ts
-#: src/Product.tsx src/Suggestions.tsx src/Walkthrough.tsx
+#: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/Duplicates.tsx
+#: src/Everything.tsx src/ImportHomeAssistant.tsx src/ItemEditor.tsx
+#: src/lib/words.ts src/Offline.tsx src/Product.tsx src/Suggestions.tsx
+#: src/Walkthrough.tsx
 msgid "Model"
 msgstr ""
 
@@ -8574,7 +8836,7 @@ msgstr ""
 msgid "never used"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "New"
 msgstr ""
 
@@ -8672,7 +8934,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/Maintenance.tsx
+#: ../server/src/lib/item-sheet.ts src/Maintenance.tsx
 msgid "Next due"
 msgstr ""
 
@@ -8851,6 +9113,10 @@ msgstr ""
 
 #: src/Gone.tsx
 msgid "No longer have {name}?"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "No longer have it"
 msgstr ""
 
 #: src/ItemEditor.tsx
@@ -9079,6 +9345,10 @@ msgstr ""
 msgid "Not a place in Ferret"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "not back yet"
+msgstr ""
+
 #: src/TimeZone.tsx
 msgid "Not chosen (the server's: {serverTimeZone})"
 msgstr ""
@@ -9249,8 +9519,9 @@ msgstr ""
 msgid "Note (optional)"
 msgstr ""
 
-#: src/Claims.tsx src/Duplicates.tsx src/ItemEditor.tsx src/ItemSearch.tsx
-#: src/lib/words.ts src/Maintenance.tsx src/Places.tsx src/Providers.tsx
+#: ../server/src/lib/item-sheet.ts src/Claims.tsx src/Duplicates.tsx
+#: src/ItemEditor.tsx src/ItemSearch.tsx src/ItemSheet.tsx src/lib/words.ts
+#: src/Maintenance.tsx src/Offline.tsx src/Places.tsx src/Providers.tsx
 msgid "Notes"
 msgstr ""
 
@@ -9541,6 +9812,10 @@ msgstr ""
 msgid "Now unknown"
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid "Nowhere yet (I'll place it)"
+msgstr ""
+
 #: src/ImportCsv.tsx
 msgid "Numbers, Excel or Google Sheets: File → Export / Download → CSV."
 msgstr ""
@@ -9740,7 +10015,7 @@ msgid ""
 "day. Add it on each device you want it on."
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "once"
 msgstr ""
 
@@ -9875,7 +10150,7 @@ msgstr ""
 msgid "Open in your authenticator app"
 msgstr ""
 
-#: src/ScanSession.tsx src/ShareIn.tsx
+#: src/ImportFerret.tsx src/ScanSession.tsx src/ShareIn.tsx
 msgid "Open it"
 msgstr ""
 
@@ -9993,6 +10268,10 @@ msgstr ""
 msgid "Other apps"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Other labels"
+msgstr ""
+
 #: src/ToConfirm.tsx
 msgid "Other lists to look at"
 msgstr ""
@@ -10039,7 +10318,7 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: src/Gone.tsx src/ItemEditor.tsx
+#: src/Gone.tsx src/ItemEditor.tsx src/Offline.tsx
 msgid "Paid"
 msgstr ""
 
@@ -10099,7 +10378,7 @@ msgstr ""
 msgid "Part of: {task}"
 msgstr ""
 
-#: src/Repairs.tsx
+#: ../server/src/lib/item-sheet.ts src/Repairs.tsx
 msgid "Parts"
 msgstr ""
 
@@ -10311,7 +10590,8 @@ msgstr ""
 msgid "Photograph more"
 msgstr ""
 
-#: src/Collections.tsx src/Heirs.tsx src/ItemPage.tsx src/PhotoViewer.tsx
+#: src/Collections.tsx src/Heirs.tsx src/ItemPage.tsx src/ItemSheet.tsx
+#: src/PhotoViewer.tsx
 msgid "Photos"
 msgstr ""
 
@@ -10449,7 +10729,7 @@ msgstr ""
 msgid "Pool & spa"
 msgstr ""
 
-#: src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/lib/words.ts
 msgid "Poor"
 msgstr ""
 
@@ -10554,7 +10834,11 @@ msgstr ""
 msgid "Print labels"
 msgstr ""
 
-#: src/Gone.tsx src/Heirs.tsx src/Report.tsx src/Shared.tsx
+#: src/ItemPage.tsx
+msgid "Print or export"
+msgstr ""
+
+#: src/Gone.tsx src/Heirs.tsx src/ItemSheet.tsx src/Report.tsx src/Shared.tsx
 msgid "Print or save as PDF"
 msgstr ""
 
@@ -10572,6 +10856,10 @@ msgstr ""
 
 #: src/ReceiptLines.tsx
 msgid "Probably this thing"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Problem"
 msgstr ""
 
 #: src/Repairs.tsx
@@ -10618,6 +10906,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "PSA access token"
+msgstr ""
+
+#: src/SigningKey.tsx
+msgid "Public key"
 msgstr ""
 
 #: src/AiFill.tsx src/lib/words.ts
@@ -10672,6 +10964,10 @@ msgstr ""
 msgid "Put it on the shopping list when none are left"
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid "Put its place in"
+msgstr ""
+
 #. placeholder {0}: d.match.name
 #: src/Paperless.tsx
 msgid "Put on {0}…"
@@ -10707,7 +11003,7 @@ msgstr ""
 msgid "QR code for {text}"
 msgstr ""
 
-#: src/Boxes.tsx
+#: ../server/src/lib/item-sheet.ts src/Boxes.tsx
 msgid "QR label"
 msgstr ""
 
@@ -10719,7 +11015,8 @@ msgstr ""
 msgid "Qty"
 msgstr ""
 
-#: src/Duplicates.tsx src/Everything.tsx src/ItemEditor.tsx src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/Duplicates.tsx src/Everything.tsx
+#: src/ItemEditor.tsx src/lib/words.ts
 msgid "Quantity"
 msgstr ""
 
@@ -10897,7 +11194,7 @@ msgstr ""
 msgid "Recently deleted"
 msgstr ""
 
-#: src/Overview.tsx
+#: src/Offline.tsx src/Overview.tsx
 msgid "Recently viewed"
 msgstr ""
 
@@ -10907,6 +11204,10 @@ msgstr ""
 
 #: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
 msgid "Records & CDs"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "ref. {reference}"
 msgstr ""
 
 #: src/Demo.tsx
@@ -11172,6 +11473,10 @@ msgstr ""
 msgid "Rental"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Repair guide: {title}"
+msgstr ""
+
 #: src/Server.tsx
 msgid "Repair guides"
 msgstr ""
@@ -11180,11 +11485,16 @@ msgstr ""
 msgid "Repair guides on iFixit: {device}"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Repair warranty until"
+msgstr ""
+
 #: src/Repairs.tsx
 msgid "Repair warranty until {day}"
 msgstr ""
 
-#: src/ItemPage.tsx src/Repairs.tsx
+#: ../server/src/lib/item-sheet.ts src/ItemPage.tsx src/ItemSheet.tsx
+#: src/Repairs.tsx
 msgid "Repairs"
 msgstr ""
 
@@ -11214,7 +11524,7 @@ msgid ""
 "No longer have it? if it's gone."
 msgstr ""
 
-#: src/Replacement.tsx
+#: ../server/src/lib/item-sheet.ts src/Replacement.tsx
 msgid "Replacement cost"
 msgstr ""
 
@@ -11248,7 +11558,7 @@ msgstr ""
 msgid "Reset to default"
 msgstr ""
 
-#: src/Claims.tsx
+#: ../server/src/lib/item-sheet.ts src/Claims.tsx
 msgid "Resolved"
 msgstr ""
 
@@ -11288,7 +11598,8 @@ msgstr ""
 msgid "Return {thing}?"
 msgstr ""
 
-#: src/AiFill.tsx src/ItemEditor.tsx src/lib/words.ts src/Suggestions.tsx
+#: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/ItemEditor.tsx
+#: src/lib/words.ts src/Suggestions.tsx
 msgid "Return by"
 msgstr ""
 
@@ -11426,6 +11737,10 @@ msgstr ""
 msgid "Rooms"
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid "Rooms and shelves along its path are found by name, or made."
+msgstr ""
+
 #: src/ImportHomeAssistant.tsx
 msgid "Rooms go in"
 msgstr ""
@@ -11505,6 +11820,12 @@ msgstr ""
 
 #: src/App.tsx
 msgid "Saved in Ferret before"
+msgstr ""
+
+#: src/Offline.tsx
+msgid ""
+"Saved on this device {when}. Changes made since show once Ferret can be "
+"reached."
 msgstr ""
 
 #: src/ScanSession.tsx
@@ -11614,7 +11935,7 @@ msgstr ""
 msgid "Scan what's inside"
 msgstr ""
 
-#: src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/Stock.tsx
 msgid "scanned"
 msgstr ""
 
@@ -11906,8 +12227,9 @@ msgstr ""
 msgid "Serial {serialNumber}"
 msgstr ""
 
-#: src/AiFill.tsx src/Duplicates.tsx src/ImportHomeAssistant.tsx
-#: src/ItemEditor.tsx src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/Duplicates.tsx
+#: src/ImportHomeAssistant.tsx src/ItemEditor.tsx src/lib/words.ts
+#: src/Offline.tsx
 msgid "Serial number"
 msgstr ""
 
@@ -12224,6 +12546,17 @@ msgstr ""
 msgid "Signature"
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid ""
+"Signed by another key, not this household's. Nothing has changed since it "
+"was signed — import it if you know where it came from."
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid ""
+"Signed by this household, and nothing has changed since it was exported."
+msgstr ""
+
 #: src/Paperless.tsx
 msgid "Signed in as"
 msgstr ""
@@ -12232,6 +12565,10 @@ msgstr ""
 msgid ""
 "Signing in takes your password and a code from your authenticator app. "
 "Devices you trust skip the code for 30 days."
+msgstr ""
+
+#: src/SigningKey.tsx
+msgid "Signing key"
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -12312,7 +12649,7 @@ msgstr ""
 msgid "Software updates"
 msgstr ""
 
-#: src/Gone.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx
 msgid "Sold"
 msgstr ""
 
@@ -12387,6 +12724,12 @@ msgstr ""
 
 #: src/Labels.tsx src/ShareIn.tsx
 msgid "Something in Ferret"
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid ""
+"Something in it changed after it was signed. Only import it if you made the "
+"change yourself."
 msgstr ""
 
 #: src/Webhooks.tsx
@@ -12540,11 +12883,11 @@ msgstr ""
 msgid "Still nothing"
 msgstr ""
 
-#: src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/ItemSheet.tsx src/Stock.tsx
 msgid "Stock"
 msgstr ""
 
-#: src/Gone.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx
 msgid "Stolen"
 msgstr ""
 
@@ -12663,7 +13006,8 @@ msgstr ""
 msgid "Tagged {tag}"
 msgstr ""
 
-#: src/Catalog.tsx src/lib/words.ts
+#: ../server/src/lib/item-sheet.ts src/Catalog.tsx src/lib/words.ts
+#: src/Offline.tsx
 msgid "Tags"
 msgstr ""
 
@@ -12968,6 +13312,11 @@ msgid ""
 "leave the \"Where it is\" column out."
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid ""
+"The first says \"Good signature\"; the second says \"OK\" for every file."
+msgstr ""
+
 #: src/Server.tsx
 msgid "The help's Server check page says what to do about each."
 msgstr ""
@@ -13083,6 +13432,16 @@ msgstr ""
 msgid "The server didn't offer an authenticator code"
 msgstr ""
 
+#: ../server/src/lib/item-import.ts
+msgid "The signature doesn't match SHA256SUMS"
+msgstr ""
+
+#: src/Import.tsx
+msgid ""
+"The signed ZIP from a thing's Print or export — Ferret checks its signature "
+"first and tells you what it found."
+msgstr ""
+
 #: src/ItemEditor.tsx
 msgid ""
 "The store's last day to take it back — Ferret reminds you the week before."
@@ -13152,6 +13511,10 @@ msgstr ""
 msgid ""
 "These are asking prices, not what things sold for. Listings from eBay as of "
 "{when}."
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid "These files couldn't be added: {files}"
 msgstr ""
 
 #: src/Household.tsx
@@ -13400,6 +13763,11 @@ msgstr ""
 msgid "this video"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid ""
+"This was exported from Ferret on {date} and signed with your household's key."
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "This was marked \"Can't find it\". Found it?"
 msgstr ""
@@ -13416,7 +13784,7 @@ msgstr ""
 msgid "Throw this one away?"
 msgstr ""
 
-#: src/Gone.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx
 msgid "Thrown out"
 msgstr ""
 
@@ -13489,6 +13857,12 @@ msgstr ""
 #: ../server/src/lib/digest.ts src/AttentionBell.tsx src/Overview.tsx
 #: src/Shopping.tsx
 msgid "To buy"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid ""
+"To check that nothing has changed since, open a terminal in this folder and "
+"run:"
 msgstr ""
 
 #: src/Nav.tsx src/ToConfirm.tsx
@@ -13728,7 +14102,7 @@ msgstr ""
 msgid "Uncirculated (UNC)"
 msgstr ""
 
-#: src/Stock.tsx
+#: ../server/src/lib/item-sheet.ts src/Stock.tsx
 msgid "undo"
 msgstr ""
 
@@ -13792,6 +14166,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Until {formatDate}"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "until {to}"
 msgstr ""
 
 #: src/Server.tsx
@@ -13981,6 +14359,10 @@ msgstr ""
 msgid "Used one"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Uses"
+msgstr ""
+
 #: src/Maintenance.tsx
 msgid "Uses {uses} × {name} · {left} left"
 msgstr ""
@@ -14017,7 +14399,8 @@ msgstr ""
 msgid "Valuable, no serial number"
 msgstr ""
 
-#: src/Duplicates.tsx src/Everything.tsx src/Report.tsx
+#: ../server/src/lib/item-sheet.ts src/Duplicates.tsx src/Everything.tsx
+#: src/Report.tsx
 msgid "Value"
 msgstr ""
 
@@ -14063,12 +14446,20 @@ msgstr ""
 msgid "Very good (VG)"
 msgstr ""
 
+#: ../server/src/lib/item-sheet.ts
+msgid "Video"
+msgstr ""
+
 #: src/Collectibles.tsx
 msgid "Video game"
 msgstr ""
 
 #: src/Collectibles.tsx src/Nav.tsx src/Server.tsx
 msgid "Video games"
+msgstr ""
+
+#: ../server/src/lib/item-sheet.ts
+msgid "Video: {title}"
 msgstr ""
 
 #: src/Collections.tsx
@@ -14142,8 +14533,9 @@ msgstr ""
 msgid "Wanted"
 msgstr ""
 
-#: src/ItemPage.tsx src/lib/words.ts src/Nav.tsx src/Overview.tsx
-#: src/Warranties.tsx src/WarrantyList.tsx
+#: ../server/src/lib/item-sheet.ts src/ItemPage.tsx src/ItemSheet.tsx
+#: src/lib/words.ts src/Nav.tsx src/Overview.tsx src/Warranties.tsx
+#: src/WarrantyList.tsx
 msgid "Warranties"
 msgstr ""
 
@@ -14160,7 +14552,8 @@ msgid ""
 "Warranties, manuals and maintenance, with a reminder before they matter."
 msgstr ""
 
-#: src/AttentionBell.tsx src/Warranties.tsx src/WarrantyList.tsx
+#: ../server/src/lib/item-sheet.ts src/AttentionBell.tsx src/Warranties.tsx
+#: src/WarrantyList.tsx
 msgid "Warranty"
 msgstr ""
 
@@ -14421,7 +14814,8 @@ msgid ""
 "totals and comes here."
 msgstr ""
 
-#: src/Everything.tsx src/Overview.tsx
+#: ../server/src/lib/item-sheet.ts src/Everything.tsx src/Offline.tsx
+#: src/Overview.tsx
 msgid "Where"
 msgstr ""
 
@@ -14480,6 +14874,10 @@ msgstr ""
 
 #: src/Labels.tsx src/lib/words.ts src/ShareIn.tsx
 msgid "Where it is"
+msgstr ""
+
+#: src/ImportFerret.tsx
+msgid "Where it was"
 msgstr ""
 
 #: src/Overview.tsx src/Paperless.tsx
@@ -14663,6 +15061,10 @@ msgid ""
 "EPA's estimate at US average prices."
 msgstr ""
 
+#: src/ImportFerret.tsx
+msgid "With it"
+msgstr ""
+
 #: src/Report.tsx
 msgid "With photos"
 msgstr ""
@@ -14691,8 +15093,8 @@ msgstr ""
 msgid "Works for"
 msgstr ""
 
-#: src/Collections.tsx src/Gone.tsx src/Overview.tsx src/PayOff.tsx
-#: src/Places.tsx src/Product.tsx src/QuickAdd.tsx
+#: src/Collections.tsx src/Gone.tsx src/Offline.tsx src/Overview.tsx
+#: src/PayOff.tsx src/Places.tsx src/Product.tsx src/QuickAdd.tsx
 msgid "Worth"
 msgstr ""
 
