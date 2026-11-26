@@ -485,6 +485,15 @@ msgstr ""
 "{0, plural, one {# zlecenie} few {# zlecenia} many {# zleceń} other {# "
 "zlecenia}}"
 
+#. placeholder {0}: grid.cols * grid.rows
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# label} other {# labels}}"
+msgid "{0, plural, one {# label a sheet} other {# labels a sheet}}"
+msgstr ""
+"{0, plural, one {# etykieta} few {# etykiety} many {# etykiet} other {# "
+"etykiety}}"
+
 #. placeholder {0}: labels.length
 #: src/Labels.tsx
 msgid "{0, plural, one {# label.} other {# labels.}}"
@@ -787,6 +796,13 @@ msgstr ""
 "{# rzeczy zmieniono, by zgadzały się z Home Assistant.} many {# rzeczy "
 "zmieniono, by zgadzały się z Home Assistant.} other {# rzeczy zmieniono, by "
 "zgadzały się z Home Assistant.}}"
+
+#. placeholder {0}: known.data.order.things
+#: src/ReceiptLines.tsx
+msgid ""
+"{0, plural, one {# thing from order {number} was already added, on {day}.} "
+"other {# things from order {number} were already added, on {day}.}}"
+msgstr ""
 
 #. placeholder {0}: f.unknown
 #: src/Replacements.tsx
@@ -1235,6 +1251,24 @@ msgstr "{0} — zmieniono"
 #: src/Energy.tsx
 msgid "{afue}% efficient (AFUE)"
 msgstr "Sprawność {afue}% (AFUE)"
+
+#: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid ""
+#| "{0, plural, one {# line looks like a consumable or not worth a record, so "
+#| "it's unticked;} other {# lines look like consumables or not worth a "
+#| "record, so they're unticked;}}"
+msgid ""
+"{alreadyCount, plural, one {# of them is probably in Ferret already, so it "
+"isn't ticked.} other {# of them are probably in Ferret already, so they "
+"aren't ticked.}}"
+msgstr ""
+"{0, plural, one {# wiersz wygląda na materiał eksploatacyjny albo coś "
+"niewartego zapisu, więc jest odznaczony;} few {# wiersze wyglądają na "
+"materiały eksploatacyjne albo coś niewartego zapisu, więc są odznaczone;} "
+"many {# wierszy wygląda na materiały eksploatacyjne albo coś niewartego "
+"zapisu, więc są odznaczone;} other {# wiersza wygląda na materiały "
+"eksploatacyjne albo coś niewartego zapisu, więc są odznaczone;}}"
 
 #: src/Charts.tsx
 msgid "{amount} in a year"
@@ -2048,6 +2082,16 @@ msgstr "Ukończono w {percent}%"
 #: src/Energy.tsx
 msgid "{percent}% less than the US standard"
 msgstr "{percent}% mniej niż norma USA"
+
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# label.} other {# labels.}}"
+msgid ""
+"{perSheet, plural, one {Tip: a full sheet is # label.} other {Tip: a full "
+"sheet is # labels.}}"
+msgstr ""
+"{0, plural, one {# etykieta.} few {# etykiety.} many {# etykiet.} other {# "
+"etykiet.}}"
 
 #: src/Loans.tsx
 msgid "{person} asked for no more reminders"
@@ -3162,6 +3206,10 @@ msgstr "Gwarancja kończy się w ciągu miesiąca"
 msgid "A warranty is ending"
 msgstr "Kończy się gwarancja"
 
+#: src/Labels.tsx
+msgid "A4"
+msgstr ""
+
 #: src/Product.tsx src/Shopping.tsx
 msgid "About"
 msgstr "Informacje"
@@ -3944,6 +3992,13 @@ msgstr "Już oddane albo nie chcesz tych przypomnień? Daj znać {who}:"
 
 #: src/ImportCsv.tsx
 msgid "already in Ferret"
+msgstr "już w Ferret"
+
+#. placeholder {0}: already(r)!.name
+#: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid "already in Ferret"
+msgid "Already in Ferret: <0>{0}</0>"
 msgstr "już w Ferret"
 
 #: src/Listing.tsx
@@ -4897,6 +4952,12 @@ msgid "CDs and records, one after another: Ferret looks each up on MusicBrainz"
 msgstr ""
 "Płyty CD i winylowe, jedna po drugiej: Ferret sprawdza każdą w MusicBrainz"
 
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "Select everything on this page"
+msgid "Center on the page"
+msgstr "Zaznacz wszystko na tej stronie"
+
 #: ../server/src/lib/attention.ts
 msgid "Certificate “{name}” expires soon"
 msgstr "Certyfikat „{name}” wkrótce wygaśnie"
@@ -4921,7 +4982,7 @@ msgstr ""
 "Certyfikowany jako {brand} {model} — gwiazdki oznaczają dowolną literę "
 "(kolor lub wersję)."
 
-#: src/Tracking.tsx src/Webhooks.tsx
+#: src/ReceiptLines.tsx src/Tracking.tsx src/Webhooks.tsx
 msgid "Change"
 msgstr "Zmień"
 
@@ -5715,6 +5776,10 @@ msgstr "Przytnij zdjęcie albo ustaw je jako główne"
 #: src/Currency.tsx
 msgid "Currency"
 msgstr "Waluta"
+
+#: src/Labels.tsx
+msgid "Custom sheet — enter your labels' sizes"
+msgstr ""
 
 #: src/Overview.tsx
 msgid "Customize this page"
@@ -7406,6 +7471,10 @@ msgstr "Zwijaj duże kategorie"
 msgid "Fold the menu to icons"
 msgstr "Zwiń menu do ikon"
 
+#: src/ReceiptLines.tsx
+msgid "Food or drink, so it isn't ticked"
+msgstr ""
+
 #: src/Shopping.tsx
 msgid "For {forTaskText}"
 msgstr "Do: {forTaskText}"
@@ -7714,6 +7783,14 @@ msgstr "piec grzewczy"
 #: src/lib/words.ts
 msgid "game console"
 msgstr "konsola do gier"
+
+#: src/Labels.tsx
+msgid "Gap between columns ({unit})"
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Gap between rows ({unit})"
+msgstr ""
 
 #: src/lib/words.ts
 msgid "garage door"
@@ -8317,6 +8394,12 @@ msgstr "Importowanie… {done} z {total}"
 msgid "Imports sorted with AI that never finished."
 msgstr "Importy sortowane przez AI, które nigdy się nie zakończyły."
 
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "Coin"
+msgid "in"
+msgstr "Moneta"
+
 #: src/Overview.tsx
 msgid "In"
 msgstr "W"
@@ -8460,6 +8543,10 @@ msgstr "W koszyku"
 #: src/ItemSearch.tsx
 msgid "In this item"
 msgstr "W tej rzeczy"
+
+#: src/Labels.tsx
+msgid "Inches"
+msgstr ""
 
 #: src/ItemSheet.tsx
 msgid "Include"
@@ -9012,12 +9099,34 @@ msgid "Label {shown} — show, print or change"
 msgstr "Etykieta {shown} — wyświetl, wydrukuj lub zmień"
 
 #: src/Labels.tsx
+#, fuzzy
+#| msgid "New reading ({unit}"
+msgid "Label height ({unit})"
+msgstr "Nowy odczyt ({unit}"
+
+#: src/Labels.tsx
+msgid "Label width ({unit})"
+msgstr ""
+
+#: src/Labels.tsx
 msgid "Labels"
 msgstr "Etykiety"
 
 #: src/Boxes.tsx
 msgid "Labels · {name}"
 msgstr "Etykiety · {name}"
+
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "Label {code}"
+msgid "Labels across"
+msgstr "Etykieta {code}"
+
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "Labels"
+msgid "Labels down"
+msgstr "Etykiety"
 
 #: src/Providers.tsx
 msgid "Landscaper"
@@ -9154,6 +9263,10 @@ msgstr "Opuścić?"
 #: src/Overview.tsx
 msgid "Left"
 msgstr "Lewa"
+
+#: src/Labels.tsx
+msgid "Left edge to first label ({unit})"
+msgstr ""
 
 #: src/Collectibles.tsx
 msgid "LEGO set"
@@ -9605,6 +9718,16 @@ msgstr "materac"
 msgid "MCP server URL"
 msgstr "Adres URL serwera MCP"
 
+#: src/Labels.tsx
+msgid ""
+"Measure a sheet with a ruler, or read the sizes off the packet. Kept on this "
+"device."
+msgstr ""
+
+#: src/Labels.tsx
+msgid "Measured in"
+msgstr ""
+
 #: src/Household.tsx
 msgid "Member"
 msgstr "Członek"
@@ -9628,6 +9751,12 @@ msgstr "kuchenka mikrofalowa"
 #: src/Usage.tsx
 msgid "Miles"
 msgstr "Mile"
+
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "Kilometres"
+msgid "Millimetres"
+msgstr "Kilometry"
 
 #: src/Loans.tsx
 msgid "Mine, lent to someone"
@@ -10363,6 +10492,18 @@ msgstr ""
 #: src/Duplicates.tsx
 msgid "Not a duplicate"
 msgstr "To nie jest duplikat"
+
+#: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid "Not a duplicate"
+msgid "Not a part"
+msgstr "To nie jest duplikat"
+
+#: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid "Not enough parts left by then"
+msgid "Not a part of anything"
+msgstr "Do tego czasu zabraknie części"
 
 #: src/Parts.tsx
 msgid "Not a part of this (the part itself stays)"
@@ -11437,6 +11578,12 @@ msgstr "Kod parowania"
 msgid "Pairing codes"
 msgstr "Kody parowania"
 
+#: src/Labels.tsx
+#, fuzzy
+#| msgid "Paperless"
+msgid "Paper"
+msgstr "Paperless"
+
 #: src/AttentionBell.tsx
 msgid "Paperless"
 msgstr "Paperless"
@@ -11469,6 +11616,18 @@ msgstr "Numer części"
 msgid "Part numbers, how-to, who to call…"
 msgstr "Numery katalogowe, instrukcje, do kogo zadzwonić…"
 
+#: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid "Parts"
+msgid "Part of"
+msgstr "Części"
+
+#: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid "Part of: {task}"
+msgid "Part of {thing}"
+msgstr "Część zadania: {task}"
+
 #: src/Repairs.tsx
 msgid "Part of a maintenance task"
 msgstr "Część zadania konserwacji"
@@ -11476,6 +11635,10 @@ msgstr "Część zadania konserwacji"
 #: src/Repairs.tsx
 msgid "Part of: {task}"
 msgstr "Część zadania: {task}"
+
+#: src/ReceiptLines.tsx
+msgid "Part of…"
+msgstr ""
 
 #: ../server/src/lib/item-sheet.ts src/Repairs.tsx
 msgid "Parts"
@@ -14827,6 +14990,10 @@ msgstr ""
 msgid "These files couldn't be added: {files}"
 msgstr "Nie udało się dodać tych plików: {files}"
 
+#: src/Labels.tsx
+msgid "These labels run off the page — check the sizes and margins."
+msgstr ""
+
 #: src/Household.tsx
 msgid "They can…"
 msgstr "Mogą…"
@@ -15291,6 +15458,10 @@ msgstr "Za dużo żądań z tego adresu — spróbuj ponownie za minutę."
 msgid "Too many tries from here — wait a minute."
 msgstr "Za dużo prób z tego adresu — odczekaj minutę."
 
+#: src/Labels.tsx
+msgid "Top edge to first label ({unit})"
+msgstr ""
+
 #: src/Catalog.tsx
 msgid "Top level"
 msgstr "Najwyższy poziom"
@@ -15616,6 +15787,10 @@ msgstr "pilne"
 #: ../server/src/lib/email.ts
 msgid "Urgent"
 msgstr "Pilne"
+
+#: src/Labels.tsx
+msgid "US Letter"
+msgstr ""
 
 #: src/PlanUsage.tsx src/Settings.tsx
 msgid "Usage"
@@ -16763,6 +16938,10 @@ msgstr ""
 #: src/ImportHomeAssistant.tsx
 msgid "Your home's name"
 msgstr "Nazwa twojego domu"
+
+#: src/Labels.tsx
+msgid "Your label sheet"
+msgstr ""
 
 #: src/Security.tsx
 msgid ""
