@@ -537,14 +537,10 @@ msgstr ""
 
 #. placeholder {0}: c.maintenance
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid ""
-#| "{count, plural, one {# maintenance task} other {# maintenance tasks}} due"
 msgid "{0, plural, one {# maintenance task} other {# maintenance tasks}}"
 msgstr ""
-"{count, plural, one {# zadanie konserwacyjne} few {# zadania konserwacyjne} "
-"many {# zadań konserwacyjnych} other {# zadania konserwacyjnego}} do "
-"wykonania"
+"{0, plural, one {# zadanie konserwacyjne} few {# zadania konserwacyjne} many "
+"{# zadań konserwacyjnych} other {# zadania konserwacyjnego}}"
 
 #. placeholder {0}: items.data.total
 #: src/App.tsx
@@ -709,10 +705,10 @@ msgstr ""
 
 #. placeholder {0}: c.repairs
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# year} other {# years}}"
 msgid "{0, plural, one {# repair} other {# repairs}}"
-msgstr "{0, plural, one {# rok} few {# lata} many {# lat} other {# roku}}"
+msgstr ""
+"{0, plural, one {# naprawa} few {# naprawy} many {# napraw} other {# "
+"naprawy}}"
 
 #. placeholder {0}: newRooms.length
 #. placeholder {0}: p.locations.length
@@ -919,10 +915,10 @@ msgstr ""
 
 #. placeholder {0}: c.warranties
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# try} other {# tries}}"
 msgid "{0, plural, one {# warranty} other {# warranties}}"
-msgstr "{0, plural, one {# próba} few {# próby} many {# prób} other {# próby}}"
+msgstr ""
+"{0, plural, one {# gwarancja} few {# gwarancje} many {# gwarancji} other {# "
+"gwarancji}}"
 
 #. placeholder {0}: s.found
 #: src/Server.tsx
@@ -1642,12 +1638,10 @@ msgid "{describeNetwork} · signed in {formatWhen}"
 msgstr "{describeNetwork} · zalogowano {formatWhen}"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# document} other {# documents}}"
 msgid "{documents, plural, one {# document} other {# documents}}"
 msgstr ""
-"{0, plural, one {# dokument} few {# dokumenty} many {# dokumentów} other {# "
-"dokumentu}}"
+"{documents, plural, one {# dokument} few {# dokumenty} many {# dokumentów} "
+"other {# dokumentu}}"
 
 #: src/Everything.tsx
 msgid "{done} changed"
@@ -1708,22 +1702,16 @@ msgid "{field} looks right"
 msgstr "{field} — wygląda dobrze"
 
 #: ../server/src/lib/item-import.ts
-#, fuzzy
-#| msgid "{done} changed"
 msgid "{file} has changed"
-msgstr "Zmieniono: {done}"
+msgstr "Zmieniono: {file}"
 
 #: ../server/src/lib/item-import.ts
-#, fuzzy
-#| msgid "{service} is failing"
 msgid "{file} is missing"
-msgstr "{service} nie działa"
+msgstr "Brakuje: {file}"
 
 #: ../server/src/lib/item-import.ts
-#, fuzzy
-#| msgid "{title} isn't needed"
 msgid "{file} was added"
-msgstr "{title} nie jest potrzebne"
+msgstr "Dodano: {file}"
 
 #: src/Server.tsx
 msgid "{files} ({size}, {copied} new) and the database ({dbSize})"
@@ -1754,10 +1742,8 @@ msgstr ""
 "przenieś dane na większy dysk."
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid " to {to}"
 msgid "{from} to {to}"
-msgstr " dla: {to}"
+msgstr "{from} – {to}"
 
 #: src/FuelEconomy.tsx
 msgid "{highway} highway"
@@ -1849,10 +1835,8 @@ msgid "{left} → {after} left"
 msgstr "Zostało {left} → {after}"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "{time} left"
 msgid "{left} left"
-msgstr "Zostało {time}"
+msgstr "Zostało: {left}"
 
 #: src/Stock.tsx
 msgid "{left} left · {reason}"
@@ -2090,21 +2074,19 @@ msgid "{person} says it's back."
 msgstr "{person} mówi, że to już wróciło."
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# photo} other {# photos}}"
 msgid "{photos, plural, one {# photo} other {# photos}}"
 msgstr ""
-"{0, plural, one {# zdjęcie} few {# zdjęcia} many {# zdjęć} other {# zdjęcia}}"
+"{photos, plural, one {# zdjęcie} few {# zdjęcia} many {# zdjęć} other {# "
+"zdjęcia}}"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# new document} other {# new documents}}"
 msgid ""
 "{photos, plural, one {# photo} other {# photos}} and {documents, plural, one "
 "{# document} other {# documents}}"
 msgstr ""
-"{0, plural, one {# nowy dokument} few {# nowe dokumenty} many {# nowych "
-"dokumentów} other {# nowego dokumentu}}"
+"{photos, plural, one {# zdjęcie} few {# zdjęcia} many {# zdjęć} other {# "
+"zdjęcia}} i {documents, plural, one {# dokument} few {# dokumenty} many {# "
+"dokumentów} other {# dokumentu}}"
 
 #: src/Collections.tsx
 msgid "{pieces} pieces with duplicates"
@@ -2456,6 +2438,7 @@ msgstr "<0>{name} — przywrócono.</0><1>Otwórz</1>"
 msgid ""
 "<0>{name}</0> here has the same serial number — importing adds a second one."
 msgstr ""
+"<0>{name}</0> ma tutaj ten sam numer seryjny — import doda drugą taką rzecz."
 
 #: src/Connect.tsx
 msgid "<0>{name}</0> wants to use Ferret with your account, {email}."
@@ -2967,10 +2950,8 @@ msgid "A new place"
 msgstr "Nowe miejsce"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "All of one thing"
 msgid "A new thing"
-msgstr "Wszystkie jednej rzeczy"
+msgstr "Nowa rzecz"
 
 #: src/ItemEditor.tsx
 msgid ""
@@ -3136,10 +3117,8 @@ msgid "A spreadsheet, or Home Assistant"
 msgstr "Arkusz albo Home Assistant"
 
 #: src/Import.tsx
-#, fuzzy
-#| msgid "Something already in Ferret"
 msgid "A thing exported from Ferret"
-msgstr "Coś, co już jest w Ferret"
+msgstr "Rzecz wyeksportowana z Ferret"
 
 #: src/Webhooks.tsx
 msgid "A thing is added"
@@ -3165,6 +3144,11 @@ msgid ""
 "The key is kept in the server's backups, so old exports still check out "
 "after a restore."
 msgstr ""
+"Podpisany ZIP rzeczy („Drukuj lub eksportuj” na jej stronie) jest podpisany "
+"kluczem tego gospodarstwa domowego, więc każdy może sprawdzić, że nic się w "
+"nim nie zmieniło. Każdy ZIP zawiera ten klucz; porównaj jego odcisk z tym, "
+"by wiedzieć, że jest twój. Klucz jest zachowywany w kopiach zapasowych "
+"serwera, więc stare eksporty nadal przejdą sprawdzenie po przywróceniu."
 
 #: src/Invite.tsx
 msgid "a viewer (look and ask, no changes)"
@@ -3215,10 +3199,8 @@ msgid "About {price}"
 msgstr "Około {price}"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "about {amount} a year"
 msgid "about {years} years"
-msgstr "około {amount} rocznie"
+msgstr "około {years} lat"
 
 #: src/Collections.tsx
 msgid "About it <0>(optional)</0>"
@@ -3609,10 +3591,8 @@ msgid "Add to Home Screen"
 msgstr "Dodaj do ekranu głównego"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Add it"
 msgid "Add to it"
-msgstr "Dodaj to"
+msgstr "Dodaj do niej"
 
 #: src/Collections.tsx
 msgid "Add to the want list"
@@ -3766,7 +3746,7 @@ msgstr "Dodane przez Skanuj karty"
 
 #: src/ShareIn.tsx
 msgid "Added, but some files didn't go up:"
-msgstr ""
+msgstr "Dodano, ale niektóre pliki się nie wysłały:"
 
 #: src/PhotoAdd.tsx
 msgid "Adding {number} of {total}…"
@@ -4114,6 +4094,9 @@ msgid ""
 "key in Ferret, or the bottom of a sheet printed earlier. If they match, the "
 "key here is your household's."
 msgstr ""
+"i porównaj go z odciskiem uzyskanym inną drogą — Ustawienia → Gospodarstwo "
+"domowe → Klucz podpisu w Ferret albo dół wcześniej wydrukowanej karty. Jeśli "
+"się zgadzają, ten klucz należy do twojego gospodarstwa domowego."
 
 #: src/Import.tsx
 msgid "And made {places} and {categories}."
@@ -4459,10 +4442,8 @@ msgid "Back"
 msgstr "Wstecz"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "made {date}"
 msgid "back {date}"
-msgstr "utworzony {date}"
+msgstr "zwrócone {date}"
 
 #: src/Invite.tsx
 msgid "Back to Ferret"
@@ -4521,10 +4502,8 @@ msgid "Backup failed"
 msgstr "Kopia zapasowa się nie udała"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Back to sign in"
 msgid "Backup signing key"
-msgstr "Wróć do logowania"
+msgstr "Klucz podpisu kopii zapasowych"
 
 #: ../server/src/lib/attention.ts
 msgid "backups"
@@ -4624,10 +4603,8 @@ msgid "Borrowed from {person}"
 msgstr "Pożyczone od: {person}"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Borrowed from {person} since {since}"
 msgid "Borrowed from {person} on {date}"
-msgstr "Pożyczone od: {person}, od {since}"
+msgstr "Pożyczone od: {person}, {date}"
 
 #: src/Loans.tsx
 msgid "Borrowed from {person} since {since}"
@@ -4769,7 +4746,7 @@ msgstr "Po numerze lub nazwie zestawu albo ze zdjęcia pudełka — z Rebrickabl
 
 #: src/lib/origin.ts
 msgid "by sharing it to Ferret from another app"
-msgstr ""
+msgstr "przez udostępnienie do Ferret z innej aplikacji"
 
 #: src/Nav.tsx
 msgid "By title or a photo of the case, for the console you have — from IGDB"
@@ -5101,16 +5078,12 @@ msgid "Choose a tag"
 msgstr "Wybierz tag"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Choose a tag"
 msgid "Choose a ZIP"
-msgstr "Wybierz tag"
+msgstr "Wybierz ZIP"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Choose categories"
 msgid "Choose another ZIP"
-msgstr "Wybierz kategorie"
+msgstr "Wybierz inny ZIP"
 
 #: src/Setup.tsx
 msgid "Choose categories"
@@ -5139,6 +5112,10 @@ msgid ""
 "comes in as a new thing, with its photos, documents, warranties, maintenance "
 "and repairs."
 msgstr ""
+"Wybierz plik ZIP z opcji „Drukuj lub eksportuj” rzeczy. Ferret najpierw "
+"sprawdza podpis i pokazuje, co jest w środku; nic nie zostanie dodane, "
+"dopóki się nie zgodzisz. Trafi jako nowa rzecz, ze zdjęciami, dokumentami, "
+"gwarancjami, konserwacją i naprawami."
 
 #: src/Labels.tsx
 msgid "Choose what it's on first"
@@ -5156,10 +5133,8 @@ msgid "Choose where each section goes"
 msgstr "Wybierz, gdzie trafia każda sekcja"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Choose what it's on first"
 msgid "Choose which thing first"
-msgstr "Najpierw wybierz, na czym jest"
+msgstr "Najpierw wybierz rzecz"
 
 #: src/Labels.tsx
 msgid "Choose your label printer, and its paper: {paper}"
@@ -5179,7 +5154,7 @@ msgstr "Reklamacja"
 
 #: ../server/src/lib/item-sheet.ts
 msgid "Claim filed {date}: {problem}"
-msgstr ""
+msgstr "Reklamacja zgłoszona {date}: {problem}"
 
 #: ../server/src/lib/attention.ts
 msgid "Claim for {thing}"
@@ -5515,17 +5490,15 @@ msgstr "Skopiuj link"
 
 #: src/Boxes.tsx
 msgid "Copy link for an NFC tag"
-msgstr ""
+msgstr "Skopiuj link do naklejki NFC"
 
 #: src/Shopping.tsx
 msgid "Copy list"
 msgstr "Kopiuj listę"
 
 #: src/SigningKey.tsx
-#, fuzzy
-#| msgid "Copy link"
 msgid "Copy public key"
-msgstr "Skopiuj link"
+msgstr "Skopiuj klucz publiczny"
 
 #: src/Reminders.tsx
 msgid "Copy the calendar link below."
@@ -5568,10 +5541,8 @@ msgid "Couldn't connect the app"
 msgstr "Nie udało się połączyć aplikacji"
 
 #: src/ItemPage.tsx
-#, fuzzy
-#| msgid "Couldn't make the crop"
 msgid "Couldn't copy"
-msgstr "Nie udało się przyciąć"
+msgstr "Nie udało się skopiować"
 
 #: src/lib/challenge.ts
 msgid "Couldn't finish the check — try again"
@@ -5696,10 +5667,8 @@ msgid "Covered up to"
 msgstr "Ubezpieczone do"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Covered"
 msgid "Covers"
-msgstr "Objęte gwarancją"
+msgstr "Obejmuje"
 
 #: src/App.tsx
 msgid "Create account"
@@ -5909,10 +5878,8 @@ msgid "desktop computer"
 msgstr "komputer stacjonarny"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Copy details"
 msgid "Details"
-msgstr "Kopiuj szczegóły"
+msgstr "Szczegóły"
 
 #: src/lib/words.ts
 msgid "Details from photos and receipts"
@@ -6066,7 +6033,7 @@ msgstr "Nie wysyłaj"
 msgid ""
 "Don't take this file's word for it: work the fingerprint out from the key "
 "itself,"
-msgstr ""
+msgstr "Nie ufaj samemu temu plikowi: wylicz odcisk z samego klucza"
 
 #: src/Offline.tsx
 msgid "Don't upload this photo"
@@ -6123,10 +6090,8 @@ msgid "Done before"
 msgstr "Zrobione wcześniej"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Done"
 msgid "Done by"
-msgstr "Gotowe"
+msgstr "Wykonał(a)"
 
 #: src/CardScan.tsx src/CollectibleScan.tsx
 msgid "Done choosing"
@@ -6146,7 +6111,7 @@ msgstr "Pobierz"
 
 #: src/SigningKey.tsx
 msgid "Download allowed_signers"
-msgstr ""
+msgstr "Pobierz allowed_signers"
 
 #: src/DataExport.tsx
 msgid "Download everything"
@@ -6165,16 +6130,12 @@ msgid "Download everything…"
 msgstr "Pobierz wszystko…"
 
 #: src/ItemSheet.tsx
-#, fuzzy
-#| msgid "Downloads"
 msgid "Download signed PDF"
-msgstr "Pobrania"
+msgstr "Pobierz podpisany PDF"
 
 #: src/ItemSheet.tsx
-#, fuzzy
-#| msgid "Downloads"
 msgid "Download signed ZIP"
-msgstr "Pobrania"
+msgstr "Pobierz podpisany ZIP"
 
 #: src/Gone.tsx src/Report.tsx src/Shared.tsx
 msgid "Download spreadsheet (CSV)"
@@ -6217,10 +6178,8 @@ msgid "Due back"
 msgstr "Termin zwrotu"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "{line} · due back {date}"
 msgid "due back {date}"
-msgstr "{line} · zwrot do {date}"
+msgstr "zwrot do {date}"
 
 #: ../server/src/lib/attention.ts
 msgid "Due back {due} (since {since})"
@@ -6732,6 +6691,10 @@ msgid ""
 "backup is whole and unchanged — without FILES_KEY. Compare the fingerprint "
 "with this one."
 msgstr ""
+"Każda kopia zapasowa jest podpisana tym kluczem, a folder kopii ma jego "
+"kopię. Narzędziem wiersza poleceń ferret albo ssh-keygen każdy może "
+"sprawdzić, że kopia jest kompletna i niezmieniona — bez FILES_KEY. Porównaj "
+"odcisk z tym."
 
 #: src/Webhooks.tsx
 msgid ""
@@ -6813,10 +6776,8 @@ msgid "Everything"
 msgstr "Wszystko"
 
 #: ../server/src/lib/item-pdf.ts
-#, fuzzy
-#| msgid "Everything not already in Ferret"
 msgid "Everything about {name}, from Ferret"
-msgstr "Wszystko, czego jeszcze nie ma w Ferret"
+msgstr "Wszystko o: {name}, z Ferret"
 
 #: src/ItemSheet.tsx
 msgid ""
@@ -6824,6 +6785,10 @@ msgid ""
 "ZIP (Markdown with its photos and documents, and the PDF) — anyone can check "
 "either hasn't changed with your household's public key. Or just print it."
 msgstr ""
+"Wszystko o tej rzeczy na jednej stronie. Pobierz podpisany PDF albo "
+"podpisany ZIP (Markdown ze zdjęciami i dokumentami oraz PDF) — każdy może "
+"sprawdzić kluczem publicznym twojego gospodarstwa domowego, że nic się w "
+"nich nie zmieniło. Albo po prostu wydrukuj."
 
 #: src/ItemPage.tsx
 msgid "Everything added this way"
@@ -6940,10 +6905,8 @@ msgid "Expand"
 msgstr "Rozwiń"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Expected repeat"
 msgid "Expected life"
-msgstr "Spodziewane powtórzenie"
+msgstr "Przewidywana żywotność"
 
 #: src/MaintenanceCalendar.tsx
 msgid "Expected repeat"
@@ -6985,10 +6948,8 @@ msgid "Expires {formatDate}"
 msgstr "Wygasa {formatDate}"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Sorted"
 msgid "Exported"
-msgstr "Posortowane"
+msgstr "Wyeksportowano"
 
 #: src/Catalog.tsx
 msgid "Extra fields for its items"
@@ -7066,6 +7027,8 @@ msgstr "Ferret nie może użyć mikrofonu — sprawdź uprawnienia przeglądarki
 #: src/ShareIn.tsx
 msgid "Ferret couldn't keep what was shared. Try sharing it again."
 msgstr ""
+"Ferret nie zdołał zachować tego, co udostępniono. Spróbuj udostępnić jeszcze "
+"raz."
 
 #: src/RoomScan.tsx
 msgid ""
@@ -7380,7 +7343,7 @@ msgstr "Dobry (F)"
 
 #: src/SigningKey.tsx
 msgid "Fingerprint"
-msgstr ""
+msgstr "Odcisk"
 
 #: src/CardScan.tsx
 msgid "Finish"
@@ -7634,10 +7597,8 @@ msgid "from a collector catalog"
 msgstr "z katalogu kolekcjonerskiego"
 
 #: src/lib/origin.ts
-#, fuzzy
-#| msgid "Ferret's own export"
 msgid "from a Ferret export"
-msgstr "Eksport z Ferret"
+msgstr "z eksportu Ferret"
 
 #: src/lib/origin.ts
 msgid "from a Paperless document"
@@ -7674,7 +7635,7 @@ msgstr "Z endoflife.date — zanim potwierdzisz, sprawdź, czy to właściwy mod
 #: ../server/src/lib/item-pdf.ts ../server/src/lib/item-sheet.ts
 #: src/ItemSheet.tsx
 msgid "From Ferret, {date}: {url}"
-msgstr ""
+msgstr "Z Ferret, {date}: {url}"
 
 #: src/lib/origin.ts
 msgid "from Home Assistant"
@@ -7836,10 +7797,8 @@ msgid "Goes in a place you have"
 msgstr "Trafia do miejsca, które już masz"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Goes to (heir)"
 msgid "Goes to"
-msgstr "Przypada (spadkobierca)"
+msgstr "Przypada"
 
 #: src/ItemEditor.tsx
 msgid "Goes to (heir)"
@@ -8100,7 +8059,7 @@ msgstr "Nazwa gospodarstwa domowego"
 
 #: src/ItemSheet.tsx
 msgid "Household signing key: {fingerprint}"
-msgstr ""
+msgstr "Klucz podpisu gospodarstwa domowego: {fingerprint}"
 
 #: src/Nav.tsx
 msgid "Households"
@@ -8155,13 +8114,11 @@ msgstr ""
 
 #: src/Boxes.tsx
 msgid "How NFC tags work"
-msgstr ""
+msgstr "Jak działają naklejki NFC"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "water softener"
 msgid "How often"
-msgstr "zmiękczacz wody"
+msgstr "Jak często"
 
 #: src/Webhooks.tsx
 msgid "How to check the signature"
@@ -8301,26 +8258,20 @@ msgid "Import"
 msgstr "Import"
 
 #: src/Import.tsx
-#, fuzzy
-#| msgid "Ferret's own export"
 msgid "Import a Ferret export"
-msgstr "Eksport z Ferret"
+msgstr "Importuj eksport z Ferret"
 
 #: src/Import.tsx
 msgid "Import a spreadsheet"
 msgstr "Zaimportuj arkusz"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Import steps"
 msgid "Import another"
-msgstr "Kroki importu"
+msgstr "Importuj kolejny"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Importing"
 msgid "Import anyway"
-msgstr "Importowanie"
+msgstr "Importuj mimo to"
 
 #: src/Import.tsx
 msgid "Import from Home Assistant"
@@ -8335,16 +8286,12 @@ msgid "Import steps"
 msgstr "Kroki importu"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Remove {name}"
 msgid "Imported {name}"
-msgstr "Usuń {name}"
+msgstr "Zaimportowano: {name}"
 
 #: src/lib/origin.ts
-#, fuzzy
-#| msgid "Imported from a spreadsheet"
 msgid "Imported from a Ferret export"
-msgstr "Zaimportowane z arkusza"
+msgstr "Zaimportowane z eksportu Ferret"
 
 #: src/lib/origin.ts
 msgid "Imported from a spreadsheet"
@@ -8375,10 +8322,8 @@ msgid "In"
 msgstr "W"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "In {box}"
 msgid "in {box}"
-msgstr "W {box}"
+msgstr "w: {box}"
 
 #: src/Everything.tsx src/QuickAdd.tsx src/Report.tsx
 msgid "In {box}"
@@ -8467,10 +8412,8 @@ msgid "In progress"
 msgstr "W toku"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Restock"
 msgid "In stock"
-msgstr "Uzupełnij"
+msgstr "Na stanie"
 
 #: src/Reminders.tsx
 msgid ""
@@ -8490,6 +8433,9 @@ msgid ""
 "security, API keys, Download everything, members and backups need Ferret in "
 "your browser."
 msgstr ""
+"W aplikacji możesz zmieniać to, na co pozwala logowanie w niej. Hasło i "
+"bezpieczeństwo, klucze API, „Pobierz wszystko”, członkowie i kopie zapasowe "
+"wymagają Ferret w przeglądarce."
 
 #: src/Pairing.tsx
 msgid "In the Home app: Add Accessory → More options, and type the code."
@@ -8517,7 +8463,7 @@ msgstr "W tej rzeczy"
 
 #: src/ItemSheet.tsx
 msgid "Include"
-msgstr ""
+msgstr "Uwzględnij"
 
 #: src/App.tsx
 msgid "Include manuals & receipts"
@@ -8688,6 +8634,7 @@ msgstr ""
 msgid ""
 "It isn't signed, so Ferret can't tell whether anything in it was changed."
 msgstr ""
+"Nie jest podpisany, więc Ferret nie może stwierdzić, czy coś w nim zmieniono."
 
 #: src/Gone.tsx
 msgid ""
@@ -8880,6 +8827,7 @@ msgstr ""
 #: src/ItemSheet.tsx
 msgid "Its details (what it is, where, what it cost) are always included."
 msgstr ""
+"Szczegóły (co to jest, gdzie jest, ile kosztowało) są zawsze uwzględnione."
 
 #: src/PhotoAdd.tsx
 msgid "Its front, its label, its receipt — one new thing, read together"
@@ -8942,10 +8890,8 @@ msgid "Join your household"
 msgstr "Dołącz do swojego gospodarstwa domowego"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Hide the details"
 msgid "Just its details"
-msgstr "Ukryj szczegóły"
+msgstr "Tylko szczegóły"
 
 #: ../server/src/lib/attention.ts src/lib/last-scanned.ts src/Server.tsx
 msgid "just now"
@@ -9018,6 +8964,8 @@ msgstr "Przechowywane w: {place}."
 #: src/Offline.tsx
 msgid "Kept on this device: what you looked at last, as it was then."
 msgstr ""
+"Zapisane na tym urządzeniu: to, co oglądałeś ostatnio, w takim stanie, jak "
+"wtedy."
 
 #: src/Server.tsx
 msgid "Key file command"
@@ -9029,7 +8977,7 @@ msgstr "Plik klucza utworzony {formatTime}, w"
 
 #: ../server/src/lib/item-sheet.ts src/ImportFerret.tsx
 msgid "Key fingerprint: {fingerprint}"
-msgstr ""
+msgstr "Odcisk klucza: {fingerprint}"
 
 #: src/Server.tsx
 msgid "Keys"
@@ -9128,10 +9076,8 @@ msgid "Last day to return it is tomorrow"
 msgstr "Ostatni dzień na zwrot jest jutro"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Marks it done."
 msgid "Last done"
-msgstr "Oznacza jako zrobione."
+msgstr "Ostatnio wykonano"
 
 #: src/Notifications.tsx
 msgid "Last reminder {formatDay}"
@@ -9259,10 +9205,8 @@ msgid "Lent to {person}"
 msgstr "Pożyczone: {person}"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Lent to {person}"
 msgid "Lent to {person} on {date}"
-msgstr "Pożyczone: {person}"
+msgstr "Pożyczone: {person}, {date}"
 
 #: ../server/src/lib/loans.ts
 msgid "Let {who} know"
@@ -9326,7 +9270,7 @@ msgstr "Etykieta linku {number}"
 
 #: src/Boxes.tsx src/ItemPage.tsx
 msgid "Link copied"
-msgstr ""
+msgstr "Skopiowano link"
 
 #: src/Paperless.tsx
 msgid "Linked only"
@@ -9373,7 +9317,7 @@ msgstr "Ładowanie…"
 
 #: src/ItemSheet.tsx
 msgid "Loans"
-msgstr ""
+msgstr "Pożyczki"
 
 #: src/Providers.tsx
 msgid "Locksmith"
@@ -9405,10 +9349,8 @@ msgid "Look for its manual on archive.org"
 msgstr "Poszukaj instrukcji na archive.org"
 
 #: src/Nav.tsx
-#, fuzzy
-#| msgid "Walk through"
 msgid "Look through"
-msgstr "Obejdź"
+msgstr "Przeglądaj"
 
 #: src/ScanSession.tsx
 msgid "Look up"
@@ -10187,10 +10129,8 @@ msgid "No longer have {name}?"
 msgstr "Nie masz już {name}?"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "No longer have it?"
 msgid "No longer have it"
-msgstr "Już tego nie masz?"
+msgstr "Już tego nie masz"
 
 #: src/ItemEditor.tsx
 msgid "No longer have it?"
@@ -10433,10 +10373,8 @@ msgid "Not a place in Ferret"
 msgstr "Nie ma takiego miejsca w Ferret"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "no values yet"
 msgid "not back yet"
-msgstr "jeszcze bez wartości"
+msgstr "jeszcze nie zwrócone"
 
 #: src/TimeZone.tsx
 msgid "Not chosen (the server's: {serverTimeZone})"
@@ -10732,10 +10670,8 @@ msgstr ""
 "Na tym serwerze nic nie jest ograniczone — to tylko liczby z tego miesiąca."
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Nothing there was waiting to be read"
 msgid "Nothing is waiting here."
-msgstr "Nic tam nie czekało na przeczytanie"
+msgstr "Nic tu nie czeka."
 
 #: src/App.tsx
 msgid "Nothing kept here yet."
@@ -10868,10 +10804,8 @@ msgid "Nothing was marked donated in this year."
 msgstr "W tym roku nic nie oznaczono jako darowizny."
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Nothing has barcode"
 msgid "Nothing was shared"
-msgstr "Nic nie ma kodu kreskowego"
+msgstr "Nic nie udostępniono"
 
 #: src/Ebay.tsx
 msgid "Nothing with this barcode is listed on eBay right now."
@@ -10927,7 +10861,7 @@ msgstr "Teraz nieznany"
 
 #: src/ImportFerret.tsx
 msgid "Nowhere yet (I'll place it)"
-msgstr ""
+msgstr "Jeszcze nigdzie (umieszczę ją sam)"
 
 #: src/ImportCsv.tsx
 msgid "Numbers, Excel or Google Sheets: File → Export / Download → CSV."
@@ -11063,6 +10997,10 @@ msgid ""
 "a shop's app, a web page, your photos or a PDF, and choose Ferret. It opens "
 "here, ready to add as a new thing or onto one you have."
 msgstr ""
+"Na Androidzie albo w Chrome na komputerze, z zainstalowanym Ferret: stuknij "
+"Udostępnij w aplikacji sklepu, na stronie internetowej, w zdjęciach albo w "
+"PDF i wybierz Ferret. Otworzy się tutaj, gotowe do dodania jako nowa rzecz "
+"albo do rzeczy, którą już masz."
 
 #: src/Ebay.tsx
 msgid "On eBay"
@@ -11428,10 +11366,8 @@ msgid "Other apps"
 msgstr "Inne aplikacje"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Other apps"
 msgid "Other labels"
-msgstr "Inne aplikacje"
+msgstr "Inne etykiety"
 
 #: src/ToConfirm.tsx
 msgid "Other lists to look at"
@@ -11793,10 +11729,8 @@ msgid "Photos and files"
 msgstr "Zdjęcia i pliki"
 
 #: ../server/src/lib/item-pdf.ts
-#, fuzzy
-#| msgid "Photos and files"
 msgid "Photos not shown here: {files}"
-msgstr "Zdjęcia i pliki"
+msgstr "Zdjęcia niepokazane tutaj: {files}"
 
 #: src/Prompts.tsx
 msgid "Photos of things"
@@ -12043,10 +11977,8 @@ msgid "Print labels"
 msgstr "Drukuj etykiety"
 
 #: src/ItemPage.tsx
-#, fuzzy
-#| msgid "Ferret's own export"
 msgid "Print or export"
-msgstr "Eksport z Ferret"
+msgstr "Drukuj lub eksportuj"
 
 #: src/Gone.tsx src/Heirs.tsx src/Report.tsx src/Shared.tsx
 msgid "Print or save as PDF"
@@ -12070,7 +12002,7 @@ msgstr "Prawdopodobnie ta rzecz"
 
 #: ../server/src/lib/item-sheet.ts
 msgid "Problem"
-msgstr ""
+msgstr "Problem"
 
 #: src/Repairs.tsx
 msgid "Problem: {problem}"
@@ -12122,7 +12054,7 @@ msgstr "Token dostępu PSA"
 
 #: src/SigningKey.tsx
 msgid "Public key"
-msgstr ""
+msgstr "Klucz publiczny"
 
 #: src/AiFill.tsx src/lib/words.ts
 msgid "Purchase date"
@@ -12179,10 +12111,8 @@ msgid "Put it on the shopping list when none are left"
 msgstr "Dodaj do listy zakupów, gdy się skończą"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Put it on"
 msgid "Put its place in"
-msgstr "Dołącz"
+msgstr "Umieść jej miejsce w"
 
 #. placeholder {0}: d.match.name
 #: src/Paperless.tsx
@@ -12440,10 +12370,8 @@ msgid "Records & CDs"
 msgstr "Płyty winylowe i CD"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "API reference"
 msgid "ref. {reference}"
-msgstr "Dokumentacja API"
+msgstr "nr ref. {reference}"
 
 #: src/Demo.tsx
 msgid "Refresh"
@@ -12715,10 +12643,8 @@ msgid "Rental"
 msgstr "Wynajmowane"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Repair guides"
 msgid "Repair guide: {title}"
-msgstr "Poradniki naprawy"
+msgstr "Poradnik naprawy: {title}"
 
 #: src/Server.tsx
 msgid "Repair guides"
@@ -12729,10 +12655,8 @@ msgid "Repair guides on iFixit: {device}"
 msgstr "Poradniki naprawy w iFixit: {device}"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Repair warranty until {day}"
 msgid "Repair warranty until"
-msgstr "Gwarancja na naprawę do {day}"
+msgstr "Gwarancja na naprawę do"
 
 #: src/Repairs.tsx
 msgid "Repair warranty until {day}"
@@ -12993,6 +12917,7 @@ msgstr "Pomieszczenia"
 #: src/ImportFerret.tsx
 msgid "Rooms and shelves along its path are found by name, or made."
 msgstr ""
+"Pomieszczenia i półki na jej ścieżce są odnajdywane po nazwie albo tworzone."
 
 #: src/ImportHomeAssistant.tsx
 msgid "Rooms go in"
@@ -13082,6 +13007,8 @@ msgid ""
 "Saved on this device {when}. Changes made since show once Ferret can be "
 "reached."
 msgstr ""
+"Zapisane na tym urządzeniu {when}. Późniejsze zmiany pojawią się, gdy Ferret "
+"będzie osiągalny."
 
 #: src/ScanSession.tsx
 msgid "Saved the pairing code to {name}"
@@ -13616,10 +13543,8 @@ msgid "Share or save {name}"
 msgstr "Udostępnij lub zapisz {name}"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Back to Ferret"
 msgid "Share to Ferret"
-msgstr "Wróć do Ferret"
+msgstr "Udostępnij do Ferret"
 
 #: src/Shares.tsx
 msgid "Share…"
@@ -13627,7 +13552,7 @@ msgstr "Udostępnij…"
 
 #: src/lib/origin.ts
 msgid "Shared from another app"
-msgstr ""
+msgstr "Udostępnione z innej aplikacji"
 
 #: src/Shared.tsx
 msgid ""
@@ -13637,10 +13562,8 @@ msgstr ""
 "osobę, która go wysłała, o nowy."
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Back to Ferret"
 msgid "Shared to Ferret"
-msgstr "Wróć do Ferret"
+msgstr "Udostępnione do Ferret"
 
 #: src/AuthLayout.tsx
 msgid "Shared with your household, kept on your own server, files encrypted."
@@ -13848,11 +13771,14 @@ msgid ""
 "Signed by another key, not this household's. Nothing has changed since it "
 "was signed — import it if you know where it came from."
 msgstr ""
+"Podpisany innym kluczem, nie kluczem tego gospodarstwa domowego. Nic się nie "
+"zmieniło od podpisania — zaimportuj, jeśli wiesz, skąd pochodzi."
 
 #: src/ImportFerret.tsx
 msgid ""
 "Signed by this household, and nothing has changed since it was exported."
 msgstr ""
+"Podpisany przez to gospodarstwo domowe i nic się nie zmieniło od eksportu."
 
 #: src/Paperless.tsx
 msgid "Signed in as"
@@ -13863,6 +13789,8 @@ msgid ""
 "Signed with the household's key {fingerprint} — check it with: ferret verify "
 "<this file>"
 msgstr ""
+"Podpisano kluczem gospodarstwa domowego {fingerprint} — sprawdź poleceniem: "
+"ferret verify <ten plik>"
 
 #: src/Security.tsx
 msgid ""
@@ -13873,10 +13801,8 @@ msgstr ""
 "urządzenia pomijają kod przez 30 dni."
 
 #: src/SigningKey.tsx
-#, fuzzy
-#| msgid "Signing secret"
 msgid "Signing key"
-msgstr "Sekret podpisu"
+msgstr "Klucz podpisu"
 
 #: src/Webhooks.tsx
 msgid "Signing secret"
@@ -14054,6 +13980,8 @@ msgid ""
 "Something in it changed after it was signed. Only import it if you made the "
 "change yourself."
 msgstr ""
+"Coś w nim zmieniono po podpisaniu. Importuj tylko, jeśli to ty wprowadziłeś "
+"zmianę."
 
 #: src/Webhooks.tsx
 msgid "Something lent or borrowed is due back"
@@ -14562,7 +14490,7 @@ msgstr ""
 
 #: src/ShareIn.tsx
 msgid "That thing already has 10 links — remove one first"
-msgstr ""
+msgstr "Ta rzecz ma już 10 linków — najpierw usuń jeden"
 
 #: src/NotFound.tsx
 msgid "That thing isn't here"
@@ -14674,7 +14602,7 @@ msgstr ""
 #: ../server/src/lib/item-sheet.ts
 msgid ""
 "The first says \"Good signature\"; the second says \"OK\" for every file."
-msgstr ""
+msgstr "Pierwsze wypisze \"Good signature\", drugie \"OK\" dla każdego pliku."
 
 #: src/Server.tsx
 msgid "The help's Server check page says what to do about each."
@@ -14806,13 +14734,15 @@ msgstr "Serwer nie zaproponował kodu uwierzytelniającego"
 
 #: ../server/src/lib/item-import.ts
 msgid "The signature doesn't match SHA256SUMS"
-msgstr ""
+msgstr "Podpis nie zgadza się z SHA256SUMS"
 
 #: src/Import.tsx
 msgid ""
 "The signed ZIP from a thing's Print or export — Ferret checks its signature "
 "first and tells you what it found."
 msgstr ""
+"Podpisany ZIP z opcji „Drukuj lub eksportuj” rzeczy — Ferret najpierw "
+"sprawdza podpis i mówi, co znalazł."
 
 #: src/ItemEditor.tsx
 msgid ""
@@ -14894,10 +14824,8 @@ msgstr ""
 "To ceny wywoławcze, a nie ceny sprzedaży. Oferty z eBay — stan na {when}."
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "{failed} couldn't be: {reasons}"
 msgid "These files couldn't be added: {files}"
-msgstr "Nie udało się: {failed} ({reasons})"
+msgstr "Nie udało się dodać tych plików: {files}"
 
 #: src/Household.tsx
 msgid "They can…"
@@ -15154,6 +15082,8 @@ msgid ""
 "This screen needs Ferret's sign-in in the app. Go back, sign out under More, "
 "and sign in again."
 msgstr ""
+"Ten ekran wymaga logowania do Ferret w aplikacji. Wróć, wyloguj się w sekcji "
+"Więcej i zaloguj ponownie."
 
 #: src/lib/device.ts
 msgid "This server"
@@ -15193,6 +15123,8 @@ msgstr "ten film"
 msgid ""
 "This was exported from Ferret on {date} and signed with your household's key."
 msgstr ""
+"Wyeksportowano z Ferret {date} i podpisano kluczem twojego gospodarstwa "
+"domowego."
 
 #: src/ScanSession.tsx
 msgid "This was marked \"Can't find it\". Found it?"
@@ -15298,6 +15230,8 @@ msgid ""
 "To check that nothing has changed since, open a terminal in this folder and "
 "run:"
 msgstr ""
+"Aby sprawdzić, że od tamtej pory nic się nie zmieniło, otwórz terminal w tym "
+"folderze i uruchom:"
 
 #: src/Nav.tsx src/ToConfirm.tsx
 msgid "To confirm"
@@ -15615,10 +15549,8 @@ msgid "Until {formatDate}"
 msgstr "Do {formatDate}"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid " to {to}"
 msgid "until {to}"
-msgstr " dla: {to}"
+msgstr "do {to}"
 
 #: src/Server.tsx
 msgid "Up to date — {version} is the newest release."
@@ -15821,7 +15753,7 @@ msgstr "Zużyto jedną"
 
 #: ../server/src/lib/item-sheet.ts
 msgid "Uses"
-msgstr ""
+msgstr "Zużywa"
 
 #: src/Maintenance.tsx
 msgid "Uses {uses} × {name} · {left} left"
@@ -15909,10 +15841,8 @@ msgid "Very good (VG)"
 msgstr "Dostateczny (VG)"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Video game"
 msgid "Video"
-msgstr "Gra wideo"
+msgstr "Film"
 
 #: src/Collectibles.tsx
 msgid "Video game"
@@ -15923,10 +15853,8 @@ msgid "Video games"
 msgstr "Gry wideo"
 
 #: ../server/src/lib/item-sheet.ts
-#, fuzzy
-#| msgid "Add {title}"
 msgid "Video: {title}"
-msgstr "Dodaj {title}"
+msgstr "Film: {title}"
 
 #: src/Collections.tsx
 msgid "View"
@@ -16223,10 +16151,8 @@ msgid "What was done"
 msgstr "Co zrobiono"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "What was done"
 msgid "What was shared"
-msgstr "Co zrobiono"
+msgstr "Co udostępniono"
 
 #: src/Claims.tsx src/Repairs.tsx
 msgid "What went wrong"
@@ -16375,20 +16301,16 @@ msgid "Where is it?"
 msgstr "Gdzie to jest?"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Where it is"
 msgid "Where it goes"
-msgstr "Gdzie to jest"
+msgstr "Gdzie trafi"
 
 #: src/Labels.tsx src/lib/words.ts src/ShareIn.tsx
 msgid "Where it is"
 msgstr "Gdzie to jest"
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "Where it is"
 msgid "Where it was"
-msgstr "Gdzie to jest"
+msgstr "Gdzie była"
 
 #: src/Overview.tsx src/Paperless.tsx
 msgid "Where it's kept"
@@ -16582,10 +16504,8 @@ msgstr ""
 "koszt to szacunek EPA przy średnich cenach w USA."
 
 #: src/ImportFerret.tsx
-#, fuzzy
-#| msgid "With tags"
 msgid "With it"
-msgstr "Z tagami"
+msgstr "Razem z nią"
 
 #: src/Report.tsx
 msgid "With photos"
@@ -16711,11 +16631,8 @@ msgstr ""
 "W tym gospodarstwie domowym możesz się rozglądać, ale nie dodawać rzeczy."
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "You can look around, but not add things, in this household."
 msgid "You can look but not add things in this household."
-msgstr ""
-"W tym gospodarstwie domowym możesz się rozglądać, ale nie dodawać rzeczy."
+msgstr "W tym gospodarstwie domowym możesz przeglądać, ale nie dodawać rzeczy."
 
 #: ../server/src/lib/digest.ts
 msgid ""
