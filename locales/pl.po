@@ -487,12 +487,10 @@ msgstr ""
 
 #. placeholder {0}: grid.cols * grid.rows
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# label} other {# labels}}"
 msgid "{0, plural, one {# label a sheet} other {# labels a sheet}}"
 msgstr ""
-"{0, plural, one {# etykieta} few {# etykiety} many {# etykiet} other {# "
-"etykiety}}"
+"{0, plural, one {# etykieta na arkusz} few {# etykiety na arkusz} many {# "
+"etykiet na arkusz} other {# etykiety na arkusz}}"
 
 #. placeholder {0}: labels.length
 #: src/Labels.tsx
@@ -803,6 +801,10 @@ msgid ""
 "{0, plural, one {# thing from order {number} was already added, on {day}.} "
 "other {# things from order {number} were already added, on {day}.}}"
 msgstr ""
+"{0, plural, one {# rzecz z zamówienia {number} została już dodana ({day}).} "
+"few {# rzeczy z zamówienia {number} zostały już dodane ({day}).} many {# "
+"rzeczy z zamówienia {number} zostało już dodanych ({day}).} other {# rzeczy "
+"z zamówienia {number} zostało już dodanych ({day}).}}"
 
 #. placeholder {0}: f.unknown
 #: src/Replacements.tsx
@@ -1253,22 +1255,16 @@ msgid "{afue}% efficient (AFUE)"
 msgstr "Sprawność {afue}% (AFUE)"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid ""
-#| "{0, plural, one {# line looks like a consumable or not worth a record, so "
-#| "it's unticked;} other {# lines look like consumables or not worth a "
-#| "record, so they're unticked;}}"
 msgid ""
 "{alreadyCount, plural, one {# of them is probably in Ferret already, so it "
 "isn't ticked.} other {# of them are probably in Ferret already, so they "
 "aren't ticked.}}"
 msgstr ""
-"{0, plural, one {# wiersz wygląda na materiał eksploatacyjny albo coś "
-"niewartego zapisu, więc jest odznaczony;} few {# wiersze wyglądają na "
-"materiały eksploatacyjne albo coś niewartego zapisu, więc są odznaczone;} "
-"many {# wierszy wygląda na materiały eksploatacyjne albo coś niewartego "
-"zapisu, więc są odznaczone;} other {# wiersza wygląda na materiały "
-"eksploatacyjne albo coś niewartego zapisu, więc są odznaczone;}}"
+"{alreadyCount, plural, one {# z nich jest prawdopodobnie już w Ferret, więc "
+"nie jest zaznaczony.} few {# z nich są prawdopodobnie już w Ferret, więc nie "
+"są zaznaczone.} many {# z nich jest prawdopodobnie już w Ferret, więc nie są "
+"zaznaczone.} other {# z nich jest prawdopodobnie już w Ferret, więc nie są "
+"zaznaczone.}}"
 
 #: src/Charts.tsx
 msgid "{amount} in a year"
@@ -2084,14 +2080,13 @@ msgid "{percent}% less than the US standard"
 msgstr "{percent}% mniej niż norma USA"
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# label.} other {# labels.}}"
 msgid ""
 "{perSheet, plural, one {Tip: a full sheet is # label.} other {Tip: a full "
 "sheet is # labels.}}"
 msgstr ""
-"{0, plural, one {# etykieta.} few {# etykiety.} many {# etykiet.} other {# "
-"etykiet.}}"
+"{perSheet, plural, one {Wskazówka: pełny arkusz to # etykieta.} few "
+"{Wskazówka: pełny arkusz to # etykiety.} many {Wskazówka: pełny arkusz to # "
+"etykiet.} other {Wskazówka: pełny arkusz to # etykiety.}}"
 
 #: src/Loans.tsx
 msgid "{person} asked for no more reminders"
@@ -3208,7 +3203,7 @@ msgstr "Kończy się gwarancja"
 
 #: src/Labels.tsx
 msgid "A4"
-msgstr ""
+msgstr "A4"
 
 #: src/Product.tsx src/Shopping.tsx
 msgid "About"
@@ -3996,10 +3991,8 @@ msgstr "już w Ferret"
 
 #. placeholder {0}: already(r)!.name
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "already in Ferret"
 msgid "Already in Ferret: <0>{0}</0>"
-msgstr "już w Ferret"
+msgstr "Już w Ferret: <0>{0}</0>"
 
 #: src/Listing.tsx
 msgid "Already listed:"
@@ -4953,10 +4946,8 @@ msgstr ""
 "Płyty CD i winylowe, jedna po drugiej: Ferret sprawdza każdą w MusicBrainz"
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "Select everything on this page"
 msgid "Center on the page"
-msgstr "Zaznacz wszystko na tej stronie"
+msgstr "Wyśrodkuj na stronie"
 
 #: ../server/src/lib/attention.ts
 msgid "Certificate “{name}” expires soon"
@@ -5779,7 +5770,7 @@ msgstr "Waluta"
 
 #: src/Labels.tsx
 msgid "Custom sheet — enter your labels' sizes"
-msgstr ""
+msgstr "Własny arkusz — wpisz rozmiary swoich etykiet"
 
 #: src/Overview.tsx
 msgid "Customize this page"
@@ -7473,7 +7464,7 @@ msgstr "Zwiń menu do ikon"
 
 #: src/ReceiptLines.tsx
 msgid "Food or drink, so it isn't ticked"
-msgstr ""
+msgstr "Jedzenie lub napój, więc nie jest zaznaczone"
 
 #: src/Shopping.tsx
 msgid "For {forTaskText}"
@@ -7786,11 +7777,11 @@ msgstr "konsola do gier"
 
 #: src/Labels.tsx
 msgid "Gap between columns ({unit})"
-msgstr ""
+msgstr "Odstęp między kolumnami ({unit})"
 
 #: src/Labels.tsx
 msgid "Gap between rows ({unit})"
-msgstr ""
+msgstr "Odstęp między rzędami ({unit})"
 
 #: src/lib/words.ts
 msgid "garage door"
@@ -8395,10 +8386,8 @@ msgid "Imports sorted with AI that never finished."
 msgstr "Importy sortowane przez AI, które nigdy się nie zakończyły."
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "Coin"
 msgid "in"
-msgstr "Moneta"
+msgstr "cale"
 
 #: src/Overview.tsx
 msgid "In"
@@ -8546,7 +8535,7 @@ msgstr "W tej rzeczy"
 
 #: src/Labels.tsx
 msgid "Inches"
-msgstr ""
+msgstr "Cale"
 
 #: src/ItemSheet.tsx
 msgid "Include"
@@ -9099,14 +9088,12 @@ msgid "Label {shown} — show, print or change"
 msgstr "Etykieta {shown} — wyświetl, wydrukuj lub zmień"
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "New reading ({unit}"
 msgid "Label height ({unit})"
-msgstr "Nowy odczyt ({unit}"
+msgstr "Wysokość etykiety ({unit})"
 
 #: src/Labels.tsx
 msgid "Label width ({unit})"
-msgstr ""
+msgstr "Szerokość etykiety ({unit})"
 
 #: src/Labels.tsx
 msgid "Labels"
@@ -9117,16 +9104,12 @@ msgid "Labels · {name}"
 msgstr "Etykiety · {name}"
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "Label {code}"
 msgid "Labels across"
-msgstr "Etykieta {code}"
+msgstr "Etykiet w poziomie"
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "Labels"
 msgid "Labels down"
-msgstr "Etykiety"
+msgstr "Etykiet w pionie"
 
 #: src/Providers.tsx
 msgid "Landscaper"
@@ -9266,7 +9249,7 @@ msgstr "Lewa"
 
 #: src/Labels.tsx
 msgid "Left edge to first label ({unit})"
-msgstr ""
+msgstr "Od lewej krawędzi do pierwszej etykiety ({unit})"
 
 #: src/Collectibles.tsx
 msgid "LEGO set"
@@ -9723,10 +9706,12 @@ msgid ""
 "Measure a sheet with a ruler, or read the sizes off the packet. Kept on this "
 "device."
 msgstr ""
+"Zmierz arkusz linijką albo odczytaj rozmiary z opakowania. Zapisywane na tym "
+"urządzeniu."
 
 #: src/Labels.tsx
 msgid "Measured in"
-msgstr ""
+msgstr "Jednostki"
 
 #: src/Household.tsx
 msgid "Member"
@@ -9753,10 +9738,8 @@ msgid "Miles"
 msgstr "Mile"
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "Kilometres"
 msgid "Millimetres"
-msgstr "Kilometry"
+msgstr "Milimetry"
 
 #: src/Loans.tsx
 msgid "Mine, lent to someone"
@@ -10494,16 +10477,12 @@ msgid "Not a duplicate"
 msgstr "To nie jest duplikat"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "Not a duplicate"
 msgid "Not a part"
-msgstr "To nie jest duplikat"
+msgstr "To nie jest część"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "Not enough parts left by then"
 msgid "Not a part of anything"
-msgstr "Do tego czasu zabraknie części"
+msgstr "Nie jest częścią niczego"
 
 #: src/Parts.tsx
 msgid "Not a part of this (the part itself stays)"
@@ -11579,10 +11558,8 @@ msgid "Pairing codes"
 msgstr "Kody parowania"
 
 #: src/Labels.tsx
-#, fuzzy
-#| msgid "Paperless"
 msgid "Paper"
-msgstr "Paperless"
+msgstr "Papier"
 
 #: src/AttentionBell.tsx
 msgid "Paperless"
@@ -11617,16 +11594,12 @@ msgid "Part numbers, how-to, who to call…"
 msgstr "Numery katalogowe, instrukcje, do kogo zadzwonić…"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "Parts"
 msgid "Part of"
-msgstr "Części"
+msgstr "Część"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "Part of: {task}"
 msgid "Part of {thing}"
-msgstr "Część zadania: {task}"
+msgstr "Część: {thing}"
 
 #: src/Repairs.tsx
 msgid "Part of a maintenance task"
@@ -11638,7 +11611,7 @@ msgstr "Część zadania: {task}"
 
 #: src/ReceiptLines.tsx
 msgid "Part of…"
-msgstr ""
+msgstr "Część czegoś…"
 
 #: ../server/src/lib/item-sheet.ts src/Repairs.tsx
 msgid "Parts"
@@ -14992,7 +14965,7 @@ msgstr "Nie udało się dodać tych plików: {files}"
 
 #: src/Labels.tsx
 msgid "These labels run off the page — check the sizes and margins."
-msgstr ""
+msgstr "Te etykiety wychodzą poza stronę — sprawdź rozmiary i marginesy."
 
 #: src/Household.tsx
 msgid "They can…"
@@ -15460,7 +15433,7 @@ msgstr "Za dużo prób z tego adresu — odczekaj minutę."
 
 #: src/Labels.tsx
 msgid "Top edge to first label ({unit})"
-msgstr ""
+msgstr "Od górnej krawędzi do pierwszej etykiety ({unit})"
 
 #: src/Catalog.tsx
 msgid "Top level"
@@ -15790,7 +15763,7 @@ msgstr "Pilne"
 
 #: src/Labels.tsx
 msgid "US Letter"
-msgstr ""
+msgstr "US Letter"
 
 #: src/PlanUsage.tsx src/Settings.tsx
 msgid "Usage"
@@ -16941,7 +16914,7 @@ msgstr "Nazwa twojego domu"
 
 #: src/Labels.tsx
 msgid "Your label sheet"
-msgstr ""
+msgstr "Twój arkusz etykiet"
 
 #: src/Security.tsx
 msgid ""
