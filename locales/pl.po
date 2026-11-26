@@ -931,6 +931,17 @@ msgstr ""
 "pojazdów} many {Zapisano # wycofań pojazdów} other {Zapisano # wycofania "
 "pojazdów}}"
 
+#. placeholder {0}: c.inbox
+#: src/ToConfirm.tsx
+#, fuzzy
+#| msgid ""
+#| "{0, plural, one {# thing needs attention} other {# things need attention}}"
+msgid ""
+"{0, plural, one {# waiting in the inbox} other {# waiting in the inbox}}"
+msgstr ""
+"{0, plural, one {# rzecz wymaga uwagi} few {# rzeczy wymagają uwagi} many {# "
+"rzeczy wymaga uwagi} other {# rzeczy wymaga uwagi}}"
+
 #. placeholder {0}: c.warranties
 #: src/ImportFerret.tsx
 msgid "{0, plural, one {# warranty} other {# warranties}}"
@@ -962,6 +973,17 @@ msgstr "{0, plural, one {# rok} few {# lata} many {# lat} other {# roku}}"
 msgid "{0, plural, one {+# field} other {+# fields}}"
 msgstr "{0, plural, one {+# pole} few {+# pola} many {+# pól} other {+# pola}}"
 
+#. placeholder {0}: entry.receipt.lines.length
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "{0, plural, one {# thing run out} other {# things run out}}"
+msgid ""
+"{0, plural, one {A receipt with # thing on it.} other {A receipt with # "
+"things on it.}}"
+msgstr ""
+"{0, plural, one {# rzecz się skończyła} few {# rzeczy się skończyły} many {# "
+"rzeczy się skończyło} other {# rzeczy się skończyło}}"
+
 #. placeholder {0}: ticked.size
 #: src/StarterTasks.tsx
 msgid "{0, plural, one {Add # task} other {Add # tasks}}"
@@ -986,6 +1008,18 @@ msgstr ""
 "koszyka} many {Dodaj # z Amazona do koszyka} other {Dodaj # z Amazona do "
 "koszyka}}"
 
+#. placeholder {0}: entry.receipt.lines.length
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid ""
+#| "{0, plural, one {Add the thing on this receipt…} other {Add the # things "
+#| "on this receipt…}}"
+msgid "{0, plural, one {Add the thing on it…} other {Add the # things on it…}}"
+msgstr ""
+"{0, plural, one {Dodaj rzecz z tego paragonu…} few {Dodaj # rzeczy z tego "
+"paragonu…} many {Dodaj # rzeczy z tego paragonu…} other {Dodaj # rzeczy z "
+"tego paragonu…}}"
+
 #. placeholder {0}: lines.length
 #: src/ReceiptLines.tsx
 msgid ""
@@ -1005,6 +1039,15 @@ msgstr ""
 "{0, plural, one {Dodano # rzecz z tego skanu} few {Dodano # rzeczy z tego "
 "skanu} many {Dodano # rzeczy z tego skanu} other {Dodano # rzeczy z tego "
 "skanu}}"
+
+#. placeholder {0}: done.length
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "{0, plural, one {Add # thing} other {Add # things}}"
+msgid "{0, plural, one {Added # thing.} other {Added # things.}}"
+msgstr ""
+"{0, plural, one {Dodaj # rzecz} few {Dodaj # rzeczy} many {Dodaj # rzeczy} "
+"other {Dodaj # rzeczy}}"
 
 #. placeholder {0}: bought.data
 #: src/Shopping.tsx
@@ -3034,6 +3077,12 @@ msgstr ""
 msgid "A photo of the repair"
 msgstr "Zdjęcie naprawy"
 
+#: src/PhotoAdd.tsx
+msgid ""
+"A photo or PDF of a receipt, invoice or order: Ferret reads it, then you add "
+"the things on it"
+msgstr ""
+
 #: src/PlanUsage.tsx
 msgid ""
 "A photo's suggestions count as 2 AI actions; a question to Ask Ferret or a "
@@ -3482,8 +3531,8 @@ msgstr "Dodaj z adresu internetowego"
 msgid "Add from photos"
 msgstr "Dodaj ze zdjęć"
 
-#: src/App.tsx src/Collections.tsx src/ItemEditor.tsx src/Server.tsx
-#: src/ShareIn.tsx
+#: src/App.tsx src/Collections.tsx src/Inbox.tsx src/ItemEditor.tsx
+#: src/Server.tsx src/ShareIn.tsx
 msgid "Add it"
 msgstr "Dodaj to"
 
@@ -3694,6 +3743,13 @@ msgstr "Dodawać, zmieniać i usuwać tam rzeczy"
 msgid "Added"
 msgstr "Dodano"
 
+#. placeholder {0}: done[0]!.name
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Added as {0}"
+msgid "Added {0}."
+msgstr "Dodano jako {0}"
+
 #: src/Collections.tsx
 msgid "Added {added}"
 msgstr "Dodano {added}"
@@ -3801,6 +3857,12 @@ msgstr "Dodawanie zdjęć ({number} z {total})…"
 
 #: src/RoomScan.tsx
 msgid "Adding them…"
+msgstr "Dodaję je…"
+
+#: src/PhotoAdd.tsx
+#, fuzzy
+#| msgid "Adding them…"
+msgid "Adding…"
 msgstr "Dodaję je…"
 
 #: src/Paperless.tsx src/Providers.tsx src/Webhooks.tsx
@@ -3993,6 +4055,12 @@ msgstr "już w Ferret"
 #: src/ReceiptLines.tsx
 msgid "Already in Ferret: <0>{0}</0>"
 msgstr "Już w Ferret: <0>{0}</0>"
+
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "already in Ferret"
+msgid "Already in Ferret?"
+msgstr "już w Ferret"
 
 #: src/Listing.tsx
 msgid "Already listed:"
@@ -4704,8 +4772,9 @@ msgid "Box name"
 msgstr "Nazwa pudełka"
 
 #: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/App.tsx
-#: src/Duplicates.tsx src/Everything.tsx src/ItemEditor.tsx src/Offline.tsx
-#: src/Product.tsx src/QuickAdd.tsx src/Suggestions.tsx src/Walkthrough.tsx
+#: src/Duplicates.tsx src/Everything.tsx src/Inbox.tsx src/ItemEditor.tsx
+#: src/Offline.tsx src/Product.tsx src/QuickAdd.tsx src/Suggestions.tsx
+#: src/Walkthrough.tsx
 msgid "Brand"
 msgstr "Marka"
 
@@ -4855,8 +4924,8 @@ msgstr "Nie można połączyć się z Ferret"
 #: src/Cards.tsx src/Catalog.tsx src/Claims.tsx src/Collections.tsx
 #: src/Connect.tsx src/DataExport.tsx src/DeleteForGood.tsx src/Duplicates.tsx
 #: src/Everything.tsx src/FromWeb.tsx src/Gone.tsx src/Graded.tsx
-#: src/Household.tsx src/ImportFerret.tsx src/ItemEditor.tsx src/Loans.tsx
-#: src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
+#: src/Household.tsx src/ImportFerret.tsx src/Inbox.tsx src/ItemEditor.tsx
+#: src/Loans.tsx src/Maintenance.tsx src/NewHousehold.tsx src/Notifications.tsx
 #: src/Overview.tsx src/Pairing.tsx src/Paperless.tsx src/Parts.tsx
 #: src/PayOff.tsx src/PhotoCrop.tsx src/Places.tsx src/Prompts.tsx
 #: src/Providers.tsx src/ReceiptLines.tsx src/Repairs.tsx src/Security.tsx
@@ -5670,7 +5739,7 @@ msgstr "Nie udało się zapisać przycięcia — spróbuj ponownie."
 msgid "Couldn't send it — try again in a minute"
 msgstr "Nie udało się wysłać — spróbuj ponownie za chwilę"
 
-#: src/lib/offline.ts
+#: src/lib/offline.ts src/ShareIn.tsx
 msgid "Couldn't upload it"
 msgstr "Nie udało się przesłać"
 
@@ -5848,6 +5917,10 @@ msgstr "Usuń gospodarstwo domowe"
 msgid "Delete household…"
 msgstr "Usuń gospodarstwo domowe…"
 
+#: src/ReceiptLines.tsx
+msgid "Delete it and this copy of the receipt"
+msgstr ""
+
 #: src/App.tsx
 msgid "Delete my account"
 msgstr "Usuń moje konto"
@@ -5863,6 +5936,12 @@ msgstr "Usunąć je?"
 #: src/DeleteForGood.tsx
 msgid "Delete this household"
 msgstr "Usuń to gospodarstwo domowe"
+
+#: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid "Delete these?"
+msgid "Delete this New item"
+msgstr "Usunąć je?"
 
 #: src/DeleteForGood.tsx
 msgid "Delete your account"
@@ -5961,12 +6040,18 @@ msgstr "Czy chodziło o <0>{suggestion}</0>?"
 msgid "Didn't catch that — try again"
 msgstr "Nie dosłyszałem — spróbuj ponownie"
 
-#: src/Offline.tsx src/RoomScan.tsx src/ShareIn.tsx
+#: src/Inbox.tsx src/Offline.tsx src/RoomScan.tsx src/ShareIn.tsx
 msgid "Discard"
 msgstr "Odrzuć"
 
 #: src/RoomScan.tsx
 msgid "Discard it and add nothing?"
+msgstr "Odrzucić i niczego nie dodawać?"
+
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Discard it and add nothing?"
+msgid "Discard it and its files"
 msgstr "Odrzucić i niczego nie dodawać?"
 
 #: src/RoomScan.tsx
@@ -6498,6 +6583,18 @@ msgstr ""
 "z kopią paragonu. Najpierw sprawdź, co odczytało AI."
 
 #: src/ReceiptLines.tsx
+#, fuzzy
+#| msgid ""
+#| "Each one ticked becomes a thing of its own, bought the same day, with a "
+#| "copy of the receipt. Check what AI read first."
+msgid ""
+"Each one ticked becomes a thing, bought the same day, with a copy of the "
+"receipt. Check what AI read first."
+msgstr ""
+"Każda zaznaczona pozycja stanie się osobną rzeczą, kupioną tego samego dnia, "
+"z kopią paragonu. Najpierw sprawdź, co odczytało AI."
+
+#: src/ReceiptLines.tsx
 msgid ""
 "Each one ticked becomes a thing, bought the same day, with the receipt — the "
 "first one this \"New item\". Check what AI read first."
@@ -6883,6 +6980,12 @@ msgstr "Wszystko wygląda dobrze."
 msgid "Everything not already in Ferret"
 msgstr "Wszystko, czego jeszcze nie ma w Ferret"
 
+#: src/ReceiptLines.tsx
+msgid ""
+"Everything on this receipt is in Ferret already. If you added it before, you "
+"don't need this \"New item\"."
+msgstr ""
+
 #: src/App.tsx
 msgid "everything tagged {tag}"
 msgstr "wszystko oznaczone tagiem {tag}"
@@ -7086,6 +7189,12 @@ msgstr ""
 "Ferret nie zdołał zachować tego, co udostępniono. Spróbuj udostępnić jeszcze "
 "raz."
 
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Couldn't read this photo — name it yourself."
+msgid "Ferret couldn't read this. Name it yourself, or put it on a thing."
+msgstr "Nie udało się odczytać tego zdjęcia — nazwij je sam(a)."
+
 #: src/RoomScan.tsx
 msgid ""
 "Ferret didn't spot anything it was sure of. Tap things on the photo to add "
@@ -7169,6 +7278,12 @@ msgstr ""
 "sprzęt AGD, telewizory, głośniki, termostaty i sprzęt sieciowy, które zna — "
 "a ty wybierasz, które staną się rzeczami. W Home Assistant nic się nie "
 "zmienia."
+
+#: src/ShareIn.tsx
+msgid ""
+"Ferret reads it in the inbox first, then you add it as a new thing or put it "
+"on one you have."
+msgstr ""
 
 #: src/Paperless.tsx
 msgid ""
@@ -7668,13 +7783,21 @@ msgstr "z dokumentu w Paperless"
 msgid "from a QR label"
 msgstr "z etykiety QR"
 
+#: src/lib/origin.ts
+#, fuzzy
+#| msgid "Added from a receipt"
+msgid "from a receipt"
+msgstr "Dodane z paragonu"
+
+#: src/PhotoAdd.tsx
+#, fuzzy
+#| msgid "Added from a receipt"
+msgid "From a receipt"
+msgstr "Dodane z paragonu"
+
 #: src/lib/words.ts
 msgid "From a receipt or warranty card, when the purchase date is known"
 msgstr "Z paragonu lub karty gwarancyjnej, gdy znana jest data zakupu"
-
-#: src/lib/origin.ts
-msgid "from a receipt with several things on it"
-msgstr "z paragonu z kilkoma rzeczami"
 
 #: src/lib/origin.ts
 msgid "from a room scan"
@@ -7859,6 +7982,13 @@ msgstr "Przejdź do logowania"
 #: src/Deleted.tsx
 msgid "goes for good today"
 msgstr "zniknie na dobre dzisiaj"
+
+#. placeholder {0}: entry.into.placeName
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Goes to {heir}"
+msgid "Goes in {0}"
+msgstr "Przypada: {heir}"
 
 #: src/ImportHomeAssistant.tsx
 msgid "Goes in a place you have"
@@ -8393,6 +8523,13 @@ msgstr "cale"
 msgid "In"
 msgstr "W"
 
+#. placeholder {0}: entry.into.placeName ?? t`the box`
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "On {0}"
+msgid "In {0}"
+msgstr "Przy: {0}"
+
 #: ../server/src/lib/item-sheet.ts
 msgid "in {box}"
 msgstr "w: {box}"
@@ -8532,6 +8669,10 @@ msgstr "W koszyku"
 #: src/ItemSearch.tsx
 msgid "In this item"
 msgstr "W tej rzeczy"
+
+#: src/Inbox.tsx src/Nav.tsx
+msgid "Inbox"
+msgstr ""
 
 #: src/Labels.tsx
 msgid "Inches"
@@ -9758,9 +9899,9 @@ msgid "mm"
 msgstr "mm"
 
 #: ../server/src/lib/item-sheet.ts src/AiFill.tsx src/Duplicates.tsx
-#: src/Everything.tsx src/ImportHomeAssistant.tsx src/ItemEditor.tsx
-#: src/lib/words.ts src/Offline.tsx src/Product.tsx src/Suggestions.tsx
-#: src/Walkthrough.tsx
+#: src/Everything.tsx src/ImportHomeAssistant.tsx src/Inbox.tsx
+#: src/ItemEditor.tsx src/lib/words.ts src/Offline.tsx src/Product.tsx
+#: src/Suggestions.tsx src/Walkthrough.tsx
 msgid "Model"
 msgstr "Model"
 
@@ -9883,10 +10024,11 @@ msgstr "Moja oferta — sprzedaję to na {market}"
 
 #: src/AiFill.tsx src/App.tsx src/Catalog.tsx src/Collections.tsx
 #: src/Duplicates.tsx src/Everything.tsx src/ImportHomeAssistant.tsx
-#: src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx src/Paperless.tsx
-#: src/Parts.tsx src/PayOff.tsx src/Places.tsx src/Product.tsx
-#: src/Providers.tsx src/ReceiptLines.tsx src/Server.tsx src/Settings.tsx
-#: src/ShareIn.tsx src/Suggestions.tsx src/Templates.tsx src/Webhooks.tsx
+#: src/Inbox.tsx src/ItemEditor.tsx src/lib/words.ts src/Notifications.tsx
+#: src/Paperless.tsx src/Parts.tsx src/PayOff.tsx src/Places.tsx
+#: src/Product.tsx src/Providers.tsx src/ReceiptLines.tsx src/Server.tsx
+#: src/Settings.tsx src/ShareIn.tsx src/Suggestions.tsx src/Templates.tsx
+#: src/Webhooks.tsx
 msgid "Name"
 msgstr "Nazwa"
 
@@ -9981,7 +10123,7 @@ msgstr "Nowe gospodarstwo domowe"
 msgid "New household…"
 msgstr "Nowe gospodarstwo domowe…"
 
-#: src/ShareIn.tsx src/Walkthrough.tsx
+#: src/Inbox.tsx src/ShareIn.tsx src/Walkthrough.tsx
 msgid "New item"
 msgstr "Nowa rzecz"
 
@@ -10552,7 +10694,7 @@ msgstr "Niewidziane od miesiąca"
 msgid "Not in a place"
 msgstr "Bez miejsca"
 
-#: src/QuickAdd.tsx src/ReceiptLines.tsx
+#: src/Inbox.tsx src/QuickAdd.tsx src/ReceiptLines.tsx
 msgid "Not in a place yet"
 msgstr "Jeszcze bez miejsca"
 
@@ -10911,6 +11053,12 @@ msgid ""
 msgstr ""
 "Nie ma nic do posortowania. Oznacz dokument w Paperless, a pojawi się tu w "
 "ciągu dziesięciu minut."
+
+#: src/Inbox.tsx
+msgid ""
+"Nothing waiting. Photos and receipts you add with + Add come here to be read "
+"before they become things."
+msgstr ""
 
 #: src/Connect.tsx
 msgid ""
@@ -11321,7 +11469,7 @@ msgstr "Widzi to tylko administrator serwera."
 msgid "Only the usual authorities."
 msgstr "Tylko zwykłe urzędy certyfikacji."
 
-#: src/Everything.tsx src/Paperless.tsx src/ScanSession.tsx
+#: src/Everything.tsx src/Inbox.tsx src/Paperless.tsx src/ScanSession.tsx
 msgid "Open"
 msgstr "Otwórz"
 
@@ -12246,16 +12394,50 @@ msgstr "Dołącz"
 msgid "Put it on the shopping list when none are left"
 msgstr "Dodaj do listy zakupów, gdy się skończą"
 
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Put it on"
+msgid "Put it there"
+msgstr "Dołącz"
+
 #: src/ImportFerret.tsx
 msgid "Put its place in"
 msgstr "Umieść jej miejsce w"
+
+#. placeholder {0}: m.name
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Put on {0}…"
+msgid "Put on {0}"
+msgstr "Dołącz do: {0}…"
+
+#. placeholder {0}: m.name
+#. placeholder {1}: m.place
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Put on {0}…"
+msgid "Put on {0} ({1})"
+msgstr "Dołącz do: {0}…"
+
+#. placeholder {0}: done[0]!.name
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Put on {0}…"
+msgid "Put on {0}."
+msgstr "Dołącz do: {0}…"
 
 #. placeholder {0}: d.match.name
 #: src/Paperless.tsx
 msgid "Put on {0}…"
 msgstr "Dołącz do: {0}…"
 
-#: src/Paperless.tsx
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Put on a thing…"
+msgid "Put on a thing"
+msgstr "Dołącz do rzeczy…"
+
+#: src/Inbox.tsx src/Paperless.tsx
 msgid "Put on a thing…"
 msgstr "Dołącz do rzeczy…"
 
@@ -12356,6 +12538,12 @@ msgstr "Odczytano z: {name}"
 msgid "Read it again"
 msgstr "Przeczytaj ponownie"
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Read it again"
+msgid "Read it first"
+msgstr "Przeczytaj ponownie"
+
 #: src/Settings.tsx
 msgid "Read-only"
 msgstr "Tylko do odczytu"
@@ -12387,6 +12575,12 @@ msgstr "Odczyt trwał za długo — spróbuj innego zdjęcia albo wpisz nazwę."
 #: src/Product.tsx
 msgid "Reading VIN {vin}…"
 msgstr "Odczytuję VIN {vin}…"
+
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Reading it…"
+msgid "Reading…"
+msgstr "Odczytuję…"
 
 #: src/Server.tsx
 msgid ""
@@ -13516,6 +13710,12 @@ msgstr "Wyślij link jeszcze raz"
 msgid "Send this to <0>{email}</0>"
 msgstr "Wyślij to na <0>{email}</0>"
 
+#: src/ShareIn.tsx
+#, fuzzy
+#| msgid "Open the inbox"
+msgid "Send to the inbox"
+msgstr "Otwórz skrzynkę"
+
 #: src/Shares.tsx
 msgid "Send…"
 msgstr "Wyślij…"
@@ -14144,6 +14344,12 @@ msgstr "Coś, co już masz, zwiększa swój stan"
 msgid "Something's run out"
 msgstr "Coś się skończyło"
 
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Something else…"
+msgid "Somewhere else…"
+msgstr "Coś innego…"
+
 #: src/ImportCsv.tsx
 msgid "Sort with AI"
 msgstr "Posortuj z AI"
@@ -14663,6 +14869,12 @@ msgid ""
 msgstr ""
 "Sprzęt AGD, telewizory, głośniki, kamery i sprzęt sieciowy, które zna — z "
 "producentem, modelem i pomieszczeniem."
+
+#: src/Inbox.tsx
+#, fuzzy
+#| msgid "Make the box"
+msgid "the box"
+msgstr "Utwórz pudełko"
 
 #: src/Install.tsx
 msgid "The browser's"
@@ -15745,7 +15957,7 @@ msgstr "Przesyłam"
 msgid "Uploading {name}"
 msgstr "Przesyłam {name}"
 
-#: src/Files.tsx
+#: src/Files.tsx src/Inbox.tsx
 msgid "Uploading…"
 msgstr "Przesyłanie…"
 
@@ -16444,7 +16656,7 @@ msgstr "Gdzie jest teraz {name}?"
 msgid "Where is it kept? Add a place"
 msgstr "Gdzie jest przechowywana? Dodaj miejsce"
 
-#: src/QuickAdd.tsx
+#: src/Inbox.tsx src/QuickAdd.tsx
 msgid "Where is it?"
 msgstr "Gdzie to jest?"
 
@@ -16568,7 +16780,7 @@ msgstr "Które pomieszczenie?"
 msgid "Which thing is it on?"
 msgstr "Na której rzeczy jest naklejona?"
 
-#: src/Paperless.tsx
+#: src/Inbox.tsx src/Paperless.tsx
 msgid "Which thing?"
 msgstr "Która rzecz?"
 
@@ -17028,6 +17240,9 @@ msgstr "Powiększ"
 #: src/DocumentViewer.tsx src/PhotoViewer.tsx
 msgid "Zoom out"
 msgstr "Pomniejsz"
+
+#~ msgid "from a receipt with several things on it"
+#~ msgstr "z paragonu z kilkoma rzeczami"
 
 #~ msgid "Tap a line to see the items that still need it."
 #~ msgstr "Dotknij wiersza, aby zobaczyć rzeczy, którym jeszcze tego brakuje."
