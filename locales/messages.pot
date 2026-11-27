@@ -2337,6 +2337,10 @@ msgstr ""
 msgid "A new thing with the same details. Its serial number, place, notes, photos and labels start empty."
 msgstr ""
 
+#: src/NewVersion.tsx
+msgid "A new version of Ferret is ready."
+msgstr ""
+
 #: src/Reminders.tsx
 msgid "A notification on this device on days maintenance is due or a warranty is about to end."
 msgstr ""
@@ -9435,6 +9439,7 @@ msgid "Not needed"
 msgstr ""
 
 #: src/Install.tsx
+#: src/NewVersion.tsx
 #: src/StarterTasks.tsx
 msgid "Not now"
 msgstr ""
@@ -11251,6 +11256,10 @@ msgstr ""
 
 #: src/ItemRow.tsx
 msgid "related"
+msgstr ""
+
+#: src/NewVersion.tsx
+msgid "Reload"
 msgstr ""
 
 #: src/Server.tsx
