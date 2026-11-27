@@ -3043,6 +3043,10 @@ msgstr ""
 "Nowa rzecz z tymi samymi danymi. Numer seryjny, miejsce, notatki, zdjęcia i "
 "etykiety będą puste."
 
+#: src/NewVersion.tsx
+msgid "A new version of Ferret is ready."
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "A notification on this device on days maintenance is due or a warranty is "
@@ -10726,7 +10730,7 @@ msgstr "To nie moje"
 msgid "Not needed"
 msgstr "Niepotrzebne"
 
-#: src/Install.tsx src/StarterTasks.tsx
+#: src/Install.tsx src/NewVersion.tsx src/StarterTasks.tsx
 msgid "Not now"
 msgstr "Nie teraz"
 
@@ -12718,6 +12722,12 @@ msgstr "Zarejestruj go w Bike Index"
 #: src/ItemRow.tsx
 msgid "related"
 msgstr "powiązane"
+
+#: src/NewVersion.tsx
+#, fuzzy
+#| msgid "Retry upload"
+msgid "Reload"
+msgstr "Ponów przesyłanie"
 
 #: src/Server.tsx
 msgid "Remade by Ferret: each device turns push on again."
