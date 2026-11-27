@@ -7096,7 +7096,12 @@ msgstr ""
 msgid "Given away"
 msgstr ""
 
-#: ../server/src/lib/item-sheet.ts src/Gone.tsx src/Loans.tsx
+#: ../server/src/lib/item-sheet.ts src/Loans.tsx
+msgid "Given back"
+msgstr ""
+
+#: src/Gone.tsx
+msgctxt "Past things: borrowed, then returned to its owner"
 msgid "Given back"
 msgstr ""
 
