@@ -933,14 +933,11 @@ msgstr ""
 
 #. placeholder {0}: c.inbox
 #: src/ToConfirm.tsx
-#, fuzzy
-#| msgid ""
-#| "{0, plural, one {# thing needs attention} other {# things need attention}}"
 msgid ""
 "{0, plural, one {# waiting in the inbox} other {# waiting in the inbox}}"
 msgstr ""
-"{0, plural, one {# rzecz wymaga uwagi} few {# rzeczy wymagają uwagi} many {# "
-"rzeczy wymaga uwagi} other {# rzeczy wymaga uwagi}}"
+"{0, plural, one {# czeka w skrzynce} few {# czekają w skrzynce} many {# "
+"czeka w skrzynce} other {# czeka w skrzynce}}"
 
 #. placeholder {0}: c.warranties
 #: src/ImportFerret.tsx
@@ -975,14 +972,12 @@ msgstr "{0, plural, one {+# pole} few {+# pola} many {+# pól} other {+# pola}}"
 
 #. placeholder {0}: entry.receipt.lines.length
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "{0, plural, one {# thing run out} other {# things run out}}"
 msgid ""
 "{0, plural, one {A receipt with # thing on it.} other {A receipt with # "
 "things on it.}}"
 msgstr ""
-"{0, plural, one {# rzecz się skończyła} few {# rzeczy się skończyły} many {# "
-"rzeczy się skończyło} other {# rzeczy się skończyło}}"
+"{0, plural, one {Paragon z # rzeczą.} few {Paragon z # rzeczami.} many "
+"{Paragon z # rzeczami.} other {Paragon z # rzeczami.}}"
 
 #. placeholder {0}: ticked.size
 #: src/StarterTasks.tsx
@@ -1010,15 +1005,10 @@ msgstr ""
 
 #. placeholder {0}: entry.receipt.lines.length
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid ""
-#| "{0, plural, one {Add the thing on this receipt…} other {Add the # things "
-#| "on this receipt…}}"
 msgid "{0, plural, one {Add the thing on it…} other {Add the # things on it…}}"
 msgstr ""
-"{0, plural, one {Dodaj rzecz z tego paragonu…} few {Dodaj # rzeczy z tego "
-"paragonu…} many {Dodaj # rzeczy z tego paragonu…} other {Dodaj # rzeczy z "
-"tego paragonu…}}"
+"{0, plural, one {Dodaj rzecz z paragonu…} few {Dodaj # rzeczy z paragonu…} "
+"many {Dodaj # rzeczy z paragonu…} other {Dodaj # rzeczy z paragonu…}}"
 
 #. placeholder {0}: lines.length
 #: src/ReceiptLines.tsx
@@ -1042,12 +1032,10 @@ msgstr ""
 
 #. placeholder {0}: done.length
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "{0, plural, one {Add # thing} other {Add # things}}"
 msgid "{0, plural, one {Added # thing.} other {Added # things.}}"
 msgstr ""
-"{0, plural, one {Dodaj # rzecz} few {Dodaj # rzeczy} many {Dodaj # rzeczy} "
-"other {Dodaj # rzeczy}}"
+"{0, plural, one {Dodano # rzecz.} few {Dodano # rzeczy.} many {Dodano # "
+"rzeczy.} other {Dodano # rzeczy.}}"
 
 #. placeholder {0}: bought.data
 #: src/Shopping.tsx
@@ -1246,14 +1234,13 @@ msgstr ""
 
 #. placeholder {0}: rows.length
 #: src/Everything.tsx
-#, fuzzy
-#| msgid "{0, plural, one {See # on eBay} other {See all # on eBay}}"
 msgid ""
 "{0, plural, one {Select the # thing on this page} other {Select all # on "
 "this page}}"
 msgstr ""
-"{0, plural, one {Zobacz # na eBay} few {Zobacz wszystkie # na eBay} many "
-"{Zobacz wszystkie # na eBay} other {Zobacz wszystkie # na eBay}}"
+"{0, plural, one {Zaznacz # rzecz na tej stronie} few {Zaznacz wszystkie # na "
+"tej stronie} many {Zaznacz wszystkie # na tej stronie} other {Zaznacz "
+"wszystkie # na tej stronie}}"
 
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
@@ -1299,7 +1286,7 @@ msgstr ""
 "{0, plural, one {Masz już tę rzecz} few {Masz już # takie} many {Masz już # "
 "takich} other {Masz już # takiej}}"
 
-#. placeholder {0}: /** * Settings → Server → AI prompts (the server admin): extra instructions added to the end of one of Ferret's built-in * prompts, for people steering their own models. Added to, never replacing (lib/ai-prompts.ts on the server), so the * reply's shape and later fixes to the prompts stay. Advanced on purpose: a bad instruction makes AI worse everywhere. */ import type { PromptKind } from "@ferret/shared"; import { PROMPT_EXTRA_MAX } from "@ferret/shared/utils"; import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query"; import { useEffect, useState } from "react"; import type { MessageDescriptor } from "@lingui/core"; import { msg, t } from "@lingui/core/macro"; import { Trans } from "@lingui/react/macro"; import { api } from "./lib/api"; import { HelpLink } from "./HelpLink"; export const PROMPT_NAMES: Record<PromptKind, MessageDescriptor> = { photo: msg`Photos of things`, document: msg`Documents (receipts, manuals, warranties)`, describe: msg`Describe it (typed or spoken)`, roomScan: msg`Room scans`, ask: msg`Ask Ferret`, }; export function AiPrompts() { const qc = useQueryClient(); const status = useQuery({ queryKey: ["server-prompts"], queryFn: api.promptSettings }); const [kind, setKind] = useState<PromptKind>("photo"); const [draft, setDraft] = useState(""); const [confirming, setConfirming] = useState(false); const prompts = status.data?.data; const current = prompts?.find((p) => p.kind === kind); const save = useMutation({ mutationFn: (extra: string | null) => api.setPromptExtra(kind, extra), onSuccess: (data) => { qc.setQueryData(["server-prompts"], data); setConfirming(false); }, }); // The box shows the chosen prompt's saved instructions — again after switching prompts or saving. useEffect(() => setDraft(current?.extra ?? ""), [current?.kind, current?.extra]); if (!prompts || !current) return null; const dirty = draft.trim() !== (current.extra ?? ""); return ( <section className="card" aria-labelledby="ai-prompts-title"> <div className="card-body gap-3"> <h2 id="ai-prompts-title" className="card-title flex flex-wrap items-center gap-2"> <span className="icon-[tabler--message-cog] size-5 text-primary" /> <Trans>AI prompts</Trans> <span className="badge badge-soft badge-warning badge-sm"><Trans>Advanced</Trans></span> <HelpLink page="hosting/ai.html#ai-prompts" label={t`AI prompts`} /> </h2> <p className="text-sm text-base-content/70"> <Trans>Add your own instructions to the end of what Ferret asks its AI models — for example "For video games, the brand is the publisher". Ferret's own instructions stay, and improvements to them still arrive with updates. Instructions that fight Ferret's can make AI worse for every household on this server; reset them if answers look odd.</Trans> </p> <label className="flex flex-col gap-1"> <span className="text-sm font-medium"><Trans>Prompt</Trans></span> <select className="select" value={kind} onChange={(e) => { setKind(e.target.value as PromptKind); setConfirming(false); save.reset(); }}> {prompts.map((p) => ( <option key={p.kind} value={p.kind}> {p.extra ? t`${t(PROMPT_NAMES[p.kind])} — changed` : t(PROMPT_NAMES[p.kind])} </option> ))} </select> </label> <details className="rounded-box border border-base-content/15"> <summary className="cursor-pointer px-3 py-2 text-sm font-medium"><Trans>Ferret's built-in prompt</Trans></summary> {/* The prompt itself, in English as the model gets it. */} <pre className="max-h-80 overflow-auto whitespace-pre-wrap break-words border-t border-base-content/15 px-3 py-2 text-xs">{current.builtIn}</pre> </details> <label className="flex flex-col gap-1"> <span className="text-sm font-medium"><Trans>Your extra instructions</Trans></span> <textarea className="textarea min-h-28" value={draft} maxLength={PROMPT_EXTRA_MAX} placeholder={t`None — the built-in prompt as it is`} onChange={(e) => setDraft(e.target.value)} /> <span className="text-xs text-base-content/70"><Trans>Added after the built-in prompt, in the language you write them in (English works best).</Trans></span> </label> <div className="flex flex-wrap items-center gap-2"> <button type="button" className="btn btn-primary" disabled={!dirty || save.isPending} onClick={() => save.mutate(draft.trim() || null)}> <Trans>Save</Trans> </button> {current.extra && !confirming && ( <button type="button" className="btn btn-soft" disabled={save.isPending} onClick={() => setConfirming(true)}> <Trans>Reset to default</Trans> </button> )} {confirming && ( <span className="flex flex-wrap items-center gap-2"> <span className="text-sm"><Trans>Remove your instructions from this prompt?</Trans></span> <button type="button" className="btn btn-error btn-soft" disabled={save.isPending} onClick={() => save.mutate(null)}> <Trans>Reset</Trans> </button> <button type="button" className="btn btn-text" onClick={() => setConfirming(false)}> <Trans>Cancel</Trans> </button> </span> )} </div> {save.isError && <div className="alert alert-soft alert-error">{save.error.message}</div>} </div> </section> ); } 
+#. placeholder {0}: /** * Settings → Server → AI prompts (the server admin): extra instructions added to the end of one of Ferret's built-in * prompts, for people steering their own models. Added to, never replacing (lib/ai-prompts.ts on the server), so the * reply's shape and later fixes to the prompts stay. Advanced on purpose: a bad instruction makes AI worse everywhere. */ import type { PromptKind } from "@ferret/shared"; import { PROMPT_EXTRA_MAX } from "@ferret/shared/utils"; import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query"; import { useEffect, useState } from "react"; import type { MessageDescriptor } from "@lingui/core"; import { msg, t } from "@lingui/core/macro"; import { Trans } from "@lingui/react/macro"; import { api } from "./lib/api"; import { HelpLink } from "./HelpLink"; export const PROMPT_NAMES: Record<PromptKind, MessageDescriptor> = { photo: msg`Photos of things`, document: msg`Documents (receipts, manuals, warranties)`, describe: msg`Describe it (typed or spoken)`, roomScan: msg`Room scans`, ask: msg`Ask Ferret`, }; export function AiPrompts() { const qc = useQueryClient(); const status = useQuery({ queryKey: ["server-prompts"], queryFn: api.promptSettings }); const [kind, setKind] = useState<PromptKind>("photo"); const [draft, setDraft] = useState(""); const [confirming, setConfirming] = useState(false); const prompts = status.data?.data; const current = prompts?.find((p) => p.kind === kind); const save = useMutation({ mutationFn: (extra: string | null) => api.setPromptExtra(kind, extra), onSuccess: (data) => { qc.setQueryData(["server-prompts"], data); setConfirming(false); }, }); // The box shows the chosen prompt's saved instructions — again after switching prompts or saving. useEffect(() => setDraft(current?.extra ?? ""), [current?.kind, current?.extra]); if (!prompts || !current) return null; const dirty = draft.trim() !== (current.extra ?? ""); return ( <section className="card" aria-labelledby="ai-prompts-title"> <div className="card-body gap-3"> <h2 id="ai-prompts-title" className="card-title flex flex-wrap items-center gap-2"> <span className="icon-[tabler--message-cog] size-5 text-primary" /> <Trans>AI prompts</Trans> <span className="badge badge-soft badge-warning badge-sm"><Trans>Advanced</Trans></span> <HelpLink page="hosting/ai.html#ai-prompts" label={t`AI prompts`} /> </h2> <p className="text-sm text-base-content/70"> <Trans>Add your own instructions to the end of what Ferret asks its AI models — for example "For video games, the brand is the publisher". Ferret's own instructions stay, and improvements to them still arrive with updates. Instructions that fight Ferret's can make AI worse for every household on this server; reset them if answers look odd.</Trans> </p> <label className="flex flex-col gap-1"> <span className="text-sm font-medium"><Trans>Prompt</Trans></span> <select className="select" value={kind} onChange={(e) => { setKind(e.target.value as PromptKind); setConfirming(false); save.reset(); }}> {prompts.map((p) => ( <option key={p.kind} value={p.kind}> {p.extra ? t`${t(PROMPT_NAMES[p.kind])} — changed` : t(PROMPT_NAMES[p.kind])} </option> ))} </select> </label> <details className="rounded-box border border-base-content/15"> <summary className="cursor-pointer px-3 py-2 text-sm font-medium"><Trans>Ferret's built-in prompt</Trans></summary> {/* The prompt itself, in English as the model gets it. */} <pre className="max-h-80 overflow-auto whitespace-pre-wrap break-words border-t border-base-content/15 px-3 py-2 text-xs">{current.builtIn}</pre> </details> <label className="flex flex-col gap-1"> <span className="text-sm font-medium"><Trans>Your extra instructions</Trans></span> <textarea className="textarea min-h-28" value={draft} maxLength={PROMPT_EXTRA_MAX} placeholder={t`None — the built-in prompt as it is`} onChange={(e) => setDraft(e.target.value)} /> <span className="text-xs text-base-content/70"><Trans>Added after the built-in prompt, in the language you write them in (English works best).</Trans></span> </label> <div className="flex flex-wrap items-center gap-2"> <button type="button" className="btn btn-primary" disabled={!dirty || save.isPending} onClick={() => save.mutate(draft.trim() || null)}> <Trans>Save</Trans> </button> {current.extra && !confirming && ( <button type="button" className="btn btn-soft" disabled={save.isPending} onClick={() => setConfirming(true)}> <Trans>Reset to default</Trans> </button> )} {confirming && ( <span className="flex flex-wrap items-center gap-2"> <span className="text-sm"><Trans>Remove your instructions from this prompt?</Trans></span> <button type="button" className="btn btn-error btn-soft" disabled={save.isPending} onClick={() => save.mutate(null)}> <Trans>Reset</Trans> </button> <button type="button" className="btn btn-text" onClick={() => setConfirming(false)}> <Trans>Cancel</Trans> </button> </span> )} </div> {save.isError && <div className="alert alert-soft alert-error">{save.error.message}</div>} </div> </section> ); }
 #: src/Prompts.tsx
 msgid "{0} — changed"
 msgstr "{0} — zmieniono"
@@ -2055,7 +2042,7 @@ msgstr "{name} nie jest potrzebne"
 
 #: src/Loans.tsx
 msgid "{name} moved to Past things, as given back."
-msgstr ""
+msgstr "{name}: przeniesiono do Dawnych rzeczy jako zwrócone."
 
 #: src/ScanSession.tsx
 msgid "{name}: use, restock or open?"
@@ -2151,10 +2138,8 @@ msgid "{person} asked for no more reminders"
 msgstr "{person} poprosił(a) o koniec przypomnień"
 
 #: src/Loans.tsx
-#, fuzzy
-#| msgid "{person} says it's back."
 msgid "{person} gave it to us"
-msgstr "{person} mówi, że to już wróciło."
+msgstr "Prezent od: {person}"
 
 #: ../server/src/lib/invitation-email.ts
 msgid "{person} invited you to {household} on Ferret"
@@ -3066,7 +3051,7 @@ msgstr ""
 
 #: src/NewVersion.tsx
 msgid "A new version of Ferret is ready."
-msgstr ""
+msgstr "Nowa wersja Ferret jest gotowa."
 
 #: src/Reminders.tsx
 msgid ""
@@ -3107,6 +3092,8 @@ msgid ""
 "A photo or PDF of a receipt, invoice or order: Ferret reads it, then you add "
 "the things on it"
 msgstr ""
+"Zdjęcie lub PDF paragonu, faktury albo zamówienia: Ferret je odczyta, a "
+"potem dodasz rzeczy, które się na nim znajdują"
 
 #: src/PlanUsage.tsx
 msgid ""
@@ -3770,10 +3757,8 @@ msgstr "Dodano"
 
 #. placeholder {0}: done[0]!.name
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Added as {0}"
 msgid "Added {0}."
-msgstr "Dodano jako {0}"
+msgstr "Dodano: {0}."
 
 #: src/Collections.tsx
 msgid "Added {added}"
@@ -3885,10 +3870,8 @@ msgid "Adding them…"
 msgstr "Dodaję je…"
 
 #: src/PhotoAdd.tsx
-#, fuzzy
-#| msgid "Adding them…"
 msgid "Adding…"
-msgstr "Dodaję je…"
+msgstr "Dodaję…"
 
 #: src/Paperless.tsx src/Providers.tsx src/Webhooks.tsx
 msgid "Address"
@@ -4082,10 +4065,8 @@ msgid "Already in Ferret: <0>{0}</0>"
 msgstr "Już w Ferret: <0>{0}</0>"
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "already in Ferret"
 msgid "Already in Ferret?"
-msgstr "już w Ferret"
+msgstr "Już jest w Ferret?"
 
 #: src/Listing.tsx
 msgid "Already listed:"
@@ -4728,6 +4709,8 @@ msgid ""
 "Book look-ups stopped asking Hardcover on {date}. Settings → Server → Book "
 "look-ups → Connect Hardcover."
 msgstr ""
+"Wyszukiwanie książek przestało pytać Hardcover {date}. Ustawienia → Serwer → "
+"Wyszukiwanie książek → Połącz z Hardcover."
 
 #: src/Collectibles.tsx
 msgid "Books"
@@ -4742,10 +4725,8 @@ msgid "Books, music, cards, coins and other things people collect."
 msgstr "Książki, muzyka, karty, monety i inne rzeczy, które się kolekcjonuje."
 
 #: src/Gone.tsx
-#, fuzzy
-#| msgid "Try again"
 msgid "Borrow again"
-msgstr "Spróbuj jeszcze raz"
+msgstr "Pożycz ponownie"
 
 #: src/Loans.tsx
 msgid "Borrowed"
@@ -5562,10 +5543,8 @@ msgid "Connect Claude Code with it:"
 msgstr "Połącz z nią Claude Code:"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Connect Claude"
 msgid "Connect Hardcover"
-msgstr "Połącz z Claude"
+msgstr "Połącz z Hardcover"
 
 #: src/Paperless.tsx
 msgid "Connect in Settings"
@@ -5835,10 +5814,8 @@ msgid "Covers"
 msgstr "Obejmuje"
 
 #: src/Product.tsx
-#, fuzzy
-#| msgid "Its cover — tap to add it"
 msgid "Covers — tap one to add it"
-msgstr "Okładka — dotknij, aby ją dodać"
+msgstr "Okładki — dotknij jednej, aby ją dodać"
 
 #: src/App.tsx
 msgid "Create account"
@@ -5968,7 +5945,7 @@ msgstr "Usuń gospodarstwo domowe…"
 
 #: src/ReceiptLines.tsx
 msgid "Delete it and this copy of the receipt"
-msgstr ""
+msgstr "Usuń to razem z tą kopią paragonu"
 
 #: src/App.tsx
 msgid "Delete my account"
@@ -5987,10 +5964,8 @@ msgid "Delete this household"
 msgstr "Usuń to gospodarstwo domowe"
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid "Delete these?"
 msgid "Delete this New item"
-msgstr "Usunąć je?"
+msgstr "Usuń „New item”"
 
 #: src/DeleteForGood.tsx
 msgid "Delete your account"
@@ -6098,10 +6073,8 @@ msgid "Discard it and add nothing?"
 msgstr "Odrzucić i niczego nie dodawać?"
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Discard it and add nothing?"
 msgid "Discard it and its files"
-msgstr "Odrzucić i niczego nie dodawać?"
+msgstr "Odrzuć to razem z plikami"
 
 #: src/RoomScan.tsx
 msgid "Discard scan"
@@ -6125,7 +6098,7 @@ msgstr "Odłącz {name}"
 
 #: src/Server.tsx
 msgid "Disconnect Hardcover? Books won't be asked of it any more."
-msgstr ""
+msgstr "Odłączyć Hardcover? Książki nie będą już tam wyszukiwane."
 
 #: src/Paperless.tsx
 msgid "Disconnect? Files already copied stay on their things."
@@ -6636,16 +6609,12 @@ msgstr ""
 "z kopią paragonu. Najpierw sprawdź, co odczytało AI."
 
 #: src/ReceiptLines.tsx
-#, fuzzy
-#| msgid ""
-#| "Each one ticked becomes a thing of its own, bought the same day, with a "
-#| "copy of the receipt. Check what AI read first."
 msgid ""
 "Each one ticked becomes a thing, bought the same day, with a copy of the "
 "receipt. Check what AI read first."
 msgstr ""
-"Każda zaznaczona pozycja stanie się osobną rzeczą, kupioną tego samego dnia, "
-"z kopią paragonu. Najpierw sprawdź, co odczytało AI."
+"Każda zaznaczona pozycja stanie się rzeczą, kupioną tego samego dnia, z "
+"kopią paragonu. Najpierw sprawdź, co odczytało AI."
 
 #: src/ReceiptLines.tsx
 msgid ""
@@ -7038,6 +7007,8 @@ msgid ""
 "Everything on this receipt is in Ferret already. If you added it before, you "
 "don't need this \"New item\"."
 msgstr ""
+"Wszystko z tego paragonu jest już w Ferret. Jeśli dodano to wcześniej, ta "
+"„New item” nie jest ci potrzebna."
 
 #: src/App.tsx
 msgid "everything tagged {tag}"
@@ -7243,10 +7214,9 @@ msgstr ""
 "raz."
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Couldn't read this photo — name it yourself."
 msgid "Ferret couldn't read this. Name it yourself, or put it on a thing."
-msgstr "Nie udało się odczytać tego zdjęcia — nazwij je sam(a)."
+msgstr ""
+"Ferret nie zdołał tego odczytać. Nazwij to sam(a) albo dołącz do rzeczy."
 
 #: src/RoomScan.tsx
 msgid ""
@@ -7337,6 +7307,8 @@ msgid ""
 "Ferret reads it in the inbox first, then you add it as a new thing or put it "
 "on one you have."
 msgstr ""
+"Ferret najpierw odczyta to w skrzynce, a potem dodasz to jako nową rzecz "
+"albo dołączysz do takiej, którą już masz."
 
 #: src/Paperless.tsx
 msgid ""
@@ -7837,16 +7809,12 @@ msgid "from a QR label"
 msgstr "z etykiety QR"
 
 #: src/lib/origin.ts
-#, fuzzy
-#| msgid "Added from a receipt"
 msgid "from a receipt"
-msgstr "Dodane z paragonu"
+msgstr "z paragonu"
 
 #: src/PhotoAdd.tsx
-#, fuzzy
-#| msgid "Added from a receipt"
 msgid "From a receipt"
-msgstr "Dodane z paragonu"
+msgstr "Z paragonu"
 
 #: src/lib/words.ts
 msgid "From a receipt or warranty card, when the purchase date is known"
@@ -7976,10 +7944,8 @@ msgid "Gave it away"
 msgstr "Oddałem(-am)"
 
 #: src/Gone.tsx
-#, fuzzy
-#| msgid "Gave it away"
 msgid "Gave it back"
-msgstr "Oddałem(-am)"
+msgstr "Oddałem(-am) właścicielowi"
 
 #: src/lib/words.ts
 msgid "generator"
@@ -8019,6 +7985,11 @@ msgid "Given back"
 msgstr "Oddane"
 
 #: src/Gone.tsx
+msgctxt "Past things: borrowed, then returned to its owner"
+msgid "Given back"
+msgstr "Zwrócone"
+
+#: src/Gone.tsx
 msgid "Given to"
 msgstr "Komu"
 
@@ -8044,10 +8015,8 @@ msgstr "zniknie na dobre dzisiaj"
 
 #. placeholder {0}: entry.into.placeName
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Goes to {heir}"
 msgid "Goes in {0}"
-msgstr "Przypada: {heir}"
+msgstr "Trafi do: {0}"
 
 #: src/ImportHomeAssistant.tsx
 msgid "Goes in a place you have"
@@ -8110,20 +8079,17 @@ msgid "Good morning, {first}"
 msgstr "Dzień dobry, {first}"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid ""
-#| "Google Books (optional): asked when Open Library doesn't know a book — "
-#| "better for recent and non-English ones. It needs a free API key from a "
-#| "Google Cloud project with the Books API enabled."
 msgid ""
 "Google Books (optional): asked together with Open Library, and their answers "
 "merged field by field — so a book gets Google's cover and blurb when Open "
 "Library has none, and recent and non-English books are found. It needs a "
 "free API key from a Google Cloud project with the Books API enabled."
 msgstr ""
-"Google Books (opcjonalnie): pytane, gdy Open Library nie zna książki — "
-"lepsze dla nowszych i nieanglojęzycznych. Wymaga bezpłatnego klucza API z "
-"projektu Google Cloud z włączonym Books API."
+"Google Books (opcjonalnie): pytane razem z Open Library, a ich odpowiedzi są "
+"łączone pole po polu — dzięki temu książka dostaje okładkę i opis z Google, "
+"gdy Open Library ich nie ma, a nowsze i nieanglojęzyczne książki też się "
+"znajdują. Wymaga bezpłatnego klucza API z projektu Google Cloud z włączonym "
+"Books API."
 
 #: src/Server.tsx
 msgid "Google Books API key"
@@ -8203,20 +8169,22 @@ msgid ""
 "blurbs they don't. Connect a Hardcover account — Ferret only reads its book "
 "catalog, never your library or reading — and it's free."
 msgstr ""
+"Hardcover (opcjonalnie): pytany razem z innymi, często ma okładki, serie i "
+"opisy, których one nie mają. Połącz konto Hardcover — Ferret czyta tylko "
+"jego katalog książek, nigdy twoją bibliotekę ani to, co czytasz — i jest to "
+"bezpłatne."
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Review connected apps"
 msgid "Hardcover connected"
-msgstr "Sprawdź połączone aplikacje"
+msgstr "Hardcover połączony"
 
 #: ../server/src/lib/attention.ts
 msgid "Hardcover needs connecting again"
-msgstr ""
+msgstr "Hardcover trzeba połączyć ponownie"
 
 #: src/Server.tsx
 msgid "Hardcover stopped taking the connection on {date}. Connect it again."
-msgstr ""
+msgstr "Hardcover przestał przyjmować połączenie {date}. Połącz go ponownie."
 
 #: src/Collections.tsx
 msgid "Have"
@@ -8355,7 +8323,7 @@ msgstr "Gospodarstwa domowe bez żadnych członków — nikt nie może ich otwor
 
 #: src/Loans.tsx
 msgid "How"
-msgstr ""
+msgstr "Jak"
 
 #: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx src/Labels.tsx
 #: src/Maintenance.tsx src/Offline.tsx src/ReceiptLines.tsx src/RoomScan.tsx
@@ -8615,10 +8583,8 @@ msgstr "W"
 
 #. placeholder {0}: entry.into.placeName ?? t`the box`
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "On {0}"
 msgid "In {0}"
-msgstr "Przy: {0}"
+msgstr "W: {0}"
 
 #: ../server/src/lib/item-sheet.ts
 msgid "in {box}"
@@ -8762,7 +8728,7 @@ msgstr "W tej rzeczy"
 
 #: src/Inbox.tsx src/Nav.tsx
 msgid "Inbox"
-msgstr ""
+msgstr "Skrzynka"
 
 #: src/Labels.tsx
 msgid "Inches"
@@ -8858,10 +8824,8 @@ msgid "Invoice or photos"
 msgstr "Faktura lub zdjęcia"
 
 #: src/Loans.tsx
-#, fuzzy
-#| msgid "Where is {name} now?"
 msgid "Is {name} yours now?"
-msgstr "Gdzie jest teraz {name}?"
+msgstr "Czy {name} należy teraz do ciebie?"
 
 #: src/App.tsx
 msgid "Is it this?"
@@ -9028,6 +8992,9 @@ msgid ""
 "It stops being {person}'s and counts as yours — in your totals and the "
 "insurance report. Its history, maintenance and repairs stay with it."
 msgstr ""
+"Przestaje należeć do: {person} i liczy się jako twoje — w sumach i w "
+"raporcie dla ubezpieczyciela. Historia, konserwacja i naprawy zostają przy "
+"tej rzeczy."
 
 #: src/Invite.tsx
 msgid "It was cancelled."
@@ -9066,6 +9033,8 @@ msgid ""
 "It's {person}'s, so it isn't counted in your totals or the insurance report. "
 "Given back, it moves to Past things."
 msgstr ""
+"To należy do: {person}, więc nie liczy się w twoich sumach ani w raporcie "
+"dla ubezpieczyciela. Po oddaniu trafi do Dawnych rzeczy."
 
 #: src/TimeZone.tsx
 msgid "It's {timeIn} there now."
@@ -9104,14 +9073,12 @@ msgid "it's on several things — which?"
 msgstr "jest na kilku rzeczach — na której?"
 
 #: src/Loans.tsx
-#, fuzzy
-#| msgid "It's lost"
 msgid "It's ours"
-msgstr "Zgubiona"
+msgstr "Jest nasze"
 
 #: src/Loans.tsx
 msgid "It's ours now…"
-msgstr ""
+msgstr "Teraz jest nasze…"
 
 #: src/ItemEditor.tsx
 msgid "It's wherever the box is"
@@ -9265,10 +9232,8 @@ msgstr ""
 "{householdName}, gdy znów będzie zasięg."
 
 #: src/Gone.tsx src/Loans.tsx
-#, fuzzy
-#| msgid "Merge two things"
 msgid "Keep it in my things"
-msgstr "Połącz dwie rzeczy"
+msgstr "Zostaw w moich rzeczach"
 
 #: src/Reminders.tsx
 msgid ""
@@ -11183,6 +11148,8 @@ msgid ""
 "Nothing waiting. Photos and receipts you add with + Add come here to be read "
 "before they become things."
 msgstr ""
+"Nic nie czeka. Zdjęcia i paragony dodane przez + Dodaj trafiają tutaj do "
+"odczytania, zanim staną się rzeczami."
 
 #: src/Connect.tsx
 msgid ""
@@ -11420,7 +11387,7 @@ msgstr "Na fueleconomy.gov"
 
 #: src/Server.tsx
 msgid "On hardcover.app, signed in, enter this code and allow Ferret:"
-msgstr ""
+msgstr "Na hardcover.app, po zalogowaniu, wpisz ten kod i zezwól Ferret:"
 
 #: src/Reminders.tsx
 msgid ""
@@ -11623,7 +11590,7 @@ msgstr "Otwórz Ferret"
 
 #: src/Server.tsx
 msgid "Open hardcover.app/link"
-msgstr ""
+msgstr "Otwórz hardcover.app/link"
 
 #: src/DocumentViewer.tsx
 msgid "Open in a new tab"
@@ -11702,10 +11669,8 @@ msgid "Opens your Calendar app, which asks to subscribe — say yes."
 msgstr "Otwiera aplikację Kalendarz, która zapyta o subskrypcję — zgódź się."
 
 #: src/Loans.tsx
-#, fuzzy
-#| msgid "Note (optional)"
 msgid "optional"
-msgstr "Notatka (opcjonalnie)"
+msgstr "opcjonalnie"
 
 #: src/Maintenance.tsx
 msgid "Optional. Kept with this record, and on {name}'s page."
@@ -12533,10 +12498,8 @@ msgid "Put it on the shopping list when none are left"
 msgstr "Dodaj do listy zakupów, gdy się skończą"
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Put it on"
 msgid "Put it there"
-msgstr "Dołącz"
+msgstr "Umieść tam"
 
 #: src/ImportFerret.tsx
 msgid "Put its place in"
@@ -12544,25 +12507,19 @@ msgstr "Umieść jej miejsce w"
 
 #. placeholder {0}: m.name
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Put on {0}…"
 msgid "Put on {0}"
-msgstr "Dołącz do: {0}…"
+msgstr "Dołącz do: {0}"
 
 #. placeholder {0}: m.name
 #. placeholder {1}: m.place
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Put on {0}…"
 msgid "Put on {0} ({1})"
-msgstr "Dołącz do: {0}…"
+msgstr "Dołącz do: {0} ({1})"
 
 #. placeholder {0}: done[0]!.name
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Put on {0}…"
 msgid "Put on {0}."
-msgstr "Dołącz do: {0}…"
+msgstr "Dołączono do: {0}."
 
 #. placeholder {0}: d.match.name
 #: src/Paperless.tsx
@@ -12570,10 +12527,8 @@ msgid "Put on {0}…"
 msgstr "Dołącz do: {0}…"
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Put on a thing…"
 msgid "Put on a thing"
-msgstr "Dołącz do rzeczy…"
+msgstr "Dołącz do rzeczy"
 
 #: src/Inbox.tsx src/Paperless.tsx
 msgid "Put on a thing…"
@@ -12677,10 +12632,8 @@ msgid "Read it again"
 msgstr "Przeczytaj ponownie"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Read it again"
 msgid "Read it first"
-msgstr "Przeczytaj ponownie"
+msgstr "Najpierw odczytaj"
 
 #: src/Settings.tsx
 msgid "Read-only"
@@ -12715,8 +12668,6 @@ msgid "Reading VIN {vin}…"
 msgstr "Odczytuję VIN {vin}…"
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Reading it…"
 msgid "Reading…"
 msgstr "Odczytuję…"
 
@@ -12858,10 +12809,8 @@ msgid "related"
 msgstr "powiązane"
 
 #: src/NewVersion.tsx
-#, fuzzy
-#| msgid "Retry upload"
 msgid "Reload"
-msgstr "Ponów przesyłanie"
+msgstr "Odśwież"
 
 #: src/Server.tsx
 msgid "Remade by Ferret: each device turns push on again."
@@ -13815,10 +13764,8 @@ msgid "Seen in its box {when} by {person}"
 msgstr "Widziane w pudełku {when}, przez: {person}"
 
 #: src/Everything.tsx
-#, fuzzy
-#| msgid "Selected"
 msgid "Select"
-msgstr "Zaznaczone"
+msgstr "Zaznacz"
 
 #: src/Everything.tsx src/ItemRow.tsx
 msgid "Select {name}"
@@ -13861,10 +13808,8 @@ msgid "Send this to <0>{email}</0>"
 msgstr "Wyślij to na <0>{email}</0>"
 
 #: src/ShareIn.tsx
-#, fuzzy
-#| msgid "Open the inbox"
 msgid "Send to the inbox"
-msgstr "Otwórz skrzynkę"
+msgstr "Wyślij do skrzynki"
 
 #: src/Shares.tsx
 msgid "Send…"
@@ -14495,10 +14440,8 @@ msgid "Something's run out"
 msgstr "Coś się skończyło"
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Something else…"
 msgid "Somewhere else…"
-msgstr "Coś innego…"
+msgstr "Gdzie indziej…"
 
 #: src/ImportCsv.tsx
 msgid "Sort with AI"
@@ -15021,10 +14964,8 @@ msgstr ""
 "producentem, modelem i pomieszczeniem."
 
 #: src/Inbox.tsx
-#, fuzzy
-#| msgid "Make the box"
 msgid "the box"
-msgstr "Utwórz pudełko"
+msgstr "pudełko"
 
 #: src/Install.tsx
 msgid "The browser's"
@@ -15036,11 +14977,11 @@ msgstr "Katalog kart jest teraz niedostępny."
 
 #: src/Server.tsx
 msgid "The code ran out before it was entered. Try again."
-msgstr ""
+msgstr "Kod wygasł, zanim został wpisany. Spróbuj ponownie."
 
 #: src/Server.tsx
 msgid "The connection wasn't allowed on Hardcover."
-msgstr ""
+msgstr "Połączenie nie zostało dozwolone na Hardcover."
 
 #: src/Demo.tsx
 msgid "The counts are being kept, but can’t be read back from here."
@@ -16395,10 +16336,8 @@ msgid "Wait for a suggestion, or type it"
 msgstr "Poczekaj na sugestię albo wpisz"
 
 #: src/Server.tsx
-#, fuzzy
-#| msgid "Waiting to join"
 msgid "Waiting for it…"
-msgstr "Czeka na dołączenie"
+msgstr "Czekam…"
 
 #: src/Webhooks.tsx
 msgid "Waiting to be sent"
@@ -16514,7 +16453,7 @@ msgstr "zmiękczacz wody"
 
 #: src/Loans.tsx
 msgid "We bought it"
-msgstr ""
+msgstr "Kupiliśmy to"
 
 #: src/Maintenance.tsx src/Repairs.tsx
 msgid "We did"
@@ -17409,6 +17348,9 @@ msgstr "Powiększ"
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
+msgid "Worth, room by room"
+msgstr "Wartość według pomieszczeń"
+
 #~ msgid "from a receipt with several things on it"
 #~ msgstr "z paragonu z kilkoma rzeczami"
 
@@ -17417,6 +17359,3 @@ msgstr "Pomniejsz"
 
 #~ msgid "Worth, by category"
 #~ msgstr "Wartość według kategorii"
-
-#~ msgid "Worth, room by room"
-#~ msgstr "Wartość według pomieszczeń"
