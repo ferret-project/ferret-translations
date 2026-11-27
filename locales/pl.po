@@ -1244,6 +1244,17 @@ msgstr ""
 "{0, plural, one {Zobacz # na eBay} few {Zobacz wszystkie # na eBay} many "
 "{Zobacz wszystkie # na eBay} other {Zobacz wszystkie # na eBay}}"
 
+#. placeholder {0}: rows.length
+#: src/Everything.tsx
+#, fuzzy
+#| msgid "{0, plural, one {See # on eBay} other {See all # on eBay}}"
+msgid ""
+"{0, plural, one {Select the # thing on this page} other {Select all # on "
+"this page}}"
+msgstr ""
+"{0, plural, one {Zobacz # na eBay} few {Zobacz wszystkie # na eBay} many "
+"{Zobacz wszystkie # na eBay} other {Zobacz wszystkie # na eBay}}"
+
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
 msgid "{0, plural, one {Sent to # device.} other {Sent to # devices.}}"
@@ -2042,6 +2053,10 @@ msgstr "{name} nie jest częścią tej rzeczy"
 msgid "{name} isn't needed"
 msgstr "{name} nie jest potrzebne"
 
+#: src/Loans.tsx
+msgid "{name} moved to Past things, as given back."
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "{name}: use, restock or open?"
 msgstr "{name}: zużyć, uzupełnić czy otworzyć?"
@@ -2134,6 +2149,12 @@ msgstr ""
 #: src/Loans.tsx
 msgid "{person} asked for no more reminders"
 msgstr "{person} poprosił(a) o koniec przypomnień"
+
+#: src/Loans.tsx
+#, fuzzy
+#| msgid "{person} says it's back."
+msgid "{person} gave it to us"
+msgstr "{person} mówi, że to już wróciło."
 
 #: ../server/src/lib/invitation-email.ts
 msgid "{person} invited you to {household} on Ferret"
@@ -4702,6 +4723,12 @@ msgstr "Książka"
 msgid "Book look-ups"
 msgstr "Wyszukiwanie książek"
 
+#: ../server/src/lib/attention.ts
+msgid ""
+"Book look-ups stopped asking Hardcover on {date}. Settings → Server → Book "
+"look-ups → Connect Hardcover."
+msgstr ""
+
 #: src/Collectibles.tsx
 msgid "Books"
 msgstr "Książki"
@@ -4713,6 +4740,12 @@ msgstr "Książki po tytule"
 #: src/Server.tsx
 msgid "Books, music, cards, coins and other things people collect."
 msgstr "Książki, muzyka, karty, monety i inne rzeczy, które się kolekcjonuje."
+
+#: src/Gone.tsx
+#, fuzzy
+#| msgid "Try again"
+msgid "Borrow again"
+msgstr "Spróbuj jeszcze raz"
 
 #: src/Loans.tsx
 msgid "Borrowed"
@@ -5528,6 +5561,12 @@ msgstr "Połącz z Claude"
 msgid "Connect Claude Code with it:"
 msgstr "Połącz z nią Claude Code:"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Connect Claude"
+msgid "Connect Hardcover"
+msgstr "Połącz z Claude"
+
 #: src/Paperless.tsx
 msgid "Connect in Settings"
 msgstr "Połącz w Ustawieniach"
@@ -5794,6 +5833,12 @@ msgstr "Ubezpieczone do"
 #: ../server/src/lib/item-sheet.ts
 msgid "Covers"
 msgstr "Obejmuje"
+
+#: src/Product.tsx
+#, fuzzy
+#| msgid "Its cover — tap to add it"
+msgid "Covers — tap one to add it"
+msgstr "Okładka — dotknij, aby ją dodać"
 
 #: src/App.tsx
 msgid "Create account"
@@ -6070,13 +6115,17 @@ msgstr ""
 "Discogs: wygeneruj osobisty token dostępu. Ceny dla każdego stanu wymagają "
 "też jednorazowego zapisania ustawień sprzedawcy na koncie."
 
-#: src/Paperless.tsx src/Settings.tsx
+#: src/Paperless.tsx src/Server.tsx src/Settings.tsx
 msgid "Disconnect"
 msgstr "Odłącz"
 
 #: src/Settings.tsx
 msgid "Disconnect {name}"
 msgstr "Odłącz {name}"
+
+#: src/Server.tsx
+msgid "Disconnect Hardcover? Books won't be asked of it any more."
+msgstr ""
 
 #: src/Paperless.tsx
 msgid "Disconnect? Files already copied stay on their things."
@@ -7926,6 +7975,12 @@ msgstr "młynek do odpadów"
 msgid "Gave it away"
 msgstr "Oddałem(-am)"
 
+#: src/Gone.tsx
+#, fuzzy
+#| msgid "Gave it away"
+msgid "Gave it back"
+msgstr "Oddałem(-am)"
+
 #: src/lib/words.ts
 msgid "generator"
 msgstr "agregat prądotwórczy"
@@ -7959,7 +8014,7 @@ msgstr "Oddaj {thing} — {person}"
 msgid "Given away"
 msgstr "Oddane"
 
-#: src/Loans.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx src/Loans.tsx
 msgid "Given back"
 msgstr "Oddane"
 
@@ -8055,10 +8110,16 @@ msgid "Good morning, {first}"
 msgstr "Dzień dobry, {first}"
 
 #: src/Server.tsx
+#, fuzzy
+#| msgid ""
+#| "Google Books (optional): asked when Open Library doesn't know a book — "
+#| "better for recent and non-English ones. It needs a free API key from a "
+#| "Google Cloud project with the Books API enabled."
 msgid ""
-"Google Books (optional): asked when Open Library doesn't know a book — "
-"better for recent and non-English ones. It needs a free API key from a "
-"Google Cloud project with the Books API enabled."
+"Google Books (optional): asked together with Open Library, and their answers "
+"merged field by field — so a book gets Google's cover and blurb when Open "
+"Library has none, and recent and non-English books are found. It needs a "
+"free API key from a Google Cloud project with the Books API enabled."
 msgstr ""
 "Google Books (opcjonalnie): pytane, gdy Open Library nie zna książki — "
 "lepsze dla nowszych i nieanglojęzycznych. Wymaga bezpłatnego klucza API z "
@@ -8135,6 +8196,27 @@ msgstr "Przekaż…"
 #: src/Providers.tsx
 msgid "Handyman"
 msgstr "Złota rączka"
+
+#: src/Server.tsx
+msgid ""
+"Hardcover (optional): asked with the others, it often has covers, series and "
+"blurbs they don't. Connect a Hardcover account — Ferret only reads its book "
+"catalog, never your library or reading — and it's free."
+msgstr ""
+
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Review connected apps"
+msgid "Hardcover connected"
+msgstr "Sprawdź połączone aplikacje"
+
+#: ../server/src/lib/attention.ts
+msgid "Hardcover needs connecting again"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Hardcover stopped taking the connection on {date}. Connect it again."
+msgstr ""
 
 #: src/Collections.tsx
 msgid "Have"
@@ -8270,6 +8352,10 @@ msgstr "Gospodarstwa domowe"
 #: src/Server.tsx
 msgid "Households nobody is a member of — nobody can open them."
 msgstr "Gospodarstwa domowe bez żadnych członków — nikt nie może ich otworzyć."
+
+#: src/Loans.tsx
+msgid "How"
+msgstr ""
 
 #: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx src/Labels.tsx
 #: src/Maintenance.tsx src/Offline.tsx src/ReceiptLines.tsx src/RoomScan.tsx
@@ -8771,6 +8857,12 @@ msgstr "Zaproś domowników"
 msgid "Invoice or photos"
 msgstr "Faktura lub zdjęcia"
 
+#: src/Loans.tsx
+#, fuzzy
+#| msgid "Where is {name} now?"
+msgid "Is {name} yours now?"
+msgstr "Gdzie jest teraz {name}?"
+
 #: src/App.tsx
 msgid "Is it this?"
 msgstr "Czy to o to chodzi?"
@@ -8931,6 +9023,12 @@ msgstr ""
 "Nadal liczy się jako twoja, dopóki się nie znajdzie albo nie uznasz jej za "
 "zgubioną."
 
+#: src/Loans.tsx
+msgid ""
+"It stops being {person}'s and counts as yours — in your totals and the "
+"insurance report. Its history, maintenance and repairs stay with it."
+msgstr ""
+
 #: src/Invite.tsx
 msgid "It was cancelled."
 msgstr "Zostało anulowane."
@@ -8962,6 +9060,12 @@ msgstr "Działa raz, przez 30 minut."
 #: ../server/src/lib/invitation-email.ts
 msgid "It works until {until}, and only for {email}."
 msgstr "Działa do {until} i tylko dla {email}."
+
+#: src/Loans.tsx
+msgid ""
+"It's {person}'s, so it isn't counted in your totals or the insurance report. "
+"Given back, it moves to Past things."
+msgstr ""
 
 #: src/TimeZone.tsx
 msgid "It's {timeIn} there now."
@@ -8998,6 +9102,16 @@ msgstr "Jest teraz na eBay — otwórz tam."
 #: src/Offline.tsx
 msgid "it's on several things — which?"
 msgstr "jest na kilku rzeczach — na której?"
+
+#: src/Loans.tsx
+#, fuzzy
+#| msgid "It's lost"
+msgid "It's ours"
+msgstr "Zgubiona"
+
+#: src/Loans.tsx
+msgid "It's ours now…"
+msgstr ""
 
 #: src/ItemEditor.tsx
 msgid "It's wherever the box is"
@@ -9149,6 +9263,12 @@ msgid ""
 msgstr ""
 "Działaj dalej: zdjęcia i skany czekają na tym telefonie i same trafią do "
 "{householdName}, gdy znów będzie zasięg."
+
+#: src/Gone.tsx src/Loans.tsx
+#, fuzzy
+#| msgid "Merge two things"
+msgid "Keep it in my things"
+msgstr "Połącz dwie rzeczy"
 
 #: src/Reminders.tsx
 msgid ""
@@ -11298,6 +11418,10 @@ msgstr ""
 msgid "On fueleconomy.gov"
 msgstr "Na fueleconomy.gov"
 
+#: src/Server.tsx
+msgid "On hardcover.app, signed in, enter this code and allow Ferret:"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "On iPhone: tap Share → Add to Home Screen, open Ferret from your Home "
@@ -11497,6 +11621,10 @@ msgstr "Otwórz pudełko lub miejsce, aby wydrukować jego etykietę."
 msgid "Open Ferret"
 msgstr "Otwórz Ferret"
 
+#: src/Server.tsx
+msgid "Open hardcover.app/link"
+msgstr ""
+
 #: src/DocumentViewer.tsx
 msgid "Open in a new tab"
 msgstr "Otwórz w nowej karcie"
@@ -11572,6 +11700,12 @@ msgstr "Otwieranie…"
 #: src/Reminders.tsx
 msgid "Opens your Calendar app, which asks to subscribe — say yes."
 msgstr "Otwiera aplikację Kalendarz, która zapyta o subskrypcję — zgódź się."
+
+#: src/Loans.tsx
+#, fuzzy
+#| msgid "Note (optional)"
+msgid "optional"
+msgstr "Notatka (opcjonalnie)"
 
 #: src/Maintenance.tsx
 msgid "Optional. Kept with this record, and on {name}'s page."
@@ -11689,7 +11823,7 @@ msgstr "strona {page}"
 msgid "Pages"
 msgstr "Strony"
 
-#: src/Gone.tsx src/ItemEditor.tsx src/Offline.tsx
+#: src/Gone.tsx src/ItemEditor.tsx src/Loans.tsx src/Offline.tsx
 msgid "Paid"
 msgstr "Zapłacono"
 
@@ -13681,6 +13815,12 @@ msgid "Seen in its box {when} by {person}"
 msgstr "Widziane w pudełku {when}, przez: {person}"
 
 #: src/Everything.tsx
+#, fuzzy
+#| msgid "Selected"
+msgid "Select"
+msgstr "Zaznaczone"
+
+#: src/Everything.tsx src/ItemRow.tsx
 msgid "Select {name}"
 msgstr "Zaznacz {name}"
 
@@ -14893,6 +15033,14 @@ msgstr "przeglądarki"
 #: src/Cards.tsx
 msgid "The card catalog can't be reached right now."
 msgstr "Katalog kart jest teraz niedostępny."
+
+#: src/Server.tsx
+msgid "The code ran out before it was entered. Try again."
+msgstr ""
+
+#: src/Server.tsx
+msgid "The connection wasn't allowed on Hardcover."
+msgstr ""
 
 #: src/Demo.tsx
 msgid "The counts are being kept, but can’t be read back from here."
@@ -16246,6 +16394,12 @@ msgstr "Wizyty"
 msgid "Wait for a suggestion, or type it"
 msgstr "Poczekaj na sugestię albo wpisz"
 
+#: src/Server.tsx
+#, fuzzy
+#| msgid "Waiting to join"
+msgid "Waiting for it…"
+msgstr "Czeka na dołączenie"
+
 #: src/Webhooks.tsx
 msgid "Waiting to be sent"
 msgstr "Czeka na wysłanie"
@@ -16357,6 +16511,10 @@ msgstr "podgrzewacz wody"
 #: src/lib/words.ts
 msgid "water softener"
 msgstr "zmiękczacz wody"
+
+#: src/Loans.tsx
+msgid "We bought it"
+msgstr ""
 
 #: src/Maintenance.tsx src/Repairs.tsx
 msgid "We did"
@@ -16541,7 +16699,7 @@ msgstr ""
 msgid "what's in the box"
 msgstr "co jest w pudełku"
 
-#: src/Gone.tsx src/Repairs.tsx
+#: src/Gone.tsx src/Loans.tsx src/Repairs.tsx
 msgid "When"
 msgstr "Kiedy"
 

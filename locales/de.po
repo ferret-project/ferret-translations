@@ -949,6 +949,13 @@ msgstr ""
 msgid "{0, plural, one {See # on eBay} other {See all # on eBay}}"
 msgstr ""
 
+#. placeholder {0}: rows.length
+#: src/Everything.tsx
+msgid ""
+"{0, plural, one {Select the # thing on this page} other {Select all # on "
+"this page}}"
+msgstr ""
+
 #. placeholder {0}: test.data.sent
 #: src/Reminders.tsx
 msgid "{0, plural, one {Sent to # device.} other {Sent to # devices.}}"
@@ -1613,6 +1620,10 @@ msgstr ""
 msgid "{name} isn't needed"
 msgstr ""
 
+#: src/Loans.tsx
+msgid "{name} moved to Past things, as given back."
+msgstr ""
+
 #: src/ScanSession.tsx
 msgid "{name}: use, restock or open?"
 msgstr ""
@@ -1688,6 +1699,10 @@ msgstr ""
 
 #: src/Loans.tsx
 msgid "{person} asked for no more reminders"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "{person} gave it to us"
 msgstr ""
 
 #: ../server/src/lib/invitation-email.ts
@@ -4016,6 +4031,12 @@ msgstr ""
 msgid "Book look-ups"
 msgstr ""
 
+#: ../server/src/lib/attention.ts
+msgid ""
+"Book look-ups stopped asking Hardcover on {date}. Settings → Server → Book "
+"look-ups → Connect Hardcover."
+msgstr ""
+
 #: src/Collectibles.tsx
 msgid "Books"
 msgstr ""
@@ -4026,6 +4047,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Books, music, cards, coins and other things people collect."
+msgstr ""
+
+#: src/Gone.tsx
+msgid "Borrow again"
 msgstr ""
 
 #: src/Loans.tsx
@@ -4809,6 +4834,10 @@ msgstr ""
 msgid "Connect Claude Code with it:"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Connect Hardcover"
+msgstr ""
+
 #: src/Paperless.tsx
 msgid "Connect in Settings"
 msgstr ""
@@ -5067,6 +5096,10 @@ msgstr ""
 
 #: ../server/src/lib/item-sheet.ts
 msgid "Covers"
+msgstr ""
+
+#: src/Product.tsx
+msgid "Covers — tap one to add it"
 msgstr ""
 
 #: src/App.tsx
@@ -5334,12 +5367,16 @@ msgid ""
 "need the account's seller settings saved once."
 msgstr ""
 
-#: src/Paperless.tsx src/Settings.tsx
+#: src/Paperless.tsx src/Server.tsx src/Settings.tsx
 msgid "Disconnect"
 msgstr ""
 
 #: src/Settings.tsx
 msgid "Disconnect {name}"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Disconnect Hardcover? Books won't be asked of it any more."
 msgstr ""
 
 #: src/Paperless.tsx
@@ -7024,6 +7061,10 @@ msgstr ""
 msgid "Gave it away"
 msgstr ""
 
+#: src/Gone.tsx
+msgid "Gave it back"
+msgstr ""
+
 #: src/lib/words.ts
 msgid "generator"
 msgstr ""
@@ -7055,7 +7096,7 @@ msgstr ""
 msgid "Given away"
 msgstr ""
 
-#: src/Loans.tsx
+#: ../server/src/lib/item-sheet.ts src/Gone.tsx src/Loans.tsx
 msgid "Given back"
 msgstr ""
 
@@ -7148,9 +7189,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid ""
-"Google Books (optional): asked when Open Library doesn't know a book — "
-"better for recent and non-English ones. It needs a free API key from a "
-"Google Cloud project with the Books API enabled."
+"Google Books (optional): asked together with Open Library, and their answers "
+"merged field by field — so a book gets Google's cover and blurb when Open "
+"Library has none, and recent and non-English books are found. It needs a "
+"free API key from a Google Cloud project with the Books API enabled."
 msgstr ""
 
 #: src/Server.tsx
@@ -7223,6 +7265,25 @@ msgstr ""
 
 #: src/Providers.tsx
 msgid "Handyman"
+msgstr ""
+
+#: src/Server.tsx
+msgid ""
+"Hardcover (optional): asked with the others, it often has covers, series and "
+"blurbs they don't. Connect a Hardcover account — Ferret only reads its book "
+"catalog, never your library or reading — and it's free."
+msgstr ""
+
+#: src/Server.tsx
+msgid "Hardcover connected"
+msgstr ""
+
+#: ../server/src/lib/attention.ts
+msgid "Hardcover needs connecting again"
+msgstr ""
+
+#: src/Server.tsx
+msgid "Hardcover stopped taking the connection on {date}. Connect it again."
 msgstr ""
 
 #: src/Collections.tsx
@@ -7354,6 +7415,10 @@ msgstr ""
 
 #: src/Server.tsx
 msgid "Households nobody is a member of — nobody can open them."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "How"
 msgstr ""
 
 #: src/CardScan.tsx src/CollectibleScan.tsx src/Collections.tsx src/Labels.tsx
@@ -7807,6 +7872,10 @@ msgstr ""
 msgid "Invoice or photos"
 msgstr ""
 
+#: src/Loans.tsx
+msgid "Is {name} yours now?"
+msgstr ""
+
 #: src/App.tsx
 msgid "Is it this?"
 msgstr ""
@@ -7934,6 +8003,12 @@ msgstr ""
 msgid "It still counts as yours until it turns up or you say it's lost."
 msgstr ""
 
+#: src/Loans.tsx
+msgid ""
+"It stops being {person}'s and counts as yours — in your totals and the "
+"insurance report. Its history, maintenance and repairs stay with it."
+msgstr ""
+
 #: src/Invite.tsx
 msgid "It was cancelled."
 msgstr ""
@@ -7962,6 +8037,12 @@ msgstr ""
 
 #: ../server/src/lib/invitation-email.ts
 msgid "It works until {until}, and only for {email}."
+msgstr ""
+
+#: src/Loans.tsx
+msgid ""
+"It's {person}'s, so it isn't counted in your totals or the insurance report. "
+"Given back, it moves to Past things."
 msgstr ""
 
 #: src/TimeZone.tsx
@@ -7998,6 +8079,14 @@ msgstr ""
 
 #: src/Offline.tsx
 msgid "it's on several things — which?"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "It's ours"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "It's ours now…"
 msgstr ""
 
 #: src/ItemEditor.tsx
@@ -8141,6 +8230,10 @@ msgstr ""
 msgid ""
 "Keep going: photos and scans wait on this phone and go up to {householdName} "
 "by themselves when there's signal again."
+msgstr ""
+
+#: src/Gone.tsx src/Loans.tsx
+msgid "Keep it in my things"
 msgstr ""
 
 #: src/Reminders.tsx
@@ -10170,6 +10263,10 @@ msgstr ""
 msgid "On fueleconomy.gov"
 msgstr ""
 
+#: src/Server.tsx
+msgid "On hardcover.app, signed in, enter this code and allow Ferret:"
+msgstr ""
+
 #: src/Reminders.tsx
 msgid ""
 "On iPhone: tap Share → Add to Home Screen, open Ferret from your Home "
@@ -10349,6 +10446,10 @@ msgstr ""
 msgid "Open Ferret"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Open hardcover.app/link"
+msgstr ""
+
 #: src/DocumentViewer.tsx
 msgid "Open in a new tab"
 msgstr ""
@@ -10423,6 +10524,10 @@ msgstr ""
 
 #: src/Reminders.tsx
 msgid "Opens your Calendar app, which asks to subscribe — say yes."
+msgstr ""
+
+#: src/Loans.tsx
+msgid "optional"
 msgstr ""
 
 #: src/Maintenance.tsx
@@ -10537,7 +10642,7 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: src/Gone.tsx src/ItemEditor.tsx src/Offline.tsx
+#: src/Gone.tsx src/ItemEditor.tsx src/Loans.tsx src/Offline.tsx
 msgid "Paid"
 msgstr ""
 
@@ -12419,6 +12524,10 @@ msgid "Seen in its box {when} by {person}"
 msgstr ""
 
 #: src/Everything.tsx
+msgid "Select"
+msgstr ""
+
+#: src/Everything.tsx src/ItemRow.tsx
 msgid "Select {name}"
 msgstr ""
 
@@ -13550,6 +13659,14 @@ msgstr ""
 
 #: src/Cards.tsx
 msgid "The card catalog can't be reached right now."
+msgstr ""
+
+#: src/Server.tsx
+msgid "The code ran out before it was entered. Try again."
+msgstr ""
+
+#: src/Server.tsx
+msgid "The connection wasn't allowed on Hardcover."
 msgstr ""
 
 #: src/Demo.tsx
@@ -14787,6 +14904,10 @@ msgstr ""
 msgid "Wait for a suggestion, or type it"
 msgstr ""
 
+#: src/Server.tsx
+msgid "Waiting for it…"
+msgstr ""
+
 #: src/Webhooks.tsx
 msgid "Waiting to be sent"
 msgstr ""
@@ -14892,6 +15013,10 @@ msgstr ""
 
 #: src/lib/words.ts
 msgid "water softener"
+msgstr ""
+
+#: src/Loans.tsx
+msgid "We bought it"
 msgstr ""
 
 #: src/Maintenance.tsx src/Repairs.tsx
@@ -15064,7 +15189,7 @@ msgstr ""
 msgid "what's in the box"
 msgstr ""
 
-#: src/Gone.tsx src/Repairs.tsx
+#: src/Gone.tsx src/Loans.tsx src/Repairs.tsx
 msgid "When"
 msgstr ""
 
